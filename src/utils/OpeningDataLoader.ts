@@ -21,7 +21,8 @@ export async function loadOpeningData(openingId: string): Promise<Opening> {
     return cached;
   }
 
-  const response = await fetch(`/openings/${openingId}.json`);
+  const base = import.meta.env.BASE_URL ?? "/";
+  const response = await fetch(`${base}openings/${openingId}.json`);
   if (!response.ok) {
     throw new Error(
       `Failed to load opening data for "${openingId}": ${response.statusText}`,
