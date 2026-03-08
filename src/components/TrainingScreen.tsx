@@ -6,6 +6,7 @@ import {
   loadOpeningCatalog,
   loadOpeningData,
 } from "../utils/OpeningDataLoader";
+import { mergeVariationTrees } from "../utils/mergeVariationTrees";
 import { LearnModel } from "../models/LearnModel";
 import { PlayModel } from "../models/PlayModel";
 import { MemorizeModel } from "../models/MemorizeModel";
@@ -388,12 +389,26 @@ const TrainingScreen = observer(function TrainingScreen(): React.JSX.Element {
       try {
         const openingData = await loadOpeningData(openingId!);
         if (disposed) return;
-        const variationId =
-          variationParam ??
-          (openingData.variations.length > 0
-            ? openingData.variations[0]!.id
-            : "");
-        const model = new LearnModel(openingData, variationId, "w");
+        let effectiveOpening = openingData;
+        let variationId = variationParam ?? "";
+        if (!variationParam && openingData.variations.length > 1) {
+          // "Train All": merge all variation trees into one
+          const mergedMoves = mergeVariationTrees(openingData.variations);
+          const mergedVariation = {
+            id: "__merged__",
+            name: "All Variations",
+            moves: mergedMoves,
+            pgn: "",
+          };
+          effectiveOpening = {
+            ...openingData,
+            variations: [mergedVariation],
+          };
+          variationId = "__merged__";
+        } else if (!variationParam && openingData.variations.length > 0) {
+          variationId = openingData.variations[0]!.id;
+        }
+        const model = new LearnModel(effectiveOpening, variationId, "w");
         runInAction(() => {
           learnState.learnModel = model;
           learnState.loading = false;
@@ -427,14 +442,25 @@ const TrainingScreen = observer(function TrainingScreen(): React.JSX.Element {
 
     async function load(): Promise<void> {
       try {
-        const openingData = await loadOpeningData(openingId!);
+        let playOpeningData = await loadOpeningData(openingId!);
         if (disposed) return;
-        const variationId =
-          variationParam ??
-          (openingData.variations.length > 0
-            ? openingData.variations[0]!.id
-            : undefined);
-        const model = new PlayModel(openingData, variationId, "w");
+        let playVariationId = variationParam;
+        if (!variationParam && playOpeningData.variations.length > 1) {
+          const mergedMoves = mergeVariationTrees(playOpeningData.variations);
+          playOpeningData = {
+            ...playOpeningData,
+            variations: [
+              {
+                id: "__merged__",
+                name: "All Variations",
+                moves: mergedMoves,
+                pgn: "",
+              },
+            ],
+          };
+          playVariationId = "__merged__";
+        }
+        const model = new PlayModel(playOpeningData, playVariationId, "w");
         runInAction(() => {
           playState.playModel = model;
           playState.loading = false;

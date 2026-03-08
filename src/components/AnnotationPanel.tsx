@@ -36,7 +36,7 @@ const sourceLabelStyle: CSSProperties = {
 
 const SOURCE_LABELS: Record<string, string> = {
   wikibooks: "Wikibooks",
-  generated: "AI Generated",
+  generated: "Chess Opening Trainer",
 };
 
 export const AnnotationPanel = observer(function AnnotationPanel({
