@@ -34,11 +34,45 @@ function importanceClass(importance: ImportanceRating): string {
   return "importance-niche";
 }
 
+/** Find a tree node by its slash-separated path */
+function findNodeByPath(
+  groups: CategoryGroup[],
+  path: string,
+): OpeningTreeNode | null {
+  const parts = path.split("/");
+  for (const group of groups) {
+    let nodes = group.roots;
+    let found: OpeningTreeNode | null = null;
+    for (const part of parts) {
+      const node = nodes.find((n) => n.move === part);
+      if (!node) {
+        found = null;
+        break;
+      }
+      found = node;
+      nodes = node.children;
+    }
+    if (found) return found;
+  }
+  return null;
+}
+
+/** Recursively add all descendant paths to the set */
+function collectAllPaths(
+  node: OpeningTreeNode,
+  path: string,
+  paths: Set<string>,
+): void {
+  paths.add(path);
+  for (const child of node.children) {
+    collectAllPaths(child, `${path}/${child.move}`, paths);
+  }
+}
+
 /** Observable state for the tree-based opening selector */
 class OpeningTreeSelectorState {
   expandedCategories = new Set<string>(["open"]);
   expandedBranches = new Set<string>();
-  showRare = false;
   selectedOpeningId: string | null = null;
   variations: Variation[] = [];
   isLoadingVariations = false;
@@ -100,14 +134,21 @@ class OpeningTreeSelectorState {
 
   toggleBranch(path: string): void {
     if (this.expandedBranches.has(path)) {
-      this.expandedBranches.delete(path);
+      // Collapse: remove this path and all descendant paths
+      for (const p of [...this.expandedBranches]) {
+        if (p === path || p.startsWith(path + "/")) {
+          this.expandedBranches.delete(p);
+        }
+      }
     } else {
-      this.expandedBranches.add(path);
+      // Expand: add this path and all descendant paths (full subtree)
+      const node = findNodeByPath(categoryTrees, path);
+      if (node) {
+        collectAllPaths(node, path, this.expandedBranches);
+      } else {
+        this.expandedBranches.add(path);
+      }
     }
-  }
-
-  toggleShowRare(): void {
-    this.showRare = !this.showRare;
   }
 
   isBranchExpanded(path: string): boolean {
@@ -170,24 +211,7 @@ const TreeNode = observer(function TreeNode({
   const nodePath = parentPath ? `${parentPath}/${node.move}` : node.move;
   const hasChildren = node.children.length > 0;
   const isExpanded = state.isBranchExpanded(nodePath);
-  const isSearching = state.isSearching;
-  const matchedIds = isSearching ? state.searchResults.matchedIds : null;
-
-  const showRareChildren = state.showRare || isSearching;
-
-  // Filter children: hide rare unless showRare or searching
-  const visibleChildren = hasChildren
-    ? node.children.filter((child) => {
-        if (showRareChildren) return true;
-        if (isSearching && matchedIds) {
-          return hasMatchInSubtree(child, matchedIds);
-        }
-        const maxImp = getSubtreeMaxImportance(child);
-        return maxImp >= 2;
-      })
-    : [];
-
-  const hiddenCount = node.children.length - visibleChildren.length;
+  const visibleChildren = hasChildren ? node.children : [];
 
   const isSelected = node.opening?.id === state.selectedOpeningId;
 
@@ -256,46 +280,11 @@ const TreeNode = observer(function TreeNode({
               onDirect={onDirect}
             />
           ))}
-          {hiddenCount > 0 && !showRareChildren && (
-            <div
-              className="tree-show-more"
-              style={{ paddingLeft: `${(depth + 1) * 1.25 + 0.5}rem` }}
-              data-testid="show-more-link"
-              onClick={() => state.toggleShowRare()}
-              role="button"
-              tabIndex={0}
-              onKeyDown={(e) => {
-                if (e.key === "Enter" || e.key === " ") {
-                  e.preventDefault();
-                  state.toggleShowRare();
-                }
-              }}
-            >
-              ({hiddenCount} more...)
-            </div>
-          )}
         </div>
       )}
     </div>
   );
 });
-
-function hasMatchInSubtree(
-  node: OpeningTreeNode,
-  matchedIds: Set<string>,
-): boolean {
-  if (node.opening && matchedIds.has(node.opening.id)) return true;
-  return node.children.some((child) => hasMatchInSubtree(child, matchedIds));
-}
-
-function getSubtreeMaxImportance(node: OpeningTreeNode): ImportanceRating {
-  let max: ImportanceRating = node.opening?.importance ?? 1;
-  for (const child of node.children) {
-    const childMax = getSubtreeMaxImportance(child);
-    if (childMax > max) max = childMax;
-  }
-  return max;
-}
 
 const OpeningSelectionScreen = observer(
   function OpeningSelectionScreen(): React.JSX.Element {
