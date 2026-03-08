@@ -1,0 +1,54 @@
+{
+  "id": "canard-opening",
+  "name": "Canard Opening",
+  "eco": "A45",
+  "variations": [
+    {
+      "id": "canard-opening",
+      "name": "Main Line",
+      "moves": {
+        "move": "",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "children": [
+          {
+            "move": "d4",
+            "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+            "children": [
+              {
+                "move": "Nf6",
+                "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+                "children": [
+                  {
+                    "move": "f4",
+                    "fen": "rnbqkb1r/pppppppp/5n2/8/3P1P2/8/PPP1P1PP/RNBQKBNR b KQkq - 0 2",
+                    "children": [],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "f4 advances a pawn, influencing the pawn structure and space.",
+                      "strategicTheme": "Pawn structure",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "Nf6 develops a piece to an active square, contributing to the position.",
+                  "strategicTheme": "Piece development",
+                  "source": "generated"
+                }
+              }
+            ],
+            "isMainLine": true,
+            "annotation": {
+              "moveRationale": "d4 stakes a claim in the center, controlling key central squares.",
+              "strategicTheme": "Center control",
+              "source": "generated"
+            }
+          }
+        ],
+        "isMainLine": true
+      },
+      "pgn": "1. d4 Nf6 2. f4"
+    }
+  ]
+}

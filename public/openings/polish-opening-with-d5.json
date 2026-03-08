@@ -1,0 +1,113 @@
+{
+  "id": "polish-opening-with-d5",
+  "name": "Polish Opening, with d5",
+  "eco": "A00",
+  "variations": [
+    {
+      "id": "polish-opening-with-d5",
+      "name": "Main Line",
+      "moves": {
+        "move": "",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "children": [
+          {
+            "move": "b4",
+            "fen": "rnbqkbnr/pppppppp/8/8/1P6/8/P1PPPPPP/RNBQKBNR b KQkq - 0 1",
+            "children": [
+              {
+                "move": "d5",
+                "fen": "rnbqkbnr/ppp1pppp/8/3p4/1P6/8/P1PPPPPP/RNBQKBNR w KQkq - 0 2",
+                "children": [],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "d5 advances a pawn, influencing the pawn structure and space.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              }
+            ],
+            "isMainLine": true,
+            "annotation": {
+              "moveRationale": "b4 advances a pawn, influencing the pawn structure and space.",
+              "strategicTheme": "Pawn structure",
+              "source": "generated"
+            }
+          }
+        ],
+        "isMainLine": true
+      },
+      "pgn": "1. b4 d5"
+    },
+    {
+      "id": "polish-opening-with-d5",
+      "name": "Main Line",
+      "moves": {
+        "move": "",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "children": [
+          {
+            "move": "b4",
+            "fen": "rnbqkbnr/pppppppp/8/8/1P6/8/P1PPPPPP/RNBQKBNR b KQkq - 0 1",
+            "children": [
+              {
+                "move": "d5",
+                "fen": "rnbqkbnr/ppp1pppp/8/3p4/1P6/8/P1PPPPPP/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "Bb2",
+                    "fen": "rnbqkbnr/ppp1pppp/8/3p4/1P6/8/PBPPPPPP/RN1QKBNR b KQkq - 1 2",
+                    "children": [
+                      {
+                        "move": "Nf6",
+                        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/1P6/8/PBPPPPPP/RN1QKBNR w KQkq - 2 3",
+                        "children": [
+                          {
+                            "move": "Nf3",
+                            "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/1P6/5N2/PBPPPPPP/RN1QKB1R b KQkq - 3 3",
+                            "children": [],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Nf3 develops a piece to an active square, contributing to the position.",
+                              "strategicTheme": "Piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "Nf6 develops a piece to an active square, contributing to the position.",
+                          "strategicTheme": "Piece development",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "Bb2 develops a piece to an active square, contributing to the position.",
+                      "strategicTheme": "Piece development",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "d5 advances a pawn, influencing the pawn structure and space.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              }
+            ],
+            "isMainLine": true,
+            "annotation": {
+              "moveRationale": "b4 advances a pawn, influencing the pawn structure and space.",
+              "strategicTheme": "Pawn structure",
+              "source": "generated"
+            }
+          }
+        ],
+        "isMainLine": true
+      },
+      "pgn": "1. b4 d5 2. Bb2 Nf6 3. Nf3"
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "id": "sodium-attack",
+  "name": "Sodium Attack",
+  "eco": "A00",
+  "variations": [
+    {
+      "id": "sodium-attack",
+      "name": "Main Line",
+      "moves": {
+        "move": "",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "children": [
+          {
+            "move": "Na3",
+            "fen": "rnbqkbnr/pppppppp/8/8/8/N7/PPPPPPPP/R1BQKBNR b KQkq - 1 1",
+            "children": [],
+            "isMainLine": true,
+            "annotation": {
+              "moveRationale": "Na3 develops a piece to an active square, contributing to the position.",
+              "strategicTheme": "Piece development",
+              "source": "generated"
+            }
+          }
+        ],
+        "isMainLine": true
+      },
+      "pgn": "1. Na3"
+    },
+    {
+      "id": "sodium-attack-celadon-variation",
+      "name": "Celadon Variation",
+      "moves": {
+        "move": "",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "children": [
+          {
+            "move": "Na3",
+            "fen": "rnbqkbnr/pppppppp/8/8/8/N7/PPPPPPPP/R1BQKBNR b KQkq - 1 1",
+            "children": [
+              {
+                "move": "e5",
+                "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/N7/PPPPPPPP/R1BQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "d3",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/N2P4/PPP1PPPP/R1BQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "Bxa3",
+                        "fen": "rnbqk1nr/pppp1ppp/8/4p3/8/b2P4/PPP1PPPP/R1BQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "bxa3",
+                            "fen": "rnbqk1nr/pppp1ppp/8/4p3/8/P2P4/P1P1PPPP/R1BQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "d5",
+                                "fen": "rnbqk1nr/ppp2ppp/8/3pp3/8/P2P4/P1P1PPPP/R1BQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "e3",
+                                    "fen": "rnbqk1nr/ppp2ppp/8/3pp3/8/P2PP3/P1P2PPP/R1BQKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "c5",
+                                        "fen": "rnbqk1nr/pp3ppp/8/2ppp3/8/P2PP3/P1P2PPP/R1BQKBNR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "Rb1",
+                                            "fen": "rnbqk1nr/pp3ppp/8/2ppp3/8/P2PP3/P1P2PPP/1RBQKBNR b Kkq - 1 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Rb1 improves the rook's placement, targeting an open or semi-open file.",
+                                              "strategicTheme": "Rook activation",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "c5 advances a pawn, influencing the pawn structure and space.",
+                                          "strategicTheme": "Pawn structure",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "e3 stakes a claim in the center, controlling key central squares.",
+                                      "strategicTheme": "Center control",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "d5 advances a pawn, influencing the pawn structure and space.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "bxa3 captures material, changing the pawn structure or gaining an advantage.",
+                              "strategicTheme": "Material exchange",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "Bxa3 captures material, changing the pawn structure or gaining an advantage.",
+                          "strategicTheme": "Material exchange",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "d3 stakes a claim in the center, controlling key central squares.",
+                      "strategicTheme": "Center control",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "e5 advances a pawn, influencing the pawn structure and space.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              }
+            ],
+            "isMainLine": true,
+            "annotation": {
+              "moveRationale": "Na3 develops a piece to an active square, contributing to the position.",
+              "strategicTheme": "Piece development",
+              "source": "generated"
+            }
+          }
+        ],
+        "isMainLine": true
+      },
+      "pgn": "1. Na3 e5 2. d3 Bxa3 3. bxa3 d5 4. e3 c5 5. Rb1"
+    },
+    {
+      "id": "sodium-attack-chenoboskion-variation",
+      "name": "Chenoboskion Variation",
+      "moves": {
+        "move": "",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "children": [
+          {
+            "move": "Na3",
+            "fen": "rnbqkbnr/pppppppp/8/8/8/N7/PPPPPPPP/R1BQKBNR b KQkq - 1 1",
+            "children": [
+              {
+                "move": "g6",
+                "fen": "rnbqkbnr/pppppp1p/6p1/8/8/N7/PPPPPPPP/R1BQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "g4",
+                    "fen": "rnbqkbnr/pppppp1p/6p1/8/6P1/N7/PPPPPP1P/R1BQKBNR b KQkq - 0 2",
+                    "children": [],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "g4 advances a pawn, influencing the pawn structure and space.",
+                      "strategicTheme": "Pawn structure",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "g6 advances a pawn, influencing the pawn structure and space.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              }
+            ],
+            "isMainLine": true,
+            "annotation": {
+              "moveRationale": "Na3 develops a piece to an active square, contributing to the position.",
+              "strategicTheme": "Piece development",
+              "source": "generated"
+            }
+          }
+        ],
+        "isMainLine": true
+      },
+      "pgn": "1. Na3 g6 2. g4"
+    },
+    {
+      "id": "sodium-attack-durkin-gambit",
+      "name": "Durkin Gambit",
+      "moves": {
+        "move": "",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "children": [
+          {
+            "move": "Na3",
+            "fen": "rnbqkbnr/pppppppp/8/8/8/N7/PPPPPPPP/R1BQKBNR b KQkq - 1 1",
+            "children": [
+              {
+                "move": "e5",
+                "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/N7/PPPPPPPP/R1BQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "Nc4",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4p3/2N5/8/PPPPPPPP/R1BQKBNR b KQkq - 1 2",
+                    "children": [
+                      {
+                        "move": "Nc6",
+                        "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2N5/8/PPPPPPPP/R1BQKBNR w KQkq - 2 3",
+                        "children": [
+                          {
+                            "move": "e4",
+                            "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2N1P3/8/PPPP1PPP/R1BQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "f5",
+                                "fen": "r1bqkbnr/pppp2pp/2n5/4pp2/2N1P3/8/PPPP1PPP/R1BQKBNR w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "f5 advances a pawn, influencing the pawn structure and space.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "e4 stakes a claim in the center, controlling key central squares.",
+                              "strategicTheme": "Center control",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "Nc6 develops a piece to an active square, contributing to the position.",
+                          "strategicTheme": "Piece development",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "Nc4 develops a piece to an active square, contributing to the position.",
+                      "strategicTheme": "Piece development",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "e5 advances a pawn, influencing the pawn structure and space.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              }
+            ],
+            "isMainLine": true,
+            "annotation": {
+              "moveRationale": "Na3 develops a piece to an active square, contributing to the position.",
+              "strategicTheme": "Piece development",
+              "source": "generated"
+            }
+          }
+        ],
+        "isMainLine": true
+      },
+      "pgn": "1. Na3 e5 2. Nc4 Nc6 3. e4 f5"
+    }
+  ]
+}

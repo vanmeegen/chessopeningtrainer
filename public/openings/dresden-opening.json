@@ -1,0 +1,102 @@
+{
+  "id": "dresden-opening",
+  "name": "Dresden Opening",
+  "eco": "C44",
+  "variations": [
+    {
+      "id": "dresden-opening-the-goblin",
+      "name": "The Goblin",
+      "moves": {
+        "move": "",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "children": [
+          {
+            "move": "e4",
+            "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+            "children": [
+              {
+                "move": "e5",
+                "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "Nf3",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+                    "children": [
+                      {
+                        "move": "Nc6",
+                        "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+                        "children": [
+                          {
+                            "move": "c4",
+                            "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2P1P3/5N2/PP1P1PPP/RNBQKB1R b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Nf6",
+                                "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2P1P3/5N2/PP1P1PPP/RNBQKB1R w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "Nxe5",
+                                    "fen": "r1bqkb1r/pppp1ppp/2n2n2/4N3/2P1P3/8/PP1P1PPP/RNBQKB1R b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Nxe5 captures material, changing the pawn structure or gaining an advantage.",
+                                      "strategicTheme": "Material exchange",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Nf6 develops a piece to an active square, contributing to the position.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "c4 advances a pawn, influencing the pawn structure and space.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "Nc6 develops a piece to an active square, contributing to the position.",
+                          "strategicTheme": "Piece development",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "Nf3 develops a piece to an active square, contributing to the position.",
+                      "strategicTheme": "Piece development",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "e5 advances a pawn, influencing the pawn structure and space.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              }
+            ],
+            "isMainLine": true,
+            "annotation": {
+              "moveRationale": "e4 stakes a claim in the center, controlling key central squares.",
+              "strategicTheme": "Center control",
+              "source": "generated"
+            }
+          }
+        ],
+        "isMainLine": true
+      },
+      "pgn": "1. e4 e5 2. Nf3 Nc6 3. c4 Nf6 4. Nxe5"
+    }
+  ]
+}

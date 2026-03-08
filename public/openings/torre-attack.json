@@ -1,0 +1,553 @@
+{
+  "id": "torre-attack",
+  "name": "Torre Attack",
+  "eco": "A46",
+  "variations": [
+    {
+      "id": "torre-attack-classical-defense",
+      "name": "Classical Defense",
+      "moves": {
+        "move": "",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "children": [
+          {
+            "move": "d4",
+            "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+            "children": [
+              {
+                "move": "Nf6",
+                "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+                "children": [
+                  {
+                    "move": "Nf3",
+                    "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 2 2",
+                    "children": [
+                      {
+                        "move": "e6",
+                        "fen": "rnbqkb1r/pppp1ppp/4pn2/8/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "Bg5",
+                            "fen": "rnbqkb1r/pppp1ppp/4pn2/6B1/3P4/5N2/PPP1PPPP/RN1QKB1R b KQkq - 1 3",
+                            "children": [],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Bg5 develops a piece to an active square, contributing to the position.",
+                              "strategicTheme": "Piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "e6 advances a pawn, influencing the pawn structure and space.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "Nf3 develops a piece to an active square, contributing to the position.",
+                      "strategicTheme": "Piece development",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "Nf6 develops a piece to an active square, contributing to the position.",
+                  "strategicTheme": "Piece development",
+                  "source": "generated"
+                }
+              }
+            ],
+            "isMainLine": true,
+            "annotation": {
+              "moveRationale": "d4 stakes a claim in the center, controlling key central squares.",
+              "strategicTheme": "Center control",
+              "source": "generated"
+            }
+          }
+        ],
+        "isMainLine": true
+      },
+      "pgn": "1. d4 Nf6 2. Nf3 e6 3. Bg5"
+    },
+    {
+      "id": "torre-attack-classical-defense-nimzowitsch-variation",
+      "name": "Classical Defense, Nimzowitsch Variation",
+      "moves": {
+        "move": "",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "children": [
+          {
+            "move": "d4",
+            "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+            "children": [
+              {
+                "move": "Nf6",
+                "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+                "children": [
+                  {
+                    "move": "Nf3",
+                    "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 2 2",
+                    "children": [
+                      {
+                        "move": "e6",
+                        "fen": "rnbqkb1r/pppp1ppp/4pn2/8/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "Bg5",
+                            "fen": "rnbqkb1r/pppp1ppp/4pn2/6B1/3P4/5N2/PPP1PPPP/RN1QKB1R b KQkq - 1 3",
+                            "children": [
+                              {
+                                "move": "h6",
+                                "fen": "rnbqkb1r/pppp1pp1/4pn1p/6B1/3P4/5N2/PPP1PPPP/RN1QKB1R w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "h6 advances a pawn, influencing the pawn structure and space.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Bg5 develops a piece to an active square, contributing to the position.",
+                              "strategicTheme": "Piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "e6 advances a pawn, influencing the pawn structure and space.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "Nf3 develops a piece to an active square, contributing to the position.",
+                      "strategicTheme": "Piece development",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "Nf6 develops a piece to an active square, contributing to the position.",
+                  "strategicTheme": "Piece development",
+                  "source": "generated"
+                }
+              }
+            ],
+            "isMainLine": true,
+            "annotation": {
+              "moveRationale": "d4 stakes a claim in the center, controlling key central squares.",
+              "strategicTheme": "Center control",
+              "source": "generated"
+            }
+          }
+        ],
+        "isMainLine": true
+      },
+      "pgn": "1. d4 Nf6 2. Nf3 e6 3. Bg5 h6"
+    },
+    {
+      "id": "torre-attack-classical-defense-petrosian-gambit",
+      "name": "Classical Defense, Petrosian Gambit",
+      "moves": {
+        "move": "",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "children": [
+          {
+            "move": "d4",
+            "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+            "children": [
+              {
+                "move": "Nf6",
+                "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+                "children": [
+                  {
+                    "move": "Nf3",
+                    "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 2 2",
+                    "children": [
+                      {
+                        "move": "e6",
+                        "fen": "rnbqkb1r/pppp1ppp/4pn2/8/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "Bg5",
+                            "fen": "rnbqkb1r/pppp1ppp/4pn2/6B1/3P4/5N2/PPP1PPPP/RN1QKB1R b KQkq - 1 3",
+                            "children": [
+                              {
+                                "move": "c5",
+                                "fen": "rnbqkb1r/pp1p1ppp/4pn2/2p3B1/3P4/5N2/PPP1PPPP/RN1QKB1R w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "e3",
+                                    "fen": "rnbqkb1r/pp1p1ppp/4pn2/2p3B1/3P4/4PN2/PPP2PPP/RN1QKB1R b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "b6",
+                                        "fen": "rnbqkb1r/p2p1ppp/1p2pn2/2p3B1/3P4/4PN2/PPP2PPP/RN1QKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "d5",
+                                            "fen": "rnbqkb1r/p2p1ppp/1p2pn2/2pP2B1/8/4PN2/PPP2PPP/RN1QKB1R b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "d5 advances a pawn, influencing the pawn structure and space.",
+                                              "strategicTheme": "Pawn structure",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "b6 advances a pawn, influencing the pawn structure and space.",
+                                          "strategicTheme": "Pawn structure",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "e3 stakes a claim in the center, controlling key central squares.",
+                                      "strategicTheme": "Center control",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "c5 advances a pawn, influencing the pawn structure and space.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Bg5 develops a piece to an active square, contributing to the position.",
+                              "strategicTheme": "Piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "e6 advances a pawn, influencing the pawn structure and space.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "Nf3 develops a piece to an active square, contributing to the position.",
+                      "strategicTheme": "Piece development",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "Nf6 develops a piece to an active square, contributing to the position.",
+                  "strategicTheme": "Piece development",
+                  "source": "generated"
+                }
+              }
+            ],
+            "isMainLine": true,
+            "annotation": {
+              "moveRationale": "d4 stakes a claim in the center, controlling key central squares.",
+              "strategicTheme": "Center control",
+              "source": "generated"
+            }
+          }
+        ],
+        "isMainLine": true
+      },
+      "pgn": "1. d4 Nf6 2. Nf3 e6 3. Bg5 c5 4. e3 b6 5. d5"
+    },
+    {
+      "id": "torre-attack-wagner-gambit",
+      "name": "Wagner Gambit",
+      "moves": {
+        "move": "",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "children": [
+          {
+            "move": "d4",
+            "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+            "children": [
+              {
+                "move": "Nf6",
+                "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+                "children": [
+                  {
+                    "move": "Nf3",
+                    "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 2 2",
+                    "children": [
+                      {
+                        "move": "e6",
+                        "fen": "rnbqkb1r/pppp1ppp/4pn2/8/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "Bg5",
+                            "fen": "rnbqkb1r/pppp1ppp/4pn2/6B1/3P4/5N2/PPP1PPPP/RN1QKB1R b KQkq - 1 3",
+                            "children": [
+                              {
+                                "move": "c5",
+                                "fen": "rnbqkb1r/pp1p1ppp/4pn2/2p3B1/3P4/5N2/PPP1PPPP/RN1QKB1R w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "e4",
+                                    "fen": "rnbqkb1r/pp1p1ppp/4pn2/2p3B1/3PP3/5N2/PPP2PPP/RN1QKB1R b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "e4 stakes a claim in the center, controlling key central squares.",
+                                      "strategicTheme": "Center control",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "c5 advances a pawn, influencing the pawn structure and space.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Bg5 develops a piece to an active square, contributing to the position.",
+                              "strategicTheme": "Piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "e6 advances a pawn, influencing the pawn structure and space.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "Nf3 develops a piece to an active square, contributing to the position.",
+                      "strategicTheme": "Piece development",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "Nf6 develops a piece to an active square, contributing to the position.",
+                  "strategicTheme": "Piece development",
+                  "source": "generated"
+                }
+              }
+            ],
+            "isMainLine": true,
+            "annotation": {
+              "moveRationale": "d4 stakes a claim in the center, controlling key central squares.",
+              "strategicTheme": "Center control",
+              "source": "generated"
+            }
+          }
+        ],
+        "isMainLine": true
+      },
+      "pgn": "1. d4 Nf6 2. Nf3 e6 3. Bg5 c5 4. e4"
+    },
+    {
+      "id": "torre-attack-fianchetto-defense",
+      "name": "Fianchetto Defense",
+      "moves": {
+        "move": "",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "children": [
+          {
+            "move": "d4",
+            "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+            "children": [
+              {
+                "move": "Nf6",
+                "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+                "children": [
+                  {
+                    "move": "Nf3",
+                    "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 2 2",
+                    "children": [
+                      {
+                        "move": "g6",
+                        "fen": "rnbqkb1r/pppppp1p/5np1/8/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "Bg5",
+                            "fen": "rnbqkb1r/pppppp1p/5np1/6B1/3P4/5N2/PPP1PPPP/RN1QKB1R b KQkq - 1 3",
+                            "children": [],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Bg5 develops a piece to an active square, contributing to the position.",
+                              "strategicTheme": "Piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "g6 advances a pawn, influencing the pawn structure and space.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "Nf3 develops a piece to an active square, contributing to the position.",
+                      "strategicTheme": "Piece development",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "Nf6 develops a piece to an active square, contributing to the position.",
+                  "strategicTheme": "Piece development",
+                  "source": "generated"
+                }
+              }
+            ],
+            "isMainLine": true,
+            "annotation": {
+              "moveRationale": "d4 stakes a claim in the center, controlling key central squares.",
+              "strategicTheme": "Center control",
+              "source": "generated"
+            }
+          }
+        ],
+        "isMainLine": true
+      },
+      "pgn": "1. d4 Nf6 2. Nf3 g6 3. Bg5"
+    },
+    {
+      "id": "torre-attack-fianchetto-defense-euwe-variation",
+      "name": "Fianchetto Defense, Euwe Variation",
+      "moves": {
+        "move": "",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "children": [
+          {
+            "move": "d4",
+            "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+            "children": [
+              {
+                "move": "Nf6",
+                "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+                "children": [
+                  {
+                    "move": "Nf3",
+                    "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 2 2",
+                    "children": [
+                      {
+                        "move": "g6",
+                        "fen": "rnbqkb1r/pppppp1p/5np1/8/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "Bg5",
+                            "fen": "rnbqkb1r/pppppp1p/5np1/6B1/3P4/5N2/PPP1PPPP/RN1QKB1R b KQkq - 1 3",
+                            "children": [
+                              {
+                                "move": "Bg7",
+                                "fen": "rnbqk2r/ppppppbp/5np1/6B1/3P4/5N2/PPP1PPPP/RN1QKB1R w KQkq - 2 4",
+                                "children": [
+                                  {
+                                    "move": "Nbd2",
+                                    "fen": "rnbqk2r/ppppppbp/5np1/6B1/3P4/5N2/PPPNPPPP/R2QKB1R b KQkq - 3 4",
+                                    "children": [
+                                      {
+                                        "move": "c5",
+                                        "fen": "rnbqk2r/pp1pppbp/5np1/2p3B1/3P4/5N2/PPPNPPPP/R2QKB1R w KQkq - 0 5",
+                                        "children": [],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "c5 advances a pawn, influencing the pawn structure and space.",
+                                          "strategicTheme": "Pawn structure",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Nbd2 develops a piece to an active square, contributing to the position.",
+                                      "strategicTheme": "Piece development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Bg7 develops a piece to an active square, contributing to the position.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Bg5 develops a piece to an active square, contributing to the position.",
+                              "strategicTheme": "Piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "g6 advances a pawn, influencing the pawn structure and space.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "Nf3 develops a piece to an active square, contributing to the position.",
+                      "strategicTheme": "Piece development",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "Nf6 develops a piece to an active square, contributing to the position.",
+                  "strategicTheme": "Piece development",
+                  "source": "generated"
+                }
+              }
+            ],
+            "isMainLine": true,
+            "annotation": {
+              "moveRationale": "d4 stakes a claim in the center, controlling key central squares.",
+              "strategicTheme": "Center control",
+              "source": "generated"
+            }
+          }
+        ],
+        "isMainLine": true
+      },
+      "pgn": "1. d4 Nf6 2. Nf3 g6 3. Bg5 Bg7 4. Nbd2 c5"
+    }
+  ]
+}

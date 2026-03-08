@@ -1,0 +1,66 @@
+{
+  "id": "wade-defense",
+  "name": "Wade Defense",
+  "eco": "A41",
+  "variations": [
+    {
+      "id": "wade-defense",
+      "name": "Main Line",
+      "moves": {
+        "move": "",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "children": [
+          {
+            "move": "d4",
+            "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+            "children": [
+              {
+                "move": "d6",
+                "fen": "rnbqkbnr/ppp1pppp/3p4/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "Nf3",
+                    "fen": "rnbqkbnr/ppp1pppp/3p4/8/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 2",
+                    "children": [
+                      {
+                        "move": "Bg4",
+                        "fen": "rn1qkbnr/ppp1pppp/3p4/8/3P2b1/5N2/PPP1PPPP/RNBQKB1R w KQkq - 2 3",
+                        "children": [],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "Bg4 develops a piece to an active square, contributing to the position.",
+                          "strategicTheme": "Piece development",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "Nf3 develops a piece to an active square, contributing to the position.",
+                      "strategicTheme": "Piece development",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "d6 advances a pawn, influencing the pawn structure and space.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              }
+            ],
+            "isMainLine": true,
+            "annotation": {
+              "moveRationale": "d4 stakes a claim in the center, controlling key central squares.",
+              "strategicTheme": "Center control",
+              "source": "generated"
+            }
+          }
+        ],
+        "isMainLine": true
+      },
+      "pgn": "1. d4 d6 2. Nf3 Bg4"
+    }
+  ]
+}

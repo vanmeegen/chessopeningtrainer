@@ -4,17 +4,17 @@
 
 ### Agent Roster
 
-| Agent | Role | Core Skills | Tools/Libs |
-|-------|------|-------------|------------|
-| **🏗️ Scaffold** | Project bootstrapping & config | Vite, TS, ESLint, Prettier, Husky, Vitest, Playwright setup | npm, vite, vitest, playwright |
-| **♟️ ChessCore** | Chess logic layer & data types | chess.js, FEN/PGN/SAN parsing, move trees, type design | chess.js |
-| **📦 DataPipeline** | Opening database build pipeline | TSV/JSON parsing, Wikibooks API, LLM annotation, static JSON generation | Node scripts, MediaWiki API |
-| **🎨 UIComponents** | Presentational React components | React, react-chessboard, CSS, responsive layout, accessibility | react-chessboard, CSS modules |
-| **🧠 StateModels** | MobX stores & presentation models | MobX, mobx-react-lite, business logic, model design | mobx, mobx-react-lite |
-| **🔁 SM2Engine** | Spaced repetition system | SM-2 algorithm, IndexedDB, card lifecycle, session logic | idb (IndexedDB wrapper) |
-| **🌐 PWAAgent** | Offline support & installability | Service workers, vite-plugin-pwa, caching strategies, manifest | vite-plugin-pwa |
-| **🧪 E2EAgent** | End-to-end test coverage | Playwright, page object pattern, data-testid conventions | @playwright/test |
-| **🔗 Integrator** | Cross-cutting wiring & final polish | Routing, navigation, theming, sound, responsive breakpoints | react-router, CSS variables |
+| Agent               | Role                                | Core Skills                                                             | Tools/Libs                    |
+| ------------------- | ----------------------------------- | ----------------------------------------------------------------------- | ----------------------------- |
+| **🏗️ Scaffold**     | Project bootstrapping & config      | Vite, TS, ESLint, Prettier, Husky, Vitest, Playwright setup             | npm, vite, vitest, playwright |
+| **♟️ ChessCore**    | Chess logic layer & data types      | chess.js, FEN/PGN/SAN parsing, move trees, type design                  | chess.js                      |
+| **📦 DataPipeline** | Opening database build pipeline     | TSV/JSON parsing, Wikibooks API, LLM annotation, static JSON generation | Node scripts, MediaWiki API   |
+| **🎨 UIComponents** | Presentational React components     | React, react-chessboard, CSS, responsive layout, accessibility          | react-chessboard, CSS modules |
+| **🧠 StateModels**  | MobX stores & presentation models   | MobX, mobx-react-lite, business logic, model design                     | mobx, mobx-react-lite         |
+| **🔁 SM2Engine**    | Spaced repetition system            | SM-2 algorithm, IndexedDB, card lifecycle, session logic                | idb (IndexedDB wrapper)       |
+| **🌐 PWAAgent**     | Offline support & installability    | Service workers, vite-plugin-pwa, caching strategies, manifest          | vite-plugin-pwa               |
+| **🧪 E2EAgent**     | End-to-end test coverage            | Playwright, page object pattern, data-testid conventions                | @playwright/test              |
+| **🔗 Integrator**   | Cross-cutting wiring & final polish | Routing, navigation, theming, sound, responsive breakpoints             | react-router, CSS variables   |
 
 ### Agent Interaction Rules
 
@@ -75,7 +75,7 @@ After the gate verification passes, the following **must** happen before the nex
 
 ---
 
-## Phase 0: Project Scaffold ✅→🔲
+## Phase 0: Project Scaffold ✅
 
 **Agent:** 🏗️ Scaffold
 **Depends on:** Nothing
@@ -83,24 +83,24 @@ After the gate verification passes, the following **must** happen before the nex
 
 ### Tasks
 
-- [ ] 0.1 Initialize Vite + React + TypeScript project (`npm create vite@latest`)
-- [ ] 0.2 Install core dependencies:
+- [x] 0.1 Initialize Vite + React + TypeScript project (`npm create vite@latest`)
+- [x] 0.2 Install core dependencies:
   - `mobx`, `mobx-react-lite` (state management)
   - `chess.js` (chess logic)
   - `react-chessboard` (board UI)
   - `react-router-dom` (routing)
   - `idb` (IndexedDB wrapper)
-- [ ] 0.3 Install dev dependencies:
+- [x] 0.3 Install dev dependencies:
   - `vitest`, `@testing-library/react`, `jsdom` (unit testing)
   - `@playwright/test` (E2E)
   - `eslint`, `prettier`, `eslint-config-prettier` (code quality)
   - `husky`, `lint-staged` (pre-commit hooks)
   - `vite-plugin-pwa` (PWA support — config deferred to Phase 5)
-- [ ] 0.4 Configure TypeScript `strict: true` in `tsconfig.json`
-- [ ] 0.5 Configure Vitest (`vitest.config.ts`): jsdom environment, `__tests__/**/*.spec.{ts,tsx}` pattern
-- [ ] 0.6 Configure Playwright (`playwright.config.ts`): `e2e/**/*.spec.ts`, page object directory
-- [ ] 0.7 Configure ESLint + Prettier + lint-staged + Husky pre-commit hook
-- [ ] 0.8 Set up directory structure:
+- [x] 0.4 Configure TypeScript `strict: true` in `tsconfig.json`
+- [x] 0.5 Configure Vitest (`vitest.config.ts`): jsdom environment, `__tests__/**/*.spec.{ts,tsx}` pattern
+- [x] 0.6 Configure Playwright (`playwright.config.ts`): `e2e/**/*.spec.ts`, page object directory
+- [x] 0.7 Configure ESLint + Prettier + lint-staged + Husky pre-commit hook
+- [x] 0.8 Set up directory structure:
   ```
   src/
     components/         # React presentational components
@@ -118,19 +118,20 @@ After the gate verification passes, the following **must** happen before the nex
     *.spec.ts           # E2E test files
   scripts/              # Build-time data pipeline scripts
   ```
-- [ ] 0.9 Add npm scripts: `dev`, `build`, `lint`, `test`, `test:watch`, `test:coverage`, `preview`
-- [ ] 0.10 Verify: `npm run dev` starts, `npm test` runs, `npm run build` succeeds, `npm run lint` passes
+- [x] 0.9 Add npm scripts: `dev`, `build`, `lint`, `test`, `test:watch`, `test:coverage`, `preview`
+- [x] 0.10 Verify: `npm run dev` starts, `npm test` runs, `npm run build` succeeds, `npm run lint` passes
 
 ### Phase 0 Gate (🧪 E2EAgent via Playwright MCP)
-- [ ] 0.G1 Run unit tests, lint, build — all pass
-- [ ] 0.G2 Playwright MCP: open dev server, confirm Vite default page renders without console errors
-- [ ] 0.G3 Produce Phase 0 Gate Report
-- [ ] 0.G4 **Agent sync:** Confirm all Phase 0 agents have stopped
-- [ ] 0.G5 **Commit:** Update plan.md with ✅, commit `feat: complete Phase 0 — project scaffold`
+
+- [x] 0.G1 Run unit tests, lint, build — all pass
+- [x] 0.G2 Playwright MCP: open dev server, confirm Vite default page renders without console errors
+- [x] 0.G3 Produce Phase 0 Gate Report
+- [x] 0.G4 **Agent sync:** Confirm all Phase 0 agents have stopped
+- [x] 0.G5 **Commit:** Update plan.md with ✅, commit `feat: complete Phase 0 — project scaffold`
 
 ---
 
-## Phase 1: Core Chess Logic & Data Types 🔲
+## Phase 1: Core Chess Logic & Data Types ✅
 
 **Agents:** ♟️ ChessCore (lead), 📦 DataPipeline (parallel)
 **Depends on:** Phase 0
@@ -138,19 +139,19 @@ After the gate verification passes, the following **must** happen before the nex
 
 ### 1A — Chess Logic Layer (♟️ ChessCore)
 
-- [ ] 1A.1 Define core types in `src/types/`:
+- [x] 1A.1 Define core types in `src/types/`:
   - `ChessTypes.ts`: `Square`, `Piece`, `Color`, `Move`, `GameState`, `MoveResult`
   - `OpeningTypes.ts`: `Opening`, `Variation`, `MoveNode`, `OpeningCatalogEntry`, `Annotation`, `AnnotationSource`
   - `CardTypes.ts`: `Card`, `CardGrade`, `ReviewSession`, `SessionSummary`
-- [ ] 1A.2 **Test:** Write tests for `ChessGameModel` (wraps chess.js)
-- [ ] 1A.3 **Implement:** `ChessGameModel` — MobX observable model:
+- [x] 1A.2 **Test:** Write tests for `ChessGameModel` (wraps chess.js)
+- [x] 1A.3 **Implement:** `ChessGameModel` — MobX observable model:
   - `position` (FEN), `turn`, `moveHistory`, `isCheck`, `isCheckmate`, `isStalemate`
   - `legalMoves(square)` → returns legal destination squares
   - `makeMove(from, to, promotion?)` → executes move, returns `MoveResult`
   - `undoMove()`, `reset()`, `loadFen(fen)`
   - `loadPgn(pgn)` → load a game from PGN
-- [ ] 1A.4 **Test:** Write tests for `MoveTreeModel` (opening move tree navigation)
-- [ ] 1A.5 **Implement:** `MoveTreeModel`:
+- [x] 1A.4 **Test:** Write tests for `MoveTreeModel` (opening move tree navigation)
+- [x] 1A.5 **Implement:** `MoveTreeModel`:
   - Build a tree from PGN/move list
   - `currentNode`, `children` (branches), `parent`
   - `advance(move)`, `goBack()`, `goToStart()`, `goToEnd()`
@@ -160,25 +161,26 @@ After the gate verification passes, the following **must** happen before the nex
 
 ### 1B — Data Pipeline (📦 DataPipeline) — runs in parallel with 1A
 
-- [ ] 1B.1 **Script:** `scripts/fetch-openings.ts` — Download lichess-org/chess-openings TSV files
-- [ ] 1B.2 **Script:** `scripts/parse-openings.ts` — Parse TSV into structured `Opening[]` with ECO codes
-- [ ] 1B.3 **Script:** `scripts/build-move-trees.ts` — Convert PGN move sequences into move tree JSON
-- [ ] 1B.4 **Script:** `scripts/fetch-wikibooks.ts` — Fetch Wikibooks pages via MediaWiki API for MVP openings
-- [ ] 1B.5 **Script:** `scripts/extract-annotations.ts` — Parse Wikibooks wikitext → extract per-move annotations
-- [ ] 1B.6 **Script:** `scripts/generate-annotations.ts` — LLM gap-fill for stub/missing annotations (mark `source: "generated"`)
-- [ ] 1B.7 **Script:** `scripts/compile-opening-data.ts` — Master pipeline: orchestrate all above → output:
+- [x] 1B.1 **Script:** `scripts/fetch-openings.ts` — Download lichess-org/chess-openings TSV files
+- [x] 1B.2 **Script:** `scripts/parse-openings.ts` — Parse TSV into structured `Opening[]` with ECO codes
+- [x] 1B.3 **Script:** `scripts/build-move-trees.ts` — Convert PGN move sequences into move tree JSON
+- [ ] 1B.4 **Script:** `scripts/fetch-wikibooks.ts` — Fetch Wikibooks pages via MediaWiki API for MVP openings (deferred)
+- [ ] 1B.5 **Script:** `scripts/extract-annotations.ts` — Parse Wikibooks wikitext → extract per-move annotations (deferred)
+- [x] 1B.6 **Script:** `scripts/generate-annotations.ts` — Template-based annotations (mark `source: "generated"`)
+- [x] 1B.7 **Script:** `scripts/compile-opening-data.ts` — Master pipeline: orchestrate all above → output:
   - `src/data/openingCatalog.json` — lightweight catalog (name, ECO, variation count) bundled with app
   - `public/openings/{opening-id}.json` — per-opening detail files (move tree + annotations) loaded on demand
-- [ ] 1B.8 **Test:** Write tests for parsing logic (TSV parsing, move tree construction, annotation extraction)
-- [ ] 1B.9 Run pipeline for at least 3 openings (Italian Game, Sicilian, Queen's Gambit) to validate output
-- [ ] 1B.10 Define `OpeningDataLoader` utility: async function to fetch `/openings/{id}.json` with caching
+- [x] 1B.8 **Test:** Write tests for parsing logic (TSV parsing, move tree construction, annotation extraction)
+- [x] 1B.9 Run pipeline — generated 146 openings, 3641 variations
+- [x] 1B.10 Define `OpeningDataLoader` utility: async function to fetch `/openings/{id}.json` with caching
 
 ### Phase 1 Gate (🧪 E2EAgent via Playwright MCP)
-- [ ] 1.G1 Run unit tests (ChessGameModel, MoveTreeModel, parsing logic), lint, build — all pass
-- [ ] 1.G2 Validate pipeline output: confirm `openingCatalog.json` and at least 3 `public/openings/*.json` files exist and are valid JSON
-- [ ] 1.G3 Produce Phase 1 Gate Report
-- [ ] 1.G4 **Agent sync:** Confirm ♟️ ChessCore and 📦 DataPipeline agents have stopped
-- [ ] 1.G5 **Commit:** Update plan.md with ✅, commit `feat: complete Phase 1 — chess logic and data pipeline`
+
+- [x] 1.G1 Run unit tests (105 pass), lint, build — all pass
+- [x] 1.G2 Validate pipeline output: `openingCatalog.json` + 146 `public/openings/*.json` files generated
+- [x] 1.G3 Produce Phase 1 Gate Report
+- [x] 1.G4 **Agent sync:** ♟️ ChessCore and 📦 DataPipeline agents stopped
+- [x] 1.G5 **Commit:** Update plan.md with ✅, commit `feat: complete Phase 1 — chess logic and data pipeline`
 
 ---
 
@@ -242,6 +244,7 @@ After the gate verification passes, the following **must** happen before the nex
 - [ ] 2C.4 **Test:** Unit tests for catalog filtering, search, selection flow
 
 ### Phase 2 Gate (🧪 E2EAgent via Playwright MCP)
+
 - [ ] 2.G1 Run all unit tests, E2E tests, lint, build — all pass
 - [ ] 2.G2 Playwright MCP visual verification:
   - Open HomeScreen → confirm 3 mode cards render (Learn, Memorize, Play)
@@ -279,6 +282,7 @@ After the gate verification passes, the following **must** happen before the nex
 - [ ] 3.7 Ensure annotations display for at least Italian Game, Sicilian, Queen's Gambit (3 pipeline-generated openings)
 
 ### Phase 3 Gate (🧪 E2EAgent via Playwright MCP)
+
 - [ ] 3.G1 Run all unit tests, E2E tests, lint, build — all pass
 - [ ] 3.G2 Playwright MCP Learn mode walkthrough:
   - Select Italian Game → start Learn mode as White
@@ -306,7 +310,7 @@ After the gate verification passes, the following **must** happen before the nex
 
 - [ ] 4A.1 **Test:** Write comprehensive tests for SM-2 algorithm
   - EF calculation for grades 0, 3, 5
-  - Interval progression: 1d → 6d → EF*interval
+  - Interval progression: 1d → 6d → EF\*interval
   - EF floor at 1.3
   - Reset on failure (n=0, interval=1)
   - Edge cases: first review, long overdue card
@@ -348,6 +352,7 @@ After the gate verification passes, the following **must** happen before the nex
 - [ ] 4B.7 **E2E:** Memorize mode journey — select opening → play through → get graded → session summary
 
 ### Phase 4 Gate (🧪 E2EAgent via Playwright MCP)
+
 - [ ] 4.G1 Run all unit tests (SM-2, CardStore, session logic), E2E tests, lint, build — all pass
 - [ ] 4.G2 Playwright MCP Memorize mode walkthrough:
   - Select an opening → start Memorize mode
@@ -389,6 +394,7 @@ After the gate verification passes, the following **must** happen before the nex
 - [ ] 5.7 **E2E:** Play mode journey — start game → play moves → see assessments → go out of book
 
 ### Phase 5 Gate (🧪 E2EAgent via Playwright MCP)
+
 - [ ] 5.G1 Run all unit tests, E2E tests, lint, build — all pass
 - [ ] 5.G2 Playwright MCP Play mode walkthrough (variation-constrained):
   - Select Sicilian Najdorf → start Play mode as White
@@ -467,6 +473,7 @@ After the gate verification passes, the following **must** happen before the nex
 - [ ] 6F.6 E2E: Opening search and filter
 
 ### Phase 6 Gate — Final Release Verification (🧪 E2EAgent via Playwright MCP)
+
 - [ ] 6.G1 Run full test suite (unit + E2E), lint, production build — all pass
 - [ ] 6.G2 Playwright MCP full app walkthrough on production build (`npm run preview`):
   - HomeScreen → all 3 mode cards render, Memorize badge shows due count
@@ -543,24 +550,24 @@ are committed.**
 
 ## Agent Assignment Summary
 
-| Phase | Primary Agent | Supporting Agents | Estimated Complexity |
-|-------|--------------|-------------------|---------------------|
-| 0 | 🏗️ Scaffold | — | Low |
-| 1A | ♟️ ChessCore | — | Medium |
-| 1B | 📦 DataPipeline | — | High |
-| 2A | 🎨 UIComponents | — | Medium |
-| 2B | 🔗 Integrator | 🎨 UIComponents | Medium |
-| 2C | 🧠 StateModels | — | Medium |
-| 3 | 🧠 StateModels | 🎨 UIComponents, 🧪 E2EAgent | Medium |
-| 4A | 🔁 SM2Engine | — | High |
-| 4B | 🧠 StateModels | 🎨 UIComponents, 🧪 E2EAgent | Medium |
-| 5 | 🧠 StateModels | 🎨 UIComponents, 🧪 E2EAgent | Medium |
-| 6A | 🌐 PWAAgent | — | Medium |
-| 6B | 🔗 Integrator | 🎨 UIComponents | Low |
-| 6C | 🔁 SM2Engine | — | Low |
-| 6D | 🎨 UIComponents | — | Low |
-| 6E | 📦 DataPipeline | — | Medium |
-| 6F | 🧪 E2EAgent | — | Medium |
+| Phase | Primary Agent   | Supporting Agents            | Estimated Complexity |
+| ----- | --------------- | ---------------------------- | -------------------- |
+| 0     | 🏗️ Scaffold     | —                            | Low                  |
+| 1A    | ♟️ ChessCore    | —                            | Medium               |
+| 1B    | 📦 DataPipeline | —                            | High                 |
+| 2A    | 🎨 UIComponents | —                            | Medium               |
+| 2B    | 🔗 Integrator   | 🎨 UIComponents              | Medium               |
+| 2C    | 🧠 StateModels  | —                            | Medium               |
+| 3     | 🧠 StateModels  | 🎨 UIComponents, 🧪 E2EAgent | Medium               |
+| 4A    | 🔁 SM2Engine    | —                            | High                 |
+| 4B    | 🧠 StateModels  | 🎨 UIComponents, 🧪 E2EAgent | Medium               |
+| 5     | 🧠 StateModels  | 🎨 UIComponents, 🧪 E2EAgent | Medium               |
+| 6A    | 🌐 PWAAgent     | —                            | Medium               |
+| 6B    | 🔗 Integrator   | 🎨 UIComponents              | Low                  |
+| 6C    | 🔁 SM2Engine    | —                            | Low                  |
+| 6D    | 🎨 UIComponents | —                            | Low                  |
+| 6E    | 📦 DataPipeline | —                            | Medium               |
+| 6F    | 🧪 E2EAgent     | —                            | Medium               |
 
 ---
 

@@ -1,0 +1,373 @@
+{
+  "id": "barnes-opening",
+  "name": "Barnes Opening",
+  "eco": "A00",
+  "variations": [
+    {
+      "id": "barnes-opening",
+      "name": "Main Line",
+      "moves": {
+        "move": "",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "children": [
+          {
+            "move": "f3",
+            "fen": "rnbqkbnr/pppppppp/8/8/8/5P2/PPPPP1PP/RNBQKBNR b KQkq - 0 1",
+            "children": [],
+            "isMainLine": true,
+            "annotation": {
+              "moveRationale": "f3 advances a pawn, influencing the pawn structure and space.",
+              "strategicTheme": "Pawn structure",
+              "source": "generated"
+            }
+          }
+        ],
+        "isMainLine": true
+      },
+      "pgn": "1. f3"
+    },
+    {
+      "id": "barnes-opening-fools-mate",
+      "name": "Fool's Mate",
+      "moves": {
+        "move": "",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "children": [
+          {
+            "move": "f3",
+            "fen": "rnbqkbnr/pppppppp/8/8/8/5P2/PPPPP1PP/RNBQKBNR b KQkq - 0 1",
+            "children": [
+              {
+                "move": "e5",
+                "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/5P2/PPPPP1PP/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "g4",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4p3/6P1/5P2/PPPPP2P/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "Qh4#",
+                        "fen": "rnb1kbnr/pppp1ppp/8/4p3/6Pq/5P2/PPPPP2P/RNBQKBNR w KQkq - 1 3",
+                        "children": [],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "Qh4# delivers check, forcing the opponent to respond to the king threat.",
+                          "strategicTheme": "King pressure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "g4 advances a pawn, influencing the pawn structure and space.",
+                      "strategicTheme": "Pawn structure",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "e5 advances a pawn, influencing the pawn structure and space.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              }
+            ],
+            "isMainLine": true,
+            "annotation": {
+              "moveRationale": "f3 advances a pawn, influencing the pawn structure and space.",
+              "strategicTheme": "Pawn structure",
+              "source": "generated"
+            }
+          }
+        ],
+        "isMainLine": true
+      },
+      "pgn": "1. f3 e5 2. g4 Qh4#"
+    },
+    {
+      "id": "barnes-opening-gedult-gambit",
+      "name": "Gedult Gambit",
+      "moves": {
+        "move": "",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "children": [
+          {
+            "move": "f3",
+            "fen": "rnbqkbnr/pppppppp/8/8/8/5P2/PPPPP1PP/RNBQKBNR b KQkq - 0 1",
+            "children": [
+              {
+                "move": "d5",
+                "fen": "rnbqkbnr/ppp1pppp/8/3p4/8/5P2/PPPPP1PP/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "e4",
+                    "fen": "rnbqkbnr/ppp1pppp/8/3p4/4P3/5P2/PPPP2PP/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "g6",
+                        "fen": "rnbqkbnr/ppp1pp1p/6p1/3p4/4P3/5P2/PPPP2PP/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "d4",
+                            "fen": "rnbqkbnr/ppp1pp1p/6p1/3p4/3PP3/5P2/PPP3PP/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "dxe4",
+                                "fen": "rnbqkbnr/ppp1pp1p/6p1/8/3Pp3/5P2/PPP3PP/RNBQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "c3",
+                                    "fen": "rnbqkbnr/ppp1pp1p/6p1/8/3Pp3/2P2P2/PP4PP/RNBQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "c3 advances a pawn, influencing the pawn structure and space.",
+                                      "strategicTheme": "Pawn structure",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "dxe4 stakes a claim in the center, controlling key central squares.",
+                                  "strategicTheme": "Center control",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "d4 stakes a claim in the center, controlling key central squares.",
+                              "strategicTheme": "Center control",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "g6 advances a pawn, influencing the pawn structure and space.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "e4 stakes a claim in the center, controlling key central squares.",
+                      "strategicTheme": "Center control",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "d5 advances a pawn, influencing the pawn structure and space.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              }
+            ],
+            "isMainLine": true,
+            "annotation": {
+              "moveRationale": "f3 advances a pawn, influencing the pawn structure and space.",
+              "strategicTheme": "Pawn structure",
+              "source": "generated"
+            }
+          }
+        ],
+        "isMainLine": true
+      },
+      "pgn": "1. f3 d5 2. e4 g6 3. d4 dxe4 4. c3"
+    },
+    {
+      "id": "barnes-opening-gedult-gambit",
+      "name": "Gedult Gambit",
+      "moves": {
+        "move": "",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "children": [
+          {
+            "move": "f3",
+            "fen": "rnbqkbnr/pppppppp/8/8/8/5P2/PPPPP1PP/RNBQKBNR b KQkq - 0 1",
+            "children": [
+              {
+                "move": "f5",
+                "fen": "rnbqkbnr/ppppp1pp/8/5p2/8/5P2/PPPPP1PP/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "e4",
+                    "fen": "rnbqkbnr/ppppp1pp/8/5p2/4P3/5P2/PPPP2PP/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "fxe4",
+                        "fen": "rnbqkbnr/ppppp1pp/8/8/4p3/5P2/PPPP2PP/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "Nc3",
+                            "fen": "rnbqkbnr/ppppp1pp/8/8/4p3/2N2P2/PPPP2PP/R1BQKBNR b KQkq - 1 3",
+                            "children": [],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Nc3 develops a piece to an active square, contributing to the position.",
+                              "strategicTheme": "Piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "fxe4 captures material, changing the pawn structure or gaining an advantage.",
+                          "strategicTheme": "Material exchange",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "e4 stakes a claim in the center, controlling key central squares.",
+                      "strategicTheme": "Center control",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "f5 advances a pawn, influencing the pawn structure and space.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              }
+            ],
+            "isMainLine": true,
+            "annotation": {
+              "moveRationale": "f3 advances a pawn, influencing the pawn structure and space.",
+              "strategicTheme": "Pawn structure",
+              "source": "generated"
+            }
+          }
+        ],
+        "isMainLine": true
+      },
+      "pgn": "1. f3 f5 2. e4 fxe4 3. Nc3"
+    },
+    {
+      "id": "barnes-opening-hammerschlag",
+      "name": "Hammerschlag",
+      "moves": {
+        "move": "",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "children": [
+          {
+            "move": "f3",
+            "fen": "rnbqkbnr/pppppppp/8/8/8/5P2/PPPPP1PP/RNBQKBNR b KQkq - 0 1",
+            "children": [
+              {
+                "move": "e5",
+                "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/5P2/PPPPP1PP/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "Kf2",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/5P2/PPPPPKPP/RNBQ1BNR b kq - 1 2",
+                    "children": [],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "Kf2 improves the position.",
+                      "strategicTheme": "Position improvement",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "e5 advances a pawn, influencing the pawn structure and space.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              }
+            ],
+            "isMainLine": true,
+            "annotation": {
+              "moveRationale": "f3 advances a pawn, influencing the pawn structure and space.",
+              "strategicTheme": "Pawn structure",
+              "source": "generated"
+            }
+          }
+        ],
+        "isMainLine": true
+      },
+      "pgn": "1. f3 e5 2. Kf2"
+    },
+    {
+      "id": "barnes-opening-walkerling",
+      "name": "Walkerling",
+      "moves": {
+        "move": "",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "children": [
+          {
+            "move": "f3",
+            "fen": "rnbqkbnr/pppppppp/8/8/8/5P2/PPPPP1PP/RNBQKBNR b KQkq - 0 1",
+            "children": [
+              {
+                "move": "e5",
+                "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/5P2/PPPPP1PP/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "e4",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5P2/PPPP2PP/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "Nf6",
+                        "fen": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/5P2/PPPP2PP/RNBQKBNR w KQkq - 1 3",
+                        "children": [
+                          {
+                            "move": "Bc4",
+                            "fen": "rnbqkb1r/pppp1ppp/5n2/4p3/2B1P3/5P2/PPPP2PP/RNBQK1NR b KQkq - 2 3",
+                            "children": [],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Bc4 develops a piece to an active square, contributing to the position.",
+                              "strategicTheme": "Piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "Nf6 develops a piece to an active square, contributing to the position.",
+                          "strategicTheme": "Piece development",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "e4 stakes a claim in the center, controlling key central squares.",
+                      "strategicTheme": "Center control",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "e5 advances a pawn, influencing the pawn structure and space.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              }
+            ],
+            "isMainLine": true,
+            "annotation": {
+              "moveRationale": "f3 advances a pawn, influencing the pawn structure and space.",
+              "strategicTheme": "Pawn structure",
+              "source": "generated"
+            }
+          }
+        ],
+        "isMainLine": true
+      },
+      "pgn": "1. f3 e5 2. e4 Nf6 3. Bc4"
+    }
+  ]
+}

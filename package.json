@@ -11,6 +11,7 @@
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
     "preview": "vite preview",
+    "build:openings": "npx tsx scripts/compile-opening-data.ts",
     "prepare": "husky"
   },
   "lint-staged": {

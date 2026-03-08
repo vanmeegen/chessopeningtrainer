@@ -26,6 +26,9 @@
 *.iws
 .idea_modules/
 
+# pipeline cache
+scripts/data/
+
 # debug
 npm-debug.log*
 yarn-debug.log*
