@@ -194,6 +194,14 @@ const SettingsScreen = observer(function SettingsScreen(): React.JSX.Element {
         <div className="settings-attribution">
           Opening data from lichess-org/chess-openings (CC0). Annotations from
           Wikibooks (CC BY-SA 3.0).
+          <br />
+          <a
+            href="/licensing.html"
+            data-testid="licenses-link"
+            className="settings-licenses-link"
+          >
+            Open Source Licenses
+          </a>
         </div>
       </div>
     </div>
