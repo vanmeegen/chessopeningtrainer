@@ -70,14 +70,16 @@ describe("OpeningCatalogModel", () => {
       const grouped = model.groupedEntries;
       expect(grouped.size).toBeGreaterThan(0);
 
-      // Verify known categories exist
-      expect(grouped.has("e4")).toBe(true);
-      expect(grouped.has("d4")).toBe(true);
+      // Verify known categories exist (7-category system)
+      expect(grouped.has("open")).toBe(true);
+      expect(grouped.has("semi-open")).toBe(true);
+      expect(grouped.has("closed")).toBe(true);
+      expect(grouped.has("indian")).toBe(true);
 
       // Verify all entries in a group have the correct category
-      const e4Entries = grouped.get("e4")!;
-      for (const entry of e4Entries) {
-        expect(entry.category).toBe("e4");
+      const openEntries = grouped.get("open")!;
+      for (const entry of openEntries) {
+        expect(entry.category).toBe("open");
       }
     });
 

@@ -10,6 +10,8 @@ import { annotateTreeFromWikibooks } from "./fetch-wikibooks-annotations.js";
 import type {
   Opening,
   OpeningCatalogEntry,
+  OpeningCategory,
+  ImportanceRating,
   Variation,
   MoveNode,
 } from "../src/types/OpeningTypes.js";
@@ -21,18 +23,111 @@ const PROJECT_ROOT = join(__dirname, "..");
 const CATALOG_OUTPUT = join(PROJECT_ROOT, "src", "data", "openingCatalog.json");
 const OPENINGS_OUTPUT_DIR = join(PROJECT_ROOT, "public", "openings");
 
-/**
- * Determine the opening category based on the first move in the PGN.
- */
-function categorizeOpening(opening: ParsedOpening): string {
-  if (opening.variations.length === 0) return "other";
+/** Curated importance ratings (duplicated from src/data for build-time use) */
+const importanceMap: Record<string, ImportanceRating> = {
+  "ruy-lopez": 3,
+  "italian-game": 3,
+  "sicilian-defense": 3,
+  "french-defense": 3,
+  "queens-gambit-declined": 3,
+  "kings-indian-defense": 3,
+  "nimzo-indian-defense": 3,
+  "queens-gambit": 3,
+  "caro-kann-defense": 3,
+  "english-opening": 3,
+  "slav-defense": 3,
+  "london-system": 3,
+  "scotch-game": 2,
+  "petrovs-defense": 2,
+  "four-knights-game": 2,
+  "kings-gambit": 2,
+  "kings-gambit-accepted": 2,
+  "kings-gambit-declined": 2,
+  "philidor-defense": 2,
+  "queens-gambit-accepted": 2,
+  "semi-slav-defense": 2,
+  "catalan-opening": 2,
+  "queens-indian-defense": 2,
+  "benoni-defense": 2,
+  "grnfeld-defense": 2,
+  "dutch-defense": 2,
+  "pirc-defense": 2,
+  "rti-opening": 2,
+  "vienna-game": 2,
+  "scandinavian-defense": 2,
+  "alekhine-defense": 2,
+  "bogo-indian-defense": 2,
+  "old-indian-defense": 2,
+  "trompowsky-attack": 2,
+  "bishops-opening": 2,
+  "nimzo-larsen-attack": 2,
+  "bird-opening": 2,
+  "modern-defense": 2,
+  "tarrasch-defense": 2,
+  "kings-indian-attack": 2,
+  "center-game": 2,
+  "ponziani-opening": 2,
+  "three-knights-opening": 2,
+};
 
-  const firstPgn = opening.variations[0]!.pgn;
-  if (firstPgn.startsWith("1. e4")) return "e4";
-  if (firstPgn.startsWith("1. d4")) return "d4";
-  if (firstPgn.startsWith("1. c4")) return "c4";
-  if (firstPgn.startsWith("1. Nf3")) return "Nf3";
-  return "other";
+/**
+ * Determine the opening category based on the first moves in the PGN.
+ * Uses 7 chess-theory categories.
+ */
+function categorizeOpening(opening: ParsedOpening): OpeningCategory {
+  if (opening.variations.length === 0) return "unusual";
+
+  const pgn = opening.variations[0]!.pgn;
+
+  if (pgn.startsWith("1. e4")) {
+    // Check Black's response to 1.e4
+    const afterE4 = pgn.substring(5).trim();
+    if (afterE4.startsWith("e5")) return "open";
+    return "semi-open";
+  }
+
+  if (pgn.startsWith("1. d4")) {
+    const afterD4 = pgn.substring(5).trim();
+    if (afterD4.startsWith("d5")) return "closed";
+    if (afterD4.startsWith("Nf6")) return "indian";
+    return "semi-closed";
+  }
+
+  if (pgn.startsWith("1. c4") || pgn.startsWith("1. Nf3")) return "flank";
+
+  return "unusual";
+}
+
+/**
+ * Extract the first N plies from a PGN string.
+ */
+function extractFirstMoves(pgn: string, maxPlies: number = 5): string {
+  const moveRegex = /(\d+\.\s*\S+(?:\s+\S+)?)/g;
+  const parts: string[] = [];
+  let plyCount = 0;
+  let match: RegExpExecArray | null;
+
+  while ((match = moveRegex.exec(pgn)) !== null) {
+    const moveText = match[1]!;
+    // Each numbered move can contain White + Black move
+    const moveParts = moveText.split(/\s+/);
+    for (const part of moveParts) {
+      if (/^\d+\./.test(part)) continue; // skip move number
+      plyCount++;
+      if (plyCount > maxPlies) break;
+    }
+    if (plyCount > maxPlies) {
+      // Truncate this move group
+      const truncated = moveParts
+        .slice(0, moveParts.length - (plyCount - maxPlies))
+        .join(" ");
+      if (truncated) parts.push(truncated);
+      break;
+    }
+    parts.push(moveText);
+  }
+
+  return parts.join(" ");
 }
 
 /**
@@ -129,12 +224,15 @@ function createEmptyRoot(): MoveNode {
  * Build catalog entry from a parsed opening.
  */
 function buildCatalogEntry(opening: ParsedOpening): OpeningCatalogEntry {
+  const firstPgn = opening.variations[0]?.pgn ?? "";
   return {
     id: opening.id,
     name: opening.name,
     eco: opening.eco,
     variationCount: opening.variations.length,
     category: categorizeOpening(opening),
+    importance: importanceMap[opening.id] ?? 1,
+    firstMoves: extractFirstMoves(firstPgn),
   };
 }
 

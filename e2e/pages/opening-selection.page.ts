@@ -31,6 +31,14 @@ export class OpeningSelectionPage {
     return this.page.getByTestId("train-all-button");
   }
 
+  get categorySections() {
+    return this.page.getByTestId("category-section");
+  }
+
+  get categoryHeaders() {
+    return this.page.getByTestId("category-header");
+  }
+
   async search(query: string) {
     await this.searchInput.fill(query);
   }
@@ -39,8 +47,9 @@ export class OpeningSelectionPage {
     await this.searchInput.clear();
   }
 
-  /** Select an opening in the master list (loads its variations) */
+  /** Search for an opening, then select it in the tree */
   async selectOpeningByName(name: string) {
+    await this.searchInput.fill(name);
     await this.page
       .getByTestId("opening-item")
       .filter({ hasText: name })
@@ -48,8 +57,9 @@ export class OpeningSelectionPage {
       .click();
   }
 
-  /** Double-click an opening to navigate directly to training */
+  /** Search for an opening, then double-click to navigate directly to training */
   async openOpeningByName(name: string) {
+    await this.searchInput.fill(name);
     await this.page
       .getByTestId("opening-item")
       .filter({ hasText: name })
@@ -62,6 +72,15 @@ export class OpeningSelectionPage {
     await this.page
       .getByTestId("variation-item")
       .filter({ hasText: name })
+      .first()
+      .click();
+  }
+
+  /** Click a category header to expand/collapse it */
+  async toggleCategory(label: string) {
+    await this.page
+      .getByTestId("category-header")
+      .filter({ hasText: label })
       .first()
       .click();
   }

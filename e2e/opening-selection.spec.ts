@@ -14,10 +14,20 @@ test.describe("Opening Selection", () => {
     await expect(selection.screen).toBeVisible();
   });
 
-  test("displays opening list with items", async () => {
-    const items = selection.openingItems;
-    const count = await items.count();
+  test("displays category sections", async () => {
+    const sections = selection.categorySections;
+    const count = await sections.count();
     expect(count).toBeGreaterThan(0);
+  });
+
+  test("category headers are visible and collapsible", async () => {
+    const headers = selection.categoryHeaders;
+    const count = await headers.count();
+    expect(count).toBeGreaterThan(0);
+
+    // First header text should contain a category label
+    const firstHeaderText = await headers.first().textContent();
+    expect(firstHeaderText?.length).toBeGreaterThan(0);
   });
 
   test("search filters openings by name", async () => {
@@ -27,9 +37,10 @@ test.describe("Opening Selection", () => {
     const count = await items.count();
     expect(count).toBeGreaterThan(0);
 
-    // All visible items should contain "Sicilian"
-    const firstItemText = await items.first().textContent();
-    expect(firstItemText?.toLowerCase()).toContain("sicilian");
+    // At least one visible item should contain "Sicilian"
+    const matchingItem = items.filter({ hasText: "Sicilian" });
+    const matchCount = await matchingItem.count();
+    expect(matchCount).toBeGreaterThan(0);
   });
 
   test("search filters openings by ECO code", async () => {
@@ -48,23 +59,27 @@ test.describe("Opening Selection", () => {
     expect(count).toBe(0);
   });
 
-  test("clearing search shows all openings again", async () => {
-    const initialCount = await selection.openingItems.count();
-
+  test("clearing search restores category view", async () => {
     await selection.search("Sicilian");
     const filteredCount = await selection.openingItems.count();
-    expect(filteredCount).toBeLessThan(initialCount);
+    expect(filteredCount).toBeGreaterThan(0);
 
     await selection.clearSearch();
-    const restoredCount = await selection.openingItems.count();
-    expect(restoredCount).toBe(initialCount);
+    // Categories should be visible again
+    const sectionCount = await selection.categorySections.count();
+    expect(sectionCount).toBeGreaterThan(0);
   });
 
-  test("opening items show name and ECO code", async () => {
+  test("opening items show name", async () => {
     await selection.search("Italian Game");
 
-    const firstItem = selection.openingItems.first();
-    const text = await firstItem.textContent();
+    const matchingItem = selection.openingItems.filter({
+      hasText: "Italian Game",
+    });
+    const count = await matchingItem.count();
+    expect(count).toBeGreaterThan(0);
+
+    const text = await matchingItem.first().textContent();
     expect(text).toContain("Italian Game");
   });
 });

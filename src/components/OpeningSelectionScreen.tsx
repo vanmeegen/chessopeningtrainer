@@ -6,37 +6,122 @@ import {
   loadOpeningCatalog,
   loadOpeningData,
 } from "../utils/OpeningDataLoader";
-import type { OpeningCatalogEntry, Variation } from "../types/OpeningTypes";
+import { buildCategoryTrees, searchTree } from "../utils/openingTreeBuilder";
+import type {
+  OpeningCatalogEntry,
+  CategoryGroup,
+  OpeningTreeNode,
+  ImportanceRating,
+  Variation,
+} from "../types/OpeningTypes";
 
 const catalog: OpeningCatalogEntry[] = loadOpeningCatalog();
+const categoryTrees: CategoryGroup[] = buildCategoryTrees(catalog);
 
 function formatModeTitle(mode: string): string {
   return mode.charAt(0).toUpperCase() + mode.slice(1);
 }
 
-/** Observable state for the two-panel opening selector */
-class OpeningSelectorState {
-  searchQuery = "";
+function importanceStars(importance: ImportanceRating): string {
+  if (importance === 3) return "\u2605\u2605\u2605";
+  if (importance === 2) return "\u2605\u2605";
+  return "\u2605";
+}
+
+function importanceClass(importance: ImportanceRating): string {
+  if (importance === 3) return "importance-essential";
+  if (importance === 2) return "importance-important";
+  return "importance-niche";
+}
+
+/** Observable state for the tree-based opening selector */
+class OpeningTreeSelectorState {
+  expandedCategories = new Set<string>(["open"]);
+  expandedBranches = new Set<string>();
+  showRare = false;
   selectedOpeningId: string | null = null;
   variations: Variation[] = [];
   isLoadingVariations = false;
   loadError: string | null = null;
+  searchQuery = "";
 
   constructor() {
     makeAutoObservable(this);
   }
 
-  get filteredOpenings(): OpeningCatalogEntry[] {
-    const q = this.searchQuery.toLowerCase();
-    if (!q) return catalog;
-    return catalog.filter(
-      (o) =>
-        o.name.toLowerCase().includes(q) || o.eco.toLowerCase().includes(q),
-    );
+  get isSearching(): boolean {
+    return this.searchQuery.length > 0;
+  }
+
+  get searchResults(): {
+    matchedIds: Set<string>;
+    expandPaths: Set<string>;
+    matchedCategories: Set<string>;
+  } {
+    if (!this.isSearching) {
+      return {
+        matchedIds: new Set(),
+        expandPaths: new Set(),
+        matchedCategories: new Set(),
+      };
+    }
+
+    const allMatchedIds = new Set<string>();
+    const allExpandPaths = new Set<string>();
+    const matchedCategories = new Set<string>();
+
+    for (const group of categoryTrees) {
+      const result = searchTree(group.roots, this.searchQuery);
+      if (result.matchedIds.size > 0) {
+        matchedCategories.add(group.key);
+        for (const id of result.matchedIds) allMatchedIds.add(id);
+        for (const path of result.expandPaths) allExpandPaths.add(path);
+      }
+    }
+
+    return {
+      matchedIds: allMatchedIds,
+      expandPaths: allExpandPaths,
+      matchedCategories,
+    };
   }
 
   setSearch(query: string): void {
     this.searchQuery = query;
+  }
+
+  toggleCategory(key: string): void {
+    if (this.expandedCategories.has(key)) {
+      this.expandedCategories.delete(key);
+    } else {
+      this.expandedCategories.add(key);
+    }
+  }
+
+  toggleBranch(path: string): void {
+    if (this.expandedBranches.has(path)) {
+      this.expandedBranches.delete(path);
+    } else {
+      this.expandedBranches.add(path);
+    }
+  }
+
+  toggleShowRare(): void {
+    this.showRare = !this.showRare;
+  }
+
+  isBranchExpanded(path: string): boolean {
+    if (this.isSearching) {
+      return this.searchResults.expandPaths.has(path);
+    }
+    return this.expandedBranches.has(path);
+  }
+
+  isCategoryExpanded(key: string): boolean {
+    if (this.isSearching) {
+      return this.searchResults.matchedCategories.has(key);
+    }
+    return this.expandedCategories.has(key);
   }
 
   async selectOpening(openingId: string): Promise<void> {
@@ -66,21 +151,170 @@ class OpeningSelectorState {
   }
 }
 
+/** Renders a single tree node and its children recursively */
+const TreeNode = observer(function TreeNode({
+  node,
+  depth,
+  parentPath,
+  state,
+  onSelect,
+  onDirect,
+}: {
+  node: OpeningTreeNode;
+  depth: number;
+  parentPath: string;
+  state: OpeningTreeSelectorState;
+  onSelect: (id: string) => void;
+  onDirect: (id: string) => void;
+}): React.JSX.Element {
+  const nodePath = parentPath ? `${parentPath}/${node.move}` : node.move;
+  const hasChildren = node.children.length > 0;
+  const isExpanded = state.isBranchExpanded(nodePath);
+  const isSearching = state.isSearching;
+  const matchedIds = isSearching ? state.searchResults.matchedIds : null;
+
+  const showRareChildren = state.showRare || isSearching;
+
+  // Filter children: hide rare unless showRare or searching
+  const visibleChildren = hasChildren
+    ? node.children.filter((child) => {
+        if (showRareChildren) return true;
+        if (isSearching && matchedIds) {
+          return hasMatchInSubtree(child, matchedIds);
+        }
+        const maxImp = getSubtreeMaxImportance(child);
+        return maxImp >= 2;
+      })
+    : [];
+
+  const hiddenCount = node.children.length - visibleChildren.length;
+
+  const isSelected = node.opening?.id === state.selectedOpeningId;
+
+  return (
+    <div className="tree-node" data-testid="tree-node">
+      <div
+        className={`tree-node-row${isSelected ? " tree-node-selected" : ""}`}
+        style={{ paddingLeft: `${depth * 1.25 + 0.5}rem` }}
+        data-testid={node.opening ? "opening-item" : "tree-branch"}
+        onClick={() => {
+          if (node.opening) {
+            onSelect(node.opening.id);
+          }
+          if (hasChildren) {
+            state.toggleBranch(nodePath);
+          }
+        }}
+        onDoubleClick={() => {
+          if (node.opening) {
+            onDirect(node.opening.id);
+          }
+        }}
+        role="button"
+        tabIndex={0}
+        onKeyDown={(e) => {
+          if (e.key === "Enter" && node.opening) {
+            onDirect(node.opening.id);
+          } else if (e.key === " ") {
+            e.preventDefault();
+            if (node.opening) onSelect(node.opening.id);
+            if (hasChildren) state.toggleBranch(nodePath);
+          }
+        }}
+      >
+        {hasChildren && (
+          <span className="tree-chevron">
+            {isExpanded ? "\u25BE" : "\u25B8"}
+          </span>
+        )}
+        <span className="tree-move">{node.move}</span>
+        {node.opening && (
+          <>
+            <span className="tree-opening-name">{node.opening.name}</span>
+            <span
+              className={`tree-importance ${importanceClass(node.opening.importance)}`}
+            >
+              {importanceStars(node.opening.importance)}
+            </span>
+            <span className="tree-var-count">
+              {node.opening.variationCount}{" "}
+              {node.opening.variationCount === 1 ? "var" : "vars"}
+            </span>
+          </>
+        )}
+      </div>
+      {isExpanded && visibleChildren.length > 0 && (
+        <div className="tree-children">
+          {visibleChildren.map((child) => (
+            <TreeNode
+              key={child.move}
+              node={child}
+              depth={depth + 1}
+              parentPath={nodePath}
+              state={state}
+              onSelect={onSelect}
+              onDirect={onDirect}
+            />
+          ))}
+          {hiddenCount > 0 && !showRareChildren && (
+            <div
+              className="tree-show-more"
+              style={{ paddingLeft: `${(depth + 1) * 1.25 + 0.5}rem` }}
+              data-testid="show-more-link"
+              onClick={() => state.toggleShowRare()}
+              role="button"
+              tabIndex={0}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault();
+                  state.toggleShowRare();
+                }
+              }}
+            >
+              ({hiddenCount} more...)
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+});
+
+function hasMatchInSubtree(
+  node: OpeningTreeNode,
+  matchedIds: Set<string>,
+): boolean {
+  if (node.opening && matchedIds.has(node.opening.id)) return true;
+  return node.children.some((child) => hasMatchInSubtree(child, matchedIds));
+}
+
+function getSubtreeMaxImportance(node: OpeningTreeNode): ImportanceRating {
+  let max: ImportanceRating = node.opening?.importance ?? 1;
+  for (const child of node.children) {
+    const childMax = getSubtreeMaxImportance(child);
+    if (childMax > max) max = childMax;
+  }
+  return max;
+}
+
 const OpeningSelectionScreen = observer(
   function OpeningSelectionScreen(): React.JSX.Element {
     const { mode } = useParams<{ mode: string }>();
     const navigate = useNavigate();
 
-    const stateRef = useRef<OpeningSelectorState | null>(null);
+    const stateRef = useRef<OpeningTreeSelectorState | null>(null);
     if (stateRef.current === null) {
-      stateRef.current = new OpeningSelectorState();
+      stateRef.current = new OpeningTreeSelectorState();
     }
     const state = stateRef.current;
 
-    // Auto-select first opening if none selected
+    // Auto-select first important opening if none selected
     useEffect(() => {
-      if (!state.selectedOpeningId && state.filteredOpenings.length > 0) {
-        void state.selectOpening(state.filteredOpenings[0]!.id);
+      if (!state.selectedOpeningId) {
+        const firstImportant = catalog.find((o) => o.importance >= 2);
+        if (firstImportant) {
+          void state.selectOpening(firstImportant.id);
+        }
       }
     }, [state]);
 
@@ -91,8 +325,11 @@ const OpeningSelectionScreen = observer(
     };
 
     const handleSelectOpeningDirect = (openingId: string): void => {
-      // If opening has only one variation or user double-clicks, go directly
       navigate(`/train/${mode ?? "learn"}/${openingId}`);
+    };
+
+    const handleSelectOpening = (openingId: string): void => {
+      void state.selectOpening(openingId);
     };
 
     return (
@@ -124,42 +361,69 @@ const OpeningSelectionScreen = observer(
           />
         </div>
         <div className="opening-browser" data-testid="opening-list">
-          {/* Left panel: opening list */}
+          {/* Left panel: category tree */}
           <div
             className="opening-master-list"
             data-testid="opening-master-list"
           >
-            {state.filteredOpenings.length === 0 && (
+            {categoryTrees.map((group) => {
+              const isExpanded = state.isCategoryExpanded(group.key);
+              const isSearching = state.isSearching;
+
+              // When searching, skip categories with no matches
+              if (
+                isSearching &&
+                !state.searchResults.matchedCategories.has(group.key)
+              ) {
+                return null;
+              }
+
+              return (
+                <div
+                  key={group.key}
+                  className="category-section"
+                  data-testid="category-section"
+                >
+                  <div
+                    className="category-header"
+                    data-testid="category-header"
+                    onClick={() => state.toggleCategory(group.key)}
+                    role="button"
+                    tabIndex={0}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter" || e.key === " ") {
+                        e.preventDefault();
+                        state.toggleCategory(group.key);
+                      }
+                    }}
+                  >
+                    <span className="category-chevron">
+                      {isExpanded ? "\u25BE" : "\u25B8"}
+                    </span>
+                    <span className="category-label">{group.label}</span>
+                    <span className="category-subtitle">{group.subtitle}</span>
+                  </div>
+                  {isExpanded && (
+                    <div className="category-tree">
+                      {group.roots.map((root) => (
+                        <TreeNode
+                          key={root.move}
+                          node={root}
+                          depth={0}
+                          parentPath=""
+                          state={state}
+                          onSelect={handleSelectOpening}
+                          onDirect={handleSelectOpeningDirect}
+                        />
+                      ))}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+            {state.isSearching && state.searchResults.matchedIds.size === 0 && (
               <div className="empty-state">No openings match your search.</div>
             )}
-            {state.filteredOpenings.map((opening) => (
-              <div
-                key={opening.id}
-                className={`opening-item${state.selectedOpeningId === opening.id ? " opening-item-selected" : ""}`}
-                data-testid="opening-item"
-                onClick={() => void state.selectOpening(opening.id)}
-                onDoubleClick={() => handleSelectOpeningDirect(opening.id)}
-                role="button"
-                tabIndex={0}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter") {
-                    handleSelectOpeningDirect(opening.id);
-                  } else if (e.key === " ") {
-                    e.preventDefault();
-                    void state.selectOpening(opening.id);
-                  }
-                }}
-              >
-                <div className="opening-item-info">
-                  <span className="opening-item-name">{opening.name}</span>
-                  <span className="opening-item-eco">{opening.eco}</span>
-                </div>
-                <span className="opening-item-variations">
-                  {opening.variationCount}{" "}
-                  {opening.variationCount === 1 ? "var" : "vars"}
-                </span>
-              </div>
-            ))}
           </div>
 
           {/* Right panel: variations list */}

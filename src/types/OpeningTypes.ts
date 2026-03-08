@@ -33,11 +33,47 @@ export type Opening = {
   variations: Variation[];
 };
 
+/** Importance rating: 3 = essential, 2 = important, 1 = niche */
+export type ImportanceRating = 1 | 2 | 3;
+
+/** The 7 chess-theory categories */
+export type OpeningCategory =
+  | "open"
+  | "semi-open"
+  | "closed"
+  | "indian"
+  | "semi-closed"
+  | "flank"
+  | "unusual";
+
 /** Lightweight catalog entry for the opening list (bundled with app) */
 export type OpeningCatalogEntry = {
   id: string;
   name: string;
   eco: string;
   variationCount: number;
-  category: string;
+  category: OpeningCategory;
+  importance: ImportanceRating;
+  firstMoves: string;
+};
+
+/** A node in the opening selection tree (move trie) */
+export type OpeningTreeNode = {
+  move: string;
+  children: OpeningTreeNode[];
+  opening?: {
+    id: string;
+    name: string;
+    eco: string;
+    importance: ImportanceRating;
+    variationCount: number;
+  };
+};
+
+/** A category group with its move tree */
+export type CategoryGroup = {
+  key: OpeningCategory;
+  label: string;
+  subtitle: string;
+  roots: OpeningTreeNode[];
 };
