@@ -323,6 +323,88 @@ body {
   color: var(--text-secondary);
 }
 
+/* Play Controls */
+.play-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.play-controls-buttons {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.btn-show-book-move,
+.btn-restart {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background: var(--bg-card);
+  color: var(--text-primary);
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition:
+    background-color 0.2s,
+    border-color 0.2s;
+}
+
+.btn-show-book-move:hover:not(:disabled),
+.btn-restart:hover {
+  background-color: var(--bg-card-hover);
+  border-color: var(--text-secondary);
+}
+
+.btn-show-book-move:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.assessment-message {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+}
+
+.book-move-hint {
+  font-size: 0.95rem;
+  color: var(--text-accent);
+}
+
+/* Move Assessment Badge */
+.move-assessment-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.badge-symbol {
+  font-size: 1rem;
+}
+
+.badge-book {
+  background-color: rgba(76, 175, 80, 0.2);
+  color: #4caf50;
+  border: 1px solid rgba(76, 175, 80, 0.4);
+}
+
+.badge-playable {
+  background-color: rgba(255, 193, 7, 0.2);
+  color: #ffc107;
+  border: 1px solid rgba(255, 193, 7, 0.4);
+}
+
+.badge-inaccuracy {
+  background-color: rgba(244, 67, 54, 0.2);
+  color: #f44336;
+  border: 1px solid rgba(244, 67, 54, 0.4);
+}
+
 /* Empty state */
 .empty-state {
   text-align: center;
