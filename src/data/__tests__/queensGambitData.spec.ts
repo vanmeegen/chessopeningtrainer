@@ -6,6 +6,21 @@ import type { Opening, MoveNode } from "../../types/OpeningTypes";
 const OPENINGS_DIR = join(__dirname, "../../../public/openings");
 const MIN_MAIN_LINE_DEPTH = 1;
 
+/** Collect all leaf depths from a node */
+function collectLeafDepths(
+  node: MoveNode,
+  depth: number,
+  results: number[],
+): void {
+  if (node.children.length === 0) {
+    results.push(depth);
+    return;
+  }
+  for (const child of node.children) {
+    collectLeafDepths(child, depth + 1, results);
+  }
+}
+
 function loadOpening(filename: string): Opening {
   const raw = readFileSync(join(OPENINGS_DIR, filename), "utf-8");
   return JSON.parse(raw) as Opening;
@@ -96,6 +111,101 @@ describe("All opening variations minimum depth", () => {
         .join("\n");
       expect.fail(
         `${tooShort.length} variations have fewer than ${MIN_MAIN_LINE_DEPTH} half-moves:\n${summary}`,
+      );
+    }
+  });
+});
+
+describe("Opening data consistency", () => {
+  const files = readdirSync(OPENINGS_DIR).filter((f) => f.endsWith(".json"));
+
+  it("every opening file should be valid JSON with required fields", () => {
+    for (const file of files) {
+      const raw = readFileSync(join(OPENINGS_DIR, file), "utf-8");
+      const opening = JSON.parse(raw) as Opening;
+      expect(opening.id, `${file} missing id`).toBeTruthy();
+      expect(opening.name, `${file} missing name`).toBeTruthy();
+      expect(opening.eco, `${file} missing eco`).toBeTruthy();
+      expect(
+        opening.variations.length,
+        `${file} has no variations`,
+      ).toBeGreaterThan(0);
+    }
+  });
+
+  it("every variation should have a valid move tree with FEN at each node", () => {
+    const invalid: string[] = [];
+    for (const file of files) {
+      const opening = loadOpening(file);
+      for (const variation of opening.variations) {
+        function checkNode(node: MoveNode, path: string): void {
+          if (!node.fen) {
+            invalid.push(`${file}/${variation.name}: missing FEN at ${path}`);
+          }
+          for (const child of node.children) {
+            checkNode(child, `${path}/${child.move}`);
+          }
+        }
+        checkNode(variation.moves, "root");
+      }
+    }
+    if (invalid.length > 0) {
+      expect.fail(
+        `${invalid.length} nodes missing FEN:\n${invalid.slice(0, 10).join("\n")}`,
+      );
+    }
+  });
+
+  it("should report depth statistics across all openings", () => {
+    let totalLeaves = 0;
+    let shortLeaves = 0;
+    const TARGET_DEPTH = 12;
+
+    for (const file of files) {
+      const opening = loadOpening(file);
+      for (const variation of opening.variations) {
+        const depths: number[] = [];
+        collectLeafDepths(variation.moves, 0, depths);
+        for (const d of depths) {
+          totalLeaves++;
+          if (d < TARGET_DEPTH) shortLeaves++;
+        }
+      }
+    }
+
+    const pct = ((shortLeaves / totalLeaves) * 100).toFixed(1);
+    console.log(
+      `  Leaf depth stats: ${totalLeaves} total, ${shortLeaves} short (<${TARGET_DEPTH}), ${pct}% short`,
+    );
+
+    // This is informational — not a hard failure yet.
+    // Once we have enough data sources, we can tighten this.
+    expect(totalLeaves).toBeGreaterThan(0);
+  });
+
+  it("every node annotation should have a valid source", () => {
+    const badSources: string[] = [];
+    for (const file of files) {
+      const opening = loadOpening(file);
+      for (const variation of opening.variations) {
+        function checkAnnotation(node: MoveNode): void {
+          if (node.annotation) {
+            if (!["wikibooks", "generated"].includes(node.annotation.source)) {
+              badSources.push(
+                `${file}/${variation.name}/${node.move}: source="${node.annotation.source}"`,
+              );
+            }
+          }
+          for (const child of node.children) {
+            checkAnnotation(child);
+          }
+        }
+        checkAnnotation(variation.moves);
+      }
+    }
+    if (badSources.length > 0) {
+      expect.fail(
+        `${badSources.length} annotations with invalid source:\n${badSources.slice(0, 10).join("\n")}`,
       );
     }
   });
