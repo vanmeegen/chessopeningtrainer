@@ -13,6 +13,7 @@
     "preview": "vite preview",
     "test:e2e": "node scripts/check-playwright.mjs && playwright test",
     "test:e2e:ui": "node scripts/check-playwright.mjs && playwright test --ui",
+    "test:e2e:ghpages": "node scripts/check-playwright.mjs && PLAYWRIGHT_BASE_URL=https://vanmeegen.github.io/chessopeningtrainer/ playwright test",
     "playwright:install": "playwright install",
     "build:openings": "npx tsx scripts/compile-opening-data.ts",
     "prepare": "husky"
