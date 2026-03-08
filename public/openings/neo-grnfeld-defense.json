@@ -33,7 +33,79 @@
                               {
                                 "move": "d5",
                                 "fen": "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/5P2/PP2P1PP/RNBQKBNR w KQkq - 0 4",
-                                "children": [],
+                                "children": [
+                                  {
+                                    "move": "cxd5",
+                                    "fen": "rnbqkb1r/ppp1pp1p/5np1/3P4/3P4/5P2/PP2P1PP/RNBQKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Nxd5",
+                                        "fen": "rnbqkb1r/ppp1pp1p/6p1/3n4/3P4/5P2/PP2P1PP/RNBQKBNR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "e4",
+                                            "fen": "rnbqkb1r/ppp1pp1p/6p1/3n4/3PP3/5P2/PP4PP/RNBQKBNR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Nb6",
+                                                "fen": "rnbqkb1r/ppp1pp1p/1n4p1/8/3PP3/5P2/PP4PP/RNBQKBNR w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Nc3",
+                                                    "fen": "rnbqkb1r/ppp1pp1p/1n4p1/8/3PP3/2N2P2/PP4PP/R1BQKBNR b KQkq - 2 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Bg7",
+                                                        "fen": "rnbqk2r/ppp1ppbp/1n4p1/8/3PP3/2N2P2/PP4PP/R1BQKBNR w KQkq - 3 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Bg7 develops a piece to an active square in the Neo-Grünfeld Defense.",
+                                                          "strategicTheme": "Bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Neo-Grünfeld Defense.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Nb6 develops a piece to an active square in the Neo-Grünfeld Defense.",
+                                                  "strategicTheme": "Knight activity",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "e4 impacts the center, shaping the pawn structure in the Neo-Grünfeld Defense.",
+                                              "strategicTheme": "Central tension",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Nxd5 exchanges material, altering the pawn structure in the Neo-Grünfeld Defense.",
+                                          "strategicTheme": "Material exchange",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Neo-Grünfeld Defense.",
+                                      "strategicTheme": "Material exchange",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
                                 "isMainLine": true,
                                 "annotation": {
                                   "moveRationale": "d5 advances a pawn, influencing the structure in the Neo-Grünfeld Defense.",
@@ -199,7 +271,307 @@
                               {
                                 "move": "d5",
                                 "fen": "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/6P1/PP2PP1P/RNBQKBNR w KQkq - 0 4",
-                                "children": [],
+                                "children": [
+                                  {
+                                    "move": "Bg2",
+                                    "fen": "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/6P1/PP2PPBP/RNBQK1NR b KQkq - 1 4",
+                                    "children": [
+                                      {
+                                        "move": "Bg7",
+                                        "fen": "rnbqk2r/ppp1ppbp/5np1/3p4/2PP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 2 5",
+                                        "children": [
+                                          {
+                                            "move": "Nf3",
+                                            "fen": "rnbqk2r/ppp1ppbp/5np1/3p4/2PP4/5NP1/PP2PPBP/RNBQK2R b KQkq - 3 5",
+                                            "children": [
+                                              {
+                                                "move": "O-O",
+                                                "fen": "rnbq1rk1/ppp1ppbp/5np1/3p4/2PP4/5NP1/PP2PPBP/RNBQK2R w KQ - 4 6",
+                                                "children": [
+                                                  {
+                                                    "move": "O-O",
+                                                    "fen": "rnbq1rk1/ppp1ppbp/5np1/3p4/2PP4/5NP1/PP2PPBP/RNBQ1RK1 b - - 5 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "c6",
+                                                        "fen": "rnbq1rk1/pp2ppbp/2p2np1/3p4/2PP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "c6 advances a pawn, influencing the structure in the Neo-Grünfeld Defense.",
+                                                          "strategicTheme": "Prophylactic pawn move",
+                                                          "source": "generated"
+                                                        }
+                                                      },
+                                                      {
+                                                        "move": "dxc4",
+                                                        "fen": "rnbq1rk1/ppp1ppbp/5np1/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "dxc4 impacts the center, shaping the pawn structure in the Neo-Grünfeld Defense.",
+                                                          "strategicTheme": "Central tension",
+                                                          "source": "generated"
+                                                        }
+                                                      },
+                                                      {
+                                                        "move": "c5",
+                                                        "fen": "rnbq1rk1/pp2ppbp/5np1/2pp4/2PP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "c5 challenges the center from the flank in the Neo-Grünfeld Defense.",
+                                                          "strategicTheme": "Pawn structure",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Neo-Grünfeld Defense.",
+                                                      "strategicTheme": "King safety",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "cxd5",
+                                                    "fen": "rnbq1rk1/ppp1ppbp/5np1/3P4/3P4/5NP1/PP2PPBP/RNBQK2R b KQ - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Nxd5",
+                                                        "fen": "rnbq1rk1/ppp1ppbp/6p1/3n4/3P4/5NP1/PP2PPBP/RNBQK2R w KQ - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Nxd5 exchanges material, altering the pawn structure in the Neo-Grünfeld Defense.",
+                                                          "strategicTheme": "Material exchange",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Neo-Grünfeld Defense.",
+                                                      "strategicTheme": "Material exchange",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "Nc3",
+                                                    "fen": "rnbq1rk1/ppp1ppbp/5np1/3p4/2PP4/2N2NP1/PP2PPBP/R1BQK2R b KQ - 5 6",
+                                                    "children": [],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Neo-Grünfeld Defense.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Neo-Grünfeld Defense.",
+                                                  "strategicTheme": "Early king safety",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "c6",
+                                                "fen": "rnbqk2r/pp2ppbp/2p2np1/3p4/2PP4/5NP1/PP2PPBP/RNBQK2R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "cxd5",
+                                                    "fen": "rnbqk2r/pp2ppbp/2p2np1/3P4/3P4/5NP1/PP2PPBP/RNBQK2R b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "cxd5",
+                                                        "fen": "rnbqk2r/pp2ppbp/5np1/3p4/3P4/5NP1/PP2PPBP/RNBQK2R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Neo-Grünfeld Defense.",
+                                                          "strategicTheme": "Material exchange",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Neo-Grünfeld Defense.",
+                                                      "strategicTheme": "Material exchange",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "c6 advances a pawn, influencing the structure in the Neo-Grünfeld Defense.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "dxc4",
+                                                "fen": "rnbqk2r/ppp1ppbp/5np1/8/2pP4/5NP1/PP2PPBP/RNBQK2R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Na3",
+                                                    "fen": "rnbqk2r/ppp1ppbp/5np1/8/2pP4/N4NP1/PP2PPBP/R1BQK2R b KQkq - 1 6",
+                                                    "children": [],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Na3 develops a piece to an active square in the Neo-Grünfeld Defense.",
+                                                      "strategicTheme": "Knight activity",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "dxc4 impacts the center, shaping the pawn structure in the Neo-Grünfeld Defense.",
+                                                  "strategicTheme": "Central tension",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Nf3 develops a piece to an active square in the Neo-Grünfeld Defense.",
+                                              "strategicTheme": "Natural piece development",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "cxd5",
+                                            "fen": "rnbqk2r/ppp1ppbp/5np1/3P4/3P4/6P1/PP2PPBP/RNBQK1NR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Nxd5",
+                                                "fen": "rnbqk2r/ppp1ppbp/6p1/3n4/3P4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "e4",
+                                                    "fen": "rnbqk2r/ppp1ppbp/6p1/3n4/3PP3/6P1/PP3PBP/RNBQK1NR b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Nb6",
+                                                        "fen": "rnbqk2r/ppp1ppbp/1n4p1/8/3PP3/6P1/PP3PBP/RNBQK1NR w KQkq - 1 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Nb6 develops a piece to an active square in the Neo-Grünfeld Defense.",
+                                                          "strategicTheme": "Knight activity",
+                                                          "source": "generated"
+                                                        }
+                                                      },
+                                                      {
+                                                        "move": "Nb4",
+                                                        "fen": "rnbqk2r/ppp1ppbp/6p1/8/1n1PP3/6P1/PP3PBP/RNBQK1NR w KQkq - 1 7",
+                                                        "children": [],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Nb4 develops a piece to an active square in the Neo-Grünfeld Defense.",
+                                                          "strategicTheme": "Knight activity",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Neo-Grünfeld Defense.",
+                                                      "strategicTheme": "Central tension",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "Nc3",
+                                                    "fen": "rnbqk2r/ppp1ppbp/6p1/3n4/3P4/2N3P1/PP2PPBP/R1BQK1NR b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Nxc3",
+                                                        "fen": "rnbqk2r/ppp1ppbp/6p1/8/3P4/2n3P1/PP2PPBP/R1BQK1NR w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Nxc3 exchanges material, altering the pawn structure in the Neo-Grünfeld Defense.",
+                                                          "strategicTheme": "Material exchange",
+                                                          "source": "generated"
+                                                        }
+                                                      },
+                                                      {
+                                                        "move": "Nb6",
+                                                        "fen": "rnbqk2r/ppp1ppbp/1n4p1/8/3P4/2N3P1/PP2PPBP/R1BQK1NR w KQkq - 2 7",
+                                                        "children": [],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Nb6 develops a piece to an active square in the Neo-Grünfeld Defense.",
+                                                          "strategicTheme": "Knight activity",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Neo-Grünfeld Defense.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Nxd5 exchanges material, altering the pawn structure in the Neo-Grünfeld Defense.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Neo-Grünfeld Defense.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Bg7 develops a piece to an active square in the Neo-Grünfeld Defense.",
+                                          "strategicTheme": "Bishop development",
+                                          "source": "generated"
+                                        }
+                                      },
+                                      {
+                                        "move": "c6",
+                                        "fen": "rnbqkb1r/pp2pp1p/2p2np1/3p4/2PP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "c6 advances a pawn, influencing the structure in the Neo-Grünfeld Defense.",
+                                          "strategicTheme": "Prophylactic pawn move",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Bg2 develops a piece to an active square in the Neo-Grünfeld Defense.",
+                                      "strategicTheme": "Bishop development",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "cxd5",
+                                    "fen": "rnbqkb1r/ppp1pp1p/5np1/3P4/3P4/6P1/PP2PP1P/RNBQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Neo-Grünfeld Defense.",
+                                      "strategicTheme": "Material exchange",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
                                 "isMainLine": true,
                                 "annotation": {
                                   "moveRationale": "d5 advances a pawn, influencing the structure in the Neo-Grünfeld Defense.",
@@ -298,7 +670,76 @@
                                               {
                                                 "move": "Nxd5",
                                                 "fen": "rnbqk2r/ppp1ppbp/6p1/3n4/3P4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "e4",
+                                                    "fen": "rnbqk2r/ppp1ppbp/6p1/3n4/3PP3/6P1/PP3PBP/RNBQK1NR b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Nb6",
+                                                        "fen": "rnbqk2r/ppp1ppbp/1n4p1/8/3PP3/6P1/PP3PBP/RNBQK1NR w KQkq - 1 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Nb6 develops a piece to an active square in the Neo-Grünfeld Defense.",
+                                                          "strategicTheme": "Knight activity",
+                                                          "source": "generated"
+                                                        }
+                                                      },
+                                                      {
+                                                        "move": "Nb4",
+                                                        "fen": "rnbqk2r/ppp1ppbp/6p1/8/1n1PP3/6P1/PP3PBP/RNBQK1NR w KQkq - 1 7",
+                                                        "children": [],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Nb4 develops a piece to an active square in the Neo-Grünfeld Defense.",
+                                                          "strategicTheme": "Knight activity",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Neo-Grünfeld Defense.",
+                                                      "strategicTheme": "Central tension",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "Nc3",
+                                                    "fen": "rnbqk2r/ppp1ppbp/6p1/3n4/3P4/2N3P1/PP2PPBP/R1BQK1NR b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Nxc3",
+                                                        "fen": "rnbqk2r/ppp1ppbp/6p1/8/3P4/2n3P1/PP2PPBP/R1BQK1NR w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Nxc3 exchanges material, altering the pawn structure in the Neo-Grünfeld Defense.",
+                                                          "strategicTheme": "Material exchange",
+                                                          "source": "generated"
+                                                        }
+                                                      },
+                                                      {
+                                                        "move": "Nb6",
+                                                        "fen": "rnbqk2r/ppp1ppbp/1n4p1/8/3P4/2N3P1/PP2PPBP/R1BQK1NR w KQkq - 2 7",
+                                                        "children": [],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Nb6 develops a piece to an active square in the Neo-Grünfeld Defense.",
+                                                          "strategicTheme": "Knight activity",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Neo-Grünfeld Defense.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": true,
                                                 "annotation": {
                                                   "moveRationale": "Nxd5 exchanges material, altering the pawn structure in the Neo-Grünfeld Defense.",
@@ -441,7 +882,19 @@
                                                           {
                                                             "move": "O-O",
                                                             "fen": "rnbq1rk1/ppp1ppbp/6p1/3n4/3P4/5NP1/PP2PPBP/RNBQ1RK1 b - - 1 7",
-                                                            "children": [],
+                                                            "children": [
+                                                              {
+                                                                "move": "Nb6",
+                                                                "fen": "rnbq1rk1/ppp1ppbp/1n4p1/8/3P4/5NP1/PP2PPBP/RNBQ1RK1 w - - 2 8",
+                                                                "children": [],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "Nb6 develops a piece to an active square in the Neo-Grünfeld Defense.",
+                                                                  "strategicTheme": "Knight activity",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
                                                             "isMainLine": true,
                                                             "annotation": {
                                                               "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Neo-Grünfeld Defense.",
@@ -1641,7 +2094,31 @@
                                                       {
                                                         "move": "d5",
                                                         "fen": "rnbq1rk1/pp2ppbp/2p2np1/3p4/2PP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 0 7",
-                                                        "children": [],
+                                                        "children": [
+                                                          {
+                                                            "move": "cxd5",
+                                                            "fen": "rnbq1rk1/pp2ppbp/2p2np1/3P4/3P4/5NP1/PP2PPBP/RNBQ1RK1 b - - 0 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "cxd5",
+                                                                "fen": "rnbq1rk1/pp2ppbp/5np1/3p4/3P4/5NP1/PP2PPBP/RNBQ1RK1 w - - 0 8",
+                                                                "children": [],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Neo-Grünfeld Defense.",
+                                                                  "strategicTheme": "Material exchange",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": true,
+                                                            "annotation": {
+                                                              "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Neo-Grünfeld Defense.",
+                                                              "strategicTheme": "Material exchange",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
                                                         "isMainLine": true,
                                                         "annotation": {
                                                           "moveRationale": "d5 advances a pawn, influencing the structure in the Neo-Grünfeld Defense.",

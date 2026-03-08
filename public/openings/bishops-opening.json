@@ -765,7 +765,31 @@
                                   {
                                     "move": "Nc3",
                                     "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/2NP4/PPP2PPP/R1BQK1NR b KQkq - 2 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "Bb4",
+                                        "fen": "r1bqk2r/pppp1ppp/2n2n2/4p3/1bB1P3/2NP4/PPP2PPP/R1BQK1NR w KQkq - 3 5",
+                                        "children": [
+                                          {
+                                            "move": "Ne2",
+                                            "fen": "r1bqk2r/pppp1ppp/2n2n2/4p3/1bB1P3/2NP4/PPP1NPPP/R1BQK2R b KQkq - 4 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Ne2 develops a piece to an active square in the Bishop's Opening.",
+                                              "strategicTheme": "Knight activity",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Bb4 pins or eyes the knight, creating positional tension in the Bishop's Opening.",
+                                          "strategicTheme": "Bishop development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": false,
                                     "annotation": {
                                       "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Bishop's Opening.",
@@ -961,7 +985,77 @@
                                           {
                                             "move": "Qxd4",
                                             "fen": "rnbqkb1r/pppp1ppp/8/8/2BQn3/5N2/PPP2PPP/RNB1K2R b KQkq - 0 5",
-                                            "children": [],
+                                            "children": [
+                                              {
+                                                "move": "Nf6",
+                                                "fen": "rnbqkb1r/pppp1ppp/5n2/8/2BQ4/5N2/PPP2PPP/RNB1K2R w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bg5",
+                                                    "fen": "rnbqkb1r/pppp1ppp/5n2/6B1/2BQ4/5N2/PPP2PPP/RN2K2R b KQkq - 2 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Be7",
+                                                        "fen": "rnbqk2r/ppppbppp/5n2/6B1/2BQ4/5N2/PPP2PPP/RN2K2R w KQkq - 3 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Bishop's Opening.",
+                                                          "strategicTheme": "Bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      },
+                                                      {
+                                                        "move": "Nc6",
+                                                        "fen": "r1bqkb1r/pppp1ppp/2n2n2/6B1/2BQ4/5N2/PPP2PPP/RN2K2R w KQkq - 3 7",
+                                                        "children": [],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Bishop's Opening.",
+                                                          "strategicTheme": "Natural piece development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Bg5 develops a piece to an active square in the Bishop's Opening.",
+                                                      "strategicTheme": "Bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "Nc3",
+                                                    "fen": "rnbqkb1r/pppp1ppp/5n2/8/2BQ4/2N2N2/PPP2PPP/R1B1K2R b KQkq - 2 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Nc6",
+                                                        "fen": "r1bqkb1r/pppp1ppp/2n2n2/8/2BQ4/2N2N2/PPP2PPP/R1B1K2R w KQkq - 3 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Bishop's Opening.",
+                                                          "strategicTheme": "Natural piece development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Bishop's Opening.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Bishop's Opening.",
+                                                  "strategicTheme": "Natural piece development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": false,
                                             "annotation": {
                                               "moveRationale": "Qxd4 exchanges material, altering the pawn structure in the Bishop's Opening.",
@@ -4668,7 +4762,31 @@
                                   {
                                     "move": "Nc3",
                                     "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/2NP4/PPP2PPP/R1BQK1NR b KQkq - 2 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "Bb4",
+                                        "fen": "r1bqk2r/pppp1ppp/2n2n2/4p3/1bB1P3/2NP4/PPP2PPP/R1BQK1NR w KQkq - 3 5",
+                                        "children": [
+                                          {
+                                            "move": "Ne2",
+                                            "fen": "r1bqk2r/pppp1ppp/2n2n2/4p3/1bB1P3/2NP4/PPP1NPPP/R1BQK2R b KQkq - 4 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Ne2 develops a piece to an active square in the Bishop's Opening.",
+                                              "strategicTheme": "Knight activity",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Bb4 pins or eyes the knight, creating positional tension in the Bishop's Opening.",
+                                          "strategicTheme": "Bishop development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": false,
                                     "annotation": {
                                       "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Bishop's Opening.",
@@ -4864,7 +4982,77 @@
                                           {
                                             "move": "Qxd4",
                                             "fen": "rnbqkb1r/pppp1ppp/8/8/2BQn3/5N2/PPP2PPP/RNB1K2R b KQkq - 0 5",
-                                            "children": [],
+                                            "children": [
+                                              {
+                                                "move": "Nf6",
+                                                "fen": "rnbqkb1r/pppp1ppp/5n2/8/2BQ4/5N2/PPP2PPP/RNB1K2R w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bg5",
+                                                    "fen": "rnbqkb1r/pppp1ppp/5n2/6B1/2BQ4/5N2/PPP2PPP/RN2K2R b KQkq - 2 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Be7",
+                                                        "fen": "rnbqk2r/ppppbppp/5n2/6B1/2BQ4/5N2/PPP2PPP/RN2K2R w KQkq - 3 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Bishop's Opening.",
+                                                          "strategicTheme": "Bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      },
+                                                      {
+                                                        "move": "Nc6",
+                                                        "fen": "r1bqkb1r/pppp1ppp/2n2n2/6B1/2BQ4/5N2/PPP2PPP/RN2K2R w KQkq - 3 7",
+                                                        "children": [],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Bishop's Opening.",
+                                                          "strategicTheme": "Natural piece development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Bg5 develops a piece to an active square in the Bishop's Opening.",
+                                                      "strategicTheme": "Bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "Nc3",
+                                                    "fen": "rnbqkb1r/pppp1ppp/5n2/8/2BQ4/2N2N2/PPP2PPP/R1B1K2R b KQkq - 2 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Nc6",
+                                                        "fen": "r1bqkb1r/pppp1ppp/2n2n2/8/2BQ4/2N2N2/PPP2PPP/R1B1K2R w KQkq - 3 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Bishop's Opening.",
+                                                          "strategicTheme": "Natural piece development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Bishop's Opening.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Bishop's Opening.",
+                                                  "strategicTheme": "Natural piece development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": false,
                                             "annotation": {
                                               "moveRationale": "Qxd4 exchanges material, altering the pawn structure in the Bishop's Opening.",
@@ -5468,7 +5656,77 @@
                                           {
                                             "move": "Qxd4",
                                             "fen": "rnbqkb1r/pppp1ppp/8/8/2BQn3/5N2/PPP2PPP/RNB1K2R b KQkq - 0 5",
-                                            "children": [],
+                                            "children": [
+                                              {
+                                                "move": "Nf6",
+                                                "fen": "rnbqkb1r/pppp1ppp/5n2/8/2BQ4/5N2/PPP2PPP/RNB1K2R w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bg5",
+                                                    "fen": "rnbqkb1r/pppp1ppp/5n2/6B1/2BQ4/5N2/PPP2PPP/RN2K2R b KQkq - 2 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Be7",
+                                                        "fen": "rnbqk2r/ppppbppp/5n2/6B1/2BQ4/5N2/PPP2PPP/RN2K2R w KQkq - 3 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Bishop's Opening.",
+                                                          "strategicTheme": "Bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      },
+                                                      {
+                                                        "move": "Nc6",
+                                                        "fen": "r1bqkb1r/pppp1ppp/2n2n2/6B1/2BQ4/5N2/PPP2PPP/RN2K2R w KQkq - 3 7",
+                                                        "children": [],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Bishop's Opening.",
+                                                          "strategicTheme": "Natural piece development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Bg5 develops a piece to an active square in the Bishop's Opening.",
+                                                      "strategicTheme": "Bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "Nc3",
+                                                    "fen": "rnbqkb1r/pppp1ppp/5n2/8/2BQ4/2N2N2/PPP2PPP/R1B1K2R b KQkq - 2 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Nc6",
+                                                        "fen": "r1bqkb1r/pppp1ppp/2n2n2/8/2BQ4/2N2N2/PPP2PPP/R1B1K2R w KQkq - 3 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Bishop's Opening.",
+                                                          "strategicTheme": "Natural piece development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Bishop's Opening.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Bishop's Opening.",
+                                                  "strategicTheme": "Natural piece development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": false,
                                             "annotation": {
                                               "moveRationale": "Qxd4 exchanges material, altering the pawn structure in the Bishop's Opening.",
@@ -5745,7 +6003,31 @@
                                   {
                                     "move": "Nc3",
                                     "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/2NP4/PPP2PPP/R1BQK1NR b KQkq - 2 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "Bb4",
+                                        "fen": "r1bqk2r/pppp1ppp/2n2n2/4p3/1bB1P3/2NP4/PPP2PPP/R1BQK1NR w KQkq - 3 5",
+                                        "children": [
+                                          {
+                                            "move": "Ne2",
+                                            "fen": "r1bqk2r/pppp1ppp/2n2n2/4p3/1bB1P3/2NP4/PPP1NPPP/R1BQK2R b KQkq - 4 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Ne2 develops a piece to an active square in the Bishop's Opening.",
+                                              "strategicTheme": "Knight activity",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Bb4 pins or eyes the knight, creating positional tension in the Bishop's Opening.",
+                                          "strategicTheme": "Bishop development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": true,
                                     "annotation": {
                                       "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Bishop's Opening.",
@@ -6018,7 +6300,42 @@
                                   {
                                     "move": "d3",
                                     "fen": "rnbqk2r/pppp1ppp/5n2/2b1p3/2B1P3/2NP4/PPP2PPP/R1BQK1NR b KQkq - 0 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "d6",
+                                        "fen": "rnbqk2r/ppp2ppp/3p1n2/2b1p3/2B1P3/2NP4/PPP2PPP/R1BQK1NR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "f4",
+                                            "fen": "rnbqk2r/ppp2ppp/3p1n2/2b1p3/2B1PP2/2NP4/PPP3PP/R1BQK1NR b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "f4 advances a pawn, influencing the structure in the Bishop's Opening.",
+                                              "strategicTheme": "Aggressive kingside expansion",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "Na4",
+                                            "fen": "rnbqk2r/ppp2ppp/3p1n2/2b1p3/N1B1P3/3P4/PPP2PPP/R1BQK1NR b KQkq - 1 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Na4 develops a piece to an active square in the Bishop's Opening.",
+                                              "strategicTheme": "Knight activity",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "d6 advances a pawn, influencing the structure in the Bishop's Opening.",
+                                          "strategicTheme": "Prophylactic pawn move",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": true,
                                     "annotation": {
                                       "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Bishop's Opening.",
@@ -6513,7 +6830,77 @@
                                           {
                                             "move": "Qxd4",
                                             "fen": "rnbqkb1r/pppp1ppp/8/8/2BQn3/5N2/PPP2PPP/RNB1K2R b KQkq - 0 5",
-                                            "children": [],
+                                            "children": [
+                                              {
+                                                "move": "Nf6",
+                                                "fen": "rnbqkb1r/pppp1ppp/5n2/8/2BQ4/5N2/PPP2PPP/RNB1K2R w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bg5",
+                                                    "fen": "rnbqkb1r/pppp1ppp/5n2/6B1/2BQ4/5N2/PPP2PPP/RN2K2R b KQkq - 2 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Be7",
+                                                        "fen": "rnbqk2r/ppppbppp/5n2/6B1/2BQ4/5N2/PPP2PPP/RN2K2R w KQkq - 3 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Bishop's Opening.",
+                                                          "strategicTheme": "Bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      },
+                                                      {
+                                                        "move": "Nc6",
+                                                        "fen": "r1bqkb1r/pppp1ppp/2n2n2/6B1/2BQ4/5N2/PPP2PPP/RN2K2R w KQkq - 3 7",
+                                                        "children": [],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Bishop's Opening.",
+                                                          "strategicTheme": "Natural piece development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Bg5 develops a piece to an active square in the Bishop's Opening.",
+                                                      "strategicTheme": "Bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "Nc3",
+                                                    "fen": "rnbqkb1r/pppp1ppp/5n2/8/2BQ4/2N2N2/PPP2PPP/R1B1K2R b KQkq - 2 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Nc6",
+                                                        "fen": "r1bqkb1r/pppp1ppp/2n2n2/8/2BQ4/2N2N2/PPP2PPP/R1B1K2R w KQkq - 3 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Bishop's Opening.",
+                                                          "strategicTheme": "Natural piece development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Bishop's Opening.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Bishop's Opening.",
+                                                  "strategicTheme": "Natural piece development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": false,
                                             "annotation": {
                                               "moveRationale": "Qxd4 exchanges material, altering the pawn structure in the Bishop's Opening.",
@@ -6632,7 +7019,77 @@
                                           {
                                             "move": "Qxd4",
                                             "fen": "rnbqkb1r/pppp1ppp/8/8/2BQn3/5N2/PPP2PPP/RNB1K2R b KQkq - 0 5",
-                                            "children": [],
+                                            "children": [
+                                              {
+                                                "move": "Nf6",
+                                                "fen": "rnbqkb1r/pppp1ppp/5n2/8/2BQ4/5N2/PPP2PPP/RNB1K2R w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bg5",
+                                                    "fen": "rnbqkb1r/pppp1ppp/5n2/6B1/2BQ4/5N2/PPP2PPP/RN2K2R b KQkq - 2 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Be7",
+                                                        "fen": "rnbqk2r/ppppbppp/5n2/6B1/2BQ4/5N2/PPP2PPP/RN2K2R w KQkq - 3 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Bishop's Opening.",
+                                                          "strategicTheme": "Bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      },
+                                                      {
+                                                        "move": "Nc6",
+                                                        "fen": "r1bqkb1r/pppp1ppp/2n2n2/6B1/2BQ4/5N2/PPP2PPP/RN2K2R w KQkq - 3 7",
+                                                        "children": [],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Bishop's Opening.",
+                                                          "strategicTheme": "Natural piece development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Bg5 develops a piece to an active square in the Bishop's Opening.",
+                                                      "strategicTheme": "Bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "Nc3",
+                                                    "fen": "rnbqkb1r/pppp1ppp/5n2/8/2BQ4/2N2N2/PPP2PPP/R1B1K2R b KQkq - 2 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Nc6",
+                                                        "fen": "r1bqkb1r/pppp1ppp/2n2n2/8/2BQ4/2N2N2/PPP2PPP/R1B1K2R w KQkq - 3 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Bishop's Opening.",
+                                                          "strategicTheme": "Natural piece development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Bishop's Opening.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Bishop's Opening.",
+                                                  "strategicTheme": "Natural piece development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": true,
                                             "annotation": {
                                               "moveRationale": "Qxd4 exchanges material, altering the pawn structure in the Bishop's Opening.",

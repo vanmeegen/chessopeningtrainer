@@ -633,7 +633,31 @@
                                                           {
                                                             "move": "Bb2",
                                                             "fen": "r1bq1rk1/pppn1ppp/3bpn2/3p4/3P4/1P1BPN2/PBP2PPP/RN1Q1RK1 b - - 2 7",
-                                                            "children": [],
+                                                            "children": [
+                                                              {
+                                                                "move": "c6",
+                                                                "fen": "r1bq1rk1/pp1n1ppp/2pbpn2/3p4/3P4/1P1BPN2/PBP2PPP/RN1Q1RK1 w - - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Nbd2",
+                                                                    "fen": "r1bq1rk1/pp1n1ppp/2pbpn2/3p4/3P4/1P1BPN2/PBPN1PPP/R2Q1RK1 b - - 1 8",
+                                                                    "children": [],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Nbd2 develops a piece to an active square in the Rubinstein Opening.",
+                                                                      "strategicTheme": "Knight activity",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "c6 advances a pawn, influencing the structure in the Rubinstein Opening.",
+                                                                  "strategicTheme": "Prophylactic pawn move",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
                                                             "isMainLine": true,
                                                             "annotation": {
                                                               "moveRationale": "Bb2 develops a piece to an active square in the Rubinstein Opening.",
@@ -804,7 +828,19 @@
                                                               {
                                                                 "move": "c6",
                                                                 "fen": "r1bq1rk1/pp1n1ppp/2pbpn2/3p4/3P4/1P1BPN2/PBP2PPP/RN1Q1RK1 w - - 0 8",
-                                                                "children": [],
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Nbd2",
+                                                                    "fen": "r1bq1rk1/pp1n1ppp/2pbpn2/3p4/3P4/1P1BPN2/PBPN1PPP/R2Q1RK1 b - - 1 8",
+                                                                    "children": [],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Nbd2 develops a piece to an active square in the Rubinstein Opening.",
+                                                                      "strategicTheme": "Knight activity",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
                                                                 "isMainLine": true,
                                                                 "annotation": {
                                                                   "moveRationale": "c6 advances a pawn, influencing the structure in the Rubinstein Opening.",

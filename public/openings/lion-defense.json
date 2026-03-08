@@ -29,7 +29,77 @@
                           {
                             "move": "f3",
                             "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/5P2/PPP3PP/RNBQKBNR b KQkq - 0 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "e5",
+                                "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p3/3PP3/5P2/PPP3PP/RNBQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "dxe5",
+                                    "fen": "rnbqkb1r/ppp2ppp/3p1n2/4P3/4P3/5P2/PPP3PP/RNBQKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "dxe5",
+                                        "fen": "rnbqkb1r/ppp2ppp/5n2/4p3/4P3/5P2/PPP3PP/RNBQKBNR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "Qxd8+",
+                                            "fen": "rnbQkb1r/ppp2ppp/5n2/4p3/4P3/5P2/PPP3PP/RNB1KBNR b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Qxd8+ exchanges material, altering the pawn structure in the Lion Defense.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "dxe5 exchanges material, altering the pawn structure in the Lion Defense.",
+                                          "strategicTheme": "Material exchange",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "dxe5 exchanges material, altering the pawn structure in the Lion Defense.",
+                                      "strategicTheme": "Material exchange",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "d5",
+                                    "fen": "rnbqkb1r/ppp2ppp/3p1n2/3Pp3/4P3/5P2/PPP3PP/RNBQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "d5 advances a pawn, influencing the structure in the Lion Defense.",
+                                      "strategicTheme": "Pawn structure",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "e5 advances a pawn, influencing the structure in the Lion Defense.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "g6",
+                                "fen": "rnbqkb1r/ppp1pp1p/3p1np1/8/3PP3/5P2/PPP3PP/RNBQKBNR w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Lion Defense.",
+                                  "strategicTheme": "Fianchetto preparation",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": true,
                             "annotation": {
                               "moveRationale": "f3 advances a pawn, influencing the structure in the Lion Defense.",

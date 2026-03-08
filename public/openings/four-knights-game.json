@@ -120,7 +120,31 @@
                                   {
                                     "move": "a3",
                                     "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/4P3/P1N2N2/1PPP1PPP/R1BQKB1R b KQkq - 0 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "d6",
+                                        "fen": "r1bqkb1r/ppp2ppp/2np1n2/4p3/4P3/P1N2N2/1PPP1PPP/R1BQKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "h3",
+                                            "fen": "r1bqkb1r/ppp2ppp/2np1n2/4p3/4P3/P1N2N1P/1PPP1PP1/R1BQKB1R b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "h3 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Four Knights Game.",
+                                              "strategicTheme": "Prophylactic pawn move",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "d6 advances a pawn, influencing the structure in the Four Knights Game.",
+                                          "strategicTheme": "Prophylactic pawn move",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": false,
                                     "annotation": {
                                       "moveRationale": "a3 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Four Knights Game.",
@@ -1076,7 +1100,43 @@
                                           {
                                             "move": "Nxd4",
                                             "fen": "r1bqkb1r/pppp1ppp/5n2/1B2p3/3NP3/2N5/PPPP1PPP/R1BQK2R b KQkq - 0 5",
-                                            "children": [],
+                                            "children": [
+                                              {
+                                                "move": "exd4",
+                                                "fen": "r1bqkb1r/pppp1ppp/5n2/1B6/3pP3/2N5/PPPP1PPP/R1BQK2R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "e5",
+                                                    "fen": "r1bqkb1r/pppp1ppp/5n2/1B2P3/3p4/2N5/PPPP1PPP/R1BQK2R b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "dxc3",
+                                                        "fen": "r1bqkb1r/pppp1ppp/5n2/1B2P3/8/2p5/PPPP1PPP/R1BQK2R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "dxc3 impacts the center, shaping the pawn structure in the Four Knights Game.",
+                                                          "strategicTheme": "Central tension",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "e5 advances a pawn, influencing the structure in the Four Knights Game.",
+                                                      "strategicTheme": "Pawn structure",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Four Knights Game.",
+                                                  "strategicTheme": "Central tension",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": false,
                                             "annotation": {
                                               "moveRationale": "Nxd4 exchanges material, altering the pawn structure in the Four Knights Game.",
@@ -1968,7 +2028,31 @@
                                   {
                                     "move": "a3",
                                     "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/4P3/P1N2N2/1PPP1PPP/R1BQKB1R b KQkq - 0 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "d6",
+                                        "fen": "r1bqkb1r/ppp2ppp/2np1n2/4p3/4P3/P1N2N2/1PPP1PPP/R1BQKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "h3",
+                                            "fen": "r1bqkb1r/ppp2ppp/2np1n2/4p3/4P3/P1N2N1P/1PPP1PP1/R1BQKB1R b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "h3 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Four Knights Game.",
+                                              "strategicTheme": "Prophylactic pawn move",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "d6 advances a pawn, influencing the structure in the Four Knights Game.",
+                                          "strategicTheme": "Prophylactic pawn move",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": true,
                                     "annotation": {
                                       "moveRationale": "a3 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Four Knights Game.",
@@ -5321,7 +5405,43 @@
                                           {
                                             "move": "Nxd4",
                                             "fen": "r1bqkb1r/pppp1ppp/5n2/1B2p3/3NP3/2N5/PPPP1PPP/R1BQK2R b KQkq - 0 5",
-                                            "children": [],
+                                            "children": [
+                                              {
+                                                "move": "exd4",
+                                                "fen": "r1bqkb1r/pppp1ppp/5n2/1B6/3pP3/2N5/PPPP1PPP/R1BQK2R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "e5",
+                                                    "fen": "r1bqkb1r/pppp1ppp/5n2/1B2P3/3p4/2N5/PPPP1PPP/R1BQK2R b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "dxc3",
+                                                        "fen": "r1bqkb1r/pppp1ppp/5n2/1B2P3/8/2p5/PPPP1PPP/R1BQK2R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "dxc3 impacts the center, shaping the pawn structure in the Four Knights Game.",
+                                                          "strategicTheme": "Central tension",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "e5 advances a pawn, influencing the structure in the Four Knights Game.",
+                                                      "strategicTheme": "Pawn structure",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Four Knights Game.",
+                                                  "strategicTheme": "Central tension",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": false,
                                             "annotation": {
                                               "moveRationale": "Nxd4 exchanges material, altering the pawn structure in the Four Knights Game.",
@@ -6711,7 +6831,43 @@
                                           {
                                             "move": "Nxd4",
                                             "fen": "r1bqkb1r/pppp1ppp/5n2/1B2p3/3NP3/2N5/PPPP1PPP/R1BQK2R b KQkq - 0 5",
-                                            "children": [],
+                                            "children": [
+                                              {
+                                                "move": "exd4",
+                                                "fen": "r1bqkb1r/pppp1ppp/5n2/1B6/3pP3/2N5/PPPP1PPP/R1BQK2R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "e5",
+                                                    "fen": "r1bqkb1r/pppp1ppp/5n2/1B2P3/3p4/2N5/PPPP1PPP/R1BQK2R b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "dxc3",
+                                                        "fen": "r1bqkb1r/pppp1ppp/5n2/1B2P3/8/2p5/PPPP1PPP/R1BQK2R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "dxc3 impacts the center, shaping the pawn structure in the Four Knights Game.",
+                                                          "strategicTheme": "Central tension",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "e5 advances a pawn, influencing the structure in the Four Knights Game.",
+                                                      "strategicTheme": "Pawn structure",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Four Knights Game.",
+                                                  "strategicTheme": "Central tension",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": false,
                                             "annotation": {
                                               "moveRationale": "Nxd4 exchanges material, altering the pawn structure in the Four Knights Game.",
@@ -7294,7 +7450,43 @@
                                           {
                                             "move": "Nxd4",
                                             "fen": "r1bqkb1r/pppp1ppp/5n2/1B2p3/3NP3/2N5/PPPP1PPP/R1BQK2R b KQkq - 0 5",
-                                            "children": [],
+                                            "children": [
+                                              {
+                                                "move": "exd4",
+                                                "fen": "r1bqkb1r/pppp1ppp/5n2/1B6/3pP3/2N5/PPPP1PPP/R1BQK2R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "e5",
+                                                    "fen": "r1bqkb1r/pppp1ppp/5n2/1B2P3/3p4/2N5/PPPP1PPP/R1BQK2R b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "dxc3",
+                                                        "fen": "r1bqkb1r/pppp1ppp/5n2/1B2P3/8/2p5/PPPP1PPP/R1BQK2R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "dxc3 impacts the center, shaping the pawn structure in the Four Knights Game.",
+                                                          "strategicTheme": "Central tension",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "e5 advances a pawn, influencing the structure in the Four Knights Game.",
+                                                      "strategicTheme": "Pawn structure",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Four Knights Game.",
+                                                  "strategicTheme": "Central tension",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": true,
                                             "annotation": {
                                               "moveRationale": "Nxd4 exchanges material, altering the pawn structure in the Four Knights Game.",
@@ -8332,7 +8524,54 @@
                                                       {
                                                         "move": "Bxc3",
                                                         "fen": "r1bq1rk1/pppp1ppp/2n2n2/1B2p3/4P3/2bP1N2/PPP2PPP/R1BQ1RK1 w - - 0 7",
-                                                        "children": [],
+                                                        "children": [
+                                                          {
+                                                            "move": "bxc3",
+                                                            "fen": "r1bq1rk1/pppp1ppp/2n2n2/1B2p3/4P3/2PP1N2/P1P2PPP/R1BQ1RK1 b - - 0 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "d6",
+                                                                "fen": "r1bq1rk1/ppp2ppp/2np1n2/1B2p3/4P3/2PP1N2/P1P2PPP/R1BQ1RK1 w - - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Re1",
+                                                                    "fen": "r1bq1rk1/ppp2ppp/2np1n2/1B2p3/4P3/2PP1N2/P1P2PPP/R1BQR1K1 b - - 1 8",
+                                                                    "children": [],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Re1 repositions the rook toward an open or key file in the Four Knights Game.",
+                                                                      "strategicTheme": "Rook activation",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "d6 advances a pawn, influencing the structure in the Four Knights Game.",
+                                                                  "strategicTheme": "Prophylactic pawn move",
+                                                                  "source": "generated"
+                                                                }
+                                                              },
+                                                              {
+                                                                "move": "d5",
+                                                                "fen": "r1bq1rk1/ppp2ppp/2n2n2/1B1pp3/4P3/2PP1N2/P1P2PPP/R1BQ1RK1 w - - 0 8",
+                                                                "children": [],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Four Knights Game.",
+                                                                  "strategicTheme": "Pawn structure",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": true,
+                                                            "annotation": {
+                                                              "moveRationale": "bxc3 exchanges material, altering the pawn structure in the Four Knights Game.",
+                                                              "strategicTheme": "Material exchange",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
                                                         "isMainLine": true,
                                                         "annotation": {
                                                           "moveRationale": "Bxc3 exchanges material, altering the pawn structure in the Four Knights Game.",
@@ -10245,7 +10484,197 @@
                                                       {
                                                         "move": "d6",
                                                         "fen": "r1bq1rk1/ppp2ppp/2np1n2/1B2p3/1b2P3/2NP1N2/PPP2PPP/R1BQ1RK1 w - - 0 7",
-                                                        "children": [],
+                                                        "children": [
+                                                          {
+                                                            "move": "Bg5",
+                                                            "fen": "r1bq1rk1/ppp2ppp/2np1n2/1B2p1B1/1b2P3/2NP1N2/PPP2PPP/R2Q1RK1 b - - 1 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "Bxc3",
+                                                                "fen": "r1bq1rk1/ppp2ppp/2np1n2/1B2p1B1/4P3/2bP1N2/PPP2PPP/R2Q1RK1 w - - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "bxc3",
+                                                                    "fen": "r1bq1rk1/ppp2ppp/2np1n2/1B2p1B1/4P3/2PP1N2/P1P2PPP/R2Q1RK1 b - - 0 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "Qe7",
+                                                                        "fen": "r1b2rk1/ppp1qppp/2np1n2/1B2p1B1/4P3/2PP1N2/P1P2PPP/R2Q1RK1 w - - 1 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "Re1",
+                                                                            "fen": "r1b2rk1/ppp1qppp/2np1n2/1B2p1B1/4P3/2PP1N2/P1P2PPP/R2QR1K1 b - - 2 9",
+                                                                            "children": [
+                                                                              {
+                                                                                "move": "Nd8",
+                                                                                "fen": "r1bn1rk1/ppp1qppp/3p1n2/1B2p1B1/4P3/2PP1N2/P1P2PPP/R2QR1K1 w - - 3 10",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "move": "d4",
+                                                                                    "fen": "r1bn1rk1/ppp1qppp/3p1n2/1B2p1B1/3PP3/2P2N2/P1P2PPP/R2QR1K1 b - - 0 10",
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "move": "Bg4",
+                                                                                        "fen": "r2n1rk1/ppp1qppp/3p1n2/1B2p1B1/3PP1b1/2P2N2/P1P2PPP/R2QR1K1 w - - 1 11",
+                                                                                        "children": [],
+                                                                                        "isMainLine": true,
+                                                                                        "annotation": {
+                                                                                          "moveRationale": "Bg4 develops a piece to an active square in the Four Knights Game.",
+                                                                                          "strategicTheme": "Bishop development",
+                                                                                          "source": "generated"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "isMainLine": true,
+                                                                                    "annotation": {
+                                                                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Four Knights Game.",
+                                                                                      "strategicTheme": "Central tension",
+                                                                                      "source": "generated"
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "isMainLine": true,
+                                                                                "annotation": {
+                                                                                  "moveRationale": "Nd8 develops a piece to an active square in the Four Knights Game.",
+                                                                                  "strategicTheme": "Knight activity",
+                                                                                  "source": "generated"
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "isMainLine": true,
+                                                                            "annotation": {
+                                                                              "moveRationale": "Re1 repositions the rook toward an open or key file in the Four Knights Game.",
+                                                                              "strategicTheme": "Rook activation",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": true,
+                                                                        "annotation": {
+                                                                          "moveRationale": "Qe7 activates the queen, increasing pressure in the Four Knights Game.",
+                                                                          "strategicTheme": "Queen activity",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "bxc3 exchanges material, altering the pawn structure in the Four Knights Game.",
+                                                                      "strategicTheme": "Material exchange",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "Bxc3 exchanges material, altering the pawn structure in the Four Knights Game.",
+                                                                  "strategicTheme": "Material exchange",
+                                                                  "source": "generated"
+                                                                }
+                                                              },
+                                                              {
+                                                                "move": "Ne7",
+                                                                "fen": "r1bq1rk1/ppp1nppp/3p1n2/1B2p1B1/1b2P3/2NP1N2/PPP2PPP/R2Q1RK1 w - - 2 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Nh4",
+                                                                    "fen": "r1bq1rk1/ppp1nppp/3p1n2/1B2p1B1/1b2P2N/2NP4/PPP2PPP/R2Q1RK1 b - - 3 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "c6",
+                                                                        "fen": "r1bq1rk1/pp2nppp/2pp1n2/1B2p1B1/1b2P2N/2NP4/PPP2PPP/R2Q1RK1 w - - 0 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "Bc4",
+                                                                            "fen": "r1bq1rk1/pp2nppp/2pp1n2/4p1B1/1bB1P2N/2NP4/PPP2PPP/R2Q1RK1 b - - 1 9",
+                                                                            "children": [
+                                                                              {
+                                                                                "move": "d5",
+                                                                                "fen": "r1bq1rk1/pp2nppp/2p2n2/3pp1B1/1bB1P2N/2NP4/PPP2PPP/R2Q1RK1 w - - 0 10",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "move": "Bb3",
+                                                                                    "fen": "r1bq1rk1/pp2nppp/2p2n2/3pp1B1/1b2P2N/1BNP4/PPP2PPP/R2Q1RK1 b - - 1 10",
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "move": "Qd6",
+                                                                                        "fen": "r1b2rk1/pp2nppp/2pq1n2/3pp1B1/1b2P2N/1BNP4/PPP2PPP/R2Q1RK1 w - - 2 11",
+                                                                                        "children": [],
+                                                                                        "isMainLine": false,
+                                                                                        "annotation": {
+                                                                                          "moveRationale": "Qd6 activates the queen, increasing pressure in the Four Knights Game.",
+                                                                                          "strategicTheme": "Queen activity",
+                                                                                          "source": "generated"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "isMainLine": false,
+                                                                                    "annotation": {
+                                                                                      "moveRationale": "Bb3 develops a piece to an active square in the Four Knights Game.",
+                                                                                      "strategicTheme": "Bishop development",
+                                                                                      "source": "generated"
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "isMainLine": false,
+                                                                                "annotation": {
+                                                                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Four Knights Game.",
+                                                                                  "strategicTheme": "Pawn structure",
+                                                                                  "source": "generated"
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "isMainLine": false,
+                                                                            "annotation": {
+                                                                              "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Four Knights Game.",
+                                                                              "strategicTheme": "Active bishop development",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": false,
+                                                                        "annotation": {
+                                                                          "moveRationale": "c6 advances a pawn, influencing the structure in the Four Knights Game.",
+                                                                          "strategicTheme": "Prophylactic pawn move",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Nh4 develops a piece to an active square in the Four Knights Game.",
+                                                                      "strategicTheme": "Knight activity",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "Ne7 develops a piece to an active square in the Four Knights Game.",
+                                                                  "strategicTheme": "Knight activity",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": true,
+                                                            "annotation": {
+                                                              "moveRationale": "Bg5 develops a piece to an active square in the Four Knights Game.",
+                                                              "strategicTheme": "Bishop development",
+                                                              "source": "generated"
+                                                            }
+                                                          },
+                                                          {
+                                                            "move": "Ne2",
+                                                            "fen": "r1bq1rk1/ppp2ppp/2np1n2/1B2p3/1b2P3/3P1N2/PPP1NPPP/R1BQ1RK1 b - - 1 7",
+                                                            "children": [],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Ne2 develops a piece to an active square in the Four Knights Game.",
+                                                              "strategicTheme": "Knight activity",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
                                                         "isMainLine": true,
                                                         "annotation": {
                                                           "moveRationale": "d6 advances a pawn, influencing the structure in the Four Knights Game.",
@@ -10659,7 +11088,79 @@
                                                               {
                                                                 "move": "Ne7",
                                                                 "fen": "r1bq1rk1/ppp1nppp/3p1n2/1B2p1B1/1b2P3/2NP1N2/PPP2PPP/R2Q1RK1 w - - 2 8",
-                                                                "children": [],
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Nh4",
+                                                                    "fen": "r1bq1rk1/ppp1nppp/3p1n2/1B2p1B1/1b2P2N/2NP4/PPP2PPP/R2Q1RK1 b - - 3 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "c6",
+                                                                        "fen": "r1bq1rk1/pp2nppp/2pp1n2/1B2p1B1/1b2P2N/2NP4/PPP2PPP/R2Q1RK1 w - - 0 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "Bc4",
+                                                                            "fen": "r1bq1rk1/pp2nppp/2pp1n2/4p1B1/1bB1P2N/2NP4/PPP2PPP/R2Q1RK1 b - - 1 9",
+                                                                            "children": [
+                                                                              {
+                                                                                "move": "d5",
+                                                                                "fen": "r1bq1rk1/pp2nppp/2p2n2/3pp1B1/1bB1P2N/2NP4/PPP2PPP/R2Q1RK1 w - - 0 10",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "move": "Bb3",
+                                                                                    "fen": "r1bq1rk1/pp2nppp/2p2n2/3pp1B1/1b2P2N/1BNP4/PPP2PPP/R2Q1RK1 b - - 1 10",
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "move": "Qd6",
+                                                                                        "fen": "r1b2rk1/pp2nppp/2pq1n2/3pp1B1/1b2P2N/1BNP4/PPP2PPP/R2Q1RK1 w - - 2 11",
+                                                                                        "children": [],
+                                                                                        "isMainLine": true,
+                                                                                        "annotation": {
+                                                                                          "moveRationale": "Qd6 activates the queen, increasing pressure in the Four Knights Game.",
+                                                                                          "strategicTheme": "Queen activity",
+                                                                                          "source": "generated"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "isMainLine": true,
+                                                                                    "annotation": {
+                                                                                      "moveRationale": "Bb3 develops a piece to an active square in the Four Knights Game.",
+                                                                                      "strategicTheme": "Bishop development",
+                                                                                      "source": "generated"
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "isMainLine": true,
+                                                                                "annotation": {
+                                                                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Four Knights Game.",
+                                                                                  "strategicTheme": "Pawn structure",
+                                                                                  "source": "generated"
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "isMainLine": true,
+                                                                            "annotation": {
+                                                                              "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Four Knights Game.",
+                                                                              "strategicTheme": "Active bishop development",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": true,
+                                                                        "annotation": {
+                                                                          "moveRationale": "c6 advances a pawn, influencing the structure in the Four Knights Game.",
+                                                                          "strategicTheme": "Prophylactic pawn move",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Nh4 develops a piece to an active square in the Four Knights Game.",
+                                                                      "strategicTheme": "Knight activity",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
                                                                 "isMainLine": true,
                                                                 "annotation": {
                                                                   "moveRationale": "Ne7 develops a piece to an active square in the Four Knights Game.",
@@ -11264,7 +11765,55 @@
                                                                       {
                                                                         "move": "Qe7",
                                                                         "fen": "r1b2rk1/ppp1qppp/2np1n2/1B2p1B1/4P3/2PP1N2/P1P2PPP/R2Q1RK1 w - - 1 9",
-                                                                        "children": [],
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "Re1",
+                                                                            "fen": "r1b2rk1/ppp1qppp/2np1n2/1B2p1B1/4P3/2PP1N2/P1P2PPP/R2QR1K1 b - - 2 9",
+                                                                            "children": [
+                                                                              {
+                                                                                "move": "Nd8",
+                                                                                "fen": "r1bn1rk1/ppp1qppp/3p1n2/1B2p1B1/4P3/2PP1N2/P1P2PPP/R2QR1K1 w - - 3 10",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "move": "d4",
+                                                                                    "fen": "r1bn1rk1/ppp1qppp/3p1n2/1B2p1B1/3PP3/2P2N2/P1P2PPP/R2QR1K1 b - - 0 10",
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "move": "Bg4",
+                                                                                        "fen": "r2n1rk1/ppp1qppp/3p1n2/1B2p1B1/3PP1b1/2P2N2/P1P2PPP/R2QR1K1 w - - 1 11",
+                                                                                        "children": [],
+                                                                                        "isMainLine": true,
+                                                                                        "annotation": {
+                                                                                          "moveRationale": "Bg4 develops a piece to an active square in the Four Knights Game.",
+                                                                                          "strategicTheme": "Bishop development",
+                                                                                          "source": "generated"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "isMainLine": true,
+                                                                                    "annotation": {
+                                                                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Four Knights Game.",
+                                                                                      "strategicTheme": "Central tension",
+                                                                                      "source": "generated"
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "isMainLine": true,
+                                                                                "annotation": {
+                                                                                  "moveRationale": "Nd8 develops a piece to an active square in the Four Knights Game.",
+                                                                                  "strategicTheme": "Knight activity",
+                                                                                  "source": "generated"
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "isMainLine": true,
+                                                                            "annotation": {
+                                                                              "moveRationale": "Re1 repositions the rook toward an open or key file in the Four Knights Game.",
+                                                                              "strategicTheme": "Rook activation",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
                                                                         "isMainLine": true,
                                                                         "annotation": {
                                                                           "moveRationale": "Qe7 activates the queen, increasing pressure in the Four Knights Game.",

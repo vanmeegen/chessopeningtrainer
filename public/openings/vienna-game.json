@@ -37,7 +37,42 @@
                                   {
                                     "move": "d3",
                                     "fen": "rnbqk2r/pppp1ppp/5n2/2b1p3/2B1P3/2NP4/PPP2PPP/R1BQK1NR b KQkq - 0 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "d6",
+                                        "fen": "rnbqk2r/ppp2ppp/3p1n2/2b1p3/2B1P3/2NP4/PPP2PPP/R1BQK1NR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "f4",
+                                            "fen": "rnbqk2r/ppp2ppp/3p1n2/2b1p3/2B1PP2/2NP4/PPP3PP/R1BQK1NR b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "f4 advances a pawn, influencing the structure in the Vienna Game.",
+                                              "strategicTheme": "Aggressive kingside expansion",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "Na4",
+                                            "fen": "rnbqk2r/ppp2ppp/3p1n2/2b1p3/N1B1P3/3P4/PPP2PPP/R1BQK1NR b KQkq - 1 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Na4 develops a piece to an active square in the Vienna Game.",
+                                              "strategicTheme": "Knight activity",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "d6 advances a pawn, influencing the structure in the Vienna Game.",
+                                          "strategicTheme": "Prophylactic pawn move",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": false,
                                     "annotation": {
                                       "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Vienna Game.",
@@ -79,7 +114,31 @@
                               {
                                 "move": "Bb4",
                                 "fen": "rnbqk2r/pppp1ppp/5n2/4p3/1bB1P3/2N5/PPPP1PPP/R1BQK1NR w KQkq - 4 4",
-                                "children": [],
+                                "children": [
+                                  {
+                                    "move": "Nf3",
+                                    "fen": "rnbqk2r/pppp1ppp/5n2/4p3/1bB1P3/2N2N2/PPPP1PPP/R1BQK2R b KQkq - 5 4",
+                                    "children": [
+                                      {
+                                        "move": "O-O",
+                                        "fen": "rnbq1rk1/pppp1ppp/5n2/4p3/1bB1P3/2N2N2/PPPP1PPP/R1BQK2R w KQ - 6 5",
+                                        "children": [],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Vienna Game.",
+                                          "strategicTheme": "Early king safety",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Nf3 develops a piece to an active square in the Vienna Game.",
+                                      "strategicTheme": "Natural piece development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
                                 "isMainLine": false,
                                 "annotation": {
                                   "moveRationale": "Bb4 pins or eyes the knight, creating positional tension in the Vienna Game.",
@@ -333,73 +392,36 @@
                             }
                           },
                           {
-                            "move": "f4",
-                            "fen": "rnbqkb1r/pppp1ppp/5n2/4p3/4PP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 3",
+                            "move": "a3",
+                            "fen": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/P1N5/1PPP1PPP/R1BQKBNR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "a3 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Vienna Game.",
+                              "strategicTheme": "Prophylactic pawn move",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "g3",
+                            "fen": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N3P1/PPPP1P1P/R1BQKBNR b KQkq - 0 3",
                             "children": [
                               {
                                 "move": "d5",
-                                "fen": "rnbqkb1r/ppp2ppp/5n2/3pp3/4PP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4",
+                                "fen": "rnbqkb1r/ppp2ppp/5n2/3pp3/4P3/2N3P1/PPPP1P1P/R1BQKBNR w KQkq - 0 4",
                                 "children": [
                                   {
                                     "move": "exd5",
-                                    "fen": "rnbqkb1r/ppp2ppp/5n2/3Pp3/5P2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 4",
+                                    "fen": "rnbqkb1r/ppp2ppp/5n2/3Pp3/8/2N3P1/PPPP1P1P/R1BQKBNR b KQkq - 0 4",
                                     "children": [
                                       {
-                                        "move": "e4",
-                                        "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 5",
-                                        "children": [
-                                          {
-                                            "move": "d3",
-                                            "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/2NP4/PPP3PP/R1BQKBNR b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "Bb4",
-                                                "fen": "rnbqk2r/ppp2ppp/5n2/3P4/1b2pP2/2NP4/PPP3PP/R1BQKBNR w KQkq - 1 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Bd2",
-                                                    "fen": "rnbqk2r/ppp2ppp/5n2/3P4/1b2pP2/2NP4/PPPB2PP/R2QKBNR b KQkq - 2 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "e3",
-                                                        "fen": "rnbqk2r/ppp2ppp/5n2/3P4/1b3P2/2NPp3/PPPB2PP/R2QKBNR w KQkq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": false,
-                                                        "annotation": {
-                                                          "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Vienna Game.",
-                                                          "strategicTheme": "Solid center support",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": false,
-                                                    "annotation": {
-                                                      "moveRationale": "Bd2 develops a piece to an active square in the Vienna Game.",
-                                                      "strategicTheme": "Bishop development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": false,
-                                                "annotation": {
-                                                  "moveRationale": "Bb4 pins or eyes the knight, creating positional tension in the Vienna Game.",
-                                                  "strategicTheme": "Bishop development",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": false,
-                                            "annotation": {
-                                              "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Vienna Game.",
-                                              "strategicTheme": "Solid center support",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
+                                        "move": "c6",
+                                        "fen": "rnbqkb1r/pp3ppp/2p2n2/3Pp3/8/2N3P1/PPPP1P1P/R1BQKBNR w KQkq - 0 5",
+                                        "children": [],
                                         "isMainLine": false,
                                         "annotation": {
-                                          "moveRationale": "e4 impacts the center, shaping the pawn structure in the Vienna Game.",
-                                          "strategicTheme": "Central tension",
+                                          "moveRationale": "c6 advances a pawn, influencing the structure in the Vienna Game.",
+                                          "strategicTheme": "Prophylactic pawn move",
                                           "source": "generated"
                                         }
                                       }
@@ -410,7 +432,114 @@
                                       "strategicTheme": "Material exchange",
                                       "source": "generated"
                                     }
-                                  },
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Vienna Game.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "Bc5",
+                                "fen": "rnbqk2r/pppp1ppp/5n2/2b1p3/4P3/2N3P1/PPPP1P1P/R1BQKBNR w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "Bg2",
+                                    "fen": "rnbqk2r/pppp1ppp/5n2/2b1p3/4P3/2N3P1/PPPP1PBP/R1BQK1NR b KQkq - 2 4",
+                                    "children": [
+                                      {
+                                        "move": "Nc6",
+                                        "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/4P3/2N3P1/PPPP1PBP/R1BQK1NR w KQkq - 3 5",
+                                        "children": [
+                                          {
+                                            "move": "Nge2",
+                                            "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/4P3/2N3P1/PPPPNPBP/R1BQK2R b KQkq - 4 5",
+                                            "children": [
+                                              {
+                                                "move": "d5",
+                                                "fen": "r1bqk2r/ppp2ppp/2n2n2/2bpp3/4P3/2N3P1/PPPPNPBP/R1BQK2R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "exd5",
+                                                    "fen": "r1bqk2r/ppp2ppp/2n2n2/2bPp3/8/2N3P1/PPPPNPBP/R1BQK2R b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Nd4",
+                                                        "fen": "r1bqk2r/ppp2ppp/5n2/2bPp3/3n4/2N3P1/PPPPNPBP/R1BQK2R w KQkq - 1 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Nd4 develops a piece to an active square in the Vienna Game.",
+                                                          "strategicTheme": "Knight activity",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "exd5 exchanges material, altering the pawn structure in the Vienna Game.",
+                                                      "strategicTheme": "Material exchange",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Vienna Game.",
+                                                  "strategicTheme": "Pawn structure",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Nge2 develops a piece to an active square in the Vienna Game.",
+                                              "strategicTheme": "Knight activity",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Vienna Game.",
+                                          "strategicTheme": "Natural piece development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Bg2 develops a piece to an active square in the Vienna Game.",
+                                      "strategicTheme": "Bishop development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Bc5 develops the bishop actively, targeting the vulnerable f7/f2 square in the Vienna Game.",
+                                  "strategicTheme": "Active bishop development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Vienna Game.",
+                              "strategicTheme": "Fianchetto preparation",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "f4",
+                            "fen": "rnbqkb1r/pppp1ppp/5n2/4p3/4PP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "d5",
+                                "fen": "rnbqkb1r/ppp2ppp/5n2/3pp3/4PP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4",
+                                "children": [
                                   {
                                     "move": "fxe5",
                                     "fen": "rnbqkb1r/ppp2ppp/5n2/3pP3/4P3/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 4",
@@ -461,7 +590,31 @@
                                               {
                                                 "move": "Be7",
                                                 "fen": "rnbqk2r/ppp1bppp/8/3pP3/4n3/2N2N2/PPPP2PP/R1BQKB1R w KQkq - 2 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "Qe2",
+                                                    "fen": "rnbqk2r/ppp1bppp/8/3pP3/4n3/2N2N2/PPPPQ1PP/R1B1KB1R b KQkq - 3 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Nxc3",
+                                                        "fen": "rnbqk2r/ppp1bppp/8/3pP3/8/2n2N2/PPPPQ1PP/R1B1KB1R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Nxc3 exchanges material, altering the pawn structure in the Vienna Game.",
+                                                          "strategicTheme": "Material exchange",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Qe2 activates the queen, increasing pressure in the Vienna Game.",
+                                                      "strategicTheme": "Queen activity",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Vienna Game.",
@@ -609,54 +762,67 @@
                                       "strategicTheme": "Solid center support",
                                       "source": "generated"
                                     }
-                                  }
-                                ],
-                                "isMainLine": false,
-                                "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Vienna Game.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
-                                }
-                              }
-                            ],
-                            "isMainLine": false,
-                            "annotation": {
-                              "moveRationale": "f4 advances a pawn, influencing the structure in the Vienna Game.",
-                              "strategicTheme": "Aggressive kingside expansion",
-                              "source": "generated"
-                            }
-                          },
-                          {
-                            "move": "a3",
-                            "fen": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/P1N5/1PPP1PPP/R1BQKBNR b KQkq - 0 3",
-                            "children": [],
-                            "isMainLine": false,
-                            "annotation": {
-                              "moveRationale": "a3 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Vienna Game.",
-                              "strategicTheme": "Prophylactic pawn move",
-                              "source": "generated"
-                            }
-                          },
-                          {
-                            "move": "g3",
-                            "fen": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N3P1/PPPP1P1P/R1BQKBNR b KQkq - 0 3",
-                            "children": [
-                              {
-                                "move": "d5",
-                                "fen": "rnbqkb1r/ppp2ppp/5n2/3pp3/4P3/2N3P1/PPPP1P1P/R1BQKBNR w KQkq - 0 4",
-                                "children": [
+                                  },
                                   {
                                     "move": "exd5",
-                                    "fen": "rnbqkb1r/ppp2ppp/5n2/3Pp3/8/2N3P1/PPPP1P1P/R1BQKBNR b KQkq - 0 4",
+                                    "fen": "rnbqkb1r/ppp2ppp/5n2/3Pp3/5P2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 4",
                                     "children": [
                                       {
-                                        "move": "c6",
-                                        "fen": "rnbqkb1r/pp3ppp/2p2n2/3Pp3/8/2N3P1/PPPP1P1P/R1BQKBNR w KQkq - 0 5",
-                                        "children": [],
+                                        "move": "e4",
+                                        "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "d3",
+                                            "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/2NP4/PPP3PP/R1BQKBNR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Bb4",
+                                                "fen": "rnbqk2r/ppp2ppp/5n2/3P4/1b2pP2/2NP4/PPP3PP/R1BQKBNR w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bd2",
+                                                    "fen": "rnbqk2r/ppp2ppp/5n2/3P4/1b2pP2/2NP4/PPPB2PP/R2QKBNR b KQkq - 2 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "e3",
+                                                        "fen": "rnbqk2r/ppp2ppp/5n2/3P4/1b3P2/2NPp3/PPPB2PP/R2QKBNR w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Vienna Game.",
+                                                          "strategicTheme": "Solid center support",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Bd2 develops a piece to an active square in the Vienna Game.",
+                                                      "strategicTheme": "Bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Bb4 pins or eyes the knight, creating positional tension in the Vienna Game.",
+                                                  "strategicTheme": "Bishop development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Vienna Game.",
+                                              "strategicTheme": "Solid center support",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
                                         "isMainLine": false,
                                         "annotation": {
-                                          "moveRationale": "c6 advances a pawn, influencing the structure in the Vienna Game.",
-                                          "strategicTheme": "Prophylactic pawn move",
+                                          "moveRationale": "e4 impacts the center, shaping the pawn structure in the Vienna Game.",
+                                          "strategicTheme": "Central tension",
                                           "source": "generated"
                                         }
                                       }
@@ -675,83 +841,12 @@
                                   "strategicTheme": "Pawn structure",
                                   "source": "generated"
                                 }
-                              },
-                              {
-                                "move": "Bc5",
-                                "fen": "rnbqk2r/pppp1ppp/5n2/2b1p3/4P3/2N3P1/PPPP1P1P/R1BQKBNR w KQkq - 1 4",
-                                "children": [
-                                  {
-                                    "move": "Bg2",
-                                    "fen": "rnbqk2r/pppp1ppp/5n2/2b1p3/4P3/2N3P1/PPPP1PBP/R1BQK1NR b KQkq - 2 4",
-                                    "children": [
-                                      {
-                                        "move": "Nc6",
-                                        "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/4P3/2N3P1/PPPP1PBP/R1BQK1NR w KQkq - 3 5",
-                                        "children": [
-                                          {
-                                            "move": "Nge2",
-                                            "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/4P3/2N3P1/PPPPNPBP/R1BQK2R b KQkq - 4 5",
-                                            "children": [
-                                              {
-                                                "move": "d5",
-                                                "fen": "r1bqk2r/ppp2ppp/2n2n2/2bpp3/4P3/2N3P1/PPPPNPBP/R1BQK2R w KQkq - 0 6",
-                                                "children": [
-                                                  {
-                                                    "move": "exd5",
-                                                    "fen": "r1bqk2r/ppp2ppp/2n2n2/2bPp3/8/2N3P1/PPPPNPBP/R1BQK2R b KQkq - 0 6",
-                                                    "children": [],
-                                                    "isMainLine": false,
-                                                    "annotation": {
-                                                      "moveRationale": "exd5 exchanges material, altering the pawn structure in the Vienna Game.",
-                                                      "strategicTheme": "Material exchange",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": false,
-                                                "annotation": {
-                                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Vienna Game.",
-                                                  "strategicTheme": "Pawn structure",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": false,
-                                            "annotation": {
-                                              "moveRationale": "Nge2 develops a piece to an active square in the Vienna Game.",
-                                              "strategicTheme": "Knight activity",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
-                                        "isMainLine": false,
-                                        "annotation": {
-                                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Vienna Game.",
-                                          "strategicTheme": "Natural piece development",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
-                                    "isMainLine": false,
-                                    "annotation": {
-                                      "moveRationale": "Bg2 develops a piece to an active square in the Vienna Game.",
-                                      "strategicTheme": "Bishop development",
-                                      "source": "generated"
-                                    }
-                                  }
-                                ],
-                                "isMainLine": false,
-                                "annotation": {
-                                  "moveRationale": "Bc5 develops the bishop actively, targeting the vulnerable f7/f2 square in the Vienna Game.",
-                                  "strategicTheme": "Active bishop development",
-                                  "source": "generated"
-                                }
                               }
                             ],
                             "isMainLine": false,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Vienna Game.",
-                              "strategicTheme": "Fianchetto preparation",
+                              "moveRationale": "f4 advances a pawn, influencing the structure in the Vienna Game.",
+                              "strategicTheme": "Aggressive kingside expansion",
                               "source": "generated"
                             }
                           }
@@ -1377,7 +1472,31 @@
                                               {
                                                 "move": "d5",
                                                 "fen": "r1bqk2r/ppp2ppp/2n2n2/2bpp3/4P3/2N3P1/PPPPNPBP/R1BQK2R w KQkq - 0 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "exd5",
+                                                    "fen": "r1bqk2r/ppp2ppp/2n2n2/2bPp3/8/2N3P1/PPPPNPBP/R1BQK2R b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Nd4",
+                                                        "fen": "r1bqk2r/ppp2ppp/5n2/2bPp3/3n4/2N3P1/PPPPNPBP/R1BQK2R w KQkq - 1 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Nd4 develops a piece to an active square in the Vienna Game.",
+                                                          "strategicTheme": "Knight activity",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "exd5 exchanges material, altering the pawn structure in the Vienna Game.",
+                                                      "strategicTheme": "Material exchange",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "d5 advances a pawn, influencing the structure in the Vienna Game.",
@@ -2959,7 +3078,31 @@
                                               {
                                                 "move": "d5",
                                                 "fen": "r1bqk2r/ppp2ppp/2n2n2/2bpp3/4P3/2N3P1/PPPPNPBP/R1BQK2R w KQkq - 0 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "exd5",
+                                                    "fen": "r1bqk2r/ppp2ppp/2n2n2/2bPp3/8/2N3P1/PPPPNPBP/R1BQK2R b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Nd4",
+                                                        "fen": "r1bqk2r/ppp2ppp/5n2/2bPp3/3n4/2N3P1/PPPPNPBP/R1BQK2R w KQkq - 1 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Nd4 develops a piece to an active square in the Vienna Game.",
+                                                          "strategicTheme": "Knight activity",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "exd5 exchanges material, altering the pawn structure in the Vienna Game.",
+                                                      "strategicTheme": "Material exchange",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "d5 advances a pawn, influencing the structure in the Vienna Game.",
@@ -3220,7 +3363,31 @@
                                               {
                                                 "move": "d5",
                                                 "fen": "r1bqk2r/ppp2ppp/2n2n2/2bpp3/4P3/2N3P1/PPPPNPBP/R1BQK2R w KQkq - 0 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "exd5",
+                                                    "fen": "r1bqk2r/ppp2ppp/2n2n2/2bPp3/8/2N3P1/PPPPNPBP/R1BQK2R b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Nd4",
+                                                        "fen": "r1bqk2r/ppp2ppp/5n2/2bPp3/3n4/2N3P1/PPPPNPBP/R1BQK2R w KQkq - 1 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Nd4 develops a piece to an active square in the Vienna Game.",
+                                                          "strategicTheme": "Knight activity",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "exd5 exchanges material, altering the pawn structure in the Vienna Game.",
+                                                      "strategicTheme": "Material exchange",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": true,
                                                 "annotation": {
                                                   "moveRationale": "d5 advances a pawn, influencing the structure in the Vienna Game.",
@@ -3410,7 +3577,31 @@
                                               {
                                                 "move": "d5",
                                                 "fen": "r1bqk2r/ppp2ppp/2n2n2/2bpp3/4P3/2N3P1/PPPPNPBP/R1BQK2R w KQkq - 0 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "exd5",
+                                                    "fen": "r1bqk2r/ppp2ppp/2n2n2/2bPp3/8/2N3P1/PPPPNPBP/R1BQK2R b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Nd4",
+                                                        "fen": "r1bqk2r/ppp2ppp/5n2/2bPp3/3n4/2N3P1/PPPPNPBP/R1BQK2R w KQkq - 1 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Nd4 develops a piece to an active square in the Vienna Game.",
+                                                          "strategicTheme": "Knight activity",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "exd5 exchanges material, altering the pawn structure in the Vienna Game.",
+                                                      "strategicTheme": "Material exchange",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": true,
                                                 "annotation": {
                                                   "moveRationale": "d5 advances a pawn, influencing the structure in the Vienna Game.",
@@ -4160,7 +4351,42 @@
                                   {
                                     "move": "d3",
                                     "fen": "rnbqk2r/pppp1ppp/5n2/2b1p3/2B1P3/2NP4/PPP2PPP/R1BQK1NR b KQkq - 0 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "d6",
+                                        "fen": "rnbqk2r/ppp2ppp/3p1n2/2b1p3/2B1P3/2NP4/PPP2PPP/R1BQK1NR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "f4",
+                                            "fen": "rnbqk2r/ppp2ppp/3p1n2/2b1p3/2B1PP2/2NP4/PPP3PP/R1BQK1NR b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "f4 advances a pawn, influencing the structure in the Vienna Game.",
+                                              "strategicTheme": "Aggressive kingside expansion",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "Na4",
+                                            "fen": "rnbqk2r/ppp2ppp/3p1n2/2b1p3/N1B1P3/3P4/PPP2PPP/R1BQK1NR b KQkq - 1 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Na4 develops a piece to an active square in the Vienna Game.",
+                                              "strategicTheme": "Knight activity",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "d6 advances a pawn, influencing the structure in the Vienna Game.",
+                                          "strategicTheme": "Prophylactic pawn move",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": false,
                                     "annotation": {
                                       "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Vienna Game.",
@@ -4202,7 +4428,31 @@
                               {
                                 "move": "Bb4",
                                 "fen": "rnbqk2r/pppp1ppp/5n2/4p3/1bB1P3/2N5/PPPP1PPP/R1BQK1NR w KQkq - 4 4",
-                                "children": [],
+                                "children": [
+                                  {
+                                    "move": "Nf3",
+                                    "fen": "rnbqk2r/pppp1ppp/5n2/4p3/1bB1P3/2N2N2/PPPP1PPP/R1BQK2R b KQkq - 5 4",
+                                    "children": [
+                                      {
+                                        "move": "O-O",
+                                        "fen": "rnbq1rk1/pppp1ppp/5n2/4p3/1bB1P3/2N2N2/PPPP1PPP/R1BQK2R w KQ - 6 5",
+                                        "children": [],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Vienna Game.",
+                                          "strategicTheme": "Early king safety",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Nf3 develops a piece to an active square in the Vienna Game.",
+                                      "strategicTheme": "Natural piece development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
                                 "isMainLine": false,
                                 "annotation": {
                                   "moveRationale": "Bb4 pins or eyes the knight, creating positional tension in the Vienna Game.",
@@ -4456,73 +4706,36 @@
                             }
                           },
                           {
-                            "move": "f4",
-                            "fen": "rnbqkb1r/pppp1ppp/5n2/4p3/4PP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 3",
+                            "move": "a3",
+                            "fen": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/P1N5/1PPP1PPP/R1BQKBNR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "a3 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Vienna Game.",
+                              "strategicTheme": "Prophylactic pawn move",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "g3",
+                            "fen": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N3P1/PPPP1P1P/R1BQKBNR b KQkq - 0 3",
                             "children": [
                               {
                                 "move": "d5",
-                                "fen": "rnbqkb1r/ppp2ppp/5n2/3pp3/4PP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4",
+                                "fen": "rnbqkb1r/ppp2ppp/5n2/3pp3/4P3/2N3P1/PPPP1P1P/R1BQKBNR w KQkq - 0 4",
                                 "children": [
                                   {
                                     "move": "exd5",
-                                    "fen": "rnbqkb1r/ppp2ppp/5n2/3Pp3/5P2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 4",
+                                    "fen": "rnbqkb1r/ppp2ppp/5n2/3Pp3/8/2N3P1/PPPP1P1P/R1BQKBNR b KQkq - 0 4",
                                     "children": [
                                       {
-                                        "move": "e4",
-                                        "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 5",
-                                        "children": [
-                                          {
-                                            "move": "d3",
-                                            "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/2NP4/PPP3PP/R1BQKBNR b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "Bb4",
-                                                "fen": "rnbqk2r/ppp2ppp/5n2/3P4/1b2pP2/2NP4/PPP3PP/R1BQKBNR w KQkq - 1 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Bd2",
-                                                    "fen": "rnbqk2r/ppp2ppp/5n2/3P4/1b2pP2/2NP4/PPPB2PP/R2QKBNR b KQkq - 2 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "e3",
-                                                        "fen": "rnbqk2r/ppp2ppp/5n2/3P4/1b3P2/2NPp3/PPPB2PP/R2QKBNR w KQkq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": false,
-                                                        "annotation": {
-                                                          "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Vienna Game.",
-                                                          "strategicTheme": "Solid center support",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": false,
-                                                    "annotation": {
-                                                      "moveRationale": "Bd2 develops a piece to an active square in the Vienna Game.",
-                                                      "strategicTheme": "Bishop development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": false,
-                                                "annotation": {
-                                                  "moveRationale": "Bb4 pins or eyes the knight, creating positional tension in the Vienna Game.",
-                                                  "strategicTheme": "Bishop development",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": false,
-                                            "annotation": {
-                                              "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Vienna Game.",
-                                              "strategicTheme": "Solid center support",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
+                                        "move": "c6",
+                                        "fen": "rnbqkb1r/pp3ppp/2p2n2/3Pp3/8/2N3P1/PPPP1P1P/R1BQKBNR w KQkq - 0 5",
+                                        "children": [],
                                         "isMainLine": false,
                                         "annotation": {
-                                          "moveRationale": "e4 impacts the center, shaping the pawn structure in the Vienna Game.",
-                                          "strategicTheme": "Central tension",
+                                          "moveRationale": "c6 advances a pawn, influencing the structure in the Vienna Game.",
+                                          "strategicTheme": "Prophylactic pawn move",
                                           "source": "generated"
                                         }
                                       }
@@ -4533,7 +4746,114 @@
                                       "strategicTheme": "Material exchange",
                                       "source": "generated"
                                     }
-                                  },
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Vienna Game.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "Bc5",
+                                "fen": "rnbqk2r/pppp1ppp/5n2/2b1p3/4P3/2N3P1/PPPP1P1P/R1BQKBNR w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "Bg2",
+                                    "fen": "rnbqk2r/pppp1ppp/5n2/2b1p3/4P3/2N3P1/PPPP1PBP/R1BQK1NR b KQkq - 2 4",
+                                    "children": [
+                                      {
+                                        "move": "Nc6",
+                                        "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/4P3/2N3P1/PPPP1PBP/R1BQK1NR w KQkq - 3 5",
+                                        "children": [
+                                          {
+                                            "move": "Nge2",
+                                            "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/4P3/2N3P1/PPPPNPBP/R1BQK2R b KQkq - 4 5",
+                                            "children": [
+                                              {
+                                                "move": "d5",
+                                                "fen": "r1bqk2r/ppp2ppp/2n2n2/2bpp3/4P3/2N3P1/PPPPNPBP/R1BQK2R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "exd5",
+                                                    "fen": "r1bqk2r/ppp2ppp/2n2n2/2bPp3/8/2N3P1/PPPPNPBP/R1BQK2R b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Nd4",
+                                                        "fen": "r1bqk2r/ppp2ppp/5n2/2bPp3/3n4/2N3P1/PPPPNPBP/R1BQK2R w KQkq - 1 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Nd4 develops a piece to an active square in the Vienna Game.",
+                                                          "strategicTheme": "Knight activity",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "exd5 exchanges material, altering the pawn structure in the Vienna Game.",
+                                                      "strategicTheme": "Material exchange",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Vienna Game.",
+                                                  "strategicTheme": "Pawn structure",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Nge2 develops a piece to an active square in the Vienna Game.",
+                                              "strategicTheme": "Knight activity",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Vienna Game.",
+                                          "strategicTheme": "Natural piece development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Bg2 develops a piece to an active square in the Vienna Game.",
+                                      "strategicTheme": "Bishop development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Bc5 develops the bishop actively, targeting the vulnerable f7/f2 square in the Vienna Game.",
+                                  "strategicTheme": "Active bishop development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Vienna Game.",
+                              "strategicTheme": "Fianchetto preparation",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "f4",
+                            "fen": "rnbqkb1r/pppp1ppp/5n2/4p3/4PP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "d5",
+                                "fen": "rnbqkb1r/ppp2ppp/5n2/3pp3/4PP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4",
+                                "children": [
                                   {
                                     "move": "fxe5",
                                     "fen": "rnbqkb1r/ppp2ppp/5n2/3pP3/4P3/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 4",
@@ -4584,7 +4904,31 @@
                                               {
                                                 "move": "Be7",
                                                 "fen": "rnbqk2r/ppp1bppp/8/3pP3/4n3/2N2N2/PPPP2PP/R1BQKB1R w KQkq - 2 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "Qe2",
+                                                    "fen": "rnbqk2r/ppp1bppp/8/3pP3/4n3/2N2N2/PPPPQ1PP/R1B1KB1R b KQkq - 3 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Nxc3",
+                                                        "fen": "rnbqk2r/ppp1bppp/8/3pP3/8/2n2N2/PPPPQ1PP/R1B1KB1R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Nxc3 exchanges material, altering the pawn structure in the Vienna Game.",
+                                                          "strategicTheme": "Material exchange",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Qe2 activates the queen, increasing pressure in the Vienna Game.",
+                                                      "strategicTheme": "Queen activity",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Vienna Game.",
@@ -4732,54 +5076,67 @@
                                       "strategicTheme": "Solid center support",
                                       "source": "generated"
                                     }
-                                  }
-                                ],
-                                "isMainLine": false,
-                                "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Vienna Game.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
-                                }
-                              }
-                            ],
-                            "isMainLine": false,
-                            "annotation": {
-                              "moveRationale": "f4 advances a pawn, influencing the structure in the Vienna Game.",
-                              "strategicTheme": "Aggressive kingside expansion",
-                              "source": "generated"
-                            }
-                          },
-                          {
-                            "move": "a3",
-                            "fen": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/P1N5/1PPP1PPP/R1BQKBNR b KQkq - 0 3",
-                            "children": [],
-                            "isMainLine": false,
-                            "annotation": {
-                              "moveRationale": "a3 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Vienna Game.",
-                              "strategicTheme": "Prophylactic pawn move",
-                              "source": "generated"
-                            }
-                          },
-                          {
-                            "move": "g3",
-                            "fen": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N3P1/PPPP1P1P/R1BQKBNR b KQkq - 0 3",
-                            "children": [
-                              {
-                                "move": "d5",
-                                "fen": "rnbqkb1r/ppp2ppp/5n2/3pp3/4P3/2N3P1/PPPP1P1P/R1BQKBNR w KQkq - 0 4",
-                                "children": [
+                                  },
                                   {
                                     "move": "exd5",
-                                    "fen": "rnbqkb1r/ppp2ppp/5n2/3Pp3/8/2N3P1/PPPP1P1P/R1BQKBNR b KQkq - 0 4",
+                                    "fen": "rnbqkb1r/ppp2ppp/5n2/3Pp3/5P2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 4",
                                     "children": [
                                       {
-                                        "move": "c6",
-                                        "fen": "rnbqkb1r/pp3ppp/2p2n2/3Pp3/8/2N3P1/PPPP1P1P/R1BQKBNR w KQkq - 0 5",
-                                        "children": [],
+                                        "move": "e4",
+                                        "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "d3",
+                                            "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/2NP4/PPP3PP/R1BQKBNR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Bb4",
+                                                "fen": "rnbqk2r/ppp2ppp/5n2/3P4/1b2pP2/2NP4/PPP3PP/R1BQKBNR w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bd2",
+                                                    "fen": "rnbqk2r/ppp2ppp/5n2/3P4/1b2pP2/2NP4/PPPB2PP/R2QKBNR b KQkq - 2 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "e3",
+                                                        "fen": "rnbqk2r/ppp2ppp/5n2/3P4/1b3P2/2NPp3/PPPB2PP/R2QKBNR w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Vienna Game.",
+                                                          "strategicTheme": "Solid center support",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Bd2 develops a piece to an active square in the Vienna Game.",
+                                                      "strategicTheme": "Bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Bb4 pins or eyes the knight, creating positional tension in the Vienna Game.",
+                                                  "strategicTheme": "Bishop development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Vienna Game.",
+                                              "strategicTheme": "Solid center support",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
                                         "isMainLine": false,
                                         "annotation": {
-                                          "moveRationale": "c6 advances a pawn, influencing the structure in the Vienna Game.",
-                                          "strategicTheme": "Prophylactic pawn move",
+                                          "moveRationale": "e4 impacts the center, shaping the pawn structure in the Vienna Game.",
+                                          "strategicTheme": "Central tension",
                                           "source": "generated"
                                         }
                                       }
@@ -4798,83 +5155,12 @@
                                   "strategicTheme": "Pawn structure",
                                   "source": "generated"
                                 }
-                              },
-                              {
-                                "move": "Bc5",
-                                "fen": "rnbqk2r/pppp1ppp/5n2/2b1p3/4P3/2N3P1/PPPP1P1P/R1BQKBNR w KQkq - 1 4",
-                                "children": [
-                                  {
-                                    "move": "Bg2",
-                                    "fen": "rnbqk2r/pppp1ppp/5n2/2b1p3/4P3/2N3P1/PPPP1PBP/R1BQK1NR b KQkq - 2 4",
-                                    "children": [
-                                      {
-                                        "move": "Nc6",
-                                        "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/4P3/2N3P1/PPPP1PBP/R1BQK1NR w KQkq - 3 5",
-                                        "children": [
-                                          {
-                                            "move": "Nge2",
-                                            "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/4P3/2N3P1/PPPPNPBP/R1BQK2R b KQkq - 4 5",
-                                            "children": [
-                                              {
-                                                "move": "d5",
-                                                "fen": "r1bqk2r/ppp2ppp/2n2n2/2bpp3/4P3/2N3P1/PPPPNPBP/R1BQK2R w KQkq - 0 6",
-                                                "children": [
-                                                  {
-                                                    "move": "exd5",
-                                                    "fen": "r1bqk2r/ppp2ppp/2n2n2/2bPp3/8/2N3P1/PPPPNPBP/R1BQK2R b KQkq - 0 6",
-                                                    "children": [],
-                                                    "isMainLine": false,
-                                                    "annotation": {
-                                                      "moveRationale": "exd5 exchanges material, altering the pawn structure in the Vienna Game.",
-                                                      "strategicTheme": "Material exchange",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": false,
-                                                "annotation": {
-                                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Vienna Game.",
-                                                  "strategicTheme": "Pawn structure",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": false,
-                                            "annotation": {
-                                              "moveRationale": "Nge2 develops a piece to an active square in the Vienna Game.",
-                                              "strategicTheme": "Knight activity",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
-                                        "isMainLine": false,
-                                        "annotation": {
-                                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Vienna Game.",
-                                          "strategicTheme": "Natural piece development",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
-                                    "isMainLine": false,
-                                    "annotation": {
-                                      "moveRationale": "Bg2 develops a piece to an active square in the Vienna Game.",
-                                      "strategicTheme": "Bishop development",
-                                      "source": "generated"
-                                    }
-                                  }
-                                ],
-                                "isMainLine": false,
-                                "annotation": {
-                                  "moveRationale": "Bc5 develops the bishop actively, targeting the vulnerable f7/f2 square in the Vienna Game.",
-                                  "strategicTheme": "Active bishop development",
-                                  "source": "generated"
-                                }
                               }
                             ],
                             "isMainLine": false,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Vienna Game.",
-                              "strategicTheme": "Fianchetto preparation",
+                              "moveRationale": "f4 advances a pawn, influencing the structure in the Vienna Game.",
+                              "strategicTheme": "Aggressive kingside expansion",
                               "source": "generated"
                             }
                           }
@@ -5071,7 +5357,19 @@
                                                   {
                                                     "move": "exd5",
                                                     "fen": "r1bqk2r/ppp2ppp/2n2n2/2bPp3/8/2N3P1/PPPPNPBP/R1BQK2R b KQkq - 0 6",
-                                                    "children": [],
+                                                    "children": [
+                                                      {
+                                                        "move": "Nd4",
+                                                        "fen": "r1bqk2r/ppp2ppp/5n2/2bPp3/3n4/2N3P1/PPPPNPBP/R1BQK2R w KQkq - 1 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Nd4 develops a piece to an active square in the Vienna Game.",
+                                                          "strategicTheme": "Knight activity",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
                                                     "isMainLine": true,
                                                     "annotation": {
                                                       "moveRationale": "exd5 exchanges material, altering the pawn structure in the Vienna Game.",
@@ -5321,7 +5619,19 @@
                                                   {
                                                     "move": "exd5",
                                                     "fen": "r1bqk2r/ppp2ppp/2n2n2/2bPp3/8/2N3P1/PPPPNPBP/R1BQK2R b KQkq - 0 6",
-                                                    "children": [],
+                                                    "children": [
+                                                      {
+                                                        "move": "Nd4",
+                                                        "fen": "r1bqk2r/ppp2ppp/5n2/2bPp3/3n4/2N3P1/PPPPNPBP/R1BQK2R w KQkq - 1 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Nd4 develops a piece to an active square in the Vienna Game.",
+                                                          "strategicTheme": "Knight activity",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
                                                     "isMainLine": true,
                                                     "annotation": {
                                                       "moveRationale": "exd5 exchanges material, altering the pawn structure in the Vienna Game.",
@@ -5448,7 +5758,42 @@
                                   {
                                     "move": "d3",
                                     "fen": "rnbqk2r/pppp1ppp/5n2/2b1p3/2B1P3/2NP4/PPP2PPP/R1BQK1NR b KQkq - 0 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "d6",
+                                        "fen": "rnbqk2r/ppp2ppp/3p1n2/2b1p3/2B1P3/2NP4/PPP2PPP/R1BQK1NR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "f4",
+                                            "fen": "rnbqk2r/ppp2ppp/3p1n2/2b1p3/2B1PP2/2NP4/PPP3PP/R1BQK1NR b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "f4 advances a pawn, influencing the structure in the Vienna Game.",
+                                              "strategicTheme": "Aggressive kingside expansion",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "Na4",
+                                            "fen": "rnbqk2r/ppp2ppp/3p1n2/2b1p3/N1B1P3/3P4/PPP2PPP/R1BQK1NR b KQkq - 1 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Na4 develops a piece to an active square in the Vienna Game.",
+                                              "strategicTheme": "Knight activity",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "d6 advances a pawn, influencing the structure in the Vienna Game.",
+                                          "strategicTheme": "Prophylactic pawn move",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": false,
                                     "annotation": {
                                       "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Vienna Game.",
@@ -5490,7 +5835,31 @@
                               {
                                 "move": "Bb4",
                                 "fen": "rnbqk2r/pppp1ppp/5n2/4p3/1bB1P3/2N5/PPPP1PPP/R1BQK1NR w KQkq - 4 4",
-                                "children": [],
+                                "children": [
+                                  {
+                                    "move": "Nf3",
+                                    "fen": "rnbqk2r/pppp1ppp/5n2/4p3/1bB1P3/2N2N2/PPPP1PPP/R1BQK2R b KQkq - 5 4",
+                                    "children": [
+                                      {
+                                        "move": "O-O",
+                                        "fen": "rnbq1rk1/pppp1ppp/5n2/4p3/1bB1P3/2N2N2/PPPP1PPP/R1BQK2R w KQ - 6 5",
+                                        "children": [],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Vienna Game.",
+                                          "strategicTheme": "Early king safety",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Nf3 develops a piece to an active square in the Vienna Game.",
+                                      "strategicTheme": "Natural piece development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
                                 "isMainLine": false,
                                 "annotation": {
                                   "moveRationale": "Bb4 pins or eyes the knight, creating positional tension in the Vienna Game.",
@@ -5917,7 +6286,31 @@
                               {
                                 "move": "Bb4",
                                 "fen": "rnbqk2r/pppp1ppp/5n2/4p3/1bB1P3/2N5/PPPP1PPP/R1BQK1NR w KQkq - 4 4",
-                                "children": [],
+                                "children": [
+                                  {
+                                    "move": "Nf3",
+                                    "fen": "rnbqk2r/pppp1ppp/5n2/4p3/1bB1P3/2N2N2/PPPP1PPP/R1BQK2R b KQkq - 5 4",
+                                    "children": [
+                                      {
+                                        "move": "O-O",
+                                        "fen": "rnbq1rk1/pppp1ppp/5n2/4p3/1bB1P3/2N2N2/PPPP1PPP/R1BQK2R w KQ - 6 5",
+                                        "children": [],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Vienna Game.",
+                                          "strategicTheme": "Early king safety",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Nf3 develops a piece to an active square in the Vienna Game.",
+                                      "strategicTheme": "Natural piece development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
                                 "isMainLine": true,
                                 "annotation": {
                                   "moveRationale": "Bb4 pins or eyes the knight, creating positional tension in the Vienna Game.",
@@ -7455,77 +7848,6 @@
                                 "fen": "rnbqkb1r/ppp2ppp/5n2/3pp3/4PP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4",
                                 "children": [
                                   {
-                                    "move": "exd5",
-                                    "fen": "rnbqkb1r/ppp2ppp/5n2/3Pp3/5P2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 4",
-                                    "children": [
-                                      {
-                                        "move": "e4",
-                                        "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 5",
-                                        "children": [
-                                          {
-                                            "move": "d3",
-                                            "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/2NP4/PPP3PP/R1BQKBNR b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "Bb4",
-                                                "fen": "rnbqk2r/ppp2ppp/5n2/3P4/1b2pP2/2NP4/PPP3PP/R1BQKBNR w KQkq - 1 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Bd2",
-                                                    "fen": "rnbqk2r/ppp2ppp/5n2/3P4/1b2pP2/2NP4/PPPB2PP/R2QKBNR b KQkq - 2 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "e3",
-                                                        "fen": "rnbqk2r/ppp2ppp/5n2/3P4/1b3P2/2NPp3/PPPB2PP/R2QKBNR w KQkq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": false,
-                                                        "annotation": {
-                                                          "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Vienna Game.",
-                                                          "strategicTheme": "Solid center support",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": false,
-                                                    "annotation": {
-                                                      "moveRationale": "Bd2 develops a piece to an active square in the Vienna Game.",
-                                                      "strategicTheme": "Bishop development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": false,
-                                                "annotation": {
-                                                  "moveRationale": "Bb4 pins or eyes the knight, creating positional tension in the Vienna Game.",
-                                                  "strategicTheme": "Bishop development",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": false,
-                                            "annotation": {
-                                              "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Vienna Game.",
-                                              "strategicTheme": "Solid center support",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
-                                        "isMainLine": false,
-                                        "annotation": {
-                                          "moveRationale": "e4 impacts the center, shaping the pawn structure in the Vienna Game.",
-                                          "strategicTheme": "Central tension",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
-                                    "isMainLine": false,
-                                    "annotation": {
-                                      "moveRationale": "exd5 exchanges material, altering the pawn structure in the Vienna Game.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
-                                    }
-                                  },
-                                  {
                                     "move": "fxe5",
                                     "fen": "rnbqkb1r/ppp2ppp/5n2/3pP3/4P3/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 4",
                                     "children": [
@@ -7575,7 +7897,31 @@
                                               {
                                                 "move": "Be7",
                                                 "fen": "rnbqk2r/ppp1bppp/8/3pP3/4n3/2N2N2/PPPP2PP/R1BQKB1R w KQkq - 2 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "Qe2",
+                                                    "fen": "rnbqk2r/ppp1bppp/8/3pP3/4n3/2N2N2/PPPPQ1PP/R1B1KB1R b KQkq - 3 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Nxc3",
+                                                        "fen": "rnbqk2r/ppp1bppp/8/3pP3/8/2n2N2/PPPPQ1PP/R1B1KB1R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Nxc3 exchanges material, altering the pawn structure in the Vienna Game.",
+                                                          "strategicTheme": "Material exchange",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Qe2 activates the queen, increasing pressure in the Vienna Game.",
+                                                      "strategicTheme": "Queen activity",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Vienna Game.",
@@ -7721,6 +8067,77 @@
                                     "annotation": {
                                       "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Vienna Game.",
                                       "strategicTheme": "Solid center support",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "exd5",
+                                    "fen": "rnbqkb1r/ppp2ppp/5n2/3Pp3/5P2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "e4",
+                                        "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "d3",
+                                            "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/2NP4/PPP3PP/R1BQKBNR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Bb4",
+                                                "fen": "rnbqk2r/ppp2ppp/5n2/3P4/1b2pP2/2NP4/PPP3PP/R1BQKBNR w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bd2",
+                                                    "fen": "rnbqk2r/ppp2ppp/5n2/3P4/1b2pP2/2NP4/PPPB2PP/R2QKBNR b KQkq - 2 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "e3",
+                                                        "fen": "rnbqk2r/ppp2ppp/5n2/3P4/1b3P2/2NPp3/PPPB2PP/R2QKBNR w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Vienna Game.",
+                                                          "strategicTheme": "Solid center support",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Bd2 develops a piece to an active square in the Vienna Game.",
+                                                      "strategicTheme": "Bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Bb4 pins or eyes the knight, creating positional tension in the Vienna Game.",
+                                                  "strategicTheme": "Bishop development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Vienna Game.",
+                                              "strategicTheme": "Solid center support",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "e4 impacts the center, shaping the pawn structure in the Vienna Game.",
+                                          "strategicTheme": "Central tension",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "exd5 exchanges material, altering the pawn structure in the Vienna Game.",
+                                      "strategicTheme": "Material exchange",
                                       "source": "generated"
                                     }
                                   }
@@ -7966,7 +8383,31 @@
                                               {
                                                 "move": "Be7",
                                                 "fen": "rnbqk2r/ppp1bppp/8/3pP3/4n3/2N2N2/PPPP2PP/R1BQKB1R w KQkq - 2 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "Qe2",
+                                                    "fen": "rnbqk2r/ppp1bppp/8/3pP3/4n3/2N2N2/PPPPQ1PP/R1B1KB1R b KQkq - 3 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Nxc3",
+                                                        "fen": "rnbqk2r/ppp1bppp/8/3pP3/8/2n2N2/PPPPQ1PP/R1B1KB1R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Nxc3 exchanges material, altering the pawn structure in the Vienna Game.",
+                                                          "strategicTheme": "Material exchange",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Qe2 activates the queen, increasing pressure in the Vienna Game.",
+                                                      "strategicTheme": "Queen activity",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": true,
                                                 "annotation": {
                                                   "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Vienna Game.",
@@ -8226,77 +8667,6 @@
                                 "fen": "rnbqkb1r/ppp2ppp/5n2/3pp3/4PP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4",
                                 "children": [
                                   {
-                                    "move": "exd5",
-                                    "fen": "rnbqkb1r/ppp2ppp/5n2/3Pp3/5P2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 4",
-                                    "children": [
-                                      {
-                                        "move": "e4",
-                                        "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 5",
-                                        "children": [
-                                          {
-                                            "move": "d3",
-                                            "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/2NP4/PPP3PP/R1BQKBNR b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "Bb4",
-                                                "fen": "rnbqk2r/ppp2ppp/5n2/3P4/1b2pP2/2NP4/PPP3PP/R1BQKBNR w KQkq - 1 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Bd2",
-                                                    "fen": "rnbqk2r/ppp2ppp/5n2/3P4/1b2pP2/2NP4/PPPB2PP/R2QKBNR b KQkq - 2 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "e3",
-                                                        "fen": "rnbqk2r/ppp2ppp/5n2/3P4/1b3P2/2NPp3/PPPB2PP/R2QKBNR w KQkq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": false,
-                                                        "annotation": {
-                                                          "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Vienna Game.",
-                                                          "strategicTheme": "Solid center support",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": false,
-                                                    "annotation": {
-                                                      "moveRationale": "Bd2 develops a piece to an active square in the Vienna Game.",
-                                                      "strategicTheme": "Bishop development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": false,
-                                                "annotation": {
-                                                  "moveRationale": "Bb4 pins or eyes the knight, creating positional tension in the Vienna Game.",
-                                                  "strategicTheme": "Bishop development",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": false,
-                                            "annotation": {
-                                              "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Vienna Game.",
-                                              "strategicTheme": "Solid center support",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
-                                        "isMainLine": false,
-                                        "annotation": {
-                                          "moveRationale": "e4 impacts the center, shaping the pawn structure in the Vienna Game.",
-                                          "strategicTheme": "Central tension",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
-                                    "isMainLine": false,
-                                    "annotation": {
-                                      "moveRationale": "exd5 exchanges material, altering the pawn structure in the Vienna Game.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
-                                    }
-                                  },
-                                  {
                                     "move": "fxe5",
                                     "fen": "rnbqkb1r/ppp2ppp/5n2/3pP3/4P3/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 4",
                                     "children": [
@@ -8346,7 +8716,31 @@
                                               {
                                                 "move": "Be7",
                                                 "fen": "rnbqk2r/ppp1bppp/8/3pP3/4n3/2N2N2/PPPP2PP/R1BQKB1R w KQkq - 2 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "Qe2",
+                                                    "fen": "rnbqk2r/ppp1bppp/8/3pP3/4n3/2N2N2/PPPPQ1PP/R1B1KB1R b KQkq - 3 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Nxc3",
+                                                        "fen": "rnbqk2r/ppp1bppp/8/3pP3/8/2n2N2/PPPPQ1PP/R1B1KB1R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Nxc3 exchanges material, altering the pawn structure in the Vienna Game.",
+                                                          "strategicTheme": "Material exchange",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Qe2 activates the queen, increasing pressure in the Vienna Game.",
+                                                      "strategicTheme": "Queen activity",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Vienna Game.",
@@ -8492,6 +8886,77 @@
                                     "annotation": {
                                       "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Vienna Game.",
                                       "strategicTheme": "Solid center support",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "exd5",
+                                    "fen": "rnbqkb1r/ppp2ppp/5n2/3Pp3/5P2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "e4",
+                                        "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "d3",
+                                            "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/2NP4/PPP3PP/R1BQKBNR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Bb4",
+                                                "fen": "rnbqk2r/ppp2ppp/5n2/3P4/1b2pP2/2NP4/PPP3PP/R1BQKBNR w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bd2",
+                                                    "fen": "rnbqk2r/ppp2ppp/5n2/3P4/1b2pP2/2NP4/PPPB2PP/R2QKBNR b KQkq - 2 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "e3",
+                                                        "fen": "rnbqk2r/ppp2ppp/5n2/3P4/1b3P2/2NPp3/PPPB2PP/R2QKBNR w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Vienna Game.",
+                                                          "strategicTheme": "Solid center support",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Bd2 develops a piece to an active square in the Vienna Game.",
+                                                      "strategicTheme": "Bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Bb4 pins or eyes the knight, creating positional tension in the Vienna Game.",
+                                                  "strategicTheme": "Bishop development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Vienna Game.",
+                                              "strategicTheme": "Solid center support",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "e4 impacts the center, shaping the pawn structure in the Vienna Game.",
+                                          "strategicTheme": "Central tension",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "exd5 exchanges material, altering the pawn structure in the Vienna Game.",
+                                      "strategicTheme": "Material exchange",
                                       "source": "generated"
                                     }
                                   }

@@ -357,7 +357,31 @@
                           {
                             "move": "Nc3",
                             "fen": "rnbqkb1r/pppppppp/8/3nP3/8/2N5/PPPP1PPP/R1BQKBNR b KQkq - 2 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "Nxc3",
+                                "fen": "rnbqkb1r/pppppppp/8/4P3/8/2n5/PPPP1PPP/R1BQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "dxc3",
+                                    "fen": "rnbqkb1r/pppppppp/8/4P3/8/2P5/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "dxc3 impacts the center, shaping the pawn structure in the Alekhine Defense.",
+                                      "strategicTheme": "Central tension",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Nxc3 exchanges material, altering the pawn structure in the Alekhine Defense.",
+                                  "strategicTheme": "Material exchange",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": false,
                             "annotation": {
                               "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Alekhine Defense.",
@@ -1123,7 +1147,66 @@
                                       {
                                         "move": "dxe5",
                                         "fen": "rnbqkb1r/ppp1pppp/8/3np3/3P4/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 5",
-                                        "children": [],
+                                        "children": [
+                                          {
+                                            "move": "Nxe5",
+                                            "fen": "rnbqkb1r/ppp1pppp/8/3nN3/3P4/8/PPP2PPP/RNBQKB1R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "g6",
+                                                "fen": "rnbqkb1r/ppp1pp1p/6p1/3nN3/3P4/8/PPP2PPP/RNBQKB1R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bc4",
+                                                    "fen": "rnbqkb1r/ppp1pp1p/6p1/3nN3/2BP4/8/PPP2PPP/RNBQK2R b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "c6",
+                                                        "fen": "rnbqkb1r/pp2pp1p/2p3p1/3nN3/2BP4/8/PPP2PPP/RNBQK2R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "c6 advances a pawn, influencing the structure in the Alekhine Defense.",
+                                                          "strategicTheme": "Prophylactic pawn move",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Alekhine Defense.",
+                                                      "strategicTheme": "Active bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Alekhine Defense.",
+                                                  "strategicTheme": "Fianchetto preparation",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "c6",
+                                                "fen": "rnbqkb1r/pp2pppp/2p5/3nN3/3P4/8/PPP2PPP/RNBQKB1R w KQkq - 0 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "c6 advances a pawn, influencing the structure in the Alekhine Defense.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Alekhine Defense.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
                                         "isMainLine": false,
                                         "annotation": {
                                           "moveRationale": "dxe5 exchanges material, altering the pawn structure in the Alekhine Defense.",
@@ -1199,7 +1282,30 @@
                                               {
                                                 "move": "c6",
                                                 "fen": "rn1qkb1r/pp2pppp/2pp4/3nP3/3P2b1/5N2/PPP1BPPP/RNBQK2R w KQkq - 0 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "c4",
+                                                    "fen": "rn1qkb1r/pp2pppp/2pp4/3nP3/2PP2b1/5N2/PP2BPPP/RNBQK2R b KQkq - 0 6",
+                                                    "children": [],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "c4 gains space on the queenside in the Alekhine Defense.",
+                                                      "strategicTheme": "Pawn structure",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "O-O",
+                                                    "fen": "rn1qkb1r/pp2pppp/2pp4/3nP3/3P2b1/5N2/PPP1BPPP/RNBQ1RK1 b kq - 1 6",
+                                                    "children": [],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Alekhine Defense.",
+                                                      "strategicTheme": "King safety",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "c6 advances a pawn, influencing the structure in the Alekhine Defense.",
@@ -1342,7 +1448,54 @@
                           {
                             "move": "Bxf7+",
                             "fen": "rnbqkb1r/pppppBpp/8/8/4n3/8/PPPP1PPP/RNBQK1NR b KQkq - 0 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "Kxf7",
+                                "fen": "rnbq1b1r/pppppkpp/8/8/4n3/8/PPPP1PPP/RNBQK1NR w KQ - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Qh5+",
+                                    "fen": "rnbq1b1r/pppppkpp/8/7Q/4n3/8/PPPP1PPP/RNB1K1NR b KQ - 1 4",
+                                    "children": [
+                                      {
+                                        "move": "Kg8",
+                                        "fen": "rnbq1bkr/ppppp1pp/8/7Q/4n3/8/PPPP1PPP/RNB1K1NR w KQ - 2 5",
+                                        "children": [],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Kg8 improves the position in the Alekhine Defense.",
+                                          "strategicTheme": "Position improvement",
+                                          "source": "generated"
+                                        }
+                                      },
+                                      {
+                                        "move": "g6",
+                                        "fen": "rnbq1b1r/pppppk1p/6p1/7Q/4n3/8/PPPP1PPP/RNB1K1NR w KQ - 0 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Alekhine Defense.",
+                                          "strategicTheme": "Fianchetto preparation",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Qh5+ delivers check, seizing the initiative in the Alekhine Defense.",
+                                      "strategicTheme": "King pressure",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Kxf7 exchanges material, altering the pawn structure in the Alekhine Defense.",
+                                  "strategicTheme": "Material exchange",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": false,
                             "annotation": {
                               "moveRationale": "Bxf7+ exchanges material, altering the pawn structure in the Alekhine Defense.",
@@ -2446,7 +2599,54 @@
                           {
                             "move": "Bxf7+",
                             "fen": "rnbqkb1r/pppppBpp/8/8/4n3/8/PPPP1PPP/RNBQK1NR b KQkq - 0 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "Kxf7",
+                                "fen": "rnbq1b1r/pppppkpp/8/8/4n3/8/PPPP1PPP/RNBQK1NR w KQ - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Qh5+",
+                                    "fen": "rnbq1b1r/pppppkpp/8/7Q/4n3/8/PPPP1PPP/RNB1K1NR b KQ - 1 4",
+                                    "children": [
+                                      {
+                                        "move": "Kg8",
+                                        "fen": "rnbq1bkr/ppppp1pp/8/7Q/4n3/8/PPPP1PPP/RNB1K1NR w KQ - 2 5",
+                                        "children": [],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Kg8 improves the position in the Alekhine Defense.",
+                                          "strategicTheme": "Position improvement",
+                                          "source": "generated"
+                                        }
+                                      },
+                                      {
+                                        "move": "g6",
+                                        "fen": "rnbq1b1r/pppppk1p/6p1/7Q/4n3/8/PPPP1PPP/RNB1K1NR w KQ - 0 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Alekhine Defense.",
+                                          "strategicTheme": "Fianchetto preparation",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Qh5+ delivers check, seizing the initiative in the Alekhine Defense.",
+                                      "strategicTheme": "King pressure",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Kxf7 exchanges material, altering the pawn structure in the Alekhine Defense.",
+                                  "strategicTheme": "Material exchange",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": true,
                             "annotation": {
                               "moveRationale": "Bxf7+ exchanges material, altering the pawn structure in the Alekhine Defense.",
@@ -2517,7 +2717,54 @@
                           {
                             "move": "Bxf7+",
                             "fen": "rnbqkb1r/pppppBpp/8/8/4n3/8/PPPP1PPP/RNBQK1NR b KQkq - 0 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "Kxf7",
+                                "fen": "rnbq1b1r/pppppkpp/8/8/4n3/8/PPPP1PPP/RNBQK1NR w KQ - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Qh5+",
+                                    "fen": "rnbq1b1r/pppppkpp/8/7Q/4n3/8/PPPP1PPP/RNB1K1NR b KQ - 1 4",
+                                    "children": [
+                                      {
+                                        "move": "Kg8",
+                                        "fen": "rnbq1bkr/ppppp1pp/8/7Q/4n3/8/PPPP1PPP/RNB1K1NR w KQ - 2 5",
+                                        "children": [],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Kg8 improves the position in the Alekhine Defense.",
+                                          "strategicTheme": "Position improvement",
+                                          "source": "generated"
+                                        }
+                                      },
+                                      {
+                                        "move": "g6",
+                                        "fen": "rnbq1b1r/pppppk1p/6p1/7Q/4n3/8/PPPP1PPP/RNB1K1NR w KQ - 0 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Alekhine Defense.",
+                                          "strategicTheme": "Fianchetto preparation",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Qh5+ delivers check, seizing the initiative in the Alekhine Defense.",
+                                      "strategicTheme": "King pressure",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Kxf7 exchanges material, altering the pawn structure in the Alekhine Defense.",
+                                  "strategicTheme": "Material exchange",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": true,
                             "annotation": {
                               "moveRationale": "Bxf7+ exchanges material, altering the pawn structure in the Alekhine Defense.",
@@ -3188,7 +3435,31 @@
                           {
                             "move": "Nc3",
                             "fen": "rnbqkb1r/pppppppp/8/3nP3/8/2N5/PPPP1PPP/R1BQKBNR b KQkq - 2 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "Nxc3",
+                                "fen": "rnbqkb1r/pppppppp/8/4P3/8/2n5/PPPP1PPP/R1BQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "dxc3",
+                                    "fen": "rnbqkb1r/pppppppp/8/4P3/8/2P5/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "dxc3 impacts the center, shaping the pawn structure in the Alekhine Defense.",
+                                      "strategicTheme": "Central tension",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Nxc3 exchanges material, altering the pawn structure in the Alekhine Defense.",
+                                  "strategicTheme": "Material exchange",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": false,
                             "annotation": {
                               "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Alekhine Defense.",
@@ -3954,7 +4225,66 @@
                                       {
                                         "move": "dxe5",
                                         "fen": "rnbqkb1r/ppp1pppp/8/3np3/3P4/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 5",
-                                        "children": [],
+                                        "children": [
+                                          {
+                                            "move": "Nxe5",
+                                            "fen": "rnbqkb1r/ppp1pppp/8/3nN3/3P4/8/PPP2PPP/RNBQKB1R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "g6",
+                                                "fen": "rnbqkb1r/ppp1pp1p/6p1/3nN3/3P4/8/PPP2PPP/RNBQKB1R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bc4",
+                                                    "fen": "rnbqkb1r/ppp1pp1p/6p1/3nN3/2BP4/8/PPP2PPP/RNBQK2R b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "c6",
+                                                        "fen": "rnbqkb1r/pp2pp1p/2p3p1/3nN3/2BP4/8/PPP2PPP/RNBQK2R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "c6 advances a pawn, influencing the structure in the Alekhine Defense.",
+                                                          "strategicTheme": "Prophylactic pawn move",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Alekhine Defense.",
+                                                      "strategicTheme": "Active bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Alekhine Defense.",
+                                                  "strategicTheme": "Fianchetto preparation",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "c6",
+                                                "fen": "rnbqkb1r/pp2pppp/2p5/3nN3/3P4/8/PPP2PPP/RNBQKB1R w KQkq - 0 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "c6 advances a pawn, influencing the structure in the Alekhine Defense.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Alekhine Defense.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
                                         "isMainLine": false,
                                         "annotation": {
                                           "moveRationale": "dxe5 exchanges material, altering the pawn structure in the Alekhine Defense.",
@@ -4030,7 +4360,30 @@
                                               {
                                                 "move": "c6",
                                                 "fen": "rn1qkb1r/pp2pppp/2pp4/3nP3/3P2b1/5N2/PPP1BPPP/RNBQK2R w KQkq - 0 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "c4",
+                                                    "fen": "rn1qkb1r/pp2pppp/2pp4/3nP3/2PP2b1/5N2/PP2BPPP/RNBQK2R b KQkq - 0 6",
+                                                    "children": [],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "c4 gains space on the queenside in the Alekhine Defense.",
+                                                      "strategicTheme": "Pawn structure",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "O-O",
+                                                    "fen": "rn1qkb1r/pp2pppp/2pp4/3nP3/3P2b1/5N2/PPP1BPPP/RNBQ1RK1 b kq - 1 6",
+                                                    "children": [],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Alekhine Defense.",
+                                                      "strategicTheme": "King safety",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "c6 advances a pawn, influencing the structure in the Alekhine Defense.",
@@ -4684,7 +5037,31 @@
                           {
                             "move": "Nc3",
                             "fen": "rnbqkb1r/pppppppp/8/3nP3/8/2N5/PPPP1PPP/R1BQKBNR b KQkq - 2 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "Nxc3",
+                                "fen": "rnbqkb1r/pppppppp/8/4P3/8/2n5/PPPP1PPP/R1BQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "dxc3",
+                                    "fen": "rnbqkb1r/pppppppp/8/4P3/8/2P5/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "dxc3 impacts the center, shaping the pawn structure in the Alekhine Defense.",
+                                      "strategicTheme": "Central tension",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Nxc3 exchanges material, altering the pawn structure in the Alekhine Defense.",
+                                  "strategicTheme": "Material exchange",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": true,
                             "annotation": {
                               "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Alekhine Defense.",
@@ -5399,7 +5776,43 @@
                                                       {
                                                         "move": "d6",
                                                         "fen": "rnbqkb1r/ppp2ppp/3pp3/2PnP3/2B5/2N5/PP1P1PPP/R1BQK1NR w KQkq - 0 7",
-                                                        "children": [],
+                                                        "children": [
+                                                          {
+                                                            "move": "Nxd5",
+                                                            "fen": "rnbqkb1r/ppp2ppp/3pp3/2PNP3/2B5/8/PP1P1PPP/R1BQK1NR b KQkq - 0 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "exd5",
+                                                                "fen": "rnbqkb1r/ppp2ppp/3p4/2PpP3/2B5/8/PP1P1PPP/R1BQK1NR w KQkq - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Bxd5",
+                                                                    "fen": "rnbqkb1r/ppp2ppp/3p4/2PBP3/8/8/PP1P1PPP/R1BQK1NR b KQkq - 0 8",
+                                                                    "children": [],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Bxd5 exchanges material, altering the pawn structure in the Alekhine Defense.",
+                                                                      "strategicTheme": "Material exchange",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "exd5 exchanges material, altering the pawn structure in the Alekhine Defense.",
+                                                                  "strategicTheme": "Material exchange",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": true,
+                                                            "annotation": {
+                                                              "moveRationale": "Nxd5 exchanges material, altering the pawn structure in the Alekhine Defense.",
+                                                              "strategicTheme": "Material exchange",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
                                                         "isMainLine": true,
                                                         "annotation": {
                                                           "moveRationale": "d6 advances a pawn, influencing the structure in the Alekhine Defense.",
@@ -6436,7 +6849,66 @@
                                       {
                                         "move": "dxe5",
                                         "fen": "rnbqkb1r/ppp1pppp/8/3np3/3P4/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 5",
-                                        "children": [],
+                                        "children": [
+                                          {
+                                            "move": "Nxe5",
+                                            "fen": "rnbqkb1r/ppp1pppp/8/3nN3/3P4/8/PPP2PPP/RNBQKB1R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "g6",
+                                                "fen": "rnbqkb1r/ppp1pp1p/6p1/3nN3/3P4/8/PPP2PPP/RNBQKB1R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bc4",
+                                                    "fen": "rnbqkb1r/ppp1pp1p/6p1/3nN3/2BP4/8/PPP2PPP/RNBQK2R b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "c6",
+                                                        "fen": "rnbqkb1r/pp2pp1p/2p3p1/3nN3/2BP4/8/PPP2PPP/RNBQK2R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "c6 advances a pawn, influencing the structure in the Alekhine Defense.",
+                                                          "strategicTheme": "Prophylactic pawn move",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Alekhine Defense.",
+                                                      "strategicTheme": "Active bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Alekhine Defense.",
+                                                  "strategicTheme": "Fianchetto preparation",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "c6",
+                                                "fen": "rnbqkb1r/pp2pppp/2p5/3nN3/3P4/8/PPP2PPP/RNBQKB1R w KQkq - 0 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "c6 advances a pawn, influencing the structure in the Alekhine Defense.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Alekhine Defense.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
                                         "isMainLine": false,
                                         "annotation": {
                                           "moveRationale": "dxe5 exchanges material, altering the pawn structure in the Alekhine Defense.",
@@ -6512,7 +6984,30 @@
                                               {
                                                 "move": "c6",
                                                 "fen": "rn1qkb1r/pp2pppp/2pp4/3nP3/3P2b1/5N2/PPP1BPPP/RNBQK2R w KQkq - 0 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "c4",
+                                                    "fen": "rn1qkb1r/pp2pppp/2pp4/3nP3/2PP2b1/5N2/PP2BPPP/RNBQK2R b KQkq - 0 6",
+                                                    "children": [],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "c4 gains space on the queenside in the Alekhine Defense.",
+                                                      "strategicTheme": "Pawn structure",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "O-O",
+                                                    "fen": "rn1qkb1r/pp2pppp/2pp4/3nP3/3P2b1/5N2/PPP1BPPP/RNBQ1RK1 b kq - 1 6",
+                                                    "children": [],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Alekhine Defense.",
+                                                      "strategicTheme": "King safety",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "c6 advances a pawn, influencing the structure in the Alekhine Defense.",
@@ -7389,7 +7884,66 @@
                                       {
                                         "move": "dxe5",
                                         "fen": "rnbqkb1r/ppp1pppp/8/3np3/3P4/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 5",
-                                        "children": [],
+                                        "children": [
+                                          {
+                                            "move": "Nxe5",
+                                            "fen": "rnbqkb1r/ppp1pppp/8/3nN3/3P4/8/PPP2PPP/RNBQKB1R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "g6",
+                                                "fen": "rnbqkb1r/ppp1pp1p/6p1/3nN3/3P4/8/PPP2PPP/RNBQKB1R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bc4",
+                                                    "fen": "rnbqkb1r/ppp1pp1p/6p1/3nN3/2BP4/8/PPP2PPP/RNBQK2R b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "c6",
+                                                        "fen": "rnbqkb1r/pp2pp1p/2p3p1/3nN3/2BP4/8/PPP2PPP/RNBQK2R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "c6 advances a pawn, influencing the structure in the Alekhine Defense.",
+                                                          "strategicTheme": "Prophylactic pawn move",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Alekhine Defense.",
+                                                      "strategicTheme": "Active bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Alekhine Defense.",
+                                                  "strategicTheme": "Fianchetto preparation",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "c6",
+                                                "fen": "rnbqkb1r/pp2pppp/2p5/3nN3/3P4/8/PPP2PPP/RNBQKB1R w KQkq - 0 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "c6 advances a pawn, influencing the structure in the Alekhine Defense.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Alekhine Defense.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
                                         "isMainLine": false,
                                         "annotation": {
                                           "moveRationale": "dxe5 exchanges material, altering the pawn structure in the Alekhine Defense.",
@@ -7465,7 +8019,30 @@
                                               {
                                                 "move": "c6",
                                                 "fen": "rn1qkb1r/pp2pppp/2pp4/3nP3/3P2b1/5N2/PPP1BPPP/RNBQK2R w KQkq - 0 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "c4",
+                                                    "fen": "rn1qkb1r/pp2pppp/2pp4/3nP3/2PP2b1/5N2/PP2BPPP/RNBQK2R b KQkq - 0 6",
+                                                    "children": [],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "c4 gains space on the queenside in the Alekhine Defense.",
+                                                      "strategicTheme": "Pawn structure",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "O-O",
+                                                    "fen": "rn1qkb1r/pp2pppp/2pp4/3nP3/3P2b1/5N2/PPP1BPPP/RNBQ1RK1 b kq - 1 6",
+                                                    "children": [],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Alekhine Defense.",
+                                                      "strategicTheme": "King safety",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "c6 advances a pawn, influencing the structure in the Alekhine Defense.",
@@ -10450,7 +11027,115 @@
                                                           {
                                                             "move": "Be3",
                                                             "fen": "r1bqkb1r/ppp1pppp/1nn5/4P3/2PP4/4B3/PP4PP/RN1QKBNR b KQkq - 2 7",
-                                                            "children": [],
+                                                            "children": [
+                                                              {
+                                                                "move": "Bf5",
+                                                                "fen": "r2qkb1r/ppp1pppp/1nn5/4Pb2/2PP4/4B3/PP4PP/RN1QKBNR w KQkq - 3 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Nc3",
+                                                                    "fen": "r2qkb1r/ppp1pppp/1nn5/4Pb2/2PP4/2N1B3/PP4PP/R2QKBNR b KQkq - 4 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "e6",
+                                                                        "fen": "r2qkb1r/ppp2ppp/1nn1p3/4Pb2/2PP4/2N1B3/PP4PP/R2QKBNR w KQkq - 0 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "Nf3",
+                                                                            "fen": "r2qkb1r/ppp2ppp/1nn1p3/4Pb2/2PP4/2N1BN2/PP4PP/R2QKB1R b KQkq - 1 9",
+                                                                            "children": [
+                                                                              {
+                                                                                "move": "Qd7",
+                                                                                "fen": "r3kb1r/pppq1ppp/1nn1p3/4Pb2/2PP4/2N1BN2/PP4PP/R2QKB1R w KQkq - 2 10",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "move": "Be2",
+                                                                                    "fen": "r3kb1r/pppq1ppp/1nn1p3/4Pb2/2PP4/2N1BN2/PP2B1PP/R2QK2R b KQkq - 3 10",
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "move": "O-O-O",
+                                                                                        "fen": "2kr1b1r/pppq1ppp/1nn1p3/4Pb2/2PP4/2N1BN2/PP2B1PP/R2QK2R w KQ - 4 11",
+                                                                                        "children": [
+                                                                                          {
+                                                                                            "move": "O-O",
+                                                                                            "fen": "2kr1b1r/pppq1ppp/1nn1p3/4Pb2/2PP4/2N1BN2/PP2B1PP/R2Q1RK1 b - - 5 11",
+                                                                                            "children": [
+                                                                                              {
+                                                                                                "move": "Be7",
+                                                                                                "fen": "2kr3r/pppqbppp/1nn1p3/4Pb2/2PP4/2N1BN2/PP2B1PP/R2Q1RK1 w - - 6 12",
+                                                                                                "children": [],
+                                                                                                "isMainLine": true,
+                                                                                                "annotation": {
+                                                                                                  "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Alekhine Defense.",
+                                                                                                  "strategicTheme": "Bishop development",
+                                                                                                  "source": "generated"
+                                                                                                }
+                                                                                              }
+                                                                                            ],
+                                                                                            "isMainLine": true,
+                                                                                            "annotation": {
+                                                                                              "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Alekhine Defense.",
+                                                                                              "strategicTheme": "King safety",
+                                                                                              "source": "generated"
+                                                                                            }
+                                                                                          }
+                                                                                        ],
+                                                                                        "isMainLine": true,
+                                                                                        "annotation": {
+                                                                                          "moveRationale": "Castles queenside, placing the king on the flank while activating the rook toward the center in the Alekhine Defense.",
+                                                                                          "strategicTheme": "King safety, queenside activity",
+                                                                                          "source": "generated"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "isMainLine": true,
+                                                                                    "annotation": {
+                                                                                      "moveRationale": "Be2 develops the bishop to a modest but solid square, preparing to castle in the Alekhine Defense.",
+                                                                                      "strategicTheme": "Bishop development",
+                                                                                      "source": "generated"
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "isMainLine": true,
+                                                                                "annotation": {
+                                                                                  "moveRationale": "Qd7 activates the queen, increasing pressure in the Alekhine Defense.",
+                                                                                  "strategicTheme": "Queen activity",
+                                                                                  "source": "generated"
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "isMainLine": true,
+                                                                            "annotation": {
+                                                                              "moveRationale": "Nf3 develops a piece to an active square in the Alekhine Defense.",
+                                                                              "strategicTheme": "Natural piece development",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": true,
+                                                                        "annotation": {
+                                                                          "moveRationale": "e6 advances a pawn, influencing the structure in the Alekhine Defense.",
+                                                                          "strategicTheme": "Prophylactic pawn move",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Alekhine Defense.",
+                                                                      "strategicTheme": "Natural piece development",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "Bf5 develops a piece to an active square in the Alekhine Defense.",
+                                                                  "strategicTheme": "Bishop development",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
                                                             "isMainLine": true,
                                                             "annotation": {
                                                               "moveRationale": "Be3 develops a piece to an active square in the Alekhine Defense.",
@@ -11419,7 +12104,66 @@
                                       {
                                         "move": "dxe5",
                                         "fen": "rnbqkb1r/ppp1pppp/8/3np3/3P4/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 5",
-                                        "children": [],
+                                        "children": [
+                                          {
+                                            "move": "Nxe5",
+                                            "fen": "rnbqkb1r/ppp1pppp/8/3nN3/3P4/8/PPP2PPP/RNBQKB1R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "g6",
+                                                "fen": "rnbqkb1r/ppp1pp1p/6p1/3nN3/3P4/8/PPP2PPP/RNBQKB1R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bc4",
+                                                    "fen": "rnbqkb1r/ppp1pp1p/6p1/3nN3/2BP4/8/PPP2PPP/RNBQK2R b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "c6",
+                                                        "fen": "rnbqkb1r/pp2pp1p/2p3p1/3nN3/2BP4/8/PPP2PPP/RNBQK2R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "c6 advances a pawn, influencing the structure in the Alekhine Defense.",
+                                                          "strategicTheme": "Prophylactic pawn move",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Alekhine Defense.",
+                                                      "strategicTheme": "Active bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Alekhine Defense.",
+                                                  "strategicTheme": "Fianchetto preparation",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "c6",
+                                                "fen": "rnbqkb1r/pp2pppp/2p5/3nN3/3P4/8/PPP2PPP/RNBQKB1R w KQkq - 0 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "c6 advances a pawn, influencing the structure in the Alekhine Defense.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Alekhine Defense.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
                                         "isMainLine": false,
                                         "annotation": {
                                           "moveRationale": "dxe5 exchanges material, altering the pawn structure in the Alekhine Defense.",
@@ -11495,7 +12239,30 @@
                                               {
                                                 "move": "c6",
                                                 "fen": "rn1qkb1r/pp2pppp/2pp4/3nP3/3P2b1/5N2/PPP1BPPP/RNBQK2R w KQkq - 0 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "c4",
+                                                    "fen": "rn1qkb1r/pp2pppp/2pp4/3nP3/2PP2b1/5N2/PP2BPPP/RNBQK2R b KQkq - 0 6",
+                                                    "children": [],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "c4 gains space on the queenside in the Alekhine Defense.",
+                                                      "strategicTheme": "Pawn structure",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "O-O",
+                                                    "fen": "rn1qkb1r/pp2pppp/2pp4/3nP3/3P2b1/5N2/PPP1BPPP/RNBQ1RK1 b kq - 1 6",
+                                                    "children": [],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Alekhine Defense.",
+                                                      "strategicTheme": "King safety",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "c6 advances a pawn, influencing the structure in the Alekhine Defense.",
@@ -11963,7 +12730,66 @@
                                       {
                                         "move": "dxe5",
                                         "fen": "rnbqkb1r/ppp1pppp/8/3np3/3P4/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 5",
-                                        "children": [],
+                                        "children": [
+                                          {
+                                            "move": "Nxe5",
+                                            "fen": "rnbqkb1r/ppp1pppp/8/3nN3/3P4/8/PPP2PPP/RNBQKB1R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "g6",
+                                                "fen": "rnbqkb1r/ppp1pp1p/6p1/3nN3/3P4/8/PPP2PPP/RNBQKB1R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bc4",
+                                                    "fen": "rnbqkb1r/ppp1pp1p/6p1/3nN3/2BP4/8/PPP2PPP/RNBQK2R b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "c6",
+                                                        "fen": "rnbqkb1r/pp2pp1p/2p3p1/3nN3/2BP4/8/PPP2PPP/RNBQK2R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "c6 advances a pawn, influencing the structure in the Alekhine Defense.",
+                                                          "strategicTheme": "Prophylactic pawn move",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Alekhine Defense.",
+                                                      "strategicTheme": "Active bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Alekhine Defense.",
+                                                  "strategicTheme": "Fianchetto preparation",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "c6",
+                                                "fen": "rnbqkb1r/pp2pppp/2p5/3nN3/3P4/8/PPP2PPP/RNBQKB1R w KQkq - 0 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "c6 advances a pawn, influencing the structure in the Alekhine Defense.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Alekhine Defense.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
                                         "isMainLine": true,
                                         "annotation": {
                                           "moveRationale": "dxe5 exchanges material, altering the pawn structure in the Alekhine Defense.",
@@ -12435,7 +13261,30 @@
                                               {
                                                 "move": "c6",
                                                 "fen": "rn1qkb1r/pp2pppp/2pp4/3nP3/3P2b1/5N2/PPP1BPPP/RNBQK2R w KQkq - 0 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "c4",
+                                                    "fen": "rn1qkb1r/pp2pppp/2pp4/3nP3/2PP2b1/5N2/PP2BPPP/RNBQK2R b KQkq - 0 6",
+                                                    "children": [],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "c4 gains space on the queenside in the Alekhine Defense.",
+                                                      "strategicTheme": "Pawn structure",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "O-O",
+                                                    "fen": "rn1qkb1r/pp2pppp/2pp4/3nP3/3P2b1/5N2/PPP1BPPP/RNBQ1RK1 b kq - 1 6",
+                                                    "children": [],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Alekhine Defense.",
+                                                      "strategicTheme": "King safety",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": true,
                                                 "annotation": {
                                                   "moveRationale": "c6 advances a pawn, influencing the structure in the Alekhine Defense.",
@@ -12601,7 +13450,30 @@
                                               {
                                                 "move": "c6",
                                                 "fen": "rn1qkb1r/pp2pppp/2pp4/3nP3/3P2b1/5N2/PPP1BPPP/RNBQK2R w KQkq - 0 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "c4",
+                                                    "fen": "rn1qkb1r/pp2pppp/2pp4/3nP3/2PP2b1/5N2/PP2BPPP/RNBQK2R b KQkq - 0 6",
+                                                    "children": [],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "c4 gains space on the queenside in the Alekhine Defense.",
+                                                      "strategicTheme": "Pawn structure",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "O-O",
+                                                    "fen": "rn1qkb1r/pp2pppp/2pp4/3nP3/3P2b1/5N2/PPP1BPPP/RNBQ1RK1 b kq - 1 6",
+                                                    "children": [],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Alekhine Defense.",
+                                                      "strategicTheme": "King safety",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "c6 advances a pawn, influencing the structure in the Alekhine Defense.",

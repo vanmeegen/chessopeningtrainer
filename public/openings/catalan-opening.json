@@ -245,195 +245,6 @@
                                 }
                               },
                               {
-                                "move": "Bb4+",
-                                "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/6P1/PP2PP1P/RNBQKBNR w KQkq - 1 4",
-                                "children": [
-                                  {
-                                    "move": "Bd2",
-                                    "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/6P1/PP1BPP1P/RN1QKBNR b KQkq - 2 4",
-                                    "children": [
-                                      {
-                                        "move": "Be7",
-                                        "fen": "rnbqk2r/ppppbppp/4pn2/8/2PP4/6P1/PP1BPP1P/RN1QKBNR w KQkq - 3 5",
-                                        "children": [
-                                          {
-                                            "move": "Bg2",
-                                            "fen": "rnbqk2r/ppppbppp/4pn2/8/2PP4/6P1/PP1BPPBP/RN1QK1NR b KQkq - 4 5",
-                                            "children": [
-                                              {
-                                                "move": "d5",
-                                                "fen": "rnbqk2r/ppp1bppp/4pn2/3p4/2PP4/6P1/PP1BPPBP/RN1QK1NR w KQkq - 0 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Nf3",
-                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/3p4/2PP4/5NP1/PP1BPPBP/RN1QK2R b KQkq - 1 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "O-O",
-                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/3p4/2PP4/5NP1/PP1BPPBP/RN1QK2R w KQ - 2 7",
-                                                        "children": [
-                                                          {
-                                                            "move": "O-O",
-                                                            "fen": "rnbq1rk1/ppp1bppp/4pn2/3p4/2PP4/5NP1/PP1BPPBP/RN1Q1RK1 b - - 3 7",
-                                                            "children": [],
-                                                            "isMainLine": false,
-                                                            "annotation": {
-                                                              "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
-                                                              "strategicTheme": "King safety",
-                                                              "source": "generated"
-                                                            }
-                                                          },
-                                                          {
-                                                            "move": "Qc2",
-                                                            "fen": "rnbq1rk1/ppp1bppp/4pn2/3p4/2PP4/5NP1/PPQBPPBP/RN2K2R b KQ - 3 7",
-                                                            "children": [
-                                                              {
-                                                                "move": "c6",
-                                                                "fen": "rnbq1rk1/pp2bppp/2p1pn2/3p4/2PP4/5NP1/PPQBPPBP/RN2K2R w KQ - 0 8",
-                                                                "children": [
-                                                                  {
-                                                                    "move": "O-O",
-                                                                    "fen": "rnbq1rk1/pp2bppp/2p1pn2/3p4/2PP4/5NP1/PPQBPPBP/RN3RK1 b - - 1 8",
-                                                                    "children": [],
-                                                                    "isMainLine": false,
-                                                                    "annotation": {
-                                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
-                                                                      "strategicTheme": "King safety",
-                                                                      "source": "generated"
-                                                                    }
-                                                                  }
-                                                                ],
-                                                                "isMainLine": false,
-                                                                "annotation": {
-                                                                  "moveRationale": "c6 advances a pawn, influencing the structure in the Catalan Opening.",
-                                                                  "strategicTheme": "Prophylactic pawn move",
-                                                                  "source": "generated"
-                                                                }
-                                                              }
-                                                            ],
-                                                            "isMainLine": false,
-                                                            "annotation": {
-                                                              "moveRationale": "Qc2 activates the queen, increasing pressure in the Catalan Opening.",
-                                                              "strategicTheme": "Queen activity",
-                                                              "source": "generated"
-                                                            }
-                                                          }
-                                                        ],
-                                                        "isMainLine": false,
-                                                        "annotation": {
-                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
-                                                          "strategicTheme": "King safety",
-                                                          "source": "generated"
-                                                        }
-                                                      },
-                                                      {
-                                                        "move": "Nbd7",
-                                                        "fen": "r1bqk2r/pppnbppp/4pn2/3p4/2PP4/5NP1/PP1BPPBP/RN1QK2R w KQkq - 2 7",
-                                                        "children": [
-                                                          {
-                                                            "move": "O-O",
-                                                            "fen": "r1bqk2r/pppnbppp/4pn2/3p4/2PP4/5NP1/PP1BPPBP/RN1Q1RK1 b kq - 3 7",
-                                                            "children": [
-                                                              {
-                                                                "move": "O-O",
-                                                                "fen": "r1bq1rk1/pppnbppp/4pn2/3p4/2PP4/5NP1/PP1BPPBP/RN1Q1RK1 w - - 4 8",
-                                                                "children": [
-                                                                  {
-                                                                    "move": "Qc2",
-                                                                    "fen": "r1bq1rk1/pppnbppp/4pn2/3p4/2PP4/5NP1/PPQBPPBP/RN3RK1 b - - 5 8",
-                                                                    "children": [
-                                                                      {
-                                                                        "move": "c6",
-                                                                        "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQBPPBP/RN3RK1 w - - 0 9",
-                                                                        "children": [],
-                                                                        "isMainLine": false,
-                                                                        "annotation": {
-                                                                          "moveRationale": "c6 advances a pawn, influencing the structure in the Catalan Opening.",
-                                                                          "strategicTheme": "Prophylactic pawn move",
-                                                                          "source": "generated"
-                                                                        }
-                                                                      }
-                                                                    ],
-                                                                    "isMainLine": false,
-                                                                    "annotation": {
-                                                                      "moveRationale": "Qc2 activates the queen, increasing pressure in the Catalan Opening.",
-                                                                      "strategicTheme": "Queen activity",
-                                                                      "source": "generated"
-                                                                    }
-                                                                  }
-                                                                ],
-                                                                "isMainLine": false,
-                                                                "annotation": {
-                                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
-                                                                  "strategicTheme": "King safety",
-                                                                  "source": "generated"
-                                                                }
-                                                              }
-                                                            ],
-                                                            "isMainLine": false,
-                                                            "annotation": {
-                                                              "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
-                                                              "strategicTheme": "King safety",
-                                                              "source": "generated"
-                                                            }
-                                                          }
-                                                        ],
-                                                        "isMainLine": false,
-                                                        "annotation": {
-                                                          "moveRationale": "Nbd7 develops a piece to an active square in the Catalan Opening.",
-                                                          "strategicTheme": "Knight activity",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": false,
-                                                    "annotation": {
-                                                      "moveRationale": "Nf3 develops a piece to an active square in the Catalan Opening.",
-                                                      "strategicTheme": "Natural piece development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": false,
-                                                "annotation": {
-                                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                                  "strategicTheme": "Pawn structure",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": false,
-                                            "annotation": {
-                                              "moveRationale": "Bg2 develops a piece to an active square in the Catalan Opening.",
-                                              "strategicTheme": "Bishop development",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
-                                        "isMainLine": false,
-                                        "annotation": {
-                                          "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Catalan Opening.",
-                                          "strategicTheme": "Bishop development",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
-                                    "isMainLine": false,
-                                    "annotation": {
-                                      "moveRationale": "Bd2 develops a piece to an active square in the Catalan Opening.",
-                                      "strategicTheme": "Bishop development",
-                                      "source": "generated"
-                                    }
-                                  }
-                                ],
-                                "isMainLine": false,
-                                "annotation": {
-                                  "moveRationale": "Bb4+ delivers check, seizing the initiative in the Catalan Opening.",
-                                  "strategicTheme": "King pressure",
-                                  "source": "generated"
-                                }
-                              },
-                              {
                                 "move": "d5",
                                 "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/6P1/PP2PP1P/RNBQKBNR w KQkq - 0 4",
                                 "children": [
@@ -546,7 +357,54 @@
                                               {
                                                 "move": "Be7",
                                                 "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQK2R w KQkq - 2 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "O-O",
+                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 b kq - 3 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "O-O",
+                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 4 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
+                                                          "strategicTheme": "King safety",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
+                                                      "strategicTheme": "King safety",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "Nc3",
+                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/2N2NP1/PP2PPBP/R1BQK2R b KQkq - 3 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "O-O",
+                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/8/2pP4/2N2NP1/PP2PPBP/R1BQK2R w KQ - 4 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
+                                                          "strategicTheme": "King safety",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Catalan Opening.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Catalan Opening.",
@@ -1165,6 +1023,195 @@
                                   "strategicTheme": "Bishop development",
                                   "source": "generated"
                                 }
+                              },
+                              {
+                                "move": "Bb4+",
+                                "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/6P1/PP2PP1P/RNBQKBNR w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "Bd2",
+                                    "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/6P1/PP1BPP1P/RN1QKBNR b KQkq - 2 4",
+                                    "children": [
+                                      {
+                                        "move": "Be7",
+                                        "fen": "rnbqk2r/ppppbppp/4pn2/8/2PP4/6P1/PP1BPP1P/RN1QKBNR w KQkq - 3 5",
+                                        "children": [
+                                          {
+                                            "move": "Bg2",
+                                            "fen": "rnbqk2r/ppppbppp/4pn2/8/2PP4/6P1/PP1BPPBP/RN1QK1NR b KQkq - 4 5",
+                                            "children": [
+                                              {
+                                                "move": "d5",
+                                                "fen": "rnbqk2r/ppp1bppp/4pn2/3p4/2PP4/6P1/PP1BPPBP/RN1QK1NR w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Nf3",
+                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/3p4/2PP4/5NP1/PP1BPPBP/RN1QK2R b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "O-O",
+                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/3p4/2PP4/5NP1/PP1BPPBP/RN1QK2R w KQ - 2 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "O-O",
+                                                            "fen": "rnbq1rk1/ppp1bppp/4pn2/3p4/2PP4/5NP1/PP1BPPBP/RN1Q1RK1 b - - 3 7",
+                                                            "children": [],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
+                                                              "strategicTheme": "King safety",
+                                                              "source": "generated"
+                                                            }
+                                                          },
+                                                          {
+                                                            "move": "Qc2",
+                                                            "fen": "rnbq1rk1/ppp1bppp/4pn2/3p4/2PP4/5NP1/PPQBPPBP/RN2K2R b KQ - 3 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "c6",
+                                                                "fen": "rnbq1rk1/pp2bppp/2p1pn2/3p4/2PP4/5NP1/PPQBPPBP/RN2K2R w KQ - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "O-O",
+                                                                    "fen": "rnbq1rk1/pp2bppp/2p1pn2/3p4/2PP4/5NP1/PPQBPPBP/RN3RK1 b - - 1 8",
+                                                                    "children": [],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
+                                                                      "strategicTheme": "King safety",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "c6 advances a pawn, influencing the structure in the Catalan Opening.",
+                                                                  "strategicTheme": "Prophylactic pawn move",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Qc2 activates the queen, increasing pressure in the Catalan Opening.",
+                                                              "strategicTheme": "Queen activity",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
+                                                          "strategicTheme": "King safety",
+                                                          "source": "generated"
+                                                        }
+                                                      },
+                                                      {
+                                                        "move": "Nbd7",
+                                                        "fen": "r1bqk2r/pppnbppp/4pn2/3p4/2PP4/5NP1/PP1BPPBP/RN1QK2R w KQkq - 2 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "O-O",
+                                                            "fen": "r1bqk2r/pppnbppp/4pn2/3p4/2PP4/5NP1/PP1BPPBP/RN1Q1RK1 b kq - 3 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "O-O",
+                                                                "fen": "r1bq1rk1/pppnbppp/4pn2/3p4/2PP4/5NP1/PP1BPPBP/RN1Q1RK1 w - - 4 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Qc2",
+                                                                    "fen": "r1bq1rk1/pppnbppp/4pn2/3p4/2PP4/5NP1/PPQBPPBP/RN3RK1 b - - 5 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "c6",
+                                                                        "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQBPPBP/RN3RK1 w - - 0 9",
+                                                                        "children": [],
+                                                                        "isMainLine": false,
+                                                                        "annotation": {
+                                                                          "moveRationale": "c6 advances a pawn, influencing the structure in the Catalan Opening.",
+                                                                          "strategicTheme": "Prophylactic pawn move",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Qc2 activates the queen, increasing pressure in the Catalan Opening.",
+                                                                      "strategicTheme": "Queen activity",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
+                                                                  "strategicTheme": "King safety",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
+                                                              "strategicTheme": "King safety",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Nbd7 develops a piece to an active square in the Catalan Opening.",
+                                                          "strategicTheme": "Knight activity",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Nf3 develops a piece to an active square in the Catalan Opening.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
+                                                  "strategicTheme": "Pawn structure",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Bg2 develops a piece to an active square in the Catalan Opening.",
+                                              "strategicTheme": "Bishop development",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Catalan Opening.",
+                                          "strategicTheme": "Bishop development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Bd2 develops a piece to an active square in the Catalan Opening.",
+                                      "strategicTheme": "Bishop development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Bb4+ delivers check, seizing the initiative in the Catalan Opening.",
+                                  "strategicTheme": "King pressure",
+                                  "source": "generated"
+                                }
                               }
                             ],
                             "isMainLine": true,
@@ -1351,7 +1398,54 @@
                                               {
                                                 "move": "Be7",
                                                 "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQK2R w KQkq - 2 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "O-O",
+                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 b kq - 3 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "O-O",
+                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 4 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
+                                                          "strategicTheme": "King safety",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
+                                                      "strategicTheme": "King safety",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "Nc3",
+                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/2N2NP1/PP2PPBP/R1BQK2R b KQkq - 3 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "O-O",
+                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/8/2pP4/2N2NP1/PP2PPBP/R1BQK2R w KQ - 4 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
+                                                          "strategicTheme": "King safety",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Catalan Opening.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Catalan Opening.",
@@ -2049,7 +2143,54 @@
                                               {
                                                 "move": "Be7",
                                                 "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQK2R w KQkq - 2 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "O-O",
+                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 b kq - 3 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "O-O",
+                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 4 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
+                                                          "strategicTheme": "King safety",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
+                                                      "strategicTheme": "King safety",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "Nc3",
+                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/2N2NP1/PP2PPBP/R1BQK2R b KQkq - 3 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "O-O",
+                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/8/2pP4/2N2NP1/PP2PPBP/R1BQK2R w KQ - 4 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
+                                                          "strategicTheme": "King safety",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Catalan Opening.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Catalan Opening.",
@@ -2664,7 +2805,54 @@
                                               {
                                                 "move": "Be7",
                                                 "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQK2R w KQkq - 2 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "O-O",
+                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 b kq - 3 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "O-O",
+                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 4 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
+                                                          "strategicTheme": "King safety",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
+                                                      "strategicTheme": "King safety",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "Nc3",
+                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/2N2NP1/PP2PPBP/R1BQK2R b KQkq - 3 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "O-O",
+                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/8/2pP4/2N2NP1/PP2PPBP/R1BQK2R w KQ - 4 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
+                                                          "strategicTheme": "King safety",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Catalan Opening.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Catalan Opening.",
@@ -3164,7 +3352,54 @@
                                               {
                                                 "move": "Be7",
                                                 "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQK2R w KQkq - 2 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "O-O",
+                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 b kq - 3 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "O-O",
+                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 4 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
+                                                          "strategicTheme": "King safety",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
+                                                      "strategicTheme": "King safety",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "Nc3",
+                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/2N2NP1/PP2PPBP/R1BQK2R b KQkq - 3 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "O-O",
+                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/8/2pP4/2N2NP1/PP2PPBP/R1BQK2R w KQ - 4 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
+                                                          "strategicTheme": "King safety",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Catalan Opening.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Catalan Opening.",
@@ -3581,7 +3816,54 @@
                                               {
                                                 "move": "Be7",
                                                 "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQK2R w KQkq - 2 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "O-O",
+                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 b kq - 3 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "O-O",
+                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 4 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
+                                                          "strategicTheme": "King safety",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
+                                                      "strategicTheme": "King safety",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "Nc3",
+                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/2N2NP1/PP2PPBP/R1BQK2R b KQkq - 3 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "O-O",
+                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/8/2pP4/2N2NP1/PP2PPBP/R1BQK2R w KQ - 4 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
+                                                          "strategicTheme": "King safety",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Catalan Opening.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": true,
                                                 "annotation": {
                                                   "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Catalan Opening.",
@@ -4791,7 +5073,220 @@
                                                       {
                                                         "move": "Nbd7",
                                                         "fen": "r1bq1rk1/pppnbppp/4pn2/3p4/2PP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 6 7",
-                                                        "children": [],
+                                                        "children": [
+                                                          {
+                                                            "move": "Nc3",
+                                                            "fen": "r1bq1rk1/pppnbppp/4pn2/3p4/2PP4/2N2NP1/PP2PPBP/R1BQ1RK1 b - - 7 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "c6",
+                                                                "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/2N2NP1/PP2PPBP/R1BQ1RK1 w - - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Qd3",
+                                                                    "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/2NQ1NP1/PP2PPBP/R1B2RK1 b - - 1 8",
+                                                                    "children": [],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Qd3 activates the queen, increasing pressure in the Catalan Opening.",
+                                                                      "strategicTheme": "Queen activity",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "c6 advances a pawn, influencing the structure in the Catalan Opening.",
+                                                                  "strategicTheme": "Prophylactic pawn move",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Catalan Opening.",
+                                                              "strategicTheme": "Natural piece development",
+                                                              "source": "generated"
+                                                            }
+                                                          },
+                                                          {
+                                                            "move": "Qc2",
+                                                            "fen": "r1bq1rk1/pppnbppp/4pn2/3p4/2PP4/5NP1/PPQ1PPBP/RNB2RK1 b - - 7 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "c6",
+                                                                "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQ1PPBP/RNB2RK1 w - - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "b3",
+                                                                    "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/1P3NP1/P1Q1PPBP/RNB2RK1 b - - 0 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "b6",
+                                                                        "fen": "r1bq1rk1/p2nbppp/1pp1pn2/3p4/2PP4/1P3NP1/P1Q1PPBP/RNB2RK1 w - - 0 9",
+                                                                        "children": [],
+                                                                        "isMainLine": false,
+                                                                        "annotation": {
+                                                                          "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
+                                                                          "strategicTheme": "Fianchetto preparation",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
+                                                                      "strategicTheme": "Fianchetto preparation",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "move": "Bf4",
+                                                                    "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP1B2/5NP1/PPQ1PPBP/RN3RK1 b - - 1 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "b6",
+                                                                        "fen": "r1bq1rk1/p2nbppp/1pp1pn2/3p4/2PP1B2/5NP1/PPQ1PPBP/RN3RK1 w - - 0 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "Nbd2",
+                                                                            "fen": "r1bq1rk1/p2nbppp/1pp1pn2/3p4/2PP1B2/5NP1/PPQNPPBP/R4RK1 b - - 1 9",
+                                                                            "children": [
+                                                                              {
+                                                                                "move": "Bb7",
+                                                                                "fen": "r2q1rk1/pb1nbppp/1pp1pn2/3p4/2PP1B2/5NP1/PPQNPPBP/R4RK1 w - - 2 10",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "move": "e4",
+                                                                                    "fen": "r2q1rk1/pb1nbppp/1pp1pn2/3p4/2PPPB2/5NP1/PPQN1PBP/R4RK1 b - - 0 10",
+                                                                                    "children": [],
+                                                                                    "isMainLine": false,
+                                                                                    "annotation": {
+                                                                                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Catalan Opening.",
+                                                                                      "strategicTheme": "Central tension",
+                                                                                      "source": "generated"
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "isMainLine": false,
+                                                                                "annotation": {
+                                                                                  "moveRationale": "Bb7 develops a piece to an active square in the Catalan Opening.",
+                                                                                  "strategicTheme": "Bishop development",
+                                                                                  "source": "generated"
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "isMainLine": false,
+                                                                            "annotation": {
+                                                                              "moveRationale": "Nbd2 develops a piece to an active square in the Catalan Opening.",
+                                                                              "strategicTheme": "Knight activity",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": false,
+                                                                        "annotation": {
+                                                                          "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
+                                                                          "strategicTheme": "Fianchetto preparation",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Bf4 develops a piece to an active square in the Catalan Opening.",
+                                                                      "strategicTheme": "Bishop development",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "move": "Nbd2",
+                                                                    "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 b - - 1 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "b6",
+                                                                        "fen": "r1bq1rk1/p2nbppp/1pp1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 w - - 0 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "b3",
+                                                                            "fen": "r1bq1rk1/p2nbppp/1pp1pn2/3p4/2PP4/1P3NP1/P1QNPPBP/R1B2RK1 b - - 0 9",
+                                                                            "children": [
+                                                                              {
+                                                                                "move": "a5",
+                                                                                "fen": "r1bq1rk1/3nbppp/1pp1pn2/p2p4/2PP4/1P3NP1/P1QNPPBP/R1B2RK1 w - - 0 10",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "move": "Bb2",
+                                                                                    "fen": "r1bq1rk1/3nbppp/1pp1pn2/p2p4/2PP4/1P3NP1/PBQNPPBP/R4RK1 b - - 1 10",
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "move": "Ba6",
+                                                                                        "fen": "r2q1rk1/3nbppp/bpp1pn2/p2p4/2PP4/1P3NP1/PBQNPPBP/R4RK1 w - - 2 11",
+                                                                                        "children": [],
+                                                                                        "isMainLine": true,
+                                                                                        "annotation": {
+                                                                                          "moveRationale": "Ba6 develops a piece to an active square in the Catalan Opening.",
+                                                                                          "strategicTheme": "Bishop development",
+                                                                                          "source": "generated"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "isMainLine": true,
+                                                                                    "annotation": {
+                                                                                      "moveRationale": "Bb2 develops a piece to an active square in the Catalan Opening.",
+                                                                                      "strategicTheme": "Bishop development",
+                                                                                      "source": "generated"
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "isMainLine": true,
+                                                                                "annotation": {
+                                                                                  "moveRationale": "a5 advances a pawn, influencing the structure in the Catalan Opening.",
+                                                                                  "strategicTheme": "Pawn structure",
+                                                                                  "source": "generated"
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "isMainLine": true,
+                                                                            "annotation": {
+                                                                              "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
+                                                                              "strategicTheme": "Fianchetto preparation",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": true,
+                                                                        "annotation": {
+                                                                          "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
+                                                                          "strategicTheme": "Fianchetto preparation",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Nbd2 develops a piece to an active square in the Catalan Opening.",
+                                                                      "strategicTheme": "Knight activity",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "c6 advances a pawn, influencing the structure in the Catalan Opening.",
+                                                                  "strategicTheme": "Prophylactic pawn move",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": true,
+                                                            "annotation": {
+                                                              "moveRationale": "Qc2 activates the queen, increasing pressure in the Catalan Opening.",
+                                                              "strategicTheme": "Queen activity",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
                                                         "isMainLine": true,
                                                         "annotation": {
                                                           "moveRationale": "Nbd7 develops a piece to an active square in the Catalan Opening.",
@@ -5141,7 +5636,173 @@
                                                           {
                                                             "move": "Qc2",
                                                             "fen": "r1bq1rk1/pppnbppp/4pn2/3p4/2PP4/5NP1/PPQ1PPBP/RNB2RK1 b - - 7 7",
-                                                            "children": [],
+                                                            "children": [
+                                                              {
+                                                                "move": "c6",
+                                                                "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQ1PPBP/RNB2RK1 w - - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "b3",
+                                                                    "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/1P3NP1/P1Q1PPBP/RNB2RK1 b - - 0 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "b6",
+                                                                        "fen": "r1bq1rk1/p2nbppp/1pp1pn2/3p4/2PP4/1P3NP1/P1Q1PPBP/RNB2RK1 w - - 0 9",
+                                                                        "children": [],
+                                                                        "isMainLine": false,
+                                                                        "annotation": {
+                                                                          "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
+                                                                          "strategicTheme": "Fianchetto preparation",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
+                                                                      "strategicTheme": "Fianchetto preparation",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "move": "Bf4",
+                                                                    "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP1B2/5NP1/PPQ1PPBP/RN3RK1 b - - 1 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "b6",
+                                                                        "fen": "r1bq1rk1/p2nbppp/1pp1pn2/3p4/2PP1B2/5NP1/PPQ1PPBP/RN3RK1 w - - 0 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "Nbd2",
+                                                                            "fen": "r1bq1rk1/p2nbppp/1pp1pn2/3p4/2PP1B2/5NP1/PPQNPPBP/R4RK1 b - - 1 9",
+                                                                            "children": [
+                                                                              {
+                                                                                "move": "Bb7",
+                                                                                "fen": "r2q1rk1/pb1nbppp/1pp1pn2/3p4/2PP1B2/5NP1/PPQNPPBP/R4RK1 w - - 2 10",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "move": "e4",
+                                                                                    "fen": "r2q1rk1/pb1nbppp/1pp1pn2/3p4/2PPPB2/5NP1/PPQN1PBP/R4RK1 b - - 0 10",
+                                                                                    "children": [],
+                                                                                    "isMainLine": false,
+                                                                                    "annotation": {
+                                                                                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Catalan Opening.",
+                                                                                      "strategicTheme": "Central tension",
+                                                                                      "source": "generated"
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "isMainLine": false,
+                                                                                "annotation": {
+                                                                                  "moveRationale": "Bb7 develops a piece to an active square in the Catalan Opening.",
+                                                                                  "strategicTheme": "Bishop development",
+                                                                                  "source": "generated"
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "isMainLine": false,
+                                                                            "annotation": {
+                                                                              "moveRationale": "Nbd2 develops a piece to an active square in the Catalan Opening.",
+                                                                              "strategicTheme": "Knight activity",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": false,
+                                                                        "annotation": {
+                                                                          "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
+                                                                          "strategicTheme": "Fianchetto preparation",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Bf4 develops a piece to an active square in the Catalan Opening.",
+                                                                      "strategicTheme": "Bishop development",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "move": "Nbd2",
+                                                                    "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 b - - 1 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "b6",
+                                                                        "fen": "r1bq1rk1/p2nbppp/1pp1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 w - - 0 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "b3",
+                                                                            "fen": "r1bq1rk1/p2nbppp/1pp1pn2/3p4/2PP4/1P3NP1/P1QNPPBP/R1B2RK1 b - - 0 9",
+                                                                            "children": [
+                                                                              {
+                                                                                "move": "a5",
+                                                                                "fen": "r1bq1rk1/3nbppp/1pp1pn2/p2p4/2PP4/1P3NP1/P1QNPPBP/R1B2RK1 w - - 0 10",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "move": "Bb2",
+                                                                                    "fen": "r1bq1rk1/3nbppp/1pp1pn2/p2p4/2PP4/1P3NP1/PBQNPPBP/R4RK1 b - - 1 10",
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "move": "Ba6",
+                                                                                        "fen": "r2q1rk1/3nbppp/bpp1pn2/p2p4/2PP4/1P3NP1/PBQNPPBP/R4RK1 w - - 2 11",
+                                                                                        "children": [],
+                                                                                        "isMainLine": true,
+                                                                                        "annotation": {
+                                                                                          "moveRationale": "Ba6 develops a piece to an active square in the Catalan Opening.",
+                                                                                          "strategicTheme": "Bishop development",
+                                                                                          "source": "generated"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "isMainLine": true,
+                                                                                    "annotation": {
+                                                                                      "moveRationale": "Bb2 develops a piece to an active square in the Catalan Opening.",
+                                                                                      "strategicTheme": "Bishop development",
+                                                                                      "source": "generated"
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "isMainLine": true,
+                                                                                "annotation": {
+                                                                                  "moveRationale": "a5 advances a pawn, influencing the structure in the Catalan Opening.",
+                                                                                  "strategicTheme": "Pawn structure",
+                                                                                  "source": "generated"
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "isMainLine": true,
+                                                                            "annotation": {
+                                                                              "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
+                                                                              "strategicTheme": "Fianchetto preparation",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": true,
+                                                                        "annotation": {
+                                                                          "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
+                                                                          "strategicTheme": "Fianchetto preparation",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Nbd2 develops a piece to an active square in the Catalan Opening.",
+                                                                      "strategicTheme": "Knight activity",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "c6 advances a pawn, influencing the structure in the Catalan Opening.",
+                                                                  "strategicTheme": "Prophylactic pawn move",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
                                                             "isMainLine": true,
                                                             "annotation": {
                                                               "moveRationale": "Qc2 activates the queen, increasing pressure in the Catalan Opening.",
@@ -5316,7 +5977,19 @@
                                                                   {
                                                                     "move": "b3",
                                                                     "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/1P3NP1/P1Q1PPBP/RNB2RK1 b - - 0 8",
-                                                                    "children": [],
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "b6",
+                                                                        "fen": "r1bq1rk1/p2nbppp/1pp1pn2/3p4/2PP4/1P3NP1/P1Q1PPBP/RNB2RK1 w - - 0 9",
+                                                                        "children": [],
+                                                                        "isMainLine": true,
+                                                                        "annotation": {
+                                                                          "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
+                                                                          "strategicTheme": "Fianchetto preparation",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
                                                                     "isMainLine": true,
                                                                     "annotation": {
                                                                       "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
@@ -7036,7 +7709,19 @@
                                                                   {
                                                                     "move": "Nbd2",
                                                                     "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 b - - 1 8",
-                                                                    "children": [],
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "b6",
+                                                                        "fen": "r1bq1rk1/p2nbppp/1pp1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 w - - 0 9",
+                                                                        "children": [],
+                                                                        "isMainLine": true,
+                                                                        "annotation": {
+                                                                          "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
+                                                                          "strategicTheme": "Fianchetto preparation",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
                                                                     "isMainLine": true,
                                                                     "annotation": {
                                                                       "moveRationale": "Nbd2 develops a piece to an active square in the Catalan Opening.",

@@ -92,7 +92,54 @@
                   {
                     "move": "Qd3",
                     "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/3Q4/PPP1PPPP/RNB1KBNR b KQkq - 1 2",
-                    "children": [],
+                    "children": [
+                      {
+                        "move": "Nf6",
+                        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/3Q4/PPP1PPPP/RNB1KBNR w KQkq - 2 3",
+                        "children": [
+                          {
+                            "move": "Nc3",
+                            "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/2NQ4/PPP1PPPP/R1B1KBNR b KQkq - 3 3",
+                            "children": [],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Amazon Attack.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "Nf6 develops a piece to an active square in the Amazon Attack.",
+                          "strategicTheme": "Natural piece development",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "Nc6",
+                        "fen": "r1bqkbnr/ppp1pppp/2n5/3p4/3P4/3Q4/PPP1PPPP/RNB1KBNR w KQkq - 2 3",
+                        "children": [
+                          {
+                            "move": "Nc3",
+                            "fen": "r1bqkbnr/ppp1pppp/2n5/3p4/3P4/2NQ4/PPP1PPPP/R1B1KBNR b KQkq - 3 3",
+                            "children": [],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Amazon Attack.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Amazon Attack.",
+                          "strategicTheme": "Natural piece development",
+                          "source": "generated"
+                        }
+                      }
+                    ],
                     "isMainLine": true,
                     "annotation": {
                       "moveRationale": "Qd3 develops the queen early, seeking direct activity in the Amazon Attack.",

@@ -23,29 +23,6 @@
                     "fen": "rnbqkbnr/ppp1pppp/8/3p4/1P6/8/PBPPPPPP/RN1QKBNR b KQkq - 1 2",
                     "children": [
                       {
-                        "move": "Nf6",
-                        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/1P6/8/PBPPPPPP/RN1QKBNR w KQkq - 2 3",
-                        "children": [
-                          {
-                            "move": "Nf3",
-                            "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/1P6/5N2/PBPPPPPP/RN1QKB1R b KQkq - 3 3",
-                            "children": [],
-                            "isMainLine": false,
-                            "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Polish Opening.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
-                            }
-                          }
-                        ],
-                        "isMainLine": false,
-                        "annotation": {
-                          "moveRationale": "Nf6 develops a piece to an active square in the Polish Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
-                        }
-                      },
-                      {
                         "move": "Bf5",
                         "fen": "rn1qkbnr/ppp1pppp/8/3p1b2/1P6/8/PBPPPPPP/RN1QKBNR w KQkq - 2 3",
                         "children": [],
@@ -59,7 +36,67 @@
                       {
                         "move": "Qd6",
                         "fen": "rnb1kbnr/ppp1pppp/3q4/3p4/1P6/8/PBPPPPPP/RN1QKBNR w KQkq - 2 3",
-                        "children": [],
+                        "children": [
+                          {
+                            "move": "a3",
+                            "fen": "rnb1kbnr/ppp1pppp/3q4/3p4/1P6/P7/1BPPPPPP/RN1QKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "e5",
+                                "fen": "rnb1kbnr/ppp2ppp/3q4/3pp3/1P6/P7/1BPPPPPP/RN1QKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "e4",
+                                    "fen": "rnb1kbnr/ppp2ppp/3q4/3pp3/1P2P3/P7/1BPP1PPP/RN1QKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "dxe4",
+                                        "fen": "rnb1kbnr/ppp2ppp/3q4/4p3/1P2p3/P7/1BPP1PPP/RN1QKBNR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "f3",
+                                            "fen": "rnb1kbnr/ppp2ppp/3q4/4p3/1P2p3/P4P2/1BPP2PP/RN1QKBNR b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "f3 advances a pawn, influencing the structure in the Polish Opening.",
+                                              "strategicTheme": "Prophylactic pawn move",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Polish Opening.",
+                                          "strategicTheme": "Central tension",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Polish Opening.",
+                                      "strategicTheme": "Central tension",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "e5 advances a pawn, influencing the structure in the Polish Opening.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "a3 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Polish Opening.",
+                              "strategicTheme": "Prophylactic pawn move",
+                              "source": "generated"
+                            }
+                          }
+                        ],
                         "isMainLine": false,
                         "annotation": {
                           "moveRationale": "Qd6 develops the queen early, seeking direct activity in the Polish Opening.",
@@ -87,6 +124,29 @@
                         "annotation": {
                           "moveRationale": "c6 advances a pawn, influencing the structure in the Polish Opening.",
                           "strategicTheme": "Prophylactic pawn move",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "Nf6",
+                        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/1P6/8/PBPPPPPP/RN1QKBNR w KQkq - 2 3",
+                        "children": [
+                          {
+                            "move": "Nf3",
+                            "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/1P6/5N2/PBPPPPPP/RN1QKB1R b KQkq - 3 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "Nf3 develops a piece to an active square in the Polish Opening.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "Nf6 develops a piece to an active square in the Polish Opening.",
+                          "strategicTheme": "Natural piece development",
                           "source": "generated"
                         }
                       }
@@ -154,8 +214,92 @@
                           {
                             "move": "e4",
                             "fen": "rnbqkbnr/pppp2pp/5p2/4p3/1P2P3/8/PBPP1PPP/RN1QKBNR b KQkq - 0 3",
-                            "children": [],
-                            "isMainLine": false,
+                            "children": [
+                              {
+                                "move": "Bxb4",
+                                "fen": "rnbqk1nr/pppp2pp/5p2/4p3/1b2P3/8/PBPP1PPP/RN1QKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Bc4",
+                                    "fen": "rnbqk1nr/pppp2pp/5p2/4p3/1bB1P3/8/PBPP1PPP/RN1QK1NR b KQkq - 1 4",
+                                    "children": [
+                                      {
+                                        "move": "Nc6",
+                                        "fen": "r1bqk1nr/pppp2pp/2n2p2/4p3/1bB1P3/8/PBPP1PPP/RN1QK1NR w KQkq - 2 5",
+                                        "children": [
+                                          {
+                                            "move": "f4",
+                                            "fen": "r1bqk1nr/pppp2pp/2n2p2/4p3/1bB1PP2/8/PBPP2PP/RN1QK1NR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Qe7",
+                                                "fen": "r1b1k1nr/ppppq1pp/2n2p2/4p3/1bB1PP2/8/PBPP2PP/RN1QK1NR w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "f5",
+                                                    "fen": "r1b1k1nr/ppppq1pp/2n2p2/4pP2/1bB1P3/8/PBPP2PP/RN1QK1NR b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "g6",
+                                                        "fen": "r1b1k1nr/ppppq2p/2n2pp1/4pP2/1bB1P3/8/PBPP2PP/RN1QK1NR w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Polish Opening.",
+                                                          "strategicTheme": "Fianchetto preparation",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "f5 advances a pawn, influencing the structure in the Polish Opening.",
+                                                      "strategicTheme": "Pawn structure",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Qe7 activates the queen, increasing pressure in the Polish Opening.",
+                                                  "strategicTheme": "Queen activity",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "f4 advances a pawn, influencing the structure in the Polish Opening.",
+                                              "strategicTheme": "Aggressive kingside expansion",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Polish Opening.",
+                                          "strategicTheme": "Natural piece development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Polish Opening.",
+                                      "strategicTheme": "Active bishop development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Bxb4 exchanges material, altering the pawn structure in the Polish Opening.",
+                                  "strategicTheme": "Material exchange",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
                             "annotation": {
                               "moveRationale": "e4 impacts the center, shaping the pawn structure in the Polish Opening.",
                               "strategicTheme": "Central tension",
@@ -163,7 +307,7 @@
                             }
                           }
                         ],
-                        "isMainLine": false,
+                        "isMainLine": true,
                         "annotation": {
                           "moveRationale": "f6 advances a pawn, influencing the structure in the Polish Opening.",
                           "strategicTheme": "Prophylactic pawn move",
@@ -193,11 +337,11 @@
                         }
                       }
                     ],
-                    "isMainLine": false,
+                    "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Bb2 develops a piece to an active square in the Polish Opening.",
-                      "strategicTheme": "Bishop development",
-                      "source": "generated"
+                      "moveRationale": "White fianchettoes their queen’s bishop right away, attacking e5 (and Black’s kingside) but leaving their own b4-pawn unguarded. White reckons that Black’s central pawn will be worth more than a flank pawn, which generally is the case.",
+                      "strategicTheme": "Center control",
+                      "source": "wikibooks"
                     }
                   },
                   {
@@ -212,11 +356,11 @@
                     }
                   }
                 ],
-                "isMainLine": false,
+                "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Polish Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black plays the most common reply. This pawn move gives Black a share of the centre slightly larger than in standard openings, while freeing the bishop on f8 to take White's b4 pawn.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               },
               {
@@ -303,7 +447,7 @@
                                                     "move": "d4",
                                                     "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/1PPP4/4PN2/PB3PPP/RN1QKB1R b KQ - 0 6",
                                                     "children": [],
-                                                    "isMainLine": true,
+                                                    "isMainLine": false,
                                                     "annotation": {
                                                       "moveRationale": "d4 impacts the center, shaping the pawn structure in the Polish Opening.",
                                                       "strategicTheme": "Central tension",
@@ -311,7 +455,7 @@
                                                     }
                                                   }
                                                 ],
-                                                "isMainLine": true,
+                                                "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Polish Opening.",
                                                   "strategicTheme": "Early king safety",
@@ -319,7 +463,7 @@
                                                 }
                                               }
                                             ],
-                                            "isMainLine": true,
+                                            "isMainLine": false,
                                             "annotation": {
                                               "moveRationale": "Nf3 develops a piece to an active square in the Polish Opening.",
                                               "strategicTheme": "Natural piece development",
@@ -327,7 +471,7 @@
                                             }
                                           }
                                         ],
-                                        "isMainLine": true,
+                                        "isMainLine": false,
                                         "annotation": {
                                           "moveRationale": "d6 advances a pawn, influencing the structure in the Polish Opening.",
                                           "strategicTheme": "Prophylactic pawn move",
@@ -335,7 +479,7 @@
                                         }
                                       }
                                     ],
-                                    "isMainLine": true,
+                                    "isMainLine": false,
                                     "annotation": {
                                       "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Polish Opening.",
                                       "strategicTheme": "Solid center support",
@@ -343,7 +487,7 @@
                                     }
                                   }
                                 ],
-                                "isMainLine": true,
+                                "isMainLine": false,
                                 "annotation": {
                                   "moveRationale": "Bg7 develops a piece to an active square in the Polish Opening.",
                                   "strategicTheme": "Bishop development",
@@ -351,7 +495,7 @@
                                 }
                               }
                             ],
-                            "isMainLine": true,
+                            "isMainLine": false,
                             "annotation": {
                               "moveRationale": "c4 gains space on the queenside in the Polish Opening.",
                               "strategicTheme": "Pawn structure",
@@ -359,7 +503,7 @@
                             }
                           }
                         ],
-                        "isMainLine": true,
+                        "isMainLine": false,
                         "annotation": {
                           "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Polish Opening.",
                           "strategicTheme": "Fianchetto preparation",
@@ -367,7 +511,7 @@
                         }
                       }
                     ],
-                    "isMainLine": true,
+                    "isMainLine": false,
                     "annotation": {
                       "moveRationale": "Bb2 develops a piece to an active square in the Polish Opening.",
                       "strategicTheme": "Bishop development",
@@ -375,7 +519,7 @@
                     }
                   }
                 ],
-                "isMainLine": true,
+                "isMainLine": false,
                 "annotation": {
                   "moveRationale": "Nf6 develops a piece to an active square in the Polish Opening.",
                   "strategicTheme": "Natural piece development",
@@ -448,9 +592,9 @@
                 ],
                 "isMainLine": false,
                 "annotation": {
-                  "moveRationale": "c6 advances a pawn, influencing the structure in the Polish Opening.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "The Outflank Variation in the Polish Opening refers to a specific move sequence that Black can play after the initial move 1. Here's how it goes:\n\n# b4 c6.",
+                  "strategicTheme": "Piece development",
+                  "source": "wikibooks"
                 }
               },
               {
@@ -593,17 +737,17 @@
                     ],
                     "isMainLine": false,
                     "annotation": {
-                      "moveRationale": "Bb2 develops a piece to an active square in the Polish Opening.",
-                      "strategicTheme": "Bishop development",
-                      "source": "generated"
+                      "moveRationale": "White fianchettos the bishop, knowing that Black cannot take the pawn on b4 because of 3.",
+                      "strategicTheme": "Fianchetto development",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": false,
                 "annotation": {
-                  "moveRationale": "e6 advances a pawn, influencing the structure in the Polish Opening.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "Black pushes the e-pawn so they can gain control over the center. This move also allows the pawn to move without getting attacked by a bishop on b2.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               },
               {
@@ -620,9 +764,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b4 advances a pawn, influencing the structure in the Polish Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Polish Opening (or Orangutan Opening) is a flank and rather uncommon opening starting with the move 1. The purpose of this move is to fight for a spatial advantage on the queenside instead of immediately taking control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -679,9 +823,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b4 advances a pawn, influencing the structure in the Polish Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Polish Opening (or Orangutan Opening) is a flank and rather uncommon opening starting with the move 1. The purpose of this move is to fight for a spatial advantage on the queenside instead of immediately taking control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -714,9 +858,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b4 advances a pawn, influencing the structure in the Polish Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Polish Opening (or Orangutan Opening) is a flank and rather uncommon opening starting with the move 1. The purpose of this move is to fight for a spatial advantage on the queenside instead of immediately taking control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -769,25 +913,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Bb2 develops a piece to an active square in the Polish Opening.",
-                      "strategicTheme": "Bishop development",
-                      "source": "generated"
+                      "moveRationale": "White fianchettoes their queen’s bishop right away, attacking e5 (and Black’s kingside) but leaving their own b4-pawn unguarded. White reckons that Black’s central pawn will be worth more than a flank pawn, which generally is the case.",
+                      "strategicTheme": "Center control",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Polish Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black plays the most common reply. This pawn move gives Black a share of the centre slightly larger than in standard openings, while freeing the bishop on f8 to take White's b4 pawn.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b4 advances a pawn, influencing the structure in the Polish Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Polish Opening (or Orangutan Opening) is a flank and rather uncommon opening starting with the move 1. The purpose of this move is to fight for a spatial advantage on the queenside instead of immediately taking control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -824,17 +968,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Polish Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black plays the most common reply. This pawn move gives Black a share of the centre slightly larger than in standard openings, while freeing the bishop on f8 to take White's b4 pawn.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b4 advances a pawn, influencing the structure in the Polish Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Polish Opening (or Orangutan Opening) is a flank and rather uncommon opening starting with the move 1. The purpose of this move is to fight for a spatial advantage on the queenside instead of immediately taking control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -875,25 +1019,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Bb2 develops a piece to an active square in the Polish Opening.",
-                      "strategicTheme": "Bishop development",
-                      "source": "generated"
+                      "moveRationale": "White fianchettoes their queen’s bishop right away, attacking e5 (and Black’s kingside) but leaving their own b4-pawn unguarded. White reckons that Black’s central pawn will be worth more than a flank pawn, which generally is the case.",
+                      "strategicTheme": "Center control",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Polish Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black plays the most common reply. This pawn move gives Black a share of the centre slightly larger than in standard openings, while freeing the bishop on f8 to take White's b4 pawn.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b4 advances a pawn, influencing the structure in the Polish Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Polish Opening (or Orangutan Opening) is a flank and rather uncommon opening starting with the move 1. The purpose of this move is to fight for a spatial advantage on the queenside instead of immediately taking control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -926,9 +1070,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b4 advances a pawn, influencing the structure in the Polish Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Polish Opening (or Orangutan Opening) is a flank and rather uncommon opening starting with the move 1. The purpose of this move is to fight for a spatial advantage on the queenside instead of immediately taking control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -958,7 +1102,67 @@
                       {
                         "move": "Qd6",
                         "fen": "rnb1kbnr/ppp1pppp/3q4/3p4/1P6/8/PBPPPPPP/RN1QKBNR w KQkq - 2 3",
-                        "children": [],
+                        "children": [
+                          {
+                            "move": "a3",
+                            "fen": "rnb1kbnr/ppp1pppp/3q4/3p4/1P6/P7/1BPPPPPP/RN1QKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "e5",
+                                "fen": "rnb1kbnr/ppp2ppp/3q4/3pp3/1P6/P7/1BPPPPPP/RN1QKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "e4",
+                                    "fen": "rnb1kbnr/ppp2ppp/3q4/3pp3/1P2P3/P7/1BPP1PPP/RN1QKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "dxe4",
+                                        "fen": "rnb1kbnr/ppp2ppp/3q4/4p3/1P2p3/P7/1BPP1PPP/RN1QKBNR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "f3",
+                                            "fen": "rnb1kbnr/ppp2ppp/3q4/4p3/1P2p3/P4P2/1BPP2PP/RN1QKBNR b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "f3 advances a pawn, influencing the structure in the Polish Opening.",
+                                              "strategicTheme": "Prophylactic pawn move",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Polish Opening.",
+                                          "strategicTheme": "Central tension",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Polish Opening.",
+                                      "strategicTheme": "Central tension",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "e5 advances a pawn, influencing the structure in the Polish Opening.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "a3 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Polish Opening.",
+                              "strategicTheme": "Prophylactic pawn move",
+                              "source": "generated"
+                            }
+                          }
+                        ],
                         "isMainLine": true,
                         "annotation": {
                           "moveRationale": "Qd6 develops the queen early, seeking direct activity in the Polish Opening.",
@@ -985,9 +1189,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b4 advances a pawn, influencing the structure in the Polish Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Polish Opening (or Orangutan Opening) is a flank and rather uncommon opening starting with the move 1. The purpose of this move is to fight for a spatial advantage on the queenside instead of immediately taking control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1020,9 +1224,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b4 advances a pawn, influencing the structure in the Polish Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Polish Opening (or Orangutan Opening) is a flank and rather uncommon opening starting with the move 1. The purpose of this move is to fight for a spatial advantage on the queenside instead of immediately taking control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1055,9 +1259,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b4 advances a pawn, influencing the structure in the Polish Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Polish Opening (or Orangutan Opening) is a flank and rather uncommon opening starting with the move 1. The purpose of this move is to fight for a spatial advantage on the queenside instead of immediately taking control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1209,9 +1413,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b4 advances a pawn, influencing the structure in the Polish Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Polish Opening (or Orangutan Opening) is a flank and rather uncommon opening starting with the move 1. The purpose of this move is to fight for a spatial advantage on the queenside instead of immediately taking control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1280,9 +1484,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b4 advances a pawn, influencing the structure in the Polish Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Polish Opening (or Orangutan Opening) is a flank and rather uncommon opening starting with the move 1. The purpose of this move is to fight for a spatial advantage on the queenside instead of immediately taking control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1423,9 +1627,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b4 advances a pawn, influencing the structure in the Polish Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Polish Opening (or Orangutan Opening) is a flank and rather uncommon opening starting with the move 1. The purpose of this move is to fight for a spatial advantage on the queenside instead of immediately taking control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1494,9 +1698,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b4 advances a pawn, influencing the structure in the Polish Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Polish Opening (or Orangutan Opening) is a flank and rather uncommon opening starting with the move 1. The purpose of this move is to fight for a spatial advantage on the queenside instead of immediately taking control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1581,17 +1785,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "c6 advances a pawn, influencing the structure in the Polish Opening.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "The Outflank Variation in the Polish Opening refers to a specific move sequence that Black can play after the initial move 1. Here's how it goes:\n\n# b4 c6.",
+                  "strategicTheme": "Piece development",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b4 advances a pawn, influencing the structure in the Polish Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Polish Opening (or Orangutan Opening) is a flank and rather uncommon opening starting with the move 1. The purpose of this move is to fight for a spatial advantage on the queenside instead of immediately taking control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1656,25 +1860,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Bb2 develops a piece to an active square in the Polish Opening.",
-                      "strategicTheme": "Bishop development",
-                      "source": "generated"
+                      "moveRationale": "White fianchettos the bishop, knowing that Black cannot take the pawn on b4 because of 3.",
+                      "strategicTheme": "Fianchetto development",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e6 advances a pawn, influencing the structure in the Polish Opening.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "Black pushes the e-pawn so they can gain control over the center. This move also allows the pawn to move without getting attacked by a bishop on b2.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b4 advances a pawn, influencing the structure in the Polish Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Polish Opening (or Orangutan Opening) is a flank and rather uncommon opening starting with the move 1. The purpose of this move is to fight for a spatial advantage on the queenside instead of immediately taking control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1799,25 +2003,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Bb2 develops a piece to an active square in the Polish Opening.",
-                      "strategicTheme": "Bishop development",
-                      "source": "generated"
+                      "moveRationale": "White fianchettos the bishop, knowing that Black cannot take the pawn on b4 because of 3.",
+                      "strategicTheme": "Fianchetto development",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e6 advances a pawn, influencing the structure in the Polish Opening.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "Black pushes the e-pawn so they can gain control over the center. This move also allows the pawn to move without getting attacked by a bishop on b2.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b4 advances a pawn, influencing the structure in the Polish Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Polish Opening (or Orangutan Opening) is a flank and rather uncommon opening starting with the move 1. The purpose of this move is to fight for a spatial advantage on the queenside instead of immediately taking control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1942,25 +2146,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Bb2 develops a piece to an active square in the Polish Opening.",
-                      "strategicTheme": "Bishop development",
-                      "source": "generated"
+                      "moveRationale": "White fianchettos the bishop, knowing that Black cannot take the pawn on b4 because of 3.",
+                      "strategicTheme": "Fianchetto development",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e6 advances a pawn, influencing the structure in the Polish Opening.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "Black pushes the e-pawn so they can gain control over the center. This move also allows the pawn to move without getting attacked by a bishop on b2.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b4 advances a pawn, influencing the structure in the Polish Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Polish Opening (or Orangutan Opening) is a flank and rather uncommon opening starting with the move 1. The purpose of this move is to fight for a spatial advantage on the queenside instead of immediately taking control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2037,25 +2241,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Bb2 develops a piece to an active square in the Polish Opening.",
-                      "strategicTheme": "Bishop development",
-                      "source": "generated"
+                      "moveRationale": "White fianchettos the bishop, knowing that Black cannot take the pawn on b4 because of 3.",
+                      "strategicTheme": "Fianchetto development",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e6 advances a pawn, influencing the structure in the Polish Opening.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "Black pushes the e-pawn so they can gain control over the center. This move also allows the pawn to move without getting attacked by a bishop on b2.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b4 advances a pawn, influencing the structure in the Polish Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Polish Opening (or Orangutan Opening) is a flank and rather uncommon opening starting with the move 1. The purpose of this move is to fight for a spatial advantage on the queenside instead of immediately taking control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2140,17 +2344,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "c6 advances a pawn, influencing the structure in the Polish Opening.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "The Outflank Variation in the Polish Opening refers to a specific move sequence that Black can play after the initial move 1. Here's how it goes:\n\n# b4 c6.",
+                  "strategicTheme": "Piece development",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b4 advances a pawn, influencing the structure in the Polish Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Polish Opening (or Orangutan Opening) is a flank and rather uncommon opening starting with the move 1. The purpose of this move is to fight for a spatial advantage on the queenside instead of immediately taking control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2183,9 +2387,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b4 advances a pawn, influencing the structure in the Polish Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Polish Opening (or Orangutan Opening) is a flank and rather uncommon opening starting with the move 1. The purpose of this move is to fight for a spatial advantage on the queenside instead of immediately taking control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2219,7 +2423,91 @@
                           {
                             "move": "e4",
                             "fen": "rnbqkbnr/pppp2pp/5p2/4p3/1P2P3/8/PBPP1PPP/RN1QKBNR b KQkq - 0 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "Bxb4",
+                                "fen": "rnbqk1nr/pppp2pp/5p2/4p3/1b2P3/8/PBPP1PPP/RN1QKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Bc4",
+                                    "fen": "rnbqk1nr/pppp2pp/5p2/4p3/1bB1P3/8/PBPP1PPP/RN1QK1NR b KQkq - 1 4",
+                                    "children": [
+                                      {
+                                        "move": "Nc6",
+                                        "fen": "r1bqk1nr/pppp2pp/2n2p2/4p3/1bB1P3/8/PBPP1PPP/RN1QK1NR w KQkq - 2 5",
+                                        "children": [
+                                          {
+                                            "move": "f4",
+                                            "fen": "r1bqk1nr/pppp2pp/2n2p2/4p3/1bB1PP2/8/PBPP2PP/RN1QK1NR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Qe7",
+                                                "fen": "r1b1k1nr/ppppq1pp/2n2p2/4p3/1bB1PP2/8/PBPP2PP/RN1QK1NR w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "f5",
+                                                    "fen": "r1b1k1nr/ppppq1pp/2n2p2/4pP2/1bB1P3/8/PBPP2PP/RN1QK1NR b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "g6",
+                                                        "fen": "r1b1k1nr/ppppq2p/2n2pp1/4pP2/1bB1P3/8/PBPP2PP/RN1QK1NR w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Polish Opening.",
+                                                          "strategicTheme": "Fianchetto preparation",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "f5 advances a pawn, influencing the structure in the Polish Opening.",
+                                                      "strategicTheme": "Pawn structure",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Qe7 activates the queen, increasing pressure in the Polish Opening.",
+                                                  "strategicTheme": "Queen activity",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "f4 advances a pawn, influencing the structure in the Polish Opening.",
+                                              "strategicTheme": "Aggressive kingside expansion",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Polish Opening.",
+                                          "strategicTheme": "Natural piece development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Polish Opening.",
+                                      "strategicTheme": "Active bishop development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Bxb4 exchanges material, altering the pawn structure in the Polish Opening.",
+                                  "strategicTheme": "Material exchange",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": true,
                             "annotation": {
                               "moveRationale": "e4 impacts the center, shaping the pawn structure in the Polish Opening.",
@@ -2238,25 +2526,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Bb2 develops a piece to an active square in the Polish Opening.",
-                      "strategicTheme": "Bishop development",
-                      "source": "generated"
+                      "moveRationale": "White fianchettoes their queen’s bishop right away, attacking e5 (and Black’s kingside) but leaving their own b4-pawn unguarded. White reckons that Black’s central pawn will be worth more than a flank pawn, which generally is the case.",
+                      "strategicTheme": "Center control",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Polish Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black plays the most common reply. This pawn move gives Black a share of the centre slightly larger than in standard openings, while freeing the bishop on f8 to take White's b4 pawn.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b4 advances a pawn, influencing the structure in the Polish Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Polish Opening (or Orangutan Opening) is a flank and rather uncommon opening starting with the move 1. The purpose of this move is to fight for a spatial advantage on the queenside instead of immediately taking control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2297,25 +2585,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Bb2 develops a piece to an active square in the Polish Opening.",
-                      "strategicTheme": "Bishop development",
-                      "source": "generated"
+                      "moveRationale": "White fianchettoes their queen’s bishop right away, attacking e5 (and Black’s kingside) but leaving their own b4-pawn unguarded. White reckons that Black’s central pawn will be worth more than a flank pawn, which generally is the case.",
+                      "strategicTheme": "Center control",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Polish Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black plays the most common reply. This pawn move gives Black a share of the centre slightly larger than in standard openings, while freeing the bishop on f8 to take White's b4 pawn.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b4 advances a pawn, influencing the structure in the Polish Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Polish Opening (or Orangutan Opening) is a flank and rather uncommon opening starting with the move 1. The purpose of this move is to fight for a spatial advantage on the queenside instead of immediately taking control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2376,17 +2664,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Polish Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Nf6, keeping the position symmetrical, is the most flexible reply to 1. At Grandmaster level this is a very popular move and has been the preferred response of both Anand and Kasparov.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Polish Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

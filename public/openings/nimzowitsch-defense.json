@@ -27,74 +27,6 @@
                         "fen": "r1bqkbnr/ppp1pppp/2n5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
                         "children": [
                           {
-                            "move": "Be3",
-                            "fen": "r1bqkbnr/ppp1pppp/2n5/3p4/3PP3/4B3/PPP2PPP/RN1QKBNR b KQkq - 1 3",
-                            "children": [],
-                            "isMainLine": false,
-                            "annotation": {
-                              "moveRationale": "Be3 develops a piece to an active square in the Nimzowitsch Defense.",
-                              "strategicTheme": "Bishop development",
-                              "source": "generated"
-                            }
-                          },
-                          {
-                            "move": "exd5",
-                            "fen": "r1bqkbnr/ppp1pppp/2n5/3P4/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
-                            "children": [
-                              {
-                                "move": "Nb4",
-                                "fen": "r1bqkbnr/ppp1pppp/8/3P4/1n1P4/8/PPP2PPP/RNBQKBNR w KQkq - 1 4",
-                                "children": [],
-                                "isMainLine": false,
-                                "annotation": {
-                                  "moveRationale": "Nb4 develops a piece to an active square in the Nimzowitsch Defense.",
-                                  "strategicTheme": "Knight activity",
-                                  "source": "generated"
-                                }
-                              },
-                              {
-                                "move": "Qxd5",
-                                "fen": "r1b1kbnr/ppp1pppp/2n5/3q4/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 0 4",
-                                "children": [
-                                  {
-                                    "move": "Nc3",
-                                    "fen": "r1b1kbnr/ppp1pppp/2n5/3q4/3P4/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 4",
-                                    "children": [],
-                                    "isMainLine": false,
-                                    "annotation": {
-                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Nimzowitsch Defense.",
-                                      "strategicTheme": "Natural piece development",
-                                      "source": "generated"
-                                    }
-                                  }
-                                ],
-                                "isMainLine": false,
-                                "annotation": {
-                                  "moveRationale": "Qxd5 exchanges material, altering the pawn structure in the Nimzowitsch Defense.",
-                                  "strategicTheme": "Material exchange",
-                                  "source": "generated"
-                                }
-                              }
-                            ],
-                            "isMainLine": false,
-                            "annotation": {
-                              "moveRationale": "exd5 exchanges material, altering the pawn structure in the Nimzowitsch Defense.",
-                              "strategicTheme": "Material exchange",
-                              "source": "generated"
-                            }
-                          },
-                          {
-                            "move": "e5",
-                            "fen": "r1bqkbnr/ppp1pppp/2n5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
-                            "children": [],
-                            "isMainLine": false,
-                            "annotation": {
-                              "moveRationale": "e5 advances a pawn, influencing the structure in the Nimzowitsch Defense.",
-                              "strategicTheme": "Pawn structure",
-                              "source": "generated"
-                            }
-                          },
-                          {
                             "move": "Nc3",
                             "fen": "r1bqkbnr/ppp1pppp/2n5/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 3",
                             "children": [
@@ -112,9 +44,9 @@
                                         "children": [],
                                         "isMainLine": false,
                                         "annotation": {
-                                          "moveRationale": "Ne5 develops a piece to an active square in the Nimzowitsch Defense.",
-                                          "strategicTheme": "Knight activity",
-                                          "source": "generated"
+                                          "moveRationale": "Ne5, White could recapture the gambitted central pawn with 5. Nxe4, but following 5.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       },
                                       {
@@ -205,6 +137,98 @@
                             "annotation": {
                               "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Nimzowitsch Defense.",
                               "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "Be3",
+                            "fen": "r1bqkbnr/ppp1pppp/2n5/3p4/3PP3/4B3/PPP2PPP/RN1QKBNR b KQkq - 1 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "Be3 develops a piece to an active square in the Nimzowitsch Defense.",
+                              "strategicTheme": "Bishop development",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "exd5",
+                            "fen": "r1bqkbnr/ppp1pppp/2n5/3P4/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Nb4",
+                                "fen": "r1bqkbnr/ppp1pppp/8/3P4/1n1P4/8/PPP2PPP/RNBQKBNR w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Nb4 develops a piece to an active square in the Nimzowitsch Defense.",
+                                  "strategicTheme": "Knight activity",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "Qxd5",
+                                "fen": "r1b1kbnr/ppp1pppp/2n5/3q4/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Nc3",
+                                    "fen": "r1b1kbnr/ppp1pppp/2n5/3q4/3P4/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Nimzowitsch Defense.",
+                                      "strategicTheme": "Natural piece development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Qxd5 exchanges material, altering the pawn structure in the Nimzowitsch Defense.",
+                                  "strategicTheme": "Material exchange",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "exd5 exchanges material, altering the pawn structure in the Nimzowitsch Defense.",
+                              "strategicTheme": "Material exchange",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "e5",
+                            "fen": "r1bqkbnr/ppp1pppp/2n5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Bf5",
+                                "fen": "r2qkbnr/ppp1pppp/2n5/3pPb2/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "c3",
+                                    "fen": "r2qkbnr/ppp1pppp/2n5/3pPb2/3P4/2P5/PP3PPP/RNBQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "c3 advances a pawn, influencing the structure in the Nimzowitsch Defense.",
+                                      "strategicTheme": "Prophylactic pawn move",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Bf5 develops a piece to an active square in the Nimzowitsch Defense.",
+                                  "strategicTheme": "Bishop development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "e5 advances a pawn, influencing the structure in the Nimzowitsch Defense.",
+                              "strategicTheme": "Pawn structure",
                               "source": "generated"
                             }
                           }
@@ -366,7 +390,19 @@
                       {
                         "move": "d6",
                         "fen": "r1bqkbnr/ppp1pppp/2np4/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
-                        "children": [],
+                        "children": [
+                          {
+                            "move": "Nc3",
+                            "fen": "r1bqkbnr/ppp1pppp/2np4/8/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 3",
+                            "children": [],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Nimzowitsch Defense.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
                         "isMainLine": false,
                         "annotation": {
                           "moveRationale": "d6 advances a pawn, influencing the structure in the Nimzowitsch Defense.",
@@ -631,7 +667,111 @@
                       {
                         "move": "d6",
                         "fen": "r1bqkbnr/ppp1pppp/2np4/8/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
-                        "children": [],
+                        "children": [
+                          {
+                            "move": "d4",
+                            "fen": "r1bqkbnr/ppp1pppp/2np4/8/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Nf6",
+                                "fen": "r1bqkb1r/ppp1pppp/2np1n2/8/3PP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "Nc3",
+                                    "fen": "r1bqkb1r/ppp1pppp/2np1n2/8/3PP3/2N2N2/PPP2PPP/R1BQKB1R b KQkq - 2 4",
+                                    "children": [
+                                      {
+                                        "move": "Bg4",
+                                        "fen": "r2qkb1r/ppp1pppp/2np1n2/8/3PP1b1/2N2N2/PPP2PPP/R1BQKB1R w KQkq - 3 5",
+                                        "children": [
+                                          {
+                                            "move": "Bb5",
+                                            "fen": "r2qkb1r/ppp1pppp/2np1n2/1B6/3PP1b1/2N2N2/PPP2PPP/R1BQK2R b KQkq - 4 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Bb5 pins or eyes the knight, creating positional tension in the Nimzowitsch Defense.",
+                                              "strategicTheme": "Bishop development",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "Be2",
+                                            "fen": "r2qkb1r/ppp1pppp/2np1n2/8/3PP1b1/2N2N2/PPP1BPPP/R1BQK2R b KQkq - 4 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Be2 develops the bishop to a modest but solid square, preparing to castle in the Nimzowitsch Defense.",
+                                              "strategicTheme": "Bishop development",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "Be3",
+                                            "fen": "r2qkb1r/ppp1pppp/2np1n2/8/3PP1b1/2N1BN2/PPP2PPP/R2QKB1R b KQkq - 4 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Be3 develops a piece to an active square in the Nimzowitsch Defense.",
+                                              "strategicTheme": "Bishop development",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Bg4 develops a piece to an active square in the Nimzowitsch Defense.",
+                                          "strategicTheme": "Bishop development",
+                                          "source": "generated"
+                                        }
+                                      },
+                                      {
+                                        "move": "g6",
+                                        "fen": "r1bqkb1r/ppp1pp1p/2np1np1/8/3PP3/2N2N2/PPP2PPP/R1BQKB1R w KQkq - 0 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Nimzowitsch Defense.",
+                                          "strategicTheme": "Fianchetto preparation",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Nimzowitsch Defense.",
+                                      "strategicTheme": "Natural piece development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Nimzowitsch Defense.",
+                                  "strategicTheme": "Natural piece development",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "Bg4",
+                                "fen": "r2qkbnr/ppp1pppp/2np4/8/3PP1b1/5N2/PPP2PPP/RNBQKB1R w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Bg4 develops a piece to an active square in the Nimzowitsch Defense.",
+                                  "strategicTheme": "Bishop development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "d4 impacts the center, shaping the pawn structure in the Nimzowitsch Defense.",
+                              "strategicTheme": "Central tension",
+                              "source": "generated"
+                            }
+                          }
+                        ],
                         "isMainLine": false,
                         "annotation": {
                           "moveRationale": "d6 advances a pawn, influencing the structure in the Nimzowitsch Defense.",
@@ -661,7 +801,55 @@
                   {
                     "move": "b4",
                     "fen": "r1bqkbnr/pppppppp/2n5/8/1P2P3/8/P1PP1PPP/RNBQKBNR b KQkq - 0 2",
-                    "children": [],
+                    "children": [
+                      {
+                        "move": "Nxb4",
+                        "fen": "r1bqkbnr/pppppppp/8/8/1n2P3/8/P1PP1PPP/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "c3",
+                            "fen": "r1bqkbnr/pppppppp/8/8/1n2P3/2P5/P2P1PPP/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Nc6",
+                                "fen": "r1bqkbnr/pppppppp/2n5/8/4P3/2P5/P2P1PPP/RNBQKBNR w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "d4",
+                                    "fen": "r1bqkbnr/pppppppp/2n5/8/3PP3/2P5/P4PPP/RNBQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Nimzowitsch Defense.",
+                                      "strategicTheme": "Central tension",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Nimzowitsch Defense.",
+                                  "strategicTheme": "Natural piece development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "c3 advances a pawn, influencing the structure in the Nimzowitsch Defense.",
+                              "strategicTheme": "Prophylactic pawn move",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "Nxb4 exchanges material, altering the pawn structure in the Nimzowitsch Defense.",
+                          "strategicTheme": "Material exchange",
+                          "source": "generated"
+                        }
+                      }
+                    ],
                     "isMainLine": false,
                     "annotation": {
                       "moveRationale": "b4 advances a pawn, influencing the structure in the Nimzowitsch Defense.",
@@ -714,74 +902,6 @@
                         "fen": "r1bqkbnr/ppp1pppp/2n5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
                         "children": [
                           {
-                            "move": "Be3",
-                            "fen": "r1bqkbnr/ppp1pppp/2n5/3p4/3PP3/4B3/PPP2PPP/RN1QKBNR b KQkq - 1 3",
-                            "children": [],
-                            "isMainLine": false,
-                            "annotation": {
-                              "moveRationale": "Be3 develops a piece to an active square in the Nimzowitsch Defense.",
-                              "strategicTheme": "Bishop development",
-                              "source": "generated"
-                            }
-                          },
-                          {
-                            "move": "exd5",
-                            "fen": "r1bqkbnr/ppp1pppp/2n5/3P4/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
-                            "children": [
-                              {
-                                "move": "Nb4",
-                                "fen": "r1bqkbnr/ppp1pppp/8/3P4/1n1P4/8/PPP2PPP/RNBQKBNR w KQkq - 1 4",
-                                "children": [],
-                                "isMainLine": false,
-                                "annotation": {
-                                  "moveRationale": "Nb4 develops a piece to an active square in the Nimzowitsch Defense.",
-                                  "strategicTheme": "Knight activity",
-                                  "source": "generated"
-                                }
-                              },
-                              {
-                                "move": "Qxd5",
-                                "fen": "r1b1kbnr/ppp1pppp/2n5/3q4/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 0 4",
-                                "children": [
-                                  {
-                                    "move": "Nc3",
-                                    "fen": "r1b1kbnr/ppp1pppp/2n5/3q4/3P4/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 4",
-                                    "children": [],
-                                    "isMainLine": false,
-                                    "annotation": {
-                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Nimzowitsch Defense.",
-                                      "strategicTheme": "Natural piece development",
-                                      "source": "generated"
-                                    }
-                                  }
-                                ],
-                                "isMainLine": false,
-                                "annotation": {
-                                  "moveRationale": "Qxd5 exchanges material, altering the pawn structure in the Nimzowitsch Defense.",
-                                  "strategicTheme": "Material exchange",
-                                  "source": "generated"
-                                }
-                              }
-                            ],
-                            "isMainLine": false,
-                            "annotation": {
-                              "moveRationale": "exd5 exchanges material, altering the pawn structure in the Nimzowitsch Defense.",
-                              "strategicTheme": "Material exchange",
-                              "source": "generated"
-                            }
-                          },
-                          {
-                            "move": "e5",
-                            "fen": "r1bqkbnr/ppp1pppp/2n5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
-                            "children": [],
-                            "isMainLine": false,
-                            "annotation": {
-                              "moveRationale": "e5 advances a pawn, influencing the structure in the Nimzowitsch Defense.",
-                              "strategicTheme": "Pawn structure",
-                              "source": "generated"
-                            }
-                          },
-                          {
                             "move": "Nc3",
                             "fen": "r1bqkbnr/ppp1pppp/2n5/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 3",
                             "children": [
@@ -799,9 +919,9 @@
                                         "children": [],
                                         "isMainLine": false,
                                         "annotation": {
-                                          "moveRationale": "Ne5 develops a piece to an active square in the Nimzowitsch Defense.",
-                                          "strategicTheme": "Knight activity",
-                                          "source": "generated"
+                                          "moveRationale": "Ne5, White could recapture the gambitted central pawn with 5. Nxe4, but following 5.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       },
                                       {
@@ -892,6 +1012,98 @@
                             "annotation": {
                               "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Nimzowitsch Defense.",
                               "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "Be3",
+                            "fen": "r1bqkbnr/ppp1pppp/2n5/3p4/3PP3/4B3/PPP2PPP/RN1QKBNR b KQkq - 1 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "Be3 develops a piece to an active square in the Nimzowitsch Defense.",
+                              "strategicTheme": "Bishop development",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "exd5",
+                            "fen": "r1bqkbnr/ppp1pppp/2n5/3P4/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Nb4",
+                                "fen": "r1bqkbnr/ppp1pppp/8/3P4/1n1P4/8/PPP2PPP/RNBQKBNR w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Nb4 develops a piece to an active square in the Nimzowitsch Defense.",
+                                  "strategicTheme": "Knight activity",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "Qxd5",
+                                "fen": "r1b1kbnr/ppp1pppp/2n5/3q4/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Nc3",
+                                    "fen": "r1b1kbnr/ppp1pppp/2n5/3q4/3P4/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Nimzowitsch Defense.",
+                                      "strategicTheme": "Natural piece development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Qxd5 exchanges material, altering the pawn structure in the Nimzowitsch Defense.",
+                                  "strategicTheme": "Material exchange",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "exd5 exchanges material, altering the pawn structure in the Nimzowitsch Defense.",
+                              "strategicTheme": "Material exchange",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "e5",
+                            "fen": "r1bqkbnr/ppp1pppp/2n5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Bf5",
+                                "fen": "r2qkbnr/ppp1pppp/2n5/3pPb2/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "c3",
+                                    "fen": "r2qkbnr/ppp1pppp/2n5/3pPb2/3P4/2P5/PP3PPP/RNBQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "c3 advances a pawn, influencing the structure in the Nimzowitsch Defense.",
+                                      "strategicTheme": "Prophylactic pawn move",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Bf5 develops a piece to an active square in the Nimzowitsch Defense.",
+                                  "strategicTheme": "Bishop development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "e5 advances a pawn, influencing the structure in the Nimzowitsch Defense.",
+                              "strategicTheme": "Pawn structure",
                               "source": "generated"
                             }
                           }
@@ -1053,7 +1265,19 @@
                       {
                         "move": "d6",
                         "fen": "r1bqkbnr/ppp1pppp/2np4/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
-                        "children": [],
+                        "children": [
+                          {
+                            "move": "Nc3",
+                            "fen": "r1bqkbnr/ppp1pppp/2np4/8/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 3",
+                            "children": [],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Nimzowitsch Defense.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
                         "isMainLine": false,
                         "annotation": {
                           "moveRationale": "d6 advances a pawn, influencing the structure in the Nimzowitsch Defense.",
@@ -1510,7 +1734,111 @@
                       {
                         "move": "d6",
                         "fen": "r1bqkbnr/ppp1pppp/2np4/8/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
-                        "children": [],
+                        "children": [
+                          {
+                            "move": "d4",
+                            "fen": "r1bqkbnr/ppp1pppp/2np4/8/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Nf6",
+                                "fen": "r1bqkb1r/ppp1pppp/2np1n2/8/3PP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "Nc3",
+                                    "fen": "r1bqkb1r/ppp1pppp/2np1n2/8/3PP3/2N2N2/PPP2PPP/R1BQKB1R b KQkq - 2 4",
+                                    "children": [
+                                      {
+                                        "move": "Bg4",
+                                        "fen": "r2qkb1r/ppp1pppp/2np1n2/8/3PP1b1/2N2N2/PPP2PPP/R1BQKB1R w KQkq - 3 5",
+                                        "children": [
+                                          {
+                                            "move": "Bb5",
+                                            "fen": "r2qkb1r/ppp1pppp/2np1n2/1B6/3PP1b1/2N2N2/PPP2PPP/R1BQK2R b KQkq - 4 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Bb5 pins or eyes the knight, creating positional tension in the Nimzowitsch Defense.",
+                                              "strategicTheme": "Bishop development",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "Be2",
+                                            "fen": "r2qkb1r/ppp1pppp/2np1n2/8/3PP1b1/2N2N2/PPP1BPPP/R1BQK2R b KQkq - 4 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Be2 develops the bishop to a modest but solid square, preparing to castle in the Nimzowitsch Defense.",
+                                              "strategicTheme": "Bishop development",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "Be3",
+                                            "fen": "r2qkb1r/ppp1pppp/2np1n2/8/3PP1b1/2N1BN2/PPP2PPP/R2QKB1R b KQkq - 4 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Be3 develops a piece to an active square in the Nimzowitsch Defense.",
+                                              "strategicTheme": "Bishop development",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Bg4 develops a piece to an active square in the Nimzowitsch Defense.",
+                                          "strategicTheme": "Bishop development",
+                                          "source": "generated"
+                                        }
+                                      },
+                                      {
+                                        "move": "g6",
+                                        "fen": "r1bqkb1r/ppp1pp1p/2np1np1/8/3PP3/2N2N2/PPP2PPP/R1BQKB1R w KQkq - 0 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Nimzowitsch Defense.",
+                                          "strategicTheme": "Fianchetto preparation",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Nimzowitsch Defense.",
+                                      "strategicTheme": "Natural piece development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Nimzowitsch Defense.",
+                                  "strategicTheme": "Natural piece development",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "Bg4",
+                                "fen": "r2qkbnr/ppp1pppp/2np4/8/3PP1b1/5N2/PPP2PPP/RNBQKB1R w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Bg4 develops a piece to an active square in the Nimzowitsch Defense.",
+                                  "strategicTheme": "Bishop development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "d4 impacts the center, shaping the pawn structure in the Nimzowitsch Defense.",
+                              "strategicTheme": "Central tension",
+                              "source": "generated"
+                            }
+                          }
+                        ],
                         "isMainLine": false,
                         "annotation": {
                           "moveRationale": "d6 advances a pawn, influencing the structure in the Nimzowitsch Defense.",
@@ -3354,7 +3682,19 @@
                       {
                         "move": "d6",
                         "fen": "r1bqkbnr/ppp1pppp/2np4/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
-                        "children": [],
+                        "children": [
+                          {
+                            "move": "Nc3",
+                            "fen": "r1bqkbnr/ppp1pppp/2np4/8/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 3",
+                            "children": [],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Nimzowitsch Defense.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
                         "isMainLine": true,
                         "annotation": {
                           "moveRationale": "d6 advances a pawn, influencing the structure in the Nimzowitsch Defense.",
@@ -3580,74 +3920,6 @@
                         "fen": "r1bqkbnr/ppp1pppp/2n5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
                         "children": [
                           {
-                            "move": "Be3",
-                            "fen": "r1bqkbnr/ppp1pppp/2n5/3p4/3PP3/4B3/PPP2PPP/RN1QKBNR b KQkq - 1 3",
-                            "children": [],
-                            "isMainLine": false,
-                            "annotation": {
-                              "moveRationale": "Be3 develops a piece to an active square in the Nimzowitsch Defense.",
-                              "strategicTheme": "Bishop development",
-                              "source": "generated"
-                            }
-                          },
-                          {
-                            "move": "exd5",
-                            "fen": "r1bqkbnr/ppp1pppp/2n5/3P4/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
-                            "children": [
-                              {
-                                "move": "Nb4",
-                                "fen": "r1bqkbnr/ppp1pppp/8/3P4/1n1P4/8/PPP2PPP/RNBQKBNR w KQkq - 1 4",
-                                "children": [],
-                                "isMainLine": false,
-                                "annotation": {
-                                  "moveRationale": "Nb4 develops a piece to an active square in the Nimzowitsch Defense.",
-                                  "strategicTheme": "Knight activity",
-                                  "source": "generated"
-                                }
-                              },
-                              {
-                                "move": "Qxd5",
-                                "fen": "r1b1kbnr/ppp1pppp/2n5/3q4/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 0 4",
-                                "children": [
-                                  {
-                                    "move": "Nc3",
-                                    "fen": "r1b1kbnr/ppp1pppp/2n5/3q4/3P4/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 4",
-                                    "children": [],
-                                    "isMainLine": false,
-                                    "annotation": {
-                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Nimzowitsch Defense.",
-                                      "strategicTheme": "Natural piece development",
-                                      "source": "generated"
-                                    }
-                                  }
-                                ],
-                                "isMainLine": false,
-                                "annotation": {
-                                  "moveRationale": "Qxd5 exchanges material, altering the pawn structure in the Nimzowitsch Defense.",
-                                  "strategicTheme": "Material exchange",
-                                  "source": "generated"
-                                }
-                              }
-                            ],
-                            "isMainLine": false,
-                            "annotation": {
-                              "moveRationale": "exd5 exchanges material, altering the pawn structure in the Nimzowitsch Defense.",
-                              "strategicTheme": "Material exchange",
-                              "source": "generated"
-                            }
-                          },
-                          {
-                            "move": "e5",
-                            "fen": "r1bqkbnr/ppp1pppp/2n5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
-                            "children": [],
-                            "isMainLine": false,
-                            "annotation": {
-                              "moveRationale": "e5 advances a pawn, influencing the structure in the Nimzowitsch Defense.",
-                              "strategicTheme": "Pawn structure",
-                              "source": "generated"
-                            }
-                          },
-                          {
                             "move": "Nc3",
                             "fen": "r1bqkbnr/ppp1pppp/2n5/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 3",
                             "children": [
@@ -3665,9 +3937,9 @@
                                         "children": [],
                                         "isMainLine": false,
                                         "annotation": {
-                                          "moveRationale": "Ne5 develops a piece to an active square in the Nimzowitsch Defense.",
-                                          "strategicTheme": "Knight activity",
-                                          "source": "generated"
+                                          "moveRationale": "Ne5, White could recapture the gambitted central pawn with 5. Nxe4, but following 5.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       },
                                       {
@@ -3758,6 +4030,98 @@
                             "annotation": {
                               "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Nimzowitsch Defense.",
                               "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "Be3",
+                            "fen": "r1bqkbnr/ppp1pppp/2n5/3p4/3PP3/4B3/PPP2PPP/RN1QKBNR b KQkq - 1 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "Be3 develops a piece to an active square in the Nimzowitsch Defense.",
+                              "strategicTheme": "Bishop development",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "exd5",
+                            "fen": "r1bqkbnr/ppp1pppp/2n5/3P4/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Nb4",
+                                "fen": "r1bqkbnr/ppp1pppp/8/3P4/1n1P4/8/PPP2PPP/RNBQKBNR w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Nb4 develops a piece to an active square in the Nimzowitsch Defense.",
+                                  "strategicTheme": "Knight activity",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "Qxd5",
+                                "fen": "r1b1kbnr/ppp1pppp/2n5/3q4/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Nc3",
+                                    "fen": "r1b1kbnr/ppp1pppp/2n5/3q4/3P4/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Nimzowitsch Defense.",
+                                      "strategicTheme": "Natural piece development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Qxd5 exchanges material, altering the pawn structure in the Nimzowitsch Defense.",
+                                  "strategicTheme": "Material exchange",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "exd5 exchanges material, altering the pawn structure in the Nimzowitsch Defense.",
+                              "strategicTheme": "Material exchange",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "e5",
+                            "fen": "r1bqkbnr/ppp1pppp/2n5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Bf5",
+                                "fen": "r2qkbnr/ppp1pppp/2n5/3pPb2/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "c3",
+                                    "fen": "r2qkbnr/ppp1pppp/2n5/3pPb2/3P4/2P5/PP3PPP/RNBQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "c3 advances a pawn, influencing the structure in the Nimzowitsch Defense.",
+                                      "strategicTheme": "Prophylactic pawn move",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Bf5 develops a piece to an active square in the Nimzowitsch Defense.",
+                                  "strategicTheme": "Bishop development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "e5 advances a pawn, influencing the structure in the Nimzowitsch Defense.",
+                              "strategicTheme": "Pawn structure",
                               "source": "generated"
                             }
                           }
@@ -3907,7 +4271,31 @@
                           {
                             "move": "e5",
                             "fen": "r1bqkbnr/ppp1pppp/2n5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "Bf5",
+                                "fen": "r2qkbnr/ppp1pppp/2n5/3pPb2/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "c3",
+                                    "fen": "r2qkbnr/ppp1pppp/2n5/3pPb2/3P4/2P5/PP3PPP/RNBQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "c3 advances a pawn, influencing the structure in the Nimzowitsch Defense.",
+                                      "strategicTheme": "Prophylactic pawn move",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Bf5 develops a piece to an active square in the Nimzowitsch Defense.",
+                                  "strategicTheme": "Bishop development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": true,
                             "annotation": {
                               "moveRationale": "e5 advances a pawn, influencing the structure in the Nimzowitsch Defense.",
@@ -3993,9 +4381,9 @@
                                         "children": [],
                                         "isMainLine": false,
                                         "annotation": {
-                                          "moveRationale": "Ne5 develops a piece to an active square in the Nimzowitsch Defense.",
-                                          "strategicTheme": "Knight activity",
-                                          "source": "generated"
+                                          "moveRationale": "Ne5, White could recapture the gambitted central pawn with 5. Nxe4, but following 5.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       },
                                       {
@@ -4167,9 +4555,9 @@
                                         "children": [],
                                         "isMainLine": false,
                                         "annotation": {
-                                          "moveRationale": "Ne5 develops a piece to an active square in the Nimzowitsch Defense.",
-                                          "strategicTheme": "Knight activity",
-                                          "source": "generated"
+                                          "moveRationale": "Ne5, White could recapture the gambitted central pawn with 5. Nxe4, but following 5.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       },
                                       {
@@ -4546,9 +4934,9 @@
                                         "children": [],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "Ne5 develops a piece to an active square in the Nimzowitsch Defense.",
-                                          "strategicTheme": "Knight activity",
-                                          "source": "generated"
+                                          "moveRationale": "Ne5, White could recapture the gambitted central pawn with 5. Nxe4, but following 5.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
@@ -5022,7 +5410,55 @@
                   {
                     "move": "b4",
                     "fen": "r1bqkbnr/pppppppp/2n5/8/1P2P3/8/P1PP1PPP/RNBQKBNR b KQkq - 0 2",
-                    "children": [],
+                    "children": [
+                      {
+                        "move": "Nxb4",
+                        "fen": "r1bqkbnr/pppppppp/8/8/1n2P3/8/P1PP1PPP/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "c3",
+                            "fen": "r1bqkbnr/pppppppp/8/8/1n2P3/2P5/P2P1PPP/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Nc6",
+                                "fen": "r1bqkbnr/pppppppp/2n5/8/4P3/2P5/P2P1PPP/RNBQKBNR w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "d4",
+                                    "fen": "r1bqkbnr/pppppppp/2n5/8/3PP3/2P5/P4PPP/RNBQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Nimzowitsch Defense.",
+                                      "strategicTheme": "Central tension",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Nimzowitsch Defense.",
+                                  "strategicTheme": "Natural piece development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "c3 advances a pawn, influencing the structure in the Nimzowitsch Defense.",
+                              "strategicTheme": "Prophylactic pawn move",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "Nxb4 exchanges material, altering the pawn structure in the Nimzowitsch Defense.",
+                          "strategicTheme": "Material exchange",
+                          "source": "generated"
+                        }
+                      }
+                    ],
                     "isMainLine": true,
                     "annotation": {
                       "moveRationale": "b4 advances a pawn, influencing the structure in the Nimzowitsch Defense.",
@@ -5073,7 +5509,111 @@
                       {
                         "move": "d6",
                         "fen": "r1bqkbnr/ppp1pppp/2np4/8/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
-                        "children": [],
+                        "children": [
+                          {
+                            "move": "d4",
+                            "fen": "r1bqkbnr/ppp1pppp/2np4/8/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Nf6",
+                                "fen": "r1bqkb1r/ppp1pppp/2np1n2/8/3PP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "Nc3",
+                                    "fen": "r1bqkb1r/ppp1pppp/2np1n2/8/3PP3/2N2N2/PPP2PPP/R1BQKB1R b KQkq - 2 4",
+                                    "children": [
+                                      {
+                                        "move": "Bg4",
+                                        "fen": "r2qkb1r/ppp1pppp/2np1n2/8/3PP1b1/2N2N2/PPP2PPP/R1BQKB1R w KQkq - 3 5",
+                                        "children": [
+                                          {
+                                            "move": "Bb5",
+                                            "fen": "r2qkb1r/ppp1pppp/2np1n2/1B6/3PP1b1/2N2N2/PPP2PPP/R1BQK2R b KQkq - 4 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Bb5 pins or eyes the knight, creating positional tension in the Nimzowitsch Defense.",
+                                              "strategicTheme": "Bishop development",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "Be2",
+                                            "fen": "r2qkb1r/ppp1pppp/2np1n2/8/3PP1b1/2N2N2/PPP1BPPP/R1BQK2R b KQkq - 4 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Be2 develops the bishop to a modest but solid square, preparing to castle in the Nimzowitsch Defense.",
+                                              "strategicTheme": "Bishop development",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "Be3",
+                                            "fen": "r2qkb1r/ppp1pppp/2np1n2/8/3PP1b1/2N1BN2/PPP2PPP/R2QKB1R b KQkq - 4 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Be3 develops a piece to an active square in the Nimzowitsch Defense.",
+                                              "strategicTheme": "Bishop development",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Bg4 develops a piece to an active square in the Nimzowitsch Defense.",
+                                          "strategicTheme": "Bishop development",
+                                          "source": "generated"
+                                        }
+                                      },
+                                      {
+                                        "move": "g6",
+                                        "fen": "r1bqkb1r/ppp1pp1p/2np1np1/8/3PP3/2N2N2/PPP2PPP/R1BQKB1R w KQkq - 0 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Nimzowitsch Defense.",
+                                          "strategicTheme": "Fianchetto preparation",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Nimzowitsch Defense.",
+                                      "strategicTheme": "Natural piece development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Nimzowitsch Defense.",
+                                  "strategicTheme": "Natural piece development",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "Bg4",
+                                "fen": "r2qkbnr/ppp1pppp/2np4/8/3PP1b1/5N2/PPP2PPP/RNBQKB1R w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Bg4 develops a piece to an active square in the Nimzowitsch Defense.",
+                                  "strategicTheme": "Bishop development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "d4 impacts the center, shaping the pawn structure in the Nimzowitsch Defense.",
+                              "strategicTheme": "Central tension",
+                              "source": "generated"
+                            }
+                          }
+                        ],
                         "isMainLine": true,
                         "annotation": {
                           "moveRationale": "d6 advances a pawn, influencing the structure in the Nimzowitsch Defense.",

@@ -50,7 +50,7 @@
                                                 "move": "Qe7",
                                                 "fen": "rnb1kbnr/ppppqppp/8/8/2B1P3/8/PB3PPP/RN1QK1NR w KQkq - 1 6",
                                                 "children": [],
-                                                "isMainLine": true,
+                                                "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "Qe7 activates the queen, increasing pressure in the Danish Gambit Accepted.",
                                                   "strategicTheme": "Queen activity",
@@ -60,8 +60,43 @@
                                               {
                                                 "move": "Nf6",
                                                 "fen": "rnbqkb1r/pppp1ppp/5n2/8/2B1P3/8/PB3PPP/RN1QK1NR w KQkq - 1 6",
-                                                "children": [],
-                                                "isMainLine": false,
+                                                "children": [
+                                                  {
+                                                    "move": "e5",
+                                                    "fen": "rnbqkb1r/pppp1ppp/5n2/4P3/2B5/8/PB3PPP/RN1QK1NR b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "d5",
+                                                        "fen": "rnbqkb1r/ppp2ppp/5n2/3pP3/2B5/8/PB3PPP/RN1QK1NR w KQkq d6 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "d5 advances a pawn, influencing the structure in the Danish Gambit Accepted.",
+                                                          "strategicTheme": "Pawn structure",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "e5 advances a pawn, influencing the structure in the Danish Gambit Accepted.",
+                                                      "strategicTheme": "Pawn structure",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "Nf3",
+                                                    "fen": "rnbqkb1r/pppp1ppp/5n2/8/2B1P3/5N2/PB3PPP/RN1QK2R b KQkq - 2 6",
+                                                    "children": [],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Nf3 develops a piece to an active square in the Danish Gambit Accepted.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
                                                 "annotation": {
                                                   "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Danish Gambit Accepted.",
                                                   "strategicTheme": "Natural piece development",
@@ -344,7 +379,42 @@
                                               {
                                                 "move": "Nf6",
                                                 "fen": "rnbqkb1r/pppp1ppp/5n2/8/2B1P3/8/PB3PPP/RN1QK1NR w KQkq - 1 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "e5",
+                                                    "fen": "rnbqkb1r/pppp1ppp/5n2/4P3/2B5/8/PB3PPP/RN1QK1NR b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "d5",
+                                                        "fen": "rnbqkb1r/ppp2ppp/5n2/3pP3/2B5/8/PB3PPP/RN1QK1NR w KQkq d6 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "d5 advances a pawn, influencing the structure in the Danish Gambit Accepted.",
+                                                          "strategicTheme": "Pawn structure",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "e5 advances a pawn, influencing the structure in the Danish Gambit Accepted.",
+                                                      "strategicTheme": "Pawn structure",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "Nf3",
+                                                    "fen": "rnbqkb1r/pppp1ppp/5n2/8/2B1P3/5N2/PB3PPP/RN1QK2R b KQkq - 2 6",
+                                                    "children": [],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Nf3 develops a piece to an active square in the Danish Gambit Accepted.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": true,
                                                 "annotation": {
                                                   "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Danish Gambit Accepted.",

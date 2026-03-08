@@ -45,7 +45,54 @@
                                           {
                                             "move": "c3",
                                             "fen": "rnbqkb1r/pp3ppp/4pn2/2pp4/3P4/2PBPN2/PP3PPP/RNBQK2R b KQkq - 0 5",
-                                            "children": [],
+                                            "children": [
+                                              {
+                                                "move": "Nc6",
+                                                "fen": "r1bqkb1r/pp3ppp/2n1pn2/2pp4/3P4/2PBPN2/PP3PPP/RNBQK2R w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Nbd2",
+                                                    "fen": "r1bqkb1r/pp3ppp/2n1pn2/2pp4/3P4/2PBPN2/PP1N1PPP/R1BQK2R b KQkq - 2 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Bd6",
+                                                        "fen": "r1bqk2r/pp3ppp/2nbpn2/2pp4/3P4/2PBPN2/PP1N1PPP/R1BQK2R w KQkq - 3 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Bd6 develops a piece to an active square in the Yusupov-Rubinstein System.",
+                                                          "strategicTheme": "Bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Nbd2 develops a piece to an active square in the Yusupov-Rubinstein System.",
+                                                      "strategicTheme": "Knight activity",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Yusupov-Rubinstein System.",
+                                                  "strategicTheme": "Natural piece development",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "Nbd7",
+                                                "fen": "r1bqkb1r/pp1n1ppp/4pn2/2pp4/3P4/2PBPN2/PP3PPP/RNBQK2R w KQkq - 1 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Nbd7 develops a piece to an active square in the Yusupov-Rubinstein System.",
+                                                  "strategicTheme": "Knight activity",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": false,
                                             "annotation": {
                                               "moveRationale": "c3 advances a pawn, influencing the structure in the Yusupov-Rubinstein System.",

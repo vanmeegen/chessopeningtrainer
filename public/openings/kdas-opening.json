@@ -102,9 +102,9 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Kádas Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black takes the center and opens the diagonal for the light-squared bishop, preventing White's kingside rook from coming out with 2. , to which Black will respond with Bxh3.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               },
               {
@@ -113,9 +113,9 @@
                 "children": [],
                 "isMainLine": false,
                 "annotation": {
-                  "moveRationale": "a5 advances a pawn, influencing the structure in the Kádas Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "This opening is a little-known but strong response to 1. hxg7 Bxg7 Black puts pressure on White's queenside.",
+                  "strategicTheme": "Positional pressure",
+                  "source": "wikibooks"
                 }
               },
               {
@@ -125,7 +125,55 @@
                   {
                     "move": "b4",
                     "fen": "rnbqkbnr/pp1ppppp/8/2p5/1P5P/8/P1PPPPP1/RNBQKBNR b KQkq - 0 2",
-                    "children": [],
+                    "children": [
+                      {
+                        "move": "e5",
+                        "fen": "rnbqkbnr/pp1p1ppp/8/2p1p3/1P5P/8/P1PPPPP1/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "d4",
+                            "fen": "rnbqkbnr/pp1p1ppp/8/2p1p3/1P1P3P/8/P1P1PPP1/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "exd4",
+                                "fen": "rnbqkbnr/pp1p1ppp/8/2p5/1P1p3P/8/P1P1PPP1/RNBQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "c3",
+                                    "fen": "rnbqkbnr/pp1p1ppp/8/2p5/1P1p3P/2P5/P3PPP1/RNBQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "c3 advances a pawn, influencing the structure in the Kádas Opening.",
+                                      "strategicTheme": "Prophylactic pawn move",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Kádas Opening.",
+                                  "strategicTheme": "Central tension",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "d4 impacts the center, shaping the pawn structure in the Kádas Opening.",
+                              "strategicTheme": "Central tension",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "e5 advances a pawn, influencing the structure in the Kádas Opening.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
                     "isMainLine": false,
                     "annotation": {
                       "moveRationale": "b4 advances a pawn, influencing the structure in the Kádas Opening.",
@@ -249,9 +297,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "h4 advances a pawn, influencing the structure in the Kádas Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Desprez Opening (or Kádas Opening) is a rare kingside flank opening. It does little for development, does not fight for control of the center, and weakens White's kingside.",
+              "strategicTheme": "Center control",
+              "source": "wikibooks"
             }
           }
         ],
@@ -288,17 +336,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Kádas Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black takes the center and opens the diagonal for the light-squared bishop, preventing White's kingside rook from coming out with 2. , to which Black will respond with Bxh3.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "h4 advances a pawn, influencing the structure in the Kádas Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Desprez Opening (or Kádas Opening) is a rare kingside flank opening. It does little for development, does not fight for control of the center, and weakens White's kingside.",
+              "strategicTheme": "Center control",
+              "source": "wikibooks"
             }
           }
         ],
@@ -323,17 +371,17 @@
                 "children": [],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "a5 advances a pawn, influencing the structure in the Kádas Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "This opening is a little-known but strong response to 1. hxg7 Bxg7 Black puts pressure on White's queenside.",
+                  "strategicTheme": "Positional pressure",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "h4 advances a pawn, influencing the structure in the Kádas Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Desprez Opening (or Kádas Opening) is a rare kingside flank opening. It does little for development, does not fight for control of the center, and weakens White's kingside.",
+              "strategicTheme": "Center control",
+              "source": "wikibooks"
             }
           }
         ],
@@ -359,7 +407,55 @@
                   {
                     "move": "b4",
                     "fen": "rnbqkbnr/pp1ppppp/8/2p5/1P5P/8/P1PPPPP1/RNBQKBNR b KQkq - 0 2",
-                    "children": [],
+                    "children": [
+                      {
+                        "move": "e5",
+                        "fen": "rnbqkbnr/pp1p1ppp/8/2p1p3/1P5P/8/P1PPPPP1/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "d4",
+                            "fen": "rnbqkbnr/pp1p1ppp/8/2p1p3/1P1P3P/8/P1P1PPP1/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "exd4",
+                                "fen": "rnbqkbnr/pp1p1ppp/8/2p5/1P1p3P/8/P1P1PPP1/RNBQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "c3",
+                                    "fen": "rnbqkbnr/pp1p1ppp/8/2p5/1P1p3P/2P5/P3PPP1/RNBQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "c3 advances a pawn, influencing the structure in the Kádas Opening.",
+                                      "strategicTheme": "Prophylactic pawn move",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Kádas Opening.",
+                                  "strategicTheme": "Central tension",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "d4 impacts the center, shaping the pawn structure in the Kádas Opening.",
+                              "strategicTheme": "Central tension",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "e5 advances a pawn, influencing the structure in the Kádas Opening.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
                     "isMainLine": true,
                     "annotation": {
                       "moveRationale": "b4 advances a pawn, influencing the structure in the Kádas Opening.",
@@ -378,9 +474,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "h4 advances a pawn, influencing the structure in the Kádas Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Desprez Opening (or Kádas Opening) is a rare kingside flank opening. It does little for development, does not fight for control of the center, and weakens White's kingside.",
+              "strategicTheme": "Center control",
+              "source": "wikibooks"
             }
           }
         ],
@@ -465,17 +561,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Kádas Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black takes the center and opens the diagonal for the light-squared bishop, preventing White's kingside rook from coming out with 2. , to which Black will respond with Bxh3.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "h4 advances a pawn, influencing the structure in the Kádas Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Desprez Opening (or Kádas Opening) is a rare kingside flank opening. It does little for development, does not fight for control of the center, and weakens White's kingside.",
+              "strategicTheme": "Center control",
+              "source": "wikibooks"
             }
           }
         ],
@@ -544,9 +640,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "h4 advances a pawn, influencing the structure in the Kádas Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Desprez Opening (or Kádas Opening) is a rare kingside flank opening. It does little for development, does not fight for control of the center, and weakens White's kingside.",
+              "strategicTheme": "Center control",
+              "source": "wikibooks"
             }
           }
         ],
@@ -607,17 +703,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Kádas Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black takes the center and opens the diagonal for the light-squared bishop, preventing White's kingside rook from coming out with 2. , to which Black will respond with Bxh3.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "h4 advances a pawn, influencing the structure in the Kádas Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Desprez Opening (or Kádas Opening) is a rare kingside flank opening. It does little for development, does not fight for control of the center, and weakens White's kingside.",
+              "strategicTheme": "Center control",
+              "source": "wikibooks"
             }
           }
         ],
@@ -650,9 +746,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "h4 advances a pawn, influencing the structure in the Kádas Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Desprez Opening (or Kádas Opening) is a rare kingside flank opening. It does little for development, does not fight for control of the center, and weakens White's kingside.",
+              "strategicTheme": "Center control",
+              "source": "wikibooks"
             }
           }
         ],
@@ -721,9 +817,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "h4 advances a pawn, influencing the structure in the Kádas Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Desprez Opening (or Kádas Opening) is a rare kingside flank opening. It does little for development, does not fight for control of the center, and weakens White's kingside.",
+              "strategicTheme": "Center control",
+              "source": "wikibooks"
             }
           }
         ],

@@ -17,7 +17,31 @@
               {
                 "move": "g5",
                 "fen": "rnbqkbnr/pppppp1p/8/6p1/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
-                "children": [],
+                "children": [
+                  {
+                    "move": "Bxg5",
+                    "fen": "rnbqkbnr/pppppp1p/8/6B1/3P4/8/PPP1PPPP/RN1QKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "f6",
+                        "fen": "rnbqkbnr/ppppp2p/5p2/6B1/3P4/8/PPP1PPPP/RN1QKBNR w KQkq - 0 3",
+                        "children": [],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "f6 advances a pawn, influencing the structure in the Borg Defense.",
+                          "strategicTheme": "Prophylactic pawn move",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "Bxg5 exchanges material, altering the pawn structure in the Borg Defense.",
+                      "strategicTheme": "Material exchange",
+                      "source": "generated"
+                    }
+                  }
+                ],
                 "isMainLine": true,
                 "annotation": {
                   "moveRationale": "g5 advances a pawn, influencing the structure in the Borg Defense.",

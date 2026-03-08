@@ -289,7 +289,113 @@
                           {
                             "move": "e4",
                             "fen": "rnbqkb1r/pppp1ppp/4pn2/6B1/3PP3/8/PPP2PPP/RN1QKBNR b KQkq - 0 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "h6",
+                                "fen": "rnbqkb1r/pppp1pp1/4pn1p/6B1/3PP3/8/PPP2PPP/RN1QKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Bxf6",
+                                    "fen": "rnbqkb1r/pppp1pp1/4pB1p/8/3PP3/8/PPP2PPP/RN1QKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Qxf6",
+                                        "fen": "rnb1kb1r/pppp1pp1/4pq1p/8/3PP3/8/PPP2PPP/RN1QKBNR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "Nc3",
+                                            "fen": "rnb1kb1r/pppp1pp1/4pq1p/8/3PP3/2N5/PPP2PPP/R2QKBNR b KQkq - 1 5",
+                                            "children": [
+                                              {
+                                                "move": "d6",
+                                                "fen": "rnb1kb1r/ppp2pp1/3ppq1p/8/3PP3/2N5/PPP2PPP/R2QKBNR w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Qd2",
+                                                    "fen": "rnb1kb1r/ppp2pp1/3ppq1p/8/3PP3/2N5/PPPQ1PPP/R3KBNR b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "g5",
+                                                        "fen": "rnb1kb1r/ppp2p2/3ppq1p/6p1/3PP3/2N5/PPPQ1PPP/R3KBNR w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "g5 advances a pawn, influencing the structure in the Trompowsky Attack.",
+                                                          "strategicTheme": "Pawn structure",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Qd2 activates the queen, increasing pressure in the Trompowsky Attack.",
+                                                      "strategicTheme": "Queen activity",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "d6 advances a pawn, influencing the structure in the Trompowsky Attack.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "Bb4",
+                                                "fen": "rnb1k2r/pppp1pp1/4pq1p/8/1b1PP3/2N5/PPP2PPP/R2QKBNR w KQkq - 2 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Bb4 pins or eyes the knight, creating positional tension in the Trompowsky Attack.",
+                                                  "strategicTheme": "Bishop development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Trompowsky Attack.",
+                                              "strategicTheme": "Natural piece development",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "c3",
+                                            "fen": "rnb1kb1r/pppp1pp1/4pq1p/8/3PP3/2P5/PP3PPP/RN1QKBNR b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "c3 advances a pawn, influencing the structure in the Trompowsky Attack.",
+                                              "strategicTheme": "Prophylactic pawn move",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Qxf6 exchanges material, altering the pawn structure in the Trompowsky Attack.",
+                                          "strategicTheme": "Material exchange",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Bxf6 exchanges material, altering the pawn structure in the Trompowsky Attack.",
+                                      "strategicTheme": "Material exchange",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "h6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Trompowsky Attack.",
+                                  "strategicTheme": "Prophylactic pawn move",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": false,
                             "annotation": {
                               "moveRationale": "e4 impacts the center, shaping the pawn structure in the Trompowsky Attack.",
@@ -320,7 +426,43 @@
                                   {
                                     "move": "Nc3",
                                     "fen": "rnb1kb1r/pp1ppppp/1q3n2/2pP2B1/8/2N5/PPP1PPPP/R2QKBNR b KQkq - 2 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "Qxb2",
+                                        "fen": "rnb1kb1r/pp1ppppp/5n2/2pP2B1/8/2N5/PqP1PPPP/R2QKBNR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "Bd2",
+                                            "fen": "rnb1kb1r/pp1ppppp/5n2/2pP4/8/2N5/PqPBPPPP/R2QKBNR b KQkq - 1 5",
+                                            "children": [
+                                              {
+                                                "move": "Qb6",
+                                                "fen": "rnb1kb1r/pp1ppppp/1q3n2/2pP4/8/2N5/P1PBPPPP/R2QKBNR w KQkq - 2 6",
+                                                "children": [],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Qb6 activates the queen, increasing pressure in the Trompowsky Attack.",
+                                                  "strategicTheme": "Queen activity",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Bd2 develops a piece to an active square in the Trompowsky Attack.",
+                                              "strategicTheme": "Bishop development",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Qxb2 exchanges material, altering the pawn structure in the Trompowsky Attack.",
+                                          "strategicTheme": "Material exchange",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": false,
                                     "annotation": {
                                       "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Trompowsky Attack.",
@@ -490,7 +632,113 @@
                           {
                             "move": "e4",
                             "fen": "rnbqkb1r/pppp1ppp/4pn2/6B1/3PP3/8/PPP2PPP/RN1QKBNR b KQkq - 0 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "h6",
+                                "fen": "rnbqkb1r/pppp1pp1/4pn1p/6B1/3PP3/8/PPP2PPP/RN1QKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Bxf6",
+                                    "fen": "rnbqkb1r/pppp1pp1/4pB1p/8/3PP3/8/PPP2PPP/RN1QKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Qxf6",
+                                        "fen": "rnb1kb1r/pppp1pp1/4pq1p/8/3PP3/8/PPP2PPP/RN1QKBNR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "Nc3",
+                                            "fen": "rnb1kb1r/pppp1pp1/4pq1p/8/3PP3/2N5/PPP2PPP/R2QKBNR b KQkq - 1 5",
+                                            "children": [
+                                              {
+                                                "move": "d6",
+                                                "fen": "rnb1kb1r/ppp2pp1/3ppq1p/8/3PP3/2N5/PPP2PPP/R2QKBNR w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Qd2",
+                                                    "fen": "rnb1kb1r/ppp2pp1/3ppq1p/8/3PP3/2N5/PPPQ1PPP/R3KBNR b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "g5",
+                                                        "fen": "rnb1kb1r/ppp2p2/3ppq1p/6p1/3PP3/2N5/PPPQ1PPP/R3KBNR w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "g5 advances a pawn, influencing the structure in the Trompowsky Attack.",
+                                                          "strategicTheme": "Pawn structure",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Qd2 activates the queen, increasing pressure in the Trompowsky Attack.",
+                                                      "strategicTheme": "Queen activity",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "d6 advances a pawn, influencing the structure in the Trompowsky Attack.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "Bb4",
+                                                "fen": "rnb1k2r/pppp1pp1/4pq1p/8/1b1PP3/2N5/PPP2PPP/R2QKBNR w KQkq - 2 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Bb4 pins or eyes the knight, creating positional tension in the Trompowsky Attack.",
+                                                  "strategicTheme": "Bishop development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Trompowsky Attack.",
+                                              "strategicTheme": "Natural piece development",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "c3",
+                                            "fen": "rnb1kb1r/pppp1pp1/4pq1p/8/3PP3/2P5/PP3PPP/RN1QKBNR b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "c3 advances a pawn, influencing the structure in the Trompowsky Attack.",
+                                              "strategicTheme": "Prophylactic pawn move",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Qxf6 exchanges material, altering the pawn structure in the Trompowsky Attack.",
+                                          "strategicTheme": "Material exchange",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Bxf6 exchanges material, altering the pawn structure in the Trompowsky Attack.",
+                                      "strategicTheme": "Material exchange",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "h6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Trompowsky Attack.",
+                                  "strategicTheme": "Prophylactic pawn move",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": true,
                             "annotation": {
                               "moveRationale": "e4 impacts the center, shaping the pawn structure in the Trompowsky Attack.",
@@ -561,7 +809,113 @@
                           {
                             "move": "e4",
                             "fen": "rnbqkb1r/pppp1ppp/4pn2/6B1/3PP3/8/PPP2PPP/RN1QKBNR b KQkq - 0 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "h6",
+                                "fen": "rnbqkb1r/pppp1pp1/4pn1p/6B1/3PP3/8/PPP2PPP/RN1QKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Bxf6",
+                                    "fen": "rnbqkb1r/pppp1pp1/4pB1p/8/3PP3/8/PPP2PPP/RN1QKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Qxf6",
+                                        "fen": "rnb1kb1r/pppp1pp1/4pq1p/8/3PP3/8/PPP2PPP/RN1QKBNR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "Nc3",
+                                            "fen": "rnb1kb1r/pppp1pp1/4pq1p/8/3PP3/2N5/PPP2PPP/R2QKBNR b KQkq - 1 5",
+                                            "children": [
+                                              {
+                                                "move": "d6",
+                                                "fen": "rnb1kb1r/ppp2pp1/3ppq1p/8/3PP3/2N5/PPP2PPP/R2QKBNR w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Qd2",
+                                                    "fen": "rnb1kb1r/ppp2pp1/3ppq1p/8/3PP3/2N5/PPPQ1PPP/R3KBNR b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "g5",
+                                                        "fen": "rnb1kb1r/ppp2p2/3ppq1p/6p1/3PP3/2N5/PPPQ1PPP/R3KBNR w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "g5 advances a pawn, influencing the structure in the Trompowsky Attack.",
+                                                          "strategicTheme": "Pawn structure",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Qd2 activates the queen, increasing pressure in the Trompowsky Attack.",
+                                                      "strategicTheme": "Queen activity",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "d6 advances a pawn, influencing the structure in the Trompowsky Attack.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "Bb4",
+                                                "fen": "rnb1k2r/pppp1pp1/4pq1p/8/1b1PP3/2N5/PPP2PPP/R2QKBNR w KQkq - 2 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Bb4 pins or eyes the knight, creating positional tension in the Trompowsky Attack.",
+                                                  "strategicTheme": "Bishop development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Trompowsky Attack.",
+                                              "strategicTheme": "Natural piece development",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "c3",
+                                            "fen": "rnb1kb1r/pppp1pp1/4pq1p/8/3PP3/2P5/PP3PPP/RN1QKBNR b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "c3 advances a pawn, influencing the structure in the Trompowsky Attack.",
+                                              "strategicTheme": "Prophylactic pawn move",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Qxf6 exchanges material, altering the pawn structure in the Trompowsky Attack.",
+                                          "strategicTheme": "Material exchange",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Bxf6 exchanges material, altering the pawn structure in the Trompowsky Attack.",
+                                      "strategicTheme": "Material exchange",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "h6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Trompowsky Attack.",
+                                  "strategicTheme": "Prophylactic pawn move",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": true,
                             "annotation": {
                               "moveRationale": "e4 impacts the center, shaping the pawn structure in the Trompowsky Attack.",
@@ -1188,7 +1542,43 @@
                                   {
                                     "move": "Nc3",
                                     "fen": "rnb1kb1r/pp1ppppp/1q3n2/2pP2B1/8/2N5/PPP1PPPP/R2QKBNR b KQkq - 2 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "Qxb2",
+                                        "fen": "rnb1kb1r/pp1ppppp/5n2/2pP2B1/8/2N5/PqP1PPPP/R2QKBNR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "Bd2",
+                                            "fen": "rnb1kb1r/pp1ppppp/5n2/2pP4/8/2N5/PqPBPPPP/R2QKBNR b KQkq - 1 5",
+                                            "children": [
+                                              {
+                                                "move": "Qb6",
+                                                "fen": "rnb1kb1r/pp1ppppp/1q3n2/2pP4/8/2N5/P1PBPPPP/R2QKBNR w KQkq - 2 6",
+                                                "children": [],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Qb6 activates the queen, increasing pressure in the Trompowsky Attack.",
+                                                  "strategicTheme": "Queen activity",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Bd2 develops a piece to an active square in the Trompowsky Attack.",
+                                              "strategicTheme": "Bishop development",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Qxb2 exchanges material, altering the pawn structure in the Trompowsky Attack.",
+                                          "strategicTheme": "Material exchange",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": true,
                                     "annotation": {
                                       "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Trompowsky Attack.",

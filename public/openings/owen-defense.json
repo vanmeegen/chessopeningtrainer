@@ -95,7 +95,31 @@
                                               {
                                                 "move": "g6",
                                                 "fen": "rn1qkbnr/p1ppp2p/1p4p1/5P1Q/3P4/3B4/PPP2PbP/RNB1K1NR w KQkq - 0 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "fxg6",
+                                                    "fen": "rn1qkbnr/p1ppp2p/1p4P1/7Q/3P4/3B4/PPP2PbP/RNB1K1NR b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Nf6",
+                                                        "fen": "rn1qkb1r/p1ppp2p/1p3nP1/7Q/3P4/3B4/PPP2PbP/RNB1K1NR w KQkq - 1 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Owen Defense.",
+                                                          "strategicTheme": "Natural piece development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "fxg6 exchanges material, altering the pawn structure in the Owen Defense.",
+                                                      "strategicTheme": "Material exchange",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": true,
                                                 "annotation": {
                                                   "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Owen Defense.",
@@ -413,7 +437,31 @@
                                               {
                                                 "move": "g6",
                                                 "fen": "rn1qkbnr/p1ppp2p/1p4p1/5P1Q/3P4/3B4/PPP2PbP/RNB1K1NR w KQkq - 0 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "fxg6",
+                                                    "fen": "rn1qkbnr/p1ppp2p/1p4P1/7Q/3P4/3B4/PPP2PbP/RNB1K1NR b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Nf6",
+                                                        "fen": "rn1qkb1r/p1ppp2p/1p3nP1/7Q/3P4/3B4/PPP2PbP/RNB1K1NR w KQkq - 1 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Owen Defense.",
+                                                          "strategicTheme": "Natural piece development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "fxg6 exchanges material, altering the pawn structure in the Owen Defense.",
+                                                      "strategicTheme": "Material exchange",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": true,
                                                 "annotation": {
                                                   "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Owen Defense.",

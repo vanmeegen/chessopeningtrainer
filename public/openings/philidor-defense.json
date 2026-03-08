@@ -383,7 +383,43 @@
                                           {
                                             "move": "Ng5",
                                             "fen": "r1bqkbnr/pp1n1ppp/2pp4/4p1N1/2BPP3/8/PPP2PPP/RNBQK2R b KQkq - 1 5",
-                                            "children": [],
+                                            "children": [
+                                              {
+                                                "move": "Nh6",
+                                                "fen": "r1bqkb1r/pp1n1ppp/2pp3n/4p1N1/2BPP3/8/PPP2PPP/RNBQK2R w KQkq - 2 6",
+                                                "children": [
+                                                  {
+                                                    "move": "f4",
+                                                    "fen": "r1bqkb1r/pp1n1ppp/2pp3n/4p1N1/2BPPP2/8/PPP3PP/RNBQK2R b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Be7",
+                                                        "fen": "r1bqk2r/pp1nbppp/2pp3n/4p1N1/2BPPP2/8/PPP3PP/RNBQK2R w KQkq - 1 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Philidor Defense.",
+                                                          "strategicTheme": "Bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "f4 advances a pawn, influencing the structure in the Philidor Defense.",
+                                                      "strategicTheme": "Aggressive kingside expansion",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Nh6 develops a piece to an active square in the Philidor Defense.",
+                                                  "strategicTheme": "Knight activity",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": false,
                                             "annotation": {
                                               "moveRationale": "Ng5 develops a piece to an active square in the Philidor Defense.",
@@ -713,7 +749,31 @@
                                   {
                                     "move": "Ng5",
                                     "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p1N1/3PP3/8/PPP2PPP/RNBQKB1R b KQkq - 2 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "h6",
+                                        "fen": "rnbqkb1r/ppp2pp1/3p1n1p/4p1N1/3PP3/8/PPP2PPP/RNBQKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "Nxf7",
+                                            "fen": "rnbqkb1r/ppp2Np1/3p1n1p/4p3/3PP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Nxf7 exchanges material, altering the pawn structure in the Philidor Defense.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "h6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Philidor Defense.",
+                                          "strategicTheme": "Prophylactic pawn move",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": false,
                                     "annotation": {
                                       "moveRationale": "Ng5 develops a piece to an active square in the Philidor Defense.",
@@ -1376,7 +1436,43 @@
                                           {
                                             "move": "Ng5",
                                             "fen": "r1bqkbnr/pp1n1ppp/2pp4/4p1N1/2BPP3/8/PPP2PPP/RNBQK2R b KQkq - 1 5",
-                                            "children": [],
+                                            "children": [
+                                              {
+                                                "move": "Nh6",
+                                                "fen": "r1bqkb1r/pp1n1ppp/2pp3n/4p1N1/2BPP3/8/PPP2PPP/RNBQK2R w KQkq - 2 6",
+                                                "children": [
+                                                  {
+                                                    "move": "f4",
+                                                    "fen": "r1bqkb1r/pp1n1ppp/2pp3n/4p1N1/2BPPP2/8/PPP3PP/RNBQK2R b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Be7",
+                                                        "fen": "r1bqk2r/pp1nbppp/2pp3n/4p1N1/2BPPP2/8/PPP3PP/RNBQK2R w KQkq - 1 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Philidor Defense.",
+                                                          "strategicTheme": "Bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "f4 advances a pawn, influencing the structure in the Philidor Defense.",
+                                                      "strategicTheme": "Aggressive kingside expansion",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Nh6 develops a piece to an active square in the Philidor Defense.",
+                                                  "strategicTheme": "Knight activity",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": false,
                                             "annotation": {
                                               "moveRationale": "Ng5 develops a piece to an active square in the Philidor Defense.",
@@ -1706,7 +1802,31 @@
                                   {
                                     "move": "Ng5",
                                     "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p1N1/3PP3/8/PPP2PPP/RNBQKB1R b KQkq - 2 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "h6",
+                                        "fen": "rnbqkb1r/ppp2pp1/3p1n1p/4p1N1/3PP3/8/PPP2PPP/RNBQKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "Nxf7",
+                                            "fen": "rnbqkb1r/ppp2Np1/3p1n1p/4p3/3PP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Nxf7 exchanges material, altering the pawn structure in the Philidor Defense.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "h6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Philidor Defense.",
+                                          "strategicTheme": "Prophylactic pawn move",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": false,
                                     "annotation": {
                                       "moveRationale": "Ng5 develops a piece to an active square in the Philidor Defense.",
@@ -3584,7 +3704,7 @@
                                                     "move": "dxe5",
                                                     "fen": "r1bqk1nr/pp1nbppp/2pp4/4P3/2B1P3/5N2/PPP2PPP/RNBQ1RK1 b kq - 0 6",
                                                     "children": [],
-                                                    "isMainLine": true,
+                                                    "isMainLine": false,
                                                     "annotation": {
                                                       "moveRationale": "dxe5 exchanges material, altering the pawn structure in the Philidor Defense.",
                                                       "strategicTheme": "Material exchange",
@@ -3592,7 +3712,7 @@
                                                     }
                                                   }
                                                 ],
-                                                "isMainLine": true,
+                                                "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Philidor Defense.",
                                                   "strategicTheme": "Bishop development",
@@ -3600,7 +3720,7 @@
                                                 }
                                               }
                                             ],
-                                            "isMainLine": true,
+                                            "isMainLine": false,
                                             "annotation": {
                                               "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Philidor Defense.",
                                               "strategicTheme": "Early king safety",
@@ -3621,8 +3741,44 @@
                                           {
                                             "move": "Ng5",
                                             "fen": "r1bqkbnr/pp1n1ppp/2pp4/4p1N1/2BPP3/8/PPP2PPP/RNBQK2R b KQkq - 1 5",
-                                            "children": [],
-                                            "isMainLine": false,
+                                            "children": [
+                                              {
+                                                "move": "Nh6",
+                                                "fen": "r1bqkb1r/pp1n1ppp/2pp3n/4p1N1/2BPP3/8/PPP2PPP/RNBQK2R w KQkq - 2 6",
+                                                "children": [
+                                                  {
+                                                    "move": "f4",
+                                                    "fen": "r1bqkb1r/pp1n1ppp/2pp3n/4p1N1/2BPPP2/8/PPP3PP/RNBQK2R b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Be7",
+                                                        "fen": "r1bqk2r/pp1nbppp/2pp3n/4p1N1/2BPPP2/8/PPP3PP/RNBQK2R w KQkq - 1 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Philidor Defense.",
+                                                          "strategicTheme": "Bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "f4 advances a pawn, influencing the structure in the Philidor Defense.",
+                                                      "strategicTheme": "Aggressive kingside expansion",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Nh6 develops a piece to an active square in the Philidor Defense.",
+                                                  "strategicTheme": "Knight activity",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
                                             "annotation": {
                                               "moveRationale": "Ng5 develops a piece to an active square in the Philidor Defense.",
                                               "strategicTheme": "Knight activity",
@@ -4417,7 +4573,43 @@
                                           {
                                             "move": "Ng5",
                                             "fen": "r1bqkbnr/pp1n1ppp/2pp4/4p1N1/2BPP3/8/PPP2PPP/RNBQK2R b KQkq - 1 5",
-                                            "children": [],
+                                            "children": [
+                                              {
+                                                "move": "Nh6",
+                                                "fen": "r1bqkb1r/pp1n1ppp/2pp3n/4p1N1/2BPP3/8/PPP2PPP/RNBQK2R w KQkq - 2 6",
+                                                "children": [
+                                                  {
+                                                    "move": "f4",
+                                                    "fen": "r1bqkb1r/pp1n1ppp/2pp3n/4p1N1/2BPPP2/8/PPP3PP/RNBQK2R b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Be7",
+                                                        "fen": "r1bqk2r/pp1nbppp/2pp3n/4p1N1/2BPPP2/8/PPP3PP/RNBQK2R w KQkq - 1 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Philidor Defense.",
+                                                          "strategicTheme": "Bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "f4 advances a pawn, influencing the structure in the Philidor Defense.",
+                                                      "strategicTheme": "Aggressive kingside expansion",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Nh6 develops a piece to an active square in the Philidor Defense.",
+                                                  "strategicTheme": "Knight activity",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": true,
                                             "annotation": {
                                               "moveRationale": "Ng5 develops a piece to an active square in the Philidor Defense.",
@@ -6606,7 +6798,31 @@
                                   {
                                     "move": "Ng5",
                                     "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p1N1/3PP3/8/PPP2PPP/RNBQKB1R b KQkq - 2 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "h6",
+                                        "fen": "rnbqkb1r/ppp2pp1/3p1n1p/4p1N1/3PP3/8/PPP2PPP/RNBQKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "Nxf7",
+                                            "fen": "rnbqkb1r/ppp2Np1/3p1n1p/4p3/3PP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Nxf7 exchanges material, altering the pawn structure in the Philidor Defense.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "h6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Philidor Defense.",
+                                          "strategicTheme": "Prophylactic pawn move",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": false,
                                     "annotation": {
                                       "moveRationale": "Ng5 develops a piece to an active square in the Philidor Defense.",
@@ -7188,7 +7404,31 @@
                                                           {
                                                             "move": "Bxf7+",
                                                             "fen": "r1bq1rk1/pppnbBpp/3p1n2/4p1N1/3PP3/2N5/PPP2PPP/R1BQK2R b KQ - 0 7",
-                                                            "children": [],
+                                                            "children": [
+                                                              {
+                                                                "move": "Rxf7",
+                                                                "fen": "r1bq2k1/pppnbrpp/3p1n2/4p1N1/3PP3/2N5/PPP2PPP/R1BQK2R w KQ - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Ne6",
+                                                                    "fen": "r1bq2k1/pppnbrpp/3pNn2/4p3/3PP3/2N5/PPP2PPP/R1BQK2R b KQ - 1 8",
+                                                                    "children": [],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Ne6 develops a piece to an active square in the Philidor Defense.",
+                                                                      "strategicTheme": "Knight activity",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "Rxf7 exchanges material, altering the pawn structure in the Philidor Defense.",
+                                                                  "strategicTheme": "Material exchange",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
                                                             "isMainLine": true,
                                                             "annotation": {
                                                               "moveRationale": "Bxf7+ exchanges material, altering the pawn structure in the Philidor Defense.",
@@ -7331,7 +7571,31 @@
                                   {
                                     "move": "Ng5",
                                     "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p1N1/3PP3/8/PPP2PPP/RNBQKB1R b KQkq - 2 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "h6",
+                                        "fen": "rnbqkb1r/ppp2pp1/3p1n1p/4p1N1/3PP3/8/PPP2PPP/RNBQKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "Nxf7",
+                                            "fen": "rnbqkb1r/ppp2Np1/3p1n1p/4p3/3PP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Nxf7 exchanges material, altering the pawn structure in the Philidor Defense.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "h6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Philidor Defense.",
+                                          "strategicTheme": "Prophylactic pawn move",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": true,
                                     "annotation": {
                                       "moveRationale": "Ng5 develops a piece to an active square in the Philidor Defense.",

@@ -1048,9 +1048,9 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Pterodactyl Defense.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White has established his center and Black is planning to destroy it from a distance. He may play an immediate /2.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -1262,9 +1262,9 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Pterodactyl Defense.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White has established his center and Black is planning to destroy it from a distance. He may play an immediate /2.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -1393,9 +1393,9 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Pterodactyl Defense.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White has established his center and Black is planning to destroy it from a distance. He may play an immediate /2.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -1524,9 +1524,9 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Pterodactyl Defense.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White has established his center and Black is planning to destroy it from a distance. He may play an immediate /2.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -1655,9 +1655,9 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Pterodactyl Defense.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White has established his center and Black is planning to destroy it from a distance. He may play an immediate /2.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -1750,9 +1750,9 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Pterodactyl Defense.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White has established his center and Black is planning to destroy it from a distance. He may play an immediate /2.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -1810,7 +1810,54 @@
                                   {
                                     "move": "d5",
                                     "fen": "rnbqk1nr/pp1pppbp/6p1/2pP4/4P3/2N5/PPP2PPP/R1BQKBNR b KQkq - 0 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "Bxc3+",
+                                        "fen": "rnbqk1nr/pp1ppp1p/6p1/2pP4/4P3/2b5/PPP2PPP/R1BQKBNR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "bxc3",
+                                            "fen": "rnbqk1nr/pp1ppp1p/6p1/2pP4/4P3/2P5/P1P2PPP/R1BQKBNR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Qa5",
+                                                "fen": "rnb1k1nr/pp1ppp1p/6p1/q1pP4/4P3/2P5/P1P2PPP/R1BQKBNR w KQkq - 1 6",
+                                                "children": [],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Qa5 activates the queen, increasing pressure in the Pterodactyl Defense.",
+                                                  "strategicTheme": "Queen activity",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "bxc3 exchanges material, altering the pawn structure in the Pterodactyl Defense.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Bxc3+ exchanges material, altering the pawn structure in the Pterodactyl Defense.",
+                                          "strategicTheme": "Material exchange",
+                                          "source": "generated"
+                                        }
+                                      },
+                                      {
+                                        "move": "Qa5",
+                                        "fen": "rnb1k1nr/pp1pppbp/6p1/q1pP4/4P3/2N5/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Qa5 activates the queen, increasing pressure in the Pterodactyl Defense.",
+                                          "strategicTheme": "Queen activity",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": true,
                                     "annotation": {
                                       "moveRationale": "d5 advances a pawn, influencing the structure in the Pterodactyl Defense.",
@@ -1976,9 +2023,9 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Pterodactyl Defense.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White has established his center and Black is planning to destroy it from a distance. He may play an immediate /2.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -2155,7 +2202,19 @@
                                               {
                                                 "move": "Qa5",
                                                 "fen": "rnb1k1nr/pp1ppp1p/6p1/q1P5/4P3/2P5/P1P2PPP/R1BQKBNR w KQkq - 1 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "Nf3",
+                                                    "fen": "rnb1k1nr/pp1ppp1p/6p1/q1P5/4P3/2P2N2/P1P2PPP/R1BQKB1R b KQkq - 2 6",
+                                                    "children": [],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Nf3 develops a piece to an active square in the Pterodactyl Defense.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": true,
                                                 "annotation": {
                                                   "moveRationale": "Qa5 activates the queen, increasing pressure in the Pterodactyl Defense.",
@@ -2214,9 +2273,9 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Pterodactyl Defense.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White has established his center and Black is planning to destroy it from a distance. He may play an immediate /2.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -2321,9 +2380,9 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Pterodactyl Defense.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White has established his center and Black is planning to destroy it from a distance. He may play an immediate /2.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -2393,7 +2452,19 @@
                                               {
                                                 "move": "Qa5",
                                                 "fen": "rnb1k1nr/pp1ppp1p/6p1/q1P5/4P3/2P5/P1P2PPP/R1BQKBNR w KQkq - 1 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "Nf3",
+                                                    "fen": "rnb1k1nr/pp1ppp1p/6p1/q1P5/4P3/2P2N2/P1P2PPP/R1BQKB1R b KQkq - 2 6",
+                                                    "children": [],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Nf3 develops a piece to an active square in the Pterodactyl Defense.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": true,
                                                 "annotation": {
                                                   "moveRationale": "Qa5 activates the queen, increasing pressure in the Pterodactyl Defense.",
@@ -2463,9 +2534,9 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Pterodactyl Defense.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White has established his center and Black is planning to destroy it from a distance. He may play an immediate /2.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -2570,9 +2641,9 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Pterodactyl Defense.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White has established his center and Black is planning to destroy it from a distance. He may play an immediate /2.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -2677,9 +2748,9 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Pterodactyl Defense.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White has established his center and Black is planning to destroy it from a distance. He may play an immediate /2.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -2808,9 +2879,9 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Pterodactyl Defense.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White has established his center and Black is planning to destroy it from a distance. He may play an immediate /2.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -2927,9 +2998,9 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Pterodactyl Defense.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White has established his center and Black is planning to destroy it from a distance. He may play an immediate /2.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -3034,9 +3105,9 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Pterodactyl Defense.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White has established his center and Black is planning to destroy it from a distance. He may play an immediate /2.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],

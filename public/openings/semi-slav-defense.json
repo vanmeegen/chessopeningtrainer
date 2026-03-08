@@ -3224,7 +3224,30 @@
                                                   {
                                                     "move": "Bh4",
                                                     "fen": "rnbqkb1r/pp3pp1/2p1pn1p/3p4/2PP3B/2N2N2/PP2PPPP/R2QKB1R b KQkq - 1 6",
-                                                    "children": [],
+                                                    "children": [
+                                                      {
+                                                        "move": "dxc4",
+                                                        "fen": "rnbqkb1r/pp3pp1/2p1pn1p/8/2pP3B/2N2N2/PP2PPPP/R2QKB1R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "dxc4 impacts the center, shaping the pawn structure in the Semi-Slav Defense.",
+                                                          "strategicTheme": "Central tension",
+                                                          "source": "generated"
+                                                        }
+                                                      },
+                                                      {
+                                                        "move": "Be7",
+                                                        "fen": "rnbqk2r/pp2bpp1/2p1pn1p/3p4/2PP3B/2N2N2/PP2PPPP/R2QKB1R w KQkq - 2 7",
+                                                        "children": [],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Semi-Slav Defense.",
+                                                          "strategicTheme": "Bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
                                                     "isMainLine": false,
                                                     "annotation": {
                                                       "moveRationale": "Bh4 develops a piece to an active square in the Semi-Slav Defense.",
@@ -3957,7 +3980,30 @@
                                                   {
                                                     "move": "Bh4",
                                                     "fen": "rnbqkb1r/pp3pp1/2p1pn1p/3p4/2PP3B/2N2N2/PP2PPPP/R2QKB1R b KQkq - 1 6",
-                                                    "children": [],
+                                                    "children": [
+                                                      {
+                                                        "move": "dxc4",
+                                                        "fen": "rnbqkb1r/pp3pp1/2p1pn1p/8/2pP3B/2N2N2/PP2PPPP/R2QKB1R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "dxc4 impacts the center, shaping the pawn structure in the Semi-Slav Defense.",
+                                                          "strategicTheme": "Central tension",
+                                                          "source": "generated"
+                                                        }
+                                                      },
+                                                      {
+                                                        "move": "Be7",
+                                                        "fen": "rnbqk2r/pp2bpp1/2p1pn1p/3p4/2PP3B/2N2N2/PP2PPPP/R2QKB1R w KQkq - 2 7",
+                                                        "children": [],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Semi-Slav Defense.",
+                                                          "strategicTheme": "Bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
                                                     "isMainLine": true,
                                                     "annotation": {
                                                       "moveRationale": "Bh4 develops a piece to an active square in the Semi-Slav Defense.",
@@ -4422,7 +4468,55 @@
                                                                           {
                                                                             "move": "Nxg5",
                                                                             "fen": "rnbqkb1r/p4p2/2p1pn1p/1p2P1N1/2pP3B/2N5/PP3PPP/R2QKB1R b KQkq - 0 9",
-                                                                            "children": [],
+                                                                            "children": [
+                                                                              {
+                                                                                "move": "hxg5",
+                                                                                "fen": "rnbqkb1r/p4p2/2p1pn2/1p2P1p1/2pP3B/2N5/PP3PPP/R2QKB1R w KQkq - 0 10",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "move": "Bxg5",
+                                                                                    "fen": "rnbqkb1r/p4p2/2p1pn2/1p2P1B1/2pP4/2N5/PP3PPP/R2QKB1R b KQkq - 0 10",
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "move": "Nbd7",
+                                                                                        "fen": "r1bqkb1r/p2n1p2/2p1pn2/1p2P1B1/2pP4/2N5/PP3PPP/R2QKB1R w KQkq - 1 11",
+                                                                                        "children": [
+                                                                                          {
+                                                                                            "move": "g3",
+                                                                                            "fen": "r1bqkb1r/p2n1p2/2p1pn2/1p2P1B1/2pP4/2N3P1/PP3P1P/R2QKB1R b KQkq - 0 11",
+                                                                                            "children": [],
+                                                                                            "isMainLine": true,
+                                                                                            "annotation": {
+                                                                                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Semi-Slav Defense.",
+                                                                                              "strategicTheme": "Fianchetto preparation",
+                                                                                              "source": "generated"
+                                                                                            }
+                                                                                          }
+                                                                                        ],
+                                                                                        "isMainLine": true,
+                                                                                        "annotation": {
+                                                                                          "moveRationale": "Nbd7 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                                          "strategicTheme": "Knight activity",
+                                                                                          "source": "generated"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "isMainLine": true,
+                                                                                    "annotation": {
+                                                                                      "moveRationale": "Bxg5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                      "strategicTheme": "Material exchange",
+                                                                                      "source": "generated"
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "isMainLine": true,
+                                                                                "annotation": {
+                                                                                  "moveRationale": "hxg5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                  "strategicTheme": "Material exchange",
+                                                                                  "source": "generated"
+                                                                                }
+                                                                              }
+                                                                            ],
                                                                             "isMainLine": true,
                                                                             "annotation": {
                                                                               "moveRationale": "Nxg5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
@@ -7492,9 +7586,9 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Semi-Slav Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
@@ -8235,7 +8329,79 @@
                                                           {
                                                             "move": "b3",
                                                             "fen": "r1bqkb1r/p2n1ppp/1pp1pn2/3p4/2PP4/1PN1PN2/P1Q2PPP/R1B1KB1R b KQkq - 0 7",
-                                                            "children": [],
+                                                            "children": [
+                                                              {
+                                                                "move": "Bb7",
+                                                                "fen": "r2qkb1r/pb1n1ppp/1pp1pn2/3p4/2PP4/1PN1PN2/P1Q2PPP/R1B1KB1R w KQkq - 1 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Bd3",
+                                                                    "fen": "r2qkb1r/pb1n1ppp/1pp1pn2/3p4/2PP4/1PNBPN2/P1Q2PPP/R1B1K2R b KQkq - 2 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "Be7",
+                                                                        "fen": "r2qk2r/pb1nbppp/1pp1pn2/3p4/2PP4/1PNBPN2/P1Q2PPP/R1B1K2R w KQkq - 3 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "O-O",
+                                                                            "fen": "r2qk2r/pb1nbppp/1pp1pn2/3p4/2PP4/1PNBPN2/P1Q2PPP/R1B2RK1 b kq - 4 9",
+                                                                            "children": [
+                                                                              {
+                                                                                "move": "O-O",
+                                                                                "fen": "r2q1rk1/pb1nbppp/1pp1pn2/3p4/2PP4/1PNBPN2/P1Q2PPP/R1B2RK1 w - - 5 10",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "move": "Bb2",
+                                                                                    "fen": "r2q1rk1/pb1nbppp/1pp1pn2/3p4/2PP4/1PNBPN2/PBQ2PPP/R4RK1 b - - 6 10",
+                                                                                    "children": [],
+                                                                                    "isMainLine": true,
+                                                                                    "annotation": {
+                                                                                      "moveRationale": "Bb2 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                                      "strategicTheme": "Bishop development",
+                                                                                      "source": "generated"
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "isMainLine": true,
+                                                                                "annotation": {
+                                                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Semi-Slav Defense.",
+                                                                                  "strategicTheme": "King safety",
+                                                                                  "source": "generated"
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "isMainLine": true,
+                                                                            "annotation": {
+                                                                              "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Semi-Slav Defense.",
+                                                                              "strategicTheme": "King safety",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": true,
+                                                                        "annotation": {
+                                                                          "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Semi-Slav Defense.",
+                                                                          "strategicTheme": "Bishop development",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Bd3 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                      "strategicTheme": "Bishop development",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "Bb7 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                  "strategicTheme": "Bishop development",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
                                                             "isMainLine": true,
                                                             "annotation": {
                                                               "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Semi-Slav Defense.",
@@ -8406,7 +8572,67 @@
                                                               {
                                                                 "move": "Bb7",
                                                                 "fen": "r2qkb1r/pb1n1ppp/1pp1pn2/3p4/2PP4/1PN1PN2/P1Q2PPP/R1B1KB1R w KQkq - 1 8",
-                                                                "children": [],
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Bd3",
+                                                                    "fen": "r2qkb1r/pb1n1ppp/1pp1pn2/3p4/2PP4/1PNBPN2/P1Q2PPP/R1B1K2R b KQkq - 2 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "Be7",
+                                                                        "fen": "r2qk2r/pb1nbppp/1pp1pn2/3p4/2PP4/1PNBPN2/P1Q2PPP/R1B1K2R w KQkq - 3 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "O-O",
+                                                                            "fen": "r2qk2r/pb1nbppp/1pp1pn2/3p4/2PP4/1PNBPN2/P1Q2PPP/R1B2RK1 b kq - 4 9",
+                                                                            "children": [
+                                                                              {
+                                                                                "move": "O-O",
+                                                                                "fen": "r2q1rk1/pb1nbppp/1pp1pn2/3p4/2PP4/1PNBPN2/P1Q2PPP/R1B2RK1 w - - 5 10",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "move": "Bb2",
+                                                                                    "fen": "r2q1rk1/pb1nbppp/1pp1pn2/3p4/2PP4/1PNBPN2/PBQ2PPP/R4RK1 b - - 6 10",
+                                                                                    "children": [],
+                                                                                    "isMainLine": true,
+                                                                                    "annotation": {
+                                                                                      "moveRationale": "Bb2 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                                      "strategicTheme": "Bishop development",
+                                                                                      "source": "generated"
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "isMainLine": true,
+                                                                                "annotation": {
+                                                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Semi-Slav Defense.",
+                                                                                  "strategicTheme": "King safety",
+                                                                                  "source": "generated"
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "isMainLine": true,
+                                                                            "annotation": {
+                                                                              "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Semi-Slav Defense.",
+                                                                              "strategicTheme": "King safety",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": true,
+                                                                        "annotation": {
+                                                                          "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Semi-Slav Defense.",
+                                                                          "strategicTheme": "Bishop development",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Bd3 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                      "strategicTheme": "Bishop development",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
                                                                 "isMainLine": true,
                                                                 "annotation": {
                                                                   "moveRationale": "Bb7 develops a piece to an active square in the Semi-Slav Defense.",
@@ -8581,7 +8807,31 @@
                                                           {
                                                             "move": "b3",
                                                             "fen": "r1bqk2r/pp1n1ppp/2pbpn2/3p4/2PP4/1PN1PN2/P1Q2PPP/R1B1KB1R b KQkq - 0 7",
-                                                            "children": [],
+                                                            "children": [
+                                                              {
+                                                                "move": "O-O",
+                                                                "fen": "r1bq1rk1/pp1n1ppp/2pbpn2/3p4/2PP4/1PN1PN2/P1Q2PPP/R1B1KB1R w KQ - 1 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Bb2",
+                                                                    "fen": "r1bq1rk1/pp1n1ppp/2pbpn2/3p4/2PP4/1PN1PN2/PBQ2PPP/R3KB1R b KQ - 2 8",
+                                                                    "children": [],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Bb2 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                      "strategicTheme": "Bishop development",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Semi-Slav Defense.",
+                                                                  "strategicTheme": "King safety",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
                                                             "isMainLine": true,
                                                             "annotation": {
                                                               "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Semi-Slav Defense.",
@@ -8939,7 +9189,79 @@
                                                           {
                                                             "move": "e4",
                                                             "fen": "r1bqk2r/pp1n1ppp/2pbpn2/3p4/2PPP3/2N2N2/PPQ2PPP/R1B1KB1R b KQkq - 0 7",
-                                                            "children": [],
+                                                            "children": [
+                                                              {
+                                                                "move": "dxe4",
+                                                                "fen": "r1bqk2r/pp1n1ppp/2pbpn2/8/2PPp3/2N2N2/PPQ2PPP/R1B1KB1R w KQkq - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Nxe4",
+                                                                    "fen": "r1bqk2r/pp1n1ppp/2pbpn2/8/2PPN3/5N2/PPQ2PPP/R1B1KB1R b KQkq - 0 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "Nxe4",
+                                                                        "fen": "r1bqk2r/pp1n1ppp/2pbp3/8/2PPn3/5N2/PPQ2PPP/R1B1KB1R w KQkq - 0 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "Qxe4",
+                                                                            "fen": "r1bqk2r/pp1n1ppp/2pbp3/8/2PPQ3/5N2/PP3PPP/R1B1KB1R b KQkq - 0 9",
+                                                                            "children": [
+                                                                              {
+                                                                                "move": "e5",
+                                                                                "fen": "r1bqk2r/pp1n1ppp/2pb4/4p3/2PPQ3/5N2/PP3PPP/R1B1KB1R w KQkq - 0 10",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "move": "dxe5",
+                                                                                    "fen": "r1bqk2r/pp1n1ppp/2pb4/4P3/2P1Q3/5N2/PP3PPP/R1B1KB1R b KQkq - 0 10",
+                                                                                    "children": [],
+                                                                                    "isMainLine": true,
+                                                                                    "annotation": {
+                                                                                      "moveRationale": "dxe5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                      "strategicTheme": "Material exchange",
+                                                                                      "source": "generated"
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "isMainLine": true,
+                                                                                "annotation": {
+                                                                                  "moveRationale": "e5 advances a pawn, influencing the structure in the Semi-Slav Defense.",
+                                                                                  "strategicTheme": "Pawn structure",
+                                                                                  "source": "generated"
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "isMainLine": true,
+                                                                            "annotation": {
+                                                                              "moveRationale": "Qxe4 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                              "strategicTheme": "Material exchange",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": true,
+                                                                        "annotation": {
+                                                                          "moveRationale": "Nxe4 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                          "strategicTheme": "Material exchange",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Nxe4 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                      "strategicTheme": "Material exchange",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Semi-Slav Defense.",
+                                                                  "strategicTheme": "Central tension",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
                                                             "isMainLine": true,
                                                             "annotation": {
                                                               "moveRationale": "e4 impacts the center, shaping the pawn structure in the Semi-Slav Defense.",
@@ -9818,7 +10140,19 @@
                                                       {
                                                         "move": "Bd6",
                                                         "fen": "r1bqk2r/pp1n1ppp/2pbpn2/3p4/2PP4/2NBPN2/PP3PPP/R1BQK2R w KQkq - 4 7",
-                                                        "children": [],
+                                                        "children": [
+                                                          {
+                                                            "move": "Qc2",
+                                                            "fen": "r1bqk2r/pp1n1ppp/2pbpn2/3p4/2PP4/2NBPN2/PPQ2PPP/R1B1K2R b KQkq - 5 7",
+                                                            "children": [],
+                                                            "isMainLine": true,
+                                                            "annotation": {
+                                                              "moveRationale": "Qc2 activates the queen, increasing pressure in the Semi-Slav Defense.",
+                                                              "strategicTheme": "Queen activity",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
                                                         "isMainLine": true,
                                                         "annotation": {
                                                           "moveRationale": "Bd6 develops a piece to an active square in the Semi-Slav Defense.",
@@ -10343,7 +10677,55 @@
                                                                   {
                                                                     "move": "Bd3",
                                                                     "fen": "r2qkb1r/pb1n1ppp/1pp1pn2/3p4/2PP4/1PNBPN2/P1Q2PPP/R1B1K2R b KQkq - 2 8",
-                                                                    "children": [],
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "Be7",
+                                                                        "fen": "r2qk2r/pb1nbppp/1pp1pn2/3p4/2PP4/1PNBPN2/P1Q2PPP/R1B1K2R w KQkq - 3 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "O-O",
+                                                                            "fen": "r2qk2r/pb1nbppp/1pp1pn2/3p4/2PP4/1PNBPN2/P1Q2PPP/R1B2RK1 b kq - 4 9",
+                                                                            "children": [
+                                                                              {
+                                                                                "move": "O-O",
+                                                                                "fen": "r2q1rk1/pb1nbppp/1pp1pn2/3p4/2PP4/1PNBPN2/P1Q2PPP/R1B2RK1 w - - 5 10",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "move": "Bb2",
+                                                                                    "fen": "r2q1rk1/pb1nbppp/1pp1pn2/3p4/2PP4/1PNBPN2/PBQ2PPP/R4RK1 b - - 6 10",
+                                                                                    "children": [],
+                                                                                    "isMainLine": true,
+                                                                                    "annotation": {
+                                                                                      "moveRationale": "Bb2 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                                      "strategicTheme": "Bishop development",
+                                                                                      "source": "generated"
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "isMainLine": true,
+                                                                                "annotation": {
+                                                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Semi-Slav Defense.",
+                                                                                  "strategicTheme": "King safety",
+                                                                                  "source": "generated"
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "isMainLine": true,
+                                                                            "annotation": {
+                                                                              "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Semi-Slav Defense.",
+                                                                              "strategicTheme": "King safety",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": true,
+                                                                        "annotation": {
+                                                                          "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Semi-Slav Defense.",
+                                                                          "strategicTheme": "Bishop development",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
                                                                     "isMainLine": true,
                                                                     "annotation": {
                                                                       "moveRationale": "Bd3 develops a piece to an active square in the Semi-Slav Defense.",
@@ -12413,7 +12795,340 @@
                                                               {
                                                                 "move": "b5",
                                                                 "fen": "r1bqkb1r/p2n1ppp/2p1pn2/1p6/2BP4/2N1PN2/PP3PPP/R1BQK2R w KQkq - 0 8",
-                                                                "children": [],
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Bd3",
+                                                                    "fen": "r1bqkb1r/p2n1ppp/2p1pn2/1p6/3P4/2NBPN2/PP3PPP/R1BQK2R b KQkq - 1 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "Bd6",
+                                                                        "fen": "r1bqk2r/p2n1ppp/2pbpn2/1p6/3P4/2NBPN2/PP3PPP/R1BQK2R w KQkq - 2 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "O-O",
+                                                                            "fen": "r1bqk2r/p2n1ppp/2pbpn2/1p6/3P4/2NBPN2/PP3PPP/R1BQ1RK1 b kq - 3 9",
+                                                                            "children": [
+                                                                              {
+                                                                                "move": "Bb7",
+                                                                                "fen": "r2qk2r/pb1n1ppp/2pbpn2/1p6/3P4/2NBPN2/PP3PPP/R1BQ1RK1 w kq - 4 10",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "move": "a3",
+                                                                                    "fen": "r2qk2r/pb1n1ppp/2pbpn2/1p6/3P4/P1NBPN2/1P3PPP/R1BQ1RK1 b kq - 0 10",
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "move": "O-O",
+                                                                                        "fen": "r2q1rk1/pb1n1ppp/2pbpn2/1p6/3P4/P1NBPN2/1P3PPP/R1BQ1RK1 w - - 1 11",
+                                                                                        "children": [
+                                                                                          {
+                                                                                            "move": "Qc2",
+                                                                                            "fen": "r2q1rk1/pb1n1ppp/2pbpn2/1p6/3P4/P1NBPN2/1PQ2PPP/R1B2RK1 b - - 2 11",
+                                                                                            "children": [],
+                                                                                            "isMainLine": false,
+                                                                                            "annotation": {
+                                                                                              "moveRationale": "Qc2 activates the queen, increasing pressure in the Semi-Slav Defense.",
+                                                                                              "strategicTheme": "Queen activity",
+                                                                                              "source": "generated"
+                                                                                            }
+                                                                                          }
+                                                                                        ],
+                                                                                        "isMainLine": false,
+                                                                                        "annotation": {
+                                                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Semi-Slav Defense.",
+                                                                                          "strategicTheme": "King safety",
+                                                                                          "source": "generated"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "isMainLine": false,
+                                                                                    "annotation": {
+                                                                                      "moveRationale": "a3 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Semi-Slav Defense.",
+                                                                                      "strategicTheme": "Prophylactic pawn move",
+                                                                                      "source": "generated"
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "isMainLine": false,
+                                                                                "annotation": {
+                                                                                  "moveRationale": "Bb7 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                                  "strategicTheme": "Bishop development",
+                                                                                  "source": "generated"
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "isMainLine": false,
+                                                                            "annotation": {
+                                                                              "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Semi-Slav Defense.",
+                                                                              "strategicTheme": "King safety",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": false,
+                                                                        "annotation": {
+                                                                          "moveRationale": "Bd6 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                          "strategicTheme": "Bishop development",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      },
+                                                                      {
+                                                                        "move": "Bb7",
+                                                                        "fen": "r2qkb1r/pb1n1ppp/2p1pn2/1p6/3P4/2NBPN2/PP3PPP/R1BQK2R w KQkq - 2 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "e4",
+                                                                            "fen": "r2qkb1r/pb1n1ppp/2p1pn2/1p6/3PP3/2NB1N2/PP3PPP/R1BQK2R b KQkq - 0 9",
+                                                                            "children": [
+                                                                              {
+                                                                                "move": "b4",
+                                                                                "fen": "r2qkb1r/pb1n1ppp/2p1pn2/8/1p1PP3/2NB1N2/PP3PPP/R1BQK2R w KQkq - 0 10",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "move": "Na4",
+                                                                                    "fen": "r2qkb1r/pb1n1ppp/2p1pn2/8/Np1PP3/3B1N2/PP3PPP/R1BQK2R b KQkq - 1 10",
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "move": "c5",
+                                                                                        "fen": "r2qkb1r/pb1n1ppp/4pn2/2p5/Np1PP3/3B1N2/PP3PPP/R1BQK2R w KQkq - 0 11",
+                                                                                        "children": [
+                                                                                          {
+                                                                                            "move": "e5",
+                                                                                            "fen": "r2qkb1r/pb1n1ppp/4pn2/2p1P3/Np1P4/3B1N2/PP3PPP/R1BQK2R b KQkq - 0 11",
+                                                                                            "children": [
+                                                                                              {
+                                                                                                "move": "Nd5",
+                                                                                                "fen": "r2qkb1r/pb1n1ppp/4p3/2pnP3/Np1P4/3B1N2/PP3PPP/R1BQK2R w KQkq - 1 12",
+                                                                                                "children": [
+                                                                                                  {
+                                                                                                    "move": "O-O",
+                                                                                                    "fen": "r2qkb1r/pb1n1ppp/4p3/2pnP3/Np1P4/3B1N2/PP3PPP/R1BQ1RK1 b kq - 2 12",
+                                                                                                    "children": [
+                                                                                                      {
+                                                                                                        "move": "cxd4",
+                                                                                                        "fen": "r2qkb1r/pb1n1ppp/4p3/3nP3/Np1p4/3B1N2/PP3PPP/R1BQ1RK1 w kq - 0 13",
+                                                                                                        "children": [
+                                                                                                          {
+                                                                                                            "move": "Nxd4",
+                                                                                                            "fen": "r2qkb1r/pb1n1ppp/4p3/3nP3/Np1N4/3B4/PP3PPP/R1BQ1RK1 b kq - 0 13",
+                                                                                                            "children": [],
+                                                                                                            "isMainLine": true,
+                                                                                                            "annotation": {
+                                                                                                              "moveRationale": "Nxd4 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                                              "strategicTheme": "Material exchange",
+                                                                                                              "source": "generated"
+                                                                                                            }
+                                                                                                          }
+                                                                                                        ],
+                                                                                                        "isMainLine": true,
+                                                                                                        "annotation": {
+                                                                                                          "moveRationale": "cxd4 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                                          "strategicTheme": "Material exchange",
+                                                                                                          "source": "generated"
+                                                                                                        }
+                                                                                                      }
+                                                                                                    ],
+                                                                                                    "isMainLine": true,
+                                                                                                    "annotation": {
+                                                                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Semi-Slav Defense.",
+                                                                                                      "strategicTheme": "King safety",
+                                                                                                      "source": "generated"
+                                                                                                    }
+                                                                                                  }
+                                                                                                ],
+                                                                                                "isMainLine": true,
+                                                                                                "annotation": {
+                                                                                                  "moveRationale": "Nd5 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                                                  "strategicTheme": "Knight activity",
+                                                                                                  "source": "generated"
+                                                                                                }
+                                                                                              }
+                                                                                            ],
+                                                                                            "isMainLine": true,
+                                                                                            "annotation": {
+                                                                                              "moveRationale": "e5 advances a pawn, influencing the structure in the Semi-Slav Defense.",
+                                                                                              "strategicTheme": "Pawn structure",
+                                                                                              "source": "generated"
+                                                                                            }
+                                                                                          }
+                                                                                        ],
+                                                                                        "isMainLine": true,
+                                                                                        "annotation": {
+                                                                                          "moveRationale": "c5 challenges the center from the flank in the Semi-Slav Defense.",
+                                                                                          "strategicTheme": "Asymmetric counter-play",
+                                                                                          "source": "generated"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "isMainLine": true,
+                                                                                    "annotation": {
+                                                                                      "moveRationale": "Na4 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                                      "strategicTheme": "Knight activity",
+                                                                                      "source": "generated"
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "isMainLine": true,
+                                                                                "annotation": {
+                                                                                  "moveRationale": "b4 advances a pawn, influencing the structure in the Semi-Slav Defense.",
+                                                                                  "strategicTheme": "Pawn structure",
+                                                                                  "source": "generated"
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "isMainLine": true,
+                                                                            "annotation": {
+                                                                              "moveRationale": "e4 impacts the center, shaping the pawn structure in the Semi-Slav Defense.",
+                                                                              "strategicTheme": "Central tension",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": true,
+                                                                        "annotation": {
+                                                                          "moveRationale": "Bb7 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                          "strategicTheme": "Bishop development",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      },
+                                                                      {
+                                                                        "move": "a6",
+                                                                        "fen": "r1bqkb1r/3n1ppp/p1p1pn2/1p6/3P4/2NBPN2/PP3PPP/R1BQK2R w KQkq - 0 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "e4",
+                                                                            "fen": "r1bqkb1r/3n1ppp/p1p1pn2/1p6/3PP3/2NB1N2/PP3PPP/R1BQK2R b KQkq - 0 9",
+                                                                            "children": [
+                                                                              {
+                                                                                "move": "c5",
+                                                                                "fen": "r1bqkb1r/3n1ppp/p3pn2/1pp5/3PP3/2NB1N2/PP3PPP/R1BQK2R w KQkq - 0 10",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "move": "e5",
+                                                                                    "fen": "r1bqkb1r/3n1ppp/p3pn2/1pp1P3/3P4/2NB1N2/PP3PPP/R1BQK2R b KQkq - 0 10",
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "move": "cxd4",
+                                                                                        "fen": "r1bqkb1r/3n1ppp/p3pn2/1p2P3/3p4/2NB1N2/PP3PPP/R1BQK2R w KQkq - 0 11",
+                                                                                        "children": [
+                                                                                          {
+                                                                                            "move": "Nxb5",
+                                                                                            "fen": "r1bqkb1r/3n1ppp/p3pn2/1N2P3/3p4/3B1N2/PP3PPP/R1BQK2R b KQkq - 0 11",
+                                                                                            "children": [
+                                                                                              {
+                                                                                                "move": "Ng4",
+                                                                                                "fen": "r1bqkb1r/3n1ppp/p3p3/1N2P3/3p2n1/3B1N2/PP3PPP/R1BQK2R w KQkq - 1 12",
+                                                                                                "children": [],
+                                                                                                "isMainLine": false,
+                                                                                                "annotation": {
+                                                                                                  "moveRationale": "Ng4 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                                                  "strategicTheme": "Knight activity",
+                                                                                                  "source": "generated"
+                                                                                                }
+                                                                                              },
+                                                                                              {
+                                                                                                "move": "Nxe5",
+                                                                                                "fen": "r1bqkb1r/5ppp/p3pn2/1N2n3/3p4/3B1N2/PP3PPP/R1BQK2R w KQkq - 0 12",
+                                                                                                "children": [
+                                                                                                  {
+                                                                                                    "move": "Nxe5",
+                                                                                                    "fen": "r1bqkb1r/5ppp/p3pn2/1N2N3/3p4/3B4/PP3PPP/R1BQK2R b KQkq - 0 12",
+                                                                                                    "children": [
+                                                                                                      {
+                                                                                                        "move": "axb5",
+                                                                                                        "fen": "r1bqkb1r/5ppp/4pn2/1p2N3/3p4/3B4/PP3PPP/R1BQK2R w KQkq - 0 13",
+                                                                                                        "children": [
+                                                                                                          {
+                                                                                                            "move": "Qf3",
+                                                                                                            "fen": "r1bqkb1r/5ppp/4pn2/1p2N3/3p4/3B1Q2/PP3PPP/R1B1K2R b KQkq - 1 13",
+                                                                                                            "children": [],
+                                                                                                            "isMainLine": false,
+                                                                                                            "annotation": {
+                                                                                                              "moveRationale": "Qf3 activates the queen, increasing pressure in the Semi-Slav Defense.",
+                                                                                                              "strategicTheme": "Queen activity",
+                                                                                                              "source": "generated"
+                                                                                                            }
+                                                                                                          }
+                                                                                                        ],
+                                                                                                        "isMainLine": false,
+                                                                                                        "annotation": {
+                                                                                                          "moveRationale": "axb5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                                          "strategicTheme": "Material exchange",
+                                                                                                          "source": "generated"
+                                                                                                        }
+                                                                                                      }
+                                                                                                    ],
+                                                                                                    "isMainLine": false,
+                                                                                                    "annotation": {
+                                                                                                      "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                                      "strategicTheme": "Material exchange",
+                                                                                                      "source": "generated"
+                                                                                                    }
+                                                                                                  }
+                                                                                                ],
+                                                                                                "isMainLine": false,
+                                                                                                "annotation": {
+                                                                                                  "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                                  "strategicTheme": "Material exchange",
+                                                                                                  "source": "generated"
+                                                                                                }
+                                                                                              }
+                                                                                            ],
+                                                                                            "isMainLine": false,
+                                                                                            "annotation": {
+                                                                                              "moveRationale": "Nxb5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                              "strategicTheme": "Material exchange",
+                                                                                              "source": "generated"
+                                                                                            }
+                                                                                          }
+                                                                                        ],
+                                                                                        "isMainLine": false,
+                                                                                        "annotation": {
+                                                                                          "moveRationale": "cxd4 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                          "strategicTheme": "Material exchange",
+                                                                                          "source": "generated"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "isMainLine": false,
+                                                                                    "annotation": {
+                                                                                      "moveRationale": "e5 advances a pawn, influencing the structure in the Semi-Slav Defense.",
+                                                                                      "strategicTheme": "Pawn structure",
+                                                                                      "source": "generated"
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "isMainLine": false,
+                                                                                "annotation": {
+                                                                                  "moveRationale": "c5 challenges the center from the flank in the Semi-Slav Defense.",
+                                                                                  "strategicTheme": "Asymmetric counter-play",
+                                                                                  "source": "generated"
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "isMainLine": false,
+                                                                            "annotation": {
+                                                                              "moveRationale": "e4 impacts the center, shaping the pawn structure in the Semi-Slav Defense.",
+                                                                              "strategicTheme": "Central tension",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": false,
+                                                                        "annotation": {
+                                                                          "moveRationale": "a6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Semi-Slav Defense.",
+                                                                          "strategicTheme": "Prophylactic pawn move",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Bd3 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                      "strategicTheme": "Bishop development",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
                                                                 "isMainLine": true,
                                                                 "annotation": {
                                                                   "moveRationale": "b5 advances a pawn, influencing the structure in the Semi-Slav Defense.",
@@ -12803,7 +13518,115 @@
                                                                       {
                                                                         "move": "Bb7",
                                                                         "fen": "r2qkb1r/pb1n1ppp/2p1pn2/1p6/3P4/2NBPN2/PP3PPP/R1BQK2R w KQkq - 2 9",
-                                                                        "children": [],
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "e4",
+                                                                            "fen": "r2qkb1r/pb1n1ppp/2p1pn2/1p6/3PP3/2NB1N2/PP3PPP/R1BQK2R b KQkq - 0 9",
+                                                                            "children": [
+                                                                              {
+                                                                                "move": "b4",
+                                                                                "fen": "r2qkb1r/pb1n1ppp/2p1pn2/8/1p1PP3/2NB1N2/PP3PPP/R1BQK2R w KQkq - 0 10",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "move": "Na4",
+                                                                                    "fen": "r2qkb1r/pb1n1ppp/2p1pn2/8/Np1PP3/3B1N2/PP3PPP/R1BQK2R b KQkq - 1 10",
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "move": "c5",
+                                                                                        "fen": "r2qkb1r/pb1n1ppp/4pn2/2p5/Np1PP3/3B1N2/PP3PPP/R1BQK2R w KQkq - 0 11",
+                                                                                        "children": [
+                                                                                          {
+                                                                                            "move": "e5",
+                                                                                            "fen": "r2qkb1r/pb1n1ppp/4pn2/2p1P3/Np1P4/3B1N2/PP3PPP/R1BQK2R b KQkq - 0 11",
+                                                                                            "children": [
+                                                                                              {
+                                                                                                "move": "Nd5",
+                                                                                                "fen": "r2qkb1r/pb1n1ppp/4p3/2pnP3/Np1P4/3B1N2/PP3PPP/R1BQK2R w KQkq - 1 12",
+                                                                                                "children": [
+                                                                                                  {
+                                                                                                    "move": "O-O",
+                                                                                                    "fen": "r2qkb1r/pb1n1ppp/4p3/2pnP3/Np1P4/3B1N2/PP3PPP/R1BQ1RK1 b kq - 2 12",
+                                                                                                    "children": [
+                                                                                                      {
+                                                                                                        "move": "cxd4",
+                                                                                                        "fen": "r2qkb1r/pb1n1ppp/4p3/3nP3/Np1p4/3B1N2/PP3PPP/R1BQ1RK1 w kq - 0 13",
+                                                                                                        "children": [
+                                                                                                          {
+                                                                                                            "move": "Nxd4",
+                                                                                                            "fen": "r2qkb1r/pb1n1ppp/4p3/3nP3/Np1N4/3B4/PP3PPP/R1BQ1RK1 b kq - 0 13",
+                                                                                                            "children": [],
+                                                                                                            "isMainLine": true,
+                                                                                                            "annotation": {
+                                                                                                              "moveRationale": "Nxd4 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                                              "strategicTheme": "Material exchange",
+                                                                                                              "source": "generated"
+                                                                                                            }
+                                                                                                          }
+                                                                                                        ],
+                                                                                                        "isMainLine": true,
+                                                                                                        "annotation": {
+                                                                                                          "moveRationale": "cxd4 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                                          "strategicTheme": "Material exchange",
+                                                                                                          "source": "generated"
+                                                                                                        }
+                                                                                                      }
+                                                                                                    ],
+                                                                                                    "isMainLine": true,
+                                                                                                    "annotation": {
+                                                                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Semi-Slav Defense.",
+                                                                                                      "strategicTheme": "King safety",
+                                                                                                      "source": "generated"
+                                                                                                    }
+                                                                                                  }
+                                                                                                ],
+                                                                                                "isMainLine": true,
+                                                                                                "annotation": {
+                                                                                                  "moveRationale": "Nd5 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                                                  "strategicTheme": "Knight activity",
+                                                                                                  "source": "generated"
+                                                                                                }
+                                                                                              }
+                                                                                            ],
+                                                                                            "isMainLine": true,
+                                                                                            "annotation": {
+                                                                                              "moveRationale": "e5 advances a pawn, influencing the structure in the Semi-Slav Defense.",
+                                                                                              "strategicTheme": "Pawn structure",
+                                                                                              "source": "generated"
+                                                                                            }
+                                                                                          }
+                                                                                        ],
+                                                                                        "isMainLine": true,
+                                                                                        "annotation": {
+                                                                                          "moveRationale": "c5 challenges the center from the flank in the Semi-Slav Defense.",
+                                                                                          "strategicTheme": "Asymmetric counter-play",
+                                                                                          "source": "generated"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "isMainLine": true,
+                                                                                    "annotation": {
+                                                                                      "moveRationale": "Na4 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                                      "strategicTheme": "Knight activity",
+                                                                                      "source": "generated"
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "isMainLine": true,
+                                                                                "annotation": {
+                                                                                  "moveRationale": "b4 advances a pawn, influencing the structure in the Semi-Slav Defense.",
+                                                                                  "strategicTheme": "Pawn structure",
+                                                                                  "source": "generated"
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "isMainLine": true,
+                                                                            "annotation": {
+                                                                              "moveRationale": "e4 impacts the center, shaping the pawn structure in the Semi-Slav Defense.",
+                                                                              "strategicTheme": "Central tension",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
                                                                         "isMainLine": true,
                                                                         "annotation": {
                                                                           "moveRationale": "Bb7 develops a piece to an active square in the Semi-Slav Defense.",
@@ -13341,7 +14164,43 @@
                                                                                               {
                                                                                                 "move": "Nd5",
                                                                                                 "fen": "r2qkb1r/pb1n1ppp/4p3/2pnP3/Np1P4/3B1N2/PP3PPP/R1BQK2R w KQkq - 1 12",
-                                                                                                "children": [],
+                                                                                                "children": [
+                                                                                                  {
+                                                                                                    "move": "O-O",
+                                                                                                    "fen": "r2qkb1r/pb1n1ppp/4p3/2pnP3/Np1P4/3B1N2/PP3PPP/R1BQ1RK1 b kq - 2 12",
+                                                                                                    "children": [
+                                                                                                      {
+                                                                                                        "move": "cxd4",
+                                                                                                        "fen": "r2qkb1r/pb1n1ppp/4p3/3nP3/Np1p4/3B1N2/PP3PPP/R1BQ1RK1 w kq - 0 13",
+                                                                                                        "children": [
+                                                                                                          {
+                                                                                                            "move": "Nxd4",
+                                                                                                            "fen": "r2qkb1r/pb1n1ppp/4p3/3nP3/Np1N4/3B4/PP3PPP/R1BQ1RK1 b kq - 0 13",
+                                                                                                            "children": [],
+                                                                                                            "isMainLine": true,
+                                                                                                            "annotation": {
+                                                                                                              "moveRationale": "Nxd4 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                                              "strategicTheme": "Material exchange",
+                                                                                                              "source": "generated"
+                                                                                                            }
+                                                                                                          }
+                                                                                                        ],
+                                                                                                        "isMainLine": true,
+                                                                                                        "annotation": {
+                                                                                                          "moveRationale": "cxd4 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                                          "strategicTheme": "Material exchange",
+                                                                                                          "source": "generated"
+                                                                                                        }
+                                                                                                      }
+                                                                                                    ],
+                                                                                                    "isMainLine": true,
+                                                                                                    "annotation": {
+                                                                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Semi-Slav Defense.",
+                                                                                                      "strategicTheme": "King safety",
+                                                                                                      "source": "generated"
+                                                                                                    }
+                                                                                                  }
+                                                                                                ],
                                                                                                 "isMainLine": true,
                                                                                                 "annotation": {
                                                                                                   "moveRationale": "Nd5 develops a piece to an active square in the Semi-Slav Defense.",
@@ -13580,7 +14439,352 @@
                                                           {
                                                             "move": "Bxc4",
                                                             "fen": "r1bqkb1r/pp1n1ppp/2p1pn2/8/2BP4/2N1PN2/PP3PPP/R1BQK2R b KQkq - 0 7",
-                                                            "children": [],
+                                                            "children": [
+                                                              {
+                                                                "move": "b5",
+                                                                "fen": "r1bqkb1r/p2n1ppp/2p1pn2/1p6/2BP4/2N1PN2/PP3PPP/R1BQK2R w KQkq - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Bd3",
+                                                                    "fen": "r1bqkb1r/p2n1ppp/2p1pn2/1p6/3P4/2NBPN2/PP3PPP/R1BQK2R b KQkq - 1 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "Bd6",
+                                                                        "fen": "r1bqk2r/p2n1ppp/2pbpn2/1p6/3P4/2NBPN2/PP3PPP/R1BQK2R w KQkq - 2 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "O-O",
+                                                                            "fen": "r1bqk2r/p2n1ppp/2pbpn2/1p6/3P4/2NBPN2/PP3PPP/R1BQ1RK1 b kq - 3 9",
+                                                                            "children": [
+                                                                              {
+                                                                                "move": "Bb7",
+                                                                                "fen": "r2qk2r/pb1n1ppp/2pbpn2/1p6/3P4/2NBPN2/PP3PPP/R1BQ1RK1 w kq - 4 10",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "move": "a3",
+                                                                                    "fen": "r2qk2r/pb1n1ppp/2pbpn2/1p6/3P4/P1NBPN2/1P3PPP/R1BQ1RK1 b kq - 0 10",
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "move": "O-O",
+                                                                                        "fen": "r2q1rk1/pb1n1ppp/2pbpn2/1p6/3P4/P1NBPN2/1P3PPP/R1BQ1RK1 w - - 1 11",
+                                                                                        "children": [
+                                                                                          {
+                                                                                            "move": "Qc2",
+                                                                                            "fen": "r2q1rk1/pb1n1ppp/2pbpn2/1p6/3P4/P1NBPN2/1PQ2PPP/R1B2RK1 b - - 2 11",
+                                                                                            "children": [],
+                                                                                            "isMainLine": false,
+                                                                                            "annotation": {
+                                                                                              "moveRationale": "Qc2 activates the queen, increasing pressure in the Semi-Slav Defense.",
+                                                                                              "strategicTheme": "Queen activity",
+                                                                                              "source": "generated"
+                                                                                            }
+                                                                                          }
+                                                                                        ],
+                                                                                        "isMainLine": false,
+                                                                                        "annotation": {
+                                                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Semi-Slav Defense.",
+                                                                                          "strategicTheme": "King safety",
+                                                                                          "source": "generated"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "isMainLine": false,
+                                                                                    "annotation": {
+                                                                                      "moveRationale": "a3 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Semi-Slav Defense.",
+                                                                                      "strategicTheme": "Prophylactic pawn move",
+                                                                                      "source": "generated"
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "isMainLine": false,
+                                                                                "annotation": {
+                                                                                  "moveRationale": "Bb7 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                                  "strategicTheme": "Bishop development",
+                                                                                  "source": "generated"
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "isMainLine": false,
+                                                                            "annotation": {
+                                                                              "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Semi-Slav Defense.",
+                                                                              "strategicTheme": "King safety",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": false,
+                                                                        "annotation": {
+                                                                          "moveRationale": "Bd6 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                          "strategicTheme": "Bishop development",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      },
+                                                                      {
+                                                                        "move": "Bb7",
+                                                                        "fen": "r2qkb1r/pb1n1ppp/2p1pn2/1p6/3P4/2NBPN2/PP3PPP/R1BQK2R w KQkq - 2 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "e4",
+                                                                            "fen": "r2qkb1r/pb1n1ppp/2p1pn2/1p6/3PP3/2NB1N2/PP3PPP/R1BQK2R b KQkq - 0 9",
+                                                                            "children": [
+                                                                              {
+                                                                                "move": "b4",
+                                                                                "fen": "r2qkb1r/pb1n1ppp/2p1pn2/8/1p1PP3/2NB1N2/PP3PPP/R1BQK2R w KQkq - 0 10",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "move": "Na4",
+                                                                                    "fen": "r2qkb1r/pb1n1ppp/2p1pn2/8/Np1PP3/3B1N2/PP3PPP/R1BQK2R b KQkq - 1 10",
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "move": "c5",
+                                                                                        "fen": "r2qkb1r/pb1n1ppp/4pn2/2p5/Np1PP3/3B1N2/PP3PPP/R1BQK2R w KQkq - 0 11",
+                                                                                        "children": [
+                                                                                          {
+                                                                                            "move": "e5",
+                                                                                            "fen": "r2qkb1r/pb1n1ppp/4pn2/2p1P3/Np1P4/3B1N2/PP3PPP/R1BQK2R b KQkq - 0 11",
+                                                                                            "children": [
+                                                                                              {
+                                                                                                "move": "Nd5",
+                                                                                                "fen": "r2qkb1r/pb1n1ppp/4p3/2pnP3/Np1P4/3B1N2/PP3PPP/R1BQK2R w KQkq - 1 12",
+                                                                                                "children": [
+                                                                                                  {
+                                                                                                    "move": "O-O",
+                                                                                                    "fen": "r2qkb1r/pb1n1ppp/4p3/2pnP3/Np1P4/3B1N2/PP3PPP/R1BQ1RK1 b kq - 2 12",
+                                                                                                    "children": [
+                                                                                                      {
+                                                                                                        "move": "cxd4",
+                                                                                                        "fen": "r2qkb1r/pb1n1ppp/4p3/3nP3/Np1p4/3B1N2/PP3PPP/R1BQ1RK1 w kq - 0 13",
+                                                                                                        "children": [
+                                                                                                          {
+                                                                                                            "move": "Nxd4",
+                                                                                                            "fen": "r2qkb1r/pb1n1ppp/4p3/3nP3/Np1N4/3B4/PP3PPP/R1BQ1RK1 b kq - 0 13",
+                                                                                                            "children": [],
+                                                                                                            "isMainLine": true,
+                                                                                                            "annotation": {
+                                                                                                              "moveRationale": "Nxd4 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                                              "strategicTheme": "Material exchange",
+                                                                                                              "source": "generated"
+                                                                                                            }
+                                                                                                          }
+                                                                                                        ],
+                                                                                                        "isMainLine": true,
+                                                                                                        "annotation": {
+                                                                                                          "moveRationale": "cxd4 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                                          "strategicTheme": "Material exchange",
+                                                                                                          "source": "generated"
+                                                                                                        }
+                                                                                                      }
+                                                                                                    ],
+                                                                                                    "isMainLine": true,
+                                                                                                    "annotation": {
+                                                                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Semi-Slav Defense.",
+                                                                                                      "strategicTheme": "King safety",
+                                                                                                      "source": "generated"
+                                                                                                    }
+                                                                                                  }
+                                                                                                ],
+                                                                                                "isMainLine": true,
+                                                                                                "annotation": {
+                                                                                                  "moveRationale": "Nd5 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                                                  "strategicTheme": "Knight activity",
+                                                                                                  "source": "generated"
+                                                                                                }
+                                                                                              }
+                                                                                            ],
+                                                                                            "isMainLine": true,
+                                                                                            "annotation": {
+                                                                                              "moveRationale": "e5 advances a pawn, influencing the structure in the Semi-Slav Defense.",
+                                                                                              "strategicTheme": "Pawn structure",
+                                                                                              "source": "generated"
+                                                                                            }
+                                                                                          }
+                                                                                        ],
+                                                                                        "isMainLine": true,
+                                                                                        "annotation": {
+                                                                                          "moveRationale": "c5 challenges the center from the flank in the Semi-Slav Defense.",
+                                                                                          "strategicTheme": "Asymmetric counter-play",
+                                                                                          "source": "generated"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "isMainLine": true,
+                                                                                    "annotation": {
+                                                                                      "moveRationale": "Na4 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                                      "strategicTheme": "Knight activity",
+                                                                                      "source": "generated"
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "isMainLine": true,
+                                                                                "annotation": {
+                                                                                  "moveRationale": "b4 advances a pawn, influencing the structure in the Semi-Slav Defense.",
+                                                                                  "strategicTheme": "Pawn structure",
+                                                                                  "source": "generated"
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "isMainLine": true,
+                                                                            "annotation": {
+                                                                              "moveRationale": "e4 impacts the center, shaping the pawn structure in the Semi-Slav Defense.",
+                                                                              "strategicTheme": "Central tension",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": true,
+                                                                        "annotation": {
+                                                                          "moveRationale": "Bb7 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                          "strategicTheme": "Bishop development",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      },
+                                                                      {
+                                                                        "move": "a6",
+                                                                        "fen": "r1bqkb1r/3n1ppp/p1p1pn2/1p6/3P4/2NBPN2/PP3PPP/R1BQK2R w KQkq - 0 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "e4",
+                                                                            "fen": "r1bqkb1r/3n1ppp/p1p1pn2/1p6/3PP3/2NB1N2/PP3PPP/R1BQK2R b KQkq - 0 9",
+                                                                            "children": [
+                                                                              {
+                                                                                "move": "c5",
+                                                                                "fen": "r1bqkb1r/3n1ppp/p3pn2/1pp5/3PP3/2NB1N2/PP3PPP/R1BQK2R w KQkq - 0 10",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "move": "e5",
+                                                                                    "fen": "r1bqkb1r/3n1ppp/p3pn2/1pp1P3/3P4/2NB1N2/PP3PPP/R1BQK2R b KQkq - 0 10",
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "move": "cxd4",
+                                                                                        "fen": "r1bqkb1r/3n1ppp/p3pn2/1p2P3/3p4/2NB1N2/PP3PPP/R1BQK2R w KQkq - 0 11",
+                                                                                        "children": [
+                                                                                          {
+                                                                                            "move": "Nxb5",
+                                                                                            "fen": "r1bqkb1r/3n1ppp/p3pn2/1N2P3/3p4/3B1N2/PP3PPP/R1BQK2R b KQkq - 0 11",
+                                                                                            "children": [
+                                                                                              {
+                                                                                                "move": "Ng4",
+                                                                                                "fen": "r1bqkb1r/3n1ppp/p3p3/1N2P3/3p2n1/3B1N2/PP3PPP/R1BQK2R w KQkq - 1 12",
+                                                                                                "children": [],
+                                                                                                "isMainLine": false,
+                                                                                                "annotation": {
+                                                                                                  "moveRationale": "Ng4 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                                                  "strategicTheme": "Knight activity",
+                                                                                                  "source": "generated"
+                                                                                                }
+                                                                                              },
+                                                                                              {
+                                                                                                "move": "Nxe5",
+                                                                                                "fen": "r1bqkb1r/5ppp/p3pn2/1N2n3/3p4/3B1N2/PP3PPP/R1BQK2R w KQkq - 0 12",
+                                                                                                "children": [
+                                                                                                  {
+                                                                                                    "move": "Nxe5",
+                                                                                                    "fen": "r1bqkb1r/5ppp/p3pn2/1N2N3/3p4/3B4/PP3PPP/R1BQK2R b KQkq - 0 12",
+                                                                                                    "children": [
+                                                                                                      {
+                                                                                                        "move": "axb5",
+                                                                                                        "fen": "r1bqkb1r/5ppp/4pn2/1p2N3/3p4/3B4/PP3PPP/R1BQK2R w KQkq - 0 13",
+                                                                                                        "children": [
+                                                                                                          {
+                                                                                                            "move": "Qf3",
+                                                                                                            "fen": "r1bqkb1r/5ppp/4pn2/1p2N3/3p4/3B1Q2/PP3PPP/R1B1K2R b KQkq - 1 13",
+                                                                                                            "children": [],
+                                                                                                            "isMainLine": false,
+                                                                                                            "annotation": {
+                                                                                                              "moveRationale": "Qf3 activates the queen, increasing pressure in the Semi-Slav Defense.",
+                                                                                                              "strategicTheme": "Queen activity",
+                                                                                                              "source": "generated"
+                                                                                                            }
+                                                                                                          }
+                                                                                                        ],
+                                                                                                        "isMainLine": false,
+                                                                                                        "annotation": {
+                                                                                                          "moveRationale": "axb5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                                          "strategicTheme": "Material exchange",
+                                                                                                          "source": "generated"
+                                                                                                        }
+                                                                                                      }
+                                                                                                    ],
+                                                                                                    "isMainLine": false,
+                                                                                                    "annotation": {
+                                                                                                      "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                                      "strategicTheme": "Material exchange",
+                                                                                                      "source": "generated"
+                                                                                                    }
+                                                                                                  }
+                                                                                                ],
+                                                                                                "isMainLine": false,
+                                                                                                "annotation": {
+                                                                                                  "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                                  "strategicTheme": "Material exchange",
+                                                                                                  "source": "generated"
+                                                                                                }
+                                                                                              }
+                                                                                            ],
+                                                                                            "isMainLine": false,
+                                                                                            "annotation": {
+                                                                                              "moveRationale": "Nxb5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                              "strategicTheme": "Material exchange",
+                                                                                              "source": "generated"
+                                                                                            }
+                                                                                          }
+                                                                                        ],
+                                                                                        "isMainLine": false,
+                                                                                        "annotation": {
+                                                                                          "moveRationale": "cxd4 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                          "strategicTheme": "Material exchange",
+                                                                                          "source": "generated"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "isMainLine": false,
+                                                                                    "annotation": {
+                                                                                      "moveRationale": "e5 advances a pawn, influencing the structure in the Semi-Slav Defense.",
+                                                                                      "strategicTheme": "Pawn structure",
+                                                                                      "source": "generated"
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "isMainLine": false,
+                                                                                "annotation": {
+                                                                                  "moveRationale": "c5 challenges the center from the flank in the Semi-Slav Defense.",
+                                                                                  "strategicTheme": "Asymmetric counter-play",
+                                                                                  "source": "generated"
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "isMainLine": false,
+                                                                            "annotation": {
+                                                                              "moveRationale": "e4 impacts the center, shaping the pawn structure in the Semi-Slav Defense.",
+                                                                              "strategicTheme": "Central tension",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": false,
+                                                                        "annotation": {
+                                                                          "moveRationale": "a6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Semi-Slav Defense.",
+                                                                          "strategicTheme": "Prophylactic pawn move",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Bd3 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                      "strategicTheme": "Bishop development",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "b5 advances a pawn, influencing the structure in the Semi-Slav Defense.",
+                                                                  "strategicTheme": "Pawn structure",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
                                                             "isMainLine": true,
                                                             "annotation": {
                                                               "moveRationale": "Bxc4 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
@@ -13759,7 +14963,126 @@
                                                                       {
                                                                         "move": "a6",
                                                                         "fen": "r1bqkb1r/3n1ppp/p1p1pn2/1p6/3P4/2NBPN2/PP3PPP/R1BQK2R w KQkq - 0 9",
-                                                                        "children": [],
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "e4",
+                                                                            "fen": "r1bqkb1r/3n1ppp/p1p1pn2/1p6/3PP3/2NB1N2/PP3PPP/R1BQK2R b KQkq - 0 9",
+                                                                            "children": [
+                                                                              {
+                                                                                "move": "c5",
+                                                                                "fen": "r1bqkb1r/3n1ppp/p3pn2/1pp5/3PP3/2NB1N2/PP3PPP/R1BQK2R w KQkq - 0 10",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "move": "e5",
+                                                                                    "fen": "r1bqkb1r/3n1ppp/p3pn2/1pp1P3/3P4/2NB1N2/PP3PPP/R1BQK2R b KQkq - 0 10",
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "move": "cxd4",
+                                                                                        "fen": "r1bqkb1r/3n1ppp/p3pn2/1p2P3/3p4/2NB1N2/PP3PPP/R1BQK2R w KQkq - 0 11",
+                                                                                        "children": [
+                                                                                          {
+                                                                                            "move": "Nxb5",
+                                                                                            "fen": "r1bqkb1r/3n1ppp/p3pn2/1N2P3/3p4/3B1N2/PP3PPP/R1BQK2R b KQkq - 0 11",
+                                                                                            "children": [
+                                                                                              {
+                                                                                                "move": "Ng4",
+                                                                                                "fen": "r1bqkb1r/3n1ppp/p3p3/1N2P3/3p2n1/3B1N2/PP3PPP/R1BQK2R w KQkq - 1 12",
+                                                                                                "children": [],
+                                                                                                "isMainLine": false,
+                                                                                                "annotation": {
+                                                                                                  "moveRationale": "Ng4 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                                                  "strategicTheme": "Knight activity",
+                                                                                                  "source": "generated"
+                                                                                                }
+                                                                                              },
+                                                                                              {
+                                                                                                "move": "Nxe5",
+                                                                                                "fen": "r1bqkb1r/5ppp/p3pn2/1N2n3/3p4/3B1N2/PP3PPP/R1BQK2R w KQkq - 0 12",
+                                                                                                "children": [
+                                                                                                  {
+                                                                                                    "move": "Nxe5",
+                                                                                                    "fen": "r1bqkb1r/5ppp/p3pn2/1N2N3/3p4/3B4/PP3PPP/R1BQK2R b KQkq - 0 12",
+                                                                                                    "children": [
+                                                                                                      {
+                                                                                                        "move": "axb5",
+                                                                                                        "fen": "r1bqkb1r/5ppp/4pn2/1p2N3/3p4/3B4/PP3PPP/R1BQK2R w KQkq - 0 13",
+                                                                                                        "children": [
+                                                                                                          {
+                                                                                                            "move": "Qf3",
+                                                                                                            "fen": "r1bqkb1r/5ppp/4pn2/1p2N3/3p4/3B1Q2/PP3PPP/R1B1K2R b KQkq - 1 13",
+                                                                                                            "children": [],
+                                                                                                            "isMainLine": true,
+                                                                                                            "annotation": {
+                                                                                                              "moveRationale": "Qf3 activates the queen, increasing pressure in the Semi-Slav Defense.",
+                                                                                                              "strategicTheme": "Queen activity",
+                                                                                                              "source": "generated"
+                                                                                                            }
+                                                                                                          }
+                                                                                                        ],
+                                                                                                        "isMainLine": true,
+                                                                                                        "annotation": {
+                                                                                                          "moveRationale": "axb5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                                          "strategicTheme": "Material exchange",
+                                                                                                          "source": "generated"
+                                                                                                        }
+                                                                                                      }
+                                                                                                    ],
+                                                                                                    "isMainLine": true,
+                                                                                                    "annotation": {
+                                                                                                      "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                                      "strategicTheme": "Material exchange",
+                                                                                                      "source": "generated"
+                                                                                                    }
+                                                                                                  }
+                                                                                                ],
+                                                                                                "isMainLine": true,
+                                                                                                "annotation": {
+                                                                                                  "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                                  "strategicTheme": "Material exchange",
+                                                                                                  "source": "generated"
+                                                                                                }
+                                                                                              }
+                                                                                            ],
+                                                                                            "isMainLine": true,
+                                                                                            "annotation": {
+                                                                                              "moveRationale": "Nxb5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                              "strategicTheme": "Material exchange",
+                                                                                              "source": "generated"
+                                                                                            }
+                                                                                          }
+                                                                                        ],
+                                                                                        "isMainLine": true,
+                                                                                        "annotation": {
+                                                                                          "moveRationale": "cxd4 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                          "strategicTheme": "Material exchange",
+                                                                                          "source": "generated"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "isMainLine": true,
+                                                                                    "annotation": {
+                                                                                      "moveRationale": "e5 advances a pawn, influencing the structure in the Semi-Slav Defense.",
+                                                                                      "strategicTheme": "Pawn structure",
+                                                                                      "source": "generated"
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "isMainLine": true,
+                                                                                "annotation": {
+                                                                                  "moveRationale": "c5 challenges the center from the flank in the Semi-Slav Defense.",
+                                                                                  "strategicTheme": "Asymmetric counter-play",
+                                                                                  "source": "generated"
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "isMainLine": true,
+                                                                            "annotation": {
+                                                                              "moveRationale": "e4 impacts the center, shaping the pawn structure in the Semi-Slav Defense.",
+                                                                              "strategicTheme": "Central tension",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
                                                                         "isMainLine": true,
                                                                         "annotation": {
                                                                           "moveRationale": "a6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Semi-Slav Defense.",
@@ -13970,7 +15293,102 @@
                                                                               {
                                                                                 "move": "c5",
                                                                                 "fen": "r1bqkb1r/3n1ppp/p3pn2/1pp5/3PP3/2NB1N2/PP3PPP/R1BQK2R w KQkq - 0 10",
-                                                                                "children": [],
+                                                                                "children": [
+                                                                                  {
+                                                                                    "move": "e5",
+                                                                                    "fen": "r1bqkb1r/3n1ppp/p3pn2/1pp1P3/3P4/2NB1N2/PP3PPP/R1BQK2R b KQkq - 0 10",
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "move": "cxd4",
+                                                                                        "fen": "r1bqkb1r/3n1ppp/p3pn2/1p2P3/3p4/2NB1N2/PP3PPP/R1BQK2R w KQkq - 0 11",
+                                                                                        "children": [
+                                                                                          {
+                                                                                            "move": "Nxb5",
+                                                                                            "fen": "r1bqkb1r/3n1ppp/p3pn2/1N2P3/3p4/3B1N2/PP3PPP/R1BQK2R b KQkq - 0 11",
+                                                                                            "children": [
+                                                                                              {
+                                                                                                "move": "Ng4",
+                                                                                                "fen": "r1bqkb1r/3n1ppp/p3p3/1N2P3/3p2n1/3B1N2/PP3PPP/R1BQK2R w KQkq - 1 12",
+                                                                                                "children": [],
+                                                                                                "isMainLine": false,
+                                                                                                "annotation": {
+                                                                                                  "moveRationale": "Ng4 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                                                  "strategicTheme": "Knight activity",
+                                                                                                  "source": "generated"
+                                                                                                }
+                                                                                              },
+                                                                                              {
+                                                                                                "move": "Nxe5",
+                                                                                                "fen": "r1bqkb1r/5ppp/p3pn2/1N2n3/3p4/3B1N2/PP3PPP/R1BQK2R w KQkq - 0 12",
+                                                                                                "children": [
+                                                                                                  {
+                                                                                                    "move": "Nxe5",
+                                                                                                    "fen": "r1bqkb1r/5ppp/p3pn2/1N2N3/3p4/3B4/PP3PPP/R1BQK2R b KQkq - 0 12",
+                                                                                                    "children": [
+                                                                                                      {
+                                                                                                        "move": "axb5",
+                                                                                                        "fen": "r1bqkb1r/5ppp/4pn2/1p2N3/3p4/3B4/PP3PPP/R1BQK2R w KQkq - 0 13",
+                                                                                                        "children": [
+                                                                                                          {
+                                                                                                            "move": "Qf3",
+                                                                                                            "fen": "r1bqkb1r/5ppp/4pn2/1p2N3/3p4/3B1Q2/PP3PPP/R1B1K2R b KQkq - 1 13",
+                                                                                                            "children": [],
+                                                                                                            "isMainLine": true,
+                                                                                                            "annotation": {
+                                                                                                              "moveRationale": "Qf3 activates the queen, increasing pressure in the Semi-Slav Defense.",
+                                                                                                              "strategicTheme": "Queen activity",
+                                                                                                              "source": "generated"
+                                                                                                            }
+                                                                                                          }
+                                                                                                        ],
+                                                                                                        "isMainLine": true,
+                                                                                                        "annotation": {
+                                                                                                          "moveRationale": "axb5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                                          "strategicTheme": "Material exchange",
+                                                                                                          "source": "generated"
+                                                                                                        }
+                                                                                                      }
+                                                                                                    ],
+                                                                                                    "isMainLine": true,
+                                                                                                    "annotation": {
+                                                                                                      "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                                      "strategicTheme": "Material exchange",
+                                                                                                      "source": "generated"
+                                                                                                    }
+                                                                                                  }
+                                                                                                ],
+                                                                                                "isMainLine": true,
+                                                                                                "annotation": {
+                                                                                                  "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                                  "strategicTheme": "Material exchange",
+                                                                                                  "source": "generated"
+                                                                                                }
+                                                                                              }
+                                                                                            ],
+                                                                                            "isMainLine": true,
+                                                                                            "annotation": {
+                                                                                              "moveRationale": "Nxb5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                              "strategicTheme": "Material exchange",
+                                                                                              "source": "generated"
+                                                                                            }
+                                                                                          }
+                                                                                        ],
+                                                                                        "isMainLine": true,
+                                                                                        "annotation": {
+                                                                                          "moveRationale": "cxd4 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                          "strategicTheme": "Material exchange",
+                                                                                          "source": "generated"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "isMainLine": true,
+                                                                                    "annotation": {
+                                                                                      "moveRationale": "e5 advances a pawn, influencing the structure in the Semi-Slav Defense.",
+                                                                                      "strategicTheme": "Pawn structure",
+                                                                                      "source": "generated"
+                                                                                    }
+                                                                                  }
+                                                                                ],
                                                                                 "isMainLine": true,
                                                                                 "annotation": {
                                                                                   "moveRationale": "c5 challenges the center from the flank in the Semi-Slav Defense.",
@@ -14201,7 +15619,90 @@
                                                                                   {
                                                                                     "move": "e5",
                                                                                     "fen": "r1bqkb1r/3n1ppp/p3pn2/1pp1P3/3P4/2NB1N2/PP3PPP/R1BQK2R b KQkq - 0 10",
-                                                                                    "children": [],
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "move": "cxd4",
+                                                                                        "fen": "r1bqkb1r/3n1ppp/p3pn2/1p2P3/3p4/2NB1N2/PP3PPP/R1BQK2R w KQkq - 0 11",
+                                                                                        "children": [
+                                                                                          {
+                                                                                            "move": "Nxb5",
+                                                                                            "fen": "r1bqkb1r/3n1ppp/p3pn2/1N2P3/3p4/3B1N2/PP3PPP/R1BQK2R b KQkq - 0 11",
+                                                                                            "children": [
+                                                                                              {
+                                                                                                "move": "Ng4",
+                                                                                                "fen": "r1bqkb1r/3n1ppp/p3p3/1N2P3/3p2n1/3B1N2/PP3PPP/R1BQK2R w KQkq - 1 12",
+                                                                                                "children": [],
+                                                                                                "isMainLine": false,
+                                                                                                "annotation": {
+                                                                                                  "moveRationale": "Ng4 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                                                  "strategicTheme": "Knight activity",
+                                                                                                  "source": "generated"
+                                                                                                }
+                                                                                              },
+                                                                                              {
+                                                                                                "move": "Nxe5",
+                                                                                                "fen": "r1bqkb1r/5ppp/p3pn2/1N2n3/3p4/3B1N2/PP3PPP/R1BQK2R w KQkq - 0 12",
+                                                                                                "children": [
+                                                                                                  {
+                                                                                                    "move": "Nxe5",
+                                                                                                    "fen": "r1bqkb1r/5ppp/p3pn2/1N2N3/3p4/3B4/PP3PPP/R1BQK2R b KQkq - 0 12",
+                                                                                                    "children": [
+                                                                                                      {
+                                                                                                        "move": "axb5",
+                                                                                                        "fen": "r1bqkb1r/5ppp/4pn2/1p2N3/3p4/3B4/PP3PPP/R1BQK2R w KQkq - 0 13",
+                                                                                                        "children": [
+                                                                                                          {
+                                                                                                            "move": "Qf3",
+                                                                                                            "fen": "r1bqkb1r/5ppp/4pn2/1p2N3/3p4/3B1Q2/PP3PPP/R1B1K2R b KQkq - 1 13",
+                                                                                                            "children": [],
+                                                                                                            "isMainLine": true,
+                                                                                                            "annotation": {
+                                                                                                              "moveRationale": "Qf3 activates the queen, increasing pressure in the Semi-Slav Defense.",
+                                                                                                              "strategicTheme": "Queen activity",
+                                                                                                              "source": "generated"
+                                                                                                            }
+                                                                                                          }
+                                                                                                        ],
+                                                                                                        "isMainLine": true,
+                                                                                                        "annotation": {
+                                                                                                          "moveRationale": "axb5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                                          "strategicTheme": "Material exchange",
+                                                                                                          "source": "generated"
+                                                                                                        }
+                                                                                                      }
+                                                                                                    ],
+                                                                                                    "isMainLine": true,
+                                                                                                    "annotation": {
+                                                                                                      "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                                      "strategicTheme": "Material exchange",
+                                                                                                      "source": "generated"
+                                                                                                    }
+                                                                                                  }
+                                                                                                ],
+                                                                                                "isMainLine": true,
+                                                                                                "annotation": {
+                                                                                                  "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                                  "strategicTheme": "Material exchange",
+                                                                                                  "source": "generated"
+                                                                                                }
+                                                                                              }
+                                                                                            ],
+                                                                                            "isMainLine": true,
+                                                                                            "annotation": {
+                                                                                              "moveRationale": "Nxb5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                              "strategicTheme": "Material exchange",
+                                                                                              "source": "generated"
+                                                                                            }
+                                                                                          }
+                                                                                        ],
+                                                                                        "isMainLine": true,
+                                                                                        "annotation": {
+                                                                                          "moveRationale": "cxd4 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                          "strategicTheme": "Material exchange",
+                                                                                          "source": "generated"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
                                                                                     "isMainLine": true,
                                                                                     "annotation": {
                                                                                       "moveRationale": "e5 advances a pawn, influencing the structure in the Semi-Slav Defense.",
@@ -14914,7 +16415,66 @@
                                                                                           {
                                                                                             "move": "Nxb5",
                                                                                             "fen": "r1bqkb1r/3n1ppp/p3pn2/1N2P3/3p4/3B1N2/PP3PPP/R1BQK2R b KQkq - 0 11",
-                                                                                            "children": [],
+                                                                                            "children": [
+                                                                                              {
+                                                                                                "move": "Ng4",
+                                                                                                "fen": "r1bqkb1r/3n1ppp/p3p3/1N2P3/3p2n1/3B1N2/PP3PPP/R1BQK2R w KQkq - 1 12",
+                                                                                                "children": [],
+                                                                                                "isMainLine": false,
+                                                                                                "annotation": {
+                                                                                                  "moveRationale": "Ng4 develops a piece to an active square in the Semi-Slav Defense.",
+                                                                                                  "strategicTheme": "Knight activity",
+                                                                                                  "source": "generated"
+                                                                                                }
+                                                                                              },
+                                                                                              {
+                                                                                                "move": "Nxe5",
+                                                                                                "fen": "r1bqkb1r/5ppp/p3pn2/1N2n3/3p4/3B1N2/PP3PPP/R1BQK2R w KQkq - 0 12",
+                                                                                                "children": [
+                                                                                                  {
+                                                                                                    "move": "Nxe5",
+                                                                                                    "fen": "r1bqkb1r/5ppp/p3pn2/1N2N3/3p4/3B4/PP3PPP/R1BQK2R b KQkq - 0 12",
+                                                                                                    "children": [
+                                                                                                      {
+                                                                                                        "move": "axb5",
+                                                                                                        "fen": "r1bqkb1r/5ppp/4pn2/1p2N3/3p4/3B4/PP3PPP/R1BQK2R w KQkq - 0 13",
+                                                                                                        "children": [
+                                                                                                          {
+                                                                                                            "move": "Qf3",
+                                                                                                            "fen": "r1bqkb1r/5ppp/4pn2/1p2N3/3p4/3B1Q2/PP3PPP/R1B1K2R b KQkq - 1 13",
+                                                                                                            "children": [],
+                                                                                                            "isMainLine": true,
+                                                                                                            "annotation": {
+                                                                                                              "moveRationale": "Qf3 activates the queen, increasing pressure in the Semi-Slav Defense.",
+                                                                                                              "strategicTheme": "Queen activity",
+                                                                                                              "source": "generated"
+                                                                                                            }
+                                                                                                          }
+                                                                                                        ],
+                                                                                                        "isMainLine": true,
+                                                                                                        "annotation": {
+                                                                                                          "moveRationale": "axb5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                                          "strategicTheme": "Material exchange",
+                                                                                                          "source": "generated"
+                                                                                                        }
+                                                                                                      }
+                                                                                                    ],
+                                                                                                    "isMainLine": true,
+                                                                                                    "annotation": {
+                                                                                                      "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                                      "strategicTheme": "Material exchange",
+                                                                                                      "source": "generated"
+                                                                                                    }
+                                                                                                  }
+                                                                                                ],
+                                                                                                "isMainLine": true,
+                                                                                                "annotation": {
+                                                                                                  "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",
+                                                                                                  "strategicTheme": "Material exchange",
+                                                                                                  "source": "generated"
+                                                                                                }
+                                                                                              }
+                                                                                            ],
                                                                                             "isMainLine": true,
                                                                                             "annotation": {
                                                                                               "moveRationale": "Nxb5 exchanges material, altering the pawn structure in the Semi-Slav Defense.",

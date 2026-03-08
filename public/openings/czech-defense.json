@@ -33,7 +33,113 @@
                               {
                                 "move": "c6",
                                 "fen": "rnbqkb1r/pp2pppp/2pp1n2/8/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4",
-                                "children": [],
+                                "children": [
+                                  {
+                                    "move": "Be2",
+                                    "fen": "rnbqkb1r/pp2pppp/2pp1n2/8/3PP3/2N5/PPP1BPPP/R1BQK1NR b KQkq - 1 4",
+                                    "children": [
+                                      {
+                                        "move": "Nbd7",
+                                        "fen": "r1bqkb1r/pp1npppp/2pp1n2/8/3PP3/2N5/PPP1BPPP/R1BQK1NR w KQkq - 2 5",
+                                        "children": [
+                                          {
+                                            "move": "Nf3",
+                                            "fen": "r1bqkb1r/pp1npppp/2pp1n2/8/3PP3/2N2N2/PPP1BPPP/R1BQK2R b KQkq - 3 5",
+                                            "children": [
+                                              {
+                                                "move": "e5",
+                                                "fen": "r1bqkb1r/pp1n1ppp/2pp1n2/4p3/3PP3/2N2N2/PPP1BPPP/R1BQK2R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "O-O",
+                                                    "fen": "r1bqkb1r/pp1n1ppp/2pp1n2/4p3/3PP3/2N2N2/PPP1BPPP/R1BQ1RK1 b kq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Be7",
+                                                        "fen": "r1bqk2r/pp1nbppp/2pp1n2/4p3/3PP3/2N2N2/PPP1BPPP/R1BQ1RK1 w kq - 2 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Czech Defense.",
+                                                          "strategicTheme": "Bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Czech Defense.",
+                                                      "strategicTheme": "King safety",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "e5 advances a pawn, influencing the structure in the Czech Defense.",
+                                                  "strategicTheme": "Pawn structure",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Nf3 develops a piece to an active square in the Czech Defense.",
+                                              "strategicTheme": "Natural piece development",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Nbd7 develops a piece to an active square in the Czech Defense.",
+                                          "strategicTheme": "Knight activity",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Be2 develops the bishop to a modest but solid square, preparing to castle in the Czech Defense.",
+                                      "strategicTheme": "Bishop development",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "f4",
+                                    "fen": "rnbqkb1r/pp2pppp/2pp1n2/8/3PPP2/2N5/PPP3PP/R1BQKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Qa5",
+                                        "fen": "rnb1kb1r/pp2pppp/2pp1n2/q7/3PPP2/2N5/PPP3PP/R1BQKBNR w KQkq - 1 5",
+                                        "children": [],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Qa5 activates the queen, increasing pressure in the Czech Defense.",
+                                          "strategicTheme": "Queen activity",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "f4 advances a pawn, influencing the structure in the Czech Defense.",
+                                      "strategicTheme": "Aggressive kingside expansion",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "Nf3",
+                                    "fen": "rnbqkb1r/pp2pppp/2pp1n2/8/3PP3/2N2N2/PPP2PPP/R1BQKB1R b KQkq - 1 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Nf3 develops a piece to an active square in the Czech Defense.",
+                                      "strategicTheme": "Natural piece development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
                                 "isMainLine": true,
                                 "annotation": {
                                   "moveRationale": "c6 advances a pawn, influencing the structure in the Czech Defense.",

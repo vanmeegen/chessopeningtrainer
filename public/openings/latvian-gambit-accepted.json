@@ -29,7 +29,19 @@
                           {
                             "move": "exf5",
                             "fen": "rnbqkbnr/pppp2pp/8/4pP2/8/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "e4",
+                                "fen": "rnbqkbnr/pppp2pp/8/5P2/4p3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "e4 impacts the center, shaping the pawn structure in the Latvian Gambit Accepted.",
+                                  "strategicTheme": "Central tension",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": true,
                             "annotation": {
                               "moveRationale": "exf5 exchanges material, altering the pawn structure in the Latvian Gambit Accepted.",

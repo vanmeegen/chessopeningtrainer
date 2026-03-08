@@ -50,7 +50,7 @@
                                                 "move": "f5",
                                                 "fen": "r1bqkbnr/ppp3pp/2n5/4Pp2/3pN3/6P1/PPP1PP1P/R1BQKBNR w KQkq f6 0 6",
                                                 "children": [],
-                                                "isMainLine": true,
+                                                "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "f5 advances a pawn, influencing the structure in the Hungarian Opening.",
                                                   "strategicTheme": "Pawn structure",
@@ -58,7 +58,7 @@
                                                 }
                                               }
                                             ],
-                                            "isMainLine": true,
+                                            "isMainLine": false,
                                             "annotation": {
                                               "moveRationale": "Ne4 develops a piece to an active square in the Hungarian Opening.",
                                               "strategicTheme": "Knight activity",
@@ -66,7 +66,7 @@
                                             }
                                           }
                                         ],
-                                        "isMainLine": true,
+                                        "isMainLine": false,
                                         "annotation": {
                                           "moveRationale": "d4 impacts the center, shaping the pawn structure in the Hungarian Opening.",
                                           "strategicTheme": "Central tension",
@@ -74,7 +74,7 @@
                                         }
                                       }
                                     ],
-                                    "isMainLine": true,
+                                    "isMainLine": false,
                                     "annotation": {
                                       "moveRationale": "dxe5 exchanges material, altering the pawn structure in the Hungarian Opening.",
                                       "strategicTheme": "Material exchange",
@@ -82,7 +82,7 @@
                                     }
                                   }
                                 ],
-                                "isMainLine": true,
+                                "isMainLine": false,
                                 "annotation": {
                                   "moveRationale": "e5 advances a pawn, influencing the structure in the Hungarian Opening.",
                                   "strategicTheme": "Pawn structure",
@@ -90,7 +90,7 @@
                                 }
                               }
                             ],
-                            "isMainLine": true,
+                            "isMainLine": false,
                             "annotation": {
                               "moveRationale": "d4 impacts the center, shaping the pawn structure in the Hungarian Opening.",
                               "strategicTheme": "Central tension",
@@ -98,7 +98,7 @@
                             }
                           }
                         ],
-                        "isMainLine": true,
+                        "isMainLine": false,
                         "annotation": {
                           "moveRationale": "d5 advances a pawn, influencing the structure in the Hungarian Opening.",
                           "strategicTheme": "Pawn structure",
@@ -106,7 +106,7 @@
                         }
                       }
                     ],
-                    "isMainLine": true,
+                    "isMainLine": false,
                     "annotation": {
                       "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Hungarian Opening.",
                       "strategicTheme": "Natural piece development",
@@ -114,7 +114,7 @@
                     }
                   }
                 ],
-                "isMainLine": true,
+                "isMainLine": false,
                 "annotation": {
                   "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Hungarian Opening.",
                   "strategicTheme": "Natural piece development",
@@ -235,8 +235,32 @@
                                           {
                                             "move": "O-O",
                                             "fen": "rn1qkbnr/ppp2ppp/8/3p4/5p2/6PB/PPPPP2P/RNBQ1RK1 b kq - 1 5",
-                                            "children": [],
-                                            "isMainLine": false,
+                                            "children": [
+                                              {
+                                                "move": "fxg3",
+                                                "fen": "rn1qkbnr/ppp2ppp/8/3p4/8/6pB/PPPPP2P/RNBQ1RK1 w kq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "hxg3",
+                                                    "fen": "rn1qkbnr/ppp2ppp/8/3p4/8/6PB/PPPPP3/RNBQ1RK1 b kq - 0 6",
+                                                    "children": [],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "hxg3 exchanges material, altering the pawn structure in the Hungarian Opening.",
+                                                      "strategicTheme": "Material exchange",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "fxg3 exchanges material, altering the pawn structure in the Hungarian Opening.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
                                             "annotation": {
                                               "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Hungarian Opening.",
                                               "strategicTheme": "Early king safety",
@@ -244,7 +268,7 @@
                                             }
                                           }
                                         ],
-                                        "isMainLine": false,
+                                        "isMainLine": true,
                                         "annotation": {
                                           "moveRationale": "exf4 impacts the center, shaping the pawn structure in the Hungarian Opening.",
                                           "strategicTheme": "Central tension",
@@ -252,7 +276,7 @@
                                         }
                                       }
                                     ],
-                                    "isMainLine": false,
+                                    "isMainLine": true,
                                     "annotation": {
                                       "moveRationale": "Bxh3 exchanges material, altering the pawn structure in the Hungarian Opening.",
                                       "strategicTheme": "Material exchange",
@@ -260,7 +284,7 @@
                                     }
                                   }
                                 ],
-                                "isMainLine": false,
+                                "isMainLine": true,
                                 "annotation": {
                                   "moveRationale": "Bxh3 exchanges material, altering the pawn structure in the Hungarian Opening.",
                                   "strategicTheme": "Material exchange",
@@ -268,7 +292,7 @@
                                 }
                               }
                             ],
-                            "isMainLine": false,
+                            "isMainLine": true,
                             "annotation": {
                               "moveRationale": "f4 advances a pawn, influencing the structure in the Hungarian Opening.",
                               "strategicTheme": "Aggressive kingside expansion",
@@ -276,7 +300,7 @@
                             }
                           }
                         ],
-                        "isMainLine": false,
+                        "isMainLine": true,
                         "annotation": {
                           "moveRationale": "d5 advances a pawn, influencing the structure in the Hungarian Opening.",
                           "strategicTheme": "Pawn structure",
@@ -284,7 +308,7 @@
                         }
                       }
                     ],
-                    "isMainLine": false,
+                    "isMainLine": true,
                     "annotation": {
                       "moveRationale": "Nh3 develops a piece to an active square in the Hungarian Opening.",
                       "strategicTheme": "Knight activity",
@@ -362,11 +386,11 @@
                     }
                   }
                 ],
-                "isMainLine": false,
+                "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Hungarian Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black has placed a pawn in the centre of the board, gaining space and taking over the d4- and f4-squares. Black also discourages the natural 2.",
+                  "strategicTheme": "Piece development",
+                  "source": "wikibooks"
                 }
               },
               {
@@ -494,17 +518,17 @@
                     ],
                     "isMainLine": false,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Hungarian Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "#redirect Chess Opening Theory/1.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": false,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Hungarian Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "This is Black’s most common reply. By placing a pawn in the centre, White must react fast so as to not surrender the whole centre to Black.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               },
               {
@@ -572,9 +596,9 @@
                 "children": [],
                 "isMainLine": false,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Hungarian Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black responds to White’s hypermodern idea with a hypermodern idea of their own. By developing the knight to f6, Black is playing a flexible move that allows for many transpositions to occur, while also attacking the centre from afar.",
+                  "strategicTheme": "Piece development",
+                  "source": "wikibooks"
                 }
               },
               {
@@ -605,9 +629,9 @@
                 "children": [],
                 "isMainLine": false,
                 "annotation": {
-                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Hungarian Opening.",
-                  "strategicTheme": "Fianchetto preparation",
-                  "source": "generated"
+                  "moveRationale": "Black mirrors White’s move, and prepares to fianchetto their own king’s bishop with an eventual …Bg7 in order to control part of the centre and place pressure on White’s queenside. Play could now continue in a symmetrical vein with 2.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               },
               {
@@ -624,9 +648,9 @@
                         "children": [],
                         "isMainLine": false,
                         "annotation": {
-                          "moveRationale": "h4 advances a pawn, influencing the structure in the Hungarian Opening.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Black sacrifices a pawn to open the h-file. gxh4 this move is mistake.",
+                          "strategicTheme": "Tactical sacrifice",
+                          "source": "wikibooks"
                         }
                       }
                     ],
@@ -640,17 +664,17 @@
                 ],
                 "isMainLine": false,
                 "annotation": {
-                  "moveRationale": "h5 advances a pawn, influencing the structure in the Hungarian Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "interesting move. Black wants to advance the pawn to h4 to open the h-file.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Hungarian Opening.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "g3, the Hungarian Opening (also known as the Benko's Opening and the King's Fianchetto Opening) is the 5th most popular initial move. It is highly transpositional, and can lead to many other mainstream openings.",
+              "strategicTheme": "King safety",
+              "source": "wikibooks"
             }
           }
         ],
@@ -779,9 +803,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Hungarian Opening.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "g3, the Hungarian Opening (also known as the Benko's Opening and the King's Fianchetto Opening) is the 5th most popular initial move. It is highly transpositional, and can lead to many other mainstream openings.",
+              "strategicTheme": "King safety",
+              "source": "wikibooks"
             }
           }
         ],
@@ -890,17 +914,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Hungarian Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black has placed a pawn in the centre of the board, gaining space and taking over the d4- and f4-squares. Black also discourages the natural 2.",
+                  "strategicTheme": "Piece development",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Hungarian Opening.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "g3, the Hungarian Opening (also known as the Benko's Opening and the King's Fianchetto Opening) is the 5th most popular initial move. It is highly transpositional, and can lead to many other mainstream openings.",
+              "strategicTheme": "King safety",
+              "source": "wikibooks"
             }
           }
         ],
@@ -961,17 +985,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Hungarian Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "This is Black’s most common reply. By placing a pawn in the centre, White must react fast so as to not surrender the whole centre to Black.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Hungarian Opening.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "g3, the Hungarian Opening (also known as the Benko's Opening and the King's Fianchetto Opening) is the 5th most popular initial move. It is highly transpositional, and can lead to many other mainstream openings.",
+              "strategicTheme": "King safety",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1020,17 +1044,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Hungarian Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "This is Black’s most common reply. By placing a pawn in the centre, White must react fast so as to not surrender the whole centre to Black.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Hungarian Opening.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "g3, the Hungarian Opening (also known as the Benko's Opening and the King's Fianchetto Opening) is the 5th most popular initial move. It is highly transpositional, and can lead to many other mainstream openings.",
+              "strategicTheme": "King safety",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1111,9 +1135,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Hungarian Opening.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "g3, the Hungarian Opening (also known as the Benko's Opening and the King's Fianchetto Opening) is the 5th most popular initial move. It is highly transpositional, and can lead to many other mainstream openings.",
+              "strategicTheme": "King safety",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1138,17 +1162,17 @@
                 "children": [],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Hungarian Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black responds to White’s hypermodern idea with a hypermodern idea of their own. By developing the knight to f6, Black is playing a flexible move that allows for many transpositions to occur, while also attacking the centre from afar.",
+                  "strategicTheme": "Piece development",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Hungarian Opening.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "g3, the Hungarian Opening (also known as the Benko's Opening and the King's Fianchetto Opening) is the 5th most popular initial move. It is highly transpositional, and can lead to many other mainstream openings.",
+              "strategicTheme": "King safety",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1181,9 +1205,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Hungarian Opening.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "g3, the Hungarian Opening (also known as the Benko's Opening and the King's Fianchetto Opening) is the 5th most popular initial move. It is highly transpositional, and can lead to many other mainstream openings.",
+              "strategicTheme": "King safety",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1264,9 +1288,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Hungarian Opening.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "g3, the Hungarian Opening (also known as the Benko's Opening and the King's Fianchetto Opening) is the 5th most popular initial move. It is highly transpositional, and can lead to many other mainstream openings.",
+              "strategicTheme": "King safety",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1316,7 +1340,31 @@
                                           {
                                             "move": "O-O",
                                             "fen": "rn1qkbnr/ppp2ppp/8/3p4/5p2/6PB/PPPPP2P/RNBQ1RK1 b kq - 1 5",
-                                            "children": [],
+                                            "children": [
+                                              {
+                                                "move": "fxg3",
+                                                "fen": "rn1qkbnr/ppp2ppp/8/3p4/8/6pB/PPPPP2P/RNBQ1RK1 w kq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "hxg3",
+                                                    "fen": "rn1qkbnr/ppp2ppp/8/3p4/8/6PB/PPPPP3/RNBQ1RK1 b kq - 0 6",
+                                                    "children": [],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "hxg3 exchanges material, altering the pawn structure in the Hungarian Opening.",
+                                                      "strategicTheme": "Material exchange",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "fxg3 exchanges material, altering the pawn structure in the Hungarian Opening.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": true,
                                             "annotation": {
                                               "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Hungarian Opening.",
@@ -1375,17 +1423,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Hungarian Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black has placed a pawn in the centre of the board, gaining space and taking over the d4- and f4-squares. Black also discourages the natural 2.",
+                  "strategicTheme": "Piece development",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Hungarian Opening.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "g3, the Hungarian Opening (also known as the Benko's Opening and the King's Fianchetto Opening) is the 5th most popular initial move. It is highly transpositional, and can lead to many other mainstream openings.",
+              "strategicTheme": "King safety",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1481,17 +1529,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Hungarian Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black has placed a pawn in the centre of the board, gaining space and taking over the d4- and f4-squares. Black also discourages the natural 2.",
+                  "strategicTheme": "Piece development",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Hungarian Opening.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "g3, the Hungarian Opening (also known as the Benko's Opening and the King's Fianchetto Opening) is the 5th most popular initial move. It is highly transpositional, and can lead to many other mainstream openings.",
+              "strategicTheme": "King safety",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1576,17 +1624,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Hungarian Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black has placed a pawn in the centre of the board, gaining space and taking over the d4- and f4-squares. Black also discourages the natural 2.",
+                  "strategicTheme": "Piece development",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Hungarian Opening.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "g3, the Hungarian Opening (also known as the Benko's Opening and the King's Fianchetto Opening) is the 5th most popular initial move. It is highly transpositional, and can lead to many other mainstream openings.",
+              "strategicTheme": "King safety",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1635,17 +1683,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Hungarian Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "This is Black’s most common reply. By placing a pawn in the centre, White must react fast so as to not surrender the whole centre to Black.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Hungarian Opening.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "g3, the Hungarian Opening (also known as the Benko's Opening and the King's Fianchetto Opening) is the 5th most popular initial move. It is highly transpositional, and can lead to many other mainstream openings.",
+              "strategicTheme": "King safety",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1706,17 +1754,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Hungarian Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black has placed a pawn in the centre of the board, gaining space and taking over the d4- and f4-squares. Black also discourages the natural 2.",
+                  "strategicTheme": "Piece development",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Hungarian Opening.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "g3, the Hungarian Opening (also known as the Benko's Opening and the King's Fianchetto Opening) is the 5th most popular initial move. It is highly transpositional, and can lead to many other mainstream openings.",
+              "strategicTheme": "King safety",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1749,9 +1797,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Hungarian Opening.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "g3, the Hungarian Opening (also known as the Benko's Opening and the King's Fianchetto Opening) is the 5th most popular initial move. It is highly transpositional, and can lead to many other mainstream openings.",
+              "strategicTheme": "King safety",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1800,17 +1848,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Hungarian Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "This is Black’s most common reply. By placing a pawn in the centre, White must react fast so as to not surrender the whole centre to Black.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Hungarian Opening.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "g3, the Hungarian Opening (also known as the Benko's Opening and the King's Fianchetto Opening) is the 5th most popular initial move. It is highly transpositional, and can lead to many other mainstream openings.",
+              "strategicTheme": "King safety",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1835,17 +1883,17 @@
                 "children": [],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Hungarian Opening.",
-                  "strategicTheme": "Fianchetto preparation",
-                  "source": "generated"
+                  "moveRationale": "Black mirrors White’s move, and prepares to fianchetto their own king’s bishop with an eventual …Bg7 in order to control part of the centre and place pressure on White’s queenside. Play could now continue in a symmetrical vein with 2.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Hungarian Opening.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "g3, the Hungarian Opening (also known as the Benko's Opening and the King's Fianchetto Opening) is the 5th most popular initial move. It is highly transpositional, and can lead to many other mainstream openings.",
+              "strategicTheme": "King safety",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1878,9 +1926,9 @@
                         "children": [],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "h4 advances a pawn, influencing the structure in the Hungarian Opening.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Black sacrifices a pawn to open the h-file. gxh4 this move is mistake.",
+                          "strategicTheme": "Tactical sacrifice",
+                          "source": "wikibooks"
                         }
                       }
                     ],
@@ -1894,17 +1942,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "h5 advances a pawn, influencing the structure in the Hungarian Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "interesting move. Black wants to advance the pawn to h4 to open the h-file.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Hungarian Opening.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "g3, the Hungarian Opening (also known as the Benko's Opening and the King's Fianchetto Opening) is the 5th most popular initial move. It is highly transpositional, and can lead to many other mainstream openings.",
+              "strategicTheme": "King safety",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1989,17 +2037,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Hungarian Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "This is Black’s most common reply. By placing a pawn in the centre, White must react fast so as to not surrender the whole centre to Black.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Hungarian Opening.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "g3, the Hungarian Opening (also known as the Benko's Opening and the King's Fianchetto Opening) is the 5th most popular initial move. It is highly transpositional, and can lead to many other mainstream openings.",
+              "strategicTheme": "King safety",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2040,25 +2088,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Hungarian Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "#redirect Chess Opening Theory/1.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Hungarian Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "This is Black’s most common reply. By placing a pawn in the centre, White must react fast so as to not surrender the whole centre to Black.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Hungarian Opening.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "g3, the Hungarian Opening (also known as the Benko's Opening and the King's Fianchetto Opening) is the 5th most popular initial move. It is highly transpositional, and can lead to many other mainstream openings.",
+              "strategicTheme": "King safety",
+              "source": "wikibooks"
             }
           }
         ],

@@ -13,12 +13,237 @@
           {
             "move": "c3",
             "fen": "rnbqkbnr/pppppppp/8/8/8/2P5/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
-            "children": [],
+            "children": [
+              {
+                "move": "e5",
+                "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/2P5/PP1PPPPP/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "a3",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/P1P5/1P1PPPPP/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "d5",
+                        "fen": "rnbqkbnr/ppp2ppp/8/3pp3/8/P1P5/1P1PPPPP/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "b3",
+                            "fen": "rnbqkbnr/ppp2ppp/8/3pp3/8/PPP5/3PPPPP/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Nf6",
+                                "fen": "rnbqkb1r/ppp2ppp/5n2/3pp3/8/PPP5/3PPPPP/RNBQKBNR w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "Bb2",
+                                    "fen": "rnbqkb1r/ppp2ppp/5n2/3pp3/8/PPP5/1B1PPPPP/RN1QKBNR b KQkq - 2 4",
+                                    "children": [
+                                      {
+                                        "move": "Nc6",
+                                        "fen": "r1bqkb1r/ppp2ppp/2n2n2/3pp3/8/PPP5/1B1PPPPP/RN1QKBNR w KQkq - 3 5",
+                                        "children": [
+                                          {
+                                            "move": "a4",
+                                            "fen": "r1bqkb1r/ppp2ppp/2n2n2/3pp3/P7/1PP5/1B1PPPPP/RN1QKBNR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Bd6",
+                                                "fen": "r1bqk2r/ppp2ppp/2nb1n2/3pp3/P7/1PP5/1B1PPPPP/RN1QKBNR w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "g3",
+                                                    "fen": "r1bqk2r/ppp2ppp/2nb1n2/3pp3/P7/1PP3P1/1B1PPP1P/RN1QKBNR b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "O-O",
+                                                        "fen": "r1bq1rk1/ppp2ppp/2nb1n2/3pp3/P7/1PP3P1/1B1PPP1P/RN1QKBNR w KQ - 1 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Saragossa Opening.",
+                                                          "strategicTheme": "King safety",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Saragossa Opening.",
+                                                      "strategicTheme": "Fianchetto preparation",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Bd6 develops a piece to an active square in the Saragossa Opening.",
+                                                  "strategicTheme": "Bishop development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "a4 advances a pawn, influencing the structure in the Saragossa Opening.",
+                                              "strategicTheme": "Pawn structure",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Saragossa Opening.",
+                                          "strategicTheme": "Natural piece development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Bb2 develops a piece to an active square in the Saragossa Opening.",
+                                      "strategicTheme": "Bishop development",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "d3",
+                                    "fen": "rnbqkb1r/ppp2ppp/5n2/3pp3/8/PPPP4/4PPPP/RNBQKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Nc6",
+                                        "fen": "r1bqkb1r/ppp2ppp/2n2n2/3pp3/8/PPPP4/4PPPP/RNBQKBNR w KQkq - 1 5",
+                                        "children": [
+                                          {
+                                            "move": "e3",
+                                            "fen": "r1bqkb1r/ppp2ppp/2n2n2/3pp3/8/PPPPP3/5PPP/RNBQKBNR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Bd6",
+                                                "fen": "r1bqk2r/ppp2ppp/2nb1n2/3pp3/8/PPPPP3/5PPP/RNBQKBNR w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "f3",
+                                                    "fen": "r1bqk2r/ppp2ppp/2nb1n2/3pp3/8/PPPPPP2/6PP/RNBQKBNR b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "O-O",
+                                                        "fen": "r1bq1rk1/ppp2ppp/2nb1n2/3pp3/8/PPPPPP2/6PP/RNBQKBNR w KQ - 1 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Saragossa Opening.",
+                                                          "strategicTheme": "King safety",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "f3 advances a pawn, influencing the structure in the Saragossa Opening.",
+                                                      "strategicTheme": "Prophylactic pawn move",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Bd6 develops a piece to an active square in the Saragossa Opening.",
+                                                  "strategicTheme": "Bishop development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Saragossa Opening.",
+                                              "strategicTheme": "Solid center support",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Saragossa Opening.",
+                                          "strategicTheme": "Natural piece development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Saragossa Opening.",
+                                      "strategicTheme": "Solid center support",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Nf6 develops a piece to an active square in the Saragossa Opening.",
+                                  "strategicTheme": "Natural piece development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Saragossa Opening.",
+                              "strategicTheme": "Fianchetto preparation",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "d5 advances a pawn, influencing the structure in the Saragossa Opening.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "a3 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Saragossa Opening.",
+                      "strategicTheme": "Prophylactic pawn move",
+                      "source": "generated"
+                    }
+                  },
+                  {
+                    "move": "Qc2",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/2P5/PPQPPPPP/RNB1KBNR b KQkq - 1 2",
+                    "children": [],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "Qc2 develops the queen early, seeking direct activity in the Saragossa Opening.",
+                      "strategicTheme": "Queen activity",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "e5 advances a pawn, influencing the structure in the Saragossa Opening.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "c5",
+                "fen": "rnbqkbnr/pp1ppppp/8/2p5/8/2P5/PP1PPPPP/RNBQKBNR w KQkq - 0 2",
+                "children": [],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "c5 challenges the center from the flank in the Saragossa Opening.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              }
+            ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "c3 advances a pawn, influencing the structure in the Saragossa Opening.",
-              "strategicTheme": "Prophylactic pawn move",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nA rarely played move as it takes away the knight's developing square c3. It is likely to transpose into a London System, Torre Attack, or Colle System, where the pawn structure is generally c3, d4, e3, or e5 depending on Black's moves.",
+              "strategicTheme": "Piece development",
+              "source": "wikibooks"
             }
           }
         ],

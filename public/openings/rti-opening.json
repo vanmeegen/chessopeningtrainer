@@ -237,7 +237,19 @@
                                                   {
                                                     "move": "Bb2",
                                                     "fen": "rnbqk2r/pp2bppp/2p1pn2/3p4/2P5/1P3NP1/PB1PPPBP/RN1QK2R b KQkq - 2 6",
-                                                    "children": [],
+                                                    "children": [
+                                                      {
+                                                        "move": "O-O",
+                                                        "fen": "rnbq1rk1/pp2bppp/2p1pn2/3p4/2P5/1P3NP1/PB1PPPBP/RN1QK2R w KQ - 3 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Réti Opening.",
+                                                          "strategicTheme": "King safety",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
                                                     "isMainLine": false,
                                                     "annotation": {
                                                       "moveRationale": "Bb2 develops a piece to an active square in the Réti Opening.",
@@ -431,9 +443,9 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
@@ -571,9 +583,9 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
@@ -654,9 +666,9 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
@@ -737,9 +749,9 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
@@ -808,9 +820,9 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
@@ -903,9 +915,9 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
@@ -986,9 +998,9 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
@@ -1069,9 +1081,9 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
@@ -1128,9 +1140,9 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
@@ -2657,7 +2669,43 @@
                                       {
                                         "move": "Bf5",
                                         "fen": "rn1qkb1r/pp2pppp/2p2n2/3p1b2/2P5/1P3NP1/P2PPP1P/RNBQKB1R w KQkq - 1 5",
-                                        "children": [],
+                                        "children": [
+                                          {
+                                            "move": "Bg2",
+                                            "fen": "rn1qkb1r/pp2pppp/2p2n2/3p1b2/2P5/1P3NP1/P2PPPBP/RNBQK2R b KQkq - 2 5",
+                                            "children": [
+                                              {
+                                                "move": "e6",
+                                                "fen": "rn1qkb1r/pp3ppp/2p1pn2/3p1b2/2P5/1P3NP1/P2PPPBP/RNBQK2R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bb2",
+                                                    "fen": "rn1qkb1r/pp3ppp/2p1pn2/3p1b2/2P5/1P3NP1/PB1PPPBP/RN1QK2R b KQkq - 1 6",
+                                                    "children": [],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Bb2 develops a piece to an active square in the Réti Opening.",
+                                                      "strategicTheme": "Bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "e6 advances a pawn, influencing the structure in the Réti Opening.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Bg2 develops a piece to an active square in the Réti Opening.",
+                                              "strategicTheme": "Bishop development",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
                                         "isMainLine": true,
                                         "annotation": {
                                           "moveRationale": "Bf5 develops a piece to an active square in the Réti Opening.",
@@ -2668,7 +2716,43 @@
                                       {
                                         "move": "Bg4",
                                         "fen": "rn1qkb1r/pp2pppp/2p2n2/3p4/2P3b1/1P3NP1/P2PPP1P/RNBQKB1R w KQkq - 1 5",
-                                        "children": [],
+                                        "children": [
+                                          {
+                                            "move": "Bg2",
+                                            "fen": "rn1qkb1r/pp2pppp/2p2n2/3p4/2P3b1/1P3NP1/P2PPPBP/RNBQK2R b KQkq - 2 5",
+                                            "children": [
+                                              {
+                                                "move": "e6",
+                                                "fen": "rn1qkb1r/pp3ppp/2p1pn2/3p4/2P3b1/1P3NP1/P2PPPBP/RNBQK2R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bb2",
+                                                    "fen": "rn1qkb1r/pp3ppp/2p1pn2/3p4/2P3b1/1P3NP1/PB1PPPBP/RN1QK2R b KQkq - 1 6",
+                                                    "children": [],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Bb2 develops a piece to an active square in the Réti Opening.",
+                                                      "strategicTheme": "Bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "e6 advances a pawn, influencing the structure in the Réti Opening.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Bg2 develops a piece to an active square in the Réti Opening.",
+                                              "strategicTheme": "Bishop development",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
                                         "isMainLine": false,
                                         "annotation": {
                                           "moveRationale": "Bg4 develops a piece to an active square in the Réti Opening.",
@@ -2786,7 +2870,31 @@
                                       {
                                         "move": "c6",
                                         "fen": "rnbqkb1r/pp2pp1p/2p2np1/3p4/2P5/1P3N2/PB1PPPPP/RN1QKB1R w KQkq - 0 5",
-                                        "children": [],
+                                        "children": [
+                                          {
+                                            "move": "e3",
+                                            "fen": "rnbqkb1r/pp2pp1p/2p2np1/3p4/2P5/1P2PN2/PB1P1PPP/RN1QKB1R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Bg7",
+                                                "fen": "rnbqk2r/pp2ppbp/2p2np1/3p4/2P5/1P2PN2/PB1P1PPP/RN1QKB1R w KQkq - 1 6",
+                                                "children": [],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Bg7 develops a piece to an active square in the Réti Opening.",
+                                                  "strategicTheme": "Bishop development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Réti Opening.",
+                                              "strategicTheme": "Solid center support",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
                                         "isMainLine": true,
                                         "annotation": {
                                           "moveRationale": "c6 advances a pawn, influencing the structure in the Réti Opening.",
@@ -2837,9 +2945,9 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
@@ -2943,9 +3051,9 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
@@ -3026,9 +3134,9 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
@@ -3121,9 +3229,9 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
@@ -3216,9 +3324,9 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
@@ -3379,7 +3487,43 @@
                                       {
                                         "move": "Bf5",
                                         "fen": "rn1qkb1r/pp2pppp/2p2n2/3p1b2/2P5/1P3NP1/P2PPP1P/RNBQKB1R w KQkq - 1 5",
-                                        "children": [],
+                                        "children": [
+                                          {
+                                            "move": "Bg2",
+                                            "fen": "rn1qkb1r/pp2pppp/2p2n2/3p1b2/2P5/1P3NP1/P2PPPBP/RNBQK2R b KQkq - 2 5",
+                                            "children": [
+                                              {
+                                                "move": "e6",
+                                                "fen": "rn1qkb1r/pp3ppp/2p1pn2/3p1b2/2P5/1P3NP1/P2PPPBP/RNBQK2R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bb2",
+                                                    "fen": "rn1qkb1r/pp3ppp/2p1pn2/3p1b2/2P5/1P3NP1/PB1PPPBP/RN1QK2R b KQkq - 1 6",
+                                                    "children": [],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Bb2 develops a piece to an active square in the Réti Opening.",
+                                                      "strategicTheme": "Bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "e6 advances a pawn, influencing the structure in the Réti Opening.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Bg2 develops a piece to an active square in the Réti Opening.",
+                                              "strategicTheme": "Bishop development",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
                                         "isMainLine": true,
                                         "annotation": {
                                           "moveRationale": "Bf5 develops a piece to an active square in the Réti Opening.",
@@ -3593,7 +3737,43 @@
                                       {
                                         "move": "Bg4",
                                         "fen": "rn1qkb1r/pp2pppp/2p2n2/3p4/2P3b1/1P3NP1/P2PPP1P/RNBQKB1R w KQkq - 1 5",
-                                        "children": [],
+                                        "children": [
+                                          {
+                                            "move": "Bg2",
+                                            "fen": "rn1qkb1r/pp2pppp/2p2n2/3p4/2P3b1/1P3NP1/P2PPPBP/RNBQK2R b KQkq - 2 5",
+                                            "children": [
+                                              {
+                                                "move": "e6",
+                                                "fen": "rn1qkb1r/pp3ppp/2p1pn2/3p4/2P3b1/1P3NP1/P2PPPBP/RNBQK2R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bb2",
+                                                    "fen": "rn1qkb1r/pp3ppp/2p1pn2/3p4/2P3b1/1P3NP1/PB1PPPBP/RN1QK2R b KQkq - 1 6",
+                                                    "children": [],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Bb2 develops a piece to an active square in the Réti Opening.",
+                                                      "strategicTheme": "Bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "e6 advances a pawn, influencing the structure in the Réti Opening.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Bg2 develops a piece to an active square in the Réti Opening.",
+                                              "strategicTheme": "Bishop development",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
                                         "isMainLine": true,
                                         "annotation": {
                                           "moveRationale": "Bg4 develops a piece to an active square in the Réti Opening.",
@@ -3819,7 +3999,19 @@
                                                   {
                                                     "move": "Bb2",
                                                     "fen": "rnbqk2r/pp2bppp/2p1pn2/3p4/2P5/1P3NP1/PB1PPPBP/RN1QK2R b KQkq - 2 6",
-                                                    "children": [],
+                                                    "children": [
+                                                      {
+                                                        "move": "O-O",
+                                                        "fen": "rnbq1rk1/pp2bppp/2p1pn2/3p4/2P5/1P3NP1/PB1PPPBP/RN1QK2R w KQ - 3 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Réti Opening.",
+                                                          "strategicTheme": "King safety",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
                                                     "isMainLine": true,
                                                     "annotation": {
                                                       "moveRationale": "Bb2 develops a piece to an active square in the Réti Opening.",
@@ -3894,9 +4086,9 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
@@ -4061,9 +4253,9 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],

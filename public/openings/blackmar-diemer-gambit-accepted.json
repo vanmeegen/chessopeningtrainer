@@ -474,7 +474,54 @@
                                           {
                                             "move": "Qxf3",
                                             "fen": "rnbqkb1r/ppp1pppp/5n2/8/3P4/2N2Q2/PPP3PP/R1B1KBNR b KQkq - 0 5",
-                                            "children": [],
+                                            "children": [
+                                              {
+                                                "move": "Qxd4",
+                                                "fen": "rnb1kb1r/ppp1pppp/5n2/8/3q4/2N2Q2/PPP3PP/R1B1KBNR w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Be3",
+                                                    "fen": "rnb1kb1r/ppp1pppp/5n2/8/3q4/2N1BQ2/PPP3PP/R3KBNR b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Qg4",
+                                                        "fen": "rnb1kb1r/ppp1pppp/5n2/8/6q1/2N1BQ2/PPP3PP/R3KBNR w KQkq - 2 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Qg4 activates the queen, increasing pressure in the Blackmar-Diemer Gambit Accepted.",
+                                                          "strategicTheme": "Queen activity",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Be3 develops a piece to an active square in the Blackmar-Diemer Gambit Accepted.",
+                                                      "strategicTheme": "Bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Qxd4 exchanges material, altering the pawn structure in the Blackmar-Diemer Gambit Accepted.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "Nc6",
+                                                "fen": "r1bqkb1r/ppp1pppp/2n2n2/8/3P4/2N2Q2/PPP3PP/R1B1KBNR w KQkq - 1 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Blackmar-Diemer Gambit Accepted.",
+                                                  "strategicTheme": "Natural piece development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": false,
                                             "annotation": {
                                               "moveRationale": "Qxf3 exchanges material, altering the pawn structure in the Blackmar-Diemer Gambit Accepted.",
@@ -2845,7 +2892,54 @@
                                           {
                                             "move": "Qxf3",
                                             "fen": "rnbqkb1r/ppp1pppp/5n2/8/3P4/2N2Q2/PPP3PP/R1B1KBNR b KQkq - 0 5",
-                                            "children": [],
+                                            "children": [
+                                              {
+                                                "move": "Qxd4",
+                                                "fen": "rnb1kb1r/ppp1pppp/5n2/8/3q4/2N2Q2/PPP3PP/R1B1KBNR w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Be3",
+                                                    "fen": "rnb1kb1r/ppp1pppp/5n2/8/3q4/2N1BQ2/PPP3PP/R3KBNR b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Qg4",
+                                                        "fen": "rnb1kb1r/ppp1pppp/5n2/8/6q1/2N1BQ2/PPP3PP/R3KBNR w KQkq - 2 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Qg4 activates the queen, increasing pressure in the Blackmar-Diemer Gambit Accepted.",
+                                                          "strategicTheme": "Queen activity",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Be3 develops a piece to an active square in the Blackmar-Diemer Gambit Accepted.",
+                                                      "strategicTheme": "Bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Qxd4 exchanges material, altering the pawn structure in the Blackmar-Diemer Gambit Accepted.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "Nc6",
+                                                "fen": "r1bqkb1r/ppp1pppp/2n2n2/8/3P4/2N2Q2/PPP3PP/R1B1KBNR w KQkq - 1 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Blackmar-Diemer Gambit Accepted.",
+                                                  "strategicTheme": "Natural piece development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": true,
                                             "annotation": {
                                               "moveRationale": "Qxf3 exchanges material, altering the pawn structure in the Blackmar-Diemer Gambit Accepted.",

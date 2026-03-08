@@ -31,6 +31,99 @@
                             "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R b KQkq - 3 3",
                             "children": [
                               {
+                                "move": "Bb4",
+                                "fen": "r1bqk1nr/pppp1ppp/2n5/4p3/1b2P3/2N2N2/PPPP1PPP/R1BQKB1R w KQkq - 4 4",
+                                "children": [
+                                  {
+                                    "move": "Nd5",
+                                    "fen": "r1bqk1nr/pppp1ppp/2n5/3Np3/1b2P3/5N2/PPPP1PPP/R1BQKB1R b KQkq - 5 4",
+                                    "children": [
+                                      {
+                                        "move": "Nf6",
+                                        "fen": "r1bqk2r/pppp1ppp/2n2n2/3Np3/1b2P3/5N2/PPPP1PPP/R1BQKB1R w KQkq - 6 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Three Knights Opening.",
+                                          "strategicTheme": "Natural piece development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Nd5 develops a piece to an active square in the Three Knights Opening.",
+                                      "strategicTheme": "Knight activity",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Bb4 pins or eyes the knight, creating positional tension in the Three Knights Opening.",
+                                  "strategicTheme": "Bishop development",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "g6",
+                                "fen": "r1bqkbnr/pppp1p1p/2n3p1/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "d4",
+                                    "fen": "r1bqkbnr/pppp1p1p/2n3p1/4p3/3PP3/2N2N2/PPP2PPP/R1BQKB1R b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "exd4",
+                                        "fen": "r1bqkbnr/pppp1p1p/2n3p1/8/3pP3/2N2N2/PPP2PPP/R1BQKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "Nd5",
+                                            "fen": "r1bqkbnr/pppp1p1p/2n3p1/3N4/3pP3/5N2/PPP2PPP/R1BQKB1R b KQkq - 1 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Nd5 develops a piece to an active square in the Three Knights Opening.",
+                                              "strategicTheme": "Knight activity",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Three Knights Opening.",
+                                          "strategicTheme": "Central tension",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Three Knights Opening.",
+                                      "strategicTheme": "Central tension",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Three Knights Opening.",
+                                  "strategicTheme": "Fianchetto preparation",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "f5",
+                                "fen": "r1bqkbnr/pppp2pp/2n5/4pp2/4P3/2N2N2/PPPP1PPP/R1BQKB1R w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "f5 advances a pawn, influencing the structure in the Three Knights Opening.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              },
+                              {
                                 "move": "Nf6",
                                 "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R w KQkq - 4 4",
                                 "children": [
@@ -120,7 +213,31 @@
                                   {
                                     "move": "a3",
                                     "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/4P3/P1N2N2/1PPP1PPP/R1BQKB1R b KQkq - 0 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "d6",
+                                        "fen": "r1bqkb1r/ppp2ppp/2np1n2/4p3/4P3/P1N2N2/1PPP1PPP/R1BQKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "h3",
+                                            "fen": "r1bqkb1r/ppp2ppp/2np1n2/4p3/4P3/P1N2N1P/1PPP1PP1/R1BQKB1R b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "h3 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Three Knights Opening.",
+                                              "strategicTheme": "Prophylactic pawn move",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "d6 advances a pawn, influencing the structure in the Three Knights Opening.",
+                                          "strategicTheme": "Prophylactic pawn move",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": false,
                                     "annotation": {
                                       "moveRationale": "a3 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Three Knights Opening.",
@@ -1076,7 +1193,43 @@
                                           {
                                             "move": "Nxd4",
                                             "fen": "r1bqkb1r/pppp1ppp/5n2/1B2p3/3NP3/2N5/PPPP1PPP/R1BQK2R b KQkq - 0 5",
-                                            "children": [],
+                                            "children": [
+                                              {
+                                                "move": "exd4",
+                                                "fen": "r1bqkb1r/pppp1ppp/5n2/1B6/3pP3/2N5/PPPP1PPP/R1BQK2R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "e5",
+                                                    "fen": "r1bqkb1r/pppp1ppp/5n2/1B2P3/3p4/2N5/PPPP1PPP/R1BQK2R b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "dxc3",
+                                                        "fen": "r1bqkb1r/pppp1ppp/5n2/1B2P3/8/2p5/PPPP1PPP/R1BQK2R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "dxc3 impacts the center, shaping the pawn structure in the Three Knights Opening.",
+                                                          "strategicTheme": "Central tension",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "e5 advances a pawn, influencing the structure in the Three Knights Opening.",
+                                                      "strategicTheme": "Pawn structure",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Three Knights Opening.",
+                                                  "strategicTheme": "Central tension",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": false,
                                             "annotation": {
                                               "moveRationale": "Nxd4 exchanges material, altering the pawn structure in the Three Knights Opening.",
@@ -1552,99 +1705,6 @@
                                 "annotation": {
                                   "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Three Knights Opening.",
                                   "strategicTheme": "Natural piece development",
-                                  "source": "generated"
-                                }
-                              },
-                              {
-                                "move": "Bb4",
-                                "fen": "r1bqk1nr/pppp1ppp/2n5/4p3/1b2P3/2N2N2/PPPP1PPP/R1BQKB1R w KQkq - 4 4",
-                                "children": [
-                                  {
-                                    "move": "Nd5",
-                                    "fen": "r1bqk1nr/pppp1ppp/2n5/3Np3/1b2P3/5N2/PPPP1PPP/R1BQKB1R b KQkq - 5 4",
-                                    "children": [
-                                      {
-                                        "move": "Nf6",
-                                        "fen": "r1bqk2r/pppp1ppp/2n2n2/3Np3/1b2P3/5N2/PPPP1PPP/R1BQKB1R w KQkq - 6 5",
-                                        "children": [],
-                                        "isMainLine": false,
-                                        "annotation": {
-                                          "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Three Knights Opening.",
-                                          "strategicTheme": "Natural piece development",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
-                                    "isMainLine": false,
-                                    "annotation": {
-                                      "moveRationale": "Nd5 develops a piece to an active square in the Three Knights Opening.",
-                                      "strategicTheme": "Knight activity",
-                                      "source": "generated"
-                                    }
-                                  }
-                                ],
-                                "isMainLine": false,
-                                "annotation": {
-                                  "moveRationale": "Bb4 pins or eyes the knight, creating positional tension in the Three Knights Opening.",
-                                  "strategicTheme": "Bishop development",
-                                  "source": "generated"
-                                }
-                              },
-                              {
-                                "move": "g6",
-                                "fen": "r1bqkbnr/pppp1p1p/2n3p1/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R w KQkq - 0 4",
-                                "children": [
-                                  {
-                                    "move": "d4",
-                                    "fen": "r1bqkbnr/pppp1p1p/2n3p1/4p3/3PP3/2N2N2/PPP2PPP/R1BQKB1R b KQkq - 0 4",
-                                    "children": [
-                                      {
-                                        "move": "exd4",
-                                        "fen": "r1bqkbnr/pppp1p1p/2n3p1/8/3pP3/2N2N2/PPP2PPP/R1BQKB1R w KQkq - 0 5",
-                                        "children": [
-                                          {
-                                            "move": "Nd5",
-                                            "fen": "r1bqkbnr/pppp1p1p/2n3p1/3N4/3pP3/5N2/PPP2PPP/R1BQKB1R b KQkq - 1 5",
-                                            "children": [],
-                                            "isMainLine": false,
-                                            "annotation": {
-                                              "moveRationale": "Nd5 develops a piece to an active square in the Three Knights Opening.",
-                                              "strategicTheme": "Knight activity",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
-                                        "isMainLine": false,
-                                        "annotation": {
-                                          "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Three Knights Opening.",
-                                          "strategicTheme": "Central tension",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
-                                    "isMainLine": false,
-                                    "annotation": {
-                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Three Knights Opening.",
-                                      "strategicTheme": "Central tension",
-                                      "source": "generated"
-                                    }
-                                  }
-                                ],
-                                "isMainLine": false,
-                                "annotation": {
-                                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Three Knights Opening.",
-                                  "strategicTheme": "Fianchetto preparation",
-                                  "source": "generated"
-                                }
-                              },
-                              {
-                                "move": "f5",
-                                "fen": "r1bqkbnr/pppp2pp/2n5/4pp2/4P3/2N2N2/PPPP1PPP/R1BQKB1R w KQkq - 0 4",
-                                "children": [],
-                                "isMainLine": false,
-                                "annotation": {
-                                  "moveRationale": "f5 advances a pawn, influencing the structure in the Three Knights Opening.",
-                                  "strategicTheme": "Pawn structure",
                                   "source": "generated"
                                 }
                               }

@@ -15,6 +15,7 @@
     "test:e2e:ui": "node scripts/check-playwright.mjs && playwright test --ui",
     "playwright:install": "playwright install",
     "build:openings": "npx tsx scripts/compile-opening-data.ts",
+    "extend:variants": "npx tsx scripts/extend-variants.ts",
     "prepare": "husky"
   },
   "lint-staged": {
@@ -27,6 +28,7 @@
     ]
   },
   "dependencies": {
+    "@chess-openings/eco.json": "^2.0.3",
     "chess.js": "^1.4.0",
     "idb": "^8.0.3",
     "mobx": "^6.15.0",

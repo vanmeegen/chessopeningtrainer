@@ -35,6 +35,17 @@
                                 "fen": "rnbqkb1r/p2ppppp/5n2/1ppP4/2P5/8/PP2PPPP/RNBQKBNR w KQkq - 0 4",
                                 "children": [
                                   {
+                                    "move": "g4",
+                                    "fen": "rnbqkb1r/p2ppppp/5n2/1ppP4/2P3P1/8/PP2PP1P/RNBQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "g4 advances a pawn, influencing the structure in the Benko Gambit.",
+                                      "strategicTheme": "Pawn structure",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
                                     "move": "cxb5",
                                     "fen": "rnbqkb1r/p2ppppp/5n2/1PpP4/8/8/PP2PPPP/RNBQKBNR b KQkq - 0 4",
                                     "children": [
@@ -43,35 +54,85 @@
                                         "fen": "rnbqkb1r/3ppppp/p4n2/1PpP4/8/8/PP2PPPP/RNBQKBNR w KQkq - 0 5",
                                         "children": [
                                           {
-                                            "move": "f3",
-                                            "fen": "rnbqkb1r/3ppppp/p4n2/1PpP4/8/5P2/PP2P1PP/RNBQKBNR b KQkq - 0 5",
-                                            "children": [],
+                                            "move": "Nc3",
+                                            "fen": "rnbqkb1r/3ppppp/p4n2/1PpP4/8/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 5",
+                                            "children": [
+                                              {
+                                                "move": "axb5",
+                                                "fen": "rnbqkb1r/3ppppp/5n2/1ppP4/8/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "e4",
+                                                    "fen": "rnbqkb1r/3ppppp/5n2/1ppP4/4P3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "b4",
+                                                        "fen": "rnbqkb1r/3ppppp/5n2/2pP4/1p2P3/2N5/PP3PPP/R1BQKBNR w KQkq - 0 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Nb5",
+                                                            "fen": "rnbqkb1r/3ppppp/5n2/1NpP4/1p2P3/8/PP3PPP/R1BQKBNR b KQkq - 1 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "d6",
+                                                                "fen": "rnbqkb1r/4pppp/3p1n2/1NpP4/1p2P3/8/PP3PPP/R1BQKBNR w KQkq - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Bc4",
+                                                                    "fen": "rnbqkb1r/4pppp/3p1n2/1NpP4/1pB1P3/8/PP3PPP/R1BQK1NR b KQkq - 1 8",
+                                                                    "children": [],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Benko Gambit.",
+                                                                      "strategicTheme": "Active bishop development",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "d6 advances a pawn, influencing the structure in the Benko Gambit.",
+                                                                  "strategicTheme": "Prophylactic pawn move",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Nb5 develops a piece to an active square in the Benko Gambit.",
+                                                              "strategicTheme": "Knight activity",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "b4 advances a pawn, influencing the structure in the Benko Gambit.",
+                                                          "strategicTheme": "Pawn structure",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Benko Gambit.",
+                                                      "strategicTheme": "Central tension",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "axb5 exchanges material, altering the pawn structure in the Benko Gambit.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": false,
                                             "annotation": {
-                                              "moveRationale": "f3 advances a pawn, influencing the structure in the Benko Gambit.",
-                                              "strategicTheme": "Prophylactic pawn move",
-                                              "source": "generated"
-                                            }
-                                          },
-                                          {
-                                            "move": "e3",
-                                            "fen": "rnbqkb1r/3ppppp/p4n2/1PpP4/8/4P3/PP3PPP/RNBQKBNR b KQkq - 0 5",
-                                            "children": [],
-                                            "isMainLine": false,
-                                            "annotation": {
-                                              "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Benko Gambit.",
-                                              "strategicTheme": "Solid center support",
-                                              "source": "generated"
-                                            }
-                                          },
-                                          {
-                                            "move": "b6",
-                                            "fen": "rnbqkb1r/3ppppp/pP3n2/2pP4/8/8/PP2PPPP/RNBQKBNR b KQkq - 0 5",
-                                            "children": [],
-                                            "isMainLine": false,
-                                            "annotation": {
-                                              "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Benko Gambit.",
-                                              "strategicTheme": "Fianchetto preparation",
+                                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Benko Gambit.",
+                                              "strategicTheme": "Natural piece development",
                                               "source": "generated"
                                             }
                                           },
@@ -79,6 +140,99 @@
                                             "move": "bxa6",
                                             "fen": "rnbqkb1r/3ppppp/P4n2/2pP4/8/8/PP2PPPP/RNBQKBNR b KQkq - 0 5",
                                             "children": [
+                                              {
+                                                "move": "Bxa6",
+                                                "fen": "rn1qkb1r/3ppppp/b4n2/2pP4/8/8/PP2PPPP/RNBQKBNR w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Nc3",
+                                                    "fen": "rn1qkb1r/3ppppp/b4n2/2pP4/8/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "d6",
+                                                        "fen": "rn1qkb1r/4pppp/b2p1n2/2pP4/8/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Nf3",
+                                                            "fen": "rn1qkb1r/4pppp/b2p1n2/2pP4/8/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "g6",
+                                                                "fen": "rn1qkb1r/4pp1p/b2p1np1/2pP4/8/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "g3",
+                                                                    "fen": "rn1qkb1r/4pp1p/b2p1np1/2pP4/8/2N2NP1/PP2PP1P/R1BQKB1R b KQkq - 0 8",
+                                                                    "children": [],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Benko Gambit.",
+                                                                      "strategicTheme": "Fianchetto preparation",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "move": "Nd2",
+                                                                    "fen": "rn1qkb1r/4pp1p/b2p1np1/2pP4/8/2N5/PP1NPPPP/R1BQKB1R b KQkq - 1 8",
+                                                                    "children": [],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Nd2 develops a piece to an active square in the Benko Gambit.",
+                                                                      "strategicTheme": "Knight activity",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Benko Gambit.",
+                                                                  "strategicTheme": "Fianchetto preparation",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Nf3 develops a piece to an active square in the Benko Gambit.",
+                                                              "strategicTheme": "Natural piece development",
+                                                              "source": "generated"
+                                                            }
+                                                          },
+                                                          {
+                                                            "move": "e4",
+                                                            "fen": "rn1qkb1r/4pppp/b2p1n2/2pP4/4P3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 7",
+                                                            "children": [],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "e4 impacts the center, shaping the pawn structure in the Benko Gambit.",
+                                                              "strategicTheme": "Central tension",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "d6 advances a pawn, influencing the structure in the Benko Gambit.",
+                                                          "strategicTheme": "Prophylactic pawn move",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Benko Gambit.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Bxa6 exchanges material, altering the pawn structure in the Benko Gambit.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              },
                                               {
                                                 "move": "g6",
                                                 "fen": "rnbqkb1r/3ppp1p/P4np1/2pP4/8/8/PP2PPPP/RNBQKBNR w KQkq - 0 6",
@@ -91,6 +245,76 @@
                                                         "move": "Bxa6",
                                                         "fen": "rn1qkb1r/3ppp1p/b4np1/2pP4/8/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 7",
                                                         "children": [
+                                                          {
+                                                            "move": "e4",
+                                                            "fen": "rn1qkb1r/3ppp1p/b4np1/2pP4/4P3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "Bxf1",
+                                                                "fen": "rn1qkb1r/3ppp1p/5np1/2pP4/4P3/2N5/PP3PPP/R1BQKbNR w KQkq - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Kxf1",
+                                                                    "fen": "rn1qkb1r/3ppp1p/5np1/2pP4/4P3/2N5/PP3PPP/R1BQ1KNR b kq - 0 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "d6",
+                                                                        "fen": "rn1qkb1r/4pp1p/3p1np1/2pP4/4P3/2N5/PP3PPP/R1BQ1KNR w kq - 0 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "g3",
+                                                                            "fen": "rn1qkb1r/4pp1p/3p1np1/2pP4/4P3/2N3P1/PP3P1P/R1BQ1KNR b kq - 0 9",
+                                                                            "children": [],
+                                                                            "isMainLine": false,
+                                                                            "annotation": {
+                                                                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Benko Gambit.",
+                                                                              "strategicTheme": "Fianchetto preparation",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          },
+                                                                          {
+                                                                            "move": "Nge2",
+                                                                            "fen": "rn1qkb1r/4pp1p/3p1np1/2pP4/4P3/2N5/PP2NPPP/R1BQ1K1R b kq - 1 9",
+                                                                            "children": [],
+                                                                            "isMainLine": false,
+                                                                            "annotation": {
+                                                                              "moveRationale": "Nge2 develops a piece to an active square in the Benko Gambit.",
+                                                                              "strategicTheme": "Knight activity",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": false,
+                                                                        "annotation": {
+                                                                          "moveRationale": "d6 advances a pawn, influencing the structure in the Benko Gambit.",
+                                                                          "strategicTheme": "Prophylactic pawn move",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Kxf1 exchanges material, altering the pawn structure in the Benko Gambit.",
+                                                                      "strategicTheme": "Material exchange",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "Bxf1 exchanges material, altering the pawn structure in the Benko Gambit.",
+                                                                  "strategicTheme": "Material exchange",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "e4 impacts the center, shaping the pawn structure in the Benko Gambit.",
+                                                              "strategicTheme": "Central tension",
+                                                              "source": "generated"
+                                                            }
+                                                          },
                                                           {
                                                             "move": "f4",
                                                             "fen": "rn1qkb1r/3ppp1p/b4np1/2pP4/5P2/2N5/PP2P1PP/R1BQKBNR b KQkq - 0 7",
@@ -267,76 +491,6 @@
                                                               "strategicTheme": "Natural piece development",
                                                               "source": "generated"
                                                             }
-                                                          },
-                                                          {
-                                                            "move": "e4",
-                                                            "fen": "rn1qkb1r/3ppp1p/b4np1/2pP4/4P3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 7",
-                                                            "children": [
-                                                              {
-                                                                "move": "Bxf1",
-                                                                "fen": "rn1qkb1r/3ppp1p/5np1/2pP4/4P3/2N5/PP3PPP/R1BQKbNR w KQkq - 0 8",
-                                                                "children": [
-                                                                  {
-                                                                    "move": "Kxf1",
-                                                                    "fen": "rn1qkb1r/3ppp1p/5np1/2pP4/4P3/2N5/PP3PPP/R1BQ1KNR b kq - 0 8",
-                                                                    "children": [
-                                                                      {
-                                                                        "move": "d6",
-                                                                        "fen": "rn1qkb1r/4pp1p/3p1np1/2pP4/4P3/2N5/PP3PPP/R1BQ1KNR w kq - 0 9",
-                                                                        "children": [
-                                                                          {
-                                                                            "move": "Nge2",
-                                                                            "fen": "rn1qkb1r/4pp1p/3p1np1/2pP4/4P3/2N5/PP2NPPP/R1BQ1K1R b kq - 1 9",
-                                                                            "children": [],
-                                                                            "isMainLine": false,
-                                                                            "annotation": {
-                                                                              "moveRationale": "Nge2 develops a piece to an active square in the Benko Gambit.",
-                                                                              "strategicTheme": "Knight activity",
-                                                                              "source": "generated"
-                                                                            }
-                                                                          },
-                                                                          {
-                                                                            "move": "g3",
-                                                                            "fen": "rn1qkb1r/4pp1p/3p1np1/2pP4/4P3/2N3P1/PP3P1P/R1BQ1KNR b kq - 0 9",
-                                                                            "children": [],
-                                                                            "isMainLine": false,
-                                                                            "annotation": {
-                                                                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Benko Gambit.",
-                                                                              "strategicTheme": "Fianchetto preparation",
-                                                                              "source": "generated"
-                                                                            }
-                                                                          }
-                                                                        ],
-                                                                        "isMainLine": false,
-                                                                        "annotation": {
-                                                                          "moveRationale": "d6 advances a pawn, influencing the structure in the Benko Gambit.",
-                                                                          "strategicTheme": "Prophylactic pawn move",
-                                                                          "source": "generated"
-                                                                        }
-                                                                      }
-                                                                    ],
-                                                                    "isMainLine": false,
-                                                                    "annotation": {
-                                                                      "moveRationale": "Kxf1 exchanges material, altering the pawn structure in the Benko Gambit.",
-                                                                      "strategicTheme": "Material exchange",
-                                                                      "source": "generated"
-                                                                    }
-                                                                  }
-                                                                ],
-                                                                "isMainLine": false,
-                                                                "annotation": {
-                                                                  "moveRationale": "Bxf1 exchanges material, altering the pawn structure in the Benko Gambit.",
-                                                                  "strategicTheme": "Material exchange",
-                                                                  "source": "generated"
-                                                                }
-                                                              }
-                                                            ],
-                                                            "isMainLine": false,
-                                                            "annotation": {
-                                                              "moveRationale": "e4 impacts the center, shaping the pawn structure in the Benko Gambit.",
-                                                              "strategicTheme": "Central tension",
-                                                              "source": "generated"
-                                                            }
                                                           }
                                                         ],
                                                         "isMainLine": true,
@@ -361,99 +515,6 @@
                                                   "strategicTheme": "Fianchetto preparation",
                                                   "source": "generated"
                                                 }
-                                              },
-                                              {
-                                                "move": "Bxa6",
-                                                "fen": "rn1qkb1r/3ppppp/b4n2/2pP4/8/8/PP2PPPP/RNBQKBNR w KQkq - 0 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Nc3",
-                                                    "fen": "rn1qkb1r/3ppppp/b4n2/2pP4/8/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "d6",
-                                                        "fen": "rn1qkb1r/4pppp/b2p1n2/2pP4/8/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 7",
-                                                        "children": [
-                                                          {
-                                                            "move": "e4",
-                                                            "fen": "rn1qkb1r/4pppp/b2p1n2/2pP4/4P3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 7",
-                                                            "children": [],
-                                                            "isMainLine": false,
-                                                            "annotation": {
-                                                              "moveRationale": "e4 impacts the center, shaping the pawn structure in the Benko Gambit.",
-                                                              "strategicTheme": "Central tension",
-                                                              "source": "generated"
-                                                            }
-                                                          },
-                                                          {
-                                                            "move": "Nf3",
-                                                            "fen": "rn1qkb1r/4pppp/b2p1n2/2pP4/8/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 7",
-                                                            "children": [
-                                                              {
-                                                                "move": "g6",
-                                                                "fen": "rn1qkb1r/4pp1p/b2p1np1/2pP4/8/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 8",
-                                                                "children": [
-                                                                  {
-                                                                    "move": "g3",
-                                                                    "fen": "rn1qkb1r/4pp1p/b2p1np1/2pP4/8/2N2NP1/PP2PP1P/R1BQKB1R b KQkq - 0 8",
-                                                                    "children": [],
-                                                                    "isMainLine": false,
-                                                                    "annotation": {
-                                                                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Benko Gambit.",
-                                                                      "strategicTheme": "Fianchetto preparation",
-                                                                      "source": "generated"
-                                                                    }
-                                                                  },
-                                                                  {
-                                                                    "move": "Nd2",
-                                                                    "fen": "rn1qkb1r/4pp1p/b2p1np1/2pP4/8/2N5/PP1NPPPP/R1BQKB1R b KQkq - 1 8",
-                                                                    "children": [],
-                                                                    "isMainLine": false,
-                                                                    "annotation": {
-                                                                      "moveRationale": "Nd2 develops a piece to an active square in the Benko Gambit.",
-                                                                      "strategicTheme": "Knight activity",
-                                                                      "source": "generated"
-                                                                    }
-                                                                  }
-                                                                ],
-                                                                "isMainLine": false,
-                                                                "annotation": {
-                                                                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Benko Gambit.",
-                                                                  "strategicTheme": "Fianchetto preparation",
-                                                                  "source": "generated"
-                                                                }
-                                                              }
-                                                            ],
-                                                            "isMainLine": false,
-                                                            "annotation": {
-                                                              "moveRationale": "Nf3 develops a piece to an active square in the Benko Gambit.",
-                                                              "strategicTheme": "Natural piece development",
-                                                              "source": "generated"
-                                                            }
-                                                          }
-                                                        ],
-                                                        "isMainLine": false,
-                                                        "annotation": {
-                                                          "moveRationale": "d6 advances a pawn, influencing the structure in the Benko Gambit.",
-                                                          "strategicTheme": "Prophylactic pawn move",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": false,
-                                                    "annotation": {
-                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Benko Gambit.",
-                                                      "strategicTheme": "Natural piece development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": false,
-                                                "annotation": {
-                                                  "moveRationale": "Bxa6 exchanges material, altering the pawn structure in the Benko Gambit.",
-                                                  "strategicTheme": "Material exchange",
-                                                  "source": "generated"
-                                                }
                                               }
                                             ],
                                             "isMainLine": true,
@@ -464,76 +525,130 @@
                                             }
                                           },
                                           {
-                                            "move": "Nc3",
-                                            "fen": "rnbqkb1r/3ppppp/p4n2/1PpP4/8/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 5",
+                                            "move": "f3",
+                                            "fen": "rnbqkb1r/3ppppp/p4n2/1PpP4/8/5P2/PP2P1PP/RNBQKBNR b KQkq - 0 5",
                                             "children": [
                                               {
                                                 "move": "axb5",
-                                                "fen": "rnbqkb1r/3ppppp/5n2/1ppP4/8/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 6",
+                                                "fen": "rnbqkb1r/3ppppp/5n2/1ppP4/8/5P2/PP2P1PP/RNBQKBNR w KQkq - 0 6",
+                                                "children": [],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "axb5 exchanges material, altering the pawn structure in the Benko Gambit.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "e6",
+                                                "fen": "rnbqkb1r/3p1ppp/p3pn2/1PpP4/8/5P2/PP2P1PP/RNBQKBNR w KQkq - 0 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "e6 advances a pawn, influencing the structure in the Benko Gambit.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "f3 advances a pawn, influencing the structure in the Benko Gambit.",
+                                              "strategicTheme": "Prophylactic pawn move",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "e3",
+                                            "fen": "rnbqkb1r/3ppppp/p4n2/1PpP4/8/4P3/PP3PPP/RNBQKBNR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "g6",
+                                                "fen": "rnbqkb1r/3ppp1p/p4np1/1PpP4/8/4P3/PP3PPP/RNBQKBNR w KQkq - 0 6",
                                                 "children": [
                                                   {
-                                                    "move": "e4",
-                                                    "fen": "rnbqkb1r/3ppppp/5n2/1ppP4/4P3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 6",
+                                                    "move": "Nc3",
+                                                    "fen": "rnbqkb1r/3ppp1p/p4np1/1PpP4/8/2N1P3/PP3PPP/R1BQKBNR b KQkq - 1 6",
                                                     "children": [
                                                       {
-                                                        "move": "b4",
-                                                        "fen": "rnbqkb1r/3ppppp/5n2/2pP4/1p2P3/2N5/PP3PPP/R1BQKBNR w KQkq - 0 7",
-                                                        "children": [
-                                                          {
-                                                            "move": "Nb5",
-                                                            "fen": "rnbqkb1r/3ppppp/5n2/1NpP4/1p2P3/8/PP3PPP/R1BQKBNR b KQkq - 1 7",
-                                                            "children": [
-                                                              {
-                                                                "move": "d6",
-                                                                "fen": "rnbqkb1r/4pppp/3p1n2/1NpP4/1p2P3/8/PP3PPP/R1BQKBNR w KQkq - 0 8",
-                                                                "children": [
-                                                                  {
-                                                                    "move": "Bc4",
-                                                                    "fen": "rnbqkb1r/4pppp/3p1n2/1NpP4/1pB1P3/8/PP3PPP/R1BQK1NR b KQkq - 1 8",
-                                                                    "children": [],
-                                                                    "isMainLine": false,
-                                                                    "annotation": {
-                                                                      "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Benko Gambit.",
-                                                                      "strategicTheme": "Active bishop development",
-                                                                      "source": "generated"
-                                                                    }
-                                                                  }
-                                                                ],
-                                                                "isMainLine": false,
-                                                                "annotation": {
-                                                                  "moveRationale": "d6 advances a pawn, influencing the structure in the Benko Gambit.",
-                                                                  "strategicTheme": "Prophylactic pawn move",
-                                                                  "source": "generated"
-                                                                }
-                                                              }
-                                                            ],
-                                                            "isMainLine": false,
-                                                            "annotation": {
-                                                              "moveRationale": "Nb5 develops a piece to an active square in the Benko Gambit.",
-                                                              "strategicTheme": "Knight activity",
-                                                              "source": "generated"
-                                                            }
-                                                          }
-                                                        ],
+                                                        "move": "Bg7",
+                                                        "fen": "rnbqk2r/3pppbp/p4np1/1PpP4/8/2N1P3/PP3PPP/R1BQKBNR w KQkq - 2 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Bg7 develops a piece to an active square in the Benko Gambit.",
+                                                          "strategicTheme": "Bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      },
+                                                      {
+                                                        "move": "d6",
+                                                        "fen": "rnbqkb1r/4pp1p/p2p1np1/1PpP4/8/2N1P3/PP3PPP/R1BQKBNR w KQkq - 0 7",
+                                                        "children": [],
                                                         "isMainLine": false,
                                                         "annotation": {
-                                                          "moveRationale": "b4 advances a pawn, influencing the structure in the Benko Gambit.",
-                                                          "strategicTheme": "Pawn structure",
+                                                          "moveRationale": "d6 advances a pawn, influencing the structure in the Benko Gambit.",
+                                                          "strategicTheme": "Prophylactic pawn move",
                                                           "source": "generated"
                                                         }
                                                       }
                                                     ],
-                                                    "isMainLine": false,
+                                                    "isMainLine": true,
                                                     "annotation": {
-                                                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Benko Gambit.",
-                                                      "strategicTheme": "Central tension",
+                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Benko Gambit.",
+                                                      "strategicTheme": "Natural piece development",
                                                       "source": "generated"
                                                     }
                                                   }
                                                 ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Benko Gambit.",
+                                                  "strategicTheme": "Fianchetto preparation",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Benko Gambit.",
+                                              "strategicTheme": "Solid center support",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "b6",
+                                            "fen": "rnbqkb1r/3ppppp/pP3n2/2pP4/8/8/PP2PPPP/RNBQKBNR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "d6",
+                                                "fen": "rnbqkb1r/4pppp/pP1p1n2/2pP4/8/8/PP2PPPP/RNBQKBNR w KQkq - 0 6",
+                                                "children": [],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "d6 advances a pawn, influencing the structure in the Benko Gambit.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "e6",
+                                                "fen": "rnbqkb1r/3p1ppp/pP2pn2/2pP4/8/8/PP2PPPP/RNBQKBNR w KQkq - 0 6",
+                                                "children": [],
                                                 "isMainLine": false,
                                                 "annotation": {
-                                                  "moveRationale": "axb5 exchanges material, altering the pawn structure in the Benko Gambit.",
+                                                  "moveRationale": "e6 advances a pawn, influencing the structure in the Benko Gambit.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "Qxb6",
+                                                "fen": "rnb1kb1r/3ppppp/pq3n2/2pP4/8/8/PP2PPPP/RNBQKBNR w KQkq - 0 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Qxb6 exchanges material, altering the pawn structure in the Benko Gambit.",
                                                   "strategicTheme": "Material exchange",
                                                   "source": "generated"
                                                 }
@@ -541,8 +656,8 @@
                                             ],
                                             "isMainLine": false,
                                             "annotation": {
-                                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Benko Gambit.",
-                                              "strategicTheme": "Natural piece development",
+                                              "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Benko Gambit.",
+                                              "strategicTheme": "Fianchetto preparation",
                                               "source": "generated"
                                             }
                                           }
@@ -587,7 +702,77 @@
                                   {
                                     "move": "Nf3",
                                     "fen": "rnbqkb1r/p2ppppp/5n2/1ppP4/2P5/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "g6",
+                                        "fen": "rnbqkb1r/p2ppp1p/5np1/1ppP4/2P5/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "cxb5",
+                                            "fen": "rnbqkb1r/p2ppp1p/5np1/1PpP4/8/5N2/PP2PPPP/RNBQKB1R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "a6",
+                                                "fen": "rnbqkb1r/3ppp1p/p4np1/1PpP4/8/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 6",
+                                                "children": [],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "a6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Benko Gambit.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "cxb5 exchanges material, altering the pawn structure in the Benko Gambit.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Benko Gambit.",
+                                          "strategicTheme": "Fianchetto preparation",
+                                          "source": "generated"
+                                        }
+                                      },
+                                      {
+                                        "move": "Bb7",
+                                        "fen": "rn1qkb1r/pb1ppppp/5n2/1ppP4/2P5/5N2/PP2PPPP/RNBQKB1R w KQkq - 2 5",
+                                        "children": [
+                                          {
+                                            "move": "a4",
+                                            "fen": "rn1qkb1r/pb1ppppp/5n2/1ppP4/P1P5/5N2/1P2PPPP/RNBQKB1R b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "a4 advances a pawn, influencing the structure in the Benko Gambit.",
+                                              "strategicTheme": "Pawn structure",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Bb7 develops a piece to an active square in the Benko Gambit.",
+                                          "strategicTheme": "Bishop development",
+                                          "source": "generated"
+                                        }
+                                      },
+                                      {
+                                        "move": "bxc4",
+                                        "fen": "rnbqkb1r/p2ppppp/5n2/2pP4/2p5/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "bxc4 exchanges material, altering the pawn structure in the Benko Gambit.",
+                                          "strategicTheme": "Material exchange",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": false,
                                     "annotation": {
                                       "moveRationale": "Nf3 develops a piece to an active square in the Benko Gambit.",
@@ -624,17 +809,6 @@
                                     "isMainLine": false,
                                     "annotation": {
                                       "moveRationale": "a4 advances a pawn, influencing the structure in the Benko Gambit.",
-                                      "strategicTheme": "Pawn structure",
-                                      "source": "generated"
-                                    }
-                                  },
-                                  {
-                                    "move": "g4",
-                                    "fen": "rnbqkb1r/p2ppppp/5n2/1ppP4/2P3P1/8/PP2PP1P/RNBQKBNR b KQkq - 0 4",
-                                    "children": [],
-                                    "isMainLine": false,
-                                    "annotation": {
-                                      "moveRationale": "g4 advances a pawn, influencing the structure in the Benko Gambit.",
                                       "strategicTheme": "Pawn structure",
                                       "source": "generated"
                                     }
@@ -1227,7 +1401,31 @@
                                                           {
                                                             "move": "Nb5",
                                                             "fen": "rnbqkb1r/3ppppp/5n2/1NpP4/1p2P3/8/PP3PPP/R1BQKBNR b KQkq - 1 7",
-                                                            "children": [],
+                                                            "children": [
+                                                              {
+                                                                "move": "d6",
+                                                                "fen": "rnbqkb1r/4pppp/3p1n2/1NpP4/1p2P3/8/PP3PPP/R1BQKBNR w KQkq - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Bc4",
+                                                                    "fen": "rnbqkb1r/4pppp/3p1n2/1NpP4/1pB1P3/8/PP3PPP/R1BQK1NR b KQkq - 1 8",
+                                                                    "children": [],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Benko Gambit.",
+                                                                      "strategicTheme": "Active bishop development",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "d6 advances a pawn, influencing the structure in the Benko Gambit.",
+                                                                  "strategicTheme": "Prophylactic pawn move",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
                                                             "isMainLine": true,
                                                             "annotation": {
                                                               "moveRationale": "Nb5 develops a piece to an active square in the Benko Gambit.",
