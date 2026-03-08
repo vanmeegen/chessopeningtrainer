@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Chess Opening Trainer is a forever free chess opening trainer built to learn the most important chess openings based on a combination of memorizing and strategic understanding. It is a Next.js + TypeScript application with MobX for state management.
+Chess Opening Trainer is a forever free chess opening trainer built to learn the most important chess openings based on a combination of memorizing and strategic understanding. It is a React + Vite + TypeScript application with MobX for state management.
 
 ## Development Commands
 
@@ -57,7 +57,7 @@ npm run preview
   - Update plan.md with progress before committing
   - Use descriptive commit messages
   - Amend commits when requested to update plan status
-- **Framework**: Next.js with React
+- **Framework**: React with Vite
 - **Testing**: Vitest with jsdom environment, tests located in `__tests__` directories
 - **Code Quality**: ESLint with TypeScript support, Prettier for formatting
 - **Pre-commit**: Husky + lint-staged runs ESLint and Prettier on staged files

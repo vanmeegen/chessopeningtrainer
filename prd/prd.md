@@ -81,19 +81,24 @@
 
 **Flow:**
 1. User starts a game (chooses White or Black)
-2. User plays moves freely on the board
-3. COT responds with the most popular/best book move from the opening database
-4. After each move, COT displays:
+2. User optionally selects an opening and/or a specific variation as a constraint
+3. User plays moves freely on the board
+4. COT responds with a book move:
+   - **Constrained to a variation:** COT follows that variation's moves
+   - **Constrained to an opening (no specific variation):** COT randomly selects among the available variations for that opening at each branch point
+   - **Unconstrained (no opening selected):** COT randomly selects among all stored openings/variations that match the current position
+5. After each move, COT displays:
    - The current opening name and variation (if recognized)
    - Whether the user's move is: **Book move** (known good), **Playable** (legal but not in book), or **Inaccuracy** (clearly suboptimal)
    - Brief comment on the move quality
-5. When the opening book runs out (moves go beyond database depth), COT notifies the user: "You've left the opening book. The opening phase is complete."
-6. User can restart at any time
+6. When the opening book runs out (moves go beyond database depth), COT notifies the user: "You've left the opening book. The opening phase is complete."
+7. User can restart at any time
 
 **Key behaviors:**
 - COT uses the static opening database only (no engine in v1)
 - If user plays a non-book move, COT can show what the book move would have been
 - Move assessment is based on database frequency/win rates, not engine evaluation
+- In unconstrained mode, randomized responses keep sessions varied and expose the user to different openings
 
 ---
 
@@ -123,6 +128,7 @@
 - Provide opening name, variation, move sequence → generate 1-2 sentence explanation
 - One-time build step, stored as static data in the repository
 - Ensures consistent tone and complete coverage
+- **Hallucination warning:** All LLM-generated annotations must be flagged as such in the data (`source: "generated"`). The UI displays a subtle indicator (e.g., small icon or label) so users know the explanation may contain inaccuracies. This is important because LLMs can hallucinate chess-specific strategic reasoning.
 
 **Build pipeline:** A build script extracts Wikibooks content, identifies gaps, generates LLM annotations for those gaps, and compiles everything into static JSON bundled with the app.
 
@@ -133,32 +139,44 @@ Each position annotation includes:
 
 ### 3.3 MVP Opening Set
 
-For MVP, include the most popular openings with ~10 moves depth (main lines):
+For MVP, include the most popular openings with ~10 moves depth (main lines). The set covers all openings listed on [Wikibooks Basic Openings](https://en.wikibooks.org/wiki/Chess/Basic_Openings) plus Caro-Kann and London System.
 
-**As White:**
+**King's Pawn Openings (1.e4):**
 | Opening | ECO | Key Variations |
 |---------|-----|----------------|
+| Ruy Lopez (Spanish) | C60-C99 | Morphy Defense, Berlin Defense |
 | Italian Game | C50-C54 | Giuoco Piano, Evans Gambit |
-| Ruy Lopez | C60-C99 | Morphy Defense, Berlin Defense |
+| Russian Game (Petrov Defence) | C42-C43 | Classical, Stafford Gambit |
+| Philidor Defence | C41 | Main line, Exchange Variation |
+| Danish Gambit | C21 | Main line |
+| Sicilian Defence | B20-B99 | Najdorf, Dragon, Classical |
+| French Defence | C00-C19 | Winawer, Classical, Tarrasch |
+| Caro-Kann Defence | B10-B19 | Classical, Advance, Exchange |
+| Pirc Defence | B07-B09 | Classical, Austrian Attack |
+| Modern Defence | B06 | Main line |
+| Alekhine's Defence | B02-B05 | Modern, Exchange, Four Pawns Attack |
+| Scandinavian Defence | B01 | Main line, Modern (3...Qd6) |
+
+**Queen's Pawn Openings (1.d4):**
+| Opening | ECO | Key Variations |
+|---------|-----|----------------|
 | Queen's Gambit | D06-D69 | Accepted, Declined (Orthodox) |
+| King's Indian Defence | E60-E99 | Classical, Sämisch |
+| Grünfeld Defence | D70-D99 | Exchange, Russian System |
+| Nimzo-Indian Defence | E20-E59 | Classical, Rubinstein |
+| Queen's Indian Defence | E12-E19 | Main line, Petrosian System |
+| Modern Benoni | A60-A79 | Main line, Czech Benoni |
+| Benko Gambit | A57-A59 | Accepted, Declined |
 | London System | D00 | Main line |
+
+**Flank Openings:**
+| Opening | ECO | Key Variations |
+|---------|-----|----------------|
 | English Opening | A10-A39 | Symmetrical, Reversed Sicilian |
+| Réti Opening | A04-A09 | Main line, King's Indian Attack setup |
+| King's Indian Attack | A07-A08 | Main line |
 
-**As Black vs 1.e4:**
-| Opening | ECO | Key Variations |
-|---------|-----|----------------|
-| Sicilian Defense | B20-B99 | Najdorf, Dragon, Classical |
-| French Defense | C00-C19 | Winawer, Classical, Tarrasch |
-| Caro-Kann Defense | B10-B19 | Classical, Advance, Exchange |
-
-**As Black vs 1.d4:**
-| Opening | ECO | Key Variations |
-|---------|-----|----------------|
-| Queen's Gambit Declined | D30-D69 | Orthodox, Ragozin |
-| King's Indian Defense | E60-E99 | Classical, Sämisch |
-| Nimzo-Indian Defense | E20-E59 | Classical, Rubinstein |
-
-**Total for MVP:** ~15 openings, ~30 main-line variations, ~150 annotated positions.
+**Total for MVP:** ~23 openings, ~50+ main-line variations, ~250+ annotated positions.
 
 ---
 
@@ -349,19 +367,54 @@ After grading a card with quality q (0-5):
 - **App Manifest:** Installable on home screen with app icon
 - **Offline-first:** All three modes work fully offline
 - **Update detection:** Notify user when a new version is available, allow "refresh to update"
+- **In-app install prompt:** A visible "Install App" button in the settings menu (and optionally on the home screen for first-time users) that triggers the PWA install flow. Do not rely solely on the browser's native install banner, as many users miss it or don't know it exists. The button hides itself once the app is already installed.
 
 ---
 
 ## 8. Technical Constraints
 
-- **Framework:** Next.js + TypeScript + MobX (per project architecture)
+### 8.1 Framework: React + Vite (not Next.js)
+
+COT is a fully client-side PWA with no server, no SSR, no API routes, and no dynamic server rendering. Next.js is designed around server-side features (SSR, API routes, middleware, server components) that add complexity without benefit here. **React + Vite + Vitest** is the better fit:
+
+| Concern | Next.js | React + Vite |
+|---------|---------|--------------|
+| Server-side rendering | Built-in (unused, adds complexity) | Not included (not needed) |
+| Build speed | Slower (webpack/turbopack) | Fast (esbuild + Rollup) |
+| PWA support | Requires next-pwa plugin | Native with vite-plugin-pwa |
+| Static export | Possible but not the primary mode | The only mode — simple and direct |
+| Bundle size | Larger (Next.js runtime overhead) | Minimal — just React + your code |
+| Testing | Vitest works but needs config for Next.js specifics | Vitest is Vite-native, zero-friction |
+| Deployment | Needs static export step or Node server | `vite build` → static files, deploy anywhere |
+
+**Decision:** Use **React + Vite + TypeScript + MobX**. Testing with **Vitest** (unit) and **Playwright** (E2E).
+
+### 8.2 Opening Data: On-Demand Loading
+
+The opening detail library (annotations, move trees, strategic explanations) must **not** be bundled with the application JavaScript. Instead:
+
+- Opening data is compiled at build time into separate static JSON files (one per opening or per group)
+- The app loads opening data **on demand** when the user selects an opening
+- In PWA mode, the service worker caches all opening data files after first load for offline use
+- This keeps the initial app bundle small and fast to load, while still enabling full offline support
+- The opening catalog (names, ECO codes, basic metadata) is small enough to bundle with the app for instant browsing
+
+### 8.3 Other Constraints
+
+- **State management:** MobX with mobx-react-lite
 - **Chess logic:** chess.js for move validation and game state
 - **Board rendering:** react-chessboard or similar React chess board component
-- **Opening data:** Bundled as static JSON at build time (compiled from TSV/JSON sources)
-- **Annotation pipeline:** Build script to extract Wikibooks content + LLM gap-fill → static JSON
+- **Annotation pipeline:** Build script to extract Wikibooks content + LLM gap-fill → static JSON files
 - **No backend:** Everything runs client-side
 - **Target browsers:** Modern evergreen browsers (Chrome, Safari, Firefox, Edge)
 - **Licensing:** App itself open-source; annotations CC BY-SA 3.0 (Wikibooks attribution required in app footer/about page)
+
+### 8.4 Testing Strategy
+
+- **Strict TDD:** All features are developed test-first following the TDD cycle (red → green → refactor). Tests are written before implementation code.
+- **Unit tests:** Vitest with jsdom environment. Test files in `__tests__` directories alongside source code. Cover all models, stores, algorithms (especially SM-2), and data processing logic.
+- **E2E tests:** Playwright for all user journeys. Each mode (Learn, Memorize, Play) has end-to-end test coverage for its core flows. Use page object pattern and `data-testid` attributes (see CLAUDE.md for conventions).
+- **CI gate:** All tests (unit + E2E) must pass before merge. No code ships without corresponding tests.
 
 ---
 
