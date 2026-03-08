@@ -2381,7 +2381,54 @@
                                   {
                                     "move": "dxc5",
                                     "fen": "rnbqk1nr/pp1pppbp/6p1/2P5/4P3/2N5/PPP2PPP/R1BQKBNR b KQkq - 0 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "Bxc3+",
+                                        "fen": "rnbqk1nr/pp1ppp1p/6p1/2P5/4P3/2b5/PPP2PPP/R1BQKBNR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "bxc3",
+                                            "fen": "rnbqk1nr/pp1ppp1p/6p1/2P5/4P3/2P5/P1P2PPP/R1BQKBNR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Qa5",
+                                                "fen": "rnb1k1nr/pp1ppp1p/6p1/q1P5/4P3/2P5/P1P2PPP/R1BQKBNR w KQkq - 1 6",
+                                                "children": [],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Qa5 activates the queen, increasing pressure in the Pterodactyl Defense.",
+                                                  "strategicTheme": "Queen activity",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "bxc3 exchanges material, altering the pawn structure in the Pterodactyl Defense.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Bxc3+ exchanges material, altering the pawn structure in the Pterodactyl Defense.",
+                                          "strategicTheme": "Material exchange",
+                                          "source": "generated"
+                                        }
+                                      },
+                                      {
+                                        "move": "Qa5",
+                                        "fen": "rnb1k1nr/pp1pppbp/6p1/q1P5/4P3/2N5/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Qa5 activates the queen, increasing pressure in the Pterodactyl Defense.",
+                                          "strategicTheme": "Queen activity",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": true,
                                     "annotation": {
                                       "moveRationale": "dxc5 exchanges material, altering the pawn structure in the Pterodactyl Defense.",
@@ -3432,7 +3479,19 @@
                                                   {
                                                     "move": "bxc3",
                                                     "fen": "rnb1k1nr/pp1ppp1p/6p1/q1P5/4P3/2P2N2/P1P2PPP/R1BQKB1R b KQkq - 0 6",
-                                                    "children": [],
+                                                    "children": [
+                                                      {
+                                                        "move": "Qxc3+",
+                                                        "fen": "rnb1k1nr/pp1ppp1p/6p1/2P5/4P3/2q2N2/P1P2PPP/R1BQKB1R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Qxc3+ exchanges material, altering the pawn structure in the Pterodactyl Defense.",
+                                                          "strategicTheme": "Material exchange",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
                                                     "isMainLine": true,
                                                     "annotation": {
                                                       "moveRationale": "bxc3 exchanges material, altering the pawn structure in the Pterodactyl Defense.",
@@ -3567,7 +3626,43 @@
                                           {
                                             "move": "Nc3",
                                             "fen": "rnb1k1nr/pp1pppbp/6p1/q1P5/4P3/2N2N2/PPP2PPP/R1BQKB1R b KQkq - 2 5",
-                                            "children": [],
+                                            "children": [
+                                              {
+                                                "move": "Bxc3+",
+                                                "fen": "rnb1k1nr/pp1ppp1p/6p1/q1P5/4P3/2b2N2/PPP2PPP/R1BQKB1R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "bxc3",
+                                                    "fen": "rnb1k1nr/pp1ppp1p/6p1/q1P5/4P3/2P2N2/P1P2PPP/R1BQKB1R b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Qxc3+",
+                                                        "fen": "rnb1k1nr/pp1ppp1p/6p1/2P5/4P3/2q2N2/P1P2PPP/R1BQKB1R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Qxc3+ exchanges material, altering the pawn structure in the Pterodactyl Defense.",
+                                                          "strategicTheme": "Material exchange",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "bxc3 exchanges material, altering the pawn structure in the Pterodactyl Defense.",
+                                                      "strategicTheme": "Material exchange",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Bxc3+ exchanges material, altering the pawn structure in the Pterodactyl Defense.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": true,
                                             "annotation": {
                                               "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Pterodactyl Defense.",
@@ -3908,7 +4003,55 @@
                                       {
                                         "move": "Qa5+",
                                         "fen": "rnb1k1nr/pp1pppbp/6p1/q1P5/4P3/5N2/PPP2PPP/RNBQKB1R w KQkq - 1 5",
-                                        "children": [],
+                                        "children": [
+                                          {
+                                            "move": "Nc3",
+                                            "fen": "rnb1k1nr/pp1pppbp/6p1/q1P5/4P3/2N2N2/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+                                            "children": [
+                                              {
+                                                "move": "Bxc3+",
+                                                "fen": "rnb1k1nr/pp1ppp1p/6p1/q1P5/4P3/2b2N2/PPP2PPP/R1BQKB1R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "bxc3",
+                                                    "fen": "rnb1k1nr/pp1ppp1p/6p1/q1P5/4P3/2P2N2/P1P2PPP/R1BQKB1R b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Qxc3+",
+                                                        "fen": "rnb1k1nr/pp1ppp1p/6p1/2P5/4P3/2q2N2/P1P2PPP/R1BQKB1R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Qxc3+ exchanges material, altering the pawn structure in the Pterodactyl Defense.",
+                                                          "strategicTheme": "Material exchange",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "bxc3 exchanges material, altering the pawn structure in the Pterodactyl Defense.",
+                                                      "strategicTheme": "Material exchange",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Bxc3+ exchanges material, altering the pawn structure in the Pterodactyl Defense.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Pterodactyl Defense.",
+                                              "strategicTheme": "Natural piece development",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
                                         "isMainLine": true,
                                         "annotation": {
                                           "moveRationale": "Qa5+ delivers check, seizing the initiative in the Pterodactyl Defense.",

@@ -29,7 +29,31 @@
                           {
                             "move": "Nxe5",
                             "fen": "r1bqkbnr/pppp1ppp/2n5/4N3/4P3/8/PPPP1PPP/RNBQKB1R b KQkq - 0 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "Nxe5",
+                                "fen": "r1bqkbnr/pppp1ppp/8/4n3/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "d4",
+                                    "fen": "r1bqkbnr/pppp1ppp/8/4n3/3PP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Irish Gambit.",
+                                      "strategicTheme": "Central tension",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Irish Gambit.",
+                                  "strategicTheme": "Material exchange",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": true,
                             "annotation": {
                               "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Irish Gambit.",

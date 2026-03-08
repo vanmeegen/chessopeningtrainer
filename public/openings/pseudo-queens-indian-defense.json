@@ -25,7 +25,114 @@
                       {
                         "move": "b6",
                         "fen": "rnbqkb1r/p1pppppp/1p3n2/8/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 3",
-                        "children": [],
+                        "children": [
+                          {
+                            "move": "c3",
+                            "fen": "rnbqkb1r/p1pppppp/1p3n2/8/3P4/2P2N2/PP2PPPP/RNBQKB1R b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "e5",
+                                "fen": "rnbqkb1r/p1pp1ppp/1p3n2/4p3/3P4/2P2N2/PP2PPPP/RNBQKB1R w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "e5 advances a pawn, influencing the structure in the Pseudo Queen's Indian Defense.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "c3 advances a pawn, influencing the structure in the Pseudo Queen's Indian Defense.",
+                              "strategicTheme": "Prophylactic pawn move",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "g3",
+                            "fen": "rnbqkb1r/p1pppppp/1p3n2/8/3P4/5NP1/PPP1PP1P/RNBQKB1R b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Bb7",
+                                "fen": "rn1qkb1r/pbpppppp/1p3n2/8/3P4/5NP1/PPP1PP1P/RNBQKB1R w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "Bg2",
+                                    "fen": "rn1qkb1r/pbpppppp/1p3n2/8/3P4/5NP1/PPP1PPBP/RNBQK2R b KQkq - 2 4",
+                                    "children": [
+                                      {
+                                        "move": "c5",
+                                        "fen": "rn1qkb1r/pb1ppppp/1p3n2/2p5/3P4/5NP1/PPP1PPBP/RNBQK2R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "c4",
+                                            "fen": "rn1qkb1r/pb1ppppp/1p3n2/2p5/2PP4/5NP1/PP2PPBP/RNBQK2R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "cxd4",
+                                                "fen": "rn1qkb1r/pb1ppppp/1p3n2/8/2Pp4/5NP1/PP2PPBP/RNBQK2R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Qxd4",
+                                                    "fen": "rn1qkb1r/pb1ppppp/1p3n2/8/2PQ4/5NP1/PP2PPBP/RNB1K2R b KQkq - 0 6",
+                                                    "children": [],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Qxd4 exchanges material, altering the pawn structure in the Pseudo Queen's Indian Defense.",
+                                                      "strategicTheme": "Material exchange",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "cxd4 exchanges material, altering the pawn structure in the Pseudo Queen's Indian Defense.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "c4 gains space on the queenside in the Pseudo Queen's Indian Defense.",
+                                              "strategicTheme": "Pawn structure",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "c5 challenges the center from the flank in the Pseudo Queen's Indian Defense.",
+                                          "strategicTheme": "Pawn structure",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Bg2 develops a piece to an active square in the Pseudo Queen's Indian Defense.",
+                                      "strategicTheme": "Bishop development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Bb7 develops a piece to an active square in the Pseudo Queen's Indian Defense.",
+                                  "strategicTheme": "Bishop development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Pseudo Queen's Indian Defense.",
+                              "strategicTheme": "Fianchetto preparation",
+                              "source": "generated"
+                            }
+                          }
+                        ],
                         "isMainLine": true,
                         "annotation": {
                           "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Pseudo Queen's Indian Defense.",

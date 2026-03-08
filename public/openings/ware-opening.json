@@ -13,7 +13,206 @@
           {
             "move": "a4",
             "fen": "rnbqkbnr/pppppppp/8/8/P7/8/1PPPPPPP/RNBQKBNR b KQkq - 0 1",
-            "children": [],
+            "children": [
+              {
+                "move": "b6",
+                "fen": "rnbqkbnr/p1pppppp/1p6/8/P7/8/1PPPPPPP/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "d4",
+                    "fen": "rnbqkbnr/p1pppppp/1p6/8/P2P4/8/1PP1PPPP/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "d5",
+                        "fen": "rnbqkbnr/p1p1pppp/1p6/3p4/P2P4/8/1PP1PPPP/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "Nc3",
+                            "fen": "rnbqkbnr/p1p1pppp/1p6/3p4/P2P4/2N5/1PP1PPPP/R1BQKBNR b KQkq - 1 3",
+                            "children": [
+                              {
+                                "move": "Nd7",
+                                "fen": "r1bqkbnr/p1pnpppp/1p6/3p4/P2P4/2N5/1PP1PPPP/R1BQKBNR w KQkq - 2 4",
+                                "children": [],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Nd7 develops a piece to an active square in the Ware Opening.",
+                                  "strategicTheme": "Knight activity",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Ware Opening.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "d5 advances a pawn, influencing the structure in the Ware Opening.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Ware Opening.",
+                      "strategicTheme": "Central tension",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Ware Opening.",
+                  "strategicTheme": "Fianchetto preparation",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "e5",
+                "fen": "rnbqkbnr/pppp1ppp/8/4p3/P7/8/1PPPPPPP/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "h4",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4p3/P6P/8/1PPPPPP1/RNBQKBNR b KQkq - 0 2",
+                    "children": [],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "h4 advances a pawn, influencing the structure in the Ware Opening.",
+                      "strategicTheme": "Pawn structure",
+                      "source": "generated"
+                    }
+                  },
+                  {
+                    "move": "Ra3",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4p3/P7/R7/1PPPPPPP/1NBQKBNR b Kkq - 1 2",
+                    "children": [],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "Ra3 repositions the rook toward an open or key file in the Ware Opening.",
+                      "strategicTheme": "Rook activation",
+                      "source": "generated"
+                    }
+                  },
+                  {
+                    "move": "a5",
+                    "fen": "rnbqkbnr/pppp1ppp/8/P3p3/8/8/1PPPPPPP/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "d5",
+                        "fen": "rnbqkbnr/ppp2ppp/8/P2pp3/8/8/1PPPPPPP/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "e3",
+                            "fen": "rnbqkbnr/ppp2ppp/8/P2pp3/8/4P3/1PPP1PPP/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "f5",
+                                "fen": "rnbqkbnr/ppp3pp/8/P2ppp2/8/4P3/1PPP1PPP/RNBQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "a6",
+                                    "fen": "rnbqkbnr/ppp3pp/P7/3ppp2/8/4P3/1PPP1PPP/RNBQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "a6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Ware Opening.",
+                                      "strategicTheme": "Prophylactic pawn move",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "f5 advances a pawn, influencing the structure in the Ware Opening.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Ware Opening.",
+                              "strategicTheme": "Solid center support",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "d5 advances a pawn, influencing the structure in the Ware Opening.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "a5 advances a pawn, influencing the structure in the Ware Opening.",
+                      "strategicTheme": "Pawn structure",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "e5 advances a pawn, influencing the structure in the Ware Opening.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "a5",
+                "fen": "rnbqkbnr/1ppppppp/8/p7/P7/8/1PPPPPPP/RNBQKBNR w KQkq - 0 2",
+                "children": [],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "a5 advances a pawn, influencing the structure in the Ware Opening.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "b5",
+                "fen": "rnbqkbnr/p1pppppp/8/1p6/P7/8/1PPPPPPP/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "axb5",
+                    "fen": "rnbqkbnr/p1pppppp/8/1P6/8/8/1PPPPPPP/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "Bb7",
+                        "fen": "rn1qkbnr/pbpppppp/8/1P6/8/8/1PPPPPPP/RNBQKBNR w KQkq - 1 3",
+                        "children": [],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "Bb7 develops a piece to an active square in the Ware Opening.",
+                          "strategicTheme": "Bishop development",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "axb5 exchanges material, altering the pawn structure in the Ware Opening.",
+                      "strategicTheme": "Material exchange",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "b5 advances a pawn, influencing the structure in the Ware Opening.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              }
+            ],
             "isMainLine": true,
             "annotation": {
               "moveRationale": "a4 advances a pawn, influencing the structure in the Ware Opening.",

@@ -41,7 +41,100 @@
                                       {
                                         "move": "Bf5",
                                         "fen": "rn1qkb1r/pp2pppp/2p2n2/3p1b2/8/5NP1/PPPPPPBP/RNBQ1RK1 w kq - 2 5",
-                                        "children": [],
+                                        "children": [
+                                          {
+                                            "move": "d3",
+                                            "fen": "rn1qkb1r/pp2pppp/2p2n2/3p1b2/8/3P1NP1/PPP1PPBP/RNBQ1RK1 b kq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "h6",
+                                                "fen": "rn1qkb1r/pp2ppp1/2p2n1p/3p1b2/8/3P1NP1/PPP1PPBP/RNBQ1RK1 w kq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "c4",
+                                                    "fen": "rn1qkb1r/pp2ppp1/2p2n1p/3p1b2/2P5/3P1NP1/PP2PPBP/RNBQ1RK1 b kq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "dxc4",
+                                                        "fen": "rn1qkb1r/pp2ppp1/2p2n1p/5b2/2p5/3P1NP1/PP2PPBP/RNBQ1RK1 w kq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "dxc4 impacts the center, shaping the pawn structure in the King's Indian Attack, with Bf5.",
+                                                          "strategicTheme": "Central tension",
+                                                          "source": "generated"
+                                                        }
+                                                      },
+                                                      {
+                                                        "move": "e6",
+                                                        "fen": "rn1qkb1r/pp3pp1/2p1pn1p/3p1b2/2P5/3P1NP1/PP2PPBP/RNBQ1RK1 w kq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "e6 advances a pawn, influencing the structure in the King's Indian Attack, with Bf5.",
+                                                          "strategicTheme": "Prophylactic pawn move",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "c4 gains space on the queenside in the King's Indian Attack, with Bf5.",
+                                                      "strategicTheme": "Pawn structure",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "h6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the King's Indian Attack, with Bf5.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "e6",
+                                                "fen": "rn1qkb1r/pp3ppp/2p1pn2/3p1b2/8/3P1NP1/PPP1PPBP/RNBQ1RK1 w kq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Nbd2",
+                                                    "fen": "rn1qkb1r/pp3ppp/2p1pn2/3p1b2/8/3P1NP1/PPPNPPBP/R1BQ1RK1 b kq - 1 6",
+                                                    "children": [],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Nbd2 develops a piece to an active square in the King's Indian Attack, with Bf5.",
+                                                      "strategicTheme": "Knight activity",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "Nh4",
+                                                    "fen": "rn1qkb1r/pp3ppp/2p1pn2/3p1b2/7N/3P2P1/PPP1PPBP/RNBQ1RK1 b kq - 1 6",
+                                                    "children": [],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Nh4 develops a piece to an active square in the King's Indian Attack, with Bf5.",
+                                                      "strategicTheme": "Knight activity",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "e6 advances a pawn, influencing the structure in the King's Indian Attack, with Bf5.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the King's Indian Attack, with Bf5.",
+                                              "strategicTheme": "Solid center support",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
                                         "isMainLine": true,
                                         "annotation": {
                                           "moveRationale": "Bf5 develops a piece to an active square in the King's Indian Attack, with Bf5.",
@@ -156,7 +249,42 @@
                                               {
                                                 "move": "h6",
                                                 "fen": "rn1qkb1r/pp2ppp1/2p2n1p/3p1b2/8/3P1NP1/PPP1PPBP/RNBQ1RK1 w kq - 0 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "c4",
+                                                    "fen": "rn1qkb1r/pp2ppp1/2p2n1p/3p1b2/2P5/3P1NP1/PP2PPBP/RNBQ1RK1 b kq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "dxc4",
+                                                        "fen": "rn1qkb1r/pp2ppp1/2p2n1p/5b2/2p5/3P1NP1/PP2PPBP/RNBQ1RK1 w kq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "dxc4 impacts the center, shaping the pawn structure in the King's Indian Attack, with Bf5.",
+                                                          "strategicTheme": "Central tension",
+                                                          "source": "generated"
+                                                        }
+                                                      },
+                                                      {
+                                                        "move": "e6",
+                                                        "fen": "rn1qkb1r/pp3pp1/2p1pn1p/3p1b2/2P5/3P1NP1/PP2PPBP/RNBQ1RK1 w kq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "e6 advances a pawn, influencing the structure in the King's Indian Attack, with Bf5.",
+                                                          "strategicTheme": "Prophylactic pawn move",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "c4 gains space on the queenside in the King's Indian Attack, with Bf5.",
+                                                      "strategicTheme": "Pawn structure",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": true,
                                                 "annotation": {
                                                   "moveRationale": "h6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the King's Indian Attack, with Bf5.",

@@ -21,7 +21,53 @@
                   {
                     "move": "f3",
                     "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/5P2/PPP1P1PP/RNBQKBNR b KQkq - 0 2",
-                    "children": [],
+                    "children": [
+                      {
+                        "move": "d5",
+                        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/5P2/PPP1P1PP/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "g4",
+                            "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P2P1/5P2/PPP1P2P/RNBQKBNR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "g4 advances a pawn, influencing the structure in the Paleface Attack.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "e4",
+                            "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3PP3/5P2/PPP3PP/RNBQKBNR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "e4 impacts the center, shaping the pawn structure in the Paleface Attack.",
+                              "strategicTheme": "Central tension",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "Nc3",
+                            "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/2N2P2/PPP1P1PP/R1BQKBNR b KQkq - 1 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Paleface Attack.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "d5 advances a pawn, influencing the structure in the Paleface Attack.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
                     "isMainLine": true,
                     "annotation": {
                       "moveRationale": "f3 advances a pawn, influencing the structure in the Paleface Attack.",

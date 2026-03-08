@@ -45,7 +45,19 @@
                                           {
                                             "move": "Be2",
                                             "fen": "rnbqk2r/ppp1ppbp/3p1np1/8/3P1B2/4PN2/PPP1BPPP/RN1QK2R b KQkq - 1 5",
-                                            "children": [],
+                                            "children": [
+                                              {
+                                                "move": "O-O",
+                                                "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/3P1B2/4PN2/PPP1BPPP/RN1QK2R w KQ - 2 6",
+                                                "children": [],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the London System, with Be2.",
+                                                  "strategicTheme": "Early king safety",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": true,
                                             "annotation": {
                                               "moveRationale": "Be2 develops the bishop to a modest but solid square, preparing to castle in the London System, with Be2.",

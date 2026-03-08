@@ -29,7 +29,136 @@
                           {
                             "move": "Bg5",
                             "fen": "rnbqkb1r/pppp1ppp/4pn2/6B1/3P4/5N2/PPP1PPPP/RN1QKB1R b KQkq - 1 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "d5",
+                                "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/3P4/5N2/PPP1PPPP/RN1QKB1R w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "e3",
+                                    "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/3P4/4PN2/PPP2PPP/RN1QKB1R b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "c5",
+                                        "fen": "rnbqkb1r/pp3ppp/4pn2/2pp2B1/3P4/4PN2/PPP2PPP/RN1QKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "c3",
+                                            "fen": "rnbqkb1r/pp3ppp/4pn2/2pp2B1/3P4/2P1PN2/PP3PPP/RN1QKB1R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Qb6",
+                                                "fen": "rnb1kb1r/pp3ppp/1q2pn2/2pp2B1/3P4/2P1PN2/PP3PPP/RN1QKB1R w KQkq - 1 6",
+                                                "children": [],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Qb6 activates the queen, increasing pressure in the Torre Attack.",
+                                                  "strategicTheme": "Queen activity",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "c3 advances a pawn, influencing the structure in the Torre Attack.",
+                                              "strategicTheme": "Prophylactic pawn move",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "c5 challenges the center from the flank in the Torre Attack.",
+                                          "strategicTheme": "Pawn structure",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Torre Attack.",
+                                      "strategicTheme": "Solid center support",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Torre Attack.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "h6",
+                                "fen": "rnbqkb1r/pppp1pp1/4pn1p/6B1/3P4/5N2/PPP1PPPP/RN1QKB1R w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "h6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Torre Attack.",
+                                  "strategicTheme": "Prophylactic pawn move",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "c5",
+                                "fen": "rnbqkb1r/pp1p1ppp/4pn2/2p3B1/3P4/5N2/PPP1PPPP/RN1QKB1R w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "e3",
+                                    "fen": "rnbqkb1r/pp1p1ppp/4pn2/2p3B1/3P4/4PN2/PPP2PPP/RN1QKB1R b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "b6",
+                                        "fen": "rnbqkb1r/p2p1ppp/1p2pn2/2p3B1/3P4/4PN2/PPP2PPP/RN1QKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "d5",
+                                            "fen": "rnbqkb1r/p2p1ppp/1p2pn2/2pP2B1/8/4PN2/PPP2PPP/RN1QKB1R b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "d5 advances a pawn, influencing the structure in the Torre Attack.",
+                                              "strategicTheme": "Pawn structure",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Torre Attack.",
+                                          "strategicTheme": "Fianchetto preparation",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Torre Attack.",
+                                      "strategicTheme": "Solid center support",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "e4",
+                                    "fen": "rnbqkb1r/pp1p1ppp/4pn2/2p3B1/3PP3/5N2/PPP2PPP/RN1QKB1R b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Torre Attack.",
+                                      "strategicTheme": "Central tension",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "c5 challenges the center from the flank in the Torre Attack.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": true,
                             "annotation": {
                               "moveRationale": "Bg5 develops a piece to an active square in the Torre Attack.",
@@ -397,7 +526,78 @@
                           {
                             "move": "Bg5",
                             "fen": "rnbqkb1r/pppppp1p/5np1/6B1/3P4/5N2/PPP1PPPP/RN1QKB1R b KQkq - 1 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "Bg7",
+                                "fen": "rnbqk2r/ppppppbp/5np1/6B1/3P4/5N2/PPP1PPPP/RN1QKB1R w KQkq - 2 4",
+                                "children": [
+                                  {
+                                    "move": "Nbd2",
+                                    "fen": "rnbqk2r/ppppppbp/5np1/6B1/3P4/5N2/PPPNPPPP/R2QKB1R b KQkq - 3 4",
+                                    "children": [
+                                      {
+                                        "move": "d5",
+                                        "fen": "rnbqk2r/ppp1ppbp/5np1/3p2B1/3P4/5N2/PPPNPPPP/R2QKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "e3",
+                                            "fen": "rnbqk2r/ppp1ppbp/5np1/3p2B1/3P4/4PN2/PPPN1PPP/R2QKB1R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "O-O",
+                                                "fen": "rnbq1rk1/ppp1ppbp/5np1/3p2B1/3P4/4PN2/PPPN1PPP/R2QKB1R w KQ - 1 6",
+                                                "children": [],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Torre Attack.",
+                                                  "strategicTheme": "Early king safety",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Torre Attack.",
+                                              "strategicTheme": "Solid center support",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "d5 advances a pawn, influencing the structure in the Torre Attack.",
+                                          "strategicTheme": "Pawn structure",
+                                          "source": "generated"
+                                        }
+                                      },
+                                      {
+                                        "move": "c5",
+                                        "fen": "rnbqk2r/pp1pppbp/5np1/2p3B1/3P4/5N2/PPPNPPPP/R2QKB1R w KQkq - 0 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "c5 challenges the center from the flank in the Torre Attack.",
+                                          "strategicTheme": "Pawn structure",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Nbd2 develops a piece to an active square in the Torre Attack.",
+                                      "strategicTheme": "Knight activity",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Bg7 develops a piece to an active square in the Torre Attack.",
+                                  "strategicTheme": "Bishop development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": true,
                             "annotation": {
                               "moveRationale": "Bg5 develops a piece to an active square in the Torre Attack.",

@@ -17,7 +17,31 @@
               {
                 "move": "h5",
                 "fen": "rnbqkbnr/ppppppp1/8/7p/8/6P1/PPPPPP1P/RNBQKBNR w KQkq - 0 2",
-                "children": [],
+                "children": [
+                  {
+                    "move": "Nf3",
+                    "fen": "rnbqkbnr/ppppppp1/8/7p/8/5NP1/PPPPPP1P/RNBQKB1R b KQkq - 1 2",
+                    "children": [
+                      {
+                        "move": "h4",
+                        "fen": "rnbqkbnr/ppppppp1/8/8/7p/5NP1/PPPPPP1P/RNBQKB1R w KQkq - 0 3",
+                        "children": [],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "h4 advances a pawn, influencing the structure in the Lasker Simul Special.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Lasker Simul Special.",
+                      "strategicTheme": "Natural piece development",
+                      "source": "generated"
+                    }
+                  }
+                ],
                 "isMainLine": true,
                 "annotation": {
                   "moveRationale": "h5 advances a pawn, influencing the structure in the Lasker Simul Special.",

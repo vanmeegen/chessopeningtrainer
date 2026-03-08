@@ -13,7 +13,536 @@
           {
             "move": "g4",
             "fen": "rnbqkbnr/pppppppp/8/8/6P1/8/PPPPPP1P/RNBQKBNR b KQkq - 0 1",
-            "children": [],
+            "children": [
+              {
+                "move": "f5",
+                "fen": "rnbqkbnr/ppppp1pp/8/5p2/6P1/8/PPPPPP1P/RNBQKBNR w KQkq - 0 2",
+                "children": [],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "f5 advances a pawn, influencing the structure in the Grob Opening.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "g5",
+                "fen": "rnbqkbnr/pppppp1p/8/6p1/6P1/8/PPPPPP1P/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "f4",
+                    "fen": "rnbqkbnr/pppppp1p/8/6p1/5PP1/8/PPPPP2P/RNBQKBNR b KQkq - 0 2",
+                    "children": [],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "f4 advances a pawn, influencing the structure in the Grob Opening.",
+                      "strategicTheme": "Aggressive kingside expansion",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "g5 advances a pawn, influencing the structure in the Grob Opening.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "d5",
+                "fen": "rnbqkbnr/ppp1pppp/8/3p4/6P1/8/PPPPPP1P/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "Bg2",
+                    "fen": "rnbqkbnr/ppp1pppp/8/3p4/6P1/8/PPPPPPBP/RNBQK1NR b KQkq - 1 2",
+                    "children": [
+                      {
+                        "move": "c6",
+                        "fen": "rnbqkbnr/pp2pppp/2p5/3p4/6P1/8/PPPPPPBP/RNBQK1NR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "c4",
+                            "fen": "rnbqkbnr/pp2pppp/2p5/3p4/2P3P1/8/PP1PPPBP/RNBQK1NR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "dxc4",
+                                "fen": "rnbqkbnr/pp2pppp/2p5/8/2p3P1/8/PP1PPPBP/RNBQK1NR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "b3",
+                                    "fen": "rnbqkbnr/pp2pppp/2p5/8/2p3P1/1P6/P2PPPBP/RNBQK1NR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Grob Opening.",
+                                      "strategicTheme": "Fianchetto preparation",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "dxc4 impacts the center, shaping the pawn structure in the Grob Opening.",
+                                  "strategicTheme": "Central tension",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "c4 gains space on the queenside in the Grob Opening.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "g5",
+                            "fen": "rnbqkbnr/pp2pppp/2p5/3p2P1/8/8/PPPPPPBP/RNBQK1NR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "g5 advances a pawn, influencing the structure in the Grob Opening.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "c6 advances a pawn, influencing the structure in the Grob Opening.",
+                          "strategicTheme": "Prophylactic pawn move",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "h5",
+                        "fen": "rnbqkbnr/ppp1ppp1/8/3p3p/6P1/8/PPPPPPBP/RNBQK1NR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "gxh5",
+                            "fen": "rnbqkbnr/ppp1ppp1/8/3p3P/8/8/PPPPPPBP/RNBQK1NR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "gxh5 exchanges material, altering the pawn structure in the Grob Opening.",
+                              "strategicTheme": "Material exchange",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "h5 advances a pawn, influencing the structure in the Grob Opening.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "Bxg4",
+                        "fen": "rn1qkbnr/ppp1pppp/8/3p4/6b1/8/PPPPPPBP/RNBQK1NR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "c4",
+                            "fen": "rn1qkbnr/ppp1pppp/8/3p4/2P3b1/8/PP1PPPBP/RNBQK1NR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "d4",
+                                "fen": "rn1qkbnr/ppp1pppp/8/8/2Pp2b1/8/PP1PPPBP/RNBQK1NR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Bxb7",
+                                    "fen": "rn1qkbnr/pBp1pppp/8/8/2Pp2b1/8/PP1PPP1P/RNBQK1NR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Nd7",
+                                        "fen": "r2qkbnr/pBpnpppp/8/8/2Pp2b1/8/PP1PPP1P/RNBQK1NR w KQkq - 1 5",
+                                        "children": [
+                                          {
+                                            "move": "Bxa8",
+                                            "fen": "B2qkbnr/p1pnpppp/8/8/2Pp2b1/8/PP1PPP1P/RNBQK1NR b KQk - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Qxa8",
+                                                "fen": "q3kbnr/p1pnpppp/8/8/2Pp2b1/8/PP1PPP1P/RNBQK1NR w KQk - 0 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Qxa8 exchanges material, altering the pawn structure in the Grob Opening.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Bxa8 exchanges material, altering the pawn structure in the Grob Opening.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Nd7 develops a piece to an active square in the Grob Opening.",
+                                          "strategicTheme": "Knight activity",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Bxb7 exchanges material, altering the pawn structure in the Grob Opening.",
+                                      "strategicTheme": "Material exchange",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "d4 impacts the center, shaping the pawn structure in the Grob Opening.",
+                                  "strategicTheme": "Central tension",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "c4 gains space on the queenside in the Grob Opening.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "Bxg4 exchanges material, altering the pawn structure in the Grob Opening.",
+                          "strategicTheme": "Material exchange",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "e5",
+                        "fen": "rnbqkbnr/ppp2ppp/8/3pp3/6P1/8/PPPPPPBP/RNBQK1NR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "d4",
+                            "fen": "rnbqkbnr/ppp2ppp/8/3pp3/3P2P1/8/PPP1PPBP/RNBQK1NR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "exd4",
+                                "fen": "rnbqkbnr/ppp2ppp/8/3p4/3p2P1/8/PPP1PPBP/RNBQK1NR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "c3",
+                                    "fen": "rnbqkbnr/ppp2ppp/8/3p4/3p2P1/2P5/PP2PPBP/RNBQK1NR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "c3 advances a pawn, influencing the structure in the Grob Opening.",
+                                      "strategicTheme": "Prophylactic pawn move",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Grob Opening.",
+                                  "strategicTheme": "Central tension",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "d4 impacts the center, shaping the pawn structure in the Grob Opening.",
+                              "strategicTheme": "Central tension",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "e5 advances a pawn, influencing the structure in the Grob Opening.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "Bg2 develops a piece to an active square in the Grob Opening.",
+                      "strategicTheme": "Bishop development",
+                      "source": "generated"
+                    }
+                  },
+                  {
+                    "move": "h3",
+                    "fen": "rnbqkbnr/ppp1pppp/8/3p4/6P1/7P/PPPPPP2/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "e5",
+                        "fen": "rnbqkbnr/ppp2ppp/8/3pp3/6P1/7P/PPPPPP2/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "Bg2",
+                            "fen": "rnbqkbnr/ppp2ppp/8/3pp3/6P1/7P/PPPPPPB1/RNBQK1NR b KQkq - 1 3",
+                            "children": [
+                              {
+                                "move": "c6",
+                                "fen": "rnbqkbnr/pp3ppp/2p5/3pp3/6P1/7P/PPPPPPB1/RNBQK1NR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "d4",
+                                    "fen": "rnbqkbnr/pp3ppp/2p5/3pp3/3P2P1/7P/PPP1PPB1/RNBQK1NR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "e4",
+                                        "fen": "rnbqkbnr/pp3ppp/2p5/3p4/3Pp1P1/7P/PPP1PPB1/RNBQK1NR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "c4",
+                                            "fen": "rnbqkbnr/pp3ppp/2p5/3p4/2PPp1P1/7P/PP2PPB1/RNBQK1NR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Bd6",
+                                                "fen": "rnbqk1nr/pp3ppp/2pb4/3p4/2PPp1P1/7P/PP2PPB1/RNBQK1NR w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Nc3",
+                                                    "fen": "rnbqk1nr/pp3ppp/2pb4/3p4/2PPp1P1/2N4P/PP2PPB1/R1BQK1NR b KQkq - 2 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Ne7",
+                                                        "fen": "rnbqk2r/pp2nppp/2pb4/3p4/2PPp1P1/2N4P/PP2PPB1/R1BQK1NR w KQkq - 3 7",
+                                                        "children": [],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Ne7 develops a piece to an active square in the Grob Opening.",
+                                                          "strategicTheme": "Knight activity",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Grob Opening.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Bd6 develops a piece to an active square in the Grob Opening.",
+                                                  "strategicTheme": "Bishop development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "c4 gains space on the queenside in the Grob Opening.",
+                                              "strategicTheme": "Pawn structure",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "e4 impacts the center, shaping the pawn structure in the Grob Opening.",
+                                          "strategicTheme": "Central tension",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Grob Opening.",
+                                      "strategicTheme": "Central tension",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "c6 advances a pawn, influencing the structure in the Grob Opening.",
+                                  "strategicTheme": "Prophylactic pawn move",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "Bg2 develops a piece to an active square in the Grob Opening.",
+                              "strategicTheme": "Bishop development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "e5 advances a pawn, influencing the structure in the Grob Opening.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "h3 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Grob Opening.",
+                      "strategicTheme": "Prophylactic pawn move",
+                      "source": "generated"
+                    }
+                  },
+                  {
+                    "move": "e4",
+                    "fen": "rnbqkbnr/ppp1pppp/8/3p4/4P1P1/8/PPPP1P1P/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "dxe4",
+                        "fen": "rnbqkbnr/ppp1pppp/8/8/4p1P1/8/PPPP1P1P/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "Nc3",
+                            "fen": "rnbqkbnr/ppp1pppp/8/8/4p1P1/2N5/PPPP1P1P/R1BQKBNR b KQkq - 1 3",
+                            "children": [
+                              {
+                                "move": "h5",
+                                "fen": "rnbqkbnr/ppp1ppp1/8/7p/4p1P1/2N5/PPPP1P1P/R1BQKBNR w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "h5 advances a pawn, influencing the structure in the Grob Opening.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "e5",
+                                "fen": "rnbqkbnr/ppp2ppp/8/4p3/4p1P1/2N5/PPPP1P1P/R1BQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "d3",
+                                    "fen": "rnbqkbnr/ppp2ppp/8/4p3/4p1P1/2NP4/PPP2P1P/R1BQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Grob Opening.",
+                                      "strategicTheme": "Solid center support",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "e5 advances a pawn, influencing the structure in the Grob Opening.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Grob Opening.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Grob Opening.",
+                          "strategicTheme": "Central tension",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Grob Opening.",
+                      "strategicTheme": "Central tension",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "d5 advances a pawn, influencing the structure in the Grob Opening.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "e5",
+                "fen": "rnbqkbnr/pppp1ppp/8/4p3/6P1/8/PPPPPP1P/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "h3",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4p3/6P1/7P/PPPPPP2/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "Nc6",
+                        "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/6P1/7P/PPPPPP2/RNBQKBNR w KQkq - 1 3",
+                        "children": [],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Grob Opening.",
+                          "strategicTheme": "Natural piece development",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "h3 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Grob Opening.",
+                      "strategicTheme": "Prophylactic pawn move",
+                      "source": "generated"
+                    }
+                  },
+                  {
+                    "move": "Bg2",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4p3/6P1/8/PPPPPPBP/RNBQK1NR b KQkq - 1 2",
+                    "children": [
+                      {
+                        "move": "d5",
+                        "fen": "rnbqkbnr/ppp2ppp/8/3pp3/6P1/8/PPPPPPBP/RNBQK1NR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "c4",
+                            "fen": "rnbqkbnr/ppp2ppp/8/3pp3/2P3P1/8/PP1PPPBP/RNBQK1NR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "c4 gains space on the queenside in the Grob Opening.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "d5 advances a pawn, influencing the structure in the Grob Opening.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "Bg2 develops a piece to an active square in the Grob Opening.",
+                      "strategicTheme": "Bishop development",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "e5 advances a pawn, influencing the structure in the Grob Opening.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              }
+            ],
             "isMainLine": true,
             "annotation": {
               "moveRationale": "g4 advances a pawn, influencing the structure in the Grob Opening.",
@@ -75,7 +604,19 @@
               {
                 "move": "g5",
                 "fen": "rnbqkbnr/pppppp1p/8/6p1/6P1/8/PPPPPP1P/RNBQKBNR w KQkq - 0 2",
-                "children": [],
+                "children": [
+                  {
+                    "move": "f4",
+                    "fen": "rnbqkbnr/pppppp1p/8/6p1/5PP1/8/PPPPP2P/RNBQKBNR b KQkq - 0 2",
+                    "children": [],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "f4 advances a pawn, influencing the structure in the Grob Opening.",
+                      "strategicTheme": "Aggressive kingside expansion",
+                      "source": "generated"
+                    }
+                  }
+                ],
                 "isMainLine": true,
                 "annotation": {
                   "moveRationale": "g5 advances a pawn, influencing the structure in the Grob Opening.",
@@ -161,7 +702,219 @@
                   {
                     "move": "Bg2",
                     "fen": "rnbqkbnr/ppp1pppp/8/3p4/6P1/8/PPPPPPBP/RNBQK1NR b KQkq - 1 2",
-                    "children": [],
+                    "children": [
+                      {
+                        "move": "c6",
+                        "fen": "rnbqkbnr/pp2pppp/2p5/3p4/6P1/8/PPPPPPBP/RNBQK1NR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "c4",
+                            "fen": "rnbqkbnr/pp2pppp/2p5/3p4/2P3P1/8/PP1PPPBP/RNBQK1NR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "dxc4",
+                                "fen": "rnbqkbnr/pp2pppp/2p5/8/2p3P1/8/PP1PPPBP/RNBQK1NR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "b3",
+                                    "fen": "rnbqkbnr/pp2pppp/2p5/8/2p3P1/1P6/P2PPPBP/RNBQK1NR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Grob Opening.",
+                                      "strategicTheme": "Fianchetto preparation",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "dxc4 impacts the center, shaping the pawn structure in the Grob Opening.",
+                                  "strategicTheme": "Central tension",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "c4 gains space on the queenside in the Grob Opening.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "g5",
+                            "fen": "rnbqkbnr/pp2pppp/2p5/3p2P1/8/8/PPPPPPBP/RNBQK1NR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "g5 advances a pawn, influencing the structure in the Grob Opening.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "c6 advances a pawn, influencing the structure in the Grob Opening.",
+                          "strategicTheme": "Prophylactic pawn move",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "h5",
+                        "fen": "rnbqkbnr/ppp1ppp1/8/3p3p/6P1/8/PPPPPPBP/RNBQK1NR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "gxh5",
+                            "fen": "rnbqkbnr/ppp1ppp1/8/3p3P/8/8/PPPPPPBP/RNBQK1NR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "gxh5 exchanges material, altering the pawn structure in the Grob Opening.",
+                              "strategicTheme": "Material exchange",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "h5 advances a pawn, influencing the structure in the Grob Opening.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "Bxg4",
+                        "fen": "rn1qkbnr/ppp1pppp/8/3p4/6b1/8/PPPPPPBP/RNBQK1NR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "c4",
+                            "fen": "rn1qkbnr/ppp1pppp/8/3p4/2P3b1/8/PP1PPPBP/RNBQK1NR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "d4",
+                                "fen": "rn1qkbnr/ppp1pppp/8/8/2Pp2b1/8/PP1PPPBP/RNBQK1NR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Bxb7",
+                                    "fen": "rn1qkbnr/pBp1pppp/8/8/2Pp2b1/8/PP1PPP1P/RNBQK1NR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Nd7",
+                                        "fen": "r2qkbnr/pBpnpppp/8/8/2Pp2b1/8/PP1PPP1P/RNBQK1NR w KQkq - 1 5",
+                                        "children": [
+                                          {
+                                            "move": "Bxa8",
+                                            "fen": "B2qkbnr/p1pnpppp/8/8/2Pp2b1/8/PP1PPP1P/RNBQK1NR b KQk - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Qxa8",
+                                                "fen": "q3kbnr/p1pnpppp/8/8/2Pp2b1/8/PP1PPP1P/RNBQK1NR w KQk - 0 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Qxa8 exchanges material, altering the pawn structure in the Grob Opening.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Bxa8 exchanges material, altering the pawn structure in the Grob Opening.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Nd7 develops a piece to an active square in the Grob Opening.",
+                                          "strategicTheme": "Knight activity",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Bxb7 exchanges material, altering the pawn structure in the Grob Opening.",
+                                      "strategicTheme": "Material exchange",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "d4 impacts the center, shaping the pawn structure in the Grob Opening.",
+                                  "strategicTheme": "Central tension",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "c4 gains space on the queenside in the Grob Opening.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "Bxg4 exchanges material, altering the pawn structure in the Grob Opening.",
+                          "strategicTheme": "Material exchange",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "e5",
+                        "fen": "rnbqkbnr/ppp2ppp/8/3pp3/6P1/8/PPPPPPBP/RNBQK1NR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "d4",
+                            "fen": "rnbqkbnr/ppp2ppp/8/3pp3/3P2P1/8/PPP1PPBP/RNBQK1NR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "exd4",
+                                "fen": "rnbqkbnr/ppp2ppp/8/3p4/3p2P1/8/PPP1PPBP/RNBQK1NR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "c3",
+                                    "fen": "rnbqkbnr/ppp2ppp/8/3p4/3p2P1/2P5/PP2PPBP/RNBQK1NR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "c3 advances a pawn, influencing the structure in the Grob Opening.",
+                                      "strategicTheme": "Prophylactic pawn move",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Grob Opening.",
+                                  "strategicTheme": "Central tension",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "d4 impacts the center, shaping the pawn structure in the Grob Opening.",
+                              "strategicTheme": "Central tension",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "e5 advances a pawn, influencing the structure in the Grob Opening.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
                     "isMainLine": true,
                     "annotation": {
                       "moveRationale": "Bg2 develops a piece to an active square in the Grob Opening.",
@@ -212,7 +965,54 @@
                       {
                         "move": "c6",
                         "fen": "rnbqkbnr/pp2pppp/2p5/3p4/6P1/8/PPPPPPBP/RNBQK1NR w KQkq - 0 3",
-                        "children": [],
+                        "children": [
+                          {
+                            "move": "c4",
+                            "fen": "rnbqkbnr/pp2pppp/2p5/3p4/2P3P1/8/PP1PPPBP/RNBQK1NR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "dxc4",
+                                "fen": "rnbqkbnr/pp2pppp/2p5/8/2p3P1/8/PP1PPPBP/RNBQK1NR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "b3",
+                                    "fen": "rnbqkbnr/pp2pppp/2p5/8/2p3P1/1P6/P2PPPBP/RNBQK1NR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Grob Opening.",
+                                      "strategicTheme": "Fianchetto preparation",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "dxc4 impacts the center, shaping the pawn structure in the Grob Opening.",
+                                  "strategicTheme": "Central tension",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "c4 gains space on the queenside in the Grob Opening.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "g5",
+                            "fen": "rnbqkbnr/pp2pppp/2p5/3p2P1/8/8/PPPPPPBP/RNBQK1NR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "g5 advances a pawn, influencing the structure in the Grob Opening.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          }
+                        ],
                         "isMainLine": true,
                         "annotation": {
                           "moveRationale": "c6 advances a pawn, influencing the structure in the Grob Opening.",
@@ -346,7 +1146,67 @@
                           {
                             "move": "c4",
                             "fen": "rn1qkbnr/ppp1pppp/8/3p4/2P3b1/8/PP1PPPBP/RNBQK1NR b KQkq - 0 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "d4",
+                                "fen": "rn1qkbnr/ppp1pppp/8/8/2Pp2b1/8/PP1PPPBP/RNBQK1NR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Bxb7",
+                                    "fen": "rn1qkbnr/pBp1pppp/8/8/2Pp2b1/8/PP1PPP1P/RNBQK1NR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Nd7",
+                                        "fen": "r2qkbnr/pBpnpppp/8/8/2Pp2b1/8/PP1PPP1P/RNBQK1NR w KQkq - 1 5",
+                                        "children": [
+                                          {
+                                            "move": "Bxa8",
+                                            "fen": "B2qkbnr/p1pnpppp/8/8/2Pp2b1/8/PP1PPP1P/RNBQK1NR b KQk - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Qxa8",
+                                                "fen": "q3kbnr/p1pnpppp/8/8/2Pp2b1/8/PP1PPP1P/RNBQK1NR w KQk - 0 6",
+                                                "children": [],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Qxa8 exchanges material, altering the pawn structure in the Grob Opening.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Bxa8 exchanges material, altering the pawn structure in the Grob Opening.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Nd7 develops a piece to an active square in the Grob Opening.",
+                                          "strategicTheme": "Knight activity",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Bxb7 exchanges material, altering the pawn structure in the Grob Opening.",
+                                      "strategicTheme": "Material exchange",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "d4 impacts the center, shaping the pawn structure in the Grob Opening.",
+                                  "strategicTheme": "Central tension",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": true,
                             "annotation": {
                               "moveRationale": "c4 gains space on the queenside in the Grob Opening.",
@@ -742,7 +1602,79 @@
                               {
                                 "move": "c6",
                                 "fen": "rnbqkbnr/pp3ppp/2p5/3pp3/6P1/7P/PPPPPPB1/RNBQK1NR w KQkq - 0 4",
-                                "children": [],
+                                "children": [
+                                  {
+                                    "move": "d4",
+                                    "fen": "rnbqkbnr/pp3ppp/2p5/3pp3/3P2P1/7P/PPP1PPB1/RNBQK1NR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "e4",
+                                        "fen": "rnbqkbnr/pp3ppp/2p5/3p4/3Pp1P1/7P/PPP1PPB1/RNBQK1NR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "c4",
+                                            "fen": "rnbqkbnr/pp3ppp/2p5/3p4/2PPp1P1/7P/PP2PPB1/RNBQK1NR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Bd6",
+                                                "fen": "rnbqk1nr/pp3ppp/2pb4/3p4/2PPp1P1/7P/PP2PPB1/RNBQK1NR w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Nc3",
+                                                    "fen": "rnbqk1nr/pp3ppp/2pb4/3p4/2PPp1P1/2N4P/PP2PPB1/R1BQK1NR b KQkq - 2 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Ne7",
+                                                        "fen": "rnbqk2r/pp2nppp/2pb4/3p4/2PPp1P1/2N4P/PP2PPB1/R1BQK1NR w KQkq - 3 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Ne7 develops a piece to an active square in the Grob Opening.",
+                                                          "strategicTheme": "Knight activity",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Grob Opening.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Bd6 develops a piece to an active square in the Grob Opening.",
+                                                  "strategicTheme": "Bishop development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "c4 gains space on the queenside in the Grob Opening.",
+                                              "strategicTheme": "Pawn structure",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "e4 impacts the center, shaping the pawn structure in the Grob Opening.",
+                                          "strategicTheme": "Central tension",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Grob Opening.",
+                                      "strategicTheme": "Central tension",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
                                 "isMainLine": true,
                                 "annotation": {
                                   "moveRationale": "c6 advances a pawn, influencing the structure in the Grob Opening.",
@@ -1039,7 +1971,55 @@
                               {
                                 "move": "d4",
                                 "fen": "rn1qkbnr/ppp1pppp/8/8/2Pp2b1/8/PP1PPPBP/RNBQK1NR w KQkq - 0 4",
-                                "children": [],
+                                "children": [
+                                  {
+                                    "move": "Bxb7",
+                                    "fen": "rn1qkbnr/pBp1pppp/8/8/2Pp2b1/8/PP1PPP1P/RNBQK1NR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Nd7",
+                                        "fen": "r2qkbnr/pBpnpppp/8/8/2Pp2b1/8/PP1PPP1P/RNBQK1NR w KQkq - 1 5",
+                                        "children": [
+                                          {
+                                            "move": "Bxa8",
+                                            "fen": "B2qkbnr/p1pnpppp/8/8/2Pp2b1/8/PP1PPP1P/RNBQK1NR b KQk - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Qxa8",
+                                                "fen": "q3kbnr/p1pnpppp/8/8/2Pp2b1/8/PP1PPP1P/RNBQK1NR w KQk - 0 6",
+                                                "children": [],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Qxa8 exchanges material, altering the pawn structure in the Grob Opening.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Bxa8 exchanges material, altering the pawn structure in the Grob Opening.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Nd7 develops a piece to an active square in the Grob Opening.",
+                                          "strategicTheme": "Knight activity",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Bxb7 exchanges material, altering the pawn structure in the Grob Opening.",
+                                      "strategicTheme": "Material exchange",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
                                 "isMainLine": true,
                                 "annotation": {
                                   "moveRationale": "d4 impacts the center, shaping the pawn structure in the Grob Opening.",
@@ -1260,7 +2240,42 @@
                           {
                             "move": "Nc3",
                             "fen": "rnbqkbnr/ppp1pppp/8/8/4p1P1/2N5/PPPP1P1P/R1BQKBNR b KQkq - 1 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "h5",
+                                "fen": "rnbqkbnr/ppp1ppp1/8/7p/4p1P1/2N5/PPPP1P1P/R1BQKBNR w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "h5 advances a pawn, influencing the structure in the Grob Opening.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "e5",
+                                "fen": "rnbqkbnr/ppp2ppp/8/4p3/4p1P1/2N5/PPPP1P1P/R1BQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "d3",
+                                    "fen": "rnbqkbnr/ppp2ppp/8/4p3/4p1P1/2NP4/PPP2P1P/R1BQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Grob Opening.",
+                                      "strategicTheme": "Solid center support",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "e5 advances a pawn, influencing the structure in the Grob Opening.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": true,
                             "annotation": {
                               "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Grob Opening.",

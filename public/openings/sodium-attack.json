@@ -13,7 +13,173 @@
           {
             "move": "Na3",
             "fen": "rnbqkbnr/pppppppp/8/8/8/N7/PPPPPPPP/R1BQKBNR b KQkq - 1 1",
-            "children": [],
+            "children": [
+              {
+                "move": "e5",
+                "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/N7/PPPPPPPP/R1BQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "d3",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/N2P4/PPP1PPPP/R1BQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "Bxa3",
+                        "fen": "rnbqk1nr/pppp1ppp/8/4p3/8/b2P4/PPP1PPPP/R1BQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "bxa3",
+                            "fen": "rnbqk1nr/pppp1ppp/8/4p3/8/P2P4/P1P1PPPP/R1BQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "d5",
+                                "fen": "rnbqk1nr/ppp2ppp/8/3pp3/8/P2P4/P1P1PPPP/R1BQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "e3",
+                                    "fen": "rnbqk1nr/ppp2ppp/8/3pp3/8/P2PP3/P1P2PPP/R1BQKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "c5",
+                                        "fen": "rnbqk1nr/pp3ppp/8/2ppp3/8/P2PP3/P1P2PPP/R1BQKBNR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "Rb1",
+                                            "fen": "rnbqk1nr/pp3ppp/8/2ppp3/8/P2PP3/P1P2PPP/1RBQKBNR b Kkq - 1 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Rb1 repositions the rook toward an open or key file in the Sodium Attack.",
+                                              "strategicTheme": "Rook activation",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "c5 challenges the center from the flank in the Sodium Attack.",
+                                          "strategicTheme": "Pawn structure",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Sodium Attack.",
+                                      "strategicTheme": "Solid center support",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Sodium Attack.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "bxa3 exchanges material, altering the pawn structure in the Sodium Attack.",
+                              "strategicTheme": "Material exchange",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "Bxa3 exchanges material, altering the pawn structure in the Sodium Attack.",
+                          "strategicTheme": "Material exchange",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Sodium Attack.",
+                      "strategicTheme": "Solid center support",
+                      "source": "generated"
+                    }
+                  },
+                  {
+                    "move": "Nc4",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4p3/2N5/8/PPPPPPPP/R1BQKBNR b KQkq - 1 2",
+                    "children": [
+                      {
+                        "move": "Nc6",
+                        "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2N5/8/PPPPPPPP/R1BQKBNR w KQkq - 2 3",
+                        "children": [
+                          {
+                            "move": "e4",
+                            "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2N1P3/8/PPPP1PPP/R1BQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "f5",
+                                "fen": "r1bqkbnr/pppp2pp/2n5/4pp2/2N1P3/8/PPPP1PPP/R1BQKBNR w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "f5 advances a pawn, influencing the structure in the Sodium Attack.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "e4 impacts the center, shaping the pawn structure in the Sodium Attack.",
+                              "strategicTheme": "Central tension",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Sodium Attack.",
+                          "strategicTheme": "Natural piece development",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "Nc4 develops a piece to an active square in the Sodium Attack.",
+                      "strategicTheme": "Knight activity",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "e5 advances a pawn, influencing the structure in the Sodium Attack.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "g6",
+                "fen": "rnbqkbnr/pppppp1p/6p1/8/8/N7/PPPPPPPP/R1BQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "g4",
+                    "fen": "rnbqkbnr/pppppp1p/6p1/8/6P1/N7/PPPPPP1P/R1BQKBNR b KQkq - 0 2",
+                    "children": [],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "g4 advances a pawn, influencing the structure in the Sodium Attack.",
+                      "strategicTheme": "Pawn structure",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Sodium Attack.",
+                  "strategicTheme": "Fianchetto preparation",
+                  "source": "generated"
+                }
+              }
+            ],
             "isMainLine": true,
             "annotation": {
               "moveRationale": "Na3 develops a piece to an active square in the Sodium Attack.",

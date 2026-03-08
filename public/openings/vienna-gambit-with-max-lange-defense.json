@@ -29,7 +29,419 @@
                           {
                             "move": "f4",
                             "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4PP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "exf4",
+                                "fen": "r1bqkbnr/pppp1ppp/2n5/8/4Pp2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Nf3",
+                                    "fen": "r1bqkbnr/pppp1ppp/2n5/8/4Pp2/2N2N2/PPPP2PP/R1BQKB1R b KQkq - 1 4",
+                                    "children": [
+                                      {
+                                        "move": "Be7",
+                                        "fen": "r1bqk1nr/ppppbppp/2n5/8/4Pp2/2N2N2/PPPP2PP/R1BQKB1R w KQkq - 2 5",
+                                        "children": [],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Vienna Gambit, with Max Lange Defense.",
+                                          "strategicTheme": "Bishop development",
+                                          "source": "generated"
+                                        }
+                                      },
+                                      {
+                                        "move": "g5",
+                                        "fen": "r1bqkbnr/pppp1p1p/2n5/6p1/4Pp2/2N2N2/PPPP2PP/R1BQKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "h4",
+                                            "fen": "r1bqkbnr/pppp1p1p/2n5/6p1/4Pp1P/2N2N2/PPPP2P1/R1BQKB1R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "g4",
+                                                "fen": "r1bqkbnr/pppp1p1p/2n5/8/4PppP/2N2N2/PPPP2P1/R1BQKB1R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Ng5",
+                                                    "fen": "r1bqkbnr/pppp1p1p/2n5/6N1/4PppP/2N5/PPPP2P1/R1BQKB1R b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "d6",
+                                                        "fen": "r1bqkbnr/ppp2p1p/2np4/6N1/4PppP/2N5/PPPP2P1/R1BQKB1R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "d6 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                                          "strategicTheme": "Prophylactic pawn move",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Ng5 develops a piece to an active square in the Vienna Gambit, with Max Lange Defense.",
+                                                      "strategicTheme": "Knight activity",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "g4 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                                  "strategicTheme": "Pawn structure",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "h4 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                              "strategicTheme": "Pawn structure",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "Bc4",
+                                            "fen": "r1bqkbnr/pppp1p1p/2n5/6p1/2B1Pp2/2N2N2/PPPP2PP/R1BQK2R b KQkq - 1 5",
+                                            "children": [
+                                              {
+                                                "move": "g4",
+                                                "fen": "r1bqkbnr/pppp1p1p/2n5/8/2B1Ppp1/2N2N2/PPPP2PP/R1BQK2R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "O-O",
+                                                    "fen": "r1bqkbnr/pppp1p1p/2n5/8/2B1Ppp1/2N2N2/PPPP2PP/R1BQ1RK1 b kq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "gxf3",
+                                                        "fen": "r1bqkbnr/pppp1p1p/2n5/8/2B1Pp2/2N2p2/PPPP2PP/R1BQ1RK1 w kq - 0 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Qxf3",
+                                                            "fen": "r1bqkbnr/pppp1p1p/2n5/8/2B1Pp2/2N2Q2/PPPP2PP/R1B2RK1 b kq - 0 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "Ne5",
+                                                                "fen": "r1bqkbnr/pppp1p1p/8/4n3/2B1Pp2/2N2Q2/PPPP2PP/R1B2RK1 w kq - 1 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Qxf4",
+                                                                    "fen": "r1bqkbnr/pppp1p1p/8/4n3/2B1PQ2/2N5/PPPP2PP/R1B2RK1 b kq - 0 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "Qf6",
+                                                                        "fen": "r1b1kbnr/pppp1p1p/5q2/4n3/2B1PQ2/2N5/PPPP2PP/R1B2RK1 w kq - 1 9",
+                                                                        "children": [],
+                                                                        "isMainLine": false,
+                                                                        "annotation": {
+                                                                          "moveRationale": "Qf6 activates the queen, increasing pressure in the Vienna Gambit, with Max Lange Defense.",
+                                                                          "strategicTheme": "Queen activity",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Qxf4 exchanges material, altering the pawn structure in the Vienna Gambit, with Max Lange Defense.",
+                                                                      "strategicTheme": "Material exchange",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "Ne5 develops a piece to an active square in the Vienna Gambit, with Max Lange Defense.",
+                                                                  "strategicTheme": "Knight activity",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Qxf3 exchanges material, altering the pawn structure in the Vienna Gambit, with Max Lange Defense.",
+                                                              "strategicTheme": "Material exchange",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "gxf3 exchanges material, altering the pawn structure in the Vienna Gambit, with Max Lange Defense.",
+                                                          "strategicTheme": "Material exchange",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Vienna Gambit, with Max Lange Defense.",
+                                                      "strategicTheme": "King safety",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "g4 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                                  "strategicTheme": "Pawn structure",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Vienna Gambit, with Max Lange Defense.",
+                                              "strategicTheme": "Active bishop development",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "d4",
+                                            "fen": "r1bqkbnr/pppp1p1p/2n5/6p1/3PPp2/2N2N2/PPP3PP/R1BQKB1R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "g4",
+                                                "fen": "r1bqkbnr/pppp1p1p/2n5/8/3PPpp1/2N2N2/PPP3PP/R1BQKB1R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bc4",
+                                                    "fen": "r1bqkbnr/pppp1p1p/2n5/8/2BPPpp1/2N2N2/PPP3PP/R1BQK2R b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "gxf3",
+                                                        "fen": "r1bqkbnr/pppp1p1p/2n5/8/2BPPp2/2N2p2/PPP3PP/R1BQK2R w KQkq - 0 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "O-O",
+                                                            "fen": "r1bqkbnr/pppp1p1p/2n5/8/2BPPp2/2N2p2/PPP3PP/R1BQ1RK1 b kq - 1 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "d5",
+                                                                "fen": "r1bqkbnr/ppp2p1p/2n5/3p4/2BPPp2/2N2p2/PPP3PP/R1BQ1RK1 w kq - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "exd5",
+                                                                    "fen": "r1bqkbnr/ppp2p1p/2n5/3P4/2BP1p2/2N2p2/PPP3PP/R1BQ1RK1 b kq - 0 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "Bg4",
+                                                                        "fen": "r2qkbnr/ppp2p1p/2n5/3P4/2BP1pb1/2N2p2/PPP3PP/R1BQ1RK1 w kq - 1 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "dxc6",
+                                                                            "fen": "r2qkbnr/ppp2p1p/2P5/8/2BP1pb1/2N2p2/PPP3PP/R1BQ1RK1 b kq - 0 9",
+                                                                            "children": [],
+                                                                            "isMainLine": false,
+                                                                            "annotation": {
+                                                                              "moveRationale": "dxc6 exchanges material, altering the pawn structure in the Vienna Gambit, with Max Lange Defense.",
+                                                                              "strategicTheme": "Material exchange",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": false,
+                                                                        "annotation": {
+                                                                          "moveRationale": "Bg4 develops a piece to an active square in the Vienna Gambit, with Max Lange Defense.",
+                                                                          "strategicTheme": "Bishop development",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "exd5 exchanges material, altering the pawn structure in the Vienna Gambit, with Max Lange Defense.",
+                                                                      "strategicTheme": "Material exchange",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                                                  "strategicTheme": "Pawn structure",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Vienna Gambit, with Max Lange Defense.",
+                                                              "strategicTheme": "King safety",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "gxf3 exchanges material, altering the pawn structure in the Vienna Gambit, with Max Lange Defense.",
+                                                          "strategicTheme": "Material exchange",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Vienna Gambit, with Max Lange Defense.",
+                                                      "strategicTheme": "Active bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "g4 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                                  "strategicTheme": "Pawn structure",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "d4 impacts the center, shaping the pawn structure in the Vienna Gambit, with Max Lange Defense.",
+                                              "strategicTheme": "Central tension",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "g5 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                          "strategicTheme": "Pawn structure",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Nf3 develops a piece to an active square in the Vienna Gambit, with Max Lange Defense.",
+                                      "strategicTheme": "Natural piece development",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "d4",
+                                    "fen": "r1bqkbnr/pppp1ppp/2n5/8/3PPp2/2N5/PPP3PP/R1BQKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Qh4+",
+                                        "fen": "r1b1kbnr/pppp1ppp/2n5/8/3PPp1q/2N5/PPP3PP/R1BQKBNR w KQkq - 1 5",
+                                        "children": [
+                                          {
+                                            "move": "Ke2",
+                                            "fen": "r1b1kbnr/pppp1ppp/2n5/8/3PPp1q/2N5/PPP1K1PP/R1BQ1BNR b kq - 2 5",
+                                            "children": [
+                                              {
+                                                "move": "b6",
+                                                "fen": "r1b1kbnr/p1pp1ppp/1pn5/8/3PPp1q/2N5/PPP1K1PP/R1BQ1BNR w kq - 0 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Vienna Gambit, with Max Lange Defense.",
+                                                  "strategicTheme": "Fianchetto preparation",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "d6",
+                                                "fen": "r1b1kbnr/ppp2ppp/2np4/8/3PPp1q/2N5/PPP1K1PP/R1BQ1BNR w kq - 0 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "d6 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "g5",
+                                                "fen": "r1b1kbnr/pppp1p1p/2n5/6p1/3PPp1q/2N5/PPP1K1PP/R1BQ1BNR w kq - 0 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "g5 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                                  "strategicTheme": "Pawn structure",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "d5",
+                                                "fen": "r1b1kbnr/ppp2ppp/2n5/3p4/3PPp1q/2N5/PPP1K1PP/R1BQ1BNR w kq - 0 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                                  "strategicTheme": "Pawn structure",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Ke2 improves the position in the Vienna Gambit, with Max Lange Defense.",
+                                              "strategicTheme": "Position improvement",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Qh4+ delivers check, seizing the initiative in the Vienna Gambit, with Max Lange Defense.",
+                                          "strategicTheme": "King pressure",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Vienna Gambit, with Max Lange Defense.",
+                                      "strategicTheme": "Central tension",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "exf4 impacts the center, shaping the pawn structure in the Vienna Gambit, with Max Lange Defense.",
+                                  "strategicTheme": "Central tension",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "Bc5",
+                                "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/4PP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "fxe5",
+                                    "fen": "r1bqk1nr/pppp1ppp/2n5/2b1P3/4P3/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "d6",
+                                        "fen": "r1bqk1nr/ppp2ppp/2np4/2b1P3/4P3/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "d6 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                          "strategicTheme": "Prophylactic pawn move",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "fxe5 exchanges material, altering the pawn structure in the Vienna Gambit, with Max Lange Defense.",
+                                      "strategicTheme": "Material exchange",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Bc5 develops the bishop actively, targeting the vulnerable f7/f2 square in the Vienna Gambit, with Max Lange Defense.",
+                                  "strategicTheme": "Active bishop development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": true,
                             "annotation": {
                               "moveRationale": "f4 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
@@ -231,7 +643,19 @@
                                                   {
                                                     "move": "Ng5",
                                                     "fen": "r1bqkbnr/pppp1p1p/2n5/6N1/4PppP/2N5/PPPP2P1/R1BQKB1R b KQkq - 1 6",
-                                                    "children": [],
+                                                    "children": [
+                                                      {
+                                                        "move": "d6",
+                                                        "fen": "r1bqkbnr/ppp2p1p/2np4/6N1/4PppP/2N5/PPPP2P1/R1BQKB1R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "d6 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                                          "strategicTheme": "Prophylactic pawn move",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
                                                     "isMainLine": true,
                                                     "annotation": {
                                                       "moveRationale": "Ng5 develops a piece to an active square in the Vienna Gambit, with Max Lange Defense.",
@@ -859,7 +1283,280 @@
                                   {
                                     "move": "Nf3",
                                     "fen": "r1bqkbnr/pppp1ppp/2n5/8/4Pp2/2N2N2/PPPP2PP/R1BQKB1R b KQkq - 1 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "Be7",
+                                        "fen": "r1bqk1nr/ppppbppp/2n5/8/4Pp2/2N2N2/PPPP2PP/R1BQKB1R w KQkq - 2 5",
+                                        "children": [],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Vienna Gambit, with Max Lange Defense.",
+                                          "strategicTheme": "Bishop development",
+                                          "source": "generated"
+                                        }
+                                      },
+                                      {
+                                        "move": "g5",
+                                        "fen": "r1bqkbnr/pppp1p1p/2n5/6p1/4Pp2/2N2N2/PPPP2PP/R1BQKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "h4",
+                                            "fen": "r1bqkbnr/pppp1p1p/2n5/6p1/4Pp1P/2N2N2/PPPP2P1/R1BQKB1R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "g4",
+                                                "fen": "r1bqkbnr/pppp1p1p/2n5/8/4PppP/2N2N2/PPPP2P1/R1BQKB1R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Ng5",
+                                                    "fen": "r1bqkbnr/pppp1p1p/2n5/6N1/4PppP/2N5/PPPP2P1/R1BQKB1R b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "d6",
+                                                        "fen": "r1bqkbnr/ppp2p1p/2np4/6N1/4PppP/2N5/PPPP2P1/R1BQKB1R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "d6 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                                          "strategicTheme": "Prophylactic pawn move",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Ng5 develops a piece to an active square in the Vienna Gambit, with Max Lange Defense.",
+                                                      "strategicTheme": "Knight activity",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "g4 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                                  "strategicTheme": "Pawn structure",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "h4 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                              "strategicTheme": "Pawn structure",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "Bc4",
+                                            "fen": "r1bqkbnr/pppp1p1p/2n5/6p1/2B1Pp2/2N2N2/PPPP2PP/R1BQK2R b KQkq - 1 5",
+                                            "children": [
+                                              {
+                                                "move": "g4",
+                                                "fen": "r1bqkbnr/pppp1p1p/2n5/8/2B1Ppp1/2N2N2/PPPP2PP/R1BQK2R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "O-O",
+                                                    "fen": "r1bqkbnr/pppp1p1p/2n5/8/2B1Ppp1/2N2N2/PPPP2PP/R1BQ1RK1 b kq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "gxf3",
+                                                        "fen": "r1bqkbnr/pppp1p1p/2n5/8/2B1Pp2/2N2p2/PPPP2PP/R1BQ1RK1 w kq - 0 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Qxf3",
+                                                            "fen": "r1bqkbnr/pppp1p1p/2n5/8/2B1Pp2/2N2Q2/PPPP2PP/R1B2RK1 b kq - 0 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "Ne5",
+                                                                "fen": "r1bqkbnr/pppp1p1p/8/4n3/2B1Pp2/2N2Q2/PPPP2PP/R1B2RK1 w kq - 1 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Qxf4",
+                                                                    "fen": "r1bqkbnr/pppp1p1p/8/4n3/2B1PQ2/2N5/PPPP2PP/R1B2RK1 b kq - 0 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "Qf6",
+                                                                        "fen": "r1b1kbnr/pppp1p1p/5q2/4n3/2B1PQ2/2N5/PPPP2PP/R1B2RK1 w kq - 1 9",
+                                                                        "children": [],
+                                                                        "isMainLine": false,
+                                                                        "annotation": {
+                                                                          "moveRationale": "Qf6 activates the queen, increasing pressure in the Vienna Gambit, with Max Lange Defense.",
+                                                                          "strategicTheme": "Queen activity",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Qxf4 exchanges material, altering the pawn structure in the Vienna Gambit, with Max Lange Defense.",
+                                                                      "strategicTheme": "Material exchange",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "Ne5 develops a piece to an active square in the Vienna Gambit, with Max Lange Defense.",
+                                                                  "strategicTheme": "Knight activity",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Qxf3 exchanges material, altering the pawn structure in the Vienna Gambit, with Max Lange Defense.",
+                                                              "strategicTheme": "Material exchange",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "gxf3 exchanges material, altering the pawn structure in the Vienna Gambit, with Max Lange Defense.",
+                                                          "strategicTheme": "Material exchange",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Vienna Gambit, with Max Lange Defense.",
+                                                      "strategicTheme": "King safety",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "g4 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                                  "strategicTheme": "Pawn structure",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Vienna Gambit, with Max Lange Defense.",
+                                              "strategicTheme": "Active bishop development",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "d4",
+                                            "fen": "r1bqkbnr/pppp1p1p/2n5/6p1/3PPp2/2N2N2/PPP3PP/R1BQKB1R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "g4",
+                                                "fen": "r1bqkbnr/pppp1p1p/2n5/8/3PPpp1/2N2N2/PPP3PP/R1BQKB1R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bc4",
+                                                    "fen": "r1bqkbnr/pppp1p1p/2n5/8/2BPPpp1/2N2N2/PPP3PP/R1BQK2R b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "gxf3",
+                                                        "fen": "r1bqkbnr/pppp1p1p/2n5/8/2BPPp2/2N2p2/PPP3PP/R1BQK2R w KQkq - 0 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "O-O",
+                                                            "fen": "r1bqkbnr/pppp1p1p/2n5/8/2BPPp2/2N2p2/PPP3PP/R1BQ1RK1 b kq - 1 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "d5",
+                                                                "fen": "r1bqkbnr/ppp2p1p/2n5/3p4/2BPPp2/2N2p2/PPP3PP/R1BQ1RK1 w kq - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "exd5",
+                                                                    "fen": "r1bqkbnr/ppp2p1p/2n5/3P4/2BP1p2/2N2p2/PPP3PP/R1BQ1RK1 b kq - 0 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "Bg4",
+                                                                        "fen": "r2qkbnr/ppp2p1p/2n5/3P4/2BP1pb1/2N2p2/PPP3PP/R1BQ1RK1 w kq - 1 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "dxc6",
+                                                                            "fen": "r2qkbnr/ppp2p1p/2P5/8/2BP1pb1/2N2p2/PPP3PP/R1BQ1RK1 b kq - 0 9",
+                                                                            "children": [],
+                                                                            "isMainLine": false,
+                                                                            "annotation": {
+                                                                              "moveRationale": "dxc6 exchanges material, altering the pawn structure in the Vienna Gambit, with Max Lange Defense.",
+                                                                              "strategicTheme": "Material exchange",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": false,
+                                                                        "annotation": {
+                                                                          "moveRationale": "Bg4 develops a piece to an active square in the Vienna Gambit, with Max Lange Defense.",
+                                                                          "strategicTheme": "Bishop development",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "exd5 exchanges material, altering the pawn structure in the Vienna Gambit, with Max Lange Defense.",
+                                                                      "strategicTheme": "Material exchange",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                                                  "strategicTheme": "Pawn structure",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Vienna Gambit, with Max Lange Defense.",
+                                                              "strategicTheme": "King safety",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "gxf3 exchanges material, altering the pawn structure in the Vienna Gambit, with Max Lange Defense.",
+                                                          "strategicTheme": "Material exchange",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Vienna Gambit, with Max Lange Defense.",
+                                                      "strategicTheme": "Active bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "g4 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                                  "strategicTheme": "Pawn structure",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "d4 impacts the center, shaping the pawn structure in the Vienna Gambit, with Max Lange Defense.",
+                                              "strategicTheme": "Central tension",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "g5 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                          "strategicTheme": "Pawn structure",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": true,
                                     "annotation": {
                                       "moveRationale": "Nf3 develops a piece to an active square in the Vienna Gambit, with Max Lange Defense.",
@@ -962,7 +1659,103 @@
                                           {
                                             "move": "d4",
                                             "fen": "r1bqkbnr/pppp1p1p/2n5/6p1/3PPp2/2N2N2/PPP3PP/R1BQKB1R b KQkq - 0 5",
-                                            "children": [],
+                                            "children": [
+                                              {
+                                                "move": "g4",
+                                                "fen": "r1bqkbnr/pppp1p1p/2n5/8/3PPpp1/2N2N2/PPP3PP/R1BQKB1R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bc4",
+                                                    "fen": "r1bqkbnr/pppp1p1p/2n5/8/2BPPpp1/2N2N2/PPP3PP/R1BQK2R b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "gxf3",
+                                                        "fen": "r1bqkbnr/pppp1p1p/2n5/8/2BPPp2/2N2p2/PPP3PP/R1BQK2R w KQkq - 0 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "O-O",
+                                                            "fen": "r1bqkbnr/pppp1p1p/2n5/8/2BPPp2/2N2p2/PPP3PP/R1BQ1RK1 b kq - 1 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "d5",
+                                                                "fen": "r1bqkbnr/ppp2p1p/2n5/3p4/2BPPp2/2N2p2/PPP3PP/R1BQ1RK1 w kq - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "exd5",
+                                                                    "fen": "r1bqkbnr/ppp2p1p/2n5/3P4/2BP1p2/2N2p2/PPP3PP/R1BQ1RK1 b kq - 0 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "Bg4",
+                                                                        "fen": "r2qkbnr/ppp2p1p/2n5/3P4/2BP1pb1/2N2p2/PPP3PP/R1BQ1RK1 w kq - 1 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "dxc6",
+                                                                            "fen": "r2qkbnr/ppp2p1p/2P5/8/2BP1pb1/2N2p2/PPP3PP/R1BQ1RK1 b kq - 0 9",
+                                                                            "children": [],
+                                                                            "isMainLine": true,
+                                                                            "annotation": {
+                                                                              "moveRationale": "dxc6 exchanges material, altering the pawn structure in the Vienna Gambit, with Max Lange Defense.",
+                                                                              "strategicTheme": "Material exchange",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": true,
+                                                                        "annotation": {
+                                                                          "moveRationale": "Bg4 develops a piece to an active square in the Vienna Gambit, with Max Lange Defense.",
+                                                                          "strategicTheme": "Bishop development",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "exd5 exchanges material, altering the pawn structure in the Vienna Gambit, with Max Lange Defense.",
+                                                                      "strategicTheme": "Material exchange",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                                                  "strategicTheme": "Pawn structure",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": true,
+                                                            "annotation": {
+                                                              "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Vienna Gambit, with Max Lange Defense.",
+                                                              "strategicTheme": "King safety",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "gxf3 exchanges material, altering the pawn structure in the Vienna Gambit, with Max Lange Defense.",
+                                                          "strategicTheme": "Material exchange",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Vienna Gambit, with Max Lange Defense.",
+                                                      "strategicTheme": "Active bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "g4 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                                  "strategicTheme": "Pawn structure",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": true,
                                             "annotation": {
                                               "moveRationale": "d4 impacts the center, shaping the pawn structure in the Vienna Gambit, with Max Lange Defense.",
@@ -1180,7 +1973,76 @@
                                   {
                                     "move": "d4",
                                     "fen": "r1bqkbnr/pppp1ppp/2n5/8/3PPp2/2N5/PPP3PP/R1BQKBNR b KQkq - 0 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "Qh4+",
+                                        "fen": "r1b1kbnr/pppp1ppp/2n5/8/3PPp1q/2N5/PPP3PP/R1BQKBNR w KQkq - 1 5",
+                                        "children": [
+                                          {
+                                            "move": "Ke2",
+                                            "fen": "r1b1kbnr/pppp1ppp/2n5/8/3PPp1q/2N5/PPP1K1PP/R1BQ1BNR b kq - 2 5",
+                                            "children": [
+                                              {
+                                                "move": "b6",
+                                                "fen": "r1b1kbnr/p1pp1ppp/1pn5/8/3PPp1q/2N5/PPP1K1PP/R1BQ1BNR w kq - 0 6",
+                                                "children": [],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Vienna Gambit, with Max Lange Defense.",
+                                                  "strategicTheme": "Fianchetto preparation",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "d6",
+                                                "fen": "r1b1kbnr/ppp2ppp/2np4/8/3PPp1q/2N5/PPP1K1PP/R1BQ1BNR w kq - 0 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "d6 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "g5",
+                                                "fen": "r1b1kbnr/pppp1p1p/2n5/6p1/3PPp1q/2N5/PPP1K1PP/R1BQ1BNR w kq - 0 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "g5 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                                  "strategicTheme": "Pawn structure",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "d5",
+                                                "fen": "r1b1kbnr/ppp2ppp/2n5/3p4/3PPp1q/2N5/PPP1K1PP/R1BQ1BNR w kq - 0 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                                  "strategicTheme": "Pawn structure",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Ke2 improves the position in the Vienna Gambit, with Max Lange Defense.",
+                                              "strategicTheme": "Position improvement",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Qh4+ delivers check, seizing the initiative in the Vienna Gambit, with Max Lange Defense.",
+                                          "strategicTheme": "King pressure",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": true,
                                     "annotation": {
                                       "moveRationale": "d4 impacts the center, shaping the pawn structure in the Vienna Gambit, with Max Lange Defense.",
@@ -1414,7 +2276,52 @@
                                           {
                                             "move": "Ke2",
                                             "fen": "r1b1kbnr/pppp1ppp/2n5/8/3PPp1q/2N5/PPP1K1PP/R1BQ1BNR b kq - 2 5",
-                                            "children": [],
+                                            "children": [
+                                              {
+                                                "move": "b6",
+                                                "fen": "r1b1kbnr/p1pp1ppp/1pn5/8/3PPp1q/2N5/PPP1K1PP/R1BQ1BNR w kq - 0 6",
+                                                "children": [],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Vienna Gambit, with Max Lange Defense.",
+                                                  "strategicTheme": "Fianchetto preparation",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "d6",
+                                                "fen": "r1b1kbnr/ppp2ppp/2np4/8/3PPp1q/2N5/PPP1K1PP/R1BQ1BNR w kq - 0 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "d6 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "g5",
+                                                "fen": "r1b1kbnr/pppp1p1p/2n5/6p1/3PPp1q/2N5/PPP1K1PP/R1BQ1BNR w kq - 0 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "g5 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                                  "strategicTheme": "Pawn structure",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "d5",
+                                                "fen": "r1b1kbnr/ppp2ppp/2n5/3p4/3PPp1q/2N5/PPP1K1PP/R1BQ1BNR w kq - 0 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Vienna Gambit, with Max Lange Defense.",
+                                                  "strategicTheme": "Pawn structure",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": true,
                                             "annotation": {
                                               "moveRationale": "Ke2 improves the position in the Vienna Gambit, with Max Lange Defense.",

@@ -25,7 +25,42 @@
                       {
                         "move": "e5",
                         "fen": "rnbqkbnr/ppp2ppp/3p4/4p3/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
-                        "children": [],
+                        "children": [
+                          {
+                            "move": "dxe5",
+                            "fen": "rnbqkbnr/ppp2ppp/3p4/4P3/2P5/8/PP2PPPP/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Nc6",
+                                "fen": "r1bqkbnr/ppp2ppp/2np4/4P3/2P5/8/PP2PPPP/RNBQKBNR w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Rat Defense.",
+                                  "strategicTheme": "Natural piece development",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "Be6",
+                                "fen": "rn1qkbnr/ppp2ppp/3pb3/4P3/2P5/8/PP2PPPP/RNBQKBNR w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Be6 develops a piece to an active square in the Rat Defense.",
+                                  "strategicTheme": "Bishop development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "dxe5 exchanges material, altering the pawn structure in the Rat Defense.",
+                              "strategicTheme": "Material exchange",
+                              "source": "generated"
+                            }
+                          }
+                        ],
                         "isMainLine": true,
                         "annotation": {
                           "moveRationale": "e5 advances a pawn, influencing the structure in the Rat Defense.",
@@ -447,7 +482,43 @@
                   {
                     "move": "f4",
                     "fen": "rnbqkbnr/ppp1pppp/3p4/8/4PP2/8/PPPP2PP/RNBQKBNR b KQkq - 0 2",
-                    "children": [],
+                    "children": [
+                      {
+                        "move": "d5",
+                        "fen": "rnbqkbnr/ppp1pppp/8/3p4/4PP2/8/PPPP2PP/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "exd5",
+                            "fen": "rnbqkbnr/ppp1pppp/8/3P4/5P2/8/PPPP2PP/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Nf6",
+                                "fen": "rnbqkb1r/ppp1pppp/5n2/3P4/5P2/8/PPPP2PP/RNBQKBNR w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Rat Defense.",
+                                  "strategicTheme": "Natural piece development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "exd5 exchanges material, altering the pawn structure in the Rat Defense.",
+                              "strategicTheme": "Material exchange",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "d5 advances a pawn, influencing the structure in the Rat Defense.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
                     "isMainLine": true,
                     "annotation": {
                       "moveRationale": "f4 advances a pawn, influencing the structure in the Rat Defense.",

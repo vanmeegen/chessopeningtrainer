@@ -25,7 +25,31 @@
                       {
                         "move": "Qe7",
                         "fen": "rnb1kbnr/ppppqppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
-                        "children": [],
+                        "children": [
+                          {
+                            "move": "Bc4",
+                            "fen": "rnb1kbnr/ppppqppp/8/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+                            "children": [
+                              {
+                                "move": "f5",
+                                "fen": "rnb1kbnr/ppppq1pp/8/4pp2/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "f5 advances a pawn, influencing the structure in the Gunderam Defense.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Gunderam Defense.",
+                              "strategicTheme": "Active bishop development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
                         "isMainLine": true,
                         "annotation": {
                           "moveRationale": "Qe7 develops the queen early, seeking direct activity in the Gunderam Defense.",

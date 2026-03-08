@@ -4,7 +4,11 @@ import { fileURLToPath } from "node:url";
 import { fetchOpenings } from "./fetch-openings.js";
 import { parseAllOpenings } from "./parse-openings.js";
 import type { ParsedOpening } from "./parse-openings.js";
-import { buildOpeningMoveTree } from "./build-move-trees.js";
+import {
+  buildOpeningMoveTree,
+  parsePgnMoves,
+  mergeMoveSequence,
+} from "./build-move-trees.js";
 import { annotateMoveTreeWithContext } from "./generate-annotations.js";
 import { annotateTreeFromWikibooks } from "./fetch-wikibooks-annotations.js";
 import type {
@@ -131,10 +135,50 @@ function extractFirstMoves(pgn: string, maxPlies: number = 5): string {
 }
 
 /**
+ * Collect all PGN strings from all parsed openings.
+ */
+function collectAllPgns(parsedOpenings: ParsedOpening[]): string[] {
+  const pgns: string[] = [];
+  for (const opening of parsedOpenings) {
+    for (const variation of opening.variations) {
+      pgns.push(variation.pgn);
+    }
+  }
+  return pgns;
+}
+
+/**
+ * Enrich a variation's move tree by merging in moves from related PGNs
+ * that share the same prefix. This extends short lines with continuations
+ * found in other openings (e.g. "Queen's Gambit" d4 d5 c4 gets extended
+ * with moves from "Queen's Gambit Accepted" and "Queen's Gambit Declined").
+ */
+function enrichTreeWithRelatedPgns(
+  root: MoveNode,
+  basePgn: string,
+  allPgns: string[],
+): void {
+  const baseMoves = parsePgnMoves(basePgn);
+
+  for (const pgn of allPgns) {
+    const moves = parsePgnMoves(pgn);
+    // Only merge PGNs that are strictly longer and share the same prefix
+    if (moves.length <= baseMoves.length) continue;
+    const prefixMatches = baseMoves.every((m, i) => moves[i] === m);
+    if (!prefixMatches) continue;
+    mergeMoveSequence(root, moves, false);
+  }
+}
+
+/**
  * Convert a ParsedOpening into the full Opening type with move trees and annotations.
  * Uses basic template annotations (fast, no network).
+ * Enriches short variations with moves from related openings.
  */
-function buildOpeningData(parsedOpening: ParsedOpening): Opening {
+function buildOpeningData(
+  parsedOpening: ParsedOpening,
+  allPgns: string[],
+): Opening {
   const moveTree = buildOpeningMoveTree(parsedOpening.variations);
 
   if (moveTree) {
@@ -144,6 +188,7 @@ function buildOpeningData(parsedOpening: ParsedOpening): Opening {
   const variations: Variation[] = parsedOpening.variations.map((v) => {
     const varTree = buildOpeningMoveTree([v]);
     if (varTree) {
+      enrichTreeWithRelatedPgns(varTree, v.pgn, allPgns);
       annotateMoveTreeWithContext(varTree, parsedOpening.name);
     }
 
@@ -169,6 +214,7 @@ function buildOpeningData(parsedOpening: ParsedOpening): Opening {
  */
 async function buildOpeningDataWithWikibooks(
   parsedOpening: ParsedOpening,
+  allPgns: string[],
 ): Promise<Opening> {
   const moveTree = buildOpeningMoveTree(parsedOpening.variations);
 
@@ -186,6 +232,7 @@ async function buildOpeningDataWithWikibooks(
   for (const v of parsedOpening.variations) {
     const varTree = buildOpeningMoveTree([v]);
     if (varTree) {
+      enrichTreeWithRelatedPgns(varTree, v.pgn, allPgns);
       const wikibooksCount = await annotateTreeFromWikibooks(varTree);
       if (wikibooksCount > 0) {
         console.log(
@@ -260,6 +307,10 @@ export async function compileOpeningData(
   console.log("\n=== Step 3: Building catalog ===");
   const catalog: OpeningCatalogEntry[] = parsedOpenings.map(buildCatalogEntry);
 
+  // Collect all PGNs for cross-opening enrichment
+  const allPgns = collectAllPgns(parsedOpenings);
+  console.log(`Collected ${allPgns.length} PGNs for cross-opening enrichment`);
+
   // Step 4: Build opening detail files
   if (withWikibooks) {
     console.log(
@@ -275,8 +326,8 @@ export async function compileOpeningData(
   let processedCount = 0;
   for (const parsedOpening of parsedOpenings) {
     const openingData = withWikibooks
-      ? await buildOpeningDataWithWikibooks(parsedOpening)
-      : buildOpeningData(parsedOpening);
+      ? await buildOpeningDataWithWikibooks(parsedOpening, allPgns)
+      : buildOpeningData(parsedOpening, allPgns);
     const outputPath = join(OPENINGS_OUTPUT_DIR, `${openingData.id}.json`);
     writeFileSync(outputPath, JSON.stringify(openingData, null, 2), "utf-8");
     processedCount++;

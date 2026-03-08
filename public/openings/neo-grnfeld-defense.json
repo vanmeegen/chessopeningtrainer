@@ -1161,7 +1161,30 @@
                                                   {
                                                     "move": "c4",
                                                     "fen": "rnbq1rk1/ppp1ppbp/5np1/3p4/2PP4/5NP1/PP2PPBP/RNBQ1RK1 b - - 0 6",
-                                                    "children": [],
+                                                    "children": [
+                                                      {
+                                                        "move": "dxc4",
+                                                        "fen": "rnbq1rk1/ppp1ppbp/5np1/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "dxc4 impacts the center, shaping the pawn structure in the Neo-Grünfeld Defense.",
+                                                          "strategicTheme": "Central tension",
+                                                          "source": "generated"
+                                                        }
+                                                      },
+                                                      {
+                                                        "move": "Nc6",
+                                                        "fen": "r1bq1rk1/ppp1ppbp/2n2np1/3p4/2PP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 1 7",
+                                                        "children": [],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Neo-Grünfeld Defense.",
+                                                          "strategicTheme": "Natural piece development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
                                                     "isMainLine": true,
                                                     "annotation": {
                                                       "moveRationale": "c4 gains space on the queenside in the Neo-Grünfeld Defense.",

@@ -17,7 +17,55 @@
               {
                 "move": "Nh6",
                 "fen": "rnbqkb1r/pppppppp/7n/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 1 2",
-                "children": [],
+                "children": [
+                  {
+                    "move": "d4",
+                    "fen": "rnbqkb1r/pppppppp/7n/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "g6",
+                        "fen": "rnbqkb1r/pppppp1p/6pn/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "c4",
+                            "fen": "rnbqkb1r/pppppp1p/6pn/8/2PPP3/8/PP3PPP/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "f6",
+                                "fen": "rnbqkb1r/ppppp2p/5ppn/8/2PPP3/8/PP3PPP/RNBQKBNR w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "f6 advances a pawn, influencing the structure in the Hippopotamus Defense.",
+                                  "strategicTheme": "Prophylactic pawn move",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "c4 gains space on the queenside in the Hippopotamus Defense.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Hippopotamus Defense.",
+                          "strategicTheme": "Fianchetto preparation",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Hippopotamus Defense.",
+                      "strategicTheme": "Central tension",
+                      "source": "generated"
+                    }
+                  }
+                ],
                 "isMainLine": true,
                 "annotation": {
                   "moveRationale": "Nh6 develops a piece to an active square in the Hippopotamus Defense.",

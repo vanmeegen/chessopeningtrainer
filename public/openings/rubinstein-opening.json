@@ -45,7 +45,102 @@
                                           {
                                             "move": "b3",
                                             "fen": "rnbqkb1r/pp3ppp/4pn2/2pp4/3P4/1P1BPN2/P1P2PPP/RNBQK2R b KQkq - 0 5",
-                                            "children": [],
+                                            "children": [
+                                              {
+                                                "move": "Nc6",
+                                                "fen": "r1bqkb1r/pp3ppp/2n1pn2/2pp4/3P4/1P1BPN2/P1P2PPP/RNBQK2R w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "O-O",
+                                                    "fen": "r1bqkb1r/pp3ppp/2n1pn2/2pp4/3P4/1P1BPN2/P1P2PPP/RNBQ1RK1 b kq - 2 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Bd6",
+                                                        "fen": "r1bqk2r/pp3ppp/2nbpn2/2pp4/3P4/1P1BPN2/P1P2PPP/RNBQ1RK1 w kq - 3 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Bb2",
+                                                            "fen": "r1bqk2r/pp3ppp/2nbpn2/2pp4/3P4/1P1BPN2/PBP2PPP/RN1Q1RK1 b kq - 4 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "O-O",
+                                                                "fen": "r1bq1rk1/pp3ppp/2nbpn2/2pp4/3P4/1P1BPN2/PBP2PPP/RN1Q1RK1 w - - 5 8",
+                                                                "children": [],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Rubinstein Opening.",
+                                                                  "strategicTheme": "King safety",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": true,
+                                                            "annotation": {
+                                                              "moveRationale": "Bb2 develops a piece to an active square in the Rubinstein Opening.",
+                                                              "strategicTheme": "Bishop development",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Bd6 develops a piece to an active square in the Rubinstein Opening.",
+                                                          "strategicTheme": "Bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      },
+                                                      {
+                                                        "move": "Be7",
+                                                        "fen": "r1bqk2r/pp2bppp/2n1pn2/2pp4/3P4/1P1BPN2/P1P2PPP/RNBQ1RK1 w kq - 3 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Bb2",
+                                                            "fen": "r1bqk2r/pp2bppp/2n1pn2/2pp4/3P4/1P1BPN2/PBP2PPP/RN1Q1RK1 b kq - 4 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "O-O",
+                                                                "fen": "r1bq1rk1/pp2bppp/2n1pn2/2pp4/3P4/1P1BPN2/PBP2PPP/RN1Q1RK1 w - - 5 8",
+                                                                "children": [],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Rubinstein Opening.",
+                                                                  "strategicTheme": "King safety",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Bb2 develops a piece to an active square in the Rubinstein Opening.",
+                                                              "strategicTheme": "Bishop development",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Rubinstein Opening.",
+                                                          "strategicTheme": "Bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Rubinstein Opening.",
+                                                      "strategicTheme": "King safety",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Rubinstein Opening.",
+                                                  "strategicTheme": "Natural piece development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": true,
                                             "annotation": {
                                               "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Rubinstein Opening.",

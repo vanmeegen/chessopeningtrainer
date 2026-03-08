@@ -25,7 +25,19 @@
                       {
                         "move": "Bb4+",
                         "fen": "rnbqk1nr/pppp1ppp/4p3/8/1bPP4/8/PP2PPPP/RNBQKBNR w KQkq - 1 3",
-                        "children": [],
+                        "children": [
+                          {
+                            "move": "Nc3",
+                            "fen": "rnbqk1nr/pppp1ppp/4p3/8/1bPP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 2 3",
+                            "children": [],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Kangaroo Defense.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
                         "isMainLine": true,
                         "annotation": {
                           "moveRationale": "Bb4+ delivers check, seizing the initiative in the Kangaroo Defense.",

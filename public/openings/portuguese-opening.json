@@ -21,7 +21,54 @@
                   {
                     "move": "Bb5",
                     "fen": "rnbqkbnr/pppp1ppp/8/1B2p3/4P3/8/PPPP1PPP/RNBQK1NR b KQkq - 1 2",
-                    "children": [],
+                    "children": [
+                      {
+                        "move": "Bc5",
+                        "fen": "rnbqk1nr/pppp1ppp/8/1Bb1p3/4P3/8/PPPP1PPP/RNBQK1NR w KQkq - 2 3",
+                        "children": [
+                          {
+                            "move": "b4",
+                            "fen": "rnbqk1nr/pppp1ppp/8/1Bb1p3/1P2P3/8/P1PP1PPP/RNBQK1NR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "b4 advances a pawn, influencing the structure in the Portuguese Opening.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "Bc5 develops the bishop actively, targeting the vulnerable f7/f2 square in the Portuguese Opening.",
+                          "strategicTheme": "Active bishop development",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "Nf6",
+                        "fen": "rnbqkb1r/pppp1ppp/5n2/1B2p3/4P3/8/PPPP1PPP/RNBQK1NR w KQkq - 2 3",
+                        "children": [
+                          {
+                            "move": "d4",
+                            "fen": "rnbqkb1r/pppp1ppp/5n2/1B2p3/3PP3/8/PPP2PPP/RNBQK1NR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "d4 impacts the center, shaping the pawn structure in the Portuguese Opening.",
+                              "strategicTheme": "Central tension",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Portuguese Opening.",
+                          "strategicTheme": "Natural piece development",
+                          "source": "generated"
+                        }
+                      }
+                    ],
                     "isMainLine": true,
                     "annotation": {
                       "moveRationale": "Bb5 pins or eyes the knight, creating positional tension in the Portuguese Opening.",

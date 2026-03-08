@@ -13,7 +13,316 @@
           {
             "move": "a3",
             "fen": "rnbqkbnr/pppppppp/8/8/8/P7/1PPPPPPP/RNBQKBNR b KQkq - 0 1",
-            "children": [],
+            "children": [
+              {
+                "move": "a5",
+                "fen": "rnbqkbnr/1ppppppp/8/p7/8/P7/1PPPPPPP/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "b4",
+                    "fen": "rnbqkbnr/1ppppppp/8/p7/1P6/P7/2PPPPPP/RNBQKBNR b KQkq - 0 2",
+                    "children": [],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "b4 advances a pawn, influencing the structure in the Anderssen's Opening.",
+                      "strategicTheme": "Pawn structure",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "a5 advances a pawn, influencing the structure in the Anderssen's Opening.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "e5",
+                "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/P7/1PPPPPPP/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "b3",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/PP6/2PPPPPP/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "d5",
+                        "fen": "rnbqkbnr/ppp2ppp/8/3pp3/8/PP6/2PPPPPP/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "c3",
+                            "fen": "rnbqkbnr/ppp2ppp/8/3pp3/8/PPP5/3PPPPP/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Nf6",
+                                "fen": "rnbqkb1r/ppp2ppp/5n2/3pp3/8/PPP5/3PPPPP/RNBQKBNR w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "d3",
+                                    "fen": "rnbqkb1r/ppp2ppp/5n2/3pp3/8/PPPP4/4PPPP/RNBQKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Nc6",
+                                        "fen": "r1bqkb1r/ppp2ppp/2n2n2/3pp3/8/PPPP4/4PPPP/RNBQKBNR w KQkq - 1 5",
+                                        "children": [
+                                          {
+                                            "move": "e3",
+                                            "fen": "r1bqkb1r/ppp2ppp/2n2n2/3pp3/8/PPPPP3/5PPP/RNBQKBNR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Bd6",
+                                                "fen": "r1bqk2r/ppp2ppp/2nb1n2/3pp3/8/PPPPP3/5PPP/RNBQKBNR w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "f3",
+                                                    "fen": "r1bqk2r/ppp2ppp/2nb1n2/3pp3/8/PPPPPP2/6PP/RNBQKBNR b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "O-O",
+                                                        "fen": "r1bq1rk1/ppp2ppp/2nb1n2/3pp3/8/PPPPPP2/6PP/RNBQKBNR w KQ - 1 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "g3",
+                                                            "fen": "r1bq1rk1/ppp2ppp/2nb1n2/3pp3/8/PPPPPPP1/7P/RNBQKBNR b KQ - 0 7",
+                                                            "children": [],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Anderssen's Opening.",
+                                                              "strategicTheme": "Fianchetto preparation",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Anderssen's Opening.",
+                                                          "strategicTheme": "King safety",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "f3 advances a pawn, influencing the structure in the Anderssen's Opening.",
+                                                      "strategicTheme": "Prophylactic pawn move",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Bd6 develops a piece to an active square in the Anderssen's Opening.",
+                                                  "strategicTheme": "Bishop development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Anderssen's Opening.",
+                                              "strategicTheme": "Solid center support",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Anderssen's Opening.",
+                                          "strategicTheme": "Natural piece development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Anderssen's Opening.",
+                                      "strategicTheme": "Solid center support",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Nf6 develops a piece to an active square in the Anderssen's Opening.",
+                                  "strategicTheme": "Natural piece development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "c3 advances a pawn, influencing the structure in the Anderssen's Opening.",
+                              "strategicTheme": "Prophylactic pawn move",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "d5 advances a pawn, influencing the structure in the Anderssen's Opening.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Anderssen's Opening.",
+                      "strategicTheme": "Fianchetto preparation",
+                      "source": "generated"
+                    }
+                  },
+                  {
+                    "move": "g3",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/P5P1/1PPPPP1P/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "d5",
+                        "fen": "rnbqkbnr/ppp2ppp/8/3pp3/8/P5P1/1PPPPP1P/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "Bg2",
+                            "fen": "rnbqkbnr/ppp2ppp/8/3pp3/8/P5P1/1PPPPPBP/RNBQK1NR b KQkq - 1 3",
+                            "children": [
+                              {
+                                "move": "Nf6",
+                                "fen": "rnbqkb1r/ppp2ppp/5n2/3pp3/8/P5P1/1PPPPPBP/RNBQK1NR w KQkq - 2 4",
+                                "children": [
+                                  {
+                                    "move": "d3",
+                                    "fen": "rnbqkb1r/ppp2ppp/5n2/3pp3/8/P2P2P1/1PP1PPBP/RNBQK1NR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Nc6",
+                                        "fen": "r1bqkb1r/ppp2ppp/2n2n2/3pp3/8/P2P2P1/1PP1PPBP/RNBQK1NR w KQkq - 1 5",
+                                        "children": [
+                                          {
+                                            "move": "Nd2",
+                                            "fen": "r1bqkb1r/ppp2ppp/2n2n2/3pp3/8/P2P2P1/1PPNPPBP/R1BQK1NR b KQkq - 2 5",
+                                            "children": [
+                                              {
+                                                "move": "Bd6",
+                                                "fen": "r1bqk2r/ppp2ppp/2nb1n2/3pp3/8/P2P2P1/1PPNPPBP/R1BQK1NR w KQkq - 3 6",
+                                                "children": [
+                                                  {
+                                                    "move": "e3",
+                                                    "fen": "r1bqk2r/ppp2ppp/2nb1n2/3pp3/8/P2PP1P1/1PPN1PBP/R1BQK1NR b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "O-O",
+                                                        "fen": "r1bq1rk1/ppp2ppp/2nb1n2/3pp3/8/P2PP1P1/1PPN1PBP/R1BQK1NR w KQ - 1 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "h3",
+                                                            "fen": "r1bq1rk1/ppp2ppp/2nb1n2/3pp3/8/P2PP1PP/1PPN1PB1/R1BQK1NR b KQ - 0 7",
+                                                            "children": [],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "h3 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Anderssen's Opening.",
+                                                              "strategicTheme": "Prophylactic pawn move",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Anderssen's Opening.",
+                                                          "strategicTheme": "King safety",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Anderssen's Opening.",
+                                                      "strategicTheme": "Solid center support",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Bd6 develops a piece to an active square in the Anderssen's Opening.",
+                                                  "strategicTheme": "Bishop development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Nd2 develops a piece to an active square in the Anderssen's Opening.",
+                                              "strategicTheme": "Knight activity",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Anderssen's Opening.",
+                                          "strategicTheme": "Natural piece development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Anderssen's Opening.",
+                                      "strategicTheme": "Solid center support",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Nf6 develops a piece to an active square in the Anderssen's Opening.",
+                                  "strategicTheme": "Natural piece development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "Bg2 develops a piece to an active square in the Anderssen's Opening.",
+                              "strategicTheme": "Bishop development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "d5 advances a pawn, influencing the structure in the Anderssen's Opening.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Anderssen's Opening.",
+                      "strategicTheme": "Fianchetto preparation",
+                      "source": "generated"
+                    }
+                  },
+                  {
+                    "move": "Nc3",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/P1N5/1PPPPPPP/R1BQKBNR b KQkq - 1 2",
+                    "children": [],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Anderssen's Opening.",
+                      "strategicTheme": "Natural piece development",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "e5 advances a pawn, influencing the structure in the Anderssen's Opening.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              }
+            ],
             "isMainLine": true,
             "annotation": {
               "moveRationale": "a3 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Anderssen's Opening.",

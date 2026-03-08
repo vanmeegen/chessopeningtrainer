@@ -17,7 +17,31 @@
               {
                 "move": "h6",
                 "fen": "rnbqkbnr/ppppppp1/7p/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
-                "children": [],
+                "children": [
+                  {
+                    "move": "d4",
+                    "fen": "rnbqkbnr/ppppppp1/7p/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "e5",
+                        "fen": "rnbqkbnr/pppp1pp1/7p/4p3/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+                        "children": [],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "e5 advances a pawn, influencing the structure in the Carr Defense.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Carr Defense.",
+                      "strategicTheme": "Central tension",
+                      "source": "generated"
+                    }
+                  }
+                ],
                 "isMainLine": true,
                 "annotation": {
                   "moveRationale": "h6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Carr Defense.",

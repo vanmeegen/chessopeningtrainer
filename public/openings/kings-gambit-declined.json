@@ -25,7 +25,229 @@
                       {
                         "move": "Bc5",
                         "fen": "rnbqk1nr/pppp1ppp/8/2b1p3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq - 1 3",
-                        "children": [],
+                        "children": [
+                          {
+                            "move": "Nf3",
+                            "fen": "rnbqk1nr/pppp1ppp/8/2b1p3/4PP2/5N2/PPPP2PP/RNBQKB1R b KQkq - 2 3",
+                            "children": [
+                              {
+                                "move": "d6",
+                                "fen": "rnbqk1nr/ppp2ppp/3p4/2b1p3/4PP2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "c3",
+                                    "fen": "rnbqk1nr/ppp2ppp/3p4/2b1p3/4PP2/2P2N2/PP1P2PP/RNBQKB1R b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Bg4",
+                                        "fen": "rn1qk1nr/ppp2ppp/3p4/2b1p3/4PPb1/2P2N2/PP1P2PP/RNBQKB1R w KQkq - 1 5",
+                                        "children": [
+                                          {
+                                            "move": "fxe5",
+                                            "fen": "rn1qk1nr/ppp2ppp/3p4/2b1P3/4P1b1/2P2N2/PP1P2PP/RNBQKB1R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "dxe5",
+                                                "fen": "rn1qk1nr/ppp2ppp/8/2b1p3/4P1b1/2P2N2/PP1P2PP/RNBQKB1R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Qa4+",
+                                                    "fen": "rn1qk1nr/ppp2ppp/8/2b1p3/Q3P1b1/2P2N2/PP1P2PP/RNB1KB1R b KQkq - 1 6",
+                                                    "children": [],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Qa4+ delivers check, seizing the initiative in the King's Gambit Declined.",
+                                                      "strategicTheme": "King pressure",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "dxe5 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "fxe5 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Bg4 develops a piece to an active square in the King's Gambit Declined.",
+                                          "strategicTheme": "Bishop development",
+                                          "source": "generated"
+                                        }
+                                      },
+                                      {
+                                        "move": "f5",
+                                        "fen": "rnbqk1nr/ppp3pp/3p4/2b1pp2/4PP2/2P2N2/PP1P2PP/RNBQKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "fxe5",
+                                            "fen": "rnbqk1nr/ppp3pp/3p4/2b1Pp2/4P3/2P2N2/PP1P2PP/RNBQKB1R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "dxe5",
+                                                "fen": "rnbqk1nr/ppp3pp/8/2b1pp2/4P3/2P2N2/PP1P2PP/RNBQKB1R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "d4",
+                                                    "fen": "rnbqk1nr/ppp3pp/8/2b1pp2/3PP3/2P2N2/PP4PP/RNBQKB1R b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "exd4",
+                                                        "fen": "rnbqk1nr/ppp3pp/8/2b2p2/3pP3/2P2N2/PP4PP/RNBQKB1R w KQkq - 0 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Bc4",
+                                                            "fen": "rnbqk1nr/ppp3pp/8/2b2p2/2BpP3/2P2N2/PP4PP/RNBQK2R b KQkq - 1 7",
+                                                            "children": [],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the King's Gambit Declined.",
+                                                              "strategicTheme": "Active bishop development",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "exd4 impacts the center, shaping the pawn structure in the King's Gambit Declined.",
+                                                          "strategicTheme": "Central tension",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the King's Gambit Declined.",
+                                                      "strategicTheme": "Central tension",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "dxe5 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "fxe5 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "f5 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                          "strategicTheme": "Pawn structure",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "c3 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                      "strategicTheme": "Prophylactic pawn move",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "b4",
+                                    "fen": "rnbqk1nr/ppp2ppp/3p4/2b1p3/1P2PP2/5N2/P1PP2PP/RNBQKB1R b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "b4 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                      "strategicTheme": "Pawn structure",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "Nc3",
+                                    "fen": "rnbqk1nr/ppp2ppp/3p4/2b1p3/4PP2/2N2N2/PPPP2PP/R1BQKB1R b KQkq - 1 4",
+                                    "children": [
+                                      {
+                                        "move": "Nd7",
+                                        "fen": "r1bqk1nr/pppn1ppp/3p4/2b1p3/4PP2/2N2N2/PPPP2PP/R1BQKB1R w KQkq - 2 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Nd7 develops a piece to an active square in the King's Gambit Declined.",
+                                          "strategicTheme": "Knight activity",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the King's Gambit Declined.",
+                                      "strategicTheme": "Natural piece development",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "fxe5",
+                                    "fen": "rnbqk1nr/ppp2ppp/3p4/2b1P3/4P3/5N2/PPPP2PP/RNBQKB1R b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "fxe5 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                      "strategicTheme": "Material exchange",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "d6 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                  "strategicTheme": "Prophylactic pawn move",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "g5",
+                                "fen": "rnbqk1nr/pppp1p1p/8/2b1p1p1/4PP2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "g5 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Nf3 develops a piece to an active square in the King's Gambit Declined.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "Qh5",
+                            "fen": "rnbqk1nr/pppp1ppp/8/2b1p2Q/4PP2/8/PPPP2PP/RNB1KBNR b KQkq - 2 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "Qh5 develops the queen early, seeking direct activity in the King's Gambit Declined.",
+                              "strategicTheme": "Queen activity",
+                              "source": "generated"
+                            }
+                          }
+                        ],
                         "isMainLine": true,
                         "annotation": {
                           "moveRationale": "Bc5 develops the bishop actively, targeting the vulnerable f7/f2 square in the King's Gambit Declined.",
@@ -96,7 +318,126 @@
                                   {
                                     "move": "c3",
                                     "fen": "rnbqk1nr/ppp2ppp/3p4/2b1p3/4PP2/2P2N2/PP1P2PP/RNBQKB1R b KQkq - 0 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "Bg4",
+                                        "fen": "rn1qk1nr/ppp2ppp/3p4/2b1p3/4PPb1/2P2N2/PP1P2PP/RNBQKB1R w KQkq - 1 5",
+                                        "children": [
+                                          {
+                                            "move": "fxe5",
+                                            "fen": "rn1qk1nr/ppp2ppp/3p4/2b1P3/4P1b1/2P2N2/PP1P2PP/RNBQKB1R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "dxe5",
+                                                "fen": "rn1qk1nr/ppp2ppp/8/2b1p3/4P1b1/2P2N2/PP1P2PP/RNBQKB1R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Qa4+",
+                                                    "fen": "rn1qk1nr/ppp2ppp/8/2b1p3/Q3P1b1/2P2N2/PP1P2PP/RNB1KB1R b KQkq - 1 6",
+                                                    "children": [],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Qa4+ delivers check, seizing the initiative in the King's Gambit Declined.",
+                                                      "strategicTheme": "King pressure",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "dxe5 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "fxe5 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Bg4 develops a piece to an active square in the King's Gambit Declined.",
+                                          "strategicTheme": "Bishop development",
+                                          "source": "generated"
+                                        }
+                                      },
+                                      {
+                                        "move": "f5",
+                                        "fen": "rnbqk1nr/ppp3pp/3p4/2b1pp2/4PP2/2P2N2/PP1P2PP/RNBQKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "fxe5",
+                                            "fen": "rnbqk1nr/ppp3pp/3p4/2b1Pp2/4P3/2P2N2/PP1P2PP/RNBQKB1R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "dxe5",
+                                                "fen": "rnbqk1nr/ppp3pp/8/2b1pp2/4P3/2P2N2/PP1P2PP/RNBQKB1R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "d4",
+                                                    "fen": "rnbqk1nr/ppp3pp/8/2b1pp2/3PP3/2P2N2/PP4PP/RNBQKB1R b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "exd4",
+                                                        "fen": "rnbqk1nr/ppp3pp/8/2b2p2/3pP3/2P2N2/PP4PP/RNBQKB1R w KQkq - 0 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Bc4",
+                                                            "fen": "rnbqk1nr/ppp3pp/8/2b2p2/2BpP3/2P2N2/PP4PP/RNBQK2R b KQkq - 1 7",
+                                                            "children": [],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the King's Gambit Declined.",
+                                                              "strategicTheme": "Active bishop development",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "exd4 impacts the center, shaping the pawn structure in the King's Gambit Declined.",
+                                                          "strategicTheme": "Central tension",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the King's Gambit Declined.",
+                                                      "strategicTheme": "Central tension",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "dxe5 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "fxe5 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "f5 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                          "strategicTheme": "Pawn structure",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": true,
                                     "annotation": {
                                       "moveRationale": "c3 advances a pawn, influencing the structure in the King's Gambit Declined.",
@@ -433,7 +774,67 @@
                                       {
                                         "move": "f5",
                                         "fen": "rnbqk1nr/ppp3pp/3p4/2b1pp2/4PP2/2P2N2/PP1P2PP/RNBQKB1R w KQkq - 0 5",
-                                        "children": [],
+                                        "children": [
+                                          {
+                                            "move": "fxe5",
+                                            "fen": "rnbqk1nr/ppp3pp/3p4/2b1Pp2/4P3/2P2N2/PP1P2PP/RNBQKB1R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "dxe5",
+                                                "fen": "rnbqk1nr/ppp3pp/8/2b1pp2/4P3/2P2N2/PP1P2PP/RNBQKB1R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "d4",
+                                                    "fen": "rnbqk1nr/ppp3pp/8/2b1pp2/3PP3/2P2N2/PP4PP/RNBQKB1R b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "exd4",
+                                                        "fen": "rnbqk1nr/ppp3pp/8/2b2p2/3pP3/2P2N2/PP4PP/RNBQKB1R w KQkq - 0 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Bc4",
+                                                            "fen": "rnbqk1nr/ppp3pp/8/2b2p2/2BpP3/2P2N2/PP4PP/RNBQK2R b KQkq - 1 7",
+                                                            "children": [],
+                                                            "isMainLine": true,
+                                                            "annotation": {
+                                                              "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the King's Gambit Declined.",
+                                                              "strategicTheme": "Active bishop development",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "exd4 impacts the center, shaping the pawn structure in the King's Gambit Declined.",
+                                                          "strategicTheme": "Central tension",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the King's Gambit Declined.",
+                                                      "strategicTheme": "Central tension",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "dxe5 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "fxe5 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
                                         "isMainLine": true,
                                         "annotation": {
                                           "moveRationale": "f5 advances a pawn, influencing the structure in the King's Gambit Declined.",
@@ -1357,7 +1758,31 @@
                       {
                         "move": "Qh4+",
                         "fen": "rnb1kbnr/pppp1ppp/8/4p3/4PP1q/8/PPPP2PP/RNBQKBNR w KQkq - 1 3",
-                        "children": [],
+                        "children": [
+                          {
+                            "move": "g3",
+                            "fen": "rnb1kbnr/pppp1ppp/8/4p3/4PP1q/6P1/PPPP3P/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Qe7",
+                                "fen": "rnb1kbnr/ppppqppp/8/4p3/4PP2/6P1/PPPP3P/RNBQKBNR w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Qe7 develops the queen early, seeking direct activity in the King's Gambit Declined.",
+                                  "strategicTheme": "Queen activity",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the King's Gambit Declined.",
+                              "strategicTheme": "Fianchetto preparation",
+                              "source": "generated"
+                            }
+                          }
+                        ],
                         "isMainLine": true,
                         "annotation": {
                           "moveRationale": "Qh4+ delivers check, seizing the initiative in the King's Gambit Declined.",
@@ -1420,7 +1845,19 @@
                           {
                             "move": "g3",
                             "fen": "rnb1kbnr/pppp1ppp/8/4p3/4PP1q/6P1/PPPP3P/RNBQKBNR b KQkq - 0 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "Qe7",
+                                "fen": "rnb1kbnr/ppppqppp/8/4p3/4PP2/6P1/PPPP3P/RNBQKBNR w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Qe7 develops the queen early, seeking direct activity in the King's Gambit Declined.",
+                                  "strategicTheme": "Queen activity",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": true,
                             "annotation": {
                               "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the King's Gambit Declined.",
@@ -1629,7 +2066,78 @@
                       {
                         "move": "Qf6",
                         "fen": "rnb1kbnr/pppp1ppp/5q2/4p3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq - 1 3",
-                        "children": [],
+                        "children": [
+                          {
+                            "move": "Nc3",
+                            "fen": "rnb1kbnr/pppp1ppp/5q2/4p3/4PP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 2 3",
+                            "children": [
+                              {
+                                "move": "Qxf4",
+                                "fen": "rnb1kbnr/pppp1ppp/8/4p3/4Pq2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Nf3",
+                                    "fen": "rnb1kbnr/pppp1ppp/8/4p3/4Pq2/2N2N2/PPPP2PP/R1BQKB1R b KQkq - 1 4",
+                                    "children": [
+                                      {
+                                        "move": "Bb4",
+                                        "fen": "rnb1k1nr/pppp1ppp/8/4p3/1b2Pq2/2N2N2/PPPP2PP/R1BQKB1R w KQkq - 2 5",
+                                        "children": [
+                                          {
+                                            "move": "Bc4",
+                                            "fen": "rnb1k1nr/pppp1ppp/8/4p3/1bB1Pq2/2N2N2/PPPP2PP/R1BQK2R b KQkq - 3 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the King's Gambit Declined.",
+                                              "strategicTheme": "Active bishop development",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Bb4 pins or eyes the knight, creating positional tension in the King's Gambit Declined.",
+                                          "strategicTheme": "Bishop development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Nf3 develops a piece to an active square in the King's Gambit Declined.",
+                                      "strategicTheme": "Natural piece development",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "d4",
+                                    "fen": "rnb1kbnr/pppp1ppp/8/4p3/3PPq2/2N5/PPP3PP/R1BQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the King's Gambit Declined.",
+                                      "strategicTheme": "Central tension",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Qxf4 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                  "strategicTheme": "Material exchange",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the King's Gambit Declined.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
                         "isMainLine": true,
                         "annotation": {
                           "moveRationale": "Qf6 develops the queen early, seeking direct activity in the King's Gambit Declined.",
@@ -1902,7 +2410,183 @@
                       {
                         "move": "f5",
                         "fen": "rnbqkbnr/pppp2pp/8/4pp2/4PP2/8/PPPP2PP/RNBQKBNR w KQkq - 0 3",
-                        "children": [],
+                        "children": [
+                          {
+                            "move": "exf5",
+                            "fen": "rnbqkbnr/pppp2pp/8/4pP2/5P2/8/PPPP2PP/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Qh4+",
+                                "fen": "rnb1kbnr/pppp2pp/8/4pP2/5P1q/8/PPPP2PP/RNBQKBNR w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Qh4+ delivers check, seizing the initiative in the King's Gambit Declined.",
+                                  "strategicTheme": "King pressure",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "exf4",
+                                "fen": "rnbqkbnr/pppp2pp/8/5P2/5p2/8/PPPP2PP/RNBQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Qh5+",
+                                    "fen": "rnbqkbnr/pppp2pp/8/5P1Q/5p2/8/PPPP2PP/RNB1KBNR b KQkq - 1 4",
+                                    "children": [
+                                      {
+                                        "move": "g6",
+                                        "fen": "rnbqkbnr/pppp3p/6p1/5P1Q/5p2/8/PPPP2PP/RNB1KBNR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "fxg6",
+                                            "fen": "rnbqkbnr/pppp3p/6P1/7Q/5p2/8/PPPP2PP/RNB1KBNR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Qe7+",
+                                                "fen": "rnb1kbnr/ppppq2p/6P1/7Q/5p2/8/PPPP2PP/RNB1KBNR w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Kd1",
+                                                    "fen": "rnb1kbnr/ppppq2p/6P1/7Q/5p2/8/PPPP2PP/RNBK1BNR b kq - 2 6",
+                                                    "children": [],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Kd1 improves the position in the King's Gambit Declined.",
+                                                      "strategicTheme": "Position improvement",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Qe7+ delivers check, seizing the initiative in the King's Gambit Declined.",
+                                                  "strategicTheme": "King pressure",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "fxg6 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the King's Gambit Declined.",
+                                          "strategicTheme": "Fianchetto preparation",
+                                          "source": "generated"
+                                        }
+                                      },
+                                      {
+                                        "move": "Ke7",
+                                        "fen": "rnbq1bnr/ppppk1pp/8/5P1Q/5p2/8/PPPP2PP/RNB1KBNR w KQ - 2 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Ke7 improves the position in the King's Gambit Declined.",
+                                          "strategicTheme": "Position improvement",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Qh5+ delivers check, seizing the initiative in the King's Gambit Declined.",
+                                      "strategicTheme": "King pressure",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "Nf3",
+                                    "fen": "rnbqkbnr/pppp2pp/8/5P2/5p2/5N2/PPPP2PP/RNBQKB1R b KQkq - 1 4",
+                                    "children": [
+                                      {
+                                        "move": "d5",
+                                        "fen": "rnbqkbnr/ppp3pp/8/3p1P2/5p2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "d4",
+                                            "fen": "rnbqkbnr/ppp3pp/8/3p1P2/3P1p2/5N2/PPP3PP/RNBQKB1R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Bd6",
+                                                "fen": "rnbqk1nr/ppp3pp/3b4/3p1P2/3P1p2/5N2/PPP3PP/RNBQKB1R w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bd3",
+                                                    "fen": "rnbqk1nr/ppp3pp/3b4/3p1P2/3P1p2/3B1N2/PPP3PP/RNBQK2R b KQkq - 2 6",
+                                                    "children": [],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Bd3 develops a piece to an active square in the King's Gambit Declined.",
+                                                      "strategicTheme": "Bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Bd6 develops a piece to an active square in the King's Gambit Declined.",
+                                                  "strategicTheme": "Bishop development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "d4 impacts the center, shaping the pawn structure in the King's Gambit Declined.",
+                                              "strategicTheme": "Central tension",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "d5 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                          "strategicTheme": "Pawn structure",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Nf3 develops a piece to an active square in the King's Gambit Declined.",
+                                      "strategicTheme": "Natural piece development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "exf4 impacts the center, shaping the pawn structure in the King's Gambit Declined.",
+                                  "strategicTheme": "Central tension",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "Bc5",
+                                "fen": "rnbqk1nr/pppp2pp/8/2b1pP2/5P2/8/PPPP2PP/RNBQKBNR w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Bc5 develops the bishop actively, targeting the vulnerable f7/f2 square in the King's Gambit Declined.",
+                                  "strategicTheme": "Active bishop development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "exf5 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                              "strategicTheme": "Material exchange",
+                              "source": "generated"
+                            }
+                          }
+                        ],
                         "isMainLine": true,
                         "annotation": {
                           "moveRationale": "f5 advances a pawn, influencing the structure in the King's Gambit Declined.",
@@ -2579,7 +3263,66 @@
                       {
                         "move": "Nc6",
                         "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq - 1 3",
-                        "children": [],
+                        "children": [
+                          {
+                            "move": "Nf3",
+                            "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4PP2/5N2/PPPP2PP/RNBQKB1R b KQkq - 2 3",
+                            "children": [
+                              {
+                                "move": "g5",
+                                "fen": "r1bqkbnr/pppp1p1p/2n5/4p1p1/4PP2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "fxg5",
+                                    "fen": "r1bqkbnr/pppp1p1p/2n5/4p1P1/4P3/5N2/PPPP2PP/RNBQKB1R b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "h6",
+                                        "fen": "r1bqkbnr/pppp1p2/2n4p/4p1P1/4P3/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 5",
+                                        "children": [],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "h6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the King's Gambit Declined.",
+                                          "strategicTheme": "Prophylactic pawn move",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "fxg5 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                      "strategicTheme": "Material exchange",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "g5 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "f5",
+                                "fen": "r1bqkbnr/pppp2pp/2n5/4pp2/4PP2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "f5 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Nf3 develops a piece to an active square in the King's Gambit Declined.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
                         "isMainLine": true,
                         "annotation": {
                           "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the King's Gambit Declined.",
@@ -2871,7 +3614,31 @@
                               {
                                 "move": "g5",
                                 "fen": "r1bqkbnr/pppp1p1p/2n5/4p1p1/4PP2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4",
-                                "children": [],
+                                "children": [
+                                  {
+                                    "move": "fxg5",
+                                    "fen": "r1bqkbnr/pppp1p1p/2n5/4p1P1/4P3/5N2/PPPP2PP/RNBQKB1R b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "h6",
+                                        "fen": "r1bqkbnr/pppp1p2/2n4p/4p1P1/4P3/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 5",
+                                        "children": [],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "h6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the King's Gambit Declined.",
+                                          "strategicTheme": "Prophylactic pawn move",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "fxg5 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                      "strategicTheme": "Material exchange",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
                                 "isMainLine": true,
                                 "annotation": {
                                   "moveRationale": "g5 advances a pawn, influencing the structure in the King's Gambit Declined.",
@@ -2946,7 +3713,439 @@
                       {
                         "move": "d5",
                         "fen": "rnbqkbnr/ppp2ppp/8/3pp3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq - 0 3",
-                        "children": [],
+                        "children": [
+                          {
+                            "move": "exd5",
+                            "fen": "rnbqkbnr/ppp2ppp/8/3Pp3/5P2/8/PPPP2PP/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "e4",
+                                "fen": "rnbqkbnr/ppp2ppp/8/3P4/4pP2/8/PPPP2PP/RNBQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Bb5+",
+                                    "fen": "rnbqkbnr/ppp2ppp/8/1B1P4/4pP2/8/PPPP2PP/RNBQK1NR b KQkq - 1 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Bb5+ delivers check, seizing the initiative in the King's Gambit Declined.",
+                                      "strategicTheme": "King pressure",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "d3",
+                                    "fen": "rnbqkbnr/ppp2ppp/8/3P4/4pP2/3P4/PPP3PP/RNBQKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Nf6",
+                                        "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/3P4/PPP3PP/RNBQKBNR w KQkq - 1 5",
+                                        "children": [
+                                          {
+                                            "move": "dxe4",
+                                            "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4PP2/8/PPP3PP/RNBQKBNR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Nxe4",
+                                                "fen": "rnbqkb1r/ppp2ppp/8/3P4/4nP2/8/PPP3PP/RNBQKBNR w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Nf3",
+                                                    "fen": "rnbqkb1r/ppp2ppp/8/3P4/4nP2/5N2/PPP3PP/RNBQKB1R b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Bc5",
+                                                        "fen": "rnbqk2r/ppp2ppp/8/2bP4/4nP2/5N2/PPP3PP/RNBQKB1R w KQkq - 2 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Qe2",
+                                                            "fen": "rnbqk2r/ppp2ppp/8/2bP4/4nP2/5N2/PPP1Q1PP/RNB1KB1R b KQkq - 3 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "Bf2+",
+                                                                "fen": "rnbqk2r/ppp2ppp/8/3P4/4nP2/5N2/PPP1QbPP/RNB1KB1R w KQkq - 4 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Kd1",
+                                                                    "fen": "rnbqk2r/ppp2ppp/8/3P4/4nP2/5N2/PPP1QbPP/RNBK1B1R b kq - 5 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "Qxd5+",
+                                                                        "fen": "rnb1k2r/ppp2ppp/8/3q4/4nP2/5N2/PPP1QbPP/RNBK1B1R w kq - 0 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "Nfd2",
+                                                                            "fen": "rnb1k2r/ppp2ppp/8/3q4/4nP2/8/PPPNQbPP/RNBK1B1R b kq - 1 9",
+                                                                            "children": [],
+                                                                            "isMainLine": false,
+                                                                            "annotation": {
+                                                                              "moveRationale": "Nfd2 develops a piece to an active square in the King's Gambit Declined.",
+                                                                              "strategicTheme": "Knight activity",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": false,
+                                                                        "annotation": {
+                                                                          "moveRationale": "Qxd5+ exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                                                          "strategicTheme": "Material exchange",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Kd1 improves the position in the King's Gambit Declined.",
+                                                                      "strategicTheme": "Position improvement",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "Bf2+ delivers check, seizing the initiative in the King's Gambit Declined.",
+                                                                  "strategicTheme": "King pressure",
+                                                                  "source": "generated"
+                                                                }
+                                                              },
+                                                              {
+                                                                "move": "Bf5",
+                                                                "fen": "rn1qk2r/ppp2ppp/8/2bP1b2/4nP2/5N2/PPP1Q1PP/RNB1KB1R w KQkq - 4 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "g4",
+                                                                    "fen": "rn1qk2r/ppp2ppp/8/2bP1b2/4nPP1/5N2/PPP1Q2P/RNB1KB1R b KQkq - 0 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "O-O",
+                                                                        "fen": "rn1q1rk1/ppp2ppp/8/2bP1b2/4nPP1/5N2/PPP1Q2P/RNB1KB1R w KQ - 1 9",
+                                                                        "children": [],
+                                                                        "isMainLine": false,
+                                                                        "annotation": {
+                                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the King's Gambit Declined.",
+                                                                          "strategicTheme": "King safety",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "g4 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                                                      "strategicTheme": "Pawn structure",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "Bf5 develops a piece to an active square in the King's Gambit Declined.",
+                                                                  "strategicTheme": "Bishop development",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Qe2 activates the queen, increasing pressure in the King's Gambit Declined.",
+                                                              "strategicTheme": "Queen activity",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Bc5 develops the bishop actively, targeting the vulnerable f7/f2 square in the King's Gambit Declined.",
+                                                          "strategicTheme": "Active bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Nf3 develops a piece to an active square in the King's Gambit Declined.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "Qe2",
+                                                    "fen": "rnbqkb1r/ppp2ppp/8/3P4/4nP2/8/PPP1Q1PP/RNB1KBNR b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Qxd5",
+                                                        "fen": "rnb1kb1r/ppp2ppp/8/3q4/4nP2/8/PPP1Q1PP/RNB1KBNR w KQkq - 0 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Nd2",
+                                                            "fen": "rnb1kb1r/ppp2ppp/8/3q4/4nP2/8/PPPNQ1PP/R1B1KBNR b KQkq - 1 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "f5",
+                                                                "fen": "rnb1kb1r/ppp3pp/8/3q1p2/4nP2/8/PPPNQ1PP/R1B1KBNR w KQkq - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "g4",
+                                                                    "fen": "rnb1kb1r/ppp3pp/8/3q1p2/4nPP1/8/PPPNQ2P/R1B1KBNR b KQkq - 0 8",
+                                                                    "children": [],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "g4 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                                                      "strategicTheme": "Pawn structure",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "f5 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                                                  "strategicTheme": "Pawn structure",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Nd2 develops a piece to an active square in the King's Gambit Declined.",
+                                                              "strategicTheme": "Knight activity",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Qxd5 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                                          "strategicTheme": "Material exchange",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Qe2 activates the queen, increasing pressure in the King's Gambit Declined.",
+                                                      "strategicTheme": "Queen activity",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Nxe4 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the King's Gambit Declined.",
+                                              "strategicTheme": "Central tension",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "Nd2",
+                                            "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/3P4/PPPN2PP/R1BQKBNR b KQkq - 2 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Nd2 develops a piece to an active square in the King's Gambit Declined.",
+                                              "strategicTheme": "Knight activity",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "Qe2",
+                                            "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/3P4/PPP1Q1PP/RNB1KBNR b KQkq - 2 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Qe2 activates the queen, increasing pressure in the King's Gambit Declined.",
+                                              "strategicTheme": "Queen activity",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the King's Gambit Declined.",
+                                          "strategicTheme": "Natural piece development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the King's Gambit Declined.",
+                                      "strategicTheme": "Solid center support",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "Nc3",
+                                    "fen": "rnbqkbnr/ppp2ppp/8/3P4/4pP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 1 4",
+                                    "children": [
+                                      {
+                                        "move": "Nf6",
+                                        "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 2 5",
+                                        "children": [
+                                          {
+                                            "move": "Qe2",
+                                            "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/2N5/PPPPQ1PP/R1B1KBNR b KQkq - 3 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Qe2 activates the queen, increasing pressure in the King's Gambit Declined.",
+                                              "strategicTheme": "Queen activity",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the King's Gambit Declined.",
+                                          "strategicTheme": "Natural piece development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the King's Gambit Declined.",
+                                      "strategicTheme": "Natural piece development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "e4 impacts the center, shaping the pawn structure in the King's Gambit Declined.",
+                                  "strategicTheme": "Central tension",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "Bc5",
+                                "fen": "rnbqk1nr/ppp2ppp/8/2bPp3/5P2/8/PPPP2PP/RNBQKBNR w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Bc5 develops the bishop actively, targeting the vulnerable f7/f2 square in the King's Gambit Declined.",
+                                  "strategicTheme": "Active bishop development",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "exf4",
+                                "fen": "rnbqkbnr/ppp2ppp/8/3P4/5p2/8/PPPP2PP/RNBQKBNR w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "exf4 impacts the center, shaping the pawn structure in the King's Gambit Declined.",
+                                  "strategicTheme": "Central tension",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "c6",
+                                "fen": "rnbqkbnr/pp3ppp/2p5/3Pp3/5P2/8/PPPP2PP/RNBQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "dxc6",
+                                    "fen": "rnbqkbnr/pp3ppp/2P5/4p3/5P2/8/PPPP2PP/RNBQKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Bc5",
+                                        "fen": "rnbqk1nr/pp3ppp/2P5/2b1p3/5P2/8/PPPP2PP/RNBQKBNR w KQkq - 1 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Bc5 develops the bishop actively, targeting the vulnerable f7/f2 square in the King's Gambit Declined.",
+                                          "strategicTheme": "Active bishop development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "dxc6 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                      "strategicTheme": "Material exchange",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "c6 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                  "strategicTheme": "Prophylactic pawn move",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "exd5 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                              "strategicTheme": "Material exchange",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "Nf3",
+                            "fen": "rnbqkbnr/ppp2ppp/8/3pp3/4PP2/5N2/PPPP2PP/RNBQKB1R b KQkq - 1 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "Nf3 develops a piece to an active square in the King's Gambit Declined.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "d4",
+                            "fen": "rnbqkbnr/ppp2ppp/8/3pp3/3PPP2/8/PPP3PP/RNBQKBNR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "d4 impacts the center, shaping the pawn structure in the King's Gambit Declined.",
+                              "strategicTheme": "Central tension",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "Nc3",
+                            "fen": "rnbqkbnr/ppp2ppp/8/3pp3/4PP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 1 3",
+                            "children": [
+                              {
+                                "move": "dxe4",
+                                "fen": "rnbqkbnr/ppp2ppp/8/4p3/4pP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Nxe4",
+                                    "fen": "rnbqkbnr/ppp2ppp/8/4p3/4NP2/8/PPPP2PP/R1BQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Nxe4 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                      "strategicTheme": "Material exchange",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the King's Gambit Declined.",
+                                  "strategicTheme": "Central tension",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the King's Gambit Declined.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
                         "isMainLine": true,
                         "annotation": {
                           "moveRationale": "d5 advances a pawn, influencing the structure in the King's Gambit Declined.",
@@ -3009,7 +4208,370 @@
                           {
                             "move": "exd5",
                             "fen": "rnbqkbnr/ppp2ppp/8/3Pp3/5P2/8/PPPP2PP/RNBQKBNR b KQkq - 0 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "e4",
+                                "fen": "rnbqkbnr/ppp2ppp/8/3P4/4pP2/8/PPPP2PP/RNBQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Bb5+",
+                                    "fen": "rnbqkbnr/ppp2ppp/8/1B1P4/4pP2/8/PPPP2PP/RNBQK1NR b KQkq - 1 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Bb5+ delivers check, seizing the initiative in the King's Gambit Declined.",
+                                      "strategicTheme": "King pressure",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "d3",
+                                    "fen": "rnbqkbnr/ppp2ppp/8/3P4/4pP2/3P4/PPP3PP/RNBQKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Nf6",
+                                        "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/3P4/PPP3PP/RNBQKBNR w KQkq - 1 5",
+                                        "children": [
+                                          {
+                                            "move": "dxe4",
+                                            "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4PP2/8/PPP3PP/RNBQKBNR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Nxe4",
+                                                "fen": "rnbqkb1r/ppp2ppp/8/3P4/4nP2/8/PPP3PP/RNBQKBNR w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Nf3",
+                                                    "fen": "rnbqkb1r/ppp2ppp/8/3P4/4nP2/5N2/PPP3PP/RNBQKB1R b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Bc5",
+                                                        "fen": "rnbqk2r/ppp2ppp/8/2bP4/4nP2/5N2/PPP3PP/RNBQKB1R w KQkq - 2 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Qe2",
+                                                            "fen": "rnbqk2r/ppp2ppp/8/2bP4/4nP2/5N2/PPP1Q1PP/RNB1KB1R b KQkq - 3 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "Bf2+",
+                                                                "fen": "rnbqk2r/ppp2ppp/8/3P4/4nP2/5N2/PPP1QbPP/RNB1KB1R w KQkq - 4 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Kd1",
+                                                                    "fen": "rnbqk2r/ppp2ppp/8/3P4/4nP2/5N2/PPP1QbPP/RNBK1B1R b kq - 5 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "Qxd5+",
+                                                                        "fen": "rnb1k2r/ppp2ppp/8/3q4/4nP2/5N2/PPP1QbPP/RNBK1B1R w kq - 0 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "Nfd2",
+                                                                            "fen": "rnb1k2r/ppp2ppp/8/3q4/4nP2/8/PPPNQbPP/RNBK1B1R b kq - 1 9",
+                                                                            "children": [],
+                                                                            "isMainLine": false,
+                                                                            "annotation": {
+                                                                              "moveRationale": "Nfd2 develops a piece to an active square in the King's Gambit Declined.",
+                                                                              "strategicTheme": "Knight activity",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": false,
+                                                                        "annotation": {
+                                                                          "moveRationale": "Qxd5+ exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                                                          "strategicTheme": "Material exchange",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Kd1 improves the position in the King's Gambit Declined.",
+                                                                      "strategicTheme": "Position improvement",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "Bf2+ delivers check, seizing the initiative in the King's Gambit Declined.",
+                                                                  "strategicTheme": "King pressure",
+                                                                  "source": "generated"
+                                                                }
+                                                              },
+                                                              {
+                                                                "move": "Bf5",
+                                                                "fen": "rn1qk2r/ppp2ppp/8/2bP1b2/4nP2/5N2/PPP1Q1PP/RNB1KB1R w KQkq - 4 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "g4",
+                                                                    "fen": "rn1qk2r/ppp2ppp/8/2bP1b2/4nPP1/5N2/PPP1Q2P/RNB1KB1R b KQkq - 0 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "O-O",
+                                                                        "fen": "rn1q1rk1/ppp2ppp/8/2bP1b2/4nPP1/5N2/PPP1Q2P/RNB1KB1R w KQ - 1 9",
+                                                                        "children": [],
+                                                                        "isMainLine": false,
+                                                                        "annotation": {
+                                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the King's Gambit Declined.",
+                                                                          "strategicTheme": "King safety",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "g4 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                                                      "strategicTheme": "Pawn structure",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "Bf5 develops a piece to an active square in the King's Gambit Declined.",
+                                                                  "strategicTheme": "Bishop development",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Qe2 activates the queen, increasing pressure in the King's Gambit Declined.",
+                                                              "strategicTheme": "Queen activity",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Bc5 develops the bishop actively, targeting the vulnerable f7/f2 square in the King's Gambit Declined.",
+                                                          "strategicTheme": "Active bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Nf3 develops a piece to an active square in the King's Gambit Declined.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "Qe2",
+                                                    "fen": "rnbqkb1r/ppp2ppp/8/3P4/4nP2/8/PPP1Q1PP/RNB1KBNR b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Qxd5",
+                                                        "fen": "rnb1kb1r/ppp2ppp/8/3q4/4nP2/8/PPP1Q1PP/RNB1KBNR w KQkq - 0 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Nd2",
+                                                            "fen": "rnb1kb1r/ppp2ppp/8/3q4/4nP2/8/PPPNQ1PP/R1B1KBNR b KQkq - 1 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "f5",
+                                                                "fen": "rnb1kb1r/ppp3pp/8/3q1p2/4nP2/8/PPPNQ1PP/R1B1KBNR w KQkq - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "g4",
+                                                                    "fen": "rnb1kb1r/ppp3pp/8/3q1p2/4nPP1/8/PPPNQ2P/R1B1KBNR b KQkq - 0 8",
+                                                                    "children": [],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "g4 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                                                      "strategicTheme": "Pawn structure",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "f5 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                                                  "strategicTheme": "Pawn structure",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Nd2 develops a piece to an active square in the King's Gambit Declined.",
+                                                              "strategicTheme": "Knight activity",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Qxd5 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                                          "strategicTheme": "Material exchange",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Qe2 activates the queen, increasing pressure in the King's Gambit Declined.",
+                                                      "strategicTheme": "Queen activity",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Nxe4 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the King's Gambit Declined.",
+                                              "strategicTheme": "Central tension",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "Nd2",
+                                            "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/3P4/PPPN2PP/R1BQKBNR b KQkq - 2 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Nd2 develops a piece to an active square in the King's Gambit Declined.",
+                                              "strategicTheme": "Knight activity",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "Qe2",
+                                            "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/3P4/PPP1Q1PP/RNB1KBNR b KQkq - 2 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Qe2 activates the queen, increasing pressure in the King's Gambit Declined.",
+                                              "strategicTheme": "Queen activity",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the King's Gambit Declined.",
+                                          "strategicTheme": "Natural piece development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the King's Gambit Declined.",
+                                      "strategicTheme": "Solid center support",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "Nc3",
+                                    "fen": "rnbqkbnr/ppp2ppp/8/3P4/4pP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 1 4",
+                                    "children": [
+                                      {
+                                        "move": "Nf6",
+                                        "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 2 5",
+                                        "children": [
+                                          {
+                                            "move": "Qe2",
+                                            "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/2N5/PPPPQ1PP/R1B1KBNR b KQkq - 3 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Qe2 activates the queen, increasing pressure in the King's Gambit Declined.",
+                                              "strategicTheme": "Queen activity",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the King's Gambit Declined.",
+                                          "strategicTheme": "Natural piece development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the King's Gambit Declined.",
+                                      "strategicTheme": "Natural piece development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "e4 impacts the center, shaping the pawn structure in the King's Gambit Declined.",
+                                  "strategicTheme": "Central tension",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "Bc5",
+                                "fen": "rnbqk1nr/ppp2ppp/8/2bPp3/5P2/8/PPPP2PP/RNBQKBNR w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Bc5 develops the bishop actively, targeting the vulnerable f7/f2 square in the King's Gambit Declined.",
+                                  "strategicTheme": "Active bishop development",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "exf4",
+                                "fen": "rnbqkbnr/ppp2ppp/8/3P4/5p2/8/PPPP2PP/RNBQKBNR w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "exf4 impacts the center, shaping the pawn structure in the King's Gambit Declined.",
+                                  "strategicTheme": "Central tension",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "c6",
+                                "fen": "rnbqkbnr/pp3ppp/2p5/3Pp3/5P2/8/PPPP2PP/RNBQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "dxc6",
+                                    "fen": "rnbqkbnr/pp3ppp/2P5/4p3/5P2/8/PPPP2PP/RNBQKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Bc5",
+                                        "fen": "rnbqk1nr/pp3ppp/2P5/2b1p3/5P2/8/PPPP2PP/RNBQKBNR w KQkq - 1 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Bc5 develops the bishop actively, targeting the vulnerable f7/f2 square in the King's Gambit Declined.",
+                                          "strategicTheme": "Active bishop development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "dxc6 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                      "strategicTheme": "Material exchange",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "c6 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                  "strategicTheme": "Prophylactic pawn move",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": true,
                             "annotation": {
                               "moveRationale": "exd5 exchanges material, altering the pawn structure in the King's Gambit Declined.",
@@ -3254,7 +4816,243 @@
                                   {
                                     "move": "d3",
                                     "fen": "rnbqkbnr/ppp2ppp/8/3P4/4pP2/3P4/PPP3PP/RNBQKBNR b KQkq - 0 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "Nf6",
+                                        "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/3P4/PPP3PP/RNBQKBNR w KQkq - 1 5",
+                                        "children": [
+                                          {
+                                            "move": "dxe4",
+                                            "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4PP2/8/PPP3PP/RNBQKBNR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Nxe4",
+                                                "fen": "rnbqkb1r/ppp2ppp/8/3P4/4nP2/8/PPP3PP/RNBQKBNR w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Nf3",
+                                                    "fen": "rnbqkb1r/ppp2ppp/8/3P4/4nP2/5N2/PPP3PP/RNBQKB1R b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Bc5",
+                                                        "fen": "rnbqk2r/ppp2ppp/8/2bP4/4nP2/5N2/PPP3PP/RNBQKB1R w KQkq - 2 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Qe2",
+                                                            "fen": "rnbqk2r/ppp2ppp/8/2bP4/4nP2/5N2/PPP1Q1PP/RNB1KB1R b KQkq - 3 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "Bf2+",
+                                                                "fen": "rnbqk2r/ppp2ppp/8/3P4/4nP2/5N2/PPP1QbPP/RNB1KB1R w KQkq - 4 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Kd1",
+                                                                    "fen": "rnbqk2r/ppp2ppp/8/3P4/4nP2/5N2/PPP1QbPP/RNBK1B1R b kq - 5 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "Qxd5+",
+                                                                        "fen": "rnb1k2r/ppp2ppp/8/3q4/4nP2/5N2/PPP1QbPP/RNBK1B1R w kq - 0 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "Nfd2",
+                                                                            "fen": "rnb1k2r/ppp2ppp/8/3q4/4nP2/8/PPPNQbPP/RNBK1B1R b kq - 1 9",
+                                                                            "children": [],
+                                                                            "isMainLine": true,
+                                                                            "annotation": {
+                                                                              "moveRationale": "Nfd2 develops a piece to an active square in the King's Gambit Declined.",
+                                                                              "strategicTheme": "Knight activity",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": true,
+                                                                        "annotation": {
+                                                                          "moveRationale": "Qxd5+ exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                                                          "strategicTheme": "Material exchange",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Kd1 improves the position in the King's Gambit Declined.",
+                                                                      "strategicTheme": "Position improvement",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "Bf2+ delivers check, seizing the initiative in the King's Gambit Declined.",
+                                                                  "strategicTheme": "King pressure",
+                                                                  "source": "generated"
+                                                                }
+                                                              },
+                                                              {
+                                                                "move": "Bf5",
+                                                                "fen": "rn1qk2r/ppp2ppp/8/2bP1b2/4nP2/5N2/PPP1Q1PP/RNB1KB1R w KQkq - 4 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "g4",
+                                                                    "fen": "rn1qk2r/ppp2ppp/8/2bP1b2/4nPP1/5N2/PPP1Q2P/RNB1KB1R b KQkq - 0 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "O-O",
+                                                                        "fen": "rn1q1rk1/ppp2ppp/8/2bP1b2/4nPP1/5N2/PPP1Q2P/RNB1KB1R w KQ - 1 9",
+                                                                        "children": [],
+                                                                        "isMainLine": false,
+                                                                        "annotation": {
+                                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the King's Gambit Declined.",
+                                                                          "strategicTheme": "King safety",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "g4 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                                                      "strategicTheme": "Pawn structure",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "Bf5 develops a piece to an active square in the King's Gambit Declined.",
+                                                                  "strategicTheme": "Bishop development",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": true,
+                                                            "annotation": {
+                                                              "moveRationale": "Qe2 activates the queen, increasing pressure in the King's Gambit Declined.",
+                                                              "strategicTheme": "Queen activity",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Bc5 develops the bishop actively, targeting the vulnerable f7/f2 square in the King's Gambit Declined.",
+                                                          "strategicTheme": "Active bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Nf3 develops a piece to an active square in the King's Gambit Declined.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "Qe2",
+                                                    "fen": "rnbqkb1r/ppp2ppp/8/3P4/4nP2/8/PPP1Q1PP/RNB1KBNR b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Qxd5",
+                                                        "fen": "rnb1kb1r/ppp2ppp/8/3q4/4nP2/8/PPP1Q1PP/RNB1KBNR w KQkq - 0 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Nd2",
+                                                            "fen": "rnb1kb1r/ppp2ppp/8/3q4/4nP2/8/PPPNQ1PP/R1B1KBNR b KQkq - 1 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "f5",
+                                                                "fen": "rnb1kb1r/ppp3pp/8/3q1p2/4nP2/8/PPPNQ1PP/R1B1KBNR w KQkq - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "g4",
+                                                                    "fen": "rnb1kb1r/ppp3pp/8/3q1p2/4nPP1/8/PPPNQ2P/R1B1KBNR b KQkq - 0 8",
+                                                                    "children": [],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "g4 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                                                      "strategicTheme": "Pawn structure",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "f5 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                                                  "strategicTheme": "Pawn structure",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Nd2 develops a piece to an active square in the King's Gambit Declined.",
+                                                              "strategicTheme": "Knight activity",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Qxd5 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                                          "strategicTheme": "Material exchange",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Qe2 activates the queen, increasing pressure in the King's Gambit Declined.",
+                                                      "strategicTheme": "Queen activity",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Nxe4 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the King's Gambit Declined.",
+                                              "strategicTheme": "Central tension",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "Nd2",
+                                            "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/3P4/PPPN2PP/R1BQKBNR b KQkq - 2 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Nd2 develops a piece to an active square in the King's Gambit Declined.",
+                                              "strategicTheme": "Knight activity",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "Qe2",
+                                            "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/3P4/PPP1Q1PP/RNB1KBNR b KQkq - 2 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Qe2 activates the queen, increasing pressure in the King's Gambit Declined.",
+                                              "strategicTheme": "Queen activity",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the King's Gambit Declined.",
+                                          "strategicTheme": "Natural piece development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": true,
                                     "annotation": {
                                       "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the King's Gambit Declined.",
@@ -3650,7 +5448,31 @@
                           {
                             "move": "Nc3",
                             "fen": "rnbqkbnr/ppp2ppp/8/3pp3/4PP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 1 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "dxe4",
+                                "fen": "rnbqkbnr/ppp2ppp/8/4p3/4pP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Nxe4",
+                                    "fen": "rnbqkbnr/ppp2ppp/8/4p3/4NP2/8/PPPP2PP/R1BQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Nxe4 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                      "strategicTheme": "Material exchange",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the King's Gambit Declined.",
+                                  "strategicTheme": "Central tension",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": true,
                             "annotation": {
                               "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the King's Gambit Declined.",
@@ -3808,7 +5630,31 @@
                               {
                                 "move": "c6",
                                 "fen": "rnbqkbnr/pp3ppp/2p5/3Pp3/5P2/8/PPPP2PP/RNBQKBNR w KQkq - 0 4",
-                                "children": [],
+                                "children": [
+                                  {
+                                    "move": "dxc6",
+                                    "fen": "rnbqkbnr/pp3ppp/2P5/4p3/5P2/8/PPPP2PP/RNBQKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Bc5",
+                                        "fen": "rnbqk1nr/pp3ppp/2P5/2b1p3/5P2/8/PPPP2PP/RNBQKBNR w KQkq - 1 5",
+                                        "children": [],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Bc5 develops the bishop actively, targeting the vulnerable f7/f2 square in the King's Gambit Declined.",
+                                          "strategicTheme": "Active bishop development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "dxc6 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                      "strategicTheme": "Material exchange",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
                                 "isMainLine": true,
                                 "annotation": {
                                   "moveRationale": "c6 advances a pawn, influencing the structure in the King's Gambit Declined.",
@@ -4117,7 +5963,301 @@
                               {
                                 "move": "e4",
                                 "fen": "rnbqkbnr/ppp2ppp/8/3P4/4pP2/8/PPPP2PP/RNBQKBNR w KQkq - 0 4",
-                                "children": [],
+                                "children": [
+                                  {
+                                    "move": "Bb5+",
+                                    "fen": "rnbqkbnr/ppp2ppp/8/1B1P4/4pP2/8/PPPP2PP/RNBQK1NR b KQkq - 1 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Bb5+ delivers check, seizing the initiative in the King's Gambit Declined.",
+                                      "strategicTheme": "King pressure",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "d3",
+                                    "fen": "rnbqkbnr/ppp2ppp/8/3P4/4pP2/3P4/PPP3PP/RNBQKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Nf6",
+                                        "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/3P4/PPP3PP/RNBQKBNR w KQkq - 1 5",
+                                        "children": [
+                                          {
+                                            "move": "dxe4",
+                                            "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4PP2/8/PPP3PP/RNBQKBNR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Nxe4",
+                                                "fen": "rnbqkb1r/ppp2ppp/8/3P4/4nP2/8/PPP3PP/RNBQKBNR w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Nf3",
+                                                    "fen": "rnbqkb1r/ppp2ppp/8/3P4/4nP2/5N2/PPP3PP/RNBQKB1R b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Bc5",
+                                                        "fen": "rnbqk2r/ppp2ppp/8/2bP4/4nP2/5N2/PPP3PP/RNBQKB1R w KQkq - 2 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Qe2",
+                                                            "fen": "rnbqk2r/ppp2ppp/8/2bP4/4nP2/5N2/PPP1Q1PP/RNB1KB1R b KQkq - 3 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "Bf2+",
+                                                                "fen": "rnbqk2r/ppp2ppp/8/3P4/4nP2/5N2/PPP1QbPP/RNB1KB1R w KQkq - 4 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Kd1",
+                                                                    "fen": "rnbqk2r/ppp2ppp/8/3P4/4nP2/5N2/PPP1QbPP/RNBK1B1R b kq - 5 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "Qxd5+",
+                                                                        "fen": "rnb1k2r/ppp2ppp/8/3q4/4nP2/5N2/PPP1QbPP/RNBK1B1R w kq - 0 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "Nfd2",
+                                                                            "fen": "rnb1k2r/ppp2ppp/8/3q4/4nP2/8/PPPNQbPP/RNBK1B1R b kq - 1 9",
+                                                                            "children": [],
+                                                                            "isMainLine": false,
+                                                                            "annotation": {
+                                                                              "moveRationale": "Nfd2 develops a piece to an active square in the King's Gambit Declined.",
+                                                                              "strategicTheme": "Knight activity",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": false,
+                                                                        "annotation": {
+                                                                          "moveRationale": "Qxd5+ exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                                                          "strategicTheme": "Material exchange",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Kd1 improves the position in the King's Gambit Declined.",
+                                                                      "strategicTheme": "Position improvement",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "Bf2+ delivers check, seizing the initiative in the King's Gambit Declined.",
+                                                                  "strategicTheme": "King pressure",
+                                                                  "source": "generated"
+                                                                }
+                                                              },
+                                                              {
+                                                                "move": "Bf5",
+                                                                "fen": "rn1qk2r/ppp2ppp/8/2bP1b2/4nP2/5N2/PPP1Q1PP/RNB1KB1R w KQkq - 4 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "g4",
+                                                                    "fen": "rn1qk2r/ppp2ppp/8/2bP1b2/4nPP1/5N2/PPP1Q2P/RNB1KB1R b KQkq - 0 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "O-O",
+                                                                        "fen": "rn1q1rk1/ppp2ppp/8/2bP1b2/4nPP1/5N2/PPP1Q2P/RNB1KB1R w KQ - 1 9",
+                                                                        "children": [],
+                                                                        "isMainLine": false,
+                                                                        "annotation": {
+                                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the King's Gambit Declined.",
+                                                                          "strategicTheme": "King safety",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "g4 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                                                      "strategicTheme": "Pawn structure",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "Bf5 develops a piece to an active square in the King's Gambit Declined.",
+                                                                  "strategicTheme": "Bishop development",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Qe2 activates the queen, increasing pressure in the King's Gambit Declined.",
+                                                              "strategicTheme": "Queen activity",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Bc5 develops the bishop actively, targeting the vulnerable f7/f2 square in the King's Gambit Declined.",
+                                                          "strategicTheme": "Active bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Nf3 develops a piece to an active square in the King's Gambit Declined.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "Qe2",
+                                                    "fen": "rnbqkb1r/ppp2ppp/8/3P4/4nP2/8/PPP1Q1PP/RNB1KBNR b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Qxd5",
+                                                        "fen": "rnb1kb1r/ppp2ppp/8/3q4/4nP2/8/PPP1Q1PP/RNB1KBNR w KQkq - 0 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Nd2",
+                                                            "fen": "rnb1kb1r/ppp2ppp/8/3q4/4nP2/8/PPPNQ1PP/R1B1KBNR b KQkq - 1 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "f5",
+                                                                "fen": "rnb1kb1r/ppp3pp/8/3q1p2/4nP2/8/PPPNQ1PP/R1B1KBNR w KQkq - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "g4",
+                                                                    "fen": "rnb1kb1r/ppp3pp/8/3q1p2/4nPP1/8/PPPNQ2P/R1B1KBNR b KQkq - 0 8",
+                                                                    "children": [],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "g4 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                                                      "strategicTheme": "Pawn structure",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "f5 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                                                  "strategicTheme": "Pawn structure",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Nd2 develops a piece to an active square in the King's Gambit Declined.",
+                                                              "strategicTheme": "Knight activity",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Qxd5 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                                          "strategicTheme": "Material exchange",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Qe2 activates the queen, increasing pressure in the King's Gambit Declined.",
+                                                      "strategicTheme": "Queen activity",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Nxe4 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the King's Gambit Declined.",
+                                              "strategicTheme": "Central tension",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "Nd2",
+                                            "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/3P4/PPPN2PP/R1BQKBNR b KQkq - 2 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Nd2 develops a piece to an active square in the King's Gambit Declined.",
+                                              "strategicTheme": "Knight activity",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "Qe2",
+                                            "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/3P4/PPP1Q1PP/RNB1KBNR b KQkq - 2 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Qe2 activates the queen, increasing pressure in the King's Gambit Declined.",
+                                              "strategicTheme": "Queen activity",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the King's Gambit Declined.",
+                                          "strategicTheme": "Natural piece development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the King's Gambit Declined.",
+                                      "strategicTheme": "Solid center support",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "Nc3",
+                                    "fen": "rnbqkbnr/ppp2ppp/8/3P4/4pP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 1 4",
+                                    "children": [
+                                      {
+                                        "move": "Nf6",
+                                        "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 2 5",
+                                        "children": [
+                                          {
+                                            "move": "Qe2",
+                                            "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/2N5/PPPPQ1PP/R1B1KBNR b KQkq - 3 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Qe2 activates the queen, increasing pressure in the King's Gambit Declined.",
+                                              "strategicTheme": "Queen activity",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the King's Gambit Declined.",
+                                          "strategicTheme": "Natural piece development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the King's Gambit Declined.",
+                                      "strategicTheme": "Natural piece development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
                                 "isMainLine": true,
                                 "annotation": {
                                   "moveRationale": "e4 impacts the center, shaping the pawn structure in the King's Gambit Declined.",
@@ -4435,7 +6575,55 @@
                                                   {
                                                     "move": "Qe2",
                                                     "fen": "rnbqkb1r/ppp2ppp/8/3P4/4nP2/8/PPP1Q1PP/RNB1KBNR b KQkq - 1 6",
-                                                    "children": [],
+                                                    "children": [
+                                                      {
+                                                        "move": "Qxd5",
+                                                        "fen": "rnb1kb1r/ppp2ppp/8/3q4/4nP2/8/PPP1Q1PP/RNB1KBNR w KQkq - 0 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Nd2",
+                                                            "fen": "rnb1kb1r/ppp2ppp/8/3q4/4nP2/8/PPPNQ1PP/R1B1KBNR b KQkq - 1 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "f5",
+                                                                "fen": "rnb1kb1r/ppp3pp/8/3q1p2/4nP2/8/PPPNQ1PP/R1B1KBNR w KQkq - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "g4",
+                                                                    "fen": "rnb1kb1r/ppp3pp/8/3q1p2/4nPP1/8/PPPNQ2P/R1B1KBNR b KQkq - 0 8",
+                                                                    "children": [],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "g4 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                                                      "strategicTheme": "Pawn structure",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "f5 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                                                  "strategicTheme": "Pawn structure",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": true,
+                                                            "annotation": {
+                                                              "moveRationale": "Nd2 develops a piece to an active square in the King's Gambit Declined.",
+                                                              "strategicTheme": "Knight activity",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Qxd5 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                                          "strategicTheme": "Material exchange",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
                                                     "isMainLine": true,
                                                     "annotation": {
                                                       "moveRationale": "Qe2 activates the queen, increasing pressure in the King's Gambit Declined.",
@@ -4570,7 +6758,197 @@
                                           {
                                             "move": "dxe4",
                                             "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4PP2/8/PPP3PP/RNBQKBNR b KQkq - 0 5",
-                                            "children": [],
+                                            "children": [
+                                              {
+                                                "move": "Nxe4",
+                                                "fen": "rnbqkb1r/ppp2ppp/8/3P4/4nP2/8/PPP3PP/RNBQKBNR w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Nf3",
+                                                    "fen": "rnbqkb1r/ppp2ppp/8/3P4/4nP2/5N2/PPP3PP/RNBQKB1R b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Bc5",
+                                                        "fen": "rnbqk2r/ppp2ppp/8/2bP4/4nP2/5N2/PPP3PP/RNBQKB1R w KQkq - 2 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Qe2",
+                                                            "fen": "rnbqk2r/ppp2ppp/8/2bP4/4nP2/5N2/PPP1Q1PP/RNB1KB1R b KQkq - 3 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "Bf2+",
+                                                                "fen": "rnbqk2r/ppp2ppp/8/3P4/4nP2/5N2/PPP1QbPP/RNB1KB1R w KQkq - 4 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Kd1",
+                                                                    "fen": "rnbqk2r/ppp2ppp/8/3P4/4nP2/5N2/PPP1QbPP/RNBK1B1R b kq - 5 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "Qxd5+",
+                                                                        "fen": "rnb1k2r/ppp2ppp/8/3q4/4nP2/5N2/PPP1QbPP/RNBK1B1R w kq - 0 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "Nfd2",
+                                                                            "fen": "rnb1k2r/ppp2ppp/8/3q4/4nP2/8/PPPNQbPP/RNBK1B1R b kq - 1 9",
+                                                                            "children": [],
+                                                                            "isMainLine": true,
+                                                                            "annotation": {
+                                                                              "moveRationale": "Nfd2 develops a piece to an active square in the King's Gambit Declined.",
+                                                                              "strategicTheme": "Knight activity",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": true,
+                                                                        "annotation": {
+                                                                          "moveRationale": "Qxd5+ exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                                                          "strategicTheme": "Material exchange",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Kd1 improves the position in the King's Gambit Declined.",
+                                                                      "strategicTheme": "Position improvement",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "Bf2+ delivers check, seizing the initiative in the King's Gambit Declined.",
+                                                                  "strategicTheme": "King pressure",
+                                                                  "source": "generated"
+                                                                }
+                                                              },
+                                                              {
+                                                                "move": "Bf5",
+                                                                "fen": "rn1qk2r/ppp2ppp/8/2bP1b2/4nP2/5N2/PPP1Q1PP/RNB1KB1R w KQkq - 4 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "g4",
+                                                                    "fen": "rn1qk2r/ppp2ppp/8/2bP1b2/4nPP1/5N2/PPP1Q2P/RNB1KB1R b KQkq - 0 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "O-O",
+                                                                        "fen": "rn1q1rk1/ppp2ppp/8/2bP1b2/4nPP1/5N2/PPP1Q2P/RNB1KB1R w KQ - 1 9",
+                                                                        "children": [],
+                                                                        "isMainLine": false,
+                                                                        "annotation": {
+                                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the King's Gambit Declined.",
+                                                                          "strategicTheme": "King safety",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "g4 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                                                      "strategicTheme": "Pawn structure",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "Bf5 develops a piece to an active square in the King's Gambit Declined.",
+                                                                  "strategicTheme": "Bishop development",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": true,
+                                                            "annotation": {
+                                                              "moveRationale": "Qe2 activates the queen, increasing pressure in the King's Gambit Declined.",
+                                                              "strategicTheme": "Queen activity",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Bc5 develops the bishop actively, targeting the vulnerable f7/f2 square in the King's Gambit Declined.",
+                                                          "strategicTheme": "Active bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Nf3 develops a piece to an active square in the King's Gambit Declined.",
+                                                      "strategicTheme": "Natural piece development",
+                                                      "source": "generated"
+                                                    }
+                                                  },
+                                                  {
+                                                    "move": "Qe2",
+                                                    "fen": "rnbqkb1r/ppp2ppp/8/3P4/4nP2/8/PPP1Q1PP/RNB1KBNR b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Qxd5",
+                                                        "fen": "rnb1kb1r/ppp2ppp/8/3q4/4nP2/8/PPP1Q1PP/RNB1KBNR w KQkq - 0 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Nd2",
+                                                            "fen": "rnb1kb1r/ppp2ppp/8/3q4/4nP2/8/PPPNQ1PP/R1B1KBNR b KQkq - 1 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "f5",
+                                                                "fen": "rnb1kb1r/ppp3pp/8/3q1p2/4nP2/8/PPPNQ1PP/R1B1KBNR w KQkq - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "g4",
+                                                                    "fen": "rnb1kb1r/ppp3pp/8/3q1p2/4nPP1/8/PPPNQ2P/R1B1KBNR b KQkq - 0 8",
+                                                                    "children": [],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "g4 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                                                      "strategicTheme": "Pawn structure",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "f5 advances a pawn, influencing the structure in the King's Gambit Declined.",
+                                                                  "strategicTheme": "Pawn structure",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Nd2 develops a piece to an active square in the King's Gambit Declined.",
+                                                              "strategicTheme": "Knight activity",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Qxd5 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                                          "strategicTheme": "Material exchange",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Qe2 activates the queen, increasing pressure in the King's Gambit Declined.",
+                                                      "strategicTheme": "Queen activity",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Nxe4 exchanges material, altering the pawn structure in the King's Gambit Declined.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": true,
                                             "annotation": {
                                               "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the King's Gambit Declined.",

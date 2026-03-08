@@ -13,7 +13,240 @@
           {
             "move": "h4",
             "fen": "rnbqkbnr/pppppppp/8/8/7P/8/PPPPPPP1/RNBQKBNR b KQkq - 0 1",
-            "children": [],
+            "children": [
+              {
+                "move": "d5",
+                "fen": "rnbqkbnr/ppp1pppp/8/3p4/7P/8/PPPPPPP1/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "Rh3",
+                    "fen": "rnbqkbnr/ppp1pppp/8/3p4/7P/7R/PPPPPPP1/RNBQKBN1 b Qkq - 1 2",
+                    "children": [],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "Rh3 repositions the rook toward an open or key file in the Kádas Opening.",
+                      "strategicTheme": "Rook activation",
+                      "source": "generated"
+                    }
+                  },
+                  {
+                    "move": "d4",
+                    "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P3P/8/PPP1PPP1/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "c5",
+                        "fen": "rnbqkbnr/pp2pppp/8/2pp4/3P3P/8/PPP1PPP1/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "Nf3",
+                            "fen": "rnbqkbnr/pp2pppp/8/2pp4/3P3P/5N2/PPP1PPP1/RNBQKB1R b KQkq - 1 3",
+                            "children": [
+                              {
+                                "move": "cxd4",
+                                "fen": "rnbqkbnr/pp2pppp/8/3p4/3p3P/5N2/PPP1PPP1/RNBQKB1R w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "c3",
+                                    "fen": "rnbqkbnr/pp2pppp/8/3p4/3p3P/2P2N2/PP2PPP1/RNBQKB1R b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "c3 advances a pawn, influencing the structure in the Kádas Opening.",
+                                      "strategicTheme": "Prophylactic pawn move",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "cxd4 exchanges material, altering the pawn structure in the Kádas Opening.",
+                                  "strategicTheme": "Material exchange",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "Nf3 develops a piece to an active square in the Kádas Opening.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "e4",
+                            "fen": "rnbqkbnr/pp2pppp/8/2pp4/3PP2P/8/PPP2PP1/RNBQKBNR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "e4 impacts the center, shaping the pawn structure in the Kádas Opening.",
+                              "strategicTheme": "Central tension",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "c5 challenges the center from the flank in the Kádas Opening.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Kádas Opening.",
+                      "strategicTheme": "Central tension",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "d5 advances a pawn, influencing the structure in the Kádas Opening.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "a5",
+                "fen": "rnbqkbnr/1ppppppp/8/p7/7P/8/PPPPPPP1/RNBQKBNR w KQkq - 0 2",
+                "children": [],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "a5 advances a pawn, influencing the structure in the Kádas Opening.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "c5",
+                "fen": "rnbqkbnr/pp1ppppp/8/2p5/7P/8/PPPPPPP1/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "b4",
+                    "fen": "rnbqkbnr/pp1ppppp/8/2p5/1P5P/8/P1PPPPP1/RNBQKBNR b KQkq - 0 2",
+                    "children": [],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "b4 advances a pawn, influencing the structure in the Kádas Opening.",
+                      "strategicTheme": "Pawn structure",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "c5 challenges the center from the flank in the Kádas Opening.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "e5",
+                "fen": "rnbqkbnr/pppp1ppp/8/4p3/7P/8/PPPPPPP1/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "d4",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4p3/3P3P/8/PPP1PPP1/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "exd4",
+                        "fen": "rnbqkbnr/pppp1ppp/8/8/3p3P/8/PPP1PPP1/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "c3",
+                            "fen": "rnbqkbnr/pppp1ppp/8/8/3p3P/2P5/PP2PPP1/RNBQKBNR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "c3 advances a pawn, influencing the structure in the Kádas Opening.",
+                              "strategicTheme": "Prophylactic pawn move",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Kádas Opening.",
+                          "strategicTheme": "Central tension",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Kádas Opening.",
+                      "strategicTheme": "Central tension",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "e5 advances a pawn, influencing the structure in the Kádas Opening.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "g5",
+                "fen": "rnbqkbnr/pppppp1p/8/6p1/7P/8/PPPPPPP1/RNBQKBNR w KQkq - 0 2",
+                "children": [],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "g5 advances a pawn, influencing the structure in the Kádas Opening.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "f5",
+                "fen": "rnbqkbnr/ppppp1pp/8/5p2/7P/8/PPPPPPP1/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "e4",
+                    "fen": "rnbqkbnr/ppppp1pp/8/5p2/4P2P/8/PPPP1PP1/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "fxe4",
+                        "fen": "rnbqkbnr/ppppp1pp/8/8/4p2P/8/PPPP1PP1/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "d3",
+                            "fen": "rnbqkbnr/ppppp1pp/8/8/4p2P/3P4/PPP2PP1/RNBQKBNR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Kádas Opening.",
+                              "strategicTheme": "Solid center support",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "fxe4 exchanges material, altering the pawn structure in the Kádas Opening.",
+                          "strategicTheme": "Material exchange",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Kádas Opening.",
+                      "strategicTheme": "Central tension",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "f5 advances a pawn, influencing the structure in the Kádas Opening.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              }
+            ],
             "isMainLine": true,
             "annotation": {
               "moveRationale": "h4 advances a pawn, influencing the structure in the Kádas Opening.",

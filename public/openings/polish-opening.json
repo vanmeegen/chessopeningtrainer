@@ -13,7 +13,611 @@
           {
             "move": "b4",
             "fen": "rnbqkbnr/pppppppp/8/8/1P6/8/P1PPPPPP/RNBQKBNR b KQkq - 0 1",
-            "children": [],
+            "children": [
+              {
+                "move": "d5",
+                "fen": "rnbqkbnr/ppp1pppp/8/3p4/1P6/8/P1PPPPPP/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "Bb2",
+                    "fen": "rnbqkbnr/ppp1pppp/8/3p4/1P6/8/PBPPPPPP/RN1QKBNR b KQkq - 1 2",
+                    "children": [
+                      {
+                        "move": "Nf6",
+                        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/1P6/8/PBPPPPPP/RN1QKBNR w KQkq - 2 3",
+                        "children": [
+                          {
+                            "move": "Nf3",
+                            "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/1P6/5N2/PBPPPPPP/RN1QKB1R b KQkq - 3 3",
+                            "children": [],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Nf3 develops a piece to an active square in the Polish Opening.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "Nf6 develops a piece to an active square in the Polish Opening.",
+                          "strategicTheme": "Natural piece development",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "Bf5",
+                        "fen": "rn1qkbnr/ppp1pppp/8/3p1b2/1P6/8/PBPPPPPP/RN1QKBNR w KQkq - 2 3",
+                        "children": [],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "Bf5 develops a piece to an active square in the Polish Opening.",
+                          "strategicTheme": "Bishop development",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "Qd6",
+                        "fen": "rnb1kbnr/ppp1pppp/3q4/3p4/1P6/8/PBPPPPPP/RN1QKBNR w KQkq - 2 3",
+                        "children": [],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "Qd6 develops the queen early, seeking direct activity in the Polish Opening.",
+                          "strategicTheme": "Queen activity",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "c6",
+                        "fen": "rnbqkbnr/pp2pppp/2p5/3p4/1P6/8/PBPPPPPP/RN1QKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "a4",
+                            "fen": "rnbqkbnr/pp2pppp/2p5/3p4/PP6/8/1BPPPPPP/RN1QKBNR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "a4 advances a pawn, influencing the structure in the Polish Opening.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "c6 advances a pawn, influencing the structure in the Polish Opening.",
+                          "strategicTheme": "Prophylactic pawn move",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "Bb2 develops a piece to an active square in the Polish Opening.",
+                      "strategicTheme": "Bishop development",
+                      "source": "generated"
+                    }
+                  },
+                  {
+                    "move": "Nf3",
+                    "fen": "rnbqkbnr/ppp1pppp/8/3p4/1P6/5N2/P1PPPPPP/RNBQKB1R b KQkq - 1 2",
+                    "children": [],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Polish Opening.",
+                      "strategicTheme": "Natural piece development",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "d5 advances a pawn, influencing the structure in the Polish Opening.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "c5",
+                "fen": "rnbqkbnr/pp1ppppp/8/2p5/1P6/8/P1PPPPPP/RNBQKBNR w KQkq - 0 2",
+                "children": [],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "c5 challenges the center from the flank in the Polish Opening.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "e5",
+                "fen": "rnbqkbnr/pppp1ppp/8/4p3/1P6/8/P1PPPPPP/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "Bb2",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4p3/1P6/8/PBPPPPPP/RN1QKBNR b KQkq - 1 2",
+                    "children": [
+                      {
+                        "move": "f6",
+                        "fen": "rnbqkbnr/pppp2pp/5p2/4p3/1P6/8/PBPPPPPP/RN1QKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "b5",
+                            "fen": "rnbqkbnr/pppp2pp/5p2/1P2p3/8/8/PBPPPPPP/RN1QKBNR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "b5 advances a pawn, influencing the structure in the Polish Opening.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "e4",
+                            "fen": "rnbqkbnr/pppp2pp/5p2/4p3/1P2P3/8/PBPP1PPP/RN1QKBNR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "e4 impacts the center, shaping the pawn structure in the Polish Opening.",
+                              "strategicTheme": "Central tension",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "f6 advances a pawn, influencing the structure in the Polish Opening.",
+                          "strategicTheme": "Prophylactic pawn move",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "d6",
+                        "fen": "rnbqkbnr/ppp2ppp/3p4/4p3/1P6/8/PBPPPPPP/RN1QKBNR w KQkq - 0 3",
+                        "children": [],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "d6 advances a pawn, influencing the structure in the Polish Opening.",
+                          "strategicTheme": "Prophylactic pawn move",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "c5",
+                        "fen": "rnbqkbnr/pp1p1ppp/8/2p1p3/1P6/8/PBPPPPPP/RN1QKBNR w KQkq - 0 3",
+                        "children": [],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "c5 challenges the center from the flank in the Polish Opening.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "Bb2 develops a piece to an active square in the Polish Opening.",
+                      "strategicTheme": "Bishop development",
+                      "source": "generated"
+                    }
+                  },
+                  {
+                    "move": "a3",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4p3/1P6/P7/2PPPPPP/RNBQKBNR b KQkq - 0 2",
+                    "children": [],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "a3 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Polish Opening.",
+                      "strategicTheme": "Prophylactic pawn move",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "e5 advances a pawn, influencing the structure in the Polish Opening.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "f5",
+                "fen": "rnbqkbnr/ppppp1pp/8/5p2/1P6/8/P1PPPPPP/RNBQKBNR w KQkq - 0 2",
+                "children": [],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "f5 advances a pawn, influencing the structure in the Polish Opening.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "Nc6",
+                "fen": "r1bqkbnr/pppppppp/2n5/8/1P6/8/P1PPPPPP/RNBQKBNR w KQkq - 1 2",
+                "children": [],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Polish Opening.",
+                  "strategicTheme": "Natural piece development",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "Nh6",
+                "fen": "rnbqkb1r/pppppppp/7n/8/1P6/8/P1PPPPPP/RNBQKBNR w KQkq - 1 2",
+                "children": [],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "Nh6 develops a piece to an active square in the Polish Opening.",
+                  "strategicTheme": "Knight activity",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "Nf6",
+                "fen": "rnbqkb1r/pppppppp/5n2/8/1P6/8/P1PPPPPP/RNBQKBNR w KQkq - 1 2",
+                "children": [
+                  {
+                    "move": "Bb2",
+                    "fen": "rnbqkb1r/pppppppp/5n2/8/1P6/8/PBPPPPPP/RN1QKBNR b KQkq - 2 2",
+                    "children": [
+                      {
+                        "move": "g6",
+                        "fen": "rnbqkb1r/pppppp1p/5np1/8/1P6/8/PBPPPPPP/RN1QKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "e4",
+                            "fen": "rnbqkb1r/pppppp1p/5np1/8/1P2P3/8/PBPP1PPP/RN1QKBNR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "e4 impacts the center, shaping the pawn structure in the Polish Opening.",
+                              "strategicTheme": "Central tension",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "c4",
+                            "fen": "rnbqkb1r/pppppp1p/5np1/8/1PP5/8/PB1PPPPP/RN1QKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Bg7",
+                                "fen": "rnbqk2r/ppppppbp/5np1/8/1PP5/8/PB1PPPPP/RN1QKBNR w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "e3",
+                                    "fen": "rnbqk2r/ppppppbp/5np1/8/1PP5/4P3/PB1P1PPP/RN1QKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "d6",
+                                        "fen": "rnbqk2r/ppp1ppbp/3p1np1/8/1PP5/4P3/PB1P1PPP/RN1QKBNR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "Nf3",
+                                            "fen": "rnbqk2r/ppp1ppbp/3p1np1/8/1PP5/4PN2/PB1P1PPP/RN1QKB1R b KQkq - 1 5",
+                                            "children": [
+                                              {
+                                                "move": "O-O",
+                                                "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/1PP5/4PN2/PB1P1PPP/RN1QKB1R w KQ - 2 6",
+                                                "children": [
+                                                  {
+                                                    "move": "d4",
+                                                    "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/1PPP4/4PN2/PB3PPP/RN1QKB1R b KQ - 0 6",
+                                                    "children": [],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Polish Opening.",
+                                                      "strategicTheme": "Central tension",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Polish Opening.",
+                                                  "strategicTheme": "Early king safety",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Nf3 develops a piece to an active square in the Polish Opening.",
+                                              "strategicTheme": "Natural piece development",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "d6 advances a pawn, influencing the structure in the Polish Opening.",
+                                          "strategicTheme": "Prophylactic pawn move",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Polish Opening.",
+                                      "strategicTheme": "Solid center support",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Bg7 develops a piece to an active square in the Polish Opening.",
+                                  "strategicTheme": "Bishop development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "c4 gains space on the queenside in the Polish Opening.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Polish Opening.",
+                          "strategicTheme": "Fianchetto preparation",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "Bb2 develops a piece to an active square in the Polish Opening.",
+                      "strategicTheme": "Bishop development",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "Nf6 develops a piece to an active square in the Polish Opening.",
+                  "strategicTheme": "Natural piece development",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "c6",
+                "fen": "rnbqkbnr/pp1ppppp/2p5/8/1P6/8/P1PPPPPP/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "Bb2",
+                    "fen": "rnbqkbnr/pp1ppppp/2p5/8/1P6/8/PBPPPPPP/RN1QKBNR b KQkq - 1 2",
+                    "children": [
+                      {
+                        "move": "a5",
+                        "fen": "rnbqkbnr/1p1ppppp/2p5/p7/1P6/8/PBPPPPPP/RN1QKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "b5",
+                            "fen": "rnbqkbnr/1p1ppppp/2p5/pP6/8/8/PBPPPPPP/RN1QKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "cxb5",
+                                "fen": "rnbqkbnr/1p1ppppp/8/pp6/8/8/PBPPPPPP/RN1QKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "e4",
+                                    "fen": "rnbqkbnr/1p1ppppp/8/pp6/4P3/8/PBPP1PPP/RN1QKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Polish Opening.",
+                                      "strategicTheme": "Central tension",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "cxb5 exchanges material, altering the pawn structure in the Polish Opening.",
+                                  "strategicTheme": "Material exchange",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "b5 advances a pawn, influencing the structure in the Polish Opening.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "a5 advances a pawn, influencing the structure in the Polish Opening.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "Bb2 develops a piece to an active square in the Polish Opening.",
+                      "strategicTheme": "Bishop development",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "c6 advances a pawn, influencing the structure in the Polish Opening.",
+                  "strategicTheme": "Prophylactic pawn move",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "e6",
+                "fen": "rnbqkbnr/pppp1ppp/4p3/8/1P6/8/P1PPPPPP/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "Bb2",
+                    "fen": "rnbqkbnr/pppp1ppp/4p3/8/1P6/8/PBPPPPPP/RN1QKBNR b KQkq - 1 2",
+                    "children": [
+                      {
+                        "move": "Nf6",
+                        "fen": "rnbqkb1r/pppp1ppp/4pn2/8/1P6/8/PBPPPPPP/RN1QKBNR w KQkq - 2 3",
+                        "children": [
+                          {
+                            "move": "b5",
+                            "fen": "rnbqkb1r/pppp1ppp/4pn2/1P6/8/8/PBPPPPPP/RN1QKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "b6",
+                                "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/1P6/8/8/PBPPPPPP/RN1QKBNR w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Polish Opening.",
+                                  "strategicTheme": "Fianchetto preparation",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "a6",
+                                "fen": "rnbqkb1r/1ppp1ppp/p3pn2/1P6/8/8/PBPPPPPP/RN1QKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "a4",
+                                    "fen": "rnbqkb1r/1ppp1ppp/p3pn2/1P6/P7/8/1BPPPPPP/RN1QKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "axb5",
+                                        "fen": "rnbqkb1r/1ppp1ppp/4pn2/1p6/P7/8/1BPPPPPP/RN1QKBNR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "axb5",
+                                            "fen": "rnbqkb1r/1ppp1ppp/4pn2/1P6/8/8/1BPPPPPP/RN1QKBNR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Rxa1",
+                                                "fen": "1nbqkb1r/1ppp1ppp/4pn2/1P6/8/8/1BPPPPPP/rN1QKBNR w Kk - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bxa1",
+                                                    "fen": "1nbqkb1r/1ppp1ppp/4pn2/1P6/8/8/2PPPPPP/BN1QKBNR b Kk - 0 6",
+                                                    "children": [],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Bxa1 exchanges material, altering the pawn structure in the Polish Opening.",
+                                                      "strategicTheme": "Material exchange",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Rxa1 exchanges material, altering the pawn structure in the Polish Opening.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "axb5 exchanges material, altering the pawn structure in the Polish Opening.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "axb5 exchanges material, altering the pawn structure in the Polish Opening.",
+                                          "strategicTheme": "Material exchange",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "a4 advances a pawn, influencing the structure in the Polish Opening.",
+                                      "strategicTheme": "Pawn structure",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "a6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Polish Opening.",
+                                  "strategicTheme": "Prophylactic pawn move",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "d5",
+                                "fen": "rnbqkb1r/ppp2ppp/4pn2/1P1p4/8/8/PBPPPPPP/RN1QKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "e3",
+                                    "fen": "rnbqkb1r/ppp2ppp/4pn2/1P1p4/8/4P3/PBPP1PPP/RN1QKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Polish Opening.",
+                                      "strategicTheme": "Solid center support",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Polish Opening.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "b5 advances a pawn, influencing the structure in the Polish Opening.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "Nf6 develops a piece to an active square in the Polish Opening.",
+                          "strategicTheme": "Natural piece development",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "Bb2 develops a piece to an active square in the Polish Opening.",
+                      "strategicTheme": "Bishop development",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "e6 advances a pawn, influencing the structure in the Polish Opening.",
+                  "strategicTheme": "Prophylactic pawn move",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "b5",
+                "fen": "rnbqkbnr/p1pppppp/8/1p6/1P6/8/P1PPPPPP/RNBQKBNR w KQkq - 0 2",
+                "children": [],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "b5 advances a pawn, influencing the structure in the Polish Opening.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              }
+            ],
             "isMainLine": true,
             "annotation": {
               "moveRationale": "b4 advances a pawn, influencing the structure in the Polish Opening.",
@@ -483,7 +1087,102 @@
                       {
                         "move": "g6",
                         "fen": "rnbqkb1r/pppppp1p/5np1/8/1P6/8/PBPPPPPP/RN1QKBNR w KQkq - 0 3",
-                        "children": [],
+                        "children": [
+                          {
+                            "move": "e4",
+                            "fen": "rnbqkb1r/pppppp1p/5np1/8/1P2P3/8/PBPP1PPP/RN1QKBNR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "e4 impacts the center, shaping the pawn structure in the Polish Opening.",
+                              "strategicTheme": "Central tension",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "c4",
+                            "fen": "rnbqkb1r/pppppp1p/5np1/8/1PP5/8/PB1PPPPP/RN1QKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Bg7",
+                                "fen": "rnbqk2r/ppppppbp/5np1/8/1PP5/8/PB1PPPPP/RN1QKBNR w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "e3",
+                                    "fen": "rnbqk2r/ppppppbp/5np1/8/1PP5/4P3/PB1P1PPP/RN1QKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "d6",
+                                        "fen": "rnbqk2r/ppp1ppbp/3p1np1/8/1PP5/4P3/PB1P1PPP/RN1QKBNR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "Nf3",
+                                            "fen": "rnbqk2r/ppp1ppbp/3p1np1/8/1PP5/4PN2/PB1P1PPP/RN1QKB1R b KQkq - 1 5",
+                                            "children": [
+                                              {
+                                                "move": "O-O",
+                                                "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/1PP5/4PN2/PB1P1PPP/RN1QKB1R w KQ - 2 6",
+                                                "children": [
+                                                  {
+                                                    "move": "d4",
+                                                    "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/1PPP4/4PN2/PB3PPP/RN1QKB1R b KQ - 0 6",
+                                                    "children": [],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Polish Opening.",
+                                                      "strategicTheme": "Central tension",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Polish Opening.",
+                                                  "strategicTheme": "Early king safety",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Nf3 develops a piece to an active square in the Polish Opening.",
+                                              "strategicTheme": "Natural piece development",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "d6 advances a pawn, influencing the structure in the Polish Opening.",
+                                          "strategicTheme": "Prophylactic pawn move",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Polish Opening.",
+                                      "strategicTheme": "Solid center support",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Bg7 develops a piece to an active square in the Polish Opening.",
+                                  "strategicTheme": "Bishop development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "c4 gains space on the queenside in the Polish Opening.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          }
+                        ],
                         "isMainLine": true,
                         "annotation": {
                           "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Polish Opening.",
@@ -819,7 +1518,67 @@
               {
                 "move": "c6",
                 "fen": "rnbqkbnr/pp1ppppp/2p5/8/1P6/8/P1PPPPPP/RNBQKBNR w KQkq - 0 2",
-                "children": [],
+                "children": [
+                  {
+                    "move": "Bb2",
+                    "fen": "rnbqkbnr/pp1ppppp/2p5/8/1P6/8/PBPPPPPP/RN1QKBNR b KQkq - 1 2",
+                    "children": [
+                      {
+                        "move": "a5",
+                        "fen": "rnbqkbnr/1p1ppppp/2p5/p7/1P6/8/PBPPPPPP/RN1QKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "b5",
+                            "fen": "rnbqkbnr/1p1ppppp/2p5/pP6/8/8/PBPPPPPP/RN1QKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "cxb5",
+                                "fen": "rnbqkbnr/1p1ppppp/8/pp6/8/8/PBPPPPPP/RN1QKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "e4",
+                                    "fen": "rnbqkbnr/1p1ppppp/8/pp6/4P3/8/PBPP1PPP/RN1QKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Polish Opening.",
+                                      "strategicTheme": "Central tension",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "cxb5 exchanges material, altering the pawn structure in the Polish Opening.",
+                                  "strategicTheme": "Material exchange",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "b5 advances a pawn, influencing the structure in the Polish Opening.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "a5 advances a pawn, influencing the structure in the Polish Opening.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "Bb2 develops a piece to an active square in the Polish Opening.",
+                      "strategicTheme": "Bishop development",
+                      "source": "generated"
+                    }
+                  }
+                ],
                 "isMainLine": true,
                 "annotation": {
                   "moveRationale": "c6 advances a pawn, influencing the structure in the Polish Opening.",
@@ -953,7 +1712,67 @@
                               {
                                 "move": "a6",
                                 "fen": "rnbqkb1r/1ppp1ppp/p3pn2/1P6/8/8/PBPPPPPP/RN1QKBNR w KQkq - 0 4",
-                                "children": [],
+                                "children": [
+                                  {
+                                    "move": "a4",
+                                    "fen": "rnbqkb1r/1ppp1ppp/p3pn2/1P6/P7/8/1BPPPPPP/RN1QKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "axb5",
+                                        "fen": "rnbqkb1r/1ppp1ppp/4pn2/1p6/P7/8/1BPPPPPP/RN1QKBNR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "axb5",
+                                            "fen": "rnbqkb1r/1ppp1ppp/4pn2/1P6/8/8/1BPPPPPP/RN1QKBNR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Rxa1",
+                                                "fen": "1nbqkb1r/1ppp1ppp/4pn2/1P6/8/8/1BPPPPPP/rN1QKBNR w Kk - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bxa1",
+                                                    "fen": "1nbqkb1r/1ppp1ppp/4pn2/1P6/8/8/2PPPPPP/BN1QKBNR b Kk - 0 6",
+                                                    "children": [],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Bxa1 exchanges material, altering the pawn structure in the Polish Opening.",
+                                                      "strategicTheme": "Material exchange",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Rxa1 exchanges material, altering the pawn structure in the Polish Opening.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "axb5 exchanges material, altering the pawn structure in the Polish Opening.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "axb5 exchanges material, altering the pawn structure in the Polish Opening.",
+                                          "strategicTheme": "Material exchange",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "a4 advances a pawn, influencing the structure in the Polish Opening.",
+                                      "strategicTheme": "Pawn structure",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
                                 "isMainLine": true,
                                 "annotation": {
                                   "moveRationale": "a6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Polish Opening.",

@@ -21,7 +21,54 @@
                   {
                     "move": "c4",
                     "fen": "rnbqkbnr/ppp1pppp/3p4/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
-                    "children": [],
+                    "children": [
+                      {
+                        "move": "e5",
+                        "fen": "rnbqkbnr/ppp2ppp/3p4/4p3/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "dxe5",
+                            "fen": "rnbqkbnr/ppp2ppp/3p4/4P3/2P5/8/PP2PPPP/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Nc6",
+                                "fen": "r1bqkbnr/ppp2ppp/2np4/4P3/2P5/8/PP2PPPP/RNBQKBNR w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Old Indian Defense.",
+                                  "strategicTheme": "Natural piece development",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "Be6",
+                                "fen": "rn1qkbnr/ppp2ppp/3pb3/4P3/2P5/8/PP2PPPP/RNBQKBNR w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Be6 develops a piece to an active square in the Old Indian Defense.",
+                                  "strategicTheme": "Bishop development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "dxe5 exchanges material, altering the pawn structure in the Old Indian Defense.",
+                              "strategicTheme": "Material exchange",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "e5 advances a pawn, influencing the structure in the Old Indian Defense.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
                     "isMainLine": true,
                     "annotation": {
                       "moveRationale": "c4 gains space on the queenside in the Old Indian Defense.",
@@ -72,7 +119,286 @@
                       {
                         "move": "d6",
                         "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
-                        "children": [],
+                        "children": [
+                          {
+                            "move": "Nc3",
+                            "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+                            "children": [
+                              {
+                                "move": "Nbd7",
+                                "fen": "r1bqkb1r/pppnpppp/3p1n2/8/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+                                "children": [
+                                  {
+                                    "move": "e4",
+                                    "fen": "r1bqkb1r/pppnpppp/3p1n2/8/2PPP3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "e5",
+                                        "fen": "r1bqkb1r/pppn1ppp/3p1n2/4p3/2PPP3/2N5/PP3PPP/R1BQKBNR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "Nf3",
+                                            "fen": "r1bqkb1r/pppn1ppp/3p1n2/4p3/2PPP3/2N2N2/PP3PPP/R1BQKB1R b KQkq - 1 5",
+                                            "children": [
+                                              {
+                                                "move": "g6",
+                                                "fen": "r1bqkb1r/pppn1p1p/3p1np1/4p3/2PPP3/2N2N2/PP3PPP/R1BQKB1R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Be2",
+                                                    "fen": "r1bqkb1r/pppn1p1p/3p1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Bg7",
+                                                        "fen": "r1bqk2r/pppn1pbp/3p1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQK2R w KQkq - 2 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "O-O",
+                                                            "fen": "r1bqk2r/pppn1pbp/3p1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQ1RK1 b kq - 3 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "O-O",
+                                                                "fen": "r1bq1rk1/pppn1pbp/3p1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQ1RK1 w - - 4 8",
+                                                                "children": [],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Old Indian Defense.",
+                                                                  "strategicTheme": "King safety",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": true,
+                                                            "annotation": {
+                                                              "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Old Indian Defense.",
+                                                              "strategicTheme": "King safety",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Bg7 develops a piece to an active square in the Old Indian Defense.",
+                                                          "strategicTheme": "Bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Be2 develops the bishop to a modest but solid square, preparing to castle in the Old Indian Defense.",
+                                                      "strategicTheme": "Bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Old Indian Defense.",
+                                                  "strategicTheme": "Fianchetto preparation",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Nf3 develops a piece to an active square in the Old Indian Defense.",
+                                              "strategicTheme": "Natural piece development",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "e5 advances a pawn, influencing the structure in the Old Indian Defense.",
+                                          "strategicTheme": "Pawn structure",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Old Indian Defense.",
+                                      "strategicTheme": "Central tension",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Nbd7 develops a piece to an active square in the Old Indian Defense.",
+                                  "strategicTheme": "Knight activity",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "c6",
+                                "fen": "rnbqkb1r/pp2pppp/2pp1n2/8/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "c6 advances a pawn, influencing the structure in the Old Indian Defense.",
+                                  "strategicTheme": "Prophylactic pawn move",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "Bf5",
+                                "fen": "rn1qkb1r/ppp1pppp/3p1n2/5b2/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+                                "children": [
+                                  {
+                                    "move": "g3",
+                                    "fen": "rn1qkb1r/ppp1pppp/3p1n2/5b2/2PP4/2N3P1/PP2PP1P/R1BQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Old Indian Defense.",
+                                      "strategicTheme": "Fianchetto preparation",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "e4",
+                                    "fen": "rn1qkb1r/ppp1pppp/3p1n2/5b2/2PPP3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Old Indian Defense.",
+                                      "strategicTheme": "Central tension",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "f3",
+                                    "fen": "rn1qkb1r/ppp1pppp/3p1n2/5b2/2PP4/2N2P2/PP2P1PP/R1BQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "f3 advances a pawn, influencing the structure in the Old Indian Defense.",
+                                      "strategicTheme": "Prophylactic pawn move",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Bf5 develops a piece to an active square in the Old Indian Defense.",
+                                  "strategicTheme": "Bishop development",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "e5",
+                                "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p3/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "e3",
+                                    "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p3/2PP4/2N1P3/PP3PPP/R1BQKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Nbd7",
+                                        "fen": "r1bqkb1r/pppn1ppp/3p1n2/4p3/2PP4/2N1P3/PP3PPP/R1BQKBNR w KQkq - 1 5",
+                                        "children": [
+                                          {
+                                            "move": "Bd3",
+                                            "fen": "r1bqkb1r/pppn1ppp/3p1n2/4p3/2PP4/2NBP3/PP3PPP/R1BQK1NR b KQkq - 2 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Bd3 develops a piece to an active square in the Old Indian Defense.",
+                                              "strategicTheme": "Bishop development",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Nbd7 develops a piece to an active square in the Old Indian Defense.",
+                                          "strategicTheme": "Knight activity",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Old Indian Defense.",
+                                      "strategicTheme": "Solid center support",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "Nf3",
+                                    "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p3/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Nf3 develops a piece to an active square in the Old Indian Defense.",
+                                      "strategicTheme": "Natural piece development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "e5 advances a pawn, influencing the structure in the Old Indian Defense.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Old Indian Defense.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "g4",
+                            "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/2PP2P1/8/PP2PP1P/RNBQKBNR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "g4 advances a pawn, influencing the structure in the Old Indian Defense.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "Nf3",
+                            "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3",
+                            "children": [
+                              {
+                                "move": "c6",
+                                "fen": "rnbqkb1r/pp2pppp/2pp1n2/8/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "c6 advances a pawn, influencing the structure in the Old Indian Defense.",
+                                  "strategicTheme": "Prophylactic pawn move",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "Bg4",
+                                "fen": "rn1qkb1r/ppp1pppp/3p1n2/8/2PP2b1/5N2/PP2PPPP/RNBQKB1R w KQkq - 2 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Bg4 develops a piece to an active square in the Old Indian Defense.",
+                                  "strategicTheme": "Bishop development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "Nf3 develops a piece to an active square in the Old Indian Defense.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
                         "isMainLine": true,
                         "annotation": {
                           "moveRationale": "d6 advances a pawn, influencing the structure in the Old Indian Defense.",
@@ -376,7 +702,41 @@
                               {
                                 "move": "Bf5",
                                 "fen": "rn1qkb1r/ppp1pppp/3p1n2/5b2/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
-                                "children": [],
+                                "children": [
+                                  {
+                                    "move": "g3",
+                                    "fen": "rn1qkb1r/ppp1pppp/3p1n2/5b2/2PP4/2N3P1/PP2PP1P/R1BQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Old Indian Defense.",
+                                      "strategicTheme": "Fianchetto preparation",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "e4",
+                                    "fen": "rn1qkb1r/ppp1pppp/3p1n2/5b2/2PPP3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Old Indian Defense.",
+                                      "strategicTheme": "Central tension",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "f3",
+                                    "fen": "rn1qkb1r/ppp1pppp/3p1n2/5b2/2PP4/2N2P2/PP2P1PP/R1BQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "f3 advances a pawn, influencing the structure in the Old Indian Defense.",
+                                      "strategicTheme": "Prophylactic pawn move",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
                                 "isMainLine": true,
                                 "annotation": {
                                   "moveRationale": "Bf5 develops a piece to an active square in the Old Indian Defense.",
@@ -1041,7 +1401,54 @@
                               {
                                 "move": "e5",
                                 "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p3/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 4",
-                                "children": [],
+                                "children": [
+                                  {
+                                    "move": "e3",
+                                    "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p3/2PP4/2N1P3/PP3PPP/R1BQKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Nbd7",
+                                        "fen": "r1bqkb1r/pppn1ppp/3p1n2/4p3/2PP4/2N1P3/PP3PPP/R1BQKBNR w KQkq - 1 5",
+                                        "children": [
+                                          {
+                                            "move": "Bd3",
+                                            "fen": "r1bqkb1r/pppn1ppp/3p1n2/4p3/2PP4/2NBP3/PP3PPP/R1BQK1NR b KQkq - 2 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Bd3 develops a piece to an active square in the Old Indian Defense.",
+                                              "strategicTheme": "Bishop development",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Nbd7 develops a piece to an active square in the Old Indian Defense.",
+                                          "strategicTheme": "Knight activity",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Old Indian Defense.",
+                                      "strategicTheme": "Solid center support",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "Nf3",
+                                    "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p3/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Nf3 develops a piece to an active square in the Old Indian Defense.",
+                                      "strategicTheme": "Natural piece development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
                                 "isMainLine": true,
                                 "annotation": {
                                   "moveRationale": "e5 advances a pawn, influencing the structure in the Old Indian Defense.",
@@ -1136,7 +1543,67 @@
                                           {
                                             "move": "Nf3",
                                             "fen": "r1bqkb1r/pppn1ppp/3p1n2/4p3/2PPP3/2N2N2/PP3PPP/R1BQKB1R b KQkq - 1 5",
-                                            "children": [],
+                                            "children": [
+                                              {
+                                                "move": "g6",
+                                                "fen": "r1bqkb1r/pppn1p1p/3p1np1/4p3/2PPP3/2N2N2/PP3PPP/R1BQKB1R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Be2",
+                                                    "fen": "r1bqkb1r/pppn1p1p/3p1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Bg7",
+                                                        "fen": "r1bqk2r/pppn1pbp/3p1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQK2R w KQkq - 2 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "O-O",
+                                                            "fen": "r1bqk2r/pppn1pbp/3p1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQ1RK1 b kq - 3 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "O-O",
+                                                                "fen": "r1bq1rk1/pppn1pbp/3p1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQ1RK1 w - - 4 8",
+                                                                "children": [],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Old Indian Defense.",
+                                                                  "strategicTheme": "King safety",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": true,
+                                                            "annotation": {
+                                                              "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Old Indian Defense.",
+                                                              "strategicTheme": "King safety",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Bg7 develops a piece to an active square in the Old Indian Defense.",
+                                                          "strategicTheme": "Bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Be2 develops the bishop to a modest but solid square, preparing to castle in the Old Indian Defense.",
+                                                      "strategicTheme": "Bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Old Indian Defense.",
+                                                  "strategicTheme": "Fianchetto preparation",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": true,
                                             "annotation": {
                                               "moveRationale": "Nf3 develops a piece to an active square in the Old Indian Defense.",
