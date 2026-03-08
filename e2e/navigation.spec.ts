@@ -79,6 +79,10 @@ test.describe("Navigation", () => {
     const selection = new OpeningSelectionPage(page);
     await selection.selectOpeningByName("Italian Game");
 
+    // Wait for variations to load and click Train All
+    await expect(selection.trainAllButton).toBeVisible();
+    await selection.trainAllButton.click();
+
     const training = new TrainingPage(page);
     await expect(training.screen).toBeVisible();
   });
@@ -91,7 +95,7 @@ test.describe("Navigation", () => {
     await home.navigateToLearn();
 
     const selection = new OpeningSelectionPage(page);
-    await selection.selectOpeningByName("Italian Game");
+    await selection.openOpeningByName("Italian Game");
 
     const training = new TrainingPage(page);
     await expect(training.screen).toBeVisible();

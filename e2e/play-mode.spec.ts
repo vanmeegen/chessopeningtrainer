@@ -3,6 +3,8 @@ import { HomePage } from "./pages/home.page";
 import { OpeningSelectionPage } from "./pages/opening-selection.page";
 import { TrainingPage } from "./pages/training.page";
 
+const STARTING_FEN = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
+
 test.describe("Play Mode", () => {
   let training: TrainingPage;
 
@@ -13,7 +15,7 @@ test.describe("Play Mode", () => {
 
     await home.goto();
     await home.navigateToPlay();
-    await selection.selectOpeningByName("Italian Game");
+    await selection.openOpeningByName("Italian Game");
 
     await expect(training.screen).toBeVisible();
     await expect(training.boardArea).toBeVisible();
@@ -25,14 +27,21 @@ test.describe("Play Mode", () => {
     await expect(training.btnRestart).toBeVisible();
   });
 
-  test("show book move button is present", async () => {
-    await expect(training.btnShowBookMove).toBeVisible();
+  test("board starts at initial position", async () => {
+    await expect(training.chessBoard).toBeVisible();
+    const fen = await training.getBoardFen();
+    expect(fen).toBe(STARTING_FEN);
   });
 
-  test("restart button resets the game", async () => {
+  test("restart button resets board to initial position", async () => {
+    await expect(training.chessBoard).toBeVisible();
+    const initialFen = await training.getBoardFen();
+
     await training.restart();
 
-    // After restart, the board should still be visible
+    const resetFen = await training.getBoardFen();
+    expect(resetFen).toBe(initialFen);
+    expect(resetFen).toBe(STARTING_FEN);
     await expect(training.boardArea).toBeVisible();
     await expect(training.playControls).toBeVisible();
   });

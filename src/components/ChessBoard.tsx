@@ -107,7 +107,7 @@ export const ChessBoard = observer(function ChessBoard(props: ChessBoardProps) {
   };
 
   return (
-    <div data-testid="chess-board">
+    <div data-testid="chess-board" data-fen={position}>
       <Chessboard
         options={{
           position,

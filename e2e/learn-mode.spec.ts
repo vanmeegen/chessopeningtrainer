@@ -3,6 +3,8 @@ import { HomePage } from "./pages/home.page";
 import { OpeningSelectionPage } from "./pages/opening-selection.page";
 import { TrainingPage } from "./pages/training.page";
 
+const STARTING_FEN = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
+
 test.describe("Learn Mode", () => {
   let training: TrainingPage;
 
@@ -13,7 +15,7 @@ test.describe("Learn Mode", () => {
 
     await home.goto();
     await home.navigateToLearn();
-    await selection.selectOpeningByName("Italian Game");
+    await selection.openOpeningByName("Italian Game");
 
     // Wait for training screen to load
     await expect(training.screen).toBeVisible();
@@ -33,45 +35,70 @@ test.describe("Learn Mode", () => {
     await expect(training.btnEnd).toBeVisible();
   });
 
-  test("can advance through moves with forward button", async () => {
-    // Get initial annotation text
-    await expect(training.annotationPanel).toBeVisible();
+  test("advancing a move changes the board position", async () => {
+    await expect(training.chessBoard).toBeVisible();
+    const initialFen = await training.getBoardFen();
 
-    // Advance a move
     await training.advanceMove();
 
-    // Board should have updated (annotation panel should still be visible)
-    await expect(training.annotationPanel).toBeVisible();
+    const newFen = await training.getBoardFen();
+    expect(newFen).not.toBe(initialFen);
+    expect(newFen).not.toBe(STARTING_FEN);
   });
 
-  test("can go back after advancing", async () => {
-    await training.advanceMove();
-    await training.advanceMove();
+  test("going back restores the previous board position", async () => {
+    await expect(training.chessBoard).toBeVisible();
+    const initialFen = await training.getBoardFen();
 
-    // Go back
+    await training.advanceMove();
+    const afterAdvanceFen = await training.getBoardFen();
+    expect(afterAdvanceFen).not.toBe(initialFen);
+
     await training.goBackMove();
-
-    // Should still show board and controls
-    await expect(training.boardArea).toBeVisible();
-    await expect(training.learnControls).toBeVisible();
+    const afterBackFen = await training.getBoardFen();
+    expect(afterBackFen).toBe(initialFen);
   });
 
-  test("go to start returns to initial position", async () => {
+  test("go to start returns board to initial position", async () => {
+    await expect(training.chessBoard).toBeVisible();
+    const initialFen = await training.getBoardFen();
+
     await training.advanceMove();
     await training.advanceMove();
     await training.advanceMove();
+    const advancedFen = await training.getBoardFen();
+    expect(advancedFen).not.toBe(initialFen);
 
     await training.goToStart();
-
-    // Back button should be disabled at start
+    const resetFen = await training.getBoardFen();
+    expect(resetFen).toBe(initialFen);
     await expect(training.btnBack).toBeDisabled();
   });
 
-  test("go to end advances to last move", async () => {
+  test("go to end changes board to final position", async () => {
+    await expect(training.chessBoard).toBeVisible();
+    const initialFen = await training.getBoardFen();
+
     await training.goToEnd();
 
-    // Forward button should be disabled at end
+    const endFen = await training.getBoardFen();
+    expect(endFen).not.toBe(initialFen);
     await expect(training.btnForward).toBeDisabled();
+  });
+
+  test("each advance produces a different position", async () => {
+    await expect(training.chessBoard).toBeVisible();
+    const positions: string[] = [await training.getBoardFen()];
+
+    for (let i = 0; i < 4; i++) {
+      await training.advanceMove();
+      const fen = await training.getBoardFen();
+      expect(positions).not.toContain(fen);
+      positions.push(fen);
+    }
+
+    // All 5 positions should be unique
+    expect(new Set(positions).size).toBe(5);
   });
 
   test("annotation panel shows strategic explanation", async () => {

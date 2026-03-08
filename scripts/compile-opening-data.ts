@@ -5,7 +5,8 @@ import { fetchOpenings } from "./fetch-openings.js";
 import { parseAllOpenings } from "./parse-openings.js";
 import type { ParsedOpening } from "./parse-openings.js";
 import { buildOpeningMoveTree } from "./build-move-trees.js";
-import { annotateMoveTree } from "./generate-annotations.js";
+import { annotateMoveTreeWithContext } from "./generate-annotations.js";
+import { annotateTreeFromWikibooks } from "./fetch-wikibooks-annotations.js";
 import type {
   Opening,
   OpeningCatalogEntry,
@@ -36,19 +37,19 @@ function categorizeOpening(opening: ParsedOpening): string {
 
 /**
  * Convert a ParsedOpening into the full Opening type with move trees and annotations.
+ * Uses basic template annotations (fast, no network).
  */
 function buildOpeningData(parsedOpening: ParsedOpening): Opening {
   const moveTree = buildOpeningMoveTree(parsedOpening.variations);
 
   if (moveTree) {
-    annotateMoveTree(moveTree);
+    annotateMoveTreeWithContext(moveTree, parsedOpening.name);
   }
 
   const variations: Variation[] = parsedOpening.variations.map((v) => {
-    // Build individual tree for each variation to store in Variation.moves
     const varTree = buildOpeningMoveTree([v]);
     if (varTree) {
-      annotateMoveTree(varTree);
+      annotateMoveTreeWithContext(varTree, parsedOpening.name);
     }
 
     return {
@@ -58,6 +59,54 @@ function buildOpeningData(parsedOpening: ParsedOpening): Opening {
       pgn: v.pgn,
     };
   });
+
+  return {
+    id: parsedOpening.id,
+    name: parsedOpening.name,
+    eco: parsedOpening.eco,
+    variations,
+  };
+}
+
+/**
+ * Convert a ParsedOpening into the full Opening type with Wikibooks annotations
+ * where available, falling back to context-aware templates.
+ */
+async function buildOpeningDataWithWikibooks(
+  parsedOpening: ParsedOpening,
+): Promise<Opening> {
+  const moveTree = buildOpeningMoveTree(parsedOpening.variations);
+
+  if (moveTree) {
+    // First try Wikibooks annotations
+    const wikibooksCount = await annotateTreeFromWikibooks(moveTree);
+    console.log(
+      `  ${parsedOpening.name}: ${wikibooksCount} Wikibooks annotations`,
+    );
+    // Fill remaining with context-aware templates
+    annotateMoveTreeWithContext(moveTree, parsedOpening.name);
+  }
+
+  const variations: Variation[] = [];
+  for (const v of parsedOpening.variations) {
+    const varTree = buildOpeningMoveTree([v]);
+    if (varTree) {
+      const wikibooksCount = await annotateTreeFromWikibooks(varTree);
+      if (wikibooksCount > 0) {
+        console.log(
+          `    Variation "${v.name}": ${wikibooksCount} Wikibooks annotations`,
+        );
+      }
+      annotateMoveTreeWithContext(varTree, parsedOpening.name);
+    }
+
+    variations.push({
+      id: v.id,
+      name: v.name,
+      moves: varTree ?? createEmptyRoot(),
+      pgn: v.pgn,
+    });
+  }
 
   return {
     id: parsedOpening.id,
@@ -94,6 +143,7 @@ function buildCatalogEntry(opening: ParsedOpening): OpeningCatalogEntry {
  */
 export async function compileOpeningData(
   skipFetch: boolean = false,
+  withWikibooks: boolean = false,
 ): Promise<void> {
   // Step 1: Fetch TSV data
   if (!skipFetch) {
@@ -113,14 +163,22 @@ export async function compileOpeningData(
   const catalog: OpeningCatalogEntry[] = parsedOpenings.map(buildCatalogEntry);
 
   // Step 4: Build opening detail files
-  console.log("\n=== Step 4: Building opening detail files ===");
+  if (withWikibooks) {
+    console.log(
+      "\n=== Step 4: Building opening detail files (with Wikibooks) ===",
+    );
+  } else {
+    console.log("\n=== Step 4: Building opening detail files ===");
+  }
   if (!existsSync(OPENINGS_OUTPUT_DIR)) {
     mkdirSync(OPENINGS_OUTPUT_DIR, { recursive: true });
   }
 
   let processedCount = 0;
   for (const parsedOpening of parsedOpenings) {
-    const openingData = buildOpeningData(parsedOpening);
+    const openingData = withWikibooks
+      ? await buildOpeningDataWithWikibooks(parsedOpening)
+      : buildOpeningData(parsedOpening);
     const outputPath = join(OPENINGS_OUTPUT_DIR, `${openingData.id}.json`);
     writeFileSync(outputPath, JSON.stringify(openingData, null, 2), "utf-8");
     processedCount++;
@@ -160,7 +218,8 @@ export async function compileOpeningData(
 // Run directly
 if (process.argv[1] === __filename) {
   const skipFetch = process.argv.includes("--skip-fetch");
-  compileOpeningData(skipFetch).catch((err: unknown) => {
+  const withWikibooks = process.argv.includes("--with-wikibooks");
+  compileOpeningData(skipFetch, withWikibooks).catch((err: unknown) => {
     console.error("Pipeline failed:", err);
     process.exit(1);
   });

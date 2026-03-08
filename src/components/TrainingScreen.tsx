@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { observer } from "mobx-react-lite";
 import { observable, runInAction } from "mobx";
 import {
@@ -352,6 +352,8 @@ const TrainingScreen = observer(function TrainingScreen(): React.JSX.Element {
     mode: string;
     openingId: string;
   }>();
+  const [searchParams] = useSearchParams();
+  const variationParam = searchParams.get("variation");
   const navigate = useNavigate();
 
   const opening = catalog.find((o) => o.id === openingId);
@@ -387,9 +389,10 @@ const TrainingScreen = observer(function TrainingScreen(): React.JSX.Element {
         const openingData = await loadOpeningData(openingId!);
         if (disposed) return;
         const variationId =
-          openingData.variations.length > 0
+          variationParam ??
+          (openingData.variations.length > 0
             ? openingData.variations[0]!.id
-            : "";
+            : "");
         const model = new LearnModel(openingData, variationId, "w");
         runInAction(() => {
           learnState.learnModel = model;
@@ -413,7 +416,7 @@ const TrainingScreen = observer(function TrainingScreen(): React.JSX.Element {
         learnState.learnModel.dispose();
       }
     };
-  }, [mode, openingId, learnState]);
+  }, [mode, openingId, variationParam, learnState]);
 
   useEffect(() => {
     if (mode !== "play" || !openingId) {
@@ -427,9 +430,10 @@ const TrainingScreen = observer(function TrainingScreen(): React.JSX.Element {
         const openingData = await loadOpeningData(openingId!);
         if (disposed) return;
         const variationId =
-          openingData.variations.length > 0
+          variationParam ??
+          (openingData.variations.length > 0
             ? openingData.variations[0]!.id
-            : undefined;
+            : undefined);
         const model = new PlayModel(openingData, variationId, "w");
         runInAction(() => {
           playState.playModel = model;
@@ -450,7 +454,7 @@ const TrainingScreen = observer(function TrainingScreen(): React.JSX.Element {
     return () => {
       disposed = true;
     };
-  }, [mode, openingId, playState]);
+  }, [mode, openingId, variationParam, playState]);
 
   useEffect(() => {
     if (mode !== "memorize" || !openingId) {

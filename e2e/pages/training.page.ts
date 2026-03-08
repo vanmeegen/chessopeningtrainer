@@ -71,6 +71,12 @@ export class TrainingPage {
     this.assessmentMessage = page.getByTestId("assessment-message");
   }
 
+  /** Get the current board position as a FEN string */
+  async getBoardFen(): Promise<string> {
+    const fen = await this.chessBoard.getAttribute("data-fen");
+    return fen ?? "";
+  }
+
   async goBack() {
     await this.backButton.click();
   }
