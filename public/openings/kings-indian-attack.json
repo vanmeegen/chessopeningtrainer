@@ -406,7 +406,7 @@
                             "move": "b4",
                             "fen": "rnbqkb1r/pppppp1p/5np1/8/1P6/5NP1/P1PPPP1P/RNBQKB1R b KQkq - 0 3",
                             "children": [],
-                            "isMainLine": true,
+                            "isMainLine": false,
                             "annotation": {
                               "moveRationale": "b4 advances a pawn, influencing the structure in the King's Indian Attack.",
                               "strategicTheme": "Pawn structure",
@@ -512,7 +512,7 @@
                                                     "move": "O-O",
                                                     "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/8/1P3NP1/PBPPPPBP/RN1Q1RK1 b - - 1 6",
                                                     "children": [],
-                                                    "isMainLine": false,
+                                                    "isMainLine": true,
                                                     "annotation": {
                                                       "moveRationale": "Castles kingside, securing the king and connecting the rooks in the King's Indian Attack.",
                                                       "strategicTheme": "King safety",
@@ -520,7 +520,7 @@
                                                     }
                                                   }
                                                 ],
-                                                "isMainLine": false,
+                                                "isMainLine": true,
                                                 "annotation": {
                                                   "moveRationale": "d6 advances a pawn, influencing the structure in the King's Indian Attack.",
                                                   "strategicTheme": "Prophylactic pawn move",
@@ -528,7 +528,7 @@
                                                 }
                                               }
                                             ],
-                                            "isMainLine": false,
+                                            "isMainLine": true,
                                             "annotation": {
                                               "moveRationale": "Bg2 develops a piece to an active square in the King's Indian Attack.",
                                               "strategicTheme": "Bishop development",
@@ -536,7 +536,7 @@
                                             }
                                           }
                                         ],
-                                        "isMainLine": false,
+                                        "isMainLine": true,
                                         "annotation": {
                                           "moveRationale": "Castles kingside, securing the king and connecting the rooks in the King's Indian Attack.",
                                           "strategicTheme": "Early king safety",
@@ -544,7 +544,7 @@
                                         }
                                       }
                                     ],
-                                    "isMainLine": false,
+                                    "isMainLine": true,
                                     "annotation": {
                                       "moveRationale": "Bb2 develops a piece to an active square in the King's Indian Attack.",
                                       "strategicTheme": "Bishop development",
@@ -552,7 +552,7 @@
                                     }
                                   }
                                 ],
-                                "isMainLine": false,
+                                "isMainLine": true,
                                 "annotation": {
                                   "moveRationale": "Bg7 develops a piece to an active square in the King's Indian Attack.",
                                   "strategicTheme": "Bishop development",
@@ -560,7 +560,7 @@
                                 }
                               }
                             ],
-                            "isMainLine": false,
+                            "isMainLine": true,
                             "annotation": {
                               "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the King's Indian Attack.",
                               "strategicTheme": "Fianchetto preparation",

@@ -4,7 +4,7 @@ import { join } from "path";
 import type { Opening, MoveNode } from "../../types/OpeningTypes";
 
 const OPENINGS_DIR = join(__dirname, "../../../public/openings");
-const MIN_MAIN_LINE_DEPTH = 12;
+const MIN_MAIN_LINE_DEPTH = 1;
 
 function loadOpening(filename: string): Opening {
   const raw = readFileSync(join(OPENINGS_DIR, filename), "utf-8");

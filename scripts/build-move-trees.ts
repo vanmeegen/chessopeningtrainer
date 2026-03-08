@@ -106,6 +106,84 @@ export function mergeMoveSequence(
 }
 
 /**
+ * Compute the maximum depth of a subtree.
+ */
+function maxDepth(node: MoveNode): number {
+  if (node.children.length === 0) return 0;
+  return 1 + Math.max(...node.children.map((c) => maxDepth(c)));
+}
+
+/**
+ * Extend the main line so it always follows the deepest available path.
+ *
+ * At each node along the current main line, we check whether a non-mainline
+ * sibling offers more remaining depth than the current mainline child.
+ * If so, we swap the mainline designation. At the end of the mainline,
+ * if there are non-mainline children, we pick the deepest one.
+ *
+ * This ensures the mainline always traces the longest path through the tree.
+ */
+export function extendMainLine(root: MoveNode): void {
+  let current = root;
+
+  while (current.children.length > 0) {
+    const mainChild = current.children.find((c) => c.isMainLine);
+
+    if (!mainChild) {
+      // No mainline child — pick the deepest child and mark it
+      const best = deepestChild(current.children);
+      best.isMainLine = true;
+      current = best;
+      continue;
+    }
+
+    // Check if any non-mainline sibling is deeper
+    const mainDepth = maxDepth(mainChild);
+    let best = mainChild;
+    let bestDepth = mainDepth;
+
+    for (const child of current.children) {
+      if (child === mainChild) continue;
+      const d = maxDepth(child);
+      if (d > bestDepth) {
+        best = child;
+        bestDepth = d;
+      }
+    }
+
+    if (best !== mainChild) {
+      // Swap: demote old mainline subtree, promote new one
+      markSubtreeMainLine(mainChild, false);
+      best.isMainLine = true;
+    }
+
+    current = best;
+  }
+}
+
+/** Pick the child with the greatest maxDepth */
+function deepestChild(children: MoveNode[]): MoveNode {
+  let best = children[0]!;
+  let bestDepth = maxDepth(best);
+  for (let i = 1; i < children.length; i++) {
+    const d = maxDepth(children[i]!);
+    if (d > bestDepth) {
+      best = children[i]!;
+      bestDepth = d;
+    }
+  }
+  return best;
+}
+
+/** Set isMainLine on a node and all its descendants */
+function markSubtreeMainLine(node: MoveNode, value: boolean): void {
+  node.isMainLine = value;
+  for (const child of node.children) {
+    markSubtreeMainLine(child, value);
+  }
+}
+
+/**
  * Build a complete move tree for an opening by merging all its variations.
  * The first variation is treated as the main line.
  */

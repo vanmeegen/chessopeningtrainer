@@ -338,7 +338,7 @@
                             "move": "Nf3",
                             "fen": "rnbqkb1r/pp1ppppp/5n2/2pP4/8/5N2/PPP1PPPP/RNBQKB1R b KQkq - 2 3",
                             "children": [],
-                            "isMainLine": true,
+                            "isMainLine": false,
                             "annotation": {
                               "moveRationale": "Nf3 develops a piece to an active square in the Benoni Defense.",
                               "strategicTheme": "Natural piece development",
@@ -353,7 +353,7 @@
                                 "move": "Qa5",
                                 "fen": "rnb1kb1r/pp1ppppp/5n2/q1pP4/8/2N5/PPP1PPPP/R1BQKBNR w KQkq - 3 4",
                                 "children": [],
-                                "isMainLine": false,
+                                "isMainLine": true,
                                 "annotation": {
                                   "moveRationale": "Qa5 develops the queen early, seeking direct activity in the Benoni Defense.",
                                   "strategicTheme": "Queen activity",
@@ -361,7 +361,7 @@
                                 }
                               }
                             ],
-                            "isMainLine": false,
+                            "isMainLine": true,
                             "annotation": {
                               "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Benoni Defense.",
                               "strategicTheme": "Natural piece development",
@@ -783,7 +783,7 @@
                         "move": "Na6",
                         "fen": "r1bqkbnr/pp1ppppp/n7/2P5/8/8/PPP1PPPP/RNBQKBNR w KQkq - 1 3",
                         "children": [],
-                        "isMainLine": true,
+                        "isMainLine": false,
                         "annotation": {
                           "moveRationale": "Na6 develops a piece to an active square in the Benoni Defense.",
                           "strategicTheme": "Knight activity",
@@ -802,7 +802,7 @@
                         }
                       }
                     ],
-                    "isMainLine": true,
+                    "isMainLine": false,
                     "annotation": {
                       "moveRationale": "dxc5 exchanges material, altering the pawn structure in the Benoni Defense.",
                       "strategicTheme": "Material exchange",
@@ -836,7 +836,7 @@
                                 "move": "Qa5",
                                 "fen": "rnb1kb1r/pp1ppppp/5n2/q1pP4/8/2N5/PPP1PPPP/R1BQKBNR w KQkq - 3 4",
                                 "children": [],
-                                "isMainLine": false,
+                                "isMainLine": true,
                                 "annotation": {
                                   "moveRationale": "Qa5 develops the queen early, seeking direct activity in the Benoni Defense.",
                                   "strategicTheme": "Queen activity",
@@ -844,7 +844,7 @@
                                 }
                               }
                             ],
-                            "isMainLine": false,
+                            "isMainLine": true,
                             "annotation": {
                               "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Benoni Defense.",
                               "strategicTheme": "Natural piece development",
@@ -852,7 +852,7 @@
                             }
                           }
                         ],
-                        "isMainLine": false,
+                        "isMainLine": true,
                         "annotation": {
                           "moveRationale": "Nf6 develops a piece to an active square in the Benoni Defense.",
                           "strategicTheme": "Natural piece development",
@@ -964,7 +964,7 @@
                         }
                       }
                     ],
-                    "isMainLine": false,
+                    "isMainLine": true,
                     "annotation": {
                       "moveRationale": "d5 advances a pawn, influencing the structure in the Benoni Defense.",
                       "strategicTheme": "Pawn structure",
@@ -1112,7 +1112,7 @@
                             "move": "Nf3",
                             "fen": "rnbqkb1r/pp1ppppp/5n2/2pP4/8/5N2/PPP1PPPP/RNBQKB1R b KQkq - 2 3",
                             "children": [],
-                            "isMainLine": true,
+                            "isMainLine": false,
                             "annotation": {
                               "moveRationale": "Nf3 develops a piece to an active square in the Benoni Defense.",
                               "strategicTheme": "Natural piece development",
@@ -1127,7 +1127,7 @@
                                 "move": "Qa5",
                                 "fen": "rnb1kb1r/pp1ppppp/5n2/q1pP4/8/2N5/PPP1PPPP/R1BQKBNR w KQkq - 3 4",
                                 "children": [],
-                                "isMainLine": false,
+                                "isMainLine": true,
                                 "annotation": {
                                   "moveRationale": "Qa5 develops the queen early, seeking direct activity in the Benoni Defense.",
                                   "strategicTheme": "Queen activity",
@@ -1135,7 +1135,7 @@
                                 }
                               }
                             ],
-                            "isMainLine": false,
+                            "isMainLine": true,
                             "annotation": {
                               "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Benoni Defense.",
                               "strategicTheme": "Natural piece development",
@@ -2084,7 +2084,7 @@
                                             "move": "f3",
                                             "fen": "rnbqkb1r/3ppppp/p4n2/1PpP4/8/5P2/PP2P1PP/RNBQKBNR b KQkq - 0 5",
                                             "children": [],
-                                            "isMainLine": true,
+                                            "isMainLine": false,
                                             "annotation": {
                                               "moveRationale": "f3 advances a pawn, influencing the structure in the Benoni Defense.",
                                               "strategicTheme": "Prophylactic pawn move",
@@ -2235,7 +2235,7 @@
                                                                                             "move": "Kg2",
                                                                                             "fen": "rn1q1rk1/4ppbp/3p1np1/2pP4/4P3/2N2NP1/PP3PKP/R1BQ3R b - - 2 11",
                                                                                             "children": [],
-                                                                                            "isMainLine": false,
+                                                                                            "isMainLine": true,
                                                                                             "annotation": {
                                                                                               "moveRationale": "Kg2 improves the position in the Benoni Defense.",
                                                                                               "strategicTheme": "Position improvement",
@@ -2243,7 +2243,7 @@
                                                                                             }
                                                                                           }
                                                                                         ],
-                                                                                        "isMainLine": false,
+                                                                                        "isMainLine": true,
                                                                                         "annotation": {
                                                                                           "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Benoni Defense.",
                                                                                           "strategicTheme": "King safety",
@@ -2251,7 +2251,7 @@
                                                                                         }
                                                                                       }
                                                                                     ],
-                                                                                    "isMainLine": false,
+                                                                                    "isMainLine": true,
                                                                                     "annotation": {
                                                                                       "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Benoni Defense.",
                                                                                       "strategicTheme": "Fianchetto preparation",
@@ -2259,7 +2259,7 @@
                                                                                     }
                                                                                   }
                                                                                 ],
-                                                                                "isMainLine": false,
+                                                                                "isMainLine": true,
                                                                                 "annotation": {
                                                                                   "moveRationale": "Bg7 develops a piece to an active square in the Benoni Defense.",
                                                                                   "strategicTheme": "Bishop development",
@@ -2267,7 +2267,7 @@
                                                                                 }
                                                                               }
                                                                             ],
-                                                                            "isMainLine": false,
+                                                                            "isMainLine": true,
                                                                             "annotation": {
                                                                               "moveRationale": "Kxf1 exchanges material, altering the pawn structure in the Benoni Defense.",
                                                                               "strategicTheme": "Material exchange",
@@ -2275,7 +2275,7 @@
                                                                             }
                                                                           }
                                                                         ],
-                                                                        "isMainLine": false,
+                                                                        "isMainLine": true,
                                                                         "annotation": {
                                                                           "moveRationale": "Bxf1 exchanges material, altering the pawn structure in the Benoni Defense.",
                                                                           "strategicTheme": "Material exchange",
@@ -2283,7 +2283,7 @@
                                                                         }
                                                                       }
                                                                     ],
-                                                                    "isMainLine": false,
+                                                                    "isMainLine": true,
                                                                     "annotation": {
                                                                       "moveRationale": "e4 impacts the center, shaping the pawn structure in the Benoni Defense.",
                                                                       "strategicTheme": "Central tension",
@@ -2291,7 +2291,7 @@
                                                                     }
                                                                   }
                                                                 ],
-                                                                "isMainLine": false,
+                                                                "isMainLine": true,
                                                                 "annotation": {
                                                                   "moveRationale": "d6 advances a pawn, influencing the structure in the Benoni Defense.",
                                                                   "strategicTheme": "Prophylactic pawn move",
@@ -2299,7 +2299,7 @@
                                                                 }
                                                               }
                                                             ],
-                                                            "isMainLine": false,
+                                                            "isMainLine": true,
                                                             "annotation": {
                                                               "moveRationale": "Nf3 develops a piece to an active square in the Benoni Defense.",
                                                               "strategicTheme": "Natural piece development",
@@ -2377,7 +2377,7 @@
                                                             }
                                                           }
                                                         ],
-                                                        "isMainLine": false,
+                                                        "isMainLine": true,
                                                         "annotation": {
                                                           "moveRationale": "Bxa6 exchanges material, altering the pawn structure in the Benoni Defense.",
                                                           "strategicTheme": "Material exchange",
@@ -2385,7 +2385,7 @@
                                                         }
                                                       }
                                                     ],
-                                                    "isMainLine": false,
+                                                    "isMainLine": true,
                                                     "annotation": {
                                                       "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Benoni Defense.",
                                                       "strategicTheme": "Natural piece development",
@@ -2393,7 +2393,7 @@
                                                     }
                                                   }
                                                 ],
-                                                "isMainLine": false,
+                                                "isMainLine": true,
                                                 "annotation": {
                                                   "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Benoni Defense.",
                                                   "strategicTheme": "Fianchetto preparation",
@@ -2494,7 +2494,7 @@
                                                 }
                                               }
                                             ],
-                                            "isMainLine": false,
+                                            "isMainLine": true,
                                             "annotation": {
                                               "moveRationale": "bxa6 exchanges material, altering the pawn structure in the Benoni Defense.",
                                               "strategicTheme": "Material exchange",
@@ -3827,7 +3827,7 @@
                                                 "move": "Bd6",
                                                 "fen": "rnbqk2r/pp1p1ppp/3b1n2/2pP4/8/2N5/PP2PPPP/R1BQKBNR w KQkq - 1 6",
                                                 "children": [],
-                                                "isMainLine": true,
+                                                "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "Bd6 develops a piece to an active square in the Benoni Defense.",
                                                   "strategicTheme": "Bishop development",
@@ -4055,7 +4055,7 @@
                                                                                             "move": "f3",
                                                                                             "fen": "r1bqr1k1/pp3pbp/n2p1np1/2pP4/4P3/2N2P2/PP1NB1PP/R1BQ1RK1 b - - 0 11",
                                                                                             "children": [],
-                                                                                            "isMainLine": false,
+                                                                                            "isMainLine": true,
                                                                                             "annotation": {
                                                                                               "moveRationale": "f3 advances a pawn, influencing the structure in the Benoni Defense.",
                                                                                               "strategicTheme": "Prophylactic pawn move",
@@ -4063,7 +4063,7 @@
                                                                                             }
                                                                                           }
                                                                                         ],
-                                                                                        "isMainLine": false,
+                                                                                        "isMainLine": true,
                                                                                         "annotation": {
                                                                                           "moveRationale": "Na6 develops a piece to an active square in the Benoni Defense.",
                                                                                           "strategicTheme": "Knight activity",
@@ -4071,7 +4071,7 @@
                                                                                         }
                                                                                       }
                                                                                     ],
-                                                                                    "isMainLine": false,
+                                                                                    "isMainLine": true,
                                                                                     "annotation": {
                                                                                       "moveRationale": "Nd2 develops a piece to an active square in the Benoni Defense.",
                                                                                       "strategicTheme": "Knight activity",
@@ -4079,7 +4079,7 @@
                                                                                     }
                                                                                   }
                                                                                 ],
-                                                                                "isMainLine": false,
+                                                                                "isMainLine": true,
                                                                                 "annotation": {
                                                                                   "moveRationale": "Re8 repositions the rook toward an open or key file in the Benoni Defense.",
                                                                                   "strategicTheme": "Rook activation",
@@ -4087,7 +4087,7 @@
                                                                                 }
                                                                               }
                                                                             ],
-                                                                            "isMainLine": false,
+                                                                            "isMainLine": true,
                                                                             "annotation": {
                                                                               "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Benoni Defense.",
                                                                               "strategicTheme": "King safety",
@@ -4095,7 +4095,7 @@
                                                                             }
                                                                           }
                                                                         ],
-                                                                        "isMainLine": false,
+                                                                        "isMainLine": true,
                                                                         "annotation": {
                                                                           "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Benoni Defense.",
                                                                           "strategicTheme": "King safety",
@@ -4103,7 +4103,7 @@
                                                                         }
                                                                       }
                                                                     ],
-                                                                    "isMainLine": false,
+                                                                    "isMainLine": true,
                                                                     "annotation": {
                                                                       "moveRationale": "Be2 develops the bishop to a modest but solid square, preparing to castle in the Benoni Defense.",
                                                                       "strategicTheme": "Bishop development",
@@ -4111,7 +4111,7 @@
                                                                     }
                                                                   }
                                                                 ],
-                                                                "isMainLine": false,
+                                                                "isMainLine": true,
                                                                 "annotation": {
                                                                   "moveRationale": "Bg7 develops a piece to an active square in the Benoni Defense.",
                                                                   "strategicTheme": "Bishop development",
@@ -4119,7 +4119,7 @@
                                                                 }
                                                               }
                                                             ],
-                                                            "isMainLine": false,
+                                                            "isMainLine": true,
                                                             "annotation": {
                                                               "moveRationale": "Nf3 develops a piece to an active square in the Benoni Defense.",
                                                               "strategicTheme": "Natural piece development",
@@ -4127,7 +4127,7 @@
                                                             }
                                                           }
                                                         ],
-                                                        "isMainLine": false,
+                                                        "isMainLine": true,
                                                         "annotation": {
                                                           "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Benoni Defense.",
                                                           "strategicTheme": "Fianchetto preparation",
@@ -4135,7 +4135,7 @@
                                                         }
                                                       }
                                                     ],
-                                                    "isMainLine": false,
+                                                    "isMainLine": true,
                                                     "annotation": {
                                                       "moveRationale": "e4 impacts the center, shaping the pawn structure in the Benoni Defense.",
                                                       "strategicTheme": "Central tension",
@@ -4143,7 +4143,7 @@
                                                     }
                                                   }
                                                 ],
-                                                "isMainLine": false,
+                                                "isMainLine": true,
                                                 "annotation": {
                                                   "moveRationale": "d6 advances a pawn, influencing the structure in the Benoni Defense.",
                                                   "strategicTheme": "Prophylactic pawn move",
@@ -5786,7 +5786,7 @@
                                                                     "move": "Be3",
                                                                     "fen": "rnbqk2r/pp3pbp/3p1np1/2pP4/4P3/2N1BP2/PP4PP/R2QKBNR b KQkq - 2 8",
                                                                     "children": [],
-                                                                    "isMainLine": true,
+                                                                    "isMainLine": false,
                                                                     "annotation": {
                                                                       "moveRationale": "Be3 develops a piece to an active square in the Benoni Defense.",
                                                                       "strategicTheme": "Bishop development",
@@ -5816,7 +5816,7 @@
                                                                     }
                                                                   }
                                                                 ],
-                                                                "isMainLine": true,
+                                                                "isMainLine": false,
                                                                 "annotation": {
                                                                   "moveRationale": "Bg7 develops a piece to an active square in the Benoni Defense.",
                                                                   "strategicTheme": "Bishop development",
@@ -5824,7 +5824,7 @@
                                                                 }
                                                               }
                                                             ],
-                                                            "isMainLine": true,
+                                                            "isMainLine": false,
                                                             "annotation": {
                                                               "moveRationale": "f3 advances a pawn, influencing the structure in the Benoni Defense.",
                                                               "strategicTheme": "Prophylactic pawn move",
@@ -5983,7 +5983,7 @@
                                                                                             "move": "f3",
                                                                                             "fen": "r1bqr1k1/pp3pbp/n2p1np1/2pP4/4P3/2N2P2/PP1NB1PP/R1BQ1RK1 b - - 0 11",
                                                                                             "children": [],
-                                                                                            "isMainLine": false,
+                                                                                            "isMainLine": true,
                                                                                             "annotation": {
                                                                                               "moveRationale": "f3 advances a pawn, influencing the structure in the Benoni Defense.",
                                                                                               "strategicTheme": "Prophylactic pawn move",
@@ -5991,7 +5991,7 @@
                                                                                             }
                                                                                           }
                                                                                         ],
-                                                                                        "isMainLine": false,
+                                                                                        "isMainLine": true,
                                                                                         "annotation": {
                                                                                           "moveRationale": "Na6 develops a piece to an active square in the Benoni Defense.",
                                                                                           "strategicTheme": "Knight activity",
@@ -5999,7 +5999,7 @@
                                                                                         }
                                                                                       }
                                                                                     ],
-                                                                                    "isMainLine": false,
+                                                                                    "isMainLine": true,
                                                                                     "annotation": {
                                                                                       "moveRationale": "Nd2 develops a piece to an active square in the Benoni Defense.",
                                                                                       "strategicTheme": "Knight activity",
@@ -6007,7 +6007,7 @@
                                                                                     }
                                                                                   }
                                                                                 ],
-                                                                                "isMainLine": false,
+                                                                                "isMainLine": true,
                                                                                 "annotation": {
                                                                                   "moveRationale": "Re8 repositions the rook toward an open or key file in the Benoni Defense.",
                                                                                   "strategicTheme": "Rook activation",
@@ -6015,7 +6015,7 @@
                                                                                 }
                                                                               }
                                                                             ],
-                                                                            "isMainLine": false,
+                                                                            "isMainLine": true,
                                                                             "annotation": {
                                                                               "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Benoni Defense.",
                                                                               "strategicTheme": "King safety",
@@ -6023,7 +6023,7 @@
                                                                             }
                                                                           }
                                                                         ],
-                                                                        "isMainLine": false,
+                                                                        "isMainLine": true,
                                                                         "annotation": {
                                                                           "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Benoni Defense.",
                                                                           "strategicTheme": "King safety",
@@ -6031,7 +6031,7 @@
                                                                         }
                                                                       }
                                                                     ],
-                                                                    "isMainLine": false,
+                                                                    "isMainLine": true,
                                                                     "annotation": {
                                                                       "moveRationale": "Be2 develops the bishop to a modest but solid square, preparing to castle in the Benoni Defense.",
                                                                       "strategicTheme": "Bishop development",
@@ -6039,7 +6039,7 @@
                                                                     }
                                                                   }
                                                                 ],
-                                                                "isMainLine": false,
+                                                                "isMainLine": true,
                                                                 "annotation": {
                                                                   "moveRationale": "Bg7 develops a piece to an active square in the Benoni Defense.",
                                                                   "strategicTheme": "Bishop development",
@@ -6047,7 +6047,7 @@
                                                                 }
                                                               }
                                                             ],
-                                                            "isMainLine": false,
+                                                            "isMainLine": true,
                                                             "annotation": {
                                                               "moveRationale": "Nf3 develops a piece to an active square in the Benoni Defense.",
                                                               "strategicTheme": "Natural piece development",

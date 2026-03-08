@@ -460,7 +460,11 @@ const TrainingScreen = observer(function TrainingScreen(): React.JSX.Element {
           };
           playVariationId = "__merged__";
         }
-        const model = new PlayModel(playOpeningData, playVariationId, "w");
+        const model = new PlayModel(
+          playOpeningData,
+          playVariationId ?? undefined,
+          "w",
+        );
         runInAction(() => {
           playState.playModel = model;
           playState.loading = false;

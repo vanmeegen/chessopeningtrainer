@@ -26,7 +26,7 @@
                         "move": "Kf7",
                         "fen": "rnbq1bnr/pppppkpp/5p2/8/3PP3/8/PPP2PPP/RNBQKBNR w KQ - 1 3",
                         "children": [],
-                        "isMainLine": true,
+                        "isMainLine": false,
                         "annotation": {
                           "moveRationale": "Kf7 improves the position in the Barnes Defense.",
                           "strategicTheme": "Position improvement",
@@ -45,7 +45,7 @@
                                 "move": "Bb7",
                                 "fen": "rn1qkbnr/pbppp1pp/1p3p2/8/2PPP3/8/PP3PPP/RNBQKBNR w KQkq - 1 4",
                                 "children": [],
-                                "isMainLine": false,
+                                "isMainLine": true,
                                 "annotation": {
                                   "moveRationale": "Bb7 develops a piece to an active square in the Barnes Defense.",
                                   "strategicTheme": "Bishop development",
@@ -53,7 +53,7 @@
                                 }
                               }
                             ],
-                            "isMainLine": false,
+                            "isMainLine": true,
                             "annotation": {
                               "moveRationale": "c4 gains space on the queenside in the Barnes Defense.",
                               "strategicTheme": "Pawn structure",
@@ -61,7 +61,7 @@
                             }
                           }
                         ],
-                        "isMainLine": false,
+                        "isMainLine": true,
                         "annotation": {
                           "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Barnes Defense.",
                           "strategicTheme": "Fianchetto preparation",

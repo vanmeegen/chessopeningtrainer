@@ -22,7 +22,7 @@
                     "move": "g4",
                     "fen": "rnbqkbnr/pppppp1p/6p1/8/6P1/3P4/PPP1PP1P/RNBQKBNR b KQkq - 0 2",
                     "children": [],
-                    "isMainLine": true,
+                    "isMainLine": false,
                     "annotation": {
                       "moveRationale": "g4 advances a pawn, influencing the structure in the Mieses Opening.",
                       "strategicTheme": "Pawn structure",
@@ -30,7 +30,7 @@
                     }
                   }
                 ],
-                "isMainLine": true,
+                "isMainLine": false,
                 "annotation": {
                   "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Mieses Opening.",
                   "strategicTheme": "Fianchetto preparation",
@@ -76,7 +76,7 @@
                             "move": "g3",
                             "fen": "r1bqkbnr/pp1ppppp/2n5/2p5/8/2NP2P1/PPP1PP1P/R1BQKBNR b KQkq - 0 3",
                             "children": [],
-                            "isMainLine": false,
+                            "isMainLine": true,
                             "annotation": {
                               "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Mieses Opening.",
                               "strategicTheme": "Fianchetto preparation",
@@ -84,7 +84,7 @@
                             }
                           }
                         ],
-                        "isMainLine": false,
+                        "isMainLine": true,
                         "annotation": {
                           "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Mieses Opening.",
                           "strategicTheme": "Natural piece development",
@@ -92,7 +92,7 @@
                         }
                       }
                     ],
-                    "isMainLine": false,
+                    "isMainLine": true,
                     "annotation": {
                       "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Mieses Opening.",
                       "strategicTheme": "Natural piece development",
@@ -100,7 +100,7 @@
                     }
                   }
                 ],
-                "isMainLine": false,
+                "isMainLine": true,
                 "annotation": {
                   "moveRationale": "c5 challenges the center from the flank in the Mieses Opening.",
                   "strategicTheme": "Pawn structure",

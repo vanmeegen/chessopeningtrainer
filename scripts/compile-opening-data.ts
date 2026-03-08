@@ -8,6 +8,7 @@ import {
   buildOpeningMoveTree,
   parsePgnMoves,
   mergeMoveSequence,
+  extendMainLine,
 } from "./build-move-trees.js";
 import { annotateMoveTreeWithContext } from "./generate-annotations.js";
 import { annotateTreeFromWikibooks } from "./fetch-wikibooks-annotations.js";
@@ -189,6 +190,7 @@ function buildOpeningData(
     const varTree = buildOpeningMoveTree([v]);
     if (varTree) {
       enrichTreeWithRelatedPgns(varTree, v.pgn, allPgns);
+      extendMainLine(varTree);
       annotateMoveTreeWithContext(varTree, parsedOpening.name);
     }
 
@@ -233,6 +235,7 @@ async function buildOpeningDataWithWikibooks(
     const varTree = buildOpeningMoveTree([v]);
     if (varTree) {
       enrichTreeWithRelatedPgns(varTree, v.pgn, allPgns);
+      extendMainLine(varTree);
       const wikibooksCount = await annotateTreeFromWikibooks(varTree);
       if (wikibooksCount > 0) {
         console.log(
