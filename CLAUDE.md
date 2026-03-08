@@ -23,6 +23,10 @@ npm test                # Run tests once
 npm run test:watch      # Run tests in watch mode
 npm run test:coverage   # Run tests with coverage report
 
+# Run E2E tests
+npx playwright test            # Run all E2E tests
+npx playwright test --ui       # Run E2E tests with UI mode
+
 # Preview production build
 npm run preview
 ```
@@ -60,8 +64,28 @@ npm run preview
 
 ## Test Configuration
 
+### Unit Tests
 - Test files: `**/__tests__/**/*.spec.ts` and `**/__tests__/**/*.spec.tsx`
 - Environment: jsdom with global test utilities
+
+### E2E Tests (Playwright)
+- E2E test files: `e2e/**/*.spec.ts`
+- **Page Object Pattern**: Always encapsulate selectors and page interactions in page object classes
+  located in `e2e/pages/`. Tests should never use raw selectors directly — always go through page objects.
+- **`data-testid` Attributes**: Always add `data-testid` attributes to components for use in E2E tests.
+  This decouples tests from CSS classes, element structure, and styling changes, making tests robust
+  against UI refactoring. Example: `<button data-testid="start-training">` selected via
+  `page.getByTestId('start-training')`.
+- **Naming Convention**: Use kebab-case for `data-testid` values (e.g., `data-testid="opening-list-item"`).
+- **Page Object Example**:
+  ```typescript
+  // e2e/pages/training.page.ts
+  export class TrainingPage {
+    constructor(private page: Page) {}
+    get startButton() { return this.page.getByTestId('start-training'); }
+    async start() { await this.startButton.click(); }
+  }
+  ```
 
 ## Code Quality Guidelines
 
