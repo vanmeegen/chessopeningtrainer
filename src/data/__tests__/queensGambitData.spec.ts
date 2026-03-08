@@ -1,13 +1,13 @@
 import { describe, it, expect } from "vitest";
-import { readFileSync } from "fs";
+import { readFileSync, readdirSync } from "fs";
 import { join } from "path";
 import type { Opening, MoveNode } from "../../types/OpeningTypes";
 
+const OPENINGS_DIR = join(__dirname, "../../../public/openings");
+const MIN_MAIN_LINE_DEPTH = 12;
+
 function loadOpening(filename: string): Opening {
-  const raw = readFileSync(
-    join(__dirname, "../../../public/openings", filename),
-    "utf-8",
-  );
+  const raw = readFileSync(join(OPENINGS_DIR, filename), "utf-8");
   return JSON.parse(raw) as Opening;
 }
 
@@ -20,6 +20,13 @@ function walkMoves(root: MoveNode, moves: string[]): MoveNode | undefined {
     current = child;
   }
   return current;
+}
+
+/** Count depth of main line from a node */
+function mainLineDepth(node: MoveNode): number {
+  const mainChild = node.children.find((c) => c.isMainLine);
+  if (!mainChild) return 0;
+  return 1 + mainLineDepth(mainChild);
 }
 
 describe("Queen's Gambit opening data", () => {
@@ -63,5 +70,33 @@ describe("Queen's Gambit opening data", () => {
       }
     }
     checkAnnotations(mainVariation.moves);
+  });
+});
+
+describe("All opening variations minimum depth", () => {
+  const files = readdirSync(OPENINGS_DIR).filter((f) => f.endsWith(".json"));
+  const tooShort: Array<{ file: string; variation: string; depth: number }> =
+    [];
+
+  for (const file of files) {
+    const opening = loadOpening(file);
+    for (const variation of opening.variations) {
+      const depth = mainLineDepth(variation.moves);
+      if (depth < MIN_MAIN_LINE_DEPTH) {
+        tooShort.push({ file, variation: variation.name, depth });
+      }
+    }
+  }
+
+  it(`every variation should have at least ${MIN_MAIN_LINE_DEPTH} half-moves in the main line`, () => {
+    if (tooShort.length > 0) {
+      const summary = tooShort
+        .sort((a, b) => a.depth - b.depth)
+        .map((v) => `  ${v.file} / ${v.variation}: ${v.depth} half-moves`)
+        .join("\n");
+      expect.fail(
+        `${tooShort.length} variations have fewer than ${MIN_MAIN_LINE_DEPTH} half-moves:\n${summary}`,
+      );
+    }
   });
 });
