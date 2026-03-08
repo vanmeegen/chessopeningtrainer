@@ -80,7 +80,7 @@ function LearnMoveList({
             style={{
               minWidth: "28px",
               textAlign: "right",
-              color: "#888",
+              color: "var(--text-secondary)",
               marginRight: "4px",
             }}
           >
