@@ -43,20 +43,6 @@ export const PlayControls = observer(function PlayControls(
 
   return (
     <div className="play-controls" data-testid="play-controls">
-      <MoveAssessmentBadge assessment={assessment} />
-
-      {assessmentMessage && (
-        <p className="assessment-message" data-testid="assessment-message">
-          {assessmentMessage}
-        </p>
-      )}
-
-      {bookMoveHint && (
-        <p className="book-move-hint" data-testid="book-move-hint">
-          Book move: <strong>{bookMoveHint}</strong>
-        </p>
-      )}
-
       <div className="play-controls-nav" data-testid="play-nav-controls">
         <button
           className="btn-undo"
@@ -77,6 +63,20 @@ export const PlayControls = observer(function PlayControls(
           &gt;
         </button>
       </div>
+
+      <MoveAssessmentBadge assessment={assessment} />
+
+      {assessmentMessage && (
+        <p className="assessment-message" data-testid="assessment-message">
+          {assessmentMessage}
+        </p>
+      )}
+
+      {bookMoveHint && (
+        <p className="book-move-hint" data-testid="book-move-hint">
+          Book move: <strong>{bookMoveHint}</strong>
+        </p>
+      )}
 
       <div className="play-controls-buttons">
         <button
