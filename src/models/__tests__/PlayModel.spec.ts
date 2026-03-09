@@ -346,4 +346,107 @@ describe("PlayModel", () => {
       expect(model.lastMoveAssessment).toBeNull();
     });
   });
+
+  describe("undoMove", () => {
+    it("should not be able to go back initially", () => {
+      const model = new PlayModel(opening, "italian-main", "w");
+      expect(model.canGoBack).toBe(false);
+    });
+
+    it("should be able to go back after a user move", () => {
+      const model = new PlayModel(opening, "italian-main", "w");
+      model.handleUserMove("e2" as Square, "e4" as Square);
+      expect(model.canGoBack).toBe(true);
+    });
+
+    it("should undo user move and COT response together", () => {
+      const model = new PlayModel(opening, "italian-main", "w");
+      model.handleUserMove("e2" as Square, "e4" as Square);
+      // After e4, COT plays e5 => 2 moves
+      expect(model.chessGame.moveHistory.length).toBe(2);
+      model.undoMove();
+      // Both moves should be undone
+      expect(model.chessGame.moveHistory.length).toBe(0);
+      expect(model.canGoBack).toBe(false);
+    });
+
+    it("should restore tree position after undo", () => {
+      const model = new PlayModel(opening, "italian-main", "w");
+      model.handleUserMove("e2" as Square, "e4" as Square);
+      model.undoMove();
+      // Should be back at start, book move hint should be e4 again
+      model.showBookMove();
+      expect(model.bookMoveHint).toBe("e4");
+      expect(model.isOutOfBook).toBe(false);
+    });
+
+    it("should reset assessment after undo", () => {
+      const model = new PlayModel(opening, "italian-main", "w");
+      model.handleUserMove("e2" as Square, "e4" as Square);
+      expect(model.lastMoveAssessment).toBe("book");
+      model.undoMove();
+      expect(model.lastMoveAssessment).toBeNull();
+      expect(model.assessmentMessage).toBe("");
+    });
+
+    it("should allow playing a different move after undo", () => {
+      const model = new PlayModel(opening, "italian-main", "w");
+      model.handleUserMove("e2" as Square, "e4" as Square);
+      model.undoMove();
+      // Play d4 instead
+      const result = model.handleUserMove("d2" as Square, "d4" as Square);
+      expect(result).toBe(true);
+      expect(model.lastMoveAssessment).toBe("playable");
+    });
+
+    it("should undo out-of-book move and restore in-book state", () => {
+      const model = new PlayModel(opening, "italian-main", "w");
+      // Play out of book
+      model.handleUserMove("d2" as Square, "d4" as Square);
+      expect(model.isOutOfBook).toBe(true);
+      model.undoMove();
+      expect(model.isOutOfBook).toBe(false);
+      // Should be able to see book move again
+      model.showBookMove();
+      expect(model.bookMoveHint).toBe("e4");
+    });
+
+    it("should undo only user move when COT has not responded (end of book)", () => {
+      const model = new PlayModel(opening, "italian-main", "w");
+      model.handleUserMove("e2" as Square, "e4" as Square); // e4, e5
+      model.handleUserMove("g1" as Square, "f3" as Square); // Nf3, Nc6
+      model.handleUserMove("f1" as Square, "c4" as Square); // Bc4 (end of book, no COT response)
+      expect(model.chessGame.moveHistory.length).toBe(5);
+      model.undoMove();
+      expect(model.chessGame.moveHistory.length).toBe(4); // e4, e5, Nf3, Nc6
+    });
+
+    it("should support canGoForward after undo", () => {
+      const model = new PlayModel(opening, "italian-main", "w");
+      expect(model.canGoForward).toBe(false);
+      model.handleUserMove("e2" as Square, "e4" as Square);
+      model.undoMove();
+      expect(model.canGoForward).toBe(true);
+    });
+
+    it("should redo move with redoMove", () => {
+      const model = new PlayModel(opening, "italian-main", "w");
+      model.handleUserMove("e2" as Square, "e4" as Square);
+      model.undoMove();
+      expect(model.chessGame.moveHistory.length).toBe(0);
+      model.redoMove();
+      // Should replay e4 + COT e5
+      expect(model.chessGame.moveHistory.length).toBe(2);
+      expect(model.lastMoveAssessment).toBe("book");
+    });
+
+    it("should clear redo stack when a new move is made", () => {
+      const model = new PlayModel(opening, "italian-main", "w");
+      model.handleUserMove("e2" as Square, "e4" as Square);
+      model.undoMove();
+      // Make a different move
+      model.handleUserMove("d2" as Square, "d4" as Square);
+      expect(model.canGoForward).toBe(false);
+    });
+  });
 });

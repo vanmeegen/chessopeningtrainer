@@ -8,8 +8,12 @@ describe("PlayControls", () => {
     assessmentMessage: "",
     bookMoveHint: null,
     isOutOfBook: false,
+    canGoBack: false,
+    canGoForward: false,
     onShowBookMove: vi.fn(),
     onRestart: vi.fn(),
+    onUndo: vi.fn(),
+    onRedo: vi.fn(),
   };
 
   it("renders the play controls container", () => {

@@ -242,4 +242,48 @@ describe("MemorizeModel", () => {
       expect(model.currentCard).toBeDefined();
     });
   });
+
+  describe("retryMove", () => {
+    it("should allow retry after a wrong move", () => {
+      model.attemptMove("d2", "d4"); // wrong move
+      expect(model.lastMoveCorrect).toBe(false);
+      expect(model.canRetry).toBe(true);
+      model.retryMove();
+      expect(model.lastMoveCorrect).toBeNull();
+      expect(model.feedbackMessage).toBe("");
+      expect(model.showingCorrectMove).toBe(false);
+    });
+
+    it("should not allow retry after a correct move", () => {
+      model.attemptMove("e2", "e4"); // correct
+      expect(model.canRetry).toBe(false);
+    });
+
+    it("should not allow retry before any move", () => {
+      expect(model.canRetry).toBe(false);
+    });
+
+    it("should allow making the correct move after retry", () => {
+      model.attemptMove("d2", "d4"); // wrong
+      model.retryMove();
+      model.attemptMove("e2", "e4"); // correct
+      expect(model.lastMoveCorrect).toBe(true);
+    });
+
+    it("should re-grade the card on retry with correct answer", () => {
+      model.attemptMove("d2", "d4"); // wrong, graded 0
+      expect(model.session.results.get(cards[0]!.id)).toBe(0);
+      model.retryMove();
+      model.attemptMove("e2", "e4"); // correct
+      // Grade should be updated (3 since it was a retry)
+      expect(model.session.results.get(cards[0]!.id)).toBe(3);
+    });
+
+    it("should reset hint state on retry", () => {
+      model.useHint();
+      model.attemptMove("d2", "d4"); // wrong
+      model.retryMove();
+      expect(model.hintSquare).toBeNull();
+    });
+  });
 });
