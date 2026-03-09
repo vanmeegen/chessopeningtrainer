@@ -17,20 +17,68 @@
               {
                 "move": "b6",
                 "fen": "rnbqkbnr/p1pppppp/1p6/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
-                "children": [],
+                "children": [
+                  {
+                    "move": "c4",
+                    "fen": "rnbqkbnr/p1pppppp/1p6/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "Bb7",
+                        "fen": "rn1qkbnr/pbpppppp/1p6/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 1 3",
+                        "children": [
+                          {
+                            "move": "Nc3",
+                            "fen": "rn1qkbnr/pbpppppp/1p6/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 2 3",
+                            "children": [
+                              {
+                                "move": "e5",
+                                "fen": "rn1qkbnr/pbpp1ppp/1p6/4p3/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "e5 advances a pawn, influencing the structure in the English Defense.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the English Defense.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "Bb7 develops a piece to an active square in the English Defense.",
+                          "strategicTheme": "Bishop development",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "c4 gains space on the queenside in the English Defense.",
+                      "strategicTheme": "Pawn structure",
+                      "source": "generated"
+                    }
+                  }
+                ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the English Defense.",
-                  "strategicTheme": "Fianchetto preparation",
-                  "source": "generated"
+                  "moveRationale": "__NOTOC__\n\nWith the move 1. b6 Black prepares to develop the Queenside Bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the English Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -60,36 +108,154 @@
                       {
                         "move": "b6",
                         "fen": "rnbqkbnr/p1pp1ppp/1p2p3/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
-                        "children": [],
+                        "children": [
+                          {
+                            "move": "e4",
+                            "fen": "rnbqkbnr/p1pp1ppp/1p2p3/8/2PPP3/8/PP3PPP/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Bb7",
+                                "fen": "rn1qkbnr/pbpp1ppp/1p2p3/8/2PPP3/8/PP3PPP/RNBQKBNR w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "Bd3",
+                                    "fen": "rn1qkbnr/pbpp1ppp/1p2p3/8/2PPP3/3B4/PP3PPP/RNBQK1NR b KQkq - 2 4",
+                                    "children": [
+                                      {
+                                        "move": "Nc6",
+                                        "fen": "r2qkbnr/pbpp1ppp/1pn1p3/8/2PPP3/3B4/PP3PPP/RNBQK1NR w KQkq - 3 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the English Defense.",
+                                          "strategicTheme": "Natural piece development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Bd3 develops a piece to an active square in the English Defense.",
+                                      "strategicTheme": "Bishop development",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "f3",
+                                    "fen": "rn1qkbnr/pbpp1ppp/1p2p3/8/2PPP3/5P2/PP4PP/RNBQKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "f5",
+                                        "fen": "rn1qkbnr/pbpp2pp/1p2p3/5p2/2PPP3/5P2/PP4PP/RNBQKBNR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "exf5",
+                                            "fen": "rn1qkbnr/pbpp2pp/1p2p3/5P2/2PP4/5P2/PP4PP/RNBQKBNR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Nh6",
+                                                "fen": "rn1qkb1r/pbpp2pp/1p2p2n/5P2/2PP4/5P2/PP4PP/RNBQKBNR w KQkq - 1 6",
+                                                "children": [],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Nh6 develops a piece to an active square in the English Defense.",
+                                                  "strategicTheme": "Knight activity",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "exf5 exchanges material, altering the pawn structure in the English Defense.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "f5 advances a pawn, influencing the structure in the English Defense.",
+                                          "strategicTheme": "Pawn structure",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "f3 advances a pawn, influencing the structure in the English Defense.",
+                                      "strategicTheme": "Prophylactic pawn move",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Bb7 develops a piece to an active square in the English Defense.",
+                                  "strategicTheme": "Bishop development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "e4 impacts the center, shaping the pawn structure in the English Defense.",
+                              "strategicTheme": "Central tension",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "Nc3",
+                            "fen": "rnbqkbnr/p1pp1ppp/1p2p3/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+                            "children": [
+                              {
+                                "move": "d5",
+                                "fen": "rnbqkbnr/p1p2ppp/1p2p3/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "d5 advances a pawn, influencing the structure in the English Defense.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the English Defense.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the English Defense.",
-                          "strategicTheme": "Fianchetto preparation",
-                          "source": "generated"
+                          "moveRationale": "The system of having b6 and e6 was developed by English player P. Wallis, and was taken up by several leading English players including Tony Miles and Jon Speelman.",
+                          "strategicTheme": "Piece development",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the English Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White keeps the game in the realm of Queen pawn openings with this move. Most responses (like 2.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e6 advances a pawn, influencing the structure in the English Defense.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "e6 is the Horwitz defence. Black plays something less committal without showing their hand, and waits to see how White wants to approach the game.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the English Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -162,17 +328,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the English Defense.",
-                  "strategicTheme": "Fianchetto preparation",
-                  "source": "generated"
+                  "moveRationale": "__NOTOC__\n\nWith the move 1. b6 Black prepares to develop the Queenside Bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the English Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -293,17 +459,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e6 advances a pawn, influencing the structure in the English Defense.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "c4 e6 is the Agincourt Defence (named for the Battle of Agincourt, fought between the English and the French). Black fights for control of d5 and plans to put a pawn there.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "c4 controls d5 from the flank, characteristic of the English Opening.",
-              "strategicTheme": "English Opening, flank control",
-              "source": "generated"
+              "moveRationale": "c4 is the English Opening. It is the fourth most commonly played opening move in chess.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -412,17 +578,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e6 advances a pawn, influencing the structure in the English Defense.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "c4 e6 is the Agincourt Defence (named for the Battle of Agincourt, fought between the English and the French). Black fights for control of d5 and plans to put a pawn there.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "c4 controls d5 from the flank, characteristic of the English Opening.",
-              "strategicTheme": "English Opening, flank control",
-              "source": "generated"
+              "moveRationale": "c4 is the English Opening. It is the fourth most commonly played opening move in chess.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -503,33 +669,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the English Defense.",
-                          "strategicTheme": "Fianchetto preparation",
-                          "source": "generated"
+                          "moveRationale": "The system of having b6 and e6 was developed by English player P. Wallis, and was taken up by several leading English players including Tony Miles and Jon Speelman.",
+                          "strategicTheme": "Piece development",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the English Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White keeps the game in the realm of Queen pawn openings with this move. Most responses (like 2.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e6 advances a pawn, influencing the structure in the English Defense.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "e6 is the Horwitz defence. Black plays something less committal without showing their hand, and waits to see how White wants to approach the game.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the English Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -634,33 +800,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the English Defense.",
-                          "strategicTheme": "Fianchetto preparation",
-                          "source": "generated"
+                          "moveRationale": "The system of having b6 and e6 was developed by English player P. Wallis, and was taken up by several leading English players including Tony Miles and Jon Speelman.",
+                          "strategicTheme": "Piece development",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the English Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White keeps the game in the realm of Queen pawn openings with this move. Most responses (like 2.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e6 advances a pawn, influencing the structure in the English Defense.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "e6 is the Horwitz defence. Black plays something less committal without showing their hand, and waits to see how White wants to approach the game.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the English Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

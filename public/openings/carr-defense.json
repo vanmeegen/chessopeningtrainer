@@ -17,20 +17,44 @@
               {
                 "move": "h6",
                 "fen": "rnbqkbnr/ppppppp1/7p/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
-                "children": [],
+                "children": [
+                  {
+                    "move": "d4",
+                    "fen": "rnbqkbnr/ppppppp1/7p/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "e5",
+                        "fen": "rnbqkbnr/pppp1pp1/7p/4p3/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+                        "children": [],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "e5 advances a pawn, influencing the structure in the Carr Defense.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Carr Defense.",
+                      "strategicTheme": "Central tension",
+                      "source": "generated"
+                    }
+                  }
+                ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "h6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Carr Defense.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "George Defence, this defence is considered a very weak response to the King's Pawn Opening, as not only does it not open any lines for development and allows White quick and easy development, it additionally weakens Black's king position slightly and is a time wasting move. Black often follows up with g5, Bg7, d6, and Bg4 or Bf5.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Carr Defense.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -79,17 +103,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "h6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Carr Defense.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "George Defence, this defence is considered a very weak response to the King's Pawn Opening, as not only does it not open any lines for development and allows White quick and easy development, it additionally weakens Black's king position slightly and is a time wasting move. Black often follows up with g5, Bg7, d6, and Bg4 or Bf5.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Carr Defense.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

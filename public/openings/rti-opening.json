@@ -21,28 +21,427 @@
                   {
                     "move": "c4",
                     "fen": "rnbqkbnr/ppp1pppp/8/3p4/2P5/5N2/PP1PPPPP/RNBQKB1R b KQkq - 0 2",
-                    "children": [],
+                    "children": [
+                      {
+                        "move": "d4",
+                        "fen": "rnbqkbnr/ppp1pppp/8/8/2Pp4/5N2/PP1PPPPP/RNBQKB1R w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "b4",
+                            "fen": "rnbqkbnr/ppp1pppp/8/8/1PPp4/5N2/P2PPPPP/RNBQKB1R b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "c5",
+                                "fen": "rnbqkbnr/pp2pppp/8/2p5/1PPp4/5N2/P2PPPPP/RNBQKB1R w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "c5 challenges the center from the flank in the Réti Opening.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "g5",
+                                "fen": "rnbqkbnr/ppp1pp1p/8/6p1/1PPp4/5N2/P2PPPPP/RNBQKB1R w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "g5 advances a pawn, influencing the structure in the Réti Opening.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "b4 advances a pawn, influencing the structure in the Réti Opening.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "Rg1",
+                            "fen": "rnbqkbnr/ppp1pppp/8/8/2Pp4/5N2/PP1PPPPP/RNBQKBR1 b Qkq - 1 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "Rg1 repositions the rook toward an open or key file in the Réti Opening.",
+                              "strategicTheme": "Rook activation",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "e3",
+                            "fen": "rnbqkbnr/ppp1pppp/8/8/2Pp4/4PN2/PP1P1PPP/RNBQKB1R b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "c5",
+                                "fen": "rnbqkbnr/pp2pppp/8/2p5/2Pp4/4PN2/PP1P1PPP/RNBQKB1R w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "b4",
+                                    "fen": "rnbqkbnr/pp2pppp/8/2p5/1PPp4/4PN2/P2P1PPP/RNBQKB1R b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "b4 advances a pawn, influencing the structure in the Réti Opening.",
+                                      "strategicTheme": "Pawn structure",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "c5 challenges the center from the flank in the Réti Opening.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Réti Opening.",
+                              "strategicTheme": "Solid center support",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "d4 impacts the center, shaping the pawn structure in the Réti Opening.",
+                          "strategicTheme": "Central tension",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "dxc4",
+                        "fen": "rnbqkbnr/ppp1pppp/8/8/2p5/5N2/PP1PPPPP/RNBQKB1R w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "e3",
+                            "fen": "rnbqkbnr/ppp1pppp/8/8/2p5/4PN2/PP1P1PPP/RNBQKB1R b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Be6",
+                                "fen": "rn1qkbnr/ppp1pppp/4b3/8/2p5/4PN2/PP1P1PPP/RNBQKB1R w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Be6 develops a piece to an active square in the Réti Opening.",
+                                  "strategicTheme": "Bishop development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Réti Opening.",
+                              "strategicTheme": "Solid center support",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "dxc4 impacts the center, shaping the pawn structure in the Réti Opening.",
+                          "strategicTheme": "Central tension",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "b5",
+                        "fen": "rnbqkbnr/p1p1pppp/8/1p1p4/2P5/5N2/PP1PPPPP/RNBQKB1R w KQkq - 0 3",
+                        "children": [],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "b5 advances a pawn, influencing the structure in the Réti Opening.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "c6",
+                        "fen": "rnbqkbnr/pp2pppp/2p5/3p4/2P5/5N2/PP1PPPPP/RNBQKB1R w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "b3",
+                            "fen": "rnbqkbnr/pp2pppp/2p5/3p4/2P5/1P3N2/P2PPPPP/RNBQKB1R b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Bg4",
+                                "fen": "rn1qkbnr/pp2pppp/2p5/3p4/2P3b1/1P3N2/P2PPPPP/RNBQKB1R w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Bg4 develops a piece to an active square in the Réti Opening.",
+                                  "strategicTheme": "Bishop development",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "Bf5",
+                                "fen": "rn1qkbnr/pp2pppp/2p5/3p1b2/2P5/1P3N2/P2PPPPP/RNBQKB1R w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "Bb2",
+                                    "fen": "rn1qkbnr/pp2pppp/2p5/3p1b2/2P5/1P3N2/PB1PPPPP/RN1QKB1R b KQkq - 2 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Bb2 develops a piece to an active square in the Réti Opening.",
+                                      "strategicTheme": "Bishop development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Bf5 develops a piece to an active square in the Réti Opening.",
+                                  "strategicTheme": "Bishop development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Réti Opening.",
+                              "strategicTheme": "Fianchetto preparation",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "g3",
+                            "fen": "rnbqkbnr/pp2pppp/2p5/3p4/2P5/5NP1/PP1PPP1P/RNBQKB1R b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Nf6",
+                                "fen": "rnbqkb1r/pp2pppp/2p2n2/3p4/2P5/5NP1/PP1PPP1P/RNBQKB1R w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "Bg2",
+                                    "fen": "rnbqkb1r/pp2pppp/2p2n2/3p4/2P5/5NP1/PP1PPPBP/RNBQK2R b KQkq - 2 4",
+                                    "children": [
+                                      {
+                                        "move": "e6",
+                                        "fen": "rnbqkb1r/pp3ppp/2p1pn2/3p4/2P5/5NP1/PP1PPPBP/RNBQK2R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "b3",
+                                            "fen": "rnbqkb1r/pp3ppp/2p1pn2/3p4/2P5/1P3NP1/P2PPPBP/RNBQK2R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Be7",
+                                                "fen": "rnbqk2r/pp2bppp/2p1pn2/3p4/2P5/1P3NP1/P2PPPBP/RNBQK2R w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bb2",
+                                                    "fen": "rnbqk2r/pp2bppp/2p1pn2/3p4/2P5/1P3NP1/PB1PPPBP/RN1QK2R b KQkq - 2 6",
+                                                    "children": [],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Bb2 develops a piece to an active square in the Réti Opening.",
+                                                      "strategicTheme": "Bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Réti Opening.",
+                                                  "strategicTheme": "Bishop development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Réti Opening.",
+                                              "strategicTheme": "Fianchetto preparation",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "e6 advances a pawn, influencing the structure in the Réti Opening.",
+                                          "strategicTheme": "Prophylactic pawn move",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Bg2 develops a piece to an active square in the Réti Opening.",
+                                      "strategicTheme": "Bishop development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Nf6 develops a piece to an active square in the Réti Opening.",
+                                  "strategicTheme": "Natural piece development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Réti Opening.",
+                              "strategicTheme": "Fianchetto preparation",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "c6 advances a pawn, influencing the structure in the Réti Opening.",
+                          "strategicTheme": "Prophylactic pawn move",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "e6",
+                        "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2P5/5N2/PP1PPPPP/RNBQKB1R w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "g3",
+                            "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2P5/5NP1/PP1PPP1P/RNBQKB1R b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Nf6",
+                                "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2P5/5NP1/PP1PPP1P/RNBQKB1R w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "Bg2",
+                                    "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2P5/5NP1/PP1PPPBP/RNBQK2R b KQkq - 2 4",
+                                    "children": [
+                                      {
+                                        "move": "Be7",
+                                        "fen": "rnbqk2r/ppp1bppp/4pn2/3p4/2P5/5NP1/PP1PPPBP/RNBQK2R w KQkq - 3 5",
+                                        "children": [
+                                          {
+                                            "move": "O-O",
+                                            "fen": "rnbqk2r/ppp1bppp/4pn2/3p4/2P5/5NP1/PP1PPPBP/RNBQ1RK1 b kq - 4 5",
+                                            "children": [
+                                              {
+                                                "move": "O-O",
+                                                "fen": "rnbq1rk1/ppp1bppp/4pn2/3p4/2P5/5NP1/PP1PPPBP/RNBQ1RK1 w - - 5 6",
+                                                "children": [
+                                                  {
+                                                    "move": "b3",
+                                                    "fen": "rnbq1rk1/ppp1bppp/4pn2/3p4/2P5/1P3NP1/P2PPPBP/RNBQ1RK1 b - - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "c6",
+                                                        "fen": "rnbq1rk1/pp2bppp/2p1pn2/3p4/2P5/1P3NP1/P2PPPBP/RNBQ1RK1 w - - 0 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Bb2",
+                                                            "fen": "rnbq1rk1/pp2bppp/2p1pn2/3p4/2P5/1P3NP1/PB1PPPBP/RN1Q1RK1 b - - 1 7",
+                                                            "children": [],
+                                                            "isMainLine": true,
+                                                            "annotation": {
+                                                              "moveRationale": "Bb2 develops a piece to an active square in the Réti Opening.",
+                                                              "strategicTheme": "Bishop development",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "c6 advances a pawn, influencing the structure in the Réti Opening.",
+                                                          "strategicTheme": "Prophylactic pawn move",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Réti Opening.",
+                                                      "strategicTheme": "Fianchetto preparation",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Réti Opening.",
+                                                  "strategicTheme": "Early king safety",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Réti Opening.",
+                                              "strategicTheme": "Early king safety",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Réti Opening.",
+                                          "strategicTheme": "Bishop development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Bg2 develops a piece to an active square in the Réti Opening.",
+                                      "strategicTheme": "Bishop development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Nf6 develops a piece to an active square in the Réti Opening.",
+                                  "strategicTheme": "Natural piece development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Réti Opening.",
+                              "strategicTheme": "Fianchetto preparation",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "#REDIRECT Chess Opening Theory/1.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
+                        }
+                      }
+                    ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Réti Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nThis opening is a hypermodern opening, which invites white's minor pieces to control the centre rather than their pawns. Here black has 4 options:\n\nThis can be done with moves such as 2.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -72,7 +471,88 @@
                       {
                         "move": "d4",
                         "fen": "rnbqkbnr/ppp1pppp/8/8/2Pp4/5N2/PP1PPPPP/RNBQKB1R w KQkq - 0 3",
-                        "children": [],
+                        "children": [
+                          {
+                            "move": "b4",
+                            "fen": "rnbqkbnr/ppp1pppp/8/8/1PPp4/5N2/P2PPPPP/RNBQKB1R b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "c5",
+                                "fen": "rnbqkbnr/pp2pppp/8/2p5/1PPp4/5N2/P2PPPPP/RNBQKB1R w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "c5 challenges the center from the flank in the Réti Opening.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "g5",
+                                "fen": "rnbqkbnr/ppp1pp1p/8/6p1/1PPp4/5N2/P2PPPPP/RNBQKB1R w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "g5 advances a pawn, influencing the structure in the Réti Opening.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "b4 advances a pawn, influencing the structure in the Réti Opening.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "Rg1",
+                            "fen": "rnbqkbnr/ppp1pppp/8/8/2Pp4/5N2/PP1PPPPP/RNBQKBR1 b Qkq - 1 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "Rg1 repositions the rook toward an open or key file in the Réti Opening.",
+                              "strategicTheme": "Rook activation",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "e3",
+                            "fen": "rnbqkbnr/ppp1pppp/8/8/2Pp4/4PN2/PP1P1PPP/RNBQKB1R b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "c5",
+                                "fen": "rnbqkbnr/pp2pppp/8/2p5/2Pp4/4PN2/PP1P1PPP/RNBQKB1R w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "b4",
+                                    "fen": "rnbqkbnr/pp2pppp/8/2p5/1PPp4/4PN2/P2P1PPP/RNBQKB1R b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "b4 advances a pawn, influencing the structure in the Réti Opening.",
+                                      "strategicTheme": "Pawn structure",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "c5 challenges the center from the flank in the Réti Opening.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Réti Opening.",
+                              "strategicTheme": "Solid center support",
+                              "source": "generated"
+                            }
+                          }
+                        ],
                         "isMainLine": true,
                         "annotation": {
                           "moveRationale": "d4 impacts the center, shaping the pawn structure in the Réti Opening.",
@@ -83,25 +563,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Réti Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nThis opening is a hypermodern opening, which invites white's minor pieces to control the centre rather than their pawns. Here black has 4 options:\n\nThis can be done with moves such as 2.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -166,25 +646,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Réti Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nThis opening is a hypermodern opening, which invites white's minor pieces to control the centre rather than their pawns. Here black has 4 options:\n\nThis can be done with moves such as 2.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -249,25 +729,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Réti Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nThis opening is a hypermodern opening, which invites white's minor pieces to control the centre rather than their pawns. Here black has 4 options:\n\nThis can be done with moves such as 2.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -320,25 +800,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Réti Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nThis opening is a hypermodern opening, which invites white's minor pieces to control the centre rather than their pawns. Here black has 4 options:\n\nThis can be done with moves such as 2.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -415,25 +895,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Réti Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nThis opening is a hypermodern opening, which invites white's minor pieces to control the centre rather than their pawns. Here black has 4 options:\n\nThis can be done with moves such as 2.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -463,7 +943,31 @@
                       {
                         "move": "dxc4",
                         "fen": "rnbqkbnr/ppp1pppp/8/8/2p5/5N2/PP1PPPPP/RNBQKB1R w KQkq - 0 3",
-                        "children": [],
+                        "children": [
+                          {
+                            "move": "e3",
+                            "fen": "rnbqkbnr/ppp1pppp/8/8/2p5/4PN2/PP1P1PPP/RNBQKB1R b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Be6",
+                                "fen": "rn1qkbnr/ppp1pppp/4b3/8/2p5/4PN2/PP1P1PPP/RNBQKB1R w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Be6 develops a piece to an active square in the Réti Opening.",
+                                  "strategicTheme": "Bishop development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Réti Opening.",
+                              "strategicTheme": "Solid center support",
+                              "source": "generated"
+                            }
+                          }
+                        ],
                         "isMainLine": true,
                         "annotation": {
                           "moveRationale": "dxc4 impacts the center, shaping the pawn structure in the Réti Opening.",
@@ -474,25 +978,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Réti Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nThis opening is a hypermodern opening, which invites white's minor pieces to control the centre rather than their pawns. Here black has 4 options:\n\nThis can be done with moves such as 2.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -557,25 +1061,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Réti Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nThis opening is a hypermodern opening, which invites white's minor pieces to control the centre rather than their pawns. Here black has 4 options:\n\nThis can be done with moves such as 2.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -616,25 +1120,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Réti Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nThis opening is a hypermodern opening, which invites white's minor pieces to control the centre rather than their pawns. Here black has 4 options:\n\nThis can be done with moves such as 2.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -668,7 +1172,124 @@
                           {
                             "move": "e3",
                             "fen": "rnbqkbnr/pp2pppp/2p5/3p4/2P5/4PN2/PP1P1PPP/RNBQKB1R b KQkq - 0 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "Nf6",
+                                "fen": "rnbqkb1r/pp2pppp/2p2n2/3p4/2P5/4PN2/PP1P1PPP/RNBQKB1R w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "Qc2",
+                                    "fen": "rnbqkb1r/pp2pppp/2p2n2/3p4/2P5/4PN2/PPQP1PPP/RNB1KB1R b KQkq - 2 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Qc2 activates the queen, increasing pressure in the Réti Opening.",
+                                      "strategicTheme": "Queen activity",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "Nc3",
+                                    "fen": "rnbqkb1r/pp2pppp/2p2n2/3p4/2P5/2N1PN2/PP1P1PPP/R1BQKB1R b KQkq - 2 4",
+                                    "children": [
+                                      {
+                                        "move": "Nbd7",
+                                        "fen": "r1bqkb1r/pp1npppp/2p2n2/3p4/2P5/2N1PN2/PP1P1PPP/R1BQKB1R w KQkq - 3 5",
+                                        "children": [
+                                          {
+                                            "move": "Qc2",
+                                            "fen": "r1bqkb1r/pp1npppp/2p2n2/3p4/2P5/2N1PN2/PPQP1PPP/R1B1KB1R b KQkq - 4 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Qc2 activates the queen, increasing pressure in the Réti Opening.",
+                                              "strategicTheme": "Queen activity",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "b3",
+                                            "fen": "r1bqkb1r/pp1npppp/2p2n2/3p4/2P5/1PN1PN2/P2P1PPP/R1BQKB1R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "e5",
+                                                "fen": "r1bqkb1r/pp1n1ppp/2p2n2/3pp3/2P5/1PN1PN2/P2P1PPP/R1BQKB1R w KQkq - 0 6",
+                                                "children": [],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "e5 advances a pawn, influencing the structure in the Réti Opening.",
+                                                  "strategicTheme": "Pawn structure",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Réti Opening.",
+                                              "strategicTheme": "Fianchetto preparation",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Nbd7 develops a piece to an active square in the Réti Opening.",
+                                          "strategicTheme": "Knight activity",
+                                          "source": "generated"
+                                        }
+                                      },
+                                      {
+                                        "move": "e6",
+                                        "fen": "rnbqkb1r/pp3ppp/2p1pn2/3p4/2P5/2N1PN2/PP1P1PPP/R1BQKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "b3",
+                                            "fen": "rnbqkb1r/pp3ppp/2p1pn2/3p4/2P5/1PN1PN2/P2P1PPP/R1BQKB1R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Bd6",
+                                                "fen": "rnbqk2r/pp3ppp/2pbpn2/3p4/2P5/1PN1PN2/P2P1PPP/R1BQKB1R w KQkq - 1 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Bd6 develops a piece to an active square in the Réti Opening.",
+                                                  "strategicTheme": "Bishop development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Réti Opening.",
+                                              "strategicTheme": "Fianchetto preparation",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "e6 advances a pawn, influencing the structure in the Réti Opening.",
+                                          "strategicTheme": "Prophylactic pawn move",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Réti Opening.",
+                                      "strategicTheme": "Natural piece development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Nf6 develops a piece to an active square in the Réti Opening.",
+                                  "strategicTheme": "Natural piece development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": true,
                             "annotation": {
                               "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Réti Opening.",
@@ -679,33 +1300,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Nf3 d5\n\n        \n                \n                3\n                4\n        \n        \n                \n                g3Nf6\n                Bg2Bg4\n                =\n        \n        \n                \n                b3Nf6\n                g3Bg4\n                =\n        \n        \n                \n                e3Nf6\n                Nc3e6\n                =\n        \n\nfi:Shakkiaapinen/Peli/1.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "Nf3\n\n        \n                \n                2\n                3\n                4\n        \n        \n                \n                Nf3d5\n                g3Nf6\n                Bg2Bg4\n                =\n        \n\nfi:Shakkiaapinen/Peli/1.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "c6 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "Planning to transpose into the Caro-Kann or Slav Defence. Note however that white can also reach the Reti opening by playing 2.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "c4 controls d5 from the flank, characteristic of the English Opening.",
-              "strategicTheme": "English Opening, flank control",
-              "source": "generated"
+              "moveRationale": "c4 is the English Opening. It is the fourth most commonly played opening move in chess.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -774,33 +1395,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Nf3 d5\n\n        \n                \n                3\n                4\n        \n        \n                \n                g3Nf6\n                Bg2Bg4\n                =\n        \n        \n                \n                b3Nf6\n                g3Bg4\n                =\n        \n        \n                \n                e3Nf6\n                Nc3e6\n                =\n        \n\nfi:Shakkiaapinen/Peli/1.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "Nf3\n\n        \n                \n                2\n                3\n                4\n        \n        \n                \n                Nf3d5\n                g3Nf6\n                Bg2Bg4\n                =\n        \n\nfi:Shakkiaapinen/Peli/1.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "c6 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "Planning to transpose into the Caro-Kann or Slav Defence. Note however that white can also reach the Reti opening by playing 2.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "c4 controls d5 from the flank, characteristic of the English Opening.",
-              "strategicTheme": "English Opening, flank control",
-              "source": "generated"
+              "moveRationale": "c4 is the English Opening. It is the fourth most commonly played opening move in chess.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -893,33 +1514,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Nf3 d5\n\n        \n                \n                3\n                4\n        \n        \n                \n                g3Nf6\n                Bg2Bg4\n                =\n        \n        \n                \n                b3Nf6\n                g3Bg4\n                =\n        \n        \n                \n                e3Nf6\n                Nc3e6\n                =\n        \n\nfi:Shakkiaapinen/Peli/1.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "Nf3\n\n        \n                \n                2\n                3\n                4\n        \n        \n                \n                Nf3d5\n                g3Nf6\n                Bg2Bg4\n                =\n        \n\nfi:Shakkiaapinen/Peli/1.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "c6 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "Planning to transpose into the Caro-Kann or Slav Defence. Note however that white can also reach the Reti opening by playing 2.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "c4 controls d5 from the flank, characteristic of the English Opening.",
-              "strategicTheme": "English Opening, flank control",
-              "source": "generated"
+              "moveRationale": "c4 is the English Opening. It is the fourth most commonly played opening move in chess.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1024,33 +1645,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Nf3 d5\n\n        \n                \n                3\n                4\n        \n        \n                \n                g3Nf6\n                Bg2Bg4\n                =\n        \n        \n                \n                b3Nf6\n                g3Bg4\n                =\n        \n        \n                \n                e3Nf6\n                Nc3e6\n                =\n        \n\nfi:Shakkiaapinen/Peli/1.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "Nf3\n\n        \n                \n                2\n                3\n                4\n        \n        \n                \n                Nf3d5\n                g3Nf6\n                Bg2Bg4\n                =\n        \n\nfi:Shakkiaapinen/Peli/1.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "c6 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "Planning to transpose into the Caro-Kann or Slav Defence. Note however that white can also reach the Reti opening by playing 2.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "c4 controls d5 from the flank, characteristic of the English Opening.",
-              "strategicTheme": "English Opening, flank control",
-              "source": "generated"
+              "moveRationale": "c4 is the English Opening. It is the fourth most commonly played opening move in chess.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1155,33 +1776,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Nf3 d5\n\n        \n                \n                3\n                4\n        \n        \n                \n                g3Nf6\n                Bg2Bg4\n                =\n        \n        \n                \n                b3Nf6\n                g3Bg4\n                =\n        \n        \n                \n                e3Nf6\n                Nc3e6\n                =\n        \n\nfi:Shakkiaapinen/Peli/1.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "Nf3\n\n        \n                \n                2\n                3\n                4\n        \n        \n                \n                Nf3d5\n                g3Nf6\n                Bg2Bg4\n                =\n        \n\nfi:Shakkiaapinen/Peli/1.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "c6 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "Planning to transpose into the Caro-Kann or Slav Defence. Note however that white can also reach the Reti opening by playing 2.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "c4 controls d5 from the flank, characteristic of the English Opening.",
-              "strategicTheme": "English Opening, flank control",
-              "source": "generated"
+              "moveRationale": "c4 is the English Opening. It is the fourth most commonly played opening move in chess.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1262,33 +1883,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Nf3 d5\n\n        \n                \n                3\n                4\n        \n        \n                \n                g3Nf6\n                Bg2Bg4\n                =\n        \n        \n                \n                b3Nf6\n                g3Bg4\n                =\n        \n        \n                \n                e3Nf6\n                Nc3e6\n                =\n        \n\nfi:Shakkiaapinen/Peli/1.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "Nf3\n\n        \n                \n                2\n                3\n                4\n        \n        \n                \n                Nf3d5\n                g3Nf6\n                Bg2Bg4\n                =\n        \n\nfi:Shakkiaapinen/Peli/1.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "c6 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "Planning to transpose into the Caro-Kann or Slav Defence. Note however that white can also reach the Reti opening by playing 2.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "c4 controls d5 from the flank, characteristic of the English Opening.",
-              "strategicTheme": "English Opening, flank control",
-              "source": "generated"
+              "moveRationale": "c4 is the English Opening. It is the fourth most commonly played opening move in chess.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1330,7 +1951,66 @@
                                   {
                                     "move": "Bg2",
                                     "fen": "rnbqkb1r/pp2pppp/2p2n2/3p4/2P5/5NP1/PP1PPPBP/RNBQK2R b KQkq - 2 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "dxc4",
+                                        "fen": "rnbqkb1r/pp2pppp/2p2n2/8/2p5/5NP1/PP1PPPBP/RNBQK2R w KQkq - 0 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "dxc4 impacts the center, shaping the pawn structure in the Réti Opening.",
+                                          "strategicTheme": "Central tension",
+                                          "source": "generated"
+                                        }
+                                      },
+                                      {
+                                        "move": "Bf5",
+                                        "fen": "rn1qkb1r/pp2pppp/2p2n2/3p1b2/2P5/5NP1/PP1PPPBP/RNBQK2R w KQkq - 3 5",
+                                        "children": [
+                                          {
+                                            "move": "O-O",
+                                            "fen": "rn1qkb1r/pp2pppp/2p2n2/3p1b2/2P5/5NP1/PP1PPPBP/RNBQ1RK1 b kq - 4 5",
+                                            "children": [
+                                              {
+                                                "move": "e6",
+                                                "fen": "rn1qkb1r/pp3ppp/2p1pn2/3p1b2/2P5/5NP1/PP1PPPBP/RNBQ1RK1 w kq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "d3",
+                                                    "fen": "rn1qkb1r/pp3ppp/2p1pn2/3p1b2/2P5/3P1NP1/PP2PPBP/RNBQ1RK1 b kq - 0 6",
+                                                    "children": [],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Réti Opening.",
+                                                      "strategicTheme": "Solid center support",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "e6 advances a pawn, influencing the structure in the Réti Opening.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Réti Opening.",
+                                              "strategicTheme": "Early king safety",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Bf5 develops a piece to an active square in the Réti Opening.",
+                                          "strategicTheme": "Bishop development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": true,
                                     "annotation": {
                                       "moveRationale": "Bg2 develops a piece to an active square in the Réti Opening.",
@@ -1357,33 +2037,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Nf3 d5\n\n        \n                \n                3\n                4\n        \n        \n                \n                g3Nf6\n                Bg2Bg4\n                =\n        \n        \n                \n                b3Nf6\n                g3Bg4\n                =\n        \n        \n                \n                e3Nf6\n                Nc3e6\n                =\n        \n\nfi:Shakkiaapinen/Peli/1.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "Nf3\n\n        \n                \n                2\n                3\n                4\n        \n        \n                \n                Nf3d5\n                g3Nf6\n                Bg2Bg4\n                =\n        \n\nfi:Shakkiaapinen/Peli/1.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "c6 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "Planning to transpose into the Caro-Kann or Slav Defence. Note however that white can also reach the Reti opening by playing 2.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "c4 controls d5 from the flank, characteristic of the English Opening.",
-              "strategicTheme": "English Opening, flank control",
-              "source": "generated"
+              "moveRationale": "c4 is the English Opening. It is the fourth most commonly played opening move in chess.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1464,33 +2144,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Nf3 d5\n\n        \n                \n                3\n                4\n        \n        \n                \n                g3Nf6\n                Bg2Bg4\n                =\n        \n        \n                \n                b3Nf6\n                g3Bg4\n                =\n        \n        \n                \n                e3Nf6\n                Nc3e6\n                =\n        \n\nfi:Shakkiaapinen/Peli/1.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "Nf3\n\n        \n                \n                2\n                3\n                4\n        \n        \n                \n                Nf3d5\n                g3Nf6\n                Bg2Bg4\n                =\n        \n\nfi:Shakkiaapinen/Peli/1.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "c6 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "Planning to transpose into the Caro-Kann or Slav Defence. Note however that white can also reach the Reti opening by playing 2.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "c4 controls d5 from the flank, characteristic of the English Opening.",
-              "strategicTheme": "English Opening, flank control",
-              "source": "generated"
+              "moveRationale": "c4 is the English Opening. It is the fourth most commonly played opening move in chess.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1536,7 +2216,43 @@
                                       {
                                         "move": "Bf5",
                                         "fen": "rn1qkb1r/pp2pppp/2p2n2/3p1b2/2P5/5NP1/PP1PPPBP/RNBQK2R w KQkq - 3 5",
-                                        "children": [],
+                                        "children": [
+                                          {
+                                            "move": "O-O",
+                                            "fen": "rn1qkb1r/pp2pppp/2p2n2/3p1b2/2P5/5NP1/PP1PPPBP/RNBQ1RK1 b kq - 4 5",
+                                            "children": [
+                                              {
+                                                "move": "e6",
+                                                "fen": "rn1qkb1r/pp3ppp/2p1pn2/3p1b2/2P5/5NP1/PP1PPPBP/RNBQ1RK1 w kq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "d3",
+                                                    "fen": "rn1qkb1r/pp3ppp/2p1pn2/3p1b2/2P5/3P1NP1/PP2PPBP/RNBQ1RK1 b kq - 0 6",
+                                                    "children": [],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Réti Opening.",
+                                                      "strategicTheme": "Solid center support",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "e6 advances a pawn, influencing the structure in the Réti Opening.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Réti Opening.",
+                                              "strategicTheme": "Early king safety",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
                                         "isMainLine": true,
                                         "annotation": {
                                           "moveRationale": "Bf5 develops a piece to an active square in the Réti Opening.",
@@ -1571,33 +2287,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Nf3 d5\n\n        \n                \n                3\n                4\n        \n        \n                \n                g3Nf6\n                Bg2Bg4\n                =\n        \n        \n                \n                b3Nf6\n                g3Bg4\n                =\n        \n        \n                \n                e3Nf6\n                Nc3e6\n                =\n        \n\nfi:Shakkiaapinen/Peli/1.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "Nf3\n\n        \n                \n                2\n                3\n                4\n        \n        \n                \n                Nf3d5\n                g3Nf6\n                Bg2Bg4\n                =\n        \n\nfi:Shakkiaapinen/Peli/1.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "c6 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "Planning to transpose into the Caro-Kann or Slav Defence. Note however that white can also reach the Reti opening by playing 2.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "c4 controls d5 from the flank, characteristic of the English Opening.",
-              "strategicTheme": "English Opening, flank control",
-              "source": "generated"
+              "moveRationale": "c4 is the English Opening. It is the fourth most commonly played opening move in chess.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1714,33 +2430,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Nf3 d5\n\n        \n                \n                3\n                4\n        \n        \n                \n                g3Nf6\n                Bg2Bg4\n                =\n        \n        \n                \n                b3Nf6\n                g3Bg4\n                =\n        \n        \n                \n                e3Nf6\n                Nc3e6\n                =\n        \n\nfi:Shakkiaapinen/Peli/1.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "Nf3\n\n        \n                \n                2\n                3\n                4\n        \n        \n                \n                Nf3d5\n                g3Nf6\n                Bg2Bg4\n                =\n        \n\nfi:Shakkiaapinen/Peli/1.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "c6 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "Planning to transpose into the Caro-Kann or Slav Defence. Note however that white can also reach the Reti opening by playing 2.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "c4 controls d5 from the flank, characteristic of the English Opening.",
-              "strategicTheme": "English Opening, flank control",
-              "source": "generated"
+              "moveRationale": "c4 is the English Opening. It is the fourth most commonly played opening move in chess.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1869,33 +2585,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "g3 d5\n\n        \n                \n                3\n        \n        \n                King's Indian Attack\n                Bg2c6\n                \n        \n\n*King's Indian Defence\n\n* Flank Openings (1990), Bruno Carlier, Trends Publications, No ISBN.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Réti Opening.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "A sound, but very unambitious opening move where white almost certainly intends to fianchetto his bishop and enable castling. Black has the choice to continue to mirror white's move once more with g6 or begin a more aggressive attempt to control the center.",
+                      "strategicTheme": "Center control",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Réti Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Nf6, keeping the position symmetrical, is the most flexible reply to 1. At Grandmaster level this is a very popular move and has been the preferred response of both Anand and Kasparov.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1937,7 +2653,41 @@
                                   {
                                     "move": "b3",
                                     "fen": "rnbqkb1r/pp2pppp/2p2n2/3p4/2P5/1P3NP1/P2PPP1P/RNBQKB1R b KQkq - 0 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "Bf5",
+                                        "fen": "rn1qkb1r/pp2pppp/2p2n2/3p1b2/2P5/1P3NP1/P2PPP1P/RNBQKB1R w KQkq - 1 5",
+                                        "children": [],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Bf5 develops a piece to an active square in the Réti Opening.",
+                                          "strategicTheme": "Bishop development",
+                                          "source": "generated"
+                                        }
+                                      },
+                                      {
+                                        "move": "Bg4",
+                                        "fen": "rn1qkb1r/pp2pppp/2p2n2/3p4/2P3b1/1P3NP1/P2PPP1P/RNBQKB1R w KQkq - 1 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Bg4 develops a piece to an active square in the Réti Opening.",
+                                          "strategicTheme": "Bishop development",
+                                          "source": "generated"
+                                        }
+                                      },
+                                      {
+                                        "move": "dxc4",
+                                        "fen": "rnbqkb1r/pp2pppp/2p2n2/8/2p5/1P3NP1/P2PPP1P/RNBQKB1R w KQkq - 0 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "dxc4 impacts the center, shaping the pawn structure in the Réti Opening.",
+                                          "strategicTheme": "Central tension",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": true,
                                     "annotation": {
                                       "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Réti Opening.",
@@ -1980,17 +2730,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Réti Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black keeps their options open with this move. After a d4 advance by white, the game may transpose into an Indian defence.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "c4 controls d5 from the flank, characteristic of the English Opening.",
-              "strategicTheme": "English Opening, flank control",
-              "source": "generated"
+              "moveRationale": "c4 is the English Opening. It is the fourth most commonly played opening move in chess.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2087,17 +2837,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2131,7 +2881,42 @@
                           {
                             "move": "b3",
                             "fen": "rnbqkbnr/pp2pppp/2p5/3p4/2P5/1P3N2/P2PPPPP/RNBQKB1R b KQkq - 0 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "Bg4",
+                                "fen": "rn1qkbnr/pp2pppp/2p5/3p4/2P3b1/1P3N2/P2PPPPP/RNBQKB1R w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Bg4 develops a piece to an active square in the Réti Opening.",
+                                  "strategicTheme": "Bishop development",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "Bf5",
+                                "fen": "rn1qkbnr/pp2pppp/2p5/3p1b2/2P5/1P3N2/P2PPPPP/RNBQKB1R w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "Bb2",
+                                    "fen": "rn1qkbnr/pp2pppp/2p5/3p1b2/2P5/1P3N2/PB1PPPPP/RN1QKB1R b KQkq - 2 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Bb2 develops a piece to an active square in the Réti Opening.",
+                                      "strategicTheme": "Bishop development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Bf5 develops a piece to an active square in the Réti Opening.",
+                                  "strategicTheme": "Bishop development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": true,
                             "annotation": {
                               "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Réti Opening.",
@@ -2150,25 +2935,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Réti Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nThis opening is a hypermodern opening, which invites white's minor pieces to control the centre rather than their pawns. Here black has 4 options:\n\nThis can be done with moves such as 2.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2233,25 +3018,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Réti Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nThis opening is a hypermodern opening, which invites white's minor pieces to control the centre rather than their pawns. Here black has 4 options:\n\nThis can be done with moves such as 2.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2289,7 +3074,19 @@
                               {
                                 "move": "Bf5",
                                 "fen": "rn1qkbnr/pp2pppp/2p5/3p1b2/2P5/1P3N2/P2PPPPP/RNBQKB1R w KQkq - 1 4",
-                                "children": [],
+                                "children": [
+                                  {
+                                    "move": "Bb2",
+                                    "fen": "rn1qkbnr/pp2pppp/2p5/3p1b2/2P5/1P3N2/PB1PPPPP/RN1QKB1R b KQkq - 2 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Bb2 develops a piece to an active square in the Réti Opening.",
+                                      "strategicTheme": "Bishop development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
                                 "isMainLine": true,
                                 "annotation": {
                                   "moveRationale": "Bf5 develops a piece to an active square in the Réti Opening.",
@@ -2316,25 +3113,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Réti Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nThis opening is a hypermodern opening, which invites white's minor pieces to control the centre rather than their pawns. Here black has 4 options:\n\nThis can be done with moves such as 2.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2411,25 +3208,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Réti Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nThis opening is a hypermodern opening, which invites white's minor pieces to control the centre rather than their pawns. Here black has 4 options:\n\nThis can be done with moves such as 2.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2518,25 +3315,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "#REDIRECT Chess Opening Theory/1.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Réti Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black keeps their options open with this move. After a d4 advance by white, the game may transpose into an Indian defence.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "c4 controls d5 from the flank, characteristic of the English Opening.",
-              "strategicTheme": "English Opening, flank control",
-              "source": "generated"
+              "moveRationale": "c4 is the English Opening. It is the fourth most commonly played opening move in chess.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2633,17 +3430,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Réti Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black keeps their options open with this move. After a d4 advance by white, the game may transpose into an Indian defence.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "c4 controls d5 from the flank, characteristic of the English Opening.",
-              "strategicTheme": "English Opening, flank control",
-              "source": "generated"
+              "moveRationale": "c4 is the English Opening. It is the fourth most commonly played opening move in chess.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2732,25 +3529,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Réti Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "c4 is a very common move in the Zukertort Opening, competing for the d5 square. It is also very flexible, allowing white to transpose into Queen's Pawn openings with a later d4 move or various lines in the English Opening (1.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Réti Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Nf6, keeping the position symmetrical, is the most flexible reply to 1. At Grandmaster level this is a very popular move and has been the preferred response of both Anand and Kasparov.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2847,17 +3644,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Réti Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black keeps their options open with this move. After a d4 advance by white, the game may transpose into an Indian defence.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "c4 controls d5 from the flank, characteristic of the English Opening.",
-              "strategicTheme": "English Opening, flank control",
-              "source": "generated"
+              "moveRationale": "c4 is the English Opening. It is the fourth most commonly played opening move in chess.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2954,17 +3751,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Réti Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black keeps their options open with this move. After a d4 advance by white, the game may transpose into an Indian defence.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "c4 controls d5 from the flank, characteristic of the English Opening.",
-              "strategicTheme": "English Opening, flank control",
-              "source": "generated"
+              "moveRationale": "c4 is the English Opening. It is the fourth most commonly played opening move in chess.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3089,25 +3886,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Réti Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nThis opening is a hypermodern opening, which invites white's minor pieces to control the centre rather than their pawns. Here black has 4 options:\n\nThis can be done with moves such as 2.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3248,33 +4045,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Réti Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "#REDIRECT Chess Opening Theory/1.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Réti Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nThis opening is a hypermodern opening, which invites white's minor pieces to control the centre rather than their pawns. Here black has 4 options:\n\nThis can be done with moves such as 2.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Réti Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Réti Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

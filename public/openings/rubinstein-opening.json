@@ -45,7 +45,102 @@
                                           {
                                             "move": "b3",
                                             "fen": "rnbqkb1r/pp3ppp/4pn2/2pp4/3P4/1P1BPN2/P1P2PPP/RNBQK2R b KQkq - 0 5",
-                                            "children": [],
+                                            "children": [
+                                              {
+                                                "move": "Nc6",
+                                                "fen": "r1bqkb1r/pp3ppp/2n1pn2/2pp4/3P4/1P1BPN2/P1P2PPP/RNBQK2R w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "O-O",
+                                                    "fen": "r1bqkb1r/pp3ppp/2n1pn2/2pp4/3P4/1P1BPN2/P1P2PPP/RNBQ1RK1 b kq - 2 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Bd6",
+                                                        "fen": "r1bqk2r/pp3ppp/2nbpn2/2pp4/3P4/1P1BPN2/P1P2PPP/RNBQ1RK1 w kq - 3 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Bb2",
+                                                            "fen": "r1bqk2r/pp3ppp/2nbpn2/2pp4/3P4/1P1BPN2/PBP2PPP/RN1Q1RK1 b kq - 4 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "O-O",
+                                                                "fen": "r1bq1rk1/pp3ppp/2nbpn2/2pp4/3P4/1P1BPN2/PBP2PPP/RN1Q1RK1 w - - 5 8",
+                                                                "children": [],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Rubinstein Opening.",
+                                                                  "strategicTheme": "King safety",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": true,
+                                                            "annotation": {
+                                                              "moveRationale": "Bb2 develops a piece to an active square in the Rubinstein Opening.",
+                                                              "strategicTheme": "Bishop development",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Bd6 develops a piece to an active square in the Rubinstein Opening.",
+                                                          "strategicTheme": "Bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      },
+                                                      {
+                                                        "move": "Be7",
+                                                        "fen": "r1bqk2r/pp2bppp/2n1pn2/2pp4/3P4/1P1BPN2/P1P2PPP/RNBQ1RK1 w kq - 3 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Bb2",
+                                                            "fen": "r1bqk2r/pp2bppp/2n1pn2/2pp4/3P4/1P1BPN2/PBP2PPP/RN1Q1RK1 b kq - 4 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "O-O",
+                                                                "fen": "r1bq1rk1/pp2bppp/2n1pn2/2pp4/3P4/1P1BPN2/PBP2PPP/RN1Q1RK1 w - - 5 8",
+                                                                "children": [],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Rubinstein Opening.",
+                                                                  "strategicTheme": "King safety",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Bb2 develops a piece to an active square in the Rubinstein Opening.",
+                                                              "strategicTheme": "Bishop development",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Rubinstein Opening.",
+                                                          "strategicTheme": "Bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Rubinstein Opening.",
+                                                      "strategicTheme": "King safety",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Rubinstein Opening.",
+                                                  "strategicTheme": "Natural piece development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": true,
                                             "annotation": {
                                               "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Rubinstein Opening.",
@@ -88,33 +183,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Rubinstein Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "A typical black move in Queen's Pawn Openings, 2. e6 allows black to develop the f8 bishop, after which castling will be possible.",
+                          "strategicTheme": "Piece development",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Rubinstein Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "This move keeps White's options open: they can first see how Black intends to play before deciding on a response. If, for example, White likes to play against the King's Indian defence with c4, but wants to avoid lines involving c4 and.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Rubinstein Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Rubinstein Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -267,33 +362,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Rubinstein Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "A typical black move in Queen's Pawn Openings, 2. e6 allows black to develop the f8 bishop, after which castling will be possible.",
+                          "strategicTheme": "Piece development",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Rubinstein Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "This move keeps White's options open: they can first see how Black intends to play before deciding on a response. If, for example, White likes to play against the King's Indian defence with c4, but wants to avoid lines involving c4 and.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Rubinstein Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Rubinstein Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -446,33 +541,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Rubinstein Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "A typical black move in Queen's Pawn Openings, 2. e6 allows black to develop the f8 bishop, after which castling will be possible.",
+                          "strategicTheme": "Piece development",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Rubinstein Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "This move keeps White's options open: they can first see how Black intends to play before deciding on a response. If, for example, White likes to play against the King's Indian defence with c4, but wants to avoid lines involving c4 and.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Rubinstein Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Rubinstein Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -538,178 +633,23 @@
                                                           {
                                                             "move": "Bb2",
                                                             "fen": "r1bq1rk1/pppn1ppp/3bpn2/3p4/3P4/1P1BPN2/PBP2PPP/RN1Q1RK1 b - - 2 7",
-                                                            "children": [],
-                                                            "isMainLine": true,
-                                                            "annotation": {
-                                                              "moveRationale": "Bb2 develops a piece to an active square in the Rubinstein Opening.",
-                                                              "strategicTheme": "Bishop development",
-                                                              "source": "generated"
-                                                            }
-                                                          }
-                                                        ],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Nbd7 develops a piece to an active square in the Rubinstein Opening.",
-                                                          "strategicTheme": "Knight activity",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Rubinstein Opening.",
-                                                      "strategicTheme": "Fianchetto preparation",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Rubinstein Opening.",
-                                                  "strategicTheme": "Early king safety",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Rubinstein Opening.",
-                                              "strategicTheme": "Early king safety",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
-                                        "isMainLine": true,
-                                        "annotation": {
-                                          "moveRationale": "Bd6 develops a piece to an active square in the Rubinstein Opening.",
-                                          "strategicTheme": "Bishop development",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
-                                    "isMainLine": true,
-                                    "annotation": {
-                                      "moveRationale": "Bd3 develops a piece to an active square in the Rubinstein Opening.",
-                                      "strategicTheme": "Bishop development",
-                                      "source": "generated"
-                                    }
-                                  }
-                                ],
-                                "isMainLine": true,
-                                "annotation": {
-                                  "moveRationale": "e6 advances a pawn, influencing the structure in the Rubinstein Opening.",
-                                  "strategicTheme": "Prophylactic pawn move",
-                                  "source": "generated"
-                                }
-                              }
-                            ],
-                            "isMainLine": true,
-                            "annotation": {
-                              "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Rubinstein Opening.",
-                              "strategicTheme": "Solid center support",
-                              "source": "generated"
-                            }
-                          }
-                        ],
-                        "isMainLine": true,
-                        "annotation": {
-                          "moveRationale": "Nf6 develops a piece to an active square in the Rubinstein Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
-                        }
-                      }
-                    ],
-                    "isMainLine": true,
-                    "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Rubinstein Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
-                    }
-                  }
-                ],
-                "isMainLine": true,
-                "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Rubinstein Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
-                }
-              }
-            ],
-            "isMainLine": true,
-            "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Rubinstein Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
-            }
-          }
-        ],
-        "isMainLine": true
-      },
-      "pgn": "1. d4 d5 2. Nf3 Nf6 3. e3 e6 4. Bd3 Bd6 5. O-O O-O 6. b3 Nbd7 7. Bb2"
-    },
-    {
-      "id": "rubinstein-opening-semi-slav-defense",
-      "name": "Semi-Slav Defense",
-      "moves": {
-        "move": "",
-        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
-        "children": [
-          {
-            "move": "d4",
-            "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
-            "children": [
-              {
-                "move": "d5",
-                "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
-                "children": [
-                  {
-                    "move": "Nf3",
-                    "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 2",
-                    "children": [
-                      {
-                        "move": "Nf6",
-                        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 2 3",
-                        "children": [
-                          {
-                            "move": "e3",
-                            "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/4PN2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
-                            "children": [
-                              {
-                                "move": "e6",
-                                "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/3P4/4PN2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
-                                "children": [
-                                  {
-                                    "move": "Bd3",
-                                    "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/3P4/3BPN2/PPP2PPP/RNBQK2R b KQkq - 1 4",
-                                    "children": [
-                                      {
-                                        "move": "Bd6",
-                                        "fen": "rnbqk2r/ppp2ppp/3bpn2/3p4/3P4/3BPN2/PPP2PPP/RNBQK2R w KQkq - 2 5",
-                                        "children": [
-                                          {
-                                            "move": "O-O",
-                                            "fen": "rnbqk2r/ppp2ppp/3bpn2/3p4/3P4/3BPN2/PPP2PPP/RNBQ1RK1 b kq - 3 5",
-                                            "children": [
-                                              {
-                                                "move": "O-O",
-                                                "fen": "rnbq1rk1/ppp2ppp/3bpn2/3p4/3P4/3BPN2/PPP2PPP/RNBQ1RK1 w - - 4 6",
-                                                "children": [
-                                                  {
-                                                    "move": "b3",
-                                                    "fen": "rnbq1rk1/ppp2ppp/3bpn2/3p4/3P4/1P1BPN2/P1P2PPP/RNBQ1RK1 b - - 0 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "Nbd7",
-                                                        "fen": "r1bq1rk1/pppn1ppp/3bpn2/3p4/3P4/1P1BPN2/P1P2PPP/RNBQ1RK1 w - - 1 7",
-                                                        "children": [
-                                                          {
-                                                            "move": "Bb2",
-                                                            "fen": "r1bq1rk1/pppn1ppp/3bpn2/3p4/3P4/1P1BPN2/PBP2PPP/RN1Q1RK1 b - - 2 7",
                                                             "children": [
                                                               {
                                                                 "move": "c6",
                                                                 "fen": "r1bq1rk1/pp1n1ppp/2pbpn2/3p4/3P4/1P1BPN2/PBP2PPP/RN1Q1RK1 w - - 0 8",
-                                                                "children": [],
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Nbd2",
+                                                                    "fen": "r1bq1rk1/pp1n1ppp/2pbpn2/3p4/3P4/1P1BPN2/PBPN1PPP/R2Q1RK1 b - - 1 8",
+                                                                    "children": [],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Nbd2 develops a piece to an active square in the Rubinstein Opening.",
+                                                                      "strategicTheme": "Knight activity",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
                                                                 "isMainLine": true,
                                                                 "annotation": {
                                                                   "moveRationale": "c6 advances a pawn, influencing the structure in the Rubinstein Opening.",
@@ -784,41 +724,232 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Rubinstein Opening.",
-                              "strategicTheme": "Solid center support",
-                              "source": "generated"
+                              "moveRationale": "#REDIRECTChess Opening Theory/1.",
+                              "strategicTheme": "Opening theory",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nf6 develops a piece to an active square in the Rubinstein Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "#REDIRECTChess Opening Theory/1.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Rubinstein Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "A flexible developing move. While this move usually leads to a Queen's Gambit, it is also used to go into a Colle System—a solid line that prepares e2-e4 earlier and can be more aggressive than the usual lines.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Rubinstein Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Rubinstein Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
+            }
+          }
+        ],
+        "isMainLine": true
+      },
+      "pgn": "1. d4 d5 2. Nf3 Nf6 3. e3 e6 4. Bd3 Bd6 5. O-O O-O 6. b3 Nbd7 7. Bb2"
+    },
+    {
+      "id": "rubinstein-opening-semi-slav-defense",
+      "name": "Semi-Slav Defense",
+      "moves": {
+        "move": "",
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "children": [
+          {
+            "move": "d4",
+            "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+            "children": [
+              {
+                "move": "d5",
+                "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "Nf3",
+                    "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 2",
+                    "children": [
+                      {
+                        "move": "Nf6",
+                        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 2 3",
+                        "children": [
+                          {
+                            "move": "e3",
+                            "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/4PN2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "e6",
+                                "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/3P4/4PN2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Bd3",
+                                    "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/3P4/3BPN2/PPP2PPP/RNBQK2R b KQkq - 1 4",
+                                    "children": [
+                                      {
+                                        "move": "Bd6",
+                                        "fen": "rnbqk2r/ppp2ppp/3bpn2/3p4/3P4/3BPN2/PPP2PPP/RNBQK2R w KQkq - 2 5",
+                                        "children": [
+                                          {
+                                            "move": "O-O",
+                                            "fen": "rnbqk2r/ppp2ppp/3bpn2/3p4/3P4/3BPN2/PPP2PPP/RNBQ1RK1 b kq - 3 5",
+                                            "children": [
+                                              {
+                                                "move": "O-O",
+                                                "fen": "rnbq1rk1/ppp2ppp/3bpn2/3p4/3P4/3BPN2/PPP2PPP/RNBQ1RK1 w - - 4 6",
+                                                "children": [
+                                                  {
+                                                    "move": "b3",
+                                                    "fen": "rnbq1rk1/ppp2ppp/3bpn2/3p4/3P4/1P1BPN2/P1P2PPP/RNBQ1RK1 b - - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Nbd7",
+                                                        "fen": "r1bq1rk1/pppn1ppp/3bpn2/3p4/3P4/1P1BPN2/P1P2PPP/RNBQ1RK1 w - - 1 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Bb2",
+                                                            "fen": "r1bq1rk1/pppn1ppp/3bpn2/3p4/3P4/1P1BPN2/PBP2PPP/RN1Q1RK1 b - - 2 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "c6",
+                                                                "fen": "r1bq1rk1/pp1n1ppp/2pbpn2/3p4/3P4/1P1BPN2/PBP2PPP/RN1Q1RK1 w - - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Nbd2",
+                                                                    "fen": "r1bq1rk1/pp1n1ppp/2pbpn2/3p4/3P4/1P1BPN2/PBPN1PPP/R2Q1RK1 b - - 1 8",
+                                                                    "children": [],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Nbd2 develops a piece to an active square in the Rubinstein Opening.",
+                                                                      "strategicTheme": "Knight activity",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "c6 advances a pawn, influencing the structure in the Rubinstein Opening.",
+                                                                  "strategicTheme": "Prophylactic pawn move",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": true,
+                                                            "annotation": {
+                                                              "moveRationale": "Bb2 develops a piece to an active square in the Rubinstein Opening.",
+                                                              "strategicTheme": "Bishop development",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Nbd7 develops a piece to an active square in the Rubinstein Opening.",
+                                                          "strategicTheme": "Knight activity",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Rubinstein Opening.",
+                                                      "strategicTheme": "Fianchetto preparation",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Rubinstein Opening.",
+                                                  "strategicTheme": "Early king safety",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Rubinstein Opening.",
+                                              "strategicTheme": "Early king safety",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Bd6 develops a piece to an active square in the Rubinstein Opening.",
+                                          "strategicTheme": "Bishop development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Bd3 develops a piece to an active square in the Rubinstein Opening.",
+                                      "strategicTheme": "Bishop development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "e6 advances a pawn, influencing the structure in the Rubinstein Opening.",
+                                  "strategicTheme": "Prophylactic pawn move",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "#REDIRECTChess Opening Theory/1.",
+                              "strategicTheme": "Opening theory",
+                              "source": "wikibooks"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "#REDIRECTChess Opening Theory/1.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "A flexible developing move. While this move usually leads to a Queen's Gambit, it is also used to go into a Colle System—a solid line that prepares e2-e4 earlier and can be more aggressive than the usual lines.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
+                }
+              }
+            ],
+            "isMainLine": true,
+            "annotation": {
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -975,41 +1106,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Rubinstein Opening.",
-                              "strategicTheme": "Solid center support",
-                              "source": "generated"
+                              "moveRationale": "#REDIRECTChess Opening Theory/1.",
+                              "strategicTheme": "Opening theory",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nf6 develops a piece to an active square in the Rubinstein Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "#REDIRECTChess Opening Theory/1.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Rubinstein Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "A flexible developing move. While this move usually leads to a Queen's Gambit, it is also used to go into a Colle System—a solid line that prepares e2-e4 earlier and can be more aggressive than the usual lines.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Rubinstein Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Rubinstein Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

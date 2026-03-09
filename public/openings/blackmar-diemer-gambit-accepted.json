@@ -41,7 +41,448 @@
                                       {
                                         "move": "exf3",
                                         "fen": "rnbqkb1r/ppp1pppp/5n2/8/3P4/2N2p2/PPP3PP/R1BQKBNR w KQkq - 0 5",
-                                        "children": [],
+                                        "children": [
+                                          {
+                                            "move": "Nxf3",
+                                            "fen": "rnbqkb1r/ppp1pppp/5n2/8/3P4/2N2N2/PPP3PP/R1BQKB1R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "g6",
+                                                "fen": "rnbqkb1r/ppp1pp1p/5np1/8/3P4/2N2N2/PPP3PP/R1BQKB1R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bc4",
+                                                    "fen": "rnbqkb1r/ppp1pp1p/5np1/8/2BP4/2N2N2/PPP3PP/R1BQK2R b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Bg7",
+                                                        "fen": "rnbqk2r/ppp1ppbp/5np1/8/2BP4/2N2N2/PPP3PP/R1BQK2R w KQkq - 2 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "O-O",
+                                                            "fen": "rnbqk2r/ppp1ppbp/5np1/8/2BP4/2N2N2/PPP3PP/R1BQ1RK1 b kq - 3 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "O-O",
+                                                                "fen": "rnbq1rk1/ppp1ppbp/5np1/8/2BP4/2N2N2/PPP3PP/R1BQ1RK1 w - - 4 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Kh1",
+                                                                    "fen": "rnbq1rk1/ppp1ppbp/5np1/8/2BP4/2N2N2/PPP3PP/R1BQ1R1K b - - 5 8",
+                                                                    "children": [],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Kh1 improves the position in the Blackmar-Diemer Gambit Accepted.",
+                                                                      "strategicTheme": "Position improvement",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "move": "Qe1",
+                                                                    "fen": "rnbq1rk1/ppp1ppbp/5np1/8/2BP4/2N2N2/PPP3PP/R1B1QRK1 b - - 5 8",
+                                                                    "children": [],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Qe1 activates the queen, increasing pressure in the Blackmar-Diemer Gambit Accepted.",
+                                                                      "strategicTheme": "Queen activity",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Blackmar-Diemer Gambit Accepted.",
+                                                                  "strategicTheme": "King safety",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Blackmar-Diemer Gambit Accepted.",
+                                                              "strategicTheme": "King safety",
+                                                              "source": "generated"
+                                                            }
+                                                          },
+                                                          {
+                                                            "move": "h4",
+                                                            "fen": "rnbqk2r/ppp1ppbp/5np1/8/2BP3P/2N2N2/PPP3P1/R1BQK2R b KQkq - 0 7",
+                                                            "children": [],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "h4 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
+                                                              "strategicTheme": "Pawn structure",
+                                                              "source": "generated"
+                                                            }
+                                                          },
+                                                          {
+                                                            "move": "Ne5",
+                                                            "fen": "rnbqk2r/ppp1ppbp/5np1/4N3/2BP4/2N5/PPP3PP/R1BQK2R b KQkq - 3 7",
+                                                            "children": [],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Ne5 develops a piece to an active square in the Blackmar-Diemer Gambit Accepted.",
+                                                              "strategicTheme": "Knight activity",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Bg7 develops a piece to an active square in the Blackmar-Diemer Gambit Accepted.",
+                                                          "strategicTheme": "Bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Blackmar-Diemer Gambit Accepted.",
+                                                      "strategicTheme": "Active bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Blackmar-Diemer Gambit Accepted.",
+                                                  "strategicTheme": "Fianchetto preparation",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "e6",
+                                                "fen": "rnbqkb1r/ppp2ppp/4pn2/8/3P4/2N2N2/PPP3PP/R1BQKB1R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Bg5",
+                                                    "fen": "rnbqkb1r/ppp2ppp/4pn2/6B1/3P4/2N2N2/PPP3PP/R2QKB1R b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Be7",
+                                                        "fen": "rnbqk2r/ppp1bppp/4pn2/6B1/3P4/2N2N2/PPP3PP/R2QKB1R w KQkq - 2 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Bd3",
+                                                            "fen": "rnbqk2r/ppp1bppp/4pn2/6B1/3P4/2NB1N2/PPP3PP/R2QK2R b KQkq - 3 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "Nc6",
+                                                                "fen": "r1bqk2r/ppp1bppp/2n1pn2/6B1/3P4/2NB1N2/PPP3PP/R2QK2R w KQkq - 4 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "O-O",
+                                                                    "fen": "r1bqk2r/ppp1bppp/2n1pn2/6B1/3P4/2NB1N2/PPP3PP/R2Q1RK1 b kq - 5 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "Nxd4",
+                                                                        "fen": "r1bqk2r/ppp1bppp/4pn2/6B1/3n4/2NB1N2/PPP3PP/R2Q1RK1 w kq - 0 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "Kh1",
+                                                                            "fen": "r1bqk2r/ppp1bppp/4pn2/6B1/3n4/2NB1N2/PPP3PP/R2Q1R1K b kq - 1 9",
+                                                                            "children": [],
+                                                                            "isMainLine": true,
+                                                                            "annotation": {
+                                                                              "moveRationale": "Kh1 improves the position in the Blackmar-Diemer Gambit Accepted.",
+                                                                              "strategicTheme": "Position improvement",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": true,
+                                                                        "annotation": {
+                                                                          "moveRationale": "Nxd4 exchanges material, altering the pawn structure in the Blackmar-Diemer Gambit Accepted.",
+                                                                          "strategicTheme": "Material exchange",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Blackmar-Diemer Gambit Accepted.",
+                                                                      "strategicTheme": "King safety",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Blackmar-Diemer Gambit Accepted.",
+                                                                  "strategicTheme": "Natural piece development",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": true,
+                                                            "annotation": {
+                                                              "moveRationale": "Bd3 develops a piece to an active square in the Blackmar-Diemer Gambit Accepted.",
+                                                              "strategicTheme": "Bishop development",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Blackmar-Diemer Gambit Accepted.",
+                                                          "strategicTheme": "Bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Bg5 develops a piece to an active square in the Blackmar-Diemer Gambit Accepted.",
+                                                      "strategicTheme": "Bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "e6 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "Bf5",
+                                                "fen": "rn1qkb1r/ppp1pppp/5n2/5b2/3P4/2N2N2/PPP3PP/R1BQKB1R w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Ne5",
+                                                    "fen": "rn1qkb1r/ppp1pppp/5n2/4Nb2/3P4/2N5/PPP3PP/R1BQKB1R b KQkq - 2 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "e6",
+                                                        "fen": "rn1qkb1r/ppp2ppp/4pn2/4Nb2/3P4/2N5/PPP3PP/R1BQKB1R w KQkq - 0 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "g4",
+                                                            "fen": "rn1qkb1r/ppp2ppp/4pn2/4Nb2/3P2P1/2N5/PPP4P/R1BQKB1R b KQkq - 0 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "Be4",
+                                                                "fen": "rn1qkb1r/ppp2ppp/4pn2/4N3/3Pb1P1/2N5/PPP4P/R1BQKB1R w KQkq - 1 8",
+                                                                "children": [],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "Be4 develops a piece to an active square in the Blackmar-Diemer Gambit Accepted.",
+                                                                  "strategicTheme": "Bishop development",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "g4 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
+                                                              "strategicTheme": "Pawn structure",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "e6 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
+                                                          "strategicTheme": "Prophylactic pawn move",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "Ne5 develops a piece to an active square in the Blackmar-Diemer Gambit Accepted.",
+                                                      "strategicTheme": "Knight activity",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Bf5 develops a piece to an active square in the Blackmar-Diemer Gambit Accepted.",
+                                                  "strategicTheme": "Bishop development",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "Qd6",
+                                                "fen": "rnb1kb1r/ppp1pppp/3q1n2/8/3P4/2N2N2/PPP3PP/R1BQKB1R w KQkq - 1 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Qd6 activates the queen, increasing pressure in the Blackmar-Diemer Gambit Accepted.",
+                                                  "strategicTheme": "Queen activity",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "c5",
+                                                "fen": "rnbqkb1r/pp2pppp/5n2/2p5/3P4/2N2N2/PPP3PP/R1BQKB1R w KQkq - 0 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "c5 challenges the center from the flank in the Blackmar-Diemer Gambit Accepted.",
+                                                  "strategicTheme": "Asymmetric counter-play",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "Nc6",
+                                                "fen": "r1bqkb1r/ppp1pppp/2n2n2/8/3P4/2N2N2/PPP3PP/R1BQKB1R w KQkq - 1 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Blackmar-Diemer Gambit Accepted.",
+                                                  "strategicTheme": "Natural piece development",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "b6",
+                                                "fen": "rnbqkb1r/p1p1pppp/1p3n2/8/3P4/2N2N2/PPP3PP/R1BQKB1R w KQkq - 0 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Blackmar-Diemer Gambit Accepted.",
+                                                  "strategicTheme": "Fianchetto preparation",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "Nbd7",
+                                                "fen": "r1bqkb1r/pppnpppp/5n2/8/3P4/2N2N2/PPP3PP/R1BQKB1R w KQkq - 1 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Nbd7 develops a piece to an active square in the Blackmar-Diemer Gambit Accepted.",
+                                                  "strategicTheme": "Knight activity",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "Bg4",
+                                                "fen": "rn1qkb1r/ppp1pppp/5n2/8/3P2b1/2N2N2/PPP3PP/R1BQKB1R w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "h3",
+                                                    "fen": "rn1qkb1r/ppp1pppp/5n2/8/3P2b1/2N2N1P/PPP3P1/R1BQKB1R b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Bxf3",
+                                                        "fen": "rn1qkb1r/ppp1pppp/5n2/8/3P4/2N2b1P/PPP3P1/R1BQKB1R w KQkq - 0 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Qxf3",
+                                                            "fen": "rn1qkb1r/ppp1pppp/5n2/8/3P4/2N2Q1P/PPP3P1/R1B1KB1R b KQkq - 0 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "c6",
+                                                                "fen": "rn1qkb1r/pp2pppp/2p2n2/8/3P4/2N2Q1P/PPP3P1/R1B1KB1R w KQkq - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Qf2",
+                                                                    "fen": "rn1qkb1r/pp2pppp/2p2n2/8/3P4/2N4P/PPP2QP1/R1B1KB1R b KQkq - 1 8",
+                                                                    "children": [],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Qf2 activates the queen, increasing pressure in the Blackmar-Diemer Gambit Accepted.",
+                                                                      "strategicTheme": "Queen activity",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "move": "Be3",
+                                                                    "fen": "rn1qkb1r/pp2pppp/2p2n2/8/3P4/2N1BQ1P/PPP3P1/R3KB1R b KQkq - 1 8",
+                                                                    "children": [],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Be3 develops a piece to an active square in the Blackmar-Diemer Gambit Accepted.",
+                                                                      "strategicTheme": "Bishop development",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "move": "g4",
+                                                                    "fen": "rn1qkb1r/pp2pppp/2p2n2/8/3P2P1/2N2Q1P/PPP5/R1B1KB1R b KQkq - 0 8",
+                                                                    "children": [],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "g4 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
+                                                                      "strategicTheme": "Pawn structure",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": false,
+                                                                "annotation": {
+                                                                  "moveRationale": "c6 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
+                                                                  "strategicTheme": "Prophylactic pawn move",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Qxf3 exchanges material, altering the pawn structure in the Blackmar-Diemer Gambit Accepted.",
+                                                              "strategicTheme": "Material exchange",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "Bxf3 exchanges material, altering the pawn structure in the Blackmar-Diemer Gambit Accepted.",
+                                                          "strategicTheme": "Material exchange",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "h3 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Blackmar-Diemer Gambit Accepted.",
+                                                      "strategicTheme": "Prophylactic pawn move",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Bg4 develops a piece to an active square in the Blackmar-Diemer Gambit Accepted.",
+                                                  "strategicTheme": "Bishop development",
+                                                  "source": "generated"
+                                                }
+                                              },
+                                              {
+                                                "move": "c6",
+                                                "fen": "rnbqkb1r/pp2pppp/2p2n2/8/3P4/2N2N2/PPP3PP/R1BQKB1R w KQkq - 0 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "c6 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
+                                                  "strategicTheme": "Prophylactic pawn move",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Nxf3 exchanges material, altering the pawn structure in the Blackmar-Diemer Gambit Accepted.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "Qxf3",
+                                            "fen": "rnbqkb1r/ppp1pppp/5n2/8/3P4/2N2Q2/PPP3PP/R1B1KBNR b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Qxf3 exchanges material, altering the pawn structure in the Blackmar-Diemer Gambit Accepted.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
                                         "isMainLine": true,
                                         "annotation": {
                                           "moveRationale": "exf3 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
@@ -60,49 +501,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Blackmar-Diemer Gambit Accepted.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Black has developed his knight, to prevent White from taking the black pawn on e4. White 43%, Black 39%, Draw 18%.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White has brought his minor piece into action and taken control of the middle. Simultaneously, he has put pressure on Black's e4-pawn, which Black must now try and defend.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "White has given up his king's pawn, in hopes of an aggressive game. Since there is no way White can win a pawn back immediately, he can expect this set-up most times he plays the Blackmar-Diemar Gambit.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White offers their e4 pawn in exchange for quick development and open lines. At the professional level this move is considered somewhat suspect, but Black must be careful if they choose to take the pawn as there are many traps in this opening.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Blackmar-Diemer Gambit Accepted.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -156,7 +597,100 @@
                                               {
                                                 "move": "g6",
                                                 "fen": "rnbqkb1r/ppp1pp1p/5np1/8/3P4/2N2N2/PPP3PP/R1BQKB1R w KQkq - 0 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "Bc4",
+                                                    "fen": "rnbqkb1r/ppp1pp1p/5np1/8/2BP4/2N2N2/PPP3PP/R1BQK2R b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Bg7",
+                                                        "fen": "rnbqk2r/ppp1ppbp/5np1/8/2BP4/2N2N2/PPP3PP/R1BQK2R w KQkq - 2 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "O-O",
+                                                            "fen": "rnbqk2r/ppp1ppbp/5np1/8/2BP4/2N2N2/PPP3PP/R1BQ1RK1 b kq - 3 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "O-O",
+                                                                "fen": "rnbq1rk1/ppp1ppbp/5np1/8/2BP4/2N2N2/PPP3PP/R1BQ1RK1 w - - 4 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Kh1",
+                                                                    "fen": "rnbq1rk1/ppp1ppbp/5np1/8/2BP4/2N2N2/PPP3PP/R1BQ1R1K b - - 5 8",
+                                                                    "children": [],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Kh1 improves the position in the Blackmar-Diemer Gambit Accepted.",
+                                                                      "strategicTheme": "Position improvement",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "move": "Qe1",
+                                                                    "fen": "rnbq1rk1/ppp1ppbp/5np1/8/2BP4/2N2N2/PPP3PP/R1B1QRK1 b - - 5 8",
+                                                                    "children": [],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Qe1 activates the queen, increasing pressure in the Blackmar-Diemer Gambit Accepted.",
+                                                                      "strategicTheme": "Queen activity",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Blackmar-Diemer Gambit Accepted.",
+                                                                  "strategicTheme": "King safety",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": true,
+                                                            "annotation": {
+                                                              "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Blackmar-Diemer Gambit Accepted.",
+                                                              "strategicTheme": "King safety",
+                                                              "source": "generated"
+                                                            }
+                                                          },
+                                                          {
+                                                            "move": "h4",
+                                                            "fen": "rnbqk2r/ppp1ppbp/5np1/8/2BP3P/2N2N2/PPP3P1/R1BQK2R b KQkq - 0 7",
+                                                            "children": [],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "h4 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
+                                                              "strategicTheme": "Pawn structure",
+                                                              "source": "generated"
+                                                            }
+                                                          },
+                                                          {
+                                                            "move": "Ne5",
+                                                            "fen": "rnbqk2r/ppp1ppbp/5np1/4N3/2BP4/2N5/PPP3PP/R1BQK2R b KQkq - 3 7",
+                                                            "children": [],
+                                                            "isMainLine": false,
+                                                            "annotation": {
+                                                              "moveRationale": "Ne5 develops a piece to an active square in the Blackmar-Diemer Gambit Accepted.",
+                                                              "strategicTheme": "Knight activity",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Bg7 develops a piece to an active square in the Blackmar-Diemer Gambit Accepted.",
+                                                          "strategicTheme": "Bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Blackmar-Diemer Gambit Accepted.",
+                                                      "strategicTheme": "Active bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": true,
                                                 "annotation": {
                                                   "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Blackmar-Diemer Gambit Accepted.",
@@ -191,49 +725,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Blackmar-Diemer Gambit Accepted.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Black has developed his knight, to prevent White from taking the black pawn on e4. White 43%, Black 39%, Draw 18%.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White has brought his minor piece into action and taken control of the middle. Simultaneously, he has put pressure on Black's e4-pawn, which Black must now try and defend.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "White has given up his king's pawn, in hopes of an aggressive game. Since there is no way White can win a pawn back immediately, he can expect this set-up most times he plays the Blackmar-Diemar Gambit.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White offers their e4 pawn in exchange for quick development and open lines. At the professional level this move is considered somewhat suspect, but Black must be careful if they choose to take the pawn as there are many traps in this opening.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Blackmar-Diemer Gambit Accepted.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -382,49 +916,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Blackmar-Diemer Gambit Accepted.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Black has developed his knight, to prevent White from taking the black pawn on e4. White 43%, Black 39%, Draw 18%.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White has brought his minor piece into action and taken control of the middle. Simultaneously, he has put pressure on Black's e4-pawn, which Black must now try and defend.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "White has given up his king's pawn, in hopes of an aggressive game. Since there is no way White can win a pawn back immediately, he can expect this set-up most times he plays the Blackmar-Diemar Gambit.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White offers their e4 pawn in exchange for quick development and open lines. At the professional level this move is considered somewhat suspect, but Black must be careful if they choose to take the pawn as there are many traps in this opening.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Blackmar-Diemer Gambit Accepted.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -549,49 +1083,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Blackmar-Diemer Gambit Accepted.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Black has developed his knight, to prevent White from taking the black pawn on e4. White 43%, Black 39%, Draw 18%.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White has brought his minor piece into action and taken control of the middle. Simultaneously, he has put pressure on Black's e4-pawn, which Black must now try and defend.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "White has given up his king's pawn, in hopes of an aggressive game. Since there is no way White can win a pawn back immediately, he can expect this set-up most times he plays the Blackmar-Diemar Gambit.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White offers their e4 pawn in exchange for quick development and open lines. At the professional level this move is considered somewhat suspect, but Black must be careful if they choose to take the pawn as there are many traps in this opening.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Blackmar-Diemer Gambit Accepted.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -716,49 +1250,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Blackmar-Diemer Gambit Accepted.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Black has developed his knight, to prevent White from taking the black pawn on e4. White 43%, Black 39%, Draw 18%.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White has brought his minor piece into action and taken control of the middle. Simultaneously, he has put pressure on Black's e4-pawn, which Black must now try and defend.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "White has given up his king's pawn, in hopes of an aggressive game. Since there is no way White can win a pawn back immediately, he can expect this set-up most times he plays the Blackmar-Diemar Gambit.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White offers their e4 pawn in exchange for quick development and open lines. At the professional level this move is considered somewhat suspect, but Black must be careful if they choose to take the pawn as there are many traps in this opening.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Blackmar-Diemer Gambit Accepted.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -907,49 +1441,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Blackmar-Diemer Gambit Accepted.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Black has developed his knight, to prevent White from taking the black pawn on e4. White 43%, Black 39%, Draw 18%.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White has brought his minor piece into action and taken control of the middle. Simultaneously, he has put pressure on Black's e4-pawn, which Black must now try and defend.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "White has given up his king's pawn, in hopes of an aggressive game. Since there is no way White can win a pawn back immediately, he can expect this set-up most times he plays the Blackmar-Diemar Gambit.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White offers their e4 pawn in exchange for quick development and open lines. At the professional level this move is considered somewhat suspect, but Black must be careful if they choose to take the pawn as there are many traps in this opening.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Blackmar-Diemer Gambit Accepted.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1003,7 +1537,91 @@
                                               {
                                                 "move": "e6",
                                                 "fen": "rnbqkb1r/ppp2ppp/4pn2/8/3P4/2N2N2/PPP3PP/R1BQKB1R w KQkq - 0 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "Bg5",
+                                                    "fen": "rnbqkb1r/ppp2ppp/4pn2/6B1/3P4/2N2N2/PPP3PP/R2QKB1R b KQkq - 1 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Be7",
+                                                        "fen": "rnbqk2r/ppp1bppp/4pn2/6B1/3P4/2N2N2/PPP3PP/R2QKB1R w KQkq - 2 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Bd3",
+                                                            "fen": "rnbqk2r/ppp1bppp/4pn2/6B1/3P4/2NB1N2/PPP3PP/R2QK2R b KQkq - 3 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "Nc6",
+                                                                "fen": "r1bqk2r/ppp1bppp/2n1pn2/6B1/3P4/2NB1N2/PPP3PP/R2QK2R w KQkq - 4 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "O-O",
+                                                                    "fen": "r1bqk2r/ppp1bppp/2n1pn2/6B1/3P4/2NB1N2/PPP3PP/R2Q1RK1 b kq - 5 8",
+                                                                    "children": [
+                                                                      {
+                                                                        "move": "Nxd4",
+                                                                        "fen": "r1bqk2r/ppp1bppp/4pn2/6B1/3n4/2NB1N2/PPP3PP/R2Q1RK1 w kq - 0 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "move": "Kh1",
+                                                                            "fen": "r1bqk2r/ppp1bppp/4pn2/6B1/3n4/2NB1N2/PPP3PP/R2Q1R1K b kq - 1 9",
+                                                                            "children": [],
+                                                                            "isMainLine": true,
+                                                                            "annotation": {
+                                                                              "moveRationale": "Kh1 improves the position in the Blackmar-Diemer Gambit Accepted.",
+                                                                              "strategicTheme": "Position improvement",
+                                                                              "source": "generated"
+                                                                            }
+                                                                          }
+                                                                        ],
+                                                                        "isMainLine": true,
+                                                                        "annotation": {
+                                                                          "moveRationale": "Nxd4 exchanges material, altering the pawn structure in the Blackmar-Diemer Gambit Accepted.",
+                                                                          "strategicTheme": "Material exchange",
+                                                                          "source": "generated"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Blackmar-Diemer Gambit Accepted.",
+                                                                      "strategicTheme": "King safety",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Blackmar-Diemer Gambit Accepted.",
+                                                                  "strategicTheme": "Natural piece development",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": true,
+                                                            "annotation": {
+                                                              "moveRationale": "Bd3 develops a piece to an active square in the Blackmar-Diemer Gambit Accepted.",
+                                                              "strategicTheme": "Bishop development",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Blackmar-Diemer Gambit Accepted.",
+                                                          "strategicTheme": "Bishop development",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Bg5 develops a piece to an active square in the Blackmar-Diemer Gambit Accepted.",
+                                                      "strategicTheme": "Bishop development",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": true,
                                                 "annotation": {
                                                   "moveRationale": "e6 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
@@ -1038,49 +1656,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Blackmar-Diemer Gambit Accepted.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Black has developed his knight, to prevent White from taking the black pawn on e4. White 43%, Black 39%, Draw 18%.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White has brought his minor piece into action and taken control of the middle. Simultaneously, he has put pressure on Black's e4-pawn, which Black must now try and defend.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "White has given up his king's pawn, in hopes of an aggressive game. Since there is no way White can win a pawn back immediately, he can expect this set-up most times he plays the Blackmar-Diemar Gambit.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White offers their e4 pawn in exchange for quick development and open lines. At the professional level this move is considered somewhat suspect, but Black must be careful if they choose to take the pawn as there are many traps in this opening.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Blackmar-Diemer Gambit Accepted.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1253,49 +1871,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Blackmar-Diemer Gambit Accepted.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Black has developed his knight, to prevent White from taking the black pawn on e4. White 43%, Black 39%, Draw 18%.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White has brought his minor piece into action and taken control of the middle. Simultaneously, he has put pressure on Black's e4-pawn, which Black must now try and defend.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "White has given up his king's pawn, in hopes of an aggressive game. Since there is no way White can win a pawn back immediately, he can expect this set-up most times he plays the Blackmar-Diemar Gambit.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White offers their e4 pawn in exchange for quick development and open lines. At the professional level this move is considered somewhat suspect, but Black must be careful if they choose to take the pawn as there are many traps in this opening.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Blackmar-Diemer Gambit Accepted.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1349,7 +1967,55 @@
                                               {
                                                 "move": "Bf5",
                                                 "fen": "rn1qkb1r/ppp1pppp/5n2/5b2/3P4/2N2N2/PPP3PP/R1BQKB1R w KQkq - 1 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "Ne5",
+                                                    "fen": "rn1qkb1r/ppp1pppp/5n2/4Nb2/3P4/2N5/PPP3PP/R1BQKB1R b KQkq - 2 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "e6",
+                                                        "fen": "rn1qkb1r/ppp2ppp/4pn2/4Nb2/3P4/2N5/PPP3PP/R1BQKB1R w KQkq - 0 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "g4",
+                                                            "fen": "rn1qkb1r/ppp2ppp/4pn2/4Nb2/3P2P1/2N5/PPP4P/R1BQKB1R b KQkq - 0 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "Be4",
+                                                                "fen": "rn1qkb1r/ppp2ppp/4pn2/4N3/3Pb1P1/2N5/PPP4P/R1BQKB1R w KQkq - 1 8",
+                                                                "children": [],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "Be4 develops a piece to an active square in the Blackmar-Diemer Gambit Accepted.",
+                                                                  "strategicTheme": "Bishop development",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": true,
+                                                            "annotation": {
+                                                              "moveRationale": "g4 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
+                                                              "strategicTheme": "Pawn structure",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "e6 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
+                                                          "strategicTheme": "Prophylactic pawn move",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Ne5 develops a piece to an active square in the Blackmar-Diemer Gambit Accepted.",
+                                                      "strategicTheme": "Knight activity",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": true,
                                                 "annotation": {
                                                   "moveRationale": "Bf5 develops a piece to an active square in the Blackmar-Diemer Gambit Accepted.",
@@ -1384,49 +2050,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Blackmar-Diemer Gambit Accepted.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Black has developed his knight, to prevent White from taking the black pawn on e4. White 43%, Black 39%, Draw 18%.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White has brought his minor piece into action and taken control of the middle. Simultaneously, he has put pressure on Black's e4-pawn, which Black must now try and defend.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "White has given up his king's pawn, in hopes of an aggressive game. Since there is no way White can win a pawn back immediately, he can expect this set-up most times he plays the Blackmar-Diemar Gambit.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White offers their e4 pawn in exchange for quick development and open lines. At the professional level this move is considered somewhat suspect, but Black must be careful if they choose to take the pawn as there are many traps in this opening.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Blackmar-Diemer Gambit Accepted.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1563,49 +2229,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Blackmar-Diemer Gambit Accepted.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Black has developed his knight, to prevent White from taking the black pawn on e4. White 43%, Black 39%, Draw 18%.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White has brought his minor piece into action and taken control of the middle. Simultaneously, he has put pressure on Black's e4-pawn, which Black must now try and defend.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "White has given up his king's pawn, in hopes of an aggressive game. Since there is no way White can win a pawn back immediately, he can expect this set-up most times he plays the Blackmar-Diemar Gambit.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White offers their e4 pawn in exchange for quick development and open lines. At the professional level this move is considered somewhat suspect, but Black must be careful if they choose to take the pawn as there are many traps in this opening.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Blackmar-Diemer Gambit Accepted.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1694,49 +2360,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Blackmar-Diemer Gambit Accepted.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Black has developed his knight, to prevent White from taking the black pawn on e4. White 43%, Black 39%, Draw 18%.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White has brought his minor piece into action and taken control of the middle. Simultaneously, he has put pressure on Black's e4-pawn, which Black must now try and defend.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "White has given up his king's pawn, in hopes of an aggressive game. Since there is no way White can win a pawn back immediately, he can expect this set-up most times he plays the Blackmar-Diemar Gambit.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White offers their e4 pawn in exchange for quick development and open lines. At the professional level this move is considered somewhat suspect, but Black must be careful if they choose to take the pawn as there are many traps in this opening.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Blackmar-Diemer Gambit Accepted.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1825,49 +2491,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Blackmar-Diemer Gambit Accepted.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Black has developed his knight, to prevent White from taking the black pawn on e4. White 43%, Black 39%, Draw 18%.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White has brought his minor piece into action and taken control of the middle. Simultaneously, he has put pressure on Black's e4-pawn, which Black must now try and defend.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "White has given up his king's pawn, in hopes of an aggressive game. Since there is no way White can win a pawn back immediately, he can expect this set-up most times he plays the Blackmar-Diemar Gambit.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White offers their e4 pawn in exchange for quick development and open lines. At the professional level this move is considered somewhat suspect, but Black must be careful if they choose to take the pawn as there are many traps in this opening.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Blackmar-Diemer Gambit Accepted.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1956,49 +2622,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Blackmar-Diemer Gambit Accepted.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Black has developed his knight, to prevent White from taking the black pawn on e4. White 43%, Black 39%, Draw 18%.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White has brought his minor piece into action and taken control of the middle. Simultaneously, he has put pressure on Black's e4-pawn, which Black must now try and defend.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "White has given up his king's pawn, in hopes of an aggressive game. Since there is no way White can win a pawn back immediately, he can expect this set-up most times he plays the Blackmar-Diemar Gambit.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White offers their e4 pawn in exchange for quick development and open lines. At the professional level this move is considered somewhat suspect, but Black must be careful if they choose to take the pawn as there are many traps in this opening.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Blackmar-Diemer Gambit Accepted.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2087,49 +2753,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Blackmar-Diemer Gambit Accepted.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Black has developed his knight, to prevent White from taking the black pawn on e4. White 43%, Black 39%, Draw 18%.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White has brought his minor piece into action and taken control of the middle. Simultaneously, he has put pressure on Black's e4-pawn, which Black must now try and defend.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "White has given up his king's pawn, in hopes of an aggressive game. Since there is no way White can win a pawn back immediately, he can expect this set-up most times he plays the Blackmar-Diemar Gambit.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White offers their e4 pawn in exchange for quick development and open lines. At the professional level this move is considered somewhat suspect, but Black must be careful if they choose to take the pawn as there are many traps in this opening.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Blackmar-Diemer Gambit Accepted.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2206,49 +2872,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Blackmar-Diemer Gambit Accepted.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Black has developed his knight, to prevent White from taking the black pawn on e4. White 43%, Black 39%, Draw 18%.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White has brought his minor piece into action and taken control of the middle. Simultaneously, he has put pressure on Black's e4-pawn, which Black must now try and defend.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "White has given up his king's pawn, in hopes of an aggressive game. Since there is no way White can win a pawn back immediately, he can expect this set-up most times he plays the Blackmar-Diemar Gambit.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White offers their e4 pawn in exchange for quick development and open lines. At the professional level this move is considered somewhat suspect, but Black must be careful if they choose to take the pawn as there are many traps in this opening.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Blackmar-Diemer Gambit Accepted.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2337,49 +3003,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Blackmar-Diemer Gambit Accepted.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Black has developed his knight, to prevent White from taking the black pawn on e4. White 43%, Black 39%, Draw 18%.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White has brought his minor piece into action and taken control of the middle. Simultaneously, he has put pressure on Black's e4-pawn, which Black must now try and defend.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "White has given up his king's pawn, in hopes of an aggressive game. Since there is no way White can win a pawn back immediately, he can expect this set-up most times he plays the Blackmar-Diemar Gambit.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White offers their e4 pawn in exchange for quick development and open lines. At the professional level this move is considered somewhat suspect, but Black must be careful if they choose to take the pawn as there are many traps in this opening.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Blackmar-Diemer Gambit Accepted.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2433,7 +3099,89 @@
                                               {
                                                 "move": "Bg4",
                                                 "fen": "rn1qkb1r/ppp1pppp/5n2/8/3P2b1/2N2N2/PPP3PP/R1BQKB1R w KQkq - 1 6",
-                                                "children": [],
+                                                "children": [
+                                                  {
+                                                    "move": "h3",
+                                                    "fen": "rn1qkb1r/ppp1pppp/5n2/8/3P2b1/2N2N1P/PPP3P1/R1BQKB1R b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "Bxf3",
+                                                        "fen": "rn1qkb1r/ppp1pppp/5n2/8/3P4/2N2b1P/PPP3P1/R1BQKB1R w KQkq - 0 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "Qxf3",
+                                                            "fen": "rn1qkb1r/ppp1pppp/5n2/8/3P4/2N2Q1P/PPP3P1/R1B1KB1R b KQkq - 0 7",
+                                                            "children": [
+                                                              {
+                                                                "move": "c6",
+                                                                "fen": "rn1qkb1r/pp2pppp/2p2n2/8/3P4/2N2Q1P/PPP3P1/R1B1KB1R w KQkq - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "move": "Qf2",
+                                                                    "fen": "rn1qkb1r/pp2pppp/2p2n2/8/3P4/2N4P/PPP2QP1/R1B1KB1R b KQkq - 1 8",
+                                                                    "children": [],
+                                                                    "isMainLine": true,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Qf2 activates the queen, increasing pressure in the Blackmar-Diemer Gambit Accepted.",
+                                                                      "strategicTheme": "Queen activity",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "move": "Be3",
+                                                                    "fen": "rn1qkb1r/pp2pppp/2p2n2/8/3P4/2N1BQ1P/PPP3P1/R3KB1R b KQkq - 1 8",
+                                                                    "children": [],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "Be3 develops a piece to an active square in the Blackmar-Diemer Gambit Accepted.",
+                                                                      "strategicTheme": "Bishop development",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "move": "g4",
+                                                                    "fen": "rn1qkb1r/pp2pppp/2p2n2/8/3P2P1/2N2Q1P/PPP5/R1B1KB1R b KQkq - 0 8",
+                                                                    "children": [],
+                                                                    "isMainLine": false,
+                                                                    "annotation": {
+                                                                      "moveRationale": "g4 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
+                                                                      "strategicTheme": "Pawn structure",
+                                                                      "source": "generated"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "isMainLine": true,
+                                                                "annotation": {
+                                                                  "moveRationale": "c6 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
+                                                                  "strategicTheme": "Prophylactic pawn move",
+                                                                  "source": "generated"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "isMainLine": true,
+                                                            "annotation": {
+                                                              "moveRationale": "Qxf3 exchanges material, altering the pawn structure in the Blackmar-Diemer Gambit Accepted.",
+                                                              "strategicTheme": "Material exchange",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "Bxf3 exchanges material, altering the pawn structure in the Blackmar-Diemer Gambit Accepted.",
+                                                          "strategicTheme": "Material exchange",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "h3 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Blackmar-Diemer Gambit Accepted.",
+                                                      "strategicTheme": "Prophylactic pawn move",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
                                                 "isMainLine": true,
                                                 "annotation": {
                                                   "moveRationale": "Bg4 develops a piece to an active square in the Blackmar-Diemer Gambit Accepted.",
@@ -2468,49 +3216,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Blackmar-Diemer Gambit Accepted.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Black has developed his knight, to prevent White from taking the black pawn on e4. White 43%, Black 39%, Draw 18%.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White has brought his minor piece into action and taken control of the middle. Simultaneously, he has put pressure on Black's e4-pawn, which Black must now try and defend.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "White has given up his king's pawn, in hopes of an aggressive game. Since there is no way White can win a pawn back immediately, he can expect this set-up most times he plays the Blackmar-Diemar Gambit.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White offers their e4 pawn in exchange for quick development and open lines. At the professional level this move is considered somewhat suspect, but Black must be careful if they choose to take the pawn as there are many traps in this opening.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Blackmar-Diemer Gambit Accepted.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2659,49 +3407,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Blackmar-Diemer Gambit Accepted.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Black has developed his knight, to prevent White from taking the black pawn on e4. White 43%, Black 39%, Draw 18%.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White has brought his minor piece into action and taken control of the middle. Simultaneously, he has put pressure on Black's e4-pawn, which Black must now try and defend.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "White has given up his king's pawn, in hopes of an aggressive game. Since there is no way White can win a pawn back immediately, he can expect this set-up most times he plays the Blackmar-Diemar Gambit.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White offers their e4 pawn in exchange for quick development and open lines. At the professional level this move is considered somewhat suspect, but Black must be careful if they choose to take the pawn as there are many traps in this opening.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Blackmar-Diemer Gambit Accepted.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2850,49 +3598,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Blackmar-Diemer Gambit Accepted.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Black has developed his knight, to prevent White from taking the black pawn on e4. White 43%, Black 39%, Draw 18%.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White has brought his minor piece into action and taken control of the middle. Simultaneously, he has put pressure on Black's e4-pawn, which Black must now try and defend.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "White has given up his king's pawn, in hopes of an aggressive game. Since there is no way White can win a pawn back immediately, he can expect this set-up most times he plays the Blackmar-Diemar Gambit.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White offers their e4 pawn in exchange for quick development and open lines. At the professional level this move is considered somewhat suspect, but Black must be careful if they choose to take the pawn as there are many traps in this opening.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Blackmar-Diemer Gambit Accepted.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3041,49 +3789,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Blackmar-Diemer Gambit Accepted.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Black has developed his knight, to prevent White from taking the black pawn on e4. White 43%, Black 39%, Draw 18%.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White has brought his minor piece into action and taken control of the middle. Simultaneously, he has put pressure on Black's e4-pawn, which Black must now try and defend.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "White has given up his king's pawn, in hopes of an aggressive game. Since there is no way White can win a pawn back immediately, he can expect this set-up most times he plays the Blackmar-Diemar Gambit.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White offers their e4 pawn in exchange for quick development and open lines. At the professional level this move is considered somewhat suspect, but Black must be careful if they choose to take the pawn as there are many traps in this opening.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Blackmar-Diemer Gambit Accepted.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3172,49 +3920,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Blackmar-Diemer Gambit Accepted.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Black has developed his knight, to prevent White from taking the black pawn on e4. White 43%, Black 39%, Draw 18%.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White has brought his minor piece into action and taken control of the middle. Simultaneously, he has put pressure on Black's e4-pawn, which Black must now try and defend.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "White has given up his king's pawn, in hopes of an aggressive game. Since there is no way White can win a pawn back immediately, he can expect this set-up most times he plays the Blackmar-Diemar Gambit.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Blackmar-Diemer Gambit Accepted.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White offers their e4 pawn in exchange for quick development and open lines. At the professional level this move is considered somewhat suspect, but Black must be careful if they choose to take the pawn as there are many traps in this opening.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Blackmar-Diemer Gambit Accepted.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Blackmar-Diemer Gambit Accepted.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

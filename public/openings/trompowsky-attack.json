@@ -21,28 +21,359 @@
                   {
                     "move": "Bg5",
                     "fen": "rnbqkb1r/pppppppp/5n2/6B1/3P4/8/PPP1PPPP/RN1QKBNR b KQkq - 2 2",
-                    "children": [],
+                    "children": [
+                      {
+                        "move": "Ne4",
+                        "fen": "rnbqkb1r/pppppppp/8/6B1/3Pn3/8/PPP1PPPP/RN1QKBNR w KQkq - 3 3",
+                        "children": [
+                          {
+                            "move": "Bf4",
+                            "fen": "rnbqkb1r/pppppppp/8/8/3PnB2/8/PPP1PPPP/RN1QKBNR b KQkq - 4 3",
+                            "children": [
+                              {
+                                "move": "g5",
+                                "fen": "rnbqkb1r/pppppp1p/8/6p1/3PnB2/8/PPP1PPPP/RN1QKBNR w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "g5 is a dubious one move attack of the bishop that weakens the kingside and allows the Bf4 to sit on a strong outpost on e5.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "Bf4 is the normal retreat that we normally see. g5Be5\n\t\t\n\t\n\n\t\t\n\t\tc5dxc5.",
+                              "strategicTheme": "Opening theory",
+                              "source": "wikibooks"
+                            }
+                          },
+                          {
+                            "move": "Bh4",
+                            "fen": "rnbqkb1r/pppppppp/8/8/3Pn2B/8/PPP1PPPP/RN1QKBNR b KQkq - 4 3",
+                            "children": [
+                              {
+                                "move": "c6",
+                                "fen": "rnbqkb1r/pp1ppppp/2p5/8/3Pn2B/8/PPP1PPPP/RN1QKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Nd2",
+                                    "fen": "rnbqkb1r/pp1ppppp/2p5/8/3Pn2B/8/PPPNPPPP/R2QKBNR b KQkq - 1 4",
+                                    "children": [
+                                      {
+                                        "move": "Qa5",
+                                        "fen": "rnb1kb1r/pp1ppppp/2p5/q7/3Pn2B/8/PPPNPPPP/R2QKBNR w KQkq - 2 5",
+                                        "children": [
+                                          {
+                                            "move": "c3",
+                                            "fen": "rnb1kb1r/pp1ppppp/2p5/q7/3Pn2B/2P5/PP1NPPPP/R2QKBNR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Nxd2",
+                                                "fen": "rnb1kb1r/pp1ppppp/2p5/q7/3P3B/2P5/PP1nPPPP/R2QKBNR w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Qxd2",
+                                                    "fen": "rnb1kb1r/pp1ppppp/2p5/q7/3P3B/2P5/PP1QPPPP/R3KBNR b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "d5",
+                                                        "fen": "rnb1kb1r/pp2pppp/2p5/q2p4/3P3B/2P5/PP1QPPPP/R3KBNR w KQkq - 0 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "e4",
+                                                            "fen": "rnb1kb1r/pp2pppp/2p5/q2p4/3PP2B/2P5/PP1Q1PPP/R3KBNR b KQkq - 0 7",
+                                                            "children": [],
+                                                            "isMainLine": true,
+                                                            "annotation": {
+                                                              "moveRationale": "e4 impacts the center, shaping the pawn structure in the Trompowsky Attack.",
+                                                              "strategicTheme": "Central tension",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "d5 advances a pawn, influencing the structure in the Trompowsky Attack.",
+                                                          "strategicTheme": "Pawn structure",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Qxd2 exchanges material, altering the pawn structure in the Trompowsky Attack.",
+                                                      "strategicTheme": "Material exchange",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Nxd2 exchanges material, altering the pawn structure in the Trompowsky Attack.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "c3 advances a pawn, influencing the structure in the Trompowsky Attack.",
+                                              "strategicTheme": "Prophylactic pawn move",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Qa5 activates the queen, increasing pressure in the Trompowsky Attack.",
+                                          "strategicTheme": "Queen activity",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Nd2 develops a piece to an active square in the Trompowsky Attack.",
+                                      "strategicTheme": "Knight activity",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "c6 advances a pawn, influencing the structure in the Trompowsky Attack.",
+                                  "strategicTheme": "Prophylactic pawn move",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "d5",
+                                "fen": "rnbqkb1r/ppp1pppp/8/3p4/3Pn2B/8/PPP1PPPP/RN1QKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "f3",
+                                    "fen": "rnbqkb1r/ppp1pppp/8/3p4/3Pn2B/5P2/PPP1P1PP/RN1QKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Nf6",
+                                        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P3B/5P2/PPP1P1PP/RN1QKBNR w KQkq - 1 5",
+                                        "children": [
+                                          {
+                                            "move": "Nc3",
+                                            "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P3B/2N2P2/PPP1P1PP/R2QKBNR b KQkq - 2 5",
+                                            "children": [
+                                              {
+                                                "move": "Bf5",
+                                                "fen": "rn1qkb1r/ppp1pppp/5n2/3p1b2/3P3B/2N2P2/PPP1P1PP/R2QKBNR w KQkq - 3 6",
+                                                "children": [
+                                                  {
+                                                    "move": "e4",
+                                                    "fen": "rn1qkb1r/ppp1pppp/5n2/3p1b2/3PP2B/2N2P2/PPP3PP/R2QKBNR b KQkq - 0 6",
+                                                    "children": [],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Trompowsky Attack.",
+                                                      "strategicTheme": "Central tension",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Bf5 develops a piece to an active square in the Trompowsky Attack.",
+                                                  "strategicTheme": "Bishop development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Trompowsky Attack.",
+                                              "strategicTheme": "Natural piece development",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Nf6 develops a piece to an active square in the Trompowsky Attack.",
+                                          "strategicTheme": "Natural piece development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "f3 advances a pawn, influencing the structure in the Trompowsky Attack.",
+                                      "strategicTheme": "Prophylactic pawn move",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Trompowsky Attack.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Bh4 develops a piece to an active square in the Trompowsky Attack.",
+                              "strategicTheme": "Bishop development",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "h4",
+                            "fen": "rnbqkb1r/pppppppp/8/6B1/3Pn2P/8/PPP1PPP1/RN1QKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Nxg5",
+                                "fen": "rnbqkb1r/pppppppp/8/6n1/3P3P/8/PPP1PPP1/RN1QKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "hxg5",
+                                    "fen": "rnbqkb1r/pppppppp/8/6P1/3P4/8/PPP1PPP1/RN1QKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "e5",
+                                        "fen": "rnbqkb1r/pppp1ppp/8/4p1P1/3P4/8/PPP1PPP1/RN1QKBNR w KQkq - 0 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "e5 advances a pawn, influencing the structure in the Trompowsky Attack.",
+                                          "strategicTheme": "Pawn structure",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "hxg5 exchanges material, altering the pawn structure in the Trompowsky Attack.",
+                                      "strategicTheme": "Material exchange",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Nxg5 exchanges material, altering the pawn structure in the Trompowsky Attack.",
+                                  "strategicTheme": "Material exchange",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "h4 advances a pawn, influencing the structure in the Trompowsky Attack.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "Ne4 starts the Main Line Trompowsky Atack. Black attacks the bishop, thus forcing White to move it; the bishop usually moves to f4.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
+                        }
+                      },
+                      {
+                        "move": "e6",
+                        "fen": "rnbqkb1r/pppp1ppp/4pn2/6B1/3P4/8/PPP1PPPP/RN1QKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "e4",
+                            "fen": "rnbqkb1r/pppp1ppp/4pn2/6B1/3PP3/8/PPP2PPP/RN1QKBNR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "e4 impacts the center, shaping the pawn structure in the Trompowsky Attack.",
+                              "strategicTheme": "Central tension",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "Bg5 e6\n\n\t\n\t\t\n\t\t3\n\t\n\t\n\t\tQueen's Pawn Game\n\t\tNf3c5\n\t\tto 2. Bg5\n\t\n\t\n\t\tQueen's Pawn Game\n\t\te4h6\n\t\t\n\t\n\n* Nunn's Chess Openings.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
+                        }
+                      },
+                      {
+                        "move": "c5",
+                        "fen": "rnbqkb1r/pp1ppppp/5n2/2p3B1/3P4/8/PPP1PPPP/RN1QKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "d5",
+                            "fen": "rnbqkb1r/pp1ppppp/5n2/2pP2B1/8/8/PPP1PPPP/RN1QKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Qb6",
+                                "fen": "rnb1kb1r/pp1ppppp/1q3n2/2pP2B1/8/8/PPP1PPPP/RN1QKBNR w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "Nc3",
+                                    "fen": "rnb1kb1r/pp1ppppp/1q3n2/2pP2B1/8/2N5/PPP1PPPP/R2QKBNR b KQkq - 2 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Trompowsky Attack.",
+                                      "strategicTheme": "Natural piece development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Qb6 develops the queen early, seeking direct activity in the Trompowsky Attack.",
+                                  "strategicTheme": "Queen activity",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "d5 advances a pawn, influencing the structure in the Trompowsky Attack.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "c5 challenges the center from the flank in the Trompowsky Attack.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Bg5 develops a piece to an active square in the Trompowsky Attack.",
-                      "strategicTheme": "Bishop development",
-                      "source": "generated"
+                      "moveRationale": "The Trompowsky Attack is a new offbeat opening with less theory which involves White immediately putting the bishop on g5 attacking the knight. Usually in most variations (2.",
+                      "strategicTheme": "Piece development",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Trompowsky Attack.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Trompowsky Attack.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -83,49 +414,49 @@
                                 "children": [],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "g5 advances a pawn, influencing the structure in the Trompowsky Attack.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "g5 is a dubious one move attack of the bishop that weakens the kingside and allows the Bf4 to sit on a strong outpost on e5.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Bf4 develops a piece to an active square in the Trompowsky Attack.",
-                              "strategicTheme": "Bishop development",
-                              "source": "generated"
+                              "moveRationale": "Bf4 is the normal retreat that we normally see. g5Be5\n\t\t\n\t\n\n\t\t\n\t\tc5dxc5.",
+                              "strategicTheme": "Opening theory",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Ne4 develops a piece to an active square in the Trompowsky Attack.",
-                          "strategicTheme": "Knight activity",
-                          "source": "generated"
+                          "moveRationale": "Ne4 starts the Main Line Trompowsky Atack. Black attacks the bishop, thus forcing White to move it; the bishop usually moves to f4.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Bg5 develops a piece to an active square in the Trompowsky Attack.",
-                      "strategicTheme": "Bishop development",
-                      "source": "generated"
+                      "moveRationale": "The Trompowsky Attack is a new offbeat opening with less theory which involves White immediately putting the bishop on g5 attacking the knight. Usually in most variations (2.",
+                      "strategicTheme": "Piece development",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Trompowsky Attack.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Trompowsky Attack.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -155,36 +486,48 @@
                       {
                         "move": "e6",
                         "fen": "rnbqkb1r/pppp1ppp/4pn2/6B1/3P4/8/PPP1PPPP/RN1QKBNR w KQkq - 0 3",
-                        "children": [],
+                        "children": [
+                          {
+                            "move": "e4",
+                            "fen": "rnbqkb1r/pppp1ppp/4pn2/6B1/3PP3/8/PPP2PPP/RN1QKBNR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "e4 impacts the center, shaping the pawn structure in the Trompowsky Attack.",
+                              "strategicTheme": "Central tension",
+                              "source": "generated"
+                            }
+                          }
+                        ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Trompowsky Attack.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "Bg5 e6\n\n\t\n\t\t\n\t\t3\n\t\n\t\n\t\tQueen's Pawn Game\n\t\tNf3c5\n\t\tto 2. Bg5\n\t\n\t\n\t\tQueen's Pawn Game\n\t\te4h6\n\t\t\n\t\n\n* Nunn's Chess Openings.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Bg5 develops a piece to an active square in the Trompowsky Attack.",
-                      "strategicTheme": "Bishop development",
-                      "source": "generated"
+                      "moveRationale": "The Trompowsky Attack is a new offbeat opening with less theory which involves White immediately putting the bishop on g5 attacking the knight. Usually in most variations (2.",
+                      "strategicTheme": "Piece development",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Trompowsky Attack.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Trompowsky Attack.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -229,33 +572,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Trompowsky Attack.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "Bg5 e6\n\n\t\n\t\t\n\t\t3\n\t\n\t\n\t\tQueen's Pawn Game\n\t\tNf3c5\n\t\tto 2. Bg5\n\t\n\t\n\t\tQueen's Pawn Game\n\t\te4h6\n\t\t\n\t\n\n* Nunn's Chess Openings.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Bg5 develops a piece to an active square in the Trompowsky Attack.",
-                      "strategicTheme": "Bishop development",
-                      "source": "generated"
+                      "moveRationale": "The Trompowsky Attack is a new offbeat opening with less theory which involves White immediately putting the bishop on g5 attacking the knight. Usually in most variations (2.",
+                      "strategicTheme": "Piece development",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Trompowsky Attack.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Trompowsky Attack.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -289,7 +632,174 @@
                           {
                             "move": "Bh4",
                             "fen": "rnbqkb1r/pppppppp/8/8/3Pn2B/8/PPP1PPPP/RN1QKBNR b KQkq - 4 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "c6",
+                                "fen": "rnbqkb1r/pp1ppppp/2p5/8/3Pn2B/8/PPP1PPPP/RN1QKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Nd2",
+                                    "fen": "rnbqkb1r/pp1ppppp/2p5/8/3Pn2B/8/PPPNPPPP/R2QKBNR b KQkq - 1 4",
+                                    "children": [
+                                      {
+                                        "move": "Qa5",
+                                        "fen": "rnb1kb1r/pp1ppppp/2p5/q7/3Pn2B/8/PPPNPPPP/R2QKBNR w KQkq - 2 5",
+                                        "children": [
+                                          {
+                                            "move": "c3",
+                                            "fen": "rnb1kb1r/pp1ppppp/2p5/q7/3Pn2B/2P5/PP1NPPPP/R2QKBNR b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Nxd2",
+                                                "fen": "rnb1kb1r/pp1ppppp/2p5/q7/3P3B/2P5/PP1nPPPP/R2QKBNR w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Qxd2",
+                                                    "fen": "rnb1kb1r/pp1ppppp/2p5/q7/3P3B/2P5/PP1QPPPP/R3KBNR b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "d5",
+                                                        "fen": "rnb1kb1r/pp2pppp/2p5/q2p4/3P3B/2P5/PP1QPPPP/R3KBNR w KQkq - 0 7",
+                                                        "children": [
+                                                          {
+                                                            "move": "e4",
+                                                            "fen": "rnb1kb1r/pp2pppp/2p5/q2p4/3PP2B/2P5/PP1Q1PPP/R3KBNR b KQkq - 0 7",
+                                                            "children": [],
+                                                            "isMainLine": true,
+                                                            "annotation": {
+                                                              "moveRationale": "e4 impacts the center, shaping the pawn structure in the Trompowsky Attack.",
+                                                              "strategicTheme": "Central tension",
+                                                              "source": "generated"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "d5 advances a pawn, influencing the structure in the Trompowsky Attack.",
+                                                          "strategicTheme": "Pawn structure",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Qxd2 exchanges material, altering the pawn structure in the Trompowsky Attack.",
+                                                      "strategicTheme": "Material exchange",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Nxd2 exchanges material, altering the pawn structure in the Trompowsky Attack.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "c3 advances a pawn, influencing the structure in the Trompowsky Attack.",
+                                              "strategicTheme": "Prophylactic pawn move",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Qa5 activates the queen, increasing pressure in the Trompowsky Attack.",
+                                          "strategicTheme": "Queen activity",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Nd2 develops a piece to an active square in the Trompowsky Attack.",
+                                      "strategicTheme": "Knight activity",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "c6 advances a pawn, influencing the structure in the Trompowsky Attack.",
+                                  "strategicTheme": "Prophylactic pawn move",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "d5",
+                                "fen": "rnbqkb1r/ppp1pppp/8/3p4/3Pn2B/8/PPP1PPPP/RN1QKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "f3",
+                                    "fen": "rnbqkb1r/ppp1pppp/8/3p4/3Pn2B/5P2/PPP1P1PP/RN1QKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Nf6",
+                                        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P3B/5P2/PPP1P1PP/RN1QKBNR w KQkq - 1 5",
+                                        "children": [
+                                          {
+                                            "move": "Nc3",
+                                            "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P3B/2N2P2/PPP1P1PP/R2QKBNR b KQkq - 2 5",
+                                            "children": [
+                                              {
+                                                "move": "Bf5",
+                                                "fen": "rn1qkb1r/ppp1pppp/5n2/3p1b2/3P3B/2N2P2/PPP1P1PP/R2QKBNR w KQkq - 3 6",
+                                                "children": [
+                                                  {
+                                                    "move": "e4",
+                                                    "fen": "rn1qkb1r/ppp1pppp/5n2/3p1b2/3PP2B/2N2P2/PPP3PP/R2QKBNR b KQkq - 0 6",
+                                                    "children": [],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Trompowsky Attack.",
+                                                      "strategicTheme": "Central tension",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Bf5 develops a piece to an active square in the Trompowsky Attack.",
+                                                  "strategicTheme": "Bishop development",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Trompowsky Attack.",
+                                              "strategicTheme": "Natural piece development",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Nf6 develops a piece to an active square in the Trompowsky Attack.",
+                                          "strategicTheme": "Natural piece development",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "f3 advances a pawn, influencing the structure in the Trompowsky Attack.",
+                                      "strategicTheme": "Prophylactic pawn move",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Trompowsky Attack.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": true,
                             "annotation": {
                               "moveRationale": "Bh4 develops a piece to an active square in the Trompowsky Attack.",
@@ -300,33 +810,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Ne4 develops a piece to an active square in the Trompowsky Attack.",
-                          "strategicTheme": "Knight activity",
-                          "source": "generated"
+                          "moveRationale": "Ne4 starts the Main Line Trompowsky Atack. Black attacks the bishop, thus forcing White to move it; the bishop usually moves to f4.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Bg5 develops a piece to an active square in the Trompowsky Attack.",
-                      "strategicTheme": "Bishop development",
-                      "source": "generated"
+                      "moveRationale": "The Trompowsky Attack is a new offbeat opening with less theory which involves White immediately putting the bishop on g5 attacking the knight. Usually in most variations (2.",
+                      "strategicTheme": "Piece development",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Trompowsky Attack.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Trompowsky Attack.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -467,33 +977,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Ne4 develops a piece to an active square in the Trompowsky Attack.",
-                          "strategicTheme": "Knight activity",
-                          "source": "generated"
+                          "moveRationale": "Ne4 starts the Main Line Trompowsky Atack. Black attacks the bishop, thus forcing White to move it; the bishop usually moves to f4.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Bg5 develops a piece to an active square in the Trompowsky Attack.",
-                      "strategicTheme": "Bishop development",
-                      "source": "generated"
+                      "moveRationale": "The Trompowsky Attack is a new offbeat opening with less theory which involves White immediately putting the bishop on g5 attacking the knight. Usually in most variations (2.",
+                      "strategicTheme": "Piece development",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Trompowsky Attack.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Trompowsky Attack.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -610,33 +1120,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Ne4 develops a piece to an active square in the Trompowsky Attack.",
-                          "strategicTheme": "Knight activity",
-                          "source": "generated"
+                          "moveRationale": "Ne4 starts the Main Line Trompowsky Atack. Black attacks the bishop, thus forcing White to move it; the bishop usually moves to f4.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Bg5 develops a piece to an active square in the Trompowsky Attack.",
-                      "strategicTheme": "Bishop development",
-                      "source": "generated"
+                      "moveRationale": "The Trompowsky Attack is a new offbeat opening with less theory which involves White immediately putting the bishop on g5 attacking the knight. Usually in most variations (2.",
+                      "strategicTheme": "Piece development",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Trompowsky Attack.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Trompowsky Attack.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -713,25 +1223,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Bg5 develops a piece to an active square in the Trompowsky Attack.",
-                      "strategicTheme": "Bishop development",
-                      "source": "generated"
+                      "moveRationale": "The Trompowsky Attack is a new offbeat opening with less theory which involves White immediately putting the bishop on g5 attacking the knight. Usually in most variations (2.",
+                      "strategicTheme": "Piece development",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Trompowsky Attack.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Trompowsky Attack.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -765,7 +1275,43 @@
                           {
                             "move": "h4",
                             "fen": "rnbqkb1r/pppppppp/8/6B1/3Pn2P/8/PPP1PPP1/RN1QKBNR b KQkq - 0 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "Nxg5",
+                                "fen": "rnbqkb1r/pppppppp/8/6n1/3P3P/8/PPP1PPP1/RN1QKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "hxg5",
+                                    "fen": "rnbqkb1r/pppppppp/8/6P1/3P4/8/PPP1PPP1/RN1QKBNR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "e5",
+                                        "fen": "rnbqkb1r/pppp1ppp/8/4p1P1/3P4/8/PPP1PPP1/RN1QKBNR w KQkq - 0 5",
+                                        "children": [],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "e5 advances a pawn, influencing the structure in the Trompowsky Attack.",
+                                          "strategicTheme": "Pawn structure",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "hxg5 exchanges material, altering the pawn structure in the Trompowsky Attack.",
+                                      "strategicTheme": "Material exchange",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Nxg5 exchanges material, altering the pawn structure in the Trompowsky Attack.",
+                                  "strategicTheme": "Material exchange",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": true,
                             "annotation": {
                               "moveRationale": "h4 advances a pawn, influencing the structure in the Trompowsky Attack.",
@@ -776,33 +1322,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Ne4 develops a piece to an active square in the Trompowsky Attack.",
-                          "strategicTheme": "Knight activity",
-                          "source": "generated"
+                          "moveRationale": "Ne4 starts the Main Line Trompowsky Atack. Black attacks the bishop, thus forcing White to move it; the bishop usually moves to f4.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Bg5 develops a piece to an active square in the Trompowsky Attack.",
-                      "strategicTheme": "Bishop development",
-                      "source": "generated"
+                      "moveRationale": "The Trompowsky Attack is a new offbeat opening with less theory which involves White immediately putting the bishop on g5 attacking the knight. Usually in most variations (2.",
+                      "strategicTheme": "Piece development",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Trompowsky Attack.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Trompowsky Attack.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -883,33 +1429,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Ne4 develops a piece to an active square in the Trompowsky Attack.",
-                          "strategicTheme": "Knight activity",
-                          "source": "generated"
+                          "moveRationale": "Ne4 starts the Main Line Trompowsky Atack. Black attacks the bishop, thus forcing White to move it; the bishop usually moves to f4.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Bg5 develops a piece to an active square in the Trompowsky Attack.",
-                      "strategicTheme": "Bishop development",
-                      "source": "generated"
+                      "moveRationale": "The Trompowsky Attack is a new offbeat opening with less theory which involves White immediately putting the bishop on g5 attacking the knight. Usually in most variations (2.",
+                      "strategicTheme": "Piece development",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Trompowsky Attack.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Trompowsky Attack.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

@@ -21,28 +21,75 @@
                   {
                     "move": "Bb5",
                     "fen": "rnbqkbnr/pppp1ppp/8/1B2p3/4P3/8/PPPP1PPP/RNBQK1NR b KQkq - 1 2",
-                    "children": [],
+                    "children": [
+                      {
+                        "move": "Bc5",
+                        "fen": "rnbqk1nr/pppp1ppp/8/1Bb1p3/4P3/8/PPPP1PPP/RNBQK1NR w KQkq - 2 3",
+                        "children": [
+                          {
+                            "move": "b4",
+                            "fen": "rnbqk1nr/pppp1ppp/8/1Bb1p3/1P2P3/8/P1PP1PPP/RNBQK1NR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "In this line, White attempts to directly challenge Black's control of the center with the sacrifice of the pawn on b4. As in the Evans Gambit, after Black's most obvious move 3.",
+                              "strategicTheme": "Center control",
+                              "source": "wikibooks"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "This is a good developing move. is the dubious Miguel Gambit.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
+                        }
+                      },
+                      {
+                        "move": "Nf6",
+                        "fen": "rnbqkb1r/pppp1ppp/5n2/1B2p3/4P3/8/PPPP1PPP/RNBQK1NR w KQkq - 2 3",
+                        "children": [
+                          {
+                            "move": "d4",
+                            "fen": "rnbqkb1r/pppp1ppp/5n2/1B2p3/3PP3/8/PPP2PPP/RNBQK1NR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "d4 impacts the center, shaping the pawn structure in the Portuguese Opening.",
+                              "strategicTheme": "Central tension",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Portuguese Opening.",
+                          "strategicTheme": "Natural piece development",
+                          "source": "generated"
+                        }
+                      }
+                    ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Bb5 pins or eyes the knight, creating positional tension in the Portuguese Opening.",
-                      "strategicTheme": "Bishop development",
-                      "source": "generated"
+                      "moveRationale": "The Portuguese Opening is a rare opening starting with the moves 1. The bishop is ineffective on the b5 square when there is no black knight on c6.",
+                      "strategicTheme": "Piece development",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Portuguese Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Portuguese Opening.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -79,41 +126,41 @@
                             "children": [],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "b4 advances a pawn, influencing the structure in the Portuguese Opening.",
-                              "strategicTheme": "Pawn structure",
-                              "source": "generated"
+                              "moveRationale": "In this line, White attempts to directly challenge Black's control of the center with the sacrifice of the pawn on b4. As in the Evans Gambit, after Black's most obvious move 3.",
+                              "strategicTheme": "Center control",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Bc5 develops the bishop actively, targeting the vulnerable f7/f2 square in the Portuguese Opening.",
-                          "strategicTheme": "Active bishop development",
-                          "source": "generated"
+                          "moveRationale": "This is a good developing move. is the dubious Miguel Gambit.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Bb5 pins or eyes the knight, creating positional tension in the Portuguese Opening.",
-                      "strategicTheme": "Bishop development",
-                      "source": "generated"
+                      "moveRationale": "The Portuguese Opening is a rare opening starting with the moves 1. The bishop is ineffective on the b5 square when there is no black knight on c6.",
+                      "strategicTheme": "Piece development",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Portuguese Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Portuguese Opening.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -166,25 +213,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Bb5 pins or eyes the knight, creating positional tension in the Portuguese Opening.",
-                      "strategicTheme": "Bishop development",
-                      "source": "generated"
+                      "moveRationale": "The Portuguese Opening is a rare opening starting with the moves 1. The bishop is ineffective on the b5 square when there is no black knight on c6.",
+                      "strategicTheme": "Piece development",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Portuguese Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Portuguese Opening.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

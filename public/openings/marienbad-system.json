@@ -41,7 +41,43 @@
                                       {
                                         "move": "c5",
                                         "fen": "rn1qkb1r/pb1ppppp/1p3n2/2p5/3P4/5NP1/PPP1PPBP/RNBQK2R w KQkq - 0 5",
-                                        "children": [],
+                                        "children": [
+                                          {
+                                            "move": "c4",
+                                            "fen": "rn1qkb1r/pb1ppppp/1p3n2/2p5/2PP4/5NP1/PP2PPBP/RNBQK2R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "cxd4",
+                                                "fen": "rn1qkb1r/pb1ppppp/1p3n2/8/2Pp4/5NP1/PP2PPBP/RNBQK2R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Qxd4",
+                                                    "fen": "rn1qkb1r/pb1ppppp/1p3n2/8/2PQ4/5NP1/PP2PPBP/RNB1K2R b KQkq - 0 6",
+                                                    "children": [],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Qxd4 exchanges material, altering the pawn structure in the Marienbad System.",
+                                                      "strategicTheme": "Material exchange",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "cxd4 exchanges material, altering the pawn structure in the Marienbad System.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "c4 gains space on the queenside in the Marienbad System.",
+                                              "strategicTheme": "Pawn structure",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
                                         "isMainLine": true,
                                         "annotation": {
                                           "moveRationale": "c5 challenges the center from the flank in the Marienbad System.",
@@ -84,25 +120,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Marienbad System.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "This move keeps White's options open: they can first see how Black intends to play before deciding on a response. If, for example, White likes to play against the King's Indian defence with c4, but wants to avoid lines involving c4 and.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Marienbad System.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Marienbad System.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -227,25 +263,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Marienbad System.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "This move keeps White's options open: they can first see how Black intends to play before deciding on a response. If, for example, White likes to play against the King's Indian defence with c4, but wants to avoid lines involving c4 and.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Marienbad System.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Marienbad System.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

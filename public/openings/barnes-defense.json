@@ -17,20 +17,79 @@
               {
                 "move": "f6",
                 "fen": "rnbqkbnr/ppppp1pp/5p2/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
-                "children": [],
+                "children": [
+                  {
+                    "move": "d4",
+                    "fen": "rnbqkbnr/ppppp1pp/5p2/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "Kf7",
+                        "fen": "rnbq1bnr/pppppkpp/5p2/8/3PP3/8/PPP2PPP/RNBQKBNR w KQ - 1 3",
+                        "children": [],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "Kf7 improves the position in the Barnes Defense.",
+                          "strategicTheme": "Position improvement",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "b6",
+                        "fen": "rnbqkbnr/p1ppp1pp/1p3p2/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "c4",
+                            "fen": "rnbqkbnr/p1ppp1pp/1p3p2/8/2PPP3/8/PP3PPP/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Bb7",
+                                "fen": "rn1qkbnr/pbppp1pp/1p3p2/8/2PPP3/8/PP3PPP/RNBQKBNR w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Bb7 develops a piece to an active square in the Barnes Defense.",
+                                  "strategicTheme": "Bishop development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "c4 gains space on the queenside in the Barnes Defense.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Barnes Defense.",
+                          "strategicTheme": "Fianchetto preparation",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Barnes Defense.",
+                      "strategicTheme": "Central tension",
+                      "source": "generated"
+                    }
+                  }
+                ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "f6 advances a pawn, influencing the structure in the Barnes Defense.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "is considered a poor reply. Black has squandered their chance to prevent 2.",
+                  "strategicTheme": "Piece development",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Barnes Defense.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

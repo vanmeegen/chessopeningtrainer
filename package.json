@@ -14,7 +14,11 @@
     "test:e2e": "node scripts/check-playwright.mjs && playwright test",
     "test:e2e:ui": "node scripts/check-playwright.mjs && playwright test --ui",
     "playwright:install": "playwright install",
-    "build:openings": "npx tsx scripts/compile-opening-data.ts",
+    "build:openings": "tsx scripts/compile-opening-data.ts",
+    "build:database": "tsx scripts/build-database.ts",
+    "extend:variants": "tsx scripts/extend-variants.ts",
+    "fetch:wikibooks": "tsx scripts/fetch-wikibooks-cache.ts",
+    "fetch:annotations": "tsx scripts/fetch-wikibooks-cache.ts",
     "prepare": "husky"
   },
   "lint-staged": {
@@ -27,6 +31,7 @@
     ]
   },
   "dependencies": {
+    "@chess-openings/eco.json": "^2.0.3",
     "chess.js": "^1.4.0",
     "idb": "^8.0.3",
     "mobx": "^6.15.0",
@@ -56,6 +61,7 @@
     "lint-staged": "^16.3.2",
     "playwright": "^1.58.2",
     "prettier": "^3.8.1",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.56.1",
     "vite": "^7.3.1",

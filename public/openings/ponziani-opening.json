@@ -29,44 +29,335 @@
                           {
                             "move": "c3",
                             "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/2P2N2/PP1P1PPP/RNBQKB1R b KQkq - 0 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "d5",
+                                "fen": "r1bqkbnr/ppp2ppp/2n5/3pp3/4P3/2P2N2/PP1P1PPP/RNBQKB1R w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Qa4",
+                                    "fen": "r1bqkbnr/ppp2ppp/2n5/3pp3/Q3P3/2P2N2/PP1P1PPP/RNB1KB1R b KQkq - 1 4",
+                                    "children": [
+                                      {
+                                        "move": "Bd7",
+                                        "fen": "r2qkbnr/pppb1ppp/2n5/3pp3/Q3P3/2P2N2/PP1P1PPP/RNB1KB1R w KQkq - 2 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Bd7 develops a piece to an active square in the Ponziani Opening.",
+                                          "strategicTheme": "Bishop development",
+                                          "source": "generated"
+                                        }
+                                      },
+                                      {
+                                        "move": "Nf6",
+                                        "fen": "r1bqkb1r/ppp2ppp/2n2n2/3pp3/Q3P3/2P2N2/PP1P1PPP/RNB1KB1R w KQkq - 2 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Ponziani Opening.",
+                                          "strategicTheme": "Natural piece development",
+                                          "source": "generated"
+                                        }
+                                      },
+                                      {
+                                        "move": "f6",
+                                        "fen": "r1bqkbnr/ppp3pp/2n2p2/3pp3/Q3P3/2P2N2/PP1P1PPP/RNB1KB1R w KQkq - 0 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "f6 advances a pawn, influencing the structure in the Ponziani Opening.",
+                                          "strategicTheme": "Prophylactic pawn move",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "By pinning Black's knight on c6 to their king, 4. Qa4 undefends Black's e pawn and threatens Nxe5.",
+                                      "strategicTheme": "Gambit play",
+                                      "source": "wikibooks"
+                                    }
+                                  },
+                                  {
+                                    "move": "Bb5",
+                                    "fen": "r1bqkbnr/ppp2ppp/2n5/1B1pp3/4P3/2P2N2/PP1P1PPP/RNBQK2R b KQkq - 1 4",
+                                    "children": [
+                                      {
+                                        "move": "dxe4",
+                                        "fen": "r1bqkbnr/ppp2ppp/2n5/1B2p3/4p3/2P2N2/PP1P1PPP/RNBQK2R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "Nxe5",
+                                            "fen": "r1bqkbnr/ppp2ppp/2n5/1B2N3/4p3/2P5/PP1P1PPP/RNBQK2R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Qd5",
+                                                "fen": "r1b1kbnr/ppp2ppp/2n5/1B1qN3/4p3/2P5/PP1P1PPP/RNBQK2R w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Qa4",
+                                                    "fen": "r1b1kbnr/ppp2ppp/2n5/1B1qN3/Q3p3/2P5/PP1P1PPP/RNB1K2R b KQkq - 2 6",
+                                                    "children": [],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Qa4 activates the queen, increasing pressure in the Ponziani Opening.",
+                                                      "strategicTheme": "Queen activity",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Qd5 activates the queen, increasing pressure in the Ponziani Opening.",
+                                                  "strategicTheme": "Queen activity",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Ponziani Opening.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Ponziani Opening.",
+                                          "strategicTheme": "Central tension",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Bb5 pins or eyes the knight, creating positional tension in the Ponziani Opening.",
+                                      "strategicTheme": "Bishop development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "d5 Black threatens dxe4, taking advantage of the fact that, if 4. exd5 Qxd5, Nc3 is not an option to chase the queen away because White has played c3.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
+                                }
+                              },
+                              {
+                                "move": "Nf6",
+                                "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/4P3/2P2N2/PP1P1PPP/RNBQKB1R w KQkq - 1 4",
+                                "children": [
+                                  {
+                                    "move": "d3",
+                                    "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/4P3/2PP1N2/PP3PPP/RNBQKB1R b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "d5",
+                                        "fen": "r1bqkb1r/ppp2ppp/2n2n2/3pp3/4P3/2PP1N2/PP3PPP/RNBQKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "Nbd2",
+                                            "fen": "r1bqkb1r/ppp2ppp/2n2n2/3pp3/4P3/2PP1N2/PP1N1PPP/R1BQKB1R b KQkq - 1 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Nbd2 develops a piece to an active square in the Ponziani Opening.",
+                                              "strategicTheme": "Knight activity",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "d5 advances a pawn, influencing the structure in the Ponziani Opening.",
+                                          "strategicTheme": "Pawn structure",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Ponziani Opening.",
+                                      "strategicTheme": "Solid center support",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "Bc4",
+                                    "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/2P2N2/PP1P1PPP/RNBQK2R b KQkq - 2 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Ponziani Opening.",
+                                      "strategicTheme": "Active bishop development",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "d4",
+                                    "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/3PP3/2P2N2/PP3PPP/RNBQKB1R b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Nxe4",
+                                        "fen": "r1bqkb1r/pppp1ppp/2n5/4p3/3Pn3/2P2N2/PP3PPP/RNBQKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "d5",
+                                            "fen": "r1bqkb1r/pppp1ppp/2n5/3Pp3/4n3/2P2N2/PP3PPP/RNBQKB1R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Bc5",
+                                                "fen": "r1bqk2r/pppp1ppp/2n5/2bPp3/4n3/2P2N2/PP3PPP/RNBQKB1R w KQkq - 1 6",
+                                                "children": [],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "Black gambits their knight on c6 with 5. Bc5, the Vuković gambit or Fraser defence.",
+                                                  "strategicTheme": "Gambit play",
+                                                  "source": "wikibooks"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "White attacks Black's c6 knight. Black has two main options; going into a calmer continuation with 5.",
+                                              "strategicTheme": "Gambit play",
+                                              "source": "wikibooks"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "Nxe4 takes White's undefended e4 pawn. This move is the main continuation at higher levels.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "d4, White ignores the attack on the e-pawn and counterattacks Black's central pawn on e5. Black's best moves are to choose a central pawn to capture, 4.",
+                                      "strategicTheme": "Gambit play",
+                                      "source": "wikibooks"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Nf6, the Jaenisch counterattack, is Black's most popular retort to the Ponziani and most serious alternative to 3. Nf6 targets White's e4 pawn, taking advantage of the fact that White cannot play Nc3 to defend it.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
+                                }
+                              },
+                              {
+                                "move": "f5",
+                                "fen": "r1bqkbnr/pppp2pp/2n5/4pp2/4P3/2P2N2/PP1P1PPP/RNBQKB1R w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "d4",
+                                    "fen": "r1bqkbnr/pppp2pp/2n5/4pp2/3PP3/2P2N2/PP3PPP/RNBQKB1R b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "d6",
+                                        "fen": "r1bqkbnr/ppp3pp/2np4/4pp2/3PP3/2P2N2/PP3PPP/RNBQKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "d5",
+                                            "fen": "r1bqkbnr/ppp3pp/2np4/3Ppp2/4P3/2P2N2/PP3PPP/RNBQKB1R b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "d5 advances a pawn, influencing the structure in the Ponziani Opening.",
+                                              "strategicTheme": "Pawn structure",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "d6 advances a pawn, influencing the structure in the Ponziani Opening.",
+                                          "strategicTheme": "Prophylactic pawn move",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Ponziani Opening.",
+                                      "strategicTheme": "Central tension",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "This is the dangerous but exciting Ponziani Countergambit. It sacrifices the F pawn, but attacks E4 and prepares the develop the G1 knight.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
+                                }
+                              },
+                              {
+                                "move": "Be7",
+                                "fen": "r1bqk1nr/ppppbppp/2n5/4p3/4P3/2P2N2/PP1P1PPP/RNBQKB1R w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Ponziani Opening.",
+                                  "strategicTheme": "Bishop development",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "Nge7",
+                                "fen": "r1bqkb1r/ppppnppp/2n5/4p3/4P3/2P2N2/PP1P1PPP/RNBQKB1R w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Nge7 develops a piece to an active square in the Ponziani Opening.",
+                                  "strategicTheme": "Knight activity",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "c3 advances a pawn, influencing the structure in the Ponziani Opening.",
-                              "strategicTheme": "Prophylactic pawn move",
-                              "source": "generated"
+                              "moveRationale": "c3 is the Ponziani opening. White announces they are determined to achieve 4.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Ponziani Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "Nc6 is the natural and most common move, combining defence of the pawn with control of the d4 square. Black avoids committing another pawn for now.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Ponziani Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Ponziani Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Ponziani Opening.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -123,57 +414,57 @@
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "Qa4 activates the queen, increasing pressure in the Ponziani Opening.",
-                                      "strategicTheme": "Queen activity",
-                                      "source": "generated"
+                                      "moveRationale": "By pinning Black's knight on c6 to their king, 4. Qa4 undefends Black's e pawn and threatens Nxe5.",
+                                      "strategicTheme": "Gambit play",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Ponziani Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "d5 Black threatens dxe4, taking advantage of the fact that, if 4. exd5 Qxd5, Nc3 is not an option to chase the queen away because White has played c3.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "c3 advances a pawn, influencing the structure in the Ponziani Opening.",
-                              "strategicTheme": "Prophylactic pawn move",
-                              "source": "generated"
+                              "moveRationale": "c3 is the Ponziani opening. White announces they are determined to achieve 4.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Ponziani Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "Nc6 is the natural and most common move, combining defence of the pawn with control of the d4 square. Black avoids committing another pawn for now.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Ponziani Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Ponziani Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Ponziani Opening.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -211,52 +502,146 @@
                               {
                                 "move": "Nf6",
                                 "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/4P3/2P2N2/PP1P1PPP/RNBQKB1R w KQkq - 1 4",
-                                "children": [],
+                                "children": [
+                                  {
+                                    "move": "d3",
+                                    "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/4P3/2PP1N2/PP3PPP/RNBQKB1R b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "d5",
+                                        "fen": "r1bqkb1r/ppp2ppp/2n2n2/3pp3/4P3/2PP1N2/PP3PPP/RNBQKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "Nbd2",
+                                            "fen": "r1bqkb1r/ppp2ppp/2n2n2/3pp3/4P3/2PP1N2/PP1N1PPP/R1BQKB1R b KQkq - 1 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "Nbd2 develops a piece to an active square in the Ponziani Opening.",
+                                              "strategicTheme": "Knight activity",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "d5 advances a pawn, influencing the structure in the Ponziani Opening.",
+                                          "strategicTheme": "Pawn structure",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Ponziani Opening.",
+                                      "strategicTheme": "Solid center support",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "Bc4",
+                                    "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/2P2N2/PP1P1PPP/RNBQK2R b KQkq - 2 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Ponziani Opening.",
+                                      "strategicTheme": "Active bishop development",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "d4",
+                                    "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/3PP3/2P2N2/PP3PPP/RNBQKB1R b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Nxe4",
+                                        "fen": "r1bqkb1r/pppp1ppp/2n5/4p3/3Pn3/2P2N2/PP3PPP/RNBQKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "d5",
+                                            "fen": "r1bqkb1r/pppp1ppp/2n5/3Pp3/4n3/2P2N2/PP3PPP/RNBQKB1R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Bc5",
+                                                "fen": "r1bqk2r/pppp1ppp/2n5/2bPp3/4n3/2P2N2/PP3PPP/RNBQKB1R w KQkq - 1 6",
+                                                "children": [],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Black gambits their knight on c6 with 5. Bc5, the Vuković gambit or Fraser defence.",
+                                                  "strategicTheme": "Gambit play",
+                                                  "source": "wikibooks"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "White attacks Black's c6 knight. Black has two main options; going into a calmer continuation with 5.",
+                                              "strategicTheme": "Gambit play",
+                                              "source": "wikibooks"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Nxe4 takes White's undefended e4 pawn. This move is the main continuation at higher levels.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "d4, White ignores the attack on the e-pawn and counterattacks Black's central pawn on e5. Black's best moves are to choose a central pawn to capture, 4.",
+                                      "strategicTheme": "Gambit play",
+                                      "source": "wikibooks"
+                                    }
+                                  }
+                                ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Ponziani Opening.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Nf6, the Jaenisch counterattack, is Black's most popular retort to the Ponziani and most serious alternative to 3. Nf6 targets White's e4 pawn, taking advantage of the fact that White cannot play Nc3 to defend it.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "c3 advances a pawn, influencing the structure in the Ponziani Opening.",
-                              "strategicTheme": "Prophylactic pawn move",
-                              "source": "generated"
+                              "moveRationale": "c3 is the Ponziani opening. White announces they are determined to achieve 4.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Ponziani Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "Nc6 is the natural and most common move, combining defence of the pawn with control of the d4 square. Black avoids committing another pawn for now.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Ponziani Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Ponziani Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Ponziani Opening.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -298,7 +683,31 @@
                                   {
                                     "move": "d3",
                                     "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/4P3/2PP1N2/PP3PPP/RNBQKB1R b KQkq - 0 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "d5",
+                                        "fen": "r1bqkb1r/ppp2ppp/2n2n2/3pp3/4P3/2PP1N2/PP3PPP/RNBQKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "Nbd2",
+                                            "fen": "r1bqkb1r/ppp2ppp/2n2n2/3pp3/4P3/2PP1N2/PP1N1PPP/R1BQKB1R b KQkq - 1 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Nbd2 develops a piece to an active square in the Ponziani Opening.",
+                                              "strategicTheme": "Knight activity",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "d5 advances a pawn, influencing the structure in the Ponziani Opening.",
+                                          "strategicTheme": "Pawn structure",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": true,
                                     "annotation": {
                                       "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Ponziani Opening.",
@@ -309,49 +718,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Ponziani Opening.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Nf6, the Jaenisch counterattack, is Black's most popular retort to the Ponziani and most serious alternative to 3. Nf6 targets White's e4 pawn, taking advantage of the fact that White cannot play Nc3 to defend it.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "c3 advances a pawn, influencing the structure in the Ponziani Opening.",
-                              "strategicTheme": "Prophylactic pawn move",
-                              "source": "generated"
+                              "moveRationale": "c3 is the Ponziani opening. White announces they are determined to achieve 4.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Ponziani Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "Nc6 is the natural and most common move, combining defence of the pawn with control of the d4 square. Black avoids committing another pawn for now.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Ponziani Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Ponziani Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Ponziani Opening.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -397,7 +806,19 @@
                                       {
                                         "move": "d5",
                                         "fen": "r1bqkb1r/ppp2ppp/2n2n2/3pp3/4P3/2PP1N2/PP3PPP/RNBQKB1R w KQkq - 0 5",
-                                        "children": [],
+                                        "children": [
+                                          {
+                                            "move": "Nbd2",
+                                            "fen": "r1bqkb1r/ppp2ppp/2n2n2/3pp3/4P3/2PP1N2/PP1N1PPP/R1BQKB1R b KQkq - 1 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Nbd2 develops a piece to an active square in the Ponziani Opening.",
+                                              "strategicTheme": "Knight activity",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
                                         "isMainLine": true,
                                         "annotation": {
                                           "moveRationale": "d5 advances a pawn, influencing the structure in the Ponziani Opening.",
@@ -416,49 +837,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Ponziani Opening.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Nf6, the Jaenisch counterattack, is Black's most popular retort to the Ponziani and most serious alternative to 3. Nf6 targets White's e4 pawn, taking advantage of the fact that White cannot play Nc3 to defend it.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "c3 advances a pawn, influencing the structure in the Ponziani Opening.",
-                              "strategicTheme": "Prophylactic pawn move",
-                              "source": "generated"
+                              "moveRationale": "c3 is the Ponziani opening. White announces they are determined to achieve 4.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Ponziani Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "Nc6 is the natural and most common move, combining defence of the pawn with control of the d4 square. Black avoids committing another pawn for now.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Ponziani Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Ponziani Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Ponziani Opening.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -535,49 +956,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Ponziani Opening.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Nf6, the Jaenisch counterattack, is Black's most popular retort to the Ponziani and most serious alternative to 3. Nf6 targets White's e4 pawn, taking advantage of the fact that White cannot play Nc3 to defend it.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "c3 advances a pawn, influencing the structure in the Ponziani Opening.",
-                              "strategicTheme": "Prophylactic pawn move",
-                              "source": "generated"
+                              "moveRationale": "c3 is the Ponziani opening. White announces they are determined to achieve 4.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Ponziani Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "Nc6 is the natural and most common move, combining defence of the pawn with control of the d4 square. Black avoids committing another pawn for now.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Ponziani Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Ponziani Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Ponziani Opening.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -634,57 +1055,57 @@
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "Qa4 activates the queen, increasing pressure in the Ponziani Opening.",
-                                      "strategicTheme": "Queen activity",
-                                      "source": "generated"
+                                      "moveRationale": "By pinning Black's knight on c6 to their king, 4. Qa4 undefends Black's e pawn and threatens Nxe5.",
+                                      "strategicTheme": "Gambit play",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Ponziani Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "d5 Black threatens dxe4, taking advantage of the fact that, if 4. exd5 Qxd5, Nc3 is not an option to chase the queen away because White has played c3.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "c3 advances a pawn, influencing the structure in the Ponziani Opening.",
-                              "strategicTheme": "Prophylactic pawn move",
-                              "source": "generated"
+                              "moveRationale": "c3 is the Ponziani opening. White announces they are determined to achieve 4.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Ponziani Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "Nc6 is the natural and most common move, combining defence of the pawn with control of the d4 square. Black avoids committing another pawn for now.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Ponziani Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Ponziani Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Ponziani Opening.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -737,49 +1158,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Ponziani Opening.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Nf6, the Jaenisch counterattack, is Black's most popular retort to the Ponziani and most serious alternative to 3. Nf6 targets White's e4 pawn, taking advantage of the fact that White cannot play Nc3 to defend it.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "c3 advances a pawn, influencing the structure in the Ponziani Opening.",
-                              "strategicTheme": "Prophylactic pawn move",
-                              "source": "generated"
+                              "moveRationale": "c3 is the Ponziani opening. White announces they are determined to achieve 4.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Ponziani Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "Nc6 is the natural and most common move, combining defence of the pawn with control of the d4 square. Black avoids committing another pawn for now.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Ponziani Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Ponziani Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Ponziani Opening.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -817,52 +1238,88 @@
                               {
                                 "move": "f5",
                                 "fen": "r1bqkbnr/pppp2pp/2n5/4pp2/4P3/2P2N2/PP1P1PPP/RNBQKB1R w KQkq - 0 4",
-                                "children": [],
+                                "children": [
+                                  {
+                                    "move": "d4",
+                                    "fen": "r1bqkbnr/pppp2pp/2n5/4pp2/3PP3/2P2N2/PP3PPP/RNBQKB1R b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "d6",
+                                        "fen": "r1bqkbnr/ppp3pp/2np4/4pp2/3PP3/2P2N2/PP3PPP/RNBQKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "d5",
+                                            "fen": "r1bqkbnr/ppp3pp/2np4/3Ppp2/4P3/2P2N2/PP3PPP/RNBQKB1R b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "d5 advances a pawn, influencing the structure in the Ponziani Opening.",
+                                              "strategicTheme": "Pawn structure",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "d6 advances a pawn, influencing the structure in the Ponziani Opening.",
+                                          "strategicTheme": "Prophylactic pawn move",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Ponziani Opening.",
+                                      "strategicTheme": "Central tension",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "f5 advances a pawn, influencing the structure in the Ponziani Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "This is the dangerous but exciting Ponziani Countergambit. It sacrifices the F pawn, but attacks E4 and prepares the develop the G1 knight.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "c3 advances a pawn, influencing the structure in the Ponziani Opening.",
-                              "strategicTheme": "Prophylactic pawn move",
-                              "source": "generated"
+                              "moveRationale": "c3 is the Ponziani opening. White announces they are determined to achieve 4.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Ponziani Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "Nc6 is the natural and most common move, combining defence of the pawn with control of the d4 square. Black avoids committing another pawn for now.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Ponziani Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Ponziani Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Ponziani Opening.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -939,49 +1396,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "f5 advances a pawn, influencing the structure in the Ponziani Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "This is the dangerous but exciting Ponziani Countergambit. It sacrifices the F pawn, but attacks E4 and prepares the develop the G1 knight.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "c3 advances a pawn, influencing the structure in the Ponziani Opening.",
-                              "strategicTheme": "Prophylactic pawn move",
-                              "source": "generated"
+                              "moveRationale": "c3 is the Ponziani opening. White announces they are determined to achieve 4.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Ponziani Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "Nc6 is the natural and most common move, combining defence of the pawn with control of the d4 square. Black avoids committing another pawn for now.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Ponziani Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Ponziani Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Ponziani Opening.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1030,41 +1487,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "c3 advances a pawn, influencing the structure in the Ponziani Opening.",
-                              "strategicTheme": "Prophylactic pawn move",
-                              "source": "generated"
+                              "moveRationale": "c3 is the Ponziani opening. White announces they are determined to achieve 4.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Ponziani Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "Nc6 is the natural and most common move, combining defence of the pawn with control of the d4 square. Black avoids committing another pawn for now.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Ponziani Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Ponziani Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Ponziani Opening.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1113,41 +1570,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "c3 advances a pawn, influencing the structure in the Ponziani Opening.",
-                              "strategicTheme": "Prophylactic pawn move",
-                              "source": "generated"
+                              "moveRationale": "c3 is the Ponziani opening. White announces they are determined to achieve 4.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Ponziani Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "Nc6 is the natural and most common move, combining defence of the pawn with control of the d4 square. Black avoids committing another pawn for now.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Ponziani Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Ponziani Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Ponziani Opening.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1189,7 +1646,55 @@
                                   {
                                     "move": "Bb5",
                                     "fen": "r1bqkbnr/ppp2ppp/2n5/1B1pp3/4P3/2P2N2/PP1P1PPP/RNBQK2R b KQkq - 1 4",
-                                    "children": [],
+                                    "children": [
+                                      {
+                                        "move": "dxe4",
+                                        "fen": "r1bqkbnr/ppp2ppp/2n5/1B2p3/4p3/2P2N2/PP1P1PPP/RNBQK2R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "Nxe5",
+                                            "fen": "r1bqkbnr/ppp2ppp/2n5/1B2N3/4p3/2P5/PP1P1PPP/RNBQK2R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "Qd5",
+                                                "fen": "r1b1kbnr/ppp2ppp/2n5/1B1qN3/4p3/2P5/PP1P1PPP/RNBQK2R w KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "move": "Qa4",
+                                                    "fen": "r1b1kbnr/ppp2ppp/2n5/1B1qN3/Q3p3/2P5/PP1P1PPP/RNB1K2R b KQkq - 2 6",
+                                                    "children": [],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "Qa4 activates the queen, increasing pressure in the Ponziani Opening.",
+                                                      "strategicTheme": "Queen activity",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "Qd5 activates the queen, increasing pressure in the Ponziani Opening.",
+                                                  "strategicTheme": "Queen activity",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Ponziani Opening.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Ponziani Opening.",
+                                          "strategicTheme": "Central tension",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
                                     "isMainLine": true,
                                     "annotation": {
                                       "moveRationale": "Bb5 pins or eyes the knight, creating positional tension in the Ponziani Opening.",
@@ -1200,49 +1705,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Ponziani Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "d5 Black threatens dxe4, taking advantage of the fact that, if 4. exd5 Qxd5, Nc3 is not an option to chase the queen away because White has played c3.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "c3 advances a pawn, influencing the structure in the Ponziani Opening.",
-                              "strategicTheme": "Prophylactic pawn move",
-                              "source": "generated"
+                              "moveRationale": "c3 is the Ponziani opening. White announces they are determined to achieve 4.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Ponziani Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "Nc6 is the natural and most common move, combining defence of the pawn with control of the d4 square. Black avoids committing another pawn for now.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Ponziani Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Ponziani Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Ponziani Opening.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1343,49 +1848,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Ponziani Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "d5 Black threatens dxe4, taking advantage of the fact that, if 4. exd5 Qxd5, Nc3 is not an option to chase the queen away because White has played c3.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "c3 advances a pawn, influencing the structure in the Ponziani Opening.",
-                              "strategicTheme": "Prophylactic pawn move",
-                              "source": "generated"
+                              "moveRationale": "c3 is the Ponziani opening. White announces they are determined to achieve 4.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Ponziani Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "Nc6 is the natural and most common move, combining defence of the pawn with control of the d4 square. Black avoids committing another pawn for now.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Ponziani Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Ponziani Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Ponziani Opening.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1442,57 +1947,57 @@
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "Qa4 activates the queen, increasing pressure in the Ponziani Opening.",
-                                      "strategicTheme": "Queen activity",
-                                      "source": "generated"
+                                      "moveRationale": "By pinning Black's knight on c6 to their king, 4. Qa4 undefends Black's e pawn and threatens Nxe5.",
+                                      "strategicTheme": "Gambit play",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Ponziani Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "d5 Black threatens dxe4, taking advantage of the fact that, if 4. exd5 Qxd5, Nc3 is not an option to chase the queen away because White has played c3.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "c3 advances a pawn, influencing the structure in the Ponziani Opening.",
-                              "strategicTheme": "Prophylactic pawn move",
-                              "source": "generated"
+                              "moveRationale": "c3 is the Ponziani opening. White announces they are determined to achieve 4.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Ponziani Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "Nc6 is the natural and most common move, combining defence of the pawn with control of the d4 square. Black avoids committing another pawn for now.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Ponziani Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Ponziani Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Ponziani Opening.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1549,81 +2054,81 @@
                                                 "children": [],
                                                 "isMainLine": true,
                                                 "annotation": {
-                                                  "moveRationale": "Bc5 develops the bishop actively, targeting the vulnerable f7/f2 square in the Ponziani Opening.",
-                                                  "strategicTheme": "Active bishop development",
-                                                  "source": "generated"
+                                                  "moveRationale": "Black gambits their knight on c6 with 5. Bc5, the Vuković gambit or Fraser defence.",
+                                                  "strategicTheme": "Gambit play",
+                                                  "source": "wikibooks"
                                                 }
                                               }
                                             ],
                                             "isMainLine": true,
                                             "annotation": {
-                                              "moveRationale": "d5 advances a pawn, influencing the structure in the Ponziani Opening.",
-                                              "strategicTheme": "Pawn structure",
-                                              "source": "generated"
+                                              "moveRationale": "White attacks Black's c6 knight. Black has two main options; going into a calmer continuation with 5.",
+                                              "strategicTheme": "Gambit play",
+                                              "source": "wikibooks"
                                             }
                                           }
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "Nxe4 exchanges material, altering the pawn structure in the Ponziani Opening.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Nxe4 takes White's undefended e4 pawn. This move is the main continuation at higher levels.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Ponziani Opening.",
-                                      "strategicTheme": "Central tension",
-                                      "source": "generated"
+                                      "moveRationale": "d4, White ignores the attack on the e-pawn and counterattacks Black's central pawn on e5. Black's best moves are to choose a central pawn to capture, 4.",
+                                      "strategicTheme": "Gambit play",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Ponziani Opening.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Nf6, the Jaenisch counterattack, is Black's most popular retort to the Ponziani and most serious alternative to 3. Nf6 targets White's e4 pawn, taking advantage of the fact that White cannot play Nc3 to defend it.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "c3 advances a pawn, influencing the structure in the Ponziani Opening.",
-                              "strategicTheme": "Prophylactic pawn move",
-                              "source": "generated"
+                              "moveRationale": "c3 is the Ponziani opening. White announces they are determined to achieve 4.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Ponziani Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "Nc6 is the natural and most common move, combining defence of the pawn with control of the d4 square. Black avoids committing another pawn for now.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Ponziani Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Ponziani Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Ponziani Opening.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

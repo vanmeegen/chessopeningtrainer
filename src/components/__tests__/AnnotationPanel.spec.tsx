@@ -32,14 +32,14 @@ describe("AnnotationPanel", () => {
     expect(screen.getByText("Wikibooks")).toBeInTheDocument();
   });
 
-  it("shows AI Generated source label", () => {
+  it("shows Chess Opening Trainer source label", () => {
     const aiAnnotation: Annotation = {
       moveRationale: "Develops the knight.",
       strategicTheme: "Development",
       source: "generated",
     };
     render(<AnnotationPanel annotation={aiAnnotation} />);
-    expect(screen.getByText("AI Generated")).toBeInTheDocument();
+    expect(screen.getByText("Chess Opening Trainer")).toBeInTheDocument();
   });
 
   it("shows placeholder when annotation is undefined", () => {

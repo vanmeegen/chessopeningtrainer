@@ -13,12 +13,244 @@
           {
             "move": "b3",
             "fen": "rnbqkbnr/pppppppp/8/8/8/1P6/P1PPPPPP/RNBQKBNR b KQkq - 0 1",
-            "children": [],
+            "children": [
+              {
+                "move": "d5",
+                "fen": "rnbqkbnr/ppp1pppp/8/3p4/8/1P6/P1PPPPPP/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "Ba3",
+                    "fen": "rnbqkbnr/ppp1pppp/8/3p4/8/BP6/P1PPPPPP/RN1QKBNR b KQkq - 1 2",
+                    "children": [],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "Ba3 develops a piece to an active square in the Nimzo-Larsen Attack.",
+                      "strategicTheme": "Bishop development",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "Black's controls the centre and opens up the queenside bishop. This prevents White from playing e4 or Nc3, as the pawn will be taken or the knight kicked respectively.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
+                }
+              },
+              {
+                "move": "f5",
+                "fen": "rnbqkbnr/ppppp1pp/8/5p2/8/1P6/P1PPPPPP/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "Bb2",
+                    "fen": "rnbqkbnr/ppppp1pp/8/5p2/8/1P6/PBPPPPPP/RN1QKBNR b KQkq - 1 2",
+                    "children": [
+                      {
+                        "move": "e6",
+                        "fen": "rnbqkbnr/pppp2pp/4p3/5p2/8/1P6/PBPPPPPP/RN1QKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "e4",
+                            "fen": "rnbqkbnr/pppp2pp/4p3/5p2/4P3/1P6/PBPP1PPP/RN1QKBNR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "e4 impacts the center, shaping the pawn structure in the Nimzo-Larsen Attack.",
+                              "strategicTheme": "Central tension",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "e6 advances a pawn, influencing the structure in the Nimzo-Larsen Attack.",
+                          "strategicTheme": "Prophylactic pawn move",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "Bb2 develops a piece to an active square in the Nimzo-Larsen Attack.",
+                      "strategicTheme": "Bishop development",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "f5 advances a pawn, influencing the structure in the Nimzo-Larsen Attack.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "c5",
+                "fen": "rnbqkbnr/pp1ppppp/8/2p5/8/1P6/P1PPPPPP/RNBQKBNR w KQkq - 0 2",
+                "children": [],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "c5 is a sideline pursued by Black when they assume White will be more booked up with the theory following 1. Having commited to b3 already, White's continuation is invariably 2.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
+                }
+              },
+              {
+                "move": "Nf6",
+                "fen": "rnbqkb1r/pppppppp/5n2/8/8/1P6/P1PPPPPP/RNBQKBNR w KQkq - 1 2",
+                "children": [
+                  {
+                    "move": "Bb2",
+                    "fen": "rnbqkb1r/pppppppp/5n2/8/8/1P6/PBPPPPPP/RN1QKBNR b KQkq - 2 2",
+                    "children": [
+                      {
+                        "move": "g6",
+                        "fen": "rnbqkb1r/pppppp1p/5np1/8/8/1P6/PBPPPPPP/RN1QKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "g4",
+                            "fen": "rnbqkb1r/pppppp1p/5np1/8/6P1/1P6/PBPPPP1P/RN1QKBNR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "g4 advances a pawn, influencing the structure in the Nimzo-Larsen Attack.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Nimzo-Larsen Attack.",
+                          "strategicTheme": "Fianchetto preparation",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "Bb2 develops a piece to an active square in the Nimzo-Larsen Attack.",
+                      "strategicTheme": "Bishop development",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "In this response, black develops a piece without committing to a pawn opening. White normally completes the fianchetto through 2.",
+                  "strategicTheme": "Piece development",
+                  "source": "wikibooks"
+                }
+              },
+              {
+                "move": "e5",
+                "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/1P6/P1PPPPPP/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "Bb2",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/1P6/PBPPPPPP/RN1QKBNR b KQkq - 1 2",
+                    "children": [
+                      {
+                        "move": "Nc6",
+                        "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/8/1P6/PBPPPPPP/RN1QKBNR w KQkq - 2 3",
+                        "children": [
+                          {
+                            "move": "e3",
+                            "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/8/1P2P3/PBPP1PPP/RN1QKBNR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Nimzo-Larsen Attack.",
+                              "strategicTheme": "Solid center support",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "c4",
+                            "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2P5/1P6/PB1PPPPP/RN1QKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Nf6",
+                                "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2P5/1P6/PB1PPPPP/RN1QKBNR w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Nf6 develops a piece to an active square in the Nimzo-Larsen Attack.",
+                                  "strategicTheme": "Natural piece development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "c4 gains space on the queenside in the Nimzo-Larsen Attack.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "f4",
+                            "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/5P2/1P6/PBPPP1PP/RN1QKBNR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "f4 advances a pawn, influencing the structure in the Nimzo-Larsen Attack.",
+                              "strategicTheme": "Aggressive kingside expansion",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Nimzo-Larsen Attack.",
+                          "strategicTheme": "Natural piece development",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "Bb2 develops a piece to an active square in the Nimzo-Larsen Attack.",
+                      "strategicTheme": "Bishop development",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "By beginning with 1. b3, White allowed Black to take the centre with 1.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
+                }
+              },
+              {
+                "move": "b5",
+                "fen": "rnbqkbnr/p1pppppp/8/1p6/8/1P6/P1PPPPPP/RNBQKBNR w KQkq - 0 2",
+                "children": [],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "b5 advances a pawn, influencing the structure in the Nimzo-Larsen Attack.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "b6",
+                "fen": "rnbqkbnr/p1pppppp/1p6/8/8/1P6/P1PPPPPP/RNBQKBNR w KQkq - 0 2",
+                "children": [],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Nimzo-Larsen Attack.",
+                  "strategicTheme": "Fianchetto preparation",
+                  "source": "generated"
+                }
+              }
+            ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Nimzo-Larsen Attack.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "b3 prepares to fianchetto the queen's bishop to b2, where it will fight for the central squares and point towards Black's kingside. This is a hypermodern opening, preparing to control the centre from afar with a bishop rather than a central pawn (the classical style).",
+              "strategicTheme": "Center control",
+              "source": "wikibooks"
             }
           }
         ],
@@ -40,20 +272,32 @@
               {
                 "move": "d5",
                 "fen": "rnbqkbnr/ppp1pppp/8/3p4/8/1P6/P1PPPPPP/RNBQKBNR w KQkq - 0 2",
-                "children": [],
+                "children": [
+                  {
+                    "move": "Ba3",
+                    "fen": "rnbqkbnr/ppp1pppp/8/3p4/8/BP6/P1PPPPPP/RN1QKBNR b KQkq - 1 2",
+                    "children": [],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "Ba3 develops a piece to an active square in the Nimzo-Larsen Attack.",
+                      "strategicTheme": "Bishop development",
+                      "source": "generated"
+                    }
+                  }
+                ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Nimzo-Larsen Attack.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black's controls the centre and opens up the queenside bishop. This prevents White from playing e4 or Nc3, as the pawn will be taken or the knight kicked respectively.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Nimzo-Larsen Attack.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "b3 prepares to fianchetto the queen's bishop to b2, where it will fight for the central squares and point towards Black's kingside. This is a hypermodern opening, preparing to control the centre from afar with a bishop rather than a central pawn (the classical style).",
+              "strategicTheme": "Center control",
+              "source": "wikibooks"
             }
           }
         ],
@@ -75,7 +319,43 @@
               {
                 "move": "f5",
                 "fen": "rnbqkbnr/ppppp1pp/8/5p2/8/1P6/P1PPPPPP/RNBQKBNR w KQkq - 0 2",
-                "children": [],
+                "children": [
+                  {
+                    "move": "Bb2",
+                    "fen": "rnbqkbnr/ppppp1pp/8/5p2/8/1P6/PBPPPPPP/RN1QKBNR b KQkq - 1 2",
+                    "children": [
+                      {
+                        "move": "e6",
+                        "fen": "rnbqkbnr/pppp2pp/4p3/5p2/8/1P6/PBPPPPPP/RN1QKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "e4",
+                            "fen": "rnbqkbnr/pppp2pp/4p3/5p2/4P3/1P6/PBPP1PPP/RN1QKBNR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "e4 impacts the center, shaping the pawn structure in the Nimzo-Larsen Attack.",
+                              "strategicTheme": "Central tension",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "e6 advances a pawn, influencing the structure in the Nimzo-Larsen Attack.",
+                          "strategicTheme": "Prophylactic pawn move",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "Bb2 develops a piece to an active square in the Nimzo-Larsen Attack.",
+                      "strategicTheme": "Bishop development",
+                      "source": "generated"
+                    }
+                  }
+                ],
                 "isMainLine": true,
                 "annotation": {
                   "moveRationale": "f5 advances a pawn, influencing the structure in the Nimzo-Larsen Attack.",
@@ -86,9 +366,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Nimzo-Larsen Attack.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "b3 prepares to fianchetto the queen's bishop to b2, where it will fight for the central squares and point towards Black's kingside. This is a hypermodern opening, preparing to control the centre from afar with a bishop rather than a central pawn (the classical style).",
+              "strategicTheme": "Center control",
+              "source": "wikibooks"
             }
           }
         ],
@@ -113,17 +393,17 @@
                 "children": [],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "c5 challenges the center from the flank in the Nimzo-Larsen Attack.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "c5 is a sideline pursued by Black when they assume White will be more booked up with the theory following 1. Having commited to b3 already, White's continuation is invariably 2.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Nimzo-Larsen Attack.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "b3 prepares to fianchetto the queen's bishop to b2, where it will fight for the central squares and point towards Black's kingside. This is a hypermodern opening, preparing to control the centre from afar with a bishop rather than a central pawn (the classical style).",
+              "strategicTheme": "Center control",
+              "source": "wikibooks"
             }
           }
         ],
@@ -160,17 +440,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Nimzo-Larsen Attack.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black's controls the centre and opens up the queenside bishop. This prevents White from playing e4 or Nc3, as the pawn will be taken or the knight kicked respectively.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Nimzo-Larsen Attack.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "b3 prepares to fianchetto the queen's bishop to b2, where it will fight for the central squares and point towards Black's kingside. This is a hypermodern opening, preparing to control the centre from afar with a bishop rather than a central pawn (the classical style).",
+              "strategicTheme": "Center control",
+              "source": "wikibooks"
             }
           }
         ],
@@ -192,20 +472,56 @@
               {
                 "move": "Nf6",
                 "fen": "rnbqkb1r/pppppppp/5n2/8/8/1P6/P1PPPPPP/RNBQKBNR w KQkq - 1 2",
-                "children": [],
+                "children": [
+                  {
+                    "move": "Bb2",
+                    "fen": "rnbqkb1r/pppppppp/5n2/8/8/1P6/PBPPPPPP/RN1QKBNR b KQkq - 2 2",
+                    "children": [
+                      {
+                        "move": "g6",
+                        "fen": "rnbqkb1r/pppppp1p/5np1/8/8/1P6/PBPPPPPP/RN1QKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "g4",
+                            "fen": "rnbqkb1r/pppppp1p/5np1/8/6P1/1P6/PBPPPP1P/RN1QKBNR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "g4 advances a pawn, influencing the structure in the Nimzo-Larsen Attack.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Nimzo-Larsen Attack.",
+                          "strategicTheme": "Fianchetto preparation",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "Bb2 develops a piece to an active square in the Nimzo-Larsen Attack.",
+                      "strategicTheme": "Bishop development",
+                      "source": "generated"
+                    }
+                  }
+                ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Nimzo-Larsen Attack.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "In this response, black develops a piece without committing to a pawn opening. White normally completes the fianchetto through 2.",
+                  "strategicTheme": "Piece development",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Nimzo-Larsen Attack.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "b3 prepares to fianchetto the queen's bishop to b2, where it will fight for the central squares and point towards Black's kingside. This is a hypermodern opening, preparing to control the centre from afar with a bishop rather than a central pawn (the classical style).",
+              "strategicTheme": "Center control",
+              "source": "wikibooks"
             }
           }
         ],
@@ -227,20 +543,90 @@
               {
                 "move": "e5",
                 "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/1P6/P1PPPPPP/RNBQKBNR w KQkq - 0 2",
-                "children": [],
+                "children": [
+                  {
+                    "move": "Bb2",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/1P6/PBPPPPPP/RN1QKBNR b KQkq - 1 2",
+                    "children": [
+                      {
+                        "move": "Nc6",
+                        "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/8/1P6/PBPPPPPP/RN1QKBNR w KQkq - 2 3",
+                        "children": [
+                          {
+                            "move": "e3",
+                            "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/8/1P2P3/PBPP1PPP/RN1QKBNR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Nimzo-Larsen Attack.",
+                              "strategicTheme": "Solid center support",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "c4",
+                            "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2P5/1P6/PB1PPPPP/RN1QKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Nf6",
+                                "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2P5/1P6/PB1PPPPP/RN1QKBNR w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Nf6 develops a piece to an active square in the Nimzo-Larsen Attack.",
+                                  "strategicTheme": "Natural piece development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "c4 gains space on the queenside in the Nimzo-Larsen Attack.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "f4",
+                            "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/5P2/1P6/PBPPP1PP/RN1QKBNR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "f4 advances a pawn, influencing the structure in the Nimzo-Larsen Attack.",
+                              "strategicTheme": "Aggressive kingside expansion",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Nimzo-Larsen Attack.",
+                          "strategicTheme": "Natural piece development",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "Bb2 develops a piece to an active square in the Nimzo-Larsen Attack.",
+                      "strategicTheme": "Bishop development",
+                      "source": "generated"
+                    }
+                  }
+                ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Nimzo-Larsen Attack.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "By beginning with 1. b3, White allowed Black to take the centre with 1.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Nimzo-Larsen Attack.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "b3 prepares to fianchetto the queen's bishop to b2, where it will fight for the central squares and point towards Black's kingside. This is a hypermodern opening, preparing to control the centre from afar with a bishop rather than a central pawn (the classical style).",
+              "strategicTheme": "Center control",
+              "source": "wikibooks"
             }
           }
         ],
@@ -270,7 +656,53 @@
                       {
                         "move": "Nc6",
                         "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/8/1P6/PBPPPPPP/RN1QKBNR w KQkq - 2 3",
-                        "children": [],
+                        "children": [
+                          {
+                            "move": "e3",
+                            "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/8/1P2P3/PBPP1PPP/RN1QKBNR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Nimzo-Larsen Attack.",
+                              "strategicTheme": "Solid center support",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "c4",
+                            "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2P5/1P6/PB1PPPPP/RN1QKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Nf6",
+                                "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2P5/1P6/PB1PPPPP/RN1QKBNR w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Nf6 develops a piece to an active square in the Nimzo-Larsen Attack.",
+                                  "strategicTheme": "Natural piece development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "c4 gains space on the queenside in the Nimzo-Larsen Attack.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "f4",
+                            "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/5P2/1P6/PBPPP1PP/RN1QKBNR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "f4 advances a pawn, influencing the structure in the Nimzo-Larsen Attack.",
+                              "strategicTheme": "Aggressive kingside expansion",
+                              "source": "generated"
+                            }
+                          }
+                        ],
                         "isMainLine": true,
                         "annotation": {
                           "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Nimzo-Larsen Attack.",
@@ -289,17 +721,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Nimzo-Larsen Attack.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "By beginning with 1. b3, White allowed Black to take the centre with 1.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Nimzo-Larsen Attack.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "b3 prepares to fianchetto the queen's bishop to b2, where it will fight for the central squares and point towards Black's kingside. This is a hypermodern opening, preparing to control the centre from afar with a bishop rather than a central pawn (the classical style).",
+              "strategicTheme": "Center control",
+              "source": "wikibooks"
             }
           }
         ],
@@ -360,17 +792,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Nimzo-Larsen Attack.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "By beginning with 1. b3, White allowed Black to take the centre with 1.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Nimzo-Larsen Attack.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "b3 prepares to fianchetto the queen's bishop to b2, where it will fight for the central squares and point towards Black's kingside. This is a hypermodern opening, preparing to control the centre from afar with a bishop rather than a central pawn (the classical style).",
+              "strategicTheme": "Center control",
+              "source": "wikibooks"
             }
           }
         ],
@@ -443,17 +875,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Nimzo-Larsen Attack.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "By beginning with 1. b3, White allowed Black to take the centre with 1.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Nimzo-Larsen Attack.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "b3 prepares to fianchetto the queen's bishop to b2, where it will fight for the central squares and point towards Black's kingside. This is a hypermodern opening, preparing to control the centre from afar with a bishop rather than a central pawn (the classical style).",
+              "strategicTheme": "Center control",
+              "source": "wikibooks"
             }
           }
         ],
@@ -514,17 +946,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Nimzo-Larsen Attack.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "By beginning with 1. b3, White allowed Black to take the centre with 1.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Nimzo-Larsen Attack.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "b3 prepares to fianchetto the queen's bishop to b2, where it will fight for the central squares and point towards Black's kingside. This is a hypermodern opening, preparing to control the centre from afar with a bishop rather than a central pawn (the classical style).",
+              "strategicTheme": "Center control",
+              "source": "wikibooks"
             }
           }
         ],
@@ -557,9 +989,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Nimzo-Larsen Attack.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "b3 prepares to fianchetto the queen's bishop to b2, where it will fight for the central squares and point towards Black's kingside. This is a hypermodern opening, preparing to control the centre from afar with a bishop rather than a central pawn (the classical style).",
+              "strategicTheme": "Center control",
+              "source": "wikibooks"
             }
           }
         ],
@@ -628,9 +1060,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Nimzo-Larsen Attack.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "b3 prepares to fianchetto the queen's bishop to b2, where it will fight for the central squares and point towards Black's kingside. This is a hypermodern opening, preparing to control the centre from afar with a bishop rather than a central pawn (the classical style).",
+              "strategicTheme": "Center control",
+              "source": "wikibooks"
             }
           }
         ],
@@ -691,17 +1123,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Nimzo-Larsen Attack.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "In this response, black develops a piece without committing to a pawn opening. White normally completes the fianchetto through 2.",
+                  "strategicTheme": "Piece development",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Nimzo-Larsen Attack.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "b3 prepares to fianchetto the queen's bishop to b2, where it will fight for the central squares and point towards Black's kingside. This is a hypermodern opening, preparing to control the centre from afar with a bishop rather than a central pawn (the classical style).",
+              "strategicTheme": "Center control",
+              "source": "wikibooks"
             }
           }
         ],
@@ -734,9 +1166,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Nimzo-Larsen Attack.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "b3 prepares to fianchetto the queen's bishop to b2, where it will fight for the central squares and point towards Black's kingside. This is a hypermodern opening, preparing to control the centre from afar with a bishop rather than a central pawn (the classical style).",
+              "strategicTheme": "Center control",
+              "source": "wikibooks"
             }
           }
         ],
@@ -762,7 +1194,148 @@
                   {
                     "move": "b3",
                     "fen": "rnbqkbnr/ppp1pppp/8/3p4/8/1P3N2/P1PPPPPP/RNBQKB1R b KQkq - 0 2",
-                    "children": [],
+                    "children": [
+                      {
+                        "move": "c5",
+                        "fen": "rnbqkbnr/pp2pppp/8/2pp4/8/1P3N2/P1PPPPPP/RNBQKB1R w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "e4",
+                            "fen": "rnbqkbnr/pp2pppp/8/2pp4/4P3/1P3N2/P1PP1PPP/RNBQKB1R b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "e4 impacts the center, shaping the pawn structure in the Nimzo-Larsen Attack.",
+                              "strategicTheme": "Central tension",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "c4",
+                            "fen": "rnbqkbnr/pp2pppp/8/2pp4/2P5/1P3N2/P2PPPPP/RNBQKB1R b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "dxc4",
+                                "fen": "rnbqkbnr/pp2pppp/8/2p5/2p5/1P3N2/P2PPPPP/RNBQKB1R w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Nc3",
+                                    "fen": "rnbqkbnr/pp2pppp/8/2p5/2p5/1PN2N2/P2PPPPP/R1BQKB1R b KQkq - 1 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Nimzo-Larsen Attack.",
+                                      "strategicTheme": "Natural piece development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "dxc4 impacts the center, shaping the pawn structure in the Nimzo-Larsen Attack.",
+                                  "strategicTheme": "Central tension",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "c4 gains space on the queenside in the Nimzo-Larsen Attack.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "c5 challenges the center from the flank in the Nimzo-Larsen Attack.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "Nf6",
+                        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/8/1P3N2/P1PPPPPP/RNBQKB1R w KQkq - 1 3",
+                        "children": [
+                          {
+                            "move": "Bb2",
+                            "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/8/1P3N2/PBPPPPPP/RN1QKB1R b KQkq - 2 3",
+                            "children": [
+                              {
+                                "move": "c5",
+                                "fen": "rnbqkb1r/pp2pppp/5n2/2pp4/8/1P3N2/PBPPPPPP/RN1QKB1R w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "e4",
+                                    "fen": "rnbqkb1r/pp2pppp/5n2/2pp4/4P3/1P3N2/PBPP1PPP/RN1QKB1R b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Nimzo-Larsen Attack.",
+                                      "strategicTheme": "Central tension",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "c5 challenges the center from the flank in the Nimzo-Larsen Attack.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              },
+                              {
+                                "move": "g6",
+                                "fen": "rnbqkb1r/ppp1pp1p/5np1/3p4/8/1P3N2/PBPPPPPP/RN1QKB1R w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "c4",
+                                    "fen": "rnbqkb1r/ppp1pp1p/5np1/3p4/2P5/1P3N2/PB1PPPPP/RN1QKB1R b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "c6",
+                                        "fen": "rnbqkb1r/pp2pp1p/2p2np1/3p4/2P5/1P3N2/PB1PPPPP/RN1QKB1R w KQkq - 0 5",
+                                        "children": [],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "c6 advances a pawn, influencing the structure in the Nimzo-Larsen Attack.",
+                                          "strategicTheme": "Prophylactic pawn move",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "c4 gains space on the queenside in the Nimzo-Larsen Attack.",
+                                      "strategicTheme": "Pawn structure",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Nimzo-Larsen Attack.",
+                                  "strategicTheme": "Fianchetto preparation",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Bb2 develops a piece to an active square in the Nimzo-Larsen Attack.",
+                              "strategicTheme": "Bishop development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "Nf6 develops a piece to an active square in the Nimzo-Larsen Attack.",
+                          "strategicTheme": "Natural piece development",
+                          "source": "generated"
+                        }
+                      }
+                    ],
                     "isMainLine": true,
                     "annotation": {
                       "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Nimzo-Larsen Attack.",
@@ -773,17 +1346,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Nimzo-Larsen Attack.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Nimzo-Larsen Attack.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -844,17 +1417,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Nimzo-Larsen Attack.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Nimzo-Larsen Attack.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -939,17 +1512,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Nimzo-Larsen Attack.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black stakes a claim to the center. White has many options now and as so often with 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Nimzo-Larsen Attack.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

@@ -13,12 +13,687 @@
           {
             "move": "f4",
             "fen": "rnbqkbnr/pppppppp/8/8/5P2/8/PPPPP1PP/RNBQKBNR b KQkq - 0 1",
-            "children": [],
+            "children": [
+              {
+                "move": "Nf6",
+                "fen": "rnbqkb1r/pppppppp/5n2/8/5P2/8/PPPPP1PP/RNBQKBNR w KQkq - 1 2",
+                "children": [
+                  {
+                    "move": "Nf3",
+                    "fen": "rnbqkb1r/pppppppp/5n2/8/5P2/5N2/PPPPP1PP/RNBQKB1R b KQkq - 2 2",
+                    "children": [
+                      {
+                        "move": "g6",
+                        "fen": "rnbqkb1r/pppppp1p/5np1/8/5P2/5N2/PPPPP1PP/RNBQKB1R w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "b4",
+                            "fen": "rnbqkb1r/pppppp1p/5np1/8/1P3P2/5N2/P1PPP1PP/RNBQKB1R b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "b4 advances a pawn, influencing the structure in the Bird Opening.",
+                              "strategicTheme": "Pawn structure",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Bird Opening.",
+                          "strategicTheme": "Fianchetto preparation",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Bird Opening.",
+                      "strategicTheme": "Natural piece development",
+                      "source": "generated"
+                    }
+                  },
+                  {
+                    "move": "c4",
+                    "fen": "rnbqkb1r/pppppppp/5n2/8/2P2P2/8/PP1PP1PP/RNBQKBNR b KQkq - 0 2",
+                    "children": [],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "c4 gains space on the queenside in the Bird Opening.",
+                      "strategicTheme": "Pawn structure",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "Nf6 develops a piece to an active square in the Bird Opening.",
+                  "strategicTheme": "Natural piece development",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "f5",
+                "fen": "rnbqkbnr/ppppp1pp/8/5p2/5P2/8/PPPPP1PP/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "d4",
+                    "fen": "rnbqkbnr/ppppp1pp/8/5p2/3P1P2/8/PPP1P1PP/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "d5",
+                        "fen": "rnbqkbnr/ppp1p1pp/8/3p1p2/3P1P2/8/PPP1P1PP/RNBQKBNR w KQkq - 0 3",
+                        "children": [],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "d5 advances a pawn, influencing the structure in the Bird Opening.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Bird Opening.",
+                      "strategicTheme": "Central tension",
+                      "source": "generated"
+                    }
+                  },
+                  {
+                    "move": "e4",
+                    "fen": "rnbqkbnr/ppppp1pp/8/5p2/4PP2/8/PPPP2PP/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "fxe4",
+                        "fen": "rnbqkbnr/ppppp1pp/8/8/4pP2/8/PPPP2PP/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "Nc3",
+                            "fen": "rnbqkbnr/ppppp1pp/8/8/4pP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 1 3",
+                            "children": [
+                              {
+                                "move": "Nf6",
+                                "fen": "rnbqkb1r/ppppp1pp/5n2/8/4pP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 2 4",
+                                "children": [
+                                  {
+                                    "move": "g4",
+                                    "fen": "rnbqkb1r/ppppp1pp/5n2/8/4pPP1/2N5/PPPP3P/R1BQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "g4 advances a pawn, influencing the structure in the Bird Opening.",
+                                      "strategicTheme": "Pawn structure",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Bird Opening.",
+                                  "strategicTheme": "Natural piece development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Bird Opening.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "fxe4 exchanges material, altering the pawn structure in the Bird Opening.",
+                          "strategicTheme": "Material exchange",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Bird Opening.",
+                      "strategicTheme": "Central tension",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "This is not a very popular line for Black because it can lead to a closed and relatively uneventful game if Black copies White's moves. This opening has only 40 games played by masters in the Lichess Master Database.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
+                }
+              },
+              {
+                "move": "e5",
+                "fen": "rnbqkbnr/pppp1ppp/8/4p3/5P2/8/PPPPP1PP/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "Nc3",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4p3/5P2/2N5/PPPPP1PP/R1BQKBNR b KQkq - 1 2",
+                    "children": [],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Bird Opening.",
+                      "strategicTheme": "Natural piece development",
+                      "source": "generated"
+                    }
+                  },
+                  {
+                    "move": "fxe5",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4P3/8/8/PPPPP1PP/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "d6",
+                        "fen": "rnbqkbnr/ppp2ppp/3p4/4P3/8/8/PPPPP1PP/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "exd6",
+                            "fen": "rnbqkbnr/ppp2ppp/3P4/8/8/8/PPPPP1PP/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Nf6",
+                                "fen": "rnbqkb1r/ppp2ppp/3P1n2/8/8/8/PPPPP1PP/RNBQKBNR w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "This is the Langheld Gambit, a dubious pawn sacrifice to create lots of unknown traps and trick the white players to fall for them. The opening reached small amounts of popularity in recent years due to FM William Graifs advocacy for its playability, its often only played in blitz, or bullet; but to a high level still.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
+                                }
+                              },
+                              {
+                                "move": "Bxd6",
+                                "fen": "rnbqk1nr/ppp2ppp/3b4/8/8/8/PPPPP1PP/RNBQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Nf3",
+                                    "fen": "rnbqk1nr/ppp2ppp/3b4/8/8/5N2/PPPPP1PP/RNBQKB1R b KQkq - 1 4",
+                                    "children": [
+                                      {
+                                        "move": "g5",
+                                        "fen": "rnbqk1nr/ppp2p1p/3b4/6p1/8/5N2/PPPPP1PP/RNBQKB1R w KQkq - 0 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "This is the Lasker variation, the most aggressive and double edged line. Black now threatens g4 followed by Qh4+, Bxg3+, and mate to follow.",
+                                          "strategicTheme": "Opening theory",
+                                          "source": "wikibooks"
+                                        }
+                                      },
+                                      {
+                                        "move": "Nh6",
+                                        "fen": "rnbqk2r/ppp2ppp/3b3n/8/8/5N2/PPPPP1PP/RNBQKB1R w KQkq - 2 5",
+                                        "children": [
+                                          {
+                                            "move": "d4",
+                                            "fen": "rnbqk2r/ppp2ppp/3b3n/8/3P4/5N2/PPP1P1PP/RNBQKB1R b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "d4 impacts the center, shaping the pawn structure in the Bird Opening.",
+                                              "strategicTheme": "Central tension",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Nh6 develops a piece to an active square in the Bird Opening.",
+                                          "strategicTheme": "Knight activity",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "This is the most common move, and is also the best. The most common, and most aggressive reply, is the Lasker variation, 4.",
+                                      "strategicTheme": "Opening theory",
+                                      "source": "wikibooks"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "This move develops with a threat. There are three sane ways to stop Qh4+.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "After this, Black's only sensible move is Bxd6, developing with a threat. However, Nf6, the Langheld Gambit has also been tried with similar ideas to the mainline but with a Queen on c7 instead of a pawn.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "d6 advances a pawn, influencing the structure in the Bird Opening.",
+                          "strategicTheme": "Prophylactic pawn move",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "f6",
+                        "fen": "rnbqkbnr/pppp2pp/5p2/4P3/8/8/PPPPP1PP/RNBQKBNR w KQkq - 0 3",
+                        "children": [],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "f6 advances a pawn, influencing the structure in the Bird Opening.",
+                          "strategicTheme": "Prophylactic pawn move",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "Ne7",
+                        "fen": "rnbqkb1r/ppppnppp/8/4P3/8/8/PPPPP1PP/RNBQKBNR w KQkq - 1 3",
+                        "children": [],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "Ne7 develops a piece to an active square in the Bird Opening.",
+                          "strategicTheme": "Knight activity",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "Nc6",
+                        "fen": "r1bqkbnr/pppp1ppp/2n5/4P3/8/8/PPPPP1PP/RNBQKBNR w KQkq - 1 3",
+                        "children": [],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "This move is a side line. Black's main move is 2.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "This wins a pawn, but creates more kingside weaknesses. Now white will have to be careful to not allow a quick knockout in the opening, after d6 exd6 Bxd6.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
+                    }
+                  },
+                  {
+                    "move": "d4",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4p3/3P1P2/8/PPP1P1PP/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "exd4",
+                        "fen": "rnbqkbnr/pppp1ppp/8/8/3p1P2/8/PPP1P1PP/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "Nf3",
+                            "fen": "rnbqkbnr/pppp1ppp/8/8/3p1P2/5N2/PPP1P1PP/RNBQKB1R b KQkq - 1 3",
+                            "children": [
+                              {
+                                "move": "c5",
+                                "fen": "rnbqkbnr/pp1p1ppp/8/2p5/3p1P2/5N2/PPP1P1PP/RNBQKB1R w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "c3",
+                                    "fen": "rnbqkbnr/pp1p1ppp/8/2p5/3p1P2/2P2N2/PP2P1PP/RNBQKB1R b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "c3 advances a pawn, influencing the structure in the Bird Opening.",
+                                      "strategicTheme": "Prophylactic pawn move",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "c5 challenges the center from the flank in the Bird Opening.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "Nf3 develops a piece to an active square in the Bird Opening.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Bird Opening.",
+                          "strategicTheme": "Central tension",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Bird Opening.",
+                      "strategicTheme": "Central tension",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "Here black enters the From Gambit. White's choices are either taking the pawn, or moving to e4, entering the King's Gambit.",
+                  "strategicTheme": "Center control",
+                  "source": "wikibooks"
+                }
+              },
+              {
+                "move": "g5",
+                "fen": "rnbqkbnr/pppppp1p/8/6p1/5P2/8/PPPPP1PP/RNBQKBNR w KQkq - 0 2",
+                "children": [],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "g5 advances a pawn, influencing the structure in the Bird Opening.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "h6",
+                "fen": "rnbqkbnr/ppppppp1/7p/8/5P2/8/PPPPP1PP/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "Nf3",
+                    "fen": "rnbqkbnr/ppppppp1/7p/8/5P2/5N2/PPPPP1PP/RNBQKB1R b KQkq - 1 2",
+                    "children": [
+                      {
+                        "move": "g5",
+                        "fen": "rnbqkbnr/pppppp2/7p/6p1/5P2/5N2/PPPPP1PP/RNBQKB1R w KQkq - 0 3",
+                        "children": [],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "g5 advances a pawn, influencing the structure in the Bird Opening.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Bird Opening.",
+                      "strategicTheme": "Natural piece development",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "h6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Bird Opening.",
+                  "strategicTheme": "Prophylactic pawn move",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "Nh6",
+                "fen": "rnbqkb1r/pppppppp/7n/8/5P2/8/PPPPP1PP/RNBQKBNR w KQkq - 1 2",
+                "children": [],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "This move looks odd, as it develops a knight to a really odd square and to the edge, but it has some benefits:\n\nThis move puts opponents out of their comfort zone and they may get confused and make a mistake and a blunder and fall into a trap. This move controls the f5 square, which white may use to start a kingside attack with the f-pawn, the g4 square, also if white is going for a kingside attack or an aggressive plan (such as putting the queen on g4 to attack the g7 pawn which attacks the rook that might be trapped), and the f7 square, safeguarding the king.",
+                  "strategicTheme": "Piece development",
+                  "source": "wikibooks"
+                }
+              },
+              {
+                "move": "b5",
+                "fen": "rnbqkbnr/p1pppppp/8/1p6/5P2/8/PPPPP1PP/RNBQKBNR w KQkq - 0 2",
+                "children": [],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "b5 advances a pawn, influencing the structure in the Bird Opening.",
+                  "strategicTheme": "Pawn structure",
+                  "source": "generated"
+                }
+              },
+              {
+                "move": "d5",
+                "fen": "rnbqkbnr/ppp1pppp/8/3p4/5P2/8/PPPPP1PP/RNBQKBNR w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "g4",
+                    "fen": "rnbqkbnr/ppp1pppp/8/3p4/5PP1/8/PPPPP2P/RNBQKBNR b KQkq - 0 2",
+                    "children": [],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "This move blunders a pawn for no apparent reason, while severely weakening the kingside. Black can play 2.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
+                    }
+                  },
+                  {
+                    "move": "Nf3",
+                    "fen": "rnbqkbnr/ppp1pppp/8/3p4/5P2/5N2/PPPPP1PP/RNBQKB1R b KQkq - 1 2",
+                    "children": [
+                      {
+                        "move": "Nf6",
+                        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/5P2/5N2/PPPPP1PP/RNBQKB1R w KQkq - 2 3",
+                        "children": [
+                          {
+                            "move": "e3",
+                            "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/5P2/4PN2/PPPP2PP/RNBQKB1R b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "c5",
+                                "fen": "rnbqkb1r/pp2pppp/5n2/2pp4/5P2/4PN2/PPPP2PP/RNBQKB1R w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "c5 challenges the center from the flank in the Bird Opening.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Bird Opening.",
+                              "strategicTheme": "Solid center support",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "Nf6 develops a piece to an active square in the Bird Opening.",
+                          "strategicTheme": "Natural piece development",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Bird Opening.",
+                      "strategicTheme": "Natural piece development",
+                      "source": "generated"
+                    }
+                  },
+                  {
+                    "move": "c4",
+                    "fen": "rnbqkbnr/ppp1pppp/8/3p4/2P2P2/8/PP1PP1PP/RNBQKBNR b KQkq - 0 2",
+                    "children": [],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "c4 gains space on the queenside in the Bird Opening.",
+                      "strategicTheme": "Pawn structure",
+                      "source": "generated"
+                    }
+                  },
+                  {
+                    "move": "b3",
+                    "fen": "rnbqkbnr/ppp1pppp/8/3p4/5P2/1P6/P1PPP1PP/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "Nf6",
+                        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/5P2/1P6/P1PPP1PP/RNBQKBNR w KQkq - 1 3",
+                        "children": [
+                          {
+                            "move": "Bb2",
+                            "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/5P2/1P6/PBPPP1PP/RN1QKBNR b KQkq - 2 3",
+                            "children": [
+                              {
+                                "move": "d4",
+                                "fen": "rnbqkb1r/ppp1pppp/5n2/8/3p1P2/1P6/PBPPP1PP/RN1QKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Nf3",
+                                    "fen": "rnbqkb1r/ppp1pppp/5n2/8/3p1P2/1P3N2/PBPPP1PP/RN1QKB1R b KQkq - 1 4",
+                                    "children": [
+                                      {
+                                        "move": "c5",
+                                        "fen": "rnbqkb1r/pp2pppp/5n2/2p5/3p1P2/1P3N2/PBPPP1PP/RN1QKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "e3",
+                                            "fen": "rnbqkb1r/pp2pppp/5n2/2p5/3p1P2/1P2PN2/PBPP2PP/RN1QKB1R b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Bird Opening.",
+                                              "strategicTheme": "Solid center support",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "c5 challenges the center from the flank in the Bird Opening.",
+                                          "strategicTheme": "Pawn structure",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Nf3 develops a piece to an active square in the Bird Opening.",
+                                      "strategicTheme": "Natural piece development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "d4 impacts the center, shaping the pawn structure in the Bird Opening.",
+                                  "strategicTheme": "Central tension",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "Bb2 develops a piece to an active square in the Bird Opening.",
+                              "strategicTheme": "Bishop development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "Nf6 develops a piece to an active square in the Bird Opening.",
+                          "strategicTheme": "Natural piece development",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Bird Opening.",
+                      "strategicTheme": "Fianchetto preparation",
+                      "source": "generated"
+                    }
+                  },
+                  {
+                    "move": "e4",
+                    "fen": "rnbqkbnr/ppp1pppp/8/3p4/4PP2/8/PPPP2PP/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "dxe4",
+                        "fen": "rnbqkbnr/ppp1pppp/8/8/4pP2/8/PPPP2PP/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "Nc3",
+                            "fen": "rnbqkbnr/ppp1pppp/8/8/4pP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 1 3",
+                            "children": [
+                              {
+                                "move": "Nf6",
+                                "fen": "rnbqkb1r/ppp1pppp/5n2/8/4pP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 2 4",
+                                "children": [
+                                  {
+                                    "move": "Qe2",
+                                    "fen": "rnbqkb1r/ppp1pppp/5n2/8/4pP2/2N5/PPPPQ1PP/R1B1KBNR b KQkq - 3 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Qe2 activates the queen, increasing pressure in the Bird Opening.",
+                                      "strategicTheme": "Queen activity",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "Nge2",
+                                    "fen": "rnbqkb1r/ppp1pppp/5n2/8/4pP2/2N5/PPPPN1PP/R1BQKB1R b KQkq - 3 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Nge2 develops a piece to an active square in the Bird Opening.",
+                                      "strategicTheme": "Knight activity",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Bird Opening.",
+                                  "strategicTheme": "Natural piece development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Bird Opening.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Bird Opening.",
+                          "strategicTheme": "Central tension",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "White offers Black the e-pawn for free. It is very similar to the Englund gambit (1.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
+                    }
+                  }
+                ],
+                "isMainLine": false,
+                "annotation": {
+                  "moveRationale": "From here, one possible reply is to treat the position as a Dutch Defence reversed. As in the Dutch, white can either fianchetto with 2.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
+                }
+              }
+            ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -87,9 +762,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -138,17 +813,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "f5 advances a pawn, influencing the structure in the Bird Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "This is not a very popular line for Black because it can lead to a closed and relatively uneventful game if Black copies White's moves. This opening has only 40 games played by masters in the Lichess Master Database.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -170,20 +845,229 @@
               {
                 "move": "e5",
                 "fen": "rnbqkbnr/pppp1ppp/8/4p3/5P2/8/PPPPP1PP/RNBQKBNR w KQkq - 0 2",
-                "children": [],
+                "children": [
+                  {
+                    "move": "Nc3",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4p3/5P2/2N5/PPPPP1PP/R1BQKBNR b KQkq - 1 2",
+                    "children": [],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Bird Opening.",
+                      "strategicTheme": "Natural piece development",
+                      "source": "generated"
+                    }
+                  },
+                  {
+                    "move": "fxe5",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4P3/8/8/PPPPP1PP/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "d6",
+                        "fen": "rnbqkbnr/ppp2ppp/3p4/4P3/8/8/PPPPP1PP/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "exd6",
+                            "fen": "rnbqkbnr/ppp2ppp/3P4/8/8/8/PPPPP1PP/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Nf6",
+                                "fen": "rnbqkb1r/ppp2ppp/3P1n2/8/8/8/PPPPP1PP/RNBQKBNR w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "This is the Langheld Gambit, a dubious pawn sacrifice to create lots of unknown traps and trick the white players to fall for them. The opening reached small amounts of popularity in recent years due to FM William Graifs advocacy for its playability, its often only played in blitz, or bullet; but to a high level still.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
+                                }
+                              },
+                              {
+                                "move": "Bxd6",
+                                "fen": "rnbqk1nr/ppp2ppp/3b4/8/8/8/PPPPP1PP/RNBQKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Nf3",
+                                    "fen": "rnbqk1nr/ppp2ppp/3b4/8/8/5N2/PPPPP1PP/RNBQKB1R b KQkq - 1 4",
+                                    "children": [
+                                      {
+                                        "move": "g5",
+                                        "fen": "rnbqk1nr/ppp2p1p/3b4/6p1/8/5N2/PPPPP1PP/RNBQKB1R w KQkq - 0 5",
+                                        "children": [],
+                                        "isMainLine": false,
+                                        "annotation": {
+                                          "moveRationale": "This is the Lasker variation, the most aggressive and double edged line. Black now threatens g4 followed by Qh4+, Bxg3+, and mate to follow.",
+                                          "strategicTheme": "Opening theory",
+                                          "source": "wikibooks"
+                                        }
+                                      },
+                                      {
+                                        "move": "Nh6",
+                                        "fen": "rnbqk2r/ppp2ppp/3b3n/8/8/5N2/PPPPP1PP/RNBQKB1R w KQkq - 2 5",
+                                        "children": [
+                                          {
+                                            "move": "d4",
+                                            "fen": "rnbqk2r/ppp2ppp/3b3n/8/3P4/5N2/PPP1P1PP/RNBQKB1R b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "d4 impacts the center, shaping the pawn structure in the Bird Opening.",
+                                              "strategicTheme": "Central tension",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Nh6 develops a piece to an active square in the Bird Opening.",
+                                          "strategicTheme": "Knight activity",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "This is the most common move, and is also the best. The most common, and most aggressive reply, is the Lasker variation, 4.",
+                                      "strategicTheme": "Opening theory",
+                                      "source": "wikibooks"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "This move develops with a threat. There are three sane ways to stop Qh4+.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "After this, Black's only sensible move is Bxd6, developing with a threat. However, Nf6, the Langheld Gambit has also been tried with similar ideas to the mainline but with a Queen on c7 instead of a pawn.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "d6 advances a pawn, influencing the structure in the Bird Opening.",
+                          "strategicTheme": "Prophylactic pawn move",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "f6",
+                        "fen": "rnbqkbnr/pppp2pp/5p2/4P3/8/8/PPPPP1PP/RNBQKBNR w KQkq - 0 3",
+                        "children": [],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "f6 advances a pawn, influencing the structure in the Bird Opening.",
+                          "strategicTheme": "Prophylactic pawn move",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "Ne7",
+                        "fen": "rnbqkb1r/ppppnppp/8/4P3/8/8/PPPPP1PP/RNBQKBNR w KQkq - 1 3",
+                        "children": [],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "Ne7 develops a piece to an active square in the Bird Opening.",
+                          "strategicTheme": "Knight activity",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "Nc6",
+                        "fen": "r1bqkbnr/pppp1ppp/2n5/4P3/8/8/PPPPP1PP/RNBQKBNR w KQkq - 1 3",
+                        "children": [],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "This move is a side line. Black's main move is 2.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "This wins a pawn, but creates more kingside weaknesses. Now white will have to be careful to not allow a quick knockout in the opening, after d6 exd6 Bxd6.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
+                    }
+                  },
+                  {
+                    "move": "d4",
+                    "fen": "rnbqkbnr/pppp1ppp/8/4p3/3P1P2/8/PPP1P1PP/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "exd4",
+                        "fen": "rnbqkbnr/pppp1ppp/8/8/3p1P2/8/PPP1P1PP/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "Nf3",
+                            "fen": "rnbqkbnr/pppp1ppp/8/8/3p1P2/5N2/PPP1P1PP/RNBQKB1R b KQkq - 1 3",
+                            "children": [
+                              {
+                                "move": "c5",
+                                "fen": "rnbqkbnr/pp1p1ppp/8/2p5/3p1P2/5N2/PPP1P1PP/RNBQKB1R w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "c3",
+                                    "fen": "rnbqkbnr/pp1p1ppp/8/2p5/3p1P2/2P2N2/PP2P1PP/RNBQKB1R b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "c3 advances a pawn, influencing the structure in the Bird Opening.",
+                                      "strategicTheme": "Prophylactic pawn move",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "c5 challenges the center from the flank in the Bird Opening.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "Nf3 develops a piece to an active square in the Bird Opening.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Bird Opening.",
+                          "strategicTheme": "Central tension",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Bird Opening.",
+                      "strategicTheme": "Central tension",
+                      "source": "generated"
+                    }
+                  }
+                ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Bird Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Here black enters the From Gambit. White's choices are either taking the pawn, or moving to e4, entering the King's Gambit.",
+                  "strategicTheme": "Center control",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -220,17 +1104,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Bird Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Here black enters the From Gambit. White's choices are either taking the pawn, or moving to e4, entering the King's Gambit.",
+                  "strategicTheme": "Center control",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -271,17 +1155,17 @@
                                 "children": [],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops a piece to an active square in the Bird Opening.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "This is the Langheld Gambit, a dubious pawn sacrifice to create lots of unknown traps and trick the white players to fall for them. The opening reached small amounts of popularity in recent years due to FM William Graifs advocacy for its playability, its often only played in blitz, or bullet; but to a high level still.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "exd6 exchanges material, altering the pawn structure in the Bird Opening.",
-                              "strategicTheme": "Material exchange",
-                              "source": "generated"
+                              "moveRationale": "After this, Black's only sensible move is Bxd6, developing with a threat. However, Nf6, the Langheld Gambit has also been tried with similar ideas to the mainline but with a Queen on c7 instead of a pawn.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
@@ -295,25 +1179,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "fxe5 exchanges material, altering the pawn structure in the Bird Opening.",
-                      "strategicTheme": "Material exchange",
-                      "source": "generated"
+                      "moveRationale": "This wins a pawn, but creates more kingside weaknesses. Now white will have to be careful to not allow a quick knockout in the opening, after d6 exd6 Bxd6.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Bird Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Here black enters the From Gambit. White's choices are either taking the pawn, or moving to e4, entering the King's Gambit.",
+                  "strategicTheme": "Center control",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -362,33 +1246,33 @@
                                         "children": [],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "g5 advances a pawn, influencing the structure in the Bird Opening.",
-                                          "strategicTheme": "Pawn structure",
-                                          "source": "generated"
+                                          "moveRationale": "This is the Lasker variation, the most aggressive and double edged line. Black now threatens g4 followed by Qh4+, Bxg3+, and mate to follow.",
+                                          "strategicTheme": "Opening theory",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "Nf3 develops a piece to an active square in the Bird Opening.",
-                                      "strategicTheme": "Natural piece development",
-                                      "source": "generated"
+                                      "moveRationale": "This is the most common move, and is also the best. The most common, and most aggressive reply, is the Lasker variation, 4.",
+                                      "strategicTheme": "Opening theory",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Bxd6 exchanges material, altering the pawn structure in the Bird Opening.",
-                                  "strategicTheme": "Material exchange",
-                                  "source": "generated"
+                                  "moveRationale": "This move develops with a threat. There are three sane ways to stop Qh4+.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "exd6 exchanges material, altering the pawn structure in the Bird Opening.",
-                              "strategicTheme": "Material exchange",
-                              "source": "generated"
+                              "moveRationale": "After this, Black's only sensible move is Bxd6, developing with a threat. However, Nf6, the Langheld Gambit has also been tried with similar ideas to the mainline but with a Queen on c7 instead of a pawn.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
@@ -402,25 +1286,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "fxe5 exchanges material, altering the pawn structure in the Bird Opening.",
-                      "strategicTheme": "Material exchange",
-                      "source": "generated"
+                      "moveRationale": "This wins a pawn, but creates more kingside weaknesses. Now white will have to be careful to not allow a quick knockout in the opening, after d6 exd6 Bxd6.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Bird Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Here black enters the From Gambit. White's choices are either taking the pawn, or moving to e4, entering the King's Gambit.",
+                  "strategicTheme": "Center control",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -489,25 +1373,25 @@
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "Nf3 develops a piece to an active square in the Bird Opening.",
-                                      "strategicTheme": "Natural piece development",
-                                      "source": "generated"
+                                      "moveRationale": "This is the most common move, and is also the best. The most common, and most aggressive reply, is the Lasker variation, 4.",
+                                      "strategicTheme": "Opening theory",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Bxd6 exchanges material, altering the pawn structure in the Bird Opening.",
-                                  "strategicTheme": "Material exchange",
-                                  "source": "generated"
+                                  "moveRationale": "This move develops with a threat. There are three sane ways to stop Qh4+.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "exd6 exchanges material, altering the pawn structure in the Bird Opening.",
-                              "strategicTheme": "Material exchange",
-                              "source": "generated"
+                              "moveRationale": "After this, Black's only sensible move is Bxd6, developing with a threat. However, Nf6, the Langheld Gambit has also been tried with similar ideas to the mainline but with a Queen on c7 instead of a pawn.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
@@ -521,25 +1405,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "fxe5 exchanges material, altering the pawn structure in the Bird Opening.",
-                      "strategicTheme": "Material exchange",
-                      "source": "generated"
+                      "moveRationale": "This wins a pawn, but creates more kingside weaknesses. Now white will have to be careful to not allow a quick knockout in the opening, after d6 exd6 Bxd6.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Bird Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Here black enters the From Gambit. White's choices are either taking the pawn, or moving to e4, entering the King's Gambit.",
+                  "strategicTheme": "Center control",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -572,9 +1456,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -631,9 +1515,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -658,17 +1542,17 @@
                 "children": [],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nh6 develops a piece to an active square in the Bird Opening.",
-                  "strategicTheme": "Knight activity",
-                  "source": "generated"
+                  "moveRationale": "This move looks odd, as it develops a knight to a really odd square and to the edge, but it has some benefits:\n\nThis move puts opponents out of their comfort zone and they may get confused and make a mistake and a blunder and fall into a trap. This move controls the f5 square, which white may use to start a kingside attack with the f-pawn, the g4 square, also if white is going for a kingside attack or an aggressive plan (such as putting the queen on g4 to attack the g7 pawn which attacks the rook that might be trapped), and the f7 square, safeguarding the king.",
+                  "strategicTheme": "Piece development",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -709,25 +1593,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "fxe5 exchanges material, altering the pawn structure in the Bird Opening.",
-                      "strategicTheme": "Material exchange",
-                      "source": "generated"
+                      "moveRationale": "This wins a pawn, but creates more kingside weaknesses. Now white will have to be careful to not allow a quick knockout in the opening, after d6 exd6 Bxd6.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Bird Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Here black enters the From Gambit. White's choices are either taking the pawn, or moving to e4, entering the King's Gambit.",
+                  "strategicTheme": "Center control",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -772,9 +1656,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -807,9 +1691,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -850,25 +1734,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "fxe5 exchanges material, altering the pawn structure in the Bird Opening.",
-                      "strategicTheme": "Material exchange",
-                      "source": "generated"
+                      "moveRationale": "This wins a pawn, but creates more kingside weaknesses. Now white will have to be careful to not allow a quick knockout in the opening, after d6 exd6 Bxd6.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Bird Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Here black enters the From Gambit. White's choices are either taking the pawn, or moving to e4, entering the King's Gambit.",
+                  "strategicTheme": "Center control",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -901,33 +1785,33 @@
                         "children": [],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Bird Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "This move is a side line. Black's main move is 2.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "fxe5 exchanges material, altering the pawn structure in the Bird Opening.",
-                      "strategicTheme": "Material exchange",
-                      "source": "generated"
+                      "moveRationale": "This wins a pawn, but creates more kingside weaknesses. Now white will have to be careful to not allow a quick knockout in the opening, after d6 exd6 Bxd6.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Bird Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Here black enters the From Gambit. White's choices are either taking the pawn, or moving to e4, entering the King's Gambit.",
+                  "strategicTheme": "Center control",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1012,17 +1896,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Bird Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Here black enters the From Gambit. White's choices are either taking the pawn, or moving to e4, entering the King's Gambit.",
+                  "strategicTheme": "Center control",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1107,17 +1991,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "f5 advances a pawn, influencing the structure in the Bird Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "This is not a very popular line for Black because it can lead to a closed and relatively uneventful game if Black copies White's moves. This opening has only 40 games played by masters in the Lichess Master Database.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1143,7 +2027,55 @@
                   {
                     "move": "e4",
                     "fen": "rnbqkbnr/ppppp1pp/8/5p2/4PP2/8/PPPP2PP/RNBQKBNR b KQkq - 0 2",
-                    "children": [],
+                    "children": [
+                      {
+                        "move": "fxe4",
+                        "fen": "rnbqkbnr/ppppp1pp/8/8/4pP2/8/PPPP2PP/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "Nc3",
+                            "fen": "rnbqkbnr/ppppp1pp/8/8/4pP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 1 3",
+                            "children": [
+                              {
+                                "move": "Nf6",
+                                "fen": "rnbqkb1r/ppppp1pp/5n2/8/4pP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 2 4",
+                                "children": [
+                                  {
+                                    "move": "g4",
+                                    "fen": "rnbqkb1r/ppppp1pp/5n2/8/4pPP1/2N5/PPPP3P/R1BQKBNR b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "g4 advances a pawn, influencing the structure in the Bird Opening.",
+                                      "strategicTheme": "Pawn structure",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Bird Opening.",
+                                  "strategicTheme": "Natural piece development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Bird Opening.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "fxe4 exchanges material, altering the pawn structure in the Bird Opening.",
+                          "strategicTheme": "Material exchange",
+                          "source": "generated"
+                        }
+                      }
+                    ],
                     "isMainLine": true,
                     "annotation": {
                       "moveRationale": "e4 impacts the center, shaping the pawn structure in the Bird Opening.",
@@ -1154,17 +2086,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "f5 advances a pawn, influencing the structure in the Bird Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "This is not a very popular line for Black because it can lead to a closed and relatively uneventful game if Black copies White's moves. This opening has only 40 games played by masters in the Lichess Master Database.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1186,20 +2118,243 @@
               {
                 "move": "d5",
                 "fen": "rnbqkbnr/ppp1pppp/8/3p4/5P2/8/PPPPP1PP/RNBQKBNR w KQkq - 0 2",
-                "children": [],
+                "children": [
+                  {
+                    "move": "g4",
+                    "fen": "rnbqkbnr/ppp1pppp/8/3p4/5PP1/8/PPPPP2P/RNBQKBNR b KQkq - 0 2",
+                    "children": [],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "This move blunders a pawn for no apparent reason, while severely weakening the kingside. Black can play 2.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
+                    }
+                  },
+                  {
+                    "move": "Nf3",
+                    "fen": "rnbqkbnr/ppp1pppp/8/3p4/5P2/5N2/PPPPP1PP/RNBQKB1R b KQkq - 1 2",
+                    "children": [
+                      {
+                        "move": "Nf6",
+                        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/5P2/5N2/PPPPP1PP/RNBQKB1R w KQkq - 2 3",
+                        "children": [
+                          {
+                            "move": "e3",
+                            "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/5P2/4PN2/PPPP2PP/RNBQKB1R b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "c5",
+                                "fen": "rnbqkb1r/pp2pppp/5n2/2pp4/5P2/4PN2/PPPP2PP/RNBQKB1R w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "c5 challenges the center from the flank in the Bird Opening.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Bird Opening.",
+                              "strategicTheme": "Solid center support",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "Nf6 develops a piece to an active square in the Bird Opening.",
+                          "strategicTheme": "Natural piece development",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Bird Opening.",
+                      "strategicTheme": "Natural piece development",
+                      "source": "generated"
+                    }
+                  },
+                  {
+                    "move": "c4",
+                    "fen": "rnbqkbnr/ppp1pppp/8/3p4/2P2P2/8/PP1PP1PP/RNBQKBNR b KQkq - 0 2",
+                    "children": [],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "c4 gains space on the queenside in the Bird Opening.",
+                      "strategicTheme": "Pawn structure",
+                      "source": "generated"
+                    }
+                  },
+                  {
+                    "move": "b3",
+                    "fen": "rnbqkbnr/ppp1pppp/8/3p4/5P2/1P6/P1PPP1PP/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "Nf6",
+                        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/5P2/1P6/P1PPP1PP/RNBQKBNR w KQkq - 1 3",
+                        "children": [
+                          {
+                            "move": "Bb2",
+                            "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/5P2/1P6/PBPPP1PP/RN1QKBNR b KQkq - 2 3",
+                            "children": [
+                              {
+                                "move": "d4",
+                                "fen": "rnbqkb1r/ppp1pppp/5n2/8/3p1P2/1P6/PBPPP1PP/RN1QKBNR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Nf3",
+                                    "fen": "rnbqkb1r/ppp1pppp/5n2/8/3p1P2/1P3N2/PBPPP1PP/RN1QKB1R b KQkq - 1 4",
+                                    "children": [
+                                      {
+                                        "move": "c5",
+                                        "fen": "rnbqkb1r/pp2pppp/5n2/2p5/3p1P2/1P3N2/PBPPP1PP/RN1QKB1R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "e3",
+                                            "fen": "rnbqkb1r/pp2pppp/5n2/2p5/3p1P2/1P2PN2/PBPP2PP/RN1QKB1R b KQkq - 0 5",
+                                            "children": [],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Bird Opening.",
+                                              "strategicTheme": "Solid center support",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "c5 challenges the center from the flank in the Bird Opening.",
+                                          "strategicTheme": "Pawn structure",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Nf3 develops a piece to an active square in the Bird Opening.",
+                                      "strategicTheme": "Natural piece development",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "d4 impacts the center, shaping the pawn structure in the Bird Opening.",
+                                  "strategicTheme": "Central tension",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Bb2 develops a piece to an active square in the Bird Opening.",
+                              "strategicTheme": "Bishop development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "Nf6 develops a piece to an active square in the Bird Opening.",
+                          "strategicTheme": "Natural piece development",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "b3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Bird Opening.",
+                      "strategicTheme": "Fianchetto preparation",
+                      "source": "generated"
+                    }
+                  },
+                  {
+                    "move": "e4",
+                    "fen": "rnbqkbnr/ppp1pppp/8/3p4/4PP2/8/PPPP2PP/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "dxe4",
+                        "fen": "rnbqkbnr/ppp1pppp/8/8/4pP2/8/PPPP2PP/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "Nc3",
+                            "fen": "rnbqkbnr/ppp1pppp/8/8/4pP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 1 3",
+                            "children": [
+                              {
+                                "move": "Nf6",
+                                "fen": "rnbqkb1r/ppp1pppp/5n2/8/4pP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 2 4",
+                                "children": [
+                                  {
+                                    "move": "Qe2",
+                                    "fen": "rnbqkb1r/ppp1pppp/5n2/8/4pP2/2N5/PPPPQ1PP/R1B1KBNR b KQkq - 3 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Qe2 activates the queen, increasing pressure in the Bird Opening.",
+                                      "strategicTheme": "Queen activity",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "Nge2",
+                                    "fen": "rnbqkb1r/ppp1pppp/5n2/8/4pP2/2N5/PPPPN1PP/R1BQKB1R b KQkq - 3 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Nge2 develops a piece to an active square in the Bird Opening.",
+                                      "strategicTheme": "Knight activity",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Bird Opening.",
+                                  "strategicTheme": "Natural piece development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Bird Opening.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Bird Opening.",
+                          "strategicTheme": "Central tension",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": false,
+                    "annotation": {
+                      "moveRationale": "White offers Black the e-pawn for free. It is very similar to the Englund gambit (1.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
+                    }
+                  }
+                ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Bird Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "From here, one possible reply is to treat the position as a Dutch Defence reversed. As in the Dutch, white can either fianchetto with 2.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1228,25 +2383,25 @@
                     "children": [],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "g4 advances a pawn, influencing the structure in the Bird Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "This move blunders a pawn for no apparent reason, while severely weakening the kingside. Black can play 2.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Bird Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "From here, one possible reply is to treat the position as a Dutch Defence reversed. As in the Dutch, white can either fianchetto with 2.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1319,17 +2474,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Bird Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "From here, one possible reply is to treat the position as a Dutch Defence reversed. As in the Dutch, white can either fianchetto with 2.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1366,17 +2521,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Bird Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "From here, one possible reply is to treat the position as a Dutch Defence reversed. As in the Dutch, white can either fianchetto with 2.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1485,17 +2640,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Bird Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "From here, one possible reply is to treat the position as a Dutch Defence reversed. As in the Dutch, white can either fianchetto with 2.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1521,28 +2676,87 @@
                   {
                     "move": "e4",
                     "fen": "rnbqkbnr/ppp1pppp/8/3p4/4PP2/8/PPPP2PP/RNBQKBNR b KQkq - 0 2",
-                    "children": [],
+                    "children": [
+                      {
+                        "move": "dxe4",
+                        "fen": "rnbqkbnr/ppp1pppp/8/8/4pP2/8/PPPP2PP/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "Nc3",
+                            "fen": "rnbqkbnr/ppp1pppp/8/8/4pP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 1 3",
+                            "children": [
+                              {
+                                "move": "Nf6",
+                                "fen": "rnbqkb1r/ppp1pppp/5n2/8/4pP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 2 4",
+                                "children": [
+                                  {
+                                    "move": "Qe2",
+                                    "fen": "rnbqkb1r/ppp1pppp/5n2/8/4pP2/2N5/PPPPQ1PP/R1B1KBNR b KQkq - 3 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Qe2 activates the queen, increasing pressure in the Bird Opening.",
+                                      "strategicTheme": "Queen activity",
+                                      "source": "generated"
+                                    }
+                                  },
+                                  {
+                                    "move": "Nge2",
+                                    "fen": "rnbqkb1r/ppp1pppp/5n2/8/4pP2/2N5/PPPPN1PP/R1BQKB1R b KQkq - 3 4",
+                                    "children": [],
+                                    "isMainLine": false,
+                                    "annotation": {
+                                      "moveRationale": "Nge2 develops a piece to an active square in the Bird Opening.",
+                                      "strategicTheme": "Knight activity",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Bird Opening.",
+                                  "strategicTheme": "Natural piece development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Bird Opening.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Bird Opening.",
+                          "strategicTheme": "Central tension",
+                          "source": "generated"
+                        }
+                      }
+                    ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Bird Opening.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White offers Black the e-pawn for free. It is very similar to the Englund gambit (1.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Bird Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "From here, one possible reply is to treat the position as a Dutch Defence reversed. As in the Dutch, white can either fianchetto with 2.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1619,25 +2833,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Bird Opening.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White offers Black the e-pawn for free. It is very similar to the Englund gambit (1.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Bird Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "From here, one possible reply is to treat the position as a Dutch Defence reversed. As in the Dutch, white can either fianchetto with 2.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1714,25 +2928,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Bird Opening.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "White offers Black the e-pawn for free. It is very similar to the Englund gambit (1.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Bird Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "From here, one possible reply is to treat the position as a Dutch Defence reversed. As in the Dutch, white can either fianchetto with 2.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-              "strategicTheme": "Aggressive kingside expansion",
-              "source": "generated"
+              "moveRationale": "Bird's opening is an aggressive and less common first move. f4 controls e5 from the flank, and means White will be able to soon play Nf3 without it keeping their f-pawn back.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1789,33 +3003,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "d5 advances a pawn, influencing the structure in the Bird Opening.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "d5 is the Tal gambit. exd5 is the main move.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "f4 advances a pawn, influencing the structure in the Bird Opening.",
-                      "strategicTheme": "Aggressive kingside expansion",
-                      "source": "generated"
+                      "moveRationale": "f4 White begins an aggressive attack against Black's kingside. This is the McDonnell attack, aka  a(n accelerated) Grand Prix.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "c5 challenges the center from the flank in the Bird Opening.",
-                  "strategicTheme": "Asymmetric counter-play",
-                  "source": "generated"
+                  "moveRationale": "c5 is the Sicilian defence, a counter-attacking, asymmetric opening. Black controls the d4 square with a flank pawn, asserting that trading their flank c-pawn for White's d-pawn will surely be to their advantage, as it will leave them with two central pawns to White's one.",
+                  "strategicTheme": "Piece development",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Bird Opening.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

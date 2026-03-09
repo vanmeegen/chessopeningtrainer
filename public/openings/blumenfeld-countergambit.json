@@ -41,7 +41,102 @@
                                       {
                                         "move": "b5",
                                         "fen": "rnbqkb1r/p2p1ppp/4pn2/1ppP4/2P5/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 5",
-                                        "children": [],
+                                        "children": [
+                                          {
+                                            "move": "Bg5",
+                                            "fen": "rnbqkb1r/p2p1ppp/4pn2/1ppP2B1/2P5/5N2/PP2PPPP/RN1QKB1R b KQkq - 1 5",
+                                            "children": [
+                                              {
+                                                "move": "exd5",
+                                                "fen": "rnbqkb1r/p2p1ppp/5n2/1ppp2B1/2P5/5N2/PP2PPPP/RN1QKB1R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "cxd5",
+                                                    "fen": "rnbqkb1r/p2p1ppp/5n2/1ppP2B1/8/5N2/PP2PPPP/RN1QKB1R b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "h6",
+                                                        "fen": "rnbqkb1r/p2p1pp1/5n1p/1ppP2B1/8/5N2/PP2PPPP/RN1QKB1R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "h6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Blumenfeld Countergambit.",
+                                                          "strategicTheme": "Prophylactic pawn move",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Blumenfeld Countergambit.",
+                                                      "strategicTheme": "Material exchange",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "exd5 exchanges material, altering the pawn structure in the Blumenfeld Countergambit.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Bg5 develops a piece to an active square in the Blumenfeld Countergambit.",
+                                              "strategicTheme": "Bishop development",
+                                              "source": "generated"
+                                            }
+                                          },
+                                          {
+                                            "move": "dxe6",
+                                            "fen": "rnbqkb1r/p2p1ppp/4Pn2/1pp5/2P5/5N2/PP2PPPP/RNBQKB1R b KQkq - 0 5",
+                                            "children": [
+                                              {
+                                                "move": "fxe6",
+                                                "fen": "rnbqkb1r/p2p2pp/4pn2/1pp5/2P5/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "cxb5",
+                                                    "fen": "rnbqkb1r/p2p2pp/4pn2/1Pp5/8/5N2/PP2PPPP/RNBQKB1R b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "d5",
+                                                        "fen": "rnbqkb1r/p5pp/4pn2/1Ppp4/8/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": false,
+                                                        "annotation": {
+                                                          "moveRationale": "d5 advances a pawn, influencing the structure in the Blumenfeld Countergambit.",
+                                                          "strategicTheme": "Pawn structure",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": false,
+                                                    "annotation": {
+                                                      "moveRationale": "cxb5 exchanges material, altering the pawn structure in the Blumenfeld Countergambit.",
+                                                      "strategicTheme": "Material exchange",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": false,
+                                                "annotation": {
+                                                  "moveRationale": "fxe6 exchanges material, altering the pawn structure in the Blumenfeld Countergambit.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": false,
+                                            "annotation": {
+                                              "moveRationale": "dxe6 exchanges material, altering the pawn structure in the Blumenfeld Countergambit.",
+                                              "strategicTheme": "Material exchange",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
                                         "isMainLine": true,
                                         "annotation": {
                                           "moveRationale": "b5 advances a pawn, influencing the structure in the Blumenfeld Countergambit.",
@@ -68,41 +163,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Blumenfeld Countergambit.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nf3 develops a piece and contributes to White's fight for the center of the board. This move strengthens the d4 and e5 squares and brings White a move closer to castling kingside.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Blumenfeld Countergambit.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Blumenfeld Countergambit.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Blumenfeld Countergambit.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Blumenfeld Countergambit.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -152,7 +247,43 @@
                                           {
                                             "move": "Bg5",
                                             "fen": "rnbqkb1r/p2p1ppp/4pn2/1ppP2B1/2P5/5N2/PP2PPPP/RN1QKB1R b KQkq - 1 5",
-                                            "children": [],
+                                            "children": [
+                                              {
+                                                "move": "exd5",
+                                                "fen": "rnbqkb1r/p2p1ppp/5n2/1ppp2B1/2P5/5N2/PP2PPPP/RN1QKB1R w KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "cxd5",
+                                                    "fen": "rnbqkb1r/p2p1ppp/5n2/1ppP2B1/8/5N2/PP2PPPP/RN1QKB1R b KQkq - 0 6",
+                                                    "children": [
+                                                      {
+                                                        "move": "h6",
+                                                        "fen": "rnbqkb1r/p2p1pp1/5n1p/1ppP2B1/8/5N2/PP2PPPP/RN1QKB1R w KQkq - 0 7",
+                                                        "children": [],
+                                                        "isMainLine": true,
+                                                        "annotation": {
+                                                          "moveRationale": "h6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Blumenfeld Countergambit.",
+                                                          "strategicTheme": "Prophylactic pawn move",
+                                                          "source": "generated"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Blumenfeld Countergambit.",
+                                                      "strategicTheme": "Material exchange",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "exd5 exchanges material, altering the pawn structure in the Blumenfeld Countergambit.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
                                             "isMainLine": true,
                                             "annotation": {
                                               "moveRationale": "Bg5 develops a piece to an active square in the Blumenfeld Countergambit.",
@@ -187,41 +318,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Blumenfeld Countergambit.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nf3 develops a piece and contributes to White's fight for the center of the board. This move strengthens the d4 and e5 squares and brings White a move closer to castling kingside.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Blumenfeld Countergambit.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Blumenfeld Countergambit.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Blumenfeld Countergambit.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Blumenfeld Countergambit.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -342,41 +473,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Blumenfeld Countergambit.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nf3 develops a piece and contributes to White's fight for the center of the board. This move strengthens the d4 and e5 squares and brings White a move closer to castling kingside.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Blumenfeld Countergambit.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Blumenfeld Countergambit.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Blumenfeld Countergambit.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Blumenfeld Countergambit.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

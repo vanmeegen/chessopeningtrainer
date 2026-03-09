@@ -4,6 +4,7 @@ import {
   buildMoveTree,
   mergeMoveSequence,
   buildOpeningMoveTree,
+  extendMainLine,
 } from "../build-move-trees.js";
 import type { ParsedVariation } from "../parse-openings.js";
 
@@ -213,6 +214,98 @@ describe("buildOpeningMoveTree", () => {
   it("should return null for empty variations", () => {
     const result = buildOpeningMoveTree([]);
     expect(result).toBeNull();
+  });
+});
+
+describe("extendMainLine", () => {
+  it("should extend mainline when end node has non-mainline children", () => {
+    // Build a tree: main line is e4 c5 (2 moves)
+    // Then merge a longer line e4 c5 Nf3 d6 as non-mainline
+    const root = buildMoveTree(["e4", "c5"], true);
+    mergeMoveSequence(root, ["e4", "c5", "Nf3", "d6"], false);
+
+    // Before: mainline ends at c5
+    const c5Before = root.children[0]!.children[0]!;
+    expect(c5Before.children[0]!.isMainLine).toBe(false);
+
+    extendMainLine(root);
+
+    // After: mainline should continue through Nf3 and d6
+    const c5 = root.children[0]!.children[0]!;
+    const nf3 = c5.children[0]!;
+    expect(nf3.isMainLine).toBe(true);
+    expect(nf3.children[0]!.isMainLine).toBe(true);
+  });
+
+  it("should pick the deepest branch when multiple non-mainline children exist", () => {
+    const root = buildMoveTree(["e4", "e5"], true);
+    mergeMoveSequence(root, ["e4", "e5", "Nf3"], false); // depth 1
+    mergeMoveSequence(root, ["e4", "e5", "Bc4", "Nf6", "d3"], false); // depth 3
+
+    extendMainLine(root);
+
+    const e5 = root.children[0]!.children[0]!;
+    // Bc4 branch is deeper, should be chosen
+    const bc4 = e5.children.find((c) => c.move === "Bc4")!;
+    const nf3 = e5.children.find((c) => c.move === "Nf3")!;
+    expect(bc4.isMainLine).toBe(true);
+    expect(nf3.isMainLine).toBe(false);
+  });
+
+  it("should not change anything if mainline already reaches max depth", () => {
+    const root = buildMoveTree(["e4", "e5", "Nf3"], true);
+
+    extendMainLine(root);
+
+    // All nodes should still be mainline, no changes
+    expect(root.children[0]!.isMainLine).toBe(true);
+    expect(root.children[0]!.children[0]!.isMainLine).toBe(true);
+    expect(root.children[0]!.children[0]!.children[0]!.isMainLine).toBe(true);
+  });
+
+  it("should reroute mainline at intermediate node when sibling is deeper", () => {
+    // Main line: e4 Nf6 e5 Ng8 d4 f5 (6 moves, like Alekhine)
+    // Side line:  e4 Nf6 e5 Nd5 c4 Nb6 d4 d6 exd6 (9 moves, deeper)
+    const root = buildMoveTree(["e4", "Nf6", "e5", "Ng8", "d4", "f5"], true);
+    mergeMoveSequence(
+      root,
+      ["e4", "Nf6", "e5", "Nd5", "c4", "Nb6", "d4", "d6", "exd6"],
+      false,
+    );
+
+    extendMainLine(root);
+
+    // Nd5 branch is deeper (6 remaining moves) vs Ng8 (3 remaining moves)
+    // So mainline should switch to Nd5
+    const e5 = root.children[0]!.children[0]!.children[0]!;
+    const ng8 = e5.children.find((c) => c.move === "Ng8")!;
+    const nd5 = e5.children.find((c) => c.move === "Nd5")!;
+    expect(ng8.isMainLine).toBe(false);
+    expect(nd5.isMainLine).toBe(true);
+  });
+
+  it("should reroute mainline to deeper sibling even at intermediate nodes", () => {
+    // Main line: e4 Nf6 (2 moves, mainline ends)
+    // Side line at e4: e5 Nf3 Nc6 Bc4 (4 moves deep, deeper than Nf6)
+    const root = buildMoveTree(["e4", "Nf6"], true);
+    mergeMoveSequence(root, ["e4", "e5", "Nf3", "Nc6", "Bc4"], false);
+
+    extendMainLine(root);
+
+    // e5 branch is deeper (4 remaining) vs Nf6 (1 remaining), so mainline switches
+    const e4 = root.children[0]!;
+    const nf6 = e4.children.find((c) => c.move === "Nf6")!;
+    const e5 = e4.children.find((c) => c.move === "e5")!;
+    expect(nf6.isMainLine).toBe(false);
+    expect(e5.isMainLine).toBe(true);
+    // And the promoted branch continues as mainline
+    expect(e5.children[0]!.isMainLine).toBe(true); // Nf3
+  });
+
+  it("should handle empty tree", () => {
+    const root = buildMoveTree([], true);
+    extendMainLine(root); // should not throw
+    expect(root.children).toHaveLength(0);
   });
 
   it("should handle a single variation", () => {

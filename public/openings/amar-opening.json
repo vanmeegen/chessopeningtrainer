@@ -13,12 +13,132 @@
           {
             "move": "Nh3",
             "fen": "rnbqkbnr/pppppppp/8/8/8/7N/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
-            "children": [],
+            "children": [
+              {
+                "move": "d5",
+                "fen": "rnbqkbnr/ppp1pppp/8/3p4/8/7N/PPPPPPPP/RNBQKB1R w KQkq - 0 2",
+                "children": [
+                  {
+                    "move": "g3",
+                    "fen": "rnbqkbnr/ppp1pppp/8/3p4/8/6PN/PPPPPP1P/RNBQKB1R b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "e5",
+                        "fen": "rnbqkbnr/ppp2ppp/8/3pp3/8/6PN/PPPPPP1P/RNBQKB1R w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "f4",
+                            "fen": "rnbqkbnr/ppp2ppp/8/3pp3/5P2/6PN/PPPPP2P/RNBQKB1R b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Bxh3",
+                                "fen": "rn1qkbnr/ppp2ppp/8/3pp3/5P2/6Pb/PPPPP2P/RNBQKB1R w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Bxh3",
+                                    "fen": "rn1qkbnr/ppp2ppp/8/3pp3/5P2/6PB/PPPPP2P/RNBQK2R b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "exf4",
+                                        "fen": "rn1qkbnr/ppp2ppp/8/3p4/5p2/6PB/PPPPP2P/RNBQK2R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "O-O",
+                                            "fen": "rn1qkbnr/ppp2ppp/8/3p4/5p2/6PB/PPPPP2P/RNBQ1RK1 b kq - 1 5",
+                                            "children": [
+                                              {
+                                                "move": "fxg3",
+                                                "fen": "rn1qkbnr/ppp2ppp/8/3p4/8/6pB/PPPPP2P/RNBQ1RK1 w kq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "hxg3",
+                                                    "fen": "rn1qkbnr/ppp2ppp/8/3p4/8/6PB/PPPPP3/RNBQ1RK1 b kq - 0 6",
+                                                    "children": [],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "hxg3 exchanges material, altering the pawn structure in the Amar Opening.",
+                                                      "strategicTheme": "Material exchange",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "fxg3 exchanges material, altering the pawn structure in the Amar Opening.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Amar Opening.",
+                                              "strategicTheme": "Early king safety",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "exf4 impacts the center, shaping the pawn structure in the Amar Opening.",
+                                          "strategicTheme": "Central tension",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Bxh3 exchanges material, altering the pawn structure in the Amar Opening.",
+                                      "strategicTheme": "Material exchange",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Bxh3 exchanges material, altering the pawn structure in the Amar Opening.",
+                                  "strategicTheme": "Material exchange",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "f4 advances a pawn, influencing the structure in the Amar Opening.",
+                              "strategicTheme": "Aggressive kingside expansion",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "e5 advances a pawn, influencing the structure in the Amar Opening.",
+                          "strategicTheme": "Pawn structure",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Amar Opening.",
+                      "strategicTheme": "Fianchetto preparation",
+                      "source": "generated"
+                    }
+                  }
+                ],
+                "isMainLine": true,
+                "annotation": {
+                  "moveRationale": "__NOTOC__\n\nThis move takes space in the centre, and threatens to damage White's already vulnerable kingside pawn structure with 2. White may put off Black’s threats or even encourage them, either in search of outrageous activity of their king’s rook, or a more subtle approach with 2.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
+                }
+              }
+            ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nh3 develops a piece to an active square in the Amar Opening.",
-              "strategicTheme": "Knight activity",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Ammonia opening is based on the chemical formula of ammonia (NH3) and the fact that ammonia, like this opening, 'stinks'. Other titles for this opening include; the Amar Opening, the Paris Opening, and Drunken Knight Opening.",
+              "strategicTheme": "Piece development",
+              "source": "wikibooks"
             }
           }
         ],
@@ -52,7 +172,79 @@
                           {
                             "move": "f4",
                             "fen": "rnbqkbnr/ppp2ppp/8/3pp3/5P2/6PN/PPPPP2P/RNBQKB1R b KQkq - 0 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "Bxh3",
+                                "fen": "rn1qkbnr/ppp2ppp/8/3pp3/5P2/6Pb/PPPPP2P/RNBQKB1R w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "Bxh3",
+                                    "fen": "rn1qkbnr/ppp2ppp/8/3pp3/5P2/6PB/PPPPP2P/RNBQK2R b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "exf4",
+                                        "fen": "rn1qkbnr/ppp2ppp/8/3p4/5p2/6PB/PPPPP2P/RNBQK2R w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "O-O",
+                                            "fen": "rn1qkbnr/ppp2ppp/8/3p4/5p2/6PB/PPPPP2P/RNBQ1RK1 b kq - 1 5",
+                                            "children": [
+                                              {
+                                                "move": "fxg3",
+                                                "fen": "rn1qkbnr/ppp2ppp/8/3p4/8/6pB/PPPPP2P/RNBQ1RK1 w kq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "move": "hxg3",
+                                                    "fen": "rn1qkbnr/ppp2ppp/8/3p4/8/6PB/PPPPP3/RNBQ1RK1 b kq - 0 6",
+                                                    "children": [],
+                                                    "isMainLine": true,
+                                                    "annotation": {
+                                                      "moveRationale": "hxg3 exchanges material, altering the pawn structure in the Amar Opening.",
+                                                      "strategicTheme": "Material exchange",
+                                                      "source": "generated"
+                                                    }
+                                                  }
+                                                ],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "fxg3 exchanges material, altering the pawn structure in the Amar Opening.",
+                                                  "strategicTheme": "Material exchange",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Amar Opening.",
+                                              "strategicTheme": "Early king safety",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "exf4 impacts the center, shaping the pawn structure in the Amar Opening.",
+                                          "strategicTheme": "Central tension",
+                                          "source": "generated"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Bxh3 exchanges material, altering the pawn structure in the Amar Opening.",
+                                      "strategicTheme": "Material exchange",
+                                      "source": "generated"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Bxh3 exchanges material, altering the pawn structure in the Amar Opening.",
+                                  "strategicTheme": "Material exchange",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
                             "isMainLine": true,
                             "annotation": {
                               "moveRationale": "f4 advances a pawn, influencing the structure in the Amar Opening.",
@@ -79,17 +271,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Amar Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "__NOTOC__\n\nThis move takes space in the centre, and threatens to damage White's already vulnerable kingside pawn structure with 2. White may put off Black’s threats or even encourage them, either in search of outrageous activity of their king’s rook, or a more subtle approach with 2.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nh3 develops a piece to an active square in the Amar Opening.",
-              "strategicTheme": "Knight activity",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Ammonia opening is based on the chemical formula of ammonia (NH3) and the fact that ammonia, like this opening, 'stinks'. Other titles for this opening include; the Amar Opening, the Paris Opening, and Drunken Knight Opening.",
+              "strategicTheme": "Piece development",
+              "source": "wikibooks"
             }
           }
         ],
@@ -222,17 +414,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Amar Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "__NOTOC__\n\nThis move takes space in the centre, and threatens to damage White's already vulnerable kingside pawn structure with 2. White may put off Black’s threats or even encourage them, either in search of outrageous activity of their king’s rook, or a more subtle approach with 2.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nh3 develops a piece to an active square in the Amar Opening.",
-              "strategicTheme": "Knight activity",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Ammonia opening is based on the chemical formula of ammonia (NH3) and the fact that ammonia, like this opening, 'stinks'. Other titles for this opening include; the Amar Opening, the Paris Opening, and Drunken Knight Opening.",
+              "strategicTheme": "Piece development",
+              "source": "wikibooks"
             }
           }
         ],

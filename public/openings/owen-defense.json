@@ -17,20 +17,207 @@
               {
                 "move": "b6",
                 "fen": "rnbqkbnr/p1pppppp/1p6/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
-                "children": [],
+                "children": [
+                  {
+                    "move": "d4",
+                    "fen": "rnbqkbnr/p1pppppp/1p6/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "Ba6",
+                        "fen": "rn1qkbnr/p1pppppp/bp6/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 1 3",
+                        "children": [],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "Ba6 develops a piece to an active square in the Owen Defense.",
+                          "strategicTheme": "Bishop development",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "c5",
+                        "fen": "rnbqkbnr/p2ppppp/1p6/2p5/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+                        "children": [
+                          {
+                            "move": "dxc5",
+                            "fen": "rnbqkbnr/p2ppppp/1p6/2P5/4P3/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "Nc6",
+                                "fen": "r1bqkbnr/p2ppppp/1pn5/2P5/4P3/8/PPP2PPP/RNBQKBNR w KQkq - 1 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Owen Defense.",
+                                  "strategicTheme": "Natural piece development",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "dxc5 exchanges material, altering the pawn structure in the Owen Defense.",
+                              "strategicTheme": "Material exchange",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": false,
+                        "annotation": {
+                          "moveRationale": "c5 challenges the center from the flank in the Owen Defense.",
+                          "strategicTheme": "Asymmetric counter-play",
+                          "source": "generated"
+                        }
+                      },
+                      {
+                        "move": "Bb7",
+                        "fen": "rn1qkbnr/pbpppppp/1p6/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 1 3",
+                        "children": [
+                          {
+                            "move": "Bd3",
+                            "fen": "rn1qkbnr/pbpppppp/1p6/8/3PP3/3B4/PPP2PPP/RNBQK1NR b KQkq - 2 3",
+                            "children": [
+                              {
+                                "move": "f5",
+                                "fen": "rn1qkbnr/pbppp1pp/1p6/5p2/3PP3/3B4/PPP2PPP/RNBQK1NR w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "exf5",
+                                    "fen": "rn1qkbnr/pbppp1pp/1p6/5P2/3P4/3B4/PPP2PPP/RNBQK1NR b KQkq - 0 4",
+                                    "children": [
+                                      {
+                                        "move": "Bxg2",
+                                        "fen": "rn1qkbnr/p1ppp1pp/1p6/5P2/3P4/3B4/PPP2PbP/RNBQK1NR w KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "move": "Qh5+",
+                                            "fen": "rn1qkbnr/p1ppp1pp/1p6/5P1Q/3P4/3B4/PPP2PbP/RNB1K1NR b KQkq - 1 5",
+                                            "children": [
+                                              {
+                                                "move": "g6",
+                                                "fen": "rn1qkbnr/p1ppp2p/1p4p1/5P1Q/3P4/3B4/PPP2PbP/RNB1K1NR w KQkq - 0 6",
+                                                "children": [],
+                                                "isMainLine": true,
+                                                "annotation": {
+                                                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Owen Defense.",
+                                                  "strategicTheme": "Fianchetto preparation",
+                                                  "source": "generated"
+                                                }
+                                              }
+                                            ],
+                                            "isMainLine": true,
+                                            "annotation": {
+                                              "moveRationale": "Qh5+ delivers check, seizing the initiative in the Owen Defense.",
+                                              "strategicTheme": "King pressure",
+                                              "source": "generated"
+                                            }
+                                          }
+                                        ],
+                                        "isMainLine": true,
+                                        "annotation": {
+                                          "moveRationale": "Capturing white's unprotected g-pawn, and threatening white's cornered rook. White can now play:\n*5.",
+                                          "strategicTheme": "Opening theory",
+                                          "source": "wikibooks"
+                                        }
+                                      }
+                                    ],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "Accepting the gambit by taking black's f-pawn. Black can now play:\n*4.",
+                                      "strategicTheme": "Gambit play",
+                                      "source": "wikibooks"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Offering white the f-pawn, in exchange for exposing white's unprotected g-pawn and cornered rook. White can now play:\n*4.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
+                                }
+                              }
+                            ],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Defending the e4 pawn. Black can now play:\n*3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
+                            }
+                          },
+                          {
+                            "move": "Bg5",
+                            "fen": "rn1qkbnr/pbpppppp/1p6/6B1/3PP3/8/PPP2PPP/RN1QKBNR b KQkq - 2 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "Bg5 develops a piece to an active square in the Owen Defense.",
+                              "strategicTheme": "Bishop development",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "Nf3",
+                            "fen": "rn1qkbnr/pbpppppp/1p6/8/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 2 3",
+                            "children": [],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "Nf3 develops a piece to an active square in the Owen Defense.",
+                              "strategicTheme": "Natural piece development",
+                              "source": "generated"
+                            }
+                          },
+                          {
+                            "move": "f3",
+                            "fen": "rn1qkbnr/pbpppppp/1p6/8/3PP3/5P2/PPP3PP/RNBQKBNR b KQkq - 0 3",
+                            "children": [
+                              {
+                                "move": "e5",
+                                "fen": "rn1qkbnr/pbpp1ppp/1p6/4p3/3PP3/5P2/PPP3PP/RNBQKBNR w KQkq - 0 4",
+                                "children": [],
+                                "isMainLine": false,
+                                "annotation": {
+                                  "moveRationale": "e5 advances a pawn, influencing the structure in the Owen Defense.",
+                                  "strategicTheme": "Pawn structure",
+                                  "source": "generated"
+                                }
+                              }
+                            ],
+                            "isMainLine": false,
+                            "annotation": {
+                              "moveRationale": "f3 advances a pawn, influencing the structure in the Owen Defense.",
+                              "strategicTheme": "Prophylactic pawn move",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "Black attacks e4. White's most common reply is 3.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "A logical developing move. Black almost always responds with 2.",
+                      "strategicTheme": "Piece development",
+                      "source": "wikibooks"
+                    }
+                  }
+                ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Owen Defense.",
-                  "strategicTheme": "Fianchetto preparation",
-                  "source": "generated"
+                  "moveRationale": "The Owen's Defence, named after John Owen, is a very rare and uncommon response to the King’s pawn game as white can easily control the center with 2. d4 and usually black fianchettos the dark-squared bishop, the Owen’s defence is still popular among club players and this opening can be transposed to an English opening or other lines.",
+                  "strategicTheme": "Center control",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Owen Defense.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -71,25 +258,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Owen Defense.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "A logical developing move. Black almost always responds with 2.",
+                      "strategicTheme": "Piece development",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Owen Defense.",
-                  "strategicTheme": "Fianchetto preparation",
-                  "source": "generated"
+                  "moveRationale": "The Owen's Defence, named after John Owen, is a very rare and uncommon response to the King’s pawn game as white can easily control the center with 2. d4 and usually black fianchettos the dark-squared bishop, the Owen’s defence is still popular among club players and this opening can be transposed to an English opening or other lines.",
+                  "strategicTheme": "Center control",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Owen Defense.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -154,25 +341,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Owen Defense.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "A logical developing move. Black almost always responds with 2.",
+                      "strategicTheme": "Piece development",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Owen Defense.",
-                  "strategicTheme": "Fianchetto preparation",
-                  "source": "generated"
+                  "moveRationale": "The Owen's Defence, named after John Owen, is a very rare and uncommon response to the King’s pawn game as white can easily control the center with 2. d4 and usually black fianchettos the dark-squared bishop, the Owen’s defence is still popular among club players and this opening can be transposed to an English opening or other lines.",
+                  "strategicTheme": "Center control",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Owen Defense.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -245,65 +432,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "Bxg2 exchanges material, altering the pawn structure in the Owen Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Capturing white's unprotected g-pawn, and threatening white's cornered rook. White can now play:\n*5.",
+                                          "strategicTheme": "Opening theory",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "exf5 exchanges material, altering the pawn structure in the Owen Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "Accepting the gambit by taking black's f-pawn. Black can now play:\n*4.",
+                                      "strategicTheme": "Gambit play",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "f5 advances a pawn, influencing the structure in the Owen Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Offering white the f-pawn, in exchange for exposing white's unprotected g-pawn and cornered rook. White can now play:\n*4.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Bd3 develops a piece to an active square in the Owen Defense.",
-                              "strategicTheme": "Bishop development",
-                              "source": "generated"
+                              "moveRationale": "Defending the e4 pawn. Black can now play:\n*3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Bb7 develops a piece to an active square in the Owen Defense.",
-                          "strategicTheme": "Bishop development",
-                          "source": "generated"
+                          "moveRationale": "Black attacks e4. White's most common reply is 3.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Owen Defense.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "A logical developing move. Black almost always responds with 2.",
+                      "strategicTheme": "Piece development",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Owen Defense.",
-                  "strategicTheme": "Fianchetto preparation",
-                  "source": "generated"
+                  "moveRationale": "The Owen's Defence, named after John Owen, is a very rare and uncommon response to the King’s pawn game as white can easily control the center with 2. d4 and usually black fianchettos the dark-squared bishop, the Owen’s defence is still popular among club players and this opening can be transposed to an English opening or other lines.",
+                  "strategicTheme": "Center control",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Owen Defense.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -348,33 +535,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Bb7 develops a piece to an active square in the Owen Defense.",
-                          "strategicTheme": "Bishop development",
-                          "source": "generated"
+                          "moveRationale": "Black attacks e4. White's most common reply is 3.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Owen Defense.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "A logical developing move. Black almost always responds with 2.",
+                      "strategicTheme": "Piece development",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Owen Defense.",
-                  "strategicTheme": "Fianchetto preparation",
-                  "source": "generated"
+                  "moveRationale": "The Owen's Defence, named after John Owen, is a very rare and uncommon response to the King’s pawn game as white can easily control the center with 2. d4 and usually black fianchettos the dark-squared bishop, the Owen’s defence is still popular among club players and this opening can be transposed to an English opening or other lines.",
+                  "strategicTheme": "Center control",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Owen Defense.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -419,33 +606,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Bb7 develops a piece to an active square in the Owen Defense.",
-                          "strategicTheme": "Bishop development",
-                          "source": "generated"
+                          "moveRationale": "Black attacks e4. White's most common reply is 3.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Owen Defense.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "A logical developing move. Black almost always responds with 2.",
+                      "strategicTheme": "Piece development",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Owen Defense.",
-                  "strategicTheme": "Fianchetto preparation",
-                  "source": "generated"
+                  "moveRationale": "The Owen's Defence, named after John Owen, is a very rare and uncommon response to the King’s pawn game as white can easily control the center with 2. d4 and usually black fianchettos the dark-squared bishop, the Owen’s defence is still popular among club players and this opening can be transposed to an English opening or other lines.",
+                  "strategicTheme": "Center control",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Owen Defense.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -518,17 +705,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "f6 advances a pawn, influencing the structure in the Owen Defense.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "is considered a poor reply. Black has squandered their chance to prevent 2.",
+                  "strategicTheme": "Piece development",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Owen Defense.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -585,33 +772,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Bb7 develops a piece to an active square in the Owen Defense.",
-                          "strategicTheme": "Bishop development",
-                          "source": "generated"
+                          "moveRationale": "Black attacks e4. White's most common reply is 3.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Owen Defense.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "A logical developing move. Black almost always responds with 2.",
+                      "strategicTheme": "Piece development",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Owen Defense.",
-                  "strategicTheme": "Fianchetto preparation",
-                  "source": "generated"
+                  "moveRationale": "The Owen's Defence, named after John Owen, is a very rare and uncommon response to the King’s pawn game as white can easily control the center with 2. d4 and usually black fianchettos the dark-squared bishop, the Owen’s defence is still popular among club players and this opening can be transposed to an English opening or other lines.",
+                  "strategicTheme": "Center control",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Owen Defense.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

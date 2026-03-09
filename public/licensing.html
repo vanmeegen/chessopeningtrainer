@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Open Source Licenses - Chess Opening Trainer</title>
+    <style>
+      :root {
+        --bg: #1a1a2e;
+        --surface: #16213e;
+        --text: #e0e0e0;
+        --text-muted: #a0a0a0;
+        --accent: #e94560;
+        --border: #2a2a4a;
+        --link: #6ea8fe;
+      }
+      @media (prefers-color-scheme: light) {
+        :root {
+          --bg: #f5f5f5;
+          --surface: #ffffff;
+          --text: #1a1a1a;
+          --text-muted: #666666;
+          --accent: #c0392b;
+          --border: #e0e0e0;
+          --link: #2563eb;
+        }
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        padding: 1rem;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      h1 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        color: var(--accent);
+      }
+      h2 {
+        font-size: 1.2rem;
+        margin-top: 2rem;
+        margin-bottom: 0.75rem;
+        color: var(--accent);
+        border-bottom: 1px solid var(--border);
+        padding-bottom: 0.25rem;
+      }
+      h3 {
+        font-size: 1rem;
+        margin-top: 1.25rem;
+        margin-bottom: 0.25rem;
+      }
+      p,
+      li {
+        margin-bottom: 0.5rem;
+      }
+      a {
+        color: var(--link);
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .subtitle {
+        color: var(--text-muted);
+        margin-bottom: 1.5rem;
+        font-size: 0.9rem;
+      }
+      .license-block {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+      }
+      .license-block .name {
+        font-weight: 600;
+      }
+      .license-block .meta {
+        font-size: 0.85rem;
+        color: var(--text-muted);
+        margin-top: 0.25rem;
+      }
+      .license-text {
+        font-family: monospace;
+        font-size: 0.8rem;
+        white-space: pre-wrap;
+        background: var(--bg);
+        border: 1px solid var(--border);
+        border-radius: 4px;
+        padding: 0.75rem;
+        margin-top: 0.5rem;
+        max-height: 200px;
+        overflow-y: auto;
+      }
+      .back-link {
+        display: inline-block;
+        margin-bottom: 1rem;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="/" class="back-link">&larr; Back to app</a>
+
+    <h1>Open Source Licenses</h1>
+    <p class="subtitle">
+      Chess Opening Trainer uses the following open source software and data.
+    </p>
+
+    <!-- ============================================================ -->
+    <h2>Data Sources</h2>
+
+    <div class="license-block">
+      <div class="name">Lichess Chess Openings</div>
+      <div class="meta">
+        <a href="https://github.com/lichess-org/chess-openings"
+          >github.com/lichess-org/chess-openings</a
+        >
+        &mdash; CC0 1.0 Universal (Public Domain)
+      </div>
+      <p>
+        Opening names, ECO codes, and defining move sequences (~3,600
+        variations). Dedicated to the public domain.
+      </p>
+    </div>
+
+    <div class="license-block">
+      <div class="name">Wikibooks &ndash; Chess Opening Theory</div>
+      <div class="meta">
+        <a href="https://en.wikibooks.org/wiki/Chess_Opening_Theory"
+          >en.wikibooks.org/wiki/Chess_Opening_Theory</a
+        >
+        &mdash; CC BY-SA 3.0
+      </div>
+      <p>
+        Strategic annotations and move explanations are derived from Wikibooks
+        content contributed by Wikibooks editors and licensed under the
+        <a href="https://creativecommons.org/licenses/by-sa/3.0/"
+          >Creative Commons Attribution-ShareAlike 3.0</a
+        >
+        license. Any derived annotation content in this application is therefore
+        also available under CC BY-SA 3.0.
+      </p>
+    </div>
+
+    <div class="license-block">
+      <div class="name">@chess-openings/eco.json</div>
+      <div class="meta">
+        <a href="https://github.com/JeffML/eco.json"
+          >github.com/JeffML/eco.json</a
+        >
+        &mdash; MIT License &mdash; Jeff Lowery
+      </div>
+      <p>
+        Encyclopedia of Chess Openings data (15,800+ positions) used to extend
+        short opening lines with continuation moves.
+      </p>
+    </div>
+
+    <!-- ============================================================ -->
+    <h2>JavaScript Libraries</h2>
+
+    <div class="license-block">
+      <div class="name">React &amp; React DOM</div>
+      <div class="meta">
+        <a href="https://react.dev/">react.dev</a>
+        &mdash; MIT License &mdash; Meta (Facebook)
+      </div>
+      <div class="license-text">
+        MIT License Copyright (c) Meta Platforms, Inc. and affiliates.
+        Permission is hereby granted, free of charge, to any person obtaining a
+        copy of this software and associated documentation files (the
+        "Software"), to deal in the Software without restriction, including
+        without limitation the rights to use, copy, modify, merge, publish,
+        distribute, sublicense, and/or sell copies of the Software, and to
+        permit persons to whom the Software is furnished to do so, subject to
+        the following conditions: The above copyright notice and this permission
+        notice shall be included in all copies or substantial portions of the
+        Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+        KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+        MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+        IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+        CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+        TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+        SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+      </div>
+    </div>
+
+    <div class="license-block">
+      <div class="name">React Router DOM</div>
+      <div class="meta">
+        <a href="https://github.com/remix-run/react-router"
+          >github.com/remix-run/react-router</a
+        >
+        &mdash; MIT License &mdash; Remix Software
+      </div>
+    </div>
+
+    <div class="license-block">
+      <div class="name">MobX &amp; MobX React Lite</div>
+      <div class="meta">
+        <a href="https://mobx.js.org/">mobx.js.org</a>
+        &mdash; MIT License &mdash; Michel Weststrate
+      </div>
+    </div>
+
+    <div class="license-block">
+      <div class="name">chess.js</div>
+      <div class="meta">
+        <a href="https://github.com/jhlywa/chess.js"
+          >github.com/jhlywa/chess.js</a
+        >
+        &mdash; BSD-2-Clause License &mdash; Jeff Hlywa
+      </div>
+      <div class="license-text">
+        BSD 2-Clause License Copyright (c) 2023, Jeff Hlywa Redistribution and
+        use in source and binary forms, with or without modification, are
+        permitted provided that the following conditions are met: 1.
+        Redistributions of source code must retain the above copyright notice,
+        this list of conditions and the following disclaimer. 2. Redistributions
+        in binary form must reproduce the above copyright notice, this list of
+        conditions and the following disclaimer in the documentation and/or
+        other materials provided with the distribution. THIS SOFTWARE IS
+        PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
+        EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+        PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR
+        CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+        EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+        PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+        PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+        LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+        NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+        SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+      </div>
+    </div>
+
+    <div class="license-block">
+      <div class="name">react-chessboard</div>
+      <div class="meta">
+        <a href="https://github.com/Clariity/react-chessboard"
+          >github.com/Clariity/react-chessboard</a
+        >
+        &mdash; MIT License &mdash; Ryan Gregory
+      </div>
+    </div>
+
+    <div class="license-block">
+      <div class="name">idb</div>
+      <div class="meta">
+        <a href="https://github.com/jakearchibald/idb"
+          >github.com/jakearchibald/idb</a
+        >
+        &mdash; ISC License &mdash; Jake Archibald
+      </div>
+    </div>
+  </body>
+</html>

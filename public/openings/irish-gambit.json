@@ -29,44 +29,68 @@
                           {
                             "move": "Nxe5",
                             "fen": "r1bqkbnr/pppp1ppp/2n5/4N3/4P3/8/PPPP1PPP/RNBQKB1R b KQkq - 0 3",
-                            "children": [],
+                            "children": [
+                              {
+                                "move": "Nxe5",
+                                "fen": "r1bqkbnr/pppp1ppp/8/4n3/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "move": "d4",
+                                    "fen": "r1bqkbnr/pppp1ppp/8/4n3/3PP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+                                    "children": [],
+                                    "isMainLine": true,
+                                    "annotation": {
+                                      "moveRationale": "d4\n\nWhite has unwinged the main line of the Irish Gambit, known as the Chicago Gambit. Black has 2 moves:\n\n4.",
+                                      "strategicTheme": "Gambit play",
+                                      "source": "wikibooks"
+                                    }
+                                  }
+                                ],
+                                "isMainLine": true,
+                                "annotation": {
+                                  "moveRationale": "Black captures the free knight and gains a big material advantage. However, they might still get caught by surprise if they do not focus or play too passively.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
+                                }
+                              }
+                            ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Irish Gambit.",
-                              "strategicTheme": "Material exchange",
-                              "source": "generated"
+                              "moveRationale": "The Irish Gambit is an unsound opening. It trades a knight for a pawn, since Black can just recapture with 3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Irish Gambit.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "Nc6 is the natural and most common move, combining defence of the pawn with control of the d4 square. Black avoids committing another pawn for now.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Irish Gambit.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Irish Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Irish Gambit.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

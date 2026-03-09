@@ -17,20 +17,56 @@
               {
                 "move": "b5",
                 "fen": "rnbqkbnr/p1pppppp/8/1p6/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
-                "children": [],
+                "children": [
+                  {
+                    "move": "e4",
+                    "fen": "rnbqkbnr/p1pppppp/8/1p6/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+                    "children": [
+                      {
+                        "move": "Bb7",
+                        "fen": "rn1qkbnr/pbpppppp/8/1p6/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 1 3",
+                        "children": [
+                          {
+                            "move": "Bxb5",
+                            "fen": "rn1qkbnr/pbpppppp/8/1B6/3PP3/8/PPP2PPP/RNBQK1NR b KQkq - 0 3",
+                            "children": [],
+                            "isMainLine": true,
+                            "annotation": {
+                              "moveRationale": "Bxb5 exchanges material, altering the pawn structure in the Polish Defense.",
+                              "strategicTheme": "Material exchange",
+                              "source": "generated"
+                            }
+                          }
+                        ],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "Bb7 develops a piece to an active square in the Polish Defense.",
+                          "strategicTheme": "Bishop development",
+                          "source": "generated"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Polish Defense.",
+                      "strategicTheme": "Central tension",
+                      "source": "generated"
+                    }
+                  }
+                ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "b5 advances a pawn, influencing the structure in the Polish Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black prepares their queen's side bishop to be fianchettoed, and Black's pawn on b5 prevents White from playing c4. However, this allows 2.",
+                  "strategicTheme": "Fianchetto development",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Polish Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -91,17 +127,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "b5 advances a pawn, influencing the structure in the Polish Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black prepares their queen's side bishop to be fianchettoed, and Black's pawn on b5 prevents White from playing c4. However, this allows 2.",
+                  "strategicTheme": "Fianchetto development",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Polish Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

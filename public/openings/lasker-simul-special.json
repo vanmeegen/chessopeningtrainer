@@ -17,20 +17,44 @@
               {
                 "move": "h5",
                 "fen": "rnbqkbnr/ppppppp1/8/7p/8/6P1/PPPPPP1P/RNBQKBNR w KQkq - 0 2",
-                "children": [],
+                "children": [
+                  {
+                    "move": "Nf3",
+                    "fen": "rnbqkbnr/ppppppp1/8/7p/8/5NP1/PPPPPP1P/RNBQKB1R b KQkq - 1 2",
+                    "children": [
+                      {
+                        "move": "h4",
+                        "fen": "rnbqkbnr/ppppppp1/8/8/7p/5NP1/PPPPPP1P/RNBQKB1R w KQkq - 0 3",
+                        "children": [],
+                        "isMainLine": true,
+                        "annotation": {
+                          "moveRationale": "Black sacrifices a pawn to open the h-file. gxh4 this move is mistake.",
+                          "strategicTheme": "Tactical sacrifice",
+                          "source": "wikibooks"
+                        }
+                      }
+                    ],
+                    "isMainLine": true,
+                    "annotation": {
+                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Lasker Simul Special.",
+                      "strategicTheme": "Natural piece development",
+                      "source": "generated"
+                    }
+                  }
+                ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "h5 advances a pawn, influencing the structure in the Lasker Simul Special.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "interesting move. Black wants to advance the pawn to h4 to open the h-file.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Lasker Simul Special.",
-              "strategicTheme": "Fianchetto preparation",
-              "source": "generated"
+              "moveRationale": "g3, the Hungarian Opening (also known as the Benko's Opening and the King's Fianchetto Opening) is the 5th most popular initial move. It is highly transpositional, and can lead to many other mainstream openings.",
+              "strategicTheme": "King safety",
+              "source": "wikibooks"
             }
           }
         ],
