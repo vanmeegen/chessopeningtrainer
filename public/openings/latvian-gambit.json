@@ -120,31 +120,7 @@
                                               {
                                                 "move": "Qxg2",
                                                 "fen": "rnb1kbnr/pppp2pp/8/4N3/2BPp3/8/PPP2PqP/RNBQK2R w KQkq - 0 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Qh5+",
-                                                    "fen": "rnb1kbnr/pppp2pp/8/4N2Q/2BPp3/8/PPP2PqP/RNB1K2R b KQkq - 1 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "g6",
-                                                        "fen": "rnb1kbnr/pppp3p/6p1/4N2Q/2BPp3/8/PPP2PqP/RNB1K2R w KQkq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Latvian Gambit.",
-                                                          "strategicTheme": "Fianchetto preparation",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Qh5+ delivers check, seizing the initiative in the Latvian Gambit.",
-                                                      "strategicTheme": "King pressure",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
+                                                "children": [],
                                                 "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "Qxg2 exchanges material, altering the pawn structure in the Latvian Gambit.",
@@ -182,66 +158,7 @@
                                       {
                                         "move": "d5",
                                         "fen": "rnbqkbnr/ppp3pp/8/3pN3/2B1p3/8/PPPP1PPP/RNBQK2R w KQkq - 0 5",
-                                        "children": [
-                                          {
-                                            "move": "Qh5+",
-                                            "fen": "rnbqkbnr/ppp3pp/8/3pN2Q/2B1p3/8/PPPP1PPP/RNB1K2R b KQkq - 1 5",
-                                            "children": [
-                                              {
-                                                "move": "g6",
-                                                "fen": "rnbqkbnr/ppp4p/6p1/3pN2Q/2B1p3/8/PPPP1PPP/RNB1K2R w KQkq - 0 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Nxg6",
-                                                    "fen": "rnbqkbnr/ppp4p/6N1/3p3Q/2B1p3/8/PPPP1PPP/RNB1K2R b KQkq - 0 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "hxg6",
-                                                        "fen": "rnbqkbnr/ppp5/6p1/3p3Q/2B1p3/8/PPPP1PPP/RNB1K2R w KQkq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "hxg6 exchanges material, altering the pawn structure in the Latvian Gambit.",
-                                                          "strategicTheme": "Material exchange",
-                                                          "source": "generated"
-                                                        }
-                                                      },
-                                                      {
-                                                        "move": "Nf6",
-                                                        "fen": "rnbqkb1r/ppp4p/5nN1/3p3Q/2B1p3/8/PPPP1PPP/RNB1K2R w KQkq - 1 7",
-                                                        "children": [],
-                                                        "isMainLine": false,
-                                                        "annotation": {
-                                                          "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Latvian Gambit.",
-                                                          "strategicTheme": "Natural piece development",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Nxg6 exchanges material, altering the pawn structure in the Latvian Gambit.",
-                                                      "strategicTheme": "Material exchange",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Latvian Gambit.",
-                                                  "strategicTheme": "Fianchetto preparation",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "Qh5+ delivers check, seizing the initiative in the Latvian Gambit.",
-                                              "strategicTheme": "King pressure",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
+                                        "children": [],
                                         "isMainLine": false,
                                         "annotation": {
                                           "moveRationale": "d5 advances a pawn, influencing the structure in the Latvian Gambit.",
@@ -538,41 +455,41 @@
                                             "children": [],
                                             "isMainLine": false,
                                             "annotation": {
-                                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Latvian Gambit.",
-                                              "strategicTheme": "Natural piece development",
-                                              "source": "generated"
+                                              "moveRationale": "White's c3-knight is threatening to capture on e4 hitting the queen on f6, and taking advantage of this diversion to retreat safely to c3. Were the queen not on f6, Black could turn the tables after Nxe4 with.",
+                                              "strategicTheme": "Opening theory",
+                                              "source": "wikibooks"
                                             }
                                           }
                                         ],
                                         "isMainLine": false,
                                         "annotation": {
-                                          "moveRationale": "fxe4 exchanges material, altering the pawn structure in the Latvian Gambit.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Black threatens to play. d5 with beautiful development and only a slightly misplaced queen to worry about.",
+                                          "strategicTheme": "Piece development",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": false,
                                     "annotation": {
-                                      "moveRationale": "Nc4 develops a piece to an active square in the Latvian Gambit.",
-                                      "strategicTheme": "Knight activity",
-                                      "source": "generated"
+                                      "moveRationale": "Black remains a pawn down, but White's knight has run off, so Black may now dream of playing …d5 in one move. That pawn on e4 will have to be cleared out of the way first, with /4.",
+                                      "strategicTheme": "Opening theory",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": false,
                                 "annotation": {
-                                  "moveRationale": "Qf6 develops the queen early, seeking direct activity in the Latvian Gambit.",
-                                  "strategicTheme": "Queen activity",
-                                  "source": "generated"
+                                  "moveRationale": "Black's queen has come lumbering out to poke the e5-knight in the ribs. Should White hold the line, or retreat.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": false,
                             "annotation": {
-                              "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Latvian Gambit.",
-                              "strategicTheme": "Material exchange",
-                              "source": "generated"
+                              "moveRationale": "White is threatening a fearsome queen check on h5, with the e5-knight ready to pounce on the g-pawn should Black advance it to g6. There's also the incidental threat of exf5.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           },
                           {
@@ -600,43 +517,7 @@
                           {
                             "move": "d4",
                             "fen": "rnbqkbnr/pppp2pp/8/4pp2/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
-                            "children": [
-                              {
-                                "move": "fxe4",
-                                "fen": "rnbqkbnr/pppp2pp/8/4p3/3Pp3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
-                                "children": [
-                                  {
-                                    "move": "Nxe5",
-                                    "fen": "rnbqkbnr/pppp2pp/8/4N3/3Pp3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
-                                    "children": [
-                                      {
-                                        "move": "Nf6",
-                                        "fen": "rnbqkb1r/pppp2pp/5n2/4N3/3Pp3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5",
-                                        "children": [],
-                                        "isMainLine": true,
-                                        "annotation": {
-                                          "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Latvian Gambit.",
-                                          "strategicTheme": "Natural piece development",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
-                                    "isMainLine": true,
-                                    "annotation": {
-                                      "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Latvian Gambit.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
-                                    }
-                                  }
-                                ],
-                                "isMainLine": true,
-                                "annotation": {
-                                  "moveRationale": "fxe4 exchanges material, altering the pawn structure in the Latvian Gambit.",
-                                  "strategicTheme": "Material exchange",
-                                  "source": "generated"
-                                }
-                              }
-                            ],
+                            "children": [],
                             "isMainLine": false,
                             "annotation": {
                               "moveRationale": "d4 impacts the center, shaping the pawn structure in the Latvian Gambit.",
@@ -669,19 +550,7 @@
                           {
                             "move": "exf5",
                             "fen": "rnbqkbnr/pppp2pp/8/4pP2/8/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 3",
-                            "children": [
-                              {
-                                "move": "e4",
-                                "fen": "rnbqkbnr/pppp2pp/8/5P2/4p3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 4",
-                                "children": [],
-                                "isMainLine": true,
-                                "annotation": {
-                                  "moveRationale": "e4 impacts the center, shaping the pawn structure in the Latvian Gambit.",
-                                  "strategicTheme": "Central tension",
-                                  "source": "generated"
-                                }
-                              }
-                            ],
+                            "children": [],
                             "isMainLine": false,
                             "annotation": {
                               "moveRationale": "exf5 exchanges material, altering the pawn structure in the Latvian Gambit.",
@@ -692,33 +561,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "f5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "The Latvian gambit is an aggressive counterattack. It is utterly unsound but sharp and has some practical chances against unprepared players.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Latvian Gambit.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Latvian Gambit.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -871,33 +740,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "f5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "The Latvian gambit is an aggressive counterattack. It is utterly unsound but sharp and has some practical chances against unprepared players.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Latvian Gambit.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Latvian Gambit.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -978,33 +847,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "f5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "The Latvian gambit is an aggressive counterattack. It is utterly unsound but sharp and has some practical chances against unprepared players.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Latvian Gambit.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Latvian Gambit.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1125,41 +994,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Latvian Gambit.",
-                              "strategicTheme": "Material exchange",
-                              "source": "generated"
+                              "moveRationale": "White is threatening a fearsome queen check on h5, with the e5-knight ready to pounce on the g-pawn should Black advance it to g6. There's also the incidental threat of exf5.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "f5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "The Latvian gambit is an aggressive counterattack. It is utterly unsound but sharp and has some practical chances against unprepared players.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Latvian Gambit.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Latvian Gambit.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1204,33 +1073,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "f5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "The Latvian gambit is an aggressive counterattack. It is utterly unsound but sharp and has some practical chances against unprepared players.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Latvian Gambit.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Latvian Gambit.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1279,41 +1148,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Latvian Gambit.",
-                              "strategicTheme": "Material exchange",
-                              "source": "generated"
+                              "moveRationale": "White is threatening a fearsome queen check on h5, with the e5-knight ready to pounce on the g-pawn should Black advance it to g6. There's also the incidental threat of exf5.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "f5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "The Latvian gambit is an aggressive counterattack. It is utterly unsound but sharp and has some practical chances against unprepared players.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Latvian Gambit.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Latvian Gambit.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1362,41 +1231,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Latvian Gambit.",
-                              "strategicTheme": "Material exchange",
-                              "source": "generated"
+                              "moveRationale": "White is threatening a fearsome queen check on h5, with the e5-knight ready to pounce on the g-pawn should Black advance it to g6. There's also the incidental threat of exf5.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "f5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "The Latvian gambit is an aggressive counterattack. It is utterly unsound but sharp and has some practical chances against unprepared players.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Latvian Gambit.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Latvian Gambit.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1441,33 +1310,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "f5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "The Latvian gambit is an aggressive counterattack. It is utterly unsound but sharp and has some practical chances against unprepared players.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Latvian Gambit.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Latvian Gambit.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1501,43 +1370,7 @@
                           {
                             "move": "d4",
                             "fen": "rnbqkbnr/pppp2pp/8/4pp2/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
-                            "children": [
-                              {
-                                "move": "fxe4",
-                                "fen": "rnbqkbnr/pppp2pp/8/4p3/3Pp3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
-                                "children": [
-                                  {
-                                    "move": "Nxe5",
-                                    "fen": "rnbqkbnr/pppp2pp/8/4N3/3Pp3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
-                                    "children": [
-                                      {
-                                        "move": "Nf6",
-                                        "fen": "rnbqkb1r/pppp2pp/5n2/4N3/3Pp3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5",
-                                        "children": [],
-                                        "isMainLine": true,
-                                        "annotation": {
-                                          "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Latvian Gambit.",
-                                          "strategicTheme": "Natural piece development",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
-                                    "isMainLine": true,
-                                    "annotation": {
-                                      "moveRationale": "Nxe5 exchanges material, altering the pawn structure in the Latvian Gambit.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
-                                    }
-                                  }
-                                ],
-                                "isMainLine": true,
-                                "annotation": {
-                                  "moveRationale": "fxe4 exchanges material, altering the pawn structure in the Latvian Gambit.",
-                                  "strategicTheme": "Material exchange",
-                                  "source": "generated"
-                                }
-                              }
-                            ],
+                            "children": [],
                             "isMainLine": true,
                             "annotation": {
                               "moveRationale": "d4 impacts the center, shaping the pawn structure in the Latvian Gambit.",
@@ -1548,33 +1381,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "f5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "The Latvian gambit is an aggressive counterattack. It is utterly unsound but sharp and has some practical chances against unprepared players.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Latvian Gambit.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Latvian Gambit.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1699,31 +1532,7 @@
                                               {
                                                 "move": "Qxg2",
                                                 "fen": "rnb1kbnr/pppp2pp/8/4N3/2BPp3/8/PPP2PqP/RNBQK2R w KQkq - 0 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Qh5+",
-                                                    "fen": "rnb1kbnr/pppp2pp/8/4N2Q/2BPp3/8/PPP2PqP/RNB1K2R b KQkq - 1 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "g6",
-                                                        "fen": "rnb1kbnr/pppp3p/6p1/4N2Q/2BPp3/8/PPP2PqP/RNB1K2R w KQkq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Latvian Gambit.",
-                                                          "strategicTheme": "Fianchetto preparation",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Qh5+ delivers check, seizing the initiative in the Latvian Gambit.",
-                                                      "strategicTheme": "King pressure",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
+                                                "children": [],
                                                 "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "Qxg2 exchanges material, altering the pawn structure in the Latvian Gambit.",
@@ -1761,66 +1570,7 @@
                                       {
                                         "move": "d5",
                                         "fen": "rnbqkbnr/ppp3pp/8/3pN3/2B1p3/8/PPPP1PPP/RNBQK2R w KQkq - 0 5",
-                                        "children": [
-                                          {
-                                            "move": "Qh5+",
-                                            "fen": "rnbqkbnr/ppp3pp/8/3pN2Q/2B1p3/8/PPPP1PPP/RNB1K2R b KQkq - 1 5",
-                                            "children": [
-                                              {
-                                                "move": "g6",
-                                                "fen": "rnbqkbnr/ppp4p/6p1/3pN2Q/2B1p3/8/PPPP1PPP/RNB1K2R w KQkq - 0 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Nxg6",
-                                                    "fen": "rnbqkbnr/ppp4p/6N1/3p3Q/2B1p3/8/PPPP1PPP/RNB1K2R b KQkq - 0 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "hxg6",
-                                                        "fen": "rnbqkbnr/ppp5/6p1/3p3Q/2B1p3/8/PPPP1PPP/RNB1K2R w KQkq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "hxg6 exchanges material, altering the pawn structure in the Latvian Gambit.",
-                                                          "strategicTheme": "Material exchange",
-                                                          "source": "generated"
-                                                        }
-                                                      },
-                                                      {
-                                                        "move": "Nf6",
-                                                        "fen": "rnbqkb1r/ppp4p/5nN1/3p3Q/2B1p3/8/PPPP1PPP/RNB1K2R w KQkq - 1 7",
-                                                        "children": [],
-                                                        "isMainLine": false,
-                                                        "annotation": {
-                                                          "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Latvian Gambit.",
-                                                          "strategicTheme": "Natural piece development",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Nxg6 exchanges material, altering the pawn structure in the Latvian Gambit.",
-                                                      "strategicTheme": "Material exchange",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Latvian Gambit.",
-                                                  "strategicTheme": "Fianchetto preparation",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "Qh5+ delivers check, seizing the initiative in the Latvian Gambit.",
-                                              "strategicTheme": "King pressure",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
+                                        "children": [],
                                         "isMainLine": false,
                                         "annotation": {
                                           "moveRationale": "d5 advances a pawn, influencing the structure in the Latvian Gambit.",
@@ -1877,33 +1627,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "f5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "The Latvian gambit is an aggressive counterattack. It is utterly unsound but sharp and has some practical chances against unprepared players.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Latvian Gambit.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Latvian Gambit.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1960,33 +1710,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "f5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "The Latvian gambit is an aggressive counterattack. It is utterly unsound but sharp and has some practical chances against unprepared players.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Latvian Gambit.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Latvian Gambit.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2040,31 +1790,7 @@
                                               {
                                                 "move": "Qxg2",
                                                 "fen": "rnb1kbnr/pppp2pp/8/4N3/2BPp3/8/PPP2PqP/RNBQK2R w KQkq - 0 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Qh5+",
-                                                    "fen": "rnb1kbnr/pppp2pp/8/4N2Q/2BPp3/8/PPP2PqP/RNB1K2R b KQkq - 1 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "g6",
-                                                        "fen": "rnb1kbnr/pppp3p/6p1/4N2Q/2BPp3/8/PPP2PqP/RNB1K2R w KQkq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Latvian Gambit.",
-                                                          "strategicTheme": "Fianchetto preparation",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Qh5+ delivers check, seizing the initiative in the Latvian Gambit.",
-                                                      "strategicTheme": "King pressure",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
+                                                "children": [],
                                                 "isMainLine": true,
                                                 "annotation": {
                                                   "moveRationale": "Qxg2 exchanges material, altering the pawn structure in the Latvian Gambit.",
@@ -2115,33 +1841,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "f5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "The Latvian gambit is an aggressive counterattack. It is utterly unsound but sharp and has some practical chances against unprepared players.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Latvian Gambit.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Latvian Gambit.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2187,66 +1913,7 @@
                                       {
                                         "move": "d5",
                                         "fen": "rnbqkbnr/ppp3pp/8/3pN3/2B1p3/8/PPPP1PPP/RNBQK2R w KQkq - 0 5",
-                                        "children": [
-                                          {
-                                            "move": "Qh5+",
-                                            "fen": "rnbqkbnr/ppp3pp/8/3pN2Q/2B1p3/8/PPPP1PPP/RNB1K2R b KQkq - 1 5",
-                                            "children": [
-                                              {
-                                                "move": "g6",
-                                                "fen": "rnbqkbnr/ppp4p/6p1/3pN2Q/2B1p3/8/PPPP1PPP/RNB1K2R w KQkq - 0 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Nxg6",
-                                                    "fen": "rnbqkbnr/ppp4p/6N1/3p3Q/2B1p3/8/PPPP1PPP/RNB1K2R b KQkq - 0 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "hxg6",
-                                                        "fen": "rnbqkbnr/ppp5/6p1/3p3Q/2B1p3/8/PPPP1PPP/RNB1K2R w KQkq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "hxg6 exchanges material, altering the pawn structure in the Latvian Gambit.",
-                                                          "strategicTheme": "Material exchange",
-                                                          "source": "generated"
-                                                        }
-                                                      },
-                                                      {
-                                                        "move": "Nf6",
-                                                        "fen": "rnbqkb1r/ppp4p/5nN1/3p3Q/2B1p3/8/PPPP1PPP/RNB1K2R w KQkq - 1 7",
-                                                        "children": [],
-                                                        "isMainLine": false,
-                                                        "annotation": {
-                                                          "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Latvian Gambit.",
-                                                          "strategicTheme": "Natural piece development",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Nxg6 exchanges material, altering the pawn structure in the Latvian Gambit.",
-                                                      "strategicTheme": "Material exchange",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Latvian Gambit.",
-                                                  "strategicTheme": "Fianchetto preparation",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "Qh5+ delivers check, seizing the initiative in the Latvian Gambit.",
-                                              "strategicTheme": "King pressure",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
+                                        "children": [],
                                         "isMainLine": true,
                                         "annotation": {
                                           "moveRationale": "d5 advances a pawn, influencing the structure in the Latvian Gambit.",
@@ -2281,33 +1948,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "f5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "The Latvian gambit is an aggressive counterattack. It is utterly unsound but sharp and has some practical chances against unprepared players.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Latvian Gambit.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Latvian Gambit.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2364,33 +2031,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "f5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "The Latvian gambit is an aggressive counterattack. It is utterly unsound but sharp and has some practical chances against unprepared players.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Latvian Gambit.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Latvian Gambit.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2435,33 +2102,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "f5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "The Latvian gambit is an aggressive counterattack. It is utterly unsound but sharp and has some practical chances against unprepared players.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Latvian Gambit.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Latvian Gambit.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2506,33 +2173,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "f5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "The Latvian gambit is an aggressive counterattack. It is utterly unsound but sharp and has some practical chances against unprepared players.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Latvian Gambit.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Latvian Gambit.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2601,33 +2268,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Latvian Gambit.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "Nc6 is the natural and most common move, combining defence of the pawn with control of the d4 square. Black avoids committing another pawn for now.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Latvian Gambit.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White develops a piece to a more active square, asserts control in the centre and over the d4 square, and attacks Black's e5-pawn. This is the most common opening played in chess.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Latvian Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Latvian Gambit.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

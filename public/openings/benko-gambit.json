@@ -40,9 +40,9 @@
                                     "children": [],
                                     "isMainLine": false,
                                     "annotation": {
-                                      "moveRationale": "g4 advances a pawn, influencing the structure in the Benko Gambit.",
-                                      "strategicTheme": "Pawn structure",
-                                      "source": "generated"
+                                      "moveRationale": "If Black accepts the free g-pawn, White can gain center control with 5. e4 while Black's knight remains in an unfavorable position.",
+                                      "strategicTheme": "Center control",
+                                      "source": "wikibooks"
                                     }
                                   },
                                   {
@@ -228,9 +228,9 @@
                                                 ],
                                                 "isMainLine": false,
                                                 "annotation": {
-                                                  "moveRationale": "Bxa6 exchanges material, altering the pawn structure in the Benko Gambit.",
-                                                  "strategicTheme": "Material exchange",
-                                                  "source": "generated"
+                                                  "moveRationale": "The most common move. g6 is more flexible.",
+                                                  "strategicTheme": "Opening theory",
+                                                  "source": "wikibooks"
                                                 }
                                               },
                                               {
@@ -511,46 +511,23 @@
                                                 ],
                                                 "isMainLine": true,
                                                 "annotation": {
-                                                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Benko Gambit.",
-                                                  "strategicTheme": "Fianchetto preparation",
-                                                  "source": "generated"
+                                                  "moveRationale": "Black delays the recapture of a6 and prioritizes development instead. g6 simply intends to develop the bishop to g7, from where it will control the a1-h8 diagonal.",
+                                                  "strategicTheme": "Piece development",
+                                                  "source": "wikibooks"
                                                 }
                                               }
                                             ],
                                             "isMainLine": true,
                                             "annotation": {
-                                              "moveRationale": "bxa6 exchanges material, altering the pawn structure in the Benko Gambit.",
-                                              "strategicTheme": "Material exchange",
-                                              "source": "generated"
+                                              "moveRationale": "The standard Benko Gambit line. Black doesn't have to recapture immediately, since the pawn currently has three attackers.",
+                                              "strategicTheme": "Gambit play",
+                                              "source": "wikibooks"
                                             }
                                           },
                                           {
                                             "move": "f3",
                                             "fen": "rnbqkb1r/3ppppp/p4n2/1PpP4/8/5P2/PP2P1PP/RNBQKBNR b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "axb5",
-                                                "fen": "rnbqkb1r/3ppppp/5n2/1ppP4/8/5P2/PP2P1PP/RNBQKBNR w KQkq - 0 6",
-                                                "children": [],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "axb5 exchanges material, altering the pawn structure in the Benko Gambit.",
-                                                  "strategicTheme": "Material exchange",
-                                                  "source": "generated"
-                                                }
-                                              },
-                                              {
-                                                "move": "e6",
-                                                "fen": "rnbqkb1r/3p1ppp/p3pn2/1PpP4/8/5P2/PP2P1PP/RNBQKBNR w KQkq - 0 6",
-                                                "children": [],
-                                                "isMainLine": false,
-                                                "annotation": {
-                                                  "moveRationale": "e6 advances a pawn, influencing the structure in the Benko Gambit.",
-                                                  "strategicTheme": "Prophylactic pawn move",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
+                                            "children": [],
                                             "isMainLine": false,
                                             "annotation": {
                                               "moveRationale": "f3 advances a pawn, influencing the structure in the Benko Gambit.",
@@ -561,54 +538,7 @@
                                           {
                                             "move": "e3",
                                             "fen": "rnbqkb1r/3ppppp/p4n2/1PpP4/8/4P3/PP3PPP/RNBQKBNR b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "g6",
-                                                "fen": "rnbqkb1r/3ppp1p/p4np1/1PpP4/8/4P3/PP3PPP/RNBQKBNR w KQkq - 0 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Nc3",
-                                                    "fen": "rnbqkb1r/3ppp1p/p4np1/1PpP4/8/2N1P3/PP3PPP/R1BQKBNR b KQkq - 1 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "Bg7",
-                                                        "fen": "rnbqk2r/3pppbp/p4np1/1PpP4/8/2N1P3/PP3PPP/R1BQKBNR w KQkq - 2 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Bg7 develops a piece to an active square in the Benko Gambit.",
-                                                          "strategicTheme": "Bishop development",
-                                                          "source": "generated"
-                                                        }
-                                                      },
-                                                      {
-                                                        "move": "d6",
-                                                        "fen": "rnbqkb1r/4pp1p/p2p1np1/1PpP4/8/2N1P3/PP3PPP/R1BQKBNR w KQkq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": false,
-                                                        "annotation": {
-                                                          "moveRationale": "d6 advances a pawn, influencing the structure in the Benko Gambit.",
-                                                          "strategicTheme": "Prophylactic pawn move",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Benko Gambit.",
-                                                      "strategicTheme": "Natural piece development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Benko Gambit.",
-                                                  "strategicTheme": "Fianchetto preparation",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
+                                            "children": [],
                                             "isMainLine": false,
                                             "annotation": {
                                               "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Benko Gambit.",
@@ -619,41 +549,7 @@
                                           {
                                             "move": "b6",
                                             "fen": "rnbqkb1r/3ppppp/pP3n2/2pP4/8/8/PP2PPPP/RNBQKBNR b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "d6",
-                                                "fen": "rnbqkb1r/4pppp/pP1p1n2/2pP4/8/8/PP2PPPP/RNBQKBNR w KQkq - 0 6",
-                                                "children": [],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "d6 advances a pawn, influencing the structure in the Benko Gambit.",
-                                                  "strategicTheme": "Prophylactic pawn move",
-                                                  "source": "generated"
-                                                }
-                                              },
-                                              {
-                                                "move": "e6",
-                                                "fen": "rnbqkb1r/3p1ppp/pP2pn2/2pP4/8/8/PP2PPPP/RNBQKBNR w KQkq - 0 6",
-                                                "children": [],
-                                                "isMainLine": false,
-                                                "annotation": {
-                                                  "moveRationale": "e6 advances a pawn, influencing the structure in the Benko Gambit.",
-                                                  "strategicTheme": "Prophylactic pawn move",
-                                                  "source": "generated"
-                                                }
-                                              },
-                                              {
-                                                "move": "Qxb6",
-                                                "fen": "rnb1kb1r/3ppppp/pq3n2/2pP4/8/8/PP2PPPP/RNBQKBNR w KQkq - 0 6",
-                                                "children": [],
-                                                "isMainLine": false,
-                                                "annotation": {
-                                                  "moveRationale": "Qxb6 exchanges material, altering the pawn structure in the Benko Gambit.",
-                                                  "strategicTheme": "Material exchange",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
+                                            "children": [],
                                             "isMainLine": false,
                                             "annotation": {
                                               "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Benko Gambit.",
@@ -664,17 +560,17 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "a6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Benko Gambit.",
-                                          "strategicTheme": "Prophylactic pawn move",
-                                          "source": "generated"
+                                          "moveRationale": "The standard Benko Gambit line. White has three common options available:\n\n*/5.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxb5 exchanges material, altering the pawn structure in the Benko Gambit.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White accepts the initial pawn. The \"real\" gambit now follows with 4.",
+                                      "strategicTheme": "Gambit play",
+                                      "source": "wikibooks"
                                     }
                                   },
                                   {
@@ -702,77 +598,7 @@
                                   {
                                     "move": "Nf3",
                                     "fen": "rnbqkb1r/p2ppppp/5n2/1ppP4/2P5/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 4",
-                                    "children": [
-                                      {
-                                        "move": "g6",
-                                        "fen": "rnbqkb1r/p2ppp1p/5np1/1ppP4/2P5/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 5",
-                                        "children": [
-                                          {
-                                            "move": "cxb5",
-                                            "fen": "rnbqkb1r/p2ppp1p/5np1/1PpP4/8/5N2/PP2PPPP/RNBQKB1R b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "a6",
-                                                "fen": "rnbqkb1r/3ppp1p/p4np1/1PpP4/8/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 6",
-                                                "children": [],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "a6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Benko Gambit.",
-                                                  "strategicTheme": "Prophylactic pawn move",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "cxb5 exchanges material, altering the pawn structure in the Benko Gambit.",
-                                              "strategicTheme": "Material exchange",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
-                                        "isMainLine": true,
-                                        "annotation": {
-                                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Benko Gambit.",
-                                          "strategicTheme": "Fianchetto preparation",
-                                          "source": "generated"
-                                        }
-                                      },
-                                      {
-                                        "move": "Bb7",
-                                        "fen": "rn1qkb1r/pb1ppppp/5n2/1ppP4/2P5/5N2/PP2PPPP/RNBQKB1R w KQkq - 2 5",
-                                        "children": [
-                                          {
-                                            "move": "a4",
-                                            "fen": "rn1qkb1r/pb1ppppp/5n2/1ppP4/P1P5/5N2/1P2PPPP/RNBQKB1R b KQkq - 0 5",
-                                            "children": [],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "a4 advances a pawn, influencing the structure in the Benko Gambit.",
-                                              "strategicTheme": "Pawn structure",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
-                                        "isMainLine": false,
-                                        "annotation": {
-                                          "moveRationale": "Bb7 develops a piece to an active square in the Benko Gambit.",
-                                          "strategicTheme": "Bishop development",
-                                          "source": "generated"
-                                        }
-                                      },
-                                      {
-                                        "move": "bxc4",
-                                        "fen": "rnbqkb1r/p2ppppp/5n2/2pP4/2p5/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 5",
-                                        "children": [],
-                                        "isMainLine": false,
-                                        "annotation": {
-                                          "moveRationale": "bxc4 exchanges material, altering the pawn structure in the Benko Gambit.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
+                                    "children": [],
                                     "isMainLine": false,
                                     "annotation": {
                                       "moveRationale": "Nf3 develops a piece to an active square in the Benko Gambit.",
@@ -816,49 +642,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "b5 advances a pawn, influencing the structure in the Benko Gambit.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black offers White the b pawn. Declining comes with disadvantages so White usually accepts it, at least for now.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "d5 advances a pawn, influencing the structure in the Benko Gambit.",
-                              "strategicTheme": "Pawn structure",
-                              "source": "generated"
+                              "moveRationale": "White keeps their central pawn and takes more space in the centre. White's pawn dug in on d5 cramps Black's position.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "c5 challenges the center from the flank in the Benko Gambit.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Black attacks White's central d-pawn from the flank. The c-pawn is not free: if 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Benko Gambit.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Benko Gambit.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Benko Gambit.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -903,57 +729,57 @@
                                     "children": [],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "g4 advances a pawn, influencing the structure in the Benko Gambit.",
-                                      "strategicTheme": "Pawn structure",
-                                      "source": "generated"
+                                      "moveRationale": "If Black accepts the free g-pawn, White can gain center control with 5. e4 while Black's knight remains in an unfavorable position.",
+                                      "strategicTheme": "Center control",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "b5 advances a pawn, influencing the structure in the Benko Gambit.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black offers White the b pawn. Declining comes with disadvantages so White usually accepts it, at least for now.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "d5 advances a pawn, influencing the structure in the Benko Gambit.",
-                              "strategicTheme": "Pawn structure",
-                              "source": "generated"
+                              "moveRationale": "White keeps their central pawn and takes more space in the centre. White's pawn dug in on d5 cramps Black's position.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "c5 challenges the center from the flank in the Benko Gambit.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Black attacks White's central d-pawn from the flank. The c-pawn is not free: if 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Benko Gambit.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Benko Gambit.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Benko Gambit.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1086,65 +912,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "a6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Benko Gambit.",
-                                          "strategicTheme": "Prophylactic pawn move",
-                                          "source": "generated"
+                                          "moveRationale": "The standard Benko Gambit line. White has three common options available:\n\n*/5.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxb5 exchanges material, altering the pawn structure in the Benko Gambit.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White accepts the initial pawn. The \"real\" gambit now follows with 4.",
+                                      "strategicTheme": "Gambit play",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "b5 advances a pawn, influencing the structure in the Benko Gambit.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black offers White the b pawn. Declining comes with disadvantages so White usually accepts it, at least for now.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "d5 advances a pawn, influencing the structure in the Benko Gambit.",
-                              "strategicTheme": "Pawn structure",
-                              "source": "generated"
+                              "moveRationale": "White keeps their central pawn and takes more space in the centre. White's pawn dug in on d5 cramps Black's position.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "c5 challenges the center from the flank in the Benko Gambit.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Black attacks White's central d-pawn from the flank. The c-pawn is not free: if 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Benko Gambit.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Benko Gambit.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Benko Gambit.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1277,65 +1103,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "a6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Benko Gambit.",
-                                          "strategicTheme": "Prophylactic pawn move",
-                                          "source": "generated"
+                                          "moveRationale": "The standard Benko Gambit line. White has three common options available:\n\n*/5.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxb5 exchanges material, altering the pawn structure in the Benko Gambit.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White accepts the initial pawn. The \"real\" gambit now follows with 4.",
+                                      "strategicTheme": "Gambit play",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "b5 advances a pawn, influencing the structure in the Benko Gambit.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black offers White the b pawn. Declining comes with disadvantages so White usually accepts it, at least for now.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "d5 advances a pawn, influencing the structure in the Benko Gambit.",
-                              "strategicTheme": "Pawn structure",
-                              "source": "generated"
+                              "moveRationale": "White keeps their central pawn and takes more space in the centre. White's pawn dug in on d5 cramps Black's position.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "c5 challenges the center from the flank in the Benko Gambit.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Black attacks White's central d-pawn from the flank. The c-pawn is not free: if 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Benko Gambit.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Benko Gambit.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Benko Gambit.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1468,65 +1294,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "a6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Benko Gambit.",
-                                          "strategicTheme": "Prophylactic pawn move",
-                                          "source": "generated"
+                                          "moveRationale": "The standard Benko Gambit line. White has three common options available:\n\n*/5.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxb5 exchanges material, altering the pawn structure in the Benko Gambit.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White accepts the initial pawn. The \"real\" gambit now follows with 4.",
+                                      "strategicTheme": "Gambit play",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "b5 advances a pawn, influencing the structure in the Benko Gambit.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black offers White the b pawn. Declining comes with disadvantages so White usually accepts it, at least for now.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "d5 advances a pawn, influencing the structure in the Benko Gambit.",
-                              "strategicTheme": "Pawn structure",
-                              "source": "generated"
+                              "moveRationale": "White keeps their central pawn and takes more space in the centre. White's pawn dug in on d5 cramps Black's position.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "c5 challenges the center from the flank in the Benko Gambit.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Black attacks White's central d-pawn from the flank. The c-pawn is not free: if 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Benko Gambit.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Benko Gambit.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Benko Gambit.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1643,81 +1469,81 @@
                                                 ],
                                                 "isMainLine": true,
                                                 "annotation": {
-                                                  "moveRationale": "Bxa6 exchanges material, altering the pawn structure in the Benko Gambit.",
-                                                  "strategicTheme": "Material exchange",
-                                                  "source": "generated"
+                                                  "moveRationale": "The most common move. g6 is more flexible.",
+                                                  "strategicTheme": "Opening theory",
+                                                  "source": "wikibooks"
                                                 }
                                               }
                                             ],
                                             "isMainLine": true,
                                             "annotation": {
-                                              "moveRationale": "bxa6 exchanges material, altering the pawn structure in the Benko Gambit.",
-                                              "strategicTheme": "Material exchange",
-                                              "source": "generated"
+                                              "moveRationale": "The standard Benko Gambit line. Black doesn't have to recapture immediately, since the pawn currently has three attackers.",
+                                              "strategicTheme": "Gambit play",
+                                              "source": "wikibooks"
                                             }
                                           }
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "a6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Benko Gambit.",
-                                          "strategicTheme": "Prophylactic pawn move",
-                                          "source": "generated"
+                                          "moveRationale": "The standard Benko Gambit line. White has three common options available:\n\n*/5.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxb5 exchanges material, altering the pawn structure in the Benko Gambit.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White accepts the initial pawn. The \"real\" gambit now follows with 4.",
+                                      "strategicTheme": "Gambit play",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "b5 advances a pawn, influencing the structure in the Benko Gambit.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black offers White the b pawn. Declining comes with disadvantages so White usually accepts it, at least for now.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "d5 advances a pawn, influencing the structure in the Benko Gambit.",
-                              "strategicTheme": "Pawn structure",
-                              "source": "generated"
+                              "moveRationale": "White keeps their central pawn and takes more space in the centre. White's pawn dug in on d5 cramps Black's position.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "c5 challenges the center from the flank in the Benko Gambit.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Black attacks White's central d-pawn from the flank. The c-pawn is not free: if 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Benko Gambit.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Benko Gambit.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Benko Gambit.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1834,81 +1660,81 @@
                                                 ],
                                                 "isMainLine": true,
                                                 "annotation": {
-                                                  "moveRationale": "Bxa6 exchanges material, altering the pawn structure in the Benko Gambit.",
-                                                  "strategicTheme": "Material exchange",
-                                                  "source": "generated"
+                                                  "moveRationale": "The most common move. g6 is more flexible.",
+                                                  "strategicTheme": "Opening theory",
+                                                  "source": "wikibooks"
                                                 }
                                               }
                                             ],
                                             "isMainLine": true,
                                             "annotation": {
-                                              "moveRationale": "bxa6 exchanges material, altering the pawn structure in the Benko Gambit.",
-                                              "strategicTheme": "Material exchange",
-                                              "source": "generated"
+                                              "moveRationale": "The standard Benko Gambit line. Black doesn't have to recapture immediately, since the pawn currently has three attackers.",
+                                              "strategicTheme": "Gambit play",
+                                              "source": "wikibooks"
                                             }
                                           }
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "a6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Benko Gambit.",
-                                          "strategicTheme": "Prophylactic pawn move",
-                                          "source": "generated"
+                                          "moveRationale": "The standard Benko Gambit line. White has three common options available:\n\n*/5.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxb5 exchanges material, altering the pawn structure in the Benko Gambit.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White accepts the initial pawn. The \"real\" gambit now follows with 4.",
+                                      "strategicTheme": "Gambit play",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "b5 advances a pawn, influencing the structure in the Benko Gambit.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black offers White the b pawn. Declining comes with disadvantages so White usually accepts it, at least for now.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "d5 advances a pawn, influencing the structure in the Benko Gambit.",
-                              "strategicTheme": "Pawn structure",
-                              "source": "generated"
+                              "moveRationale": "White keeps their central pawn and takes more space in the centre. White's pawn dug in on d5 cramps Black's position.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "c5 challenges the center from the flank in the Benko Gambit.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Black attacks White's central d-pawn from the flank. The c-pawn is not free: if 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Benko Gambit.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Benko Gambit.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Benko Gambit.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2049,81 +1875,81 @@
                                                 ],
                                                 "isMainLine": true,
                                                 "annotation": {
-                                                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Benko Gambit.",
-                                                  "strategicTheme": "Fianchetto preparation",
-                                                  "source": "generated"
+                                                  "moveRationale": "Black delays the recapture of a6 and prioritizes development instead. g6 simply intends to develop the bishop to g7, from where it will control the a1-h8 diagonal.",
+                                                  "strategicTheme": "Piece development",
+                                                  "source": "wikibooks"
                                                 }
                                               }
                                             ],
                                             "isMainLine": true,
                                             "annotation": {
-                                              "moveRationale": "bxa6 exchanges material, altering the pawn structure in the Benko Gambit.",
-                                              "strategicTheme": "Material exchange",
-                                              "source": "generated"
+                                              "moveRationale": "The standard Benko Gambit line. Black doesn't have to recapture immediately, since the pawn currently has three attackers.",
+                                              "strategicTheme": "Gambit play",
+                                              "source": "wikibooks"
                                             }
                                           }
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "a6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Benko Gambit.",
-                                          "strategicTheme": "Prophylactic pawn move",
-                                          "source": "generated"
+                                          "moveRationale": "The standard Benko Gambit line. White has three common options available:\n\n*/5.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxb5 exchanges material, altering the pawn structure in the Benko Gambit.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White accepts the initial pawn. The \"real\" gambit now follows with 4.",
+                                      "strategicTheme": "Gambit play",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "b5 advances a pawn, influencing the structure in the Benko Gambit.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black offers White the b pawn. Declining comes with disadvantages so White usually accepts it, at least for now.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "d5 advances a pawn, influencing the structure in the Benko Gambit.",
-                              "strategicTheme": "Pawn structure",
-                              "source": "generated"
+                              "moveRationale": "White keeps their central pawn and takes more space in the centre. White's pawn dug in on d5 cramps Black's position.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "c5 challenges the center from the flank in the Benko Gambit.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Black attacks White's central d-pawn from the flank. The c-pawn is not free: if 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Benko Gambit.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Benko Gambit.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Benko Gambit.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

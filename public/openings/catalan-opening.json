@@ -357,54 +357,7 @@
                                               {
                                                 "move": "Be7",
                                                 "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQK2R w KQkq - 2 6",
-                                                "children": [
-                                                  {
-                                                    "move": "O-O",
-                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 b kq - 3 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "O-O",
-                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 4 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
-                                                          "strategicTheme": "King safety",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
-                                                      "strategicTheme": "King safety",
-                                                      "source": "generated"
-                                                    }
-                                                  },
-                                                  {
-                                                    "move": "Nc3",
-                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/2N2NP1/PP2PPBP/R1BQK2R b KQkq - 3 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "O-O",
-                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/8/2pP4/2N2NP1/PP2PPBP/R1BQK2R w KQ - 4 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
-                                                          "strategicTheme": "King safety",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": false,
-                                                    "annotation": {
-                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Catalan Opening.",
-                                                      "strategicTheme": "Natural piece development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
+                                                "children": [],
                                                 "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Catalan Opening.",
@@ -829,9 +782,9 @@
                                 ],
                                 "isMainLine": false,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "g3 d5\n\n\t\n\t\t\n\t\t4\n\t\t5\n\t\t6\n\t\n\t\n\t\tCatalan Opening\n\t\tBg2dxc4\n\t\tNf3Be7\n\t\tO-OO-O\n\t\t=\n\t\n\t\n\t\t\n\t\tNf3\n\n\t\t\n\n\t\t\n\n\t\t=.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               },
                               {
@@ -1216,41 +1169,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "This is the Catalan Opening, named after the Spanish region of Catalonia, when Grandmaster Savielly Tartakower was asked, at the Barcelona tournament of 1929, to invent an opening system in honor of the region's chess history. Usually, the game continues 3.",
+                              "strategicTheme": "Fianchetto development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1398,54 +1351,7 @@
                                               {
                                                 "move": "Be7",
                                                 "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQK2R w KQkq - 2 6",
-                                                "children": [
-                                                  {
-                                                    "move": "O-O",
-                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 b kq - 3 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "O-O",
-                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 4 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
-                                                          "strategicTheme": "King safety",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
-                                                      "strategicTheme": "King safety",
-                                                      "source": "generated"
-                                                    }
-                                                  },
-                                                  {
-                                                    "move": "Nc3",
-                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/2N2NP1/PP2PPBP/R1BQK2R b KQkq - 3 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "O-O",
-                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/8/2pP4/2N2NP1/PP2PPBP/R1BQK2R w KQ - 4 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
-                                                          "strategicTheme": "King safety",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": false,
-                                                    "annotation": {
-                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Catalan Opening.",
-                                                      "strategicTheme": "Natural piece development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
+                                                "children": [],
                                                 "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Catalan Opening.",
@@ -1870,49 +1776,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "g3 d5\n\n\t\n\t\t\n\t\t4\n\t\t5\n\t\t6\n\t\n\t\n\t\tCatalan Opening\n\t\tBg2dxc4\n\t\tNf3Be7\n\t\tO-OO-O\n\t\t=\n\t\n\t\n\t\t\n\t\tNf3\n\n\t\t\n\n\t\t\n\n\t\t=.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "This is the Catalan Opening, named after the Spanish region of Catalonia, when Grandmaster Savielly Tartakower was asked, at the Barcelona tournament of 1929, to invent an opening system in honor of the region's chess history. Usually, the game continues 3.",
+                              "strategicTheme": "Fianchetto development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1961,41 +1867,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "This is the Catalan Opening, named after the Spanish region of Catalonia, when Grandmaster Savielly Tartakower was asked, at the Barcelona tournament of 1929, to invent an opening system in honor of the region's chess history. Usually, the game continues 3.",
+                              "strategicTheme": "Fianchetto development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2143,54 +2049,7 @@
                                               {
                                                 "move": "Be7",
                                                 "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQK2R w KQkq - 2 6",
-                                                "children": [
-                                                  {
-                                                    "move": "O-O",
-                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 b kq - 3 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "O-O",
-                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 4 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
-                                                          "strategicTheme": "King safety",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
-                                                      "strategicTheme": "King safety",
-                                                      "source": "generated"
-                                                    }
-                                                  },
-                                                  {
-                                                    "move": "Nc3",
-                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/2N2NP1/PP2PPBP/R1BQK2R b KQkq - 3 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "O-O",
-                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/8/2pP4/2N2NP1/PP2PPBP/R1BQK2R w KQ - 4 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
-                                                          "strategicTheme": "King safety",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": false,
-                                                    "annotation": {
-                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Catalan Opening.",
-                                                      "strategicTheme": "Natural piece development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
+                                                "children": [],
                                                 "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Catalan Opening.",
@@ -2615,49 +2474,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "g3 d5\n\n\t\n\t\t\n\t\t4\n\t\t5\n\t\t6\n\t\n\t\n\t\tCatalan Opening\n\t\tBg2dxc4\n\t\tNf3Be7\n\t\tO-OO-O\n\t\t=\n\t\n\t\n\t\t\n\t\tNf3\n\n\t\t\n\n\t\t\n\n\t\t=.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "This is the Catalan Opening, named after the Spanish region of Catalonia, when Grandmaster Savielly Tartakower was asked, at the Barcelona tournament of 1929, to invent an opening system in honor of the region's chess history. Usually, the game continues 3.",
+                              "strategicTheme": "Fianchetto development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2805,54 +2664,7 @@
                                               {
                                                 "move": "Be7",
                                                 "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQK2R w KQkq - 2 6",
-                                                "children": [
-                                                  {
-                                                    "move": "O-O",
-                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 b kq - 3 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "O-O",
-                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 4 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
-                                                          "strategicTheme": "King safety",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
-                                                      "strategicTheme": "King safety",
-                                                      "source": "generated"
-                                                    }
-                                                  },
-                                                  {
-                                                    "move": "Nc3",
-                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/2N2NP1/PP2PPBP/R1BQK2R b KQkq - 3 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "O-O",
-                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/8/2pP4/2N2NP1/PP2PPBP/R1BQK2R w KQ - 4 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
-                                                          "strategicTheme": "King safety",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": false,
-                                                    "annotation": {
-                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Catalan Opening.",
-                                                      "strategicTheme": "Natural piece development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
+                                                "children": [],
                                                 "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Catalan Opening.",
@@ -2887,49 +2699,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "g3 d5\n\n\t\n\t\t\n\t\t4\n\t\t5\n\t\t6\n\t\n\t\n\t\tCatalan Opening\n\t\tBg2dxc4\n\t\tNf3Be7\n\t\tO-OO-O\n\t\t=\n\t\n\t\n\t\t\n\t\tNf3\n\n\t\t\n\n\t\t\n\n\t\t=.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "This is the Catalan Opening, named after the Spanish region of Catalonia, when Grandmaster Savielly Tartakower was asked, at the Barcelona tournament of 1929, to invent an opening system in honor of the region's chess history. Usually, the game continues 3.",
+                              "strategicTheme": "Fianchetto development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3054,49 +2866,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "g3 d5\n\n\t\n\t\t\n\t\t4\n\t\t5\n\t\t6\n\t\n\t\n\t\tCatalan Opening\n\t\tBg2dxc4\n\t\tNf3Be7\n\t\tO-OO-O\n\t\t=\n\t\n\t\n\t\t\n\t\tNf3\n\n\t\t\n\n\t\t\n\n\t\t=.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "This is the Catalan Opening, named after the Spanish region of Catalonia, when Grandmaster Savielly Tartakower was asked, at the Barcelona tournament of 1929, to invent an opening system in honor of the region's chess history. Usually, the game continues 3.",
+                              "strategicTheme": "Fianchetto development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3221,49 +3033,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "g3 d5\n\n\t\n\t\t\n\t\t4\n\t\t5\n\t\t6\n\t\n\t\n\t\tCatalan Opening\n\t\tBg2dxc4\n\t\tNf3Be7\n\t\tO-OO-O\n\t\t=\n\t\n\t\n\t\t\n\t\tNf3\n\n\t\t\n\n\t\t\n\n\t\t=.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "This is the Catalan Opening, named after the Spanish region of Catalonia, when Grandmaster Savielly Tartakower was asked, at the Barcelona tournament of 1929, to invent an opening system in honor of the region's chess history. Usually, the game continues 3.",
+                              "strategicTheme": "Fianchetto development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3352,54 +3164,7 @@
                                               {
                                                 "move": "Be7",
                                                 "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQK2R w KQkq - 2 6",
-                                                "children": [
-                                                  {
-                                                    "move": "O-O",
-                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 b kq - 3 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "O-O",
-                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 4 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
-                                                          "strategicTheme": "King safety",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
-                                                      "strategicTheme": "King safety",
-                                                      "source": "generated"
-                                                    }
-                                                  },
-                                                  {
-                                                    "move": "Nc3",
-                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/2N2NP1/PP2PPBP/R1BQK2R b KQkq - 3 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "O-O",
-                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/8/2pP4/2N2NP1/PP2PPBP/R1BQK2R w KQ - 4 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
-                                                          "strategicTheme": "King safety",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": false,
-                                                    "annotation": {
-                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Catalan Opening.",
-                                                      "strategicTheme": "Natural piece development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
+                                                "children": [],
                                                 "isMainLine": false,
                                                 "annotation": {
                                                   "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Catalan Opening.",
@@ -3434,49 +3199,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "g3 d5\n\n\t\n\t\t\n\t\t4\n\t\t5\n\t\t6\n\t\n\t\n\t\tCatalan Opening\n\t\tBg2dxc4\n\t\tNf3Be7\n\t\tO-OO-O\n\t\t=\n\t\n\t\n\t\t\n\t\tNf3\n\n\t\t\n\n\t\t\n\n\t\t=.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "This is the Catalan Opening, named after the Spanish region of Catalonia, when Grandmaster Savielly Tartakower was asked, at the Barcelona tournament of 1929, to invent an opening system in honor of the region's chess history. Usually, the game continues 3.",
+                              "strategicTheme": "Fianchetto development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3565,49 +3330,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "#REDIRECT Chess Opening Theory/1.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Catalan Opening.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nf3 develops a piece and contributes to White's fight for the center of the board. This move strengthens the d4 and e5 squares and brings White a move closer to castling kingside.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3720,49 +3485,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "g3 d5\n\n\t\n\t\t\n\t\t4\n\t\t5\n\t\t6\n\t\n\t\n\t\tCatalan Opening\n\t\tBg2dxc4\n\t\tNf3Be7\n\t\tO-OO-O\n\t\t=\n\t\n\t\n\t\t\n\t\tNf3\n\n\t\t\n\n\t\t\n\n\t\t=.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "This is the Catalan Opening, named after the Spanish region of Catalonia, when Grandmaster Savielly Tartakower was asked, at the Barcelona tournament of 1929, to invent an opening system in honor of the region's chess history. Usually, the game continues 3.",
+                              "strategicTheme": "Fianchetto development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3816,54 +3581,7 @@
                                               {
                                                 "move": "Be7",
                                                 "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQK2R w KQkq - 2 6",
-                                                "children": [
-                                                  {
-                                                    "move": "O-O",
-                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 b kq - 3 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "O-O",
-                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 4 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
-                                                          "strategicTheme": "King safety",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
-                                                      "strategicTheme": "King safety",
-                                                      "source": "generated"
-                                                    }
-                                                  },
-                                                  {
-                                                    "move": "Nc3",
-                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/8/2pP4/2N2NP1/PP2PPBP/R1BQK2R b KQkq - 3 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "O-O",
-                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/8/2pP4/2N2NP1/PP2PPBP/R1BQK2R w KQ - 4 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Catalan Opening.",
-                                                          "strategicTheme": "King safety",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": false,
-                                                    "annotation": {
-                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Catalan Opening.",
-                                                      "strategicTheme": "Natural piece development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
+                                                "children": [],
                                                 "isMainLine": true,
                                                 "annotation": {
                                                   "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Catalan Opening.",
@@ -3898,49 +3616,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "g3 d5\n\n\t\n\t\t\n\t\t4\n\t\t5\n\t\t6\n\t\n\t\n\t\tCatalan Opening\n\t\tBg2dxc4\n\t\tNf3Be7\n\t\tO-OO-O\n\t\t=\n\t\n\t\n\t\t\n\t\tNf3\n\n\t\t\n\n\t\t\n\n\t\t=.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "This is the Catalan Opening, named after the Spanish region of Catalonia, when Grandmaster Savielly Tartakower was asked, at the Barcelona tournament of 1929, to invent an opening system in honor of the region's chess history. Usually, the game continues 3.",
+                              "strategicTheme": "Fianchetto development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -4053,49 +3771,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "#REDIRECT Chess Opening Theory/1.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Catalan Opening.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nf3 develops a piece and contributes to White's fight for the center of the board. This move strengthens the d4 and e5 squares and brings White a move closer to castling kingside.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -4539,49 +4257,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "g3 d5\n\n\t\n\t\t\n\t\t4\n\t\t5\n\t\t6\n\t\n\t\n\t\tCatalan Opening\n\t\tBg2dxc4\n\t\tNf3Be7\n\t\tO-OO-O\n\t\t=\n\t\n\t\n\t\t\n\t\tNf3\n\n\t\t\n\n\t\t\n\n\t\t=.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "This is the Catalan Opening, named after the Spanish region of Catalonia, when Grandmaster Savielly Tartakower was asked, at the Barcelona tournament of 1929, to invent an opening system in honor of the region's chess history. Usually, the game continues 3.",
+                              "strategicTheme": "Fianchetto development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -4742,49 +4460,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "#REDIRECT Chess Opening Theory/1.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Catalan Opening.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nf3 develops a piece and contributes to White's fight for the center of the board. This move strengthens the d4 and e5 squares and brings White a move closer to castling kingside.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -4969,49 +4687,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "g3 d5\n\n\t\n\t\t\n\t\t4\n\t\t5\n\t\t6\n\t\n\t\n\t\tCatalan Opening\n\t\tBg2dxc4\n\t\tNf3Be7\n\t\tO-OO-O\n\t\t=\n\t\n\t\n\t\t\n\t\tNf3\n\n\t\t\n\n\t\t\n\n\t\t=.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "This is the Catalan Opening, named after the Spanish region of Catalonia, when Grandmaster Savielly Tartakower was asked, at the Barcelona tournament of 1929, to invent an opening system in honor of the region's chess history. Usually, the game continues 3.",
+                              "strategicTheme": "Fianchetto development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -5337,49 +5055,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "g3 d5\n\n\t\n\t\t\n\t\t4\n\t\t5\n\t\t6\n\t\n\t\n\t\tCatalan Opening\n\t\tBg2dxc4\n\t\tNf3Be7\n\t\tO-OO-O\n\t\t=\n\t\n\t\n\t\t\n\t\tNf3\n\n\t\t\n\n\t\t\n\n\t\t=.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "This is the Catalan Opening, named after the Spanish region of Catalonia, when Grandmaster Savielly Tartakower was asked, at the Barcelona tournament of 1929, to invent an opening system in honor of the region's chess history. Usually, the game continues 3.",
+                              "strategicTheme": "Fianchetto development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -5528,49 +5246,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "g3 d5\n\n\t\n\t\t\n\t\t4\n\t\t5\n\t\t6\n\t\n\t\n\t\tCatalan Opening\n\t\tBg2dxc4\n\t\tNf3Be7\n\t\tO-OO-O\n\t\t=\n\t\n\t\n\t\t\n\t\tNf3\n\n\t\t\n\n\t\t\n\n\t\t=.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "This is the Catalan Opening, named after the Spanish region of Catalonia, when Grandmaster Savielly Tartakower was asked, at the Barcelona tournament of 1929, to invent an opening system in honor of the region's chess history. Usually, the game continues 3.",
+                              "strategicTheme": "Fianchetto development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -5861,49 +5579,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "g3 d5\n\n\t\n\t\t\n\t\t4\n\t\t5\n\t\t6\n\t\n\t\n\t\tCatalan Opening\n\t\tBg2dxc4\n\t\tNf3Be7\n\t\tO-OO-O\n\t\t=\n\t\n\t\n\t\t\n\t\tNf3\n\n\t\t\n\n\t\t\n\n\t\t=.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "This is the Catalan Opening, named after the Spanish region of Catalonia, when Grandmaster Savielly Tartakower was asked, at the Barcelona tournament of 1929, to invent an opening system in honor of the region's chess history. Usually, the game continues 3.",
+                              "strategicTheme": "Fianchetto development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -6064,49 +5782,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "g3 d5\n\n\t\n\t\t\n\t\t4\n\t\t5\n\t\t6\n\t\n\t\n\t\tCatalan Opening\n\t\tBg2dxc4\n\t\tNf3Be7\n\t\tO-OO-O\n\t\t=\n\t\n\t\n\t\t\n\t\tNf3\n\n\t\t\n\n\t\t\n\n\t\t=.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "This is the Catalan Opening, named after the Spanish region of Catalonia, when Grandmaster Savielly Tartakower was asked, at the Barcelona tournament of 1929, to invent an opening system in honor of the region's chess history. Usually, the game continues 3.",
+                              "strategicTheme": "Fianchetto development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -6267,49 +5985,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "g3 d5\n\n\t\n\t\t\n\t\t4\n\t\t5\n\t\t6\n\t\n\t\n\t\tCatalan Opening\n\t\tBg2dxc4\n\t\tNf3Be7\n\t\tO-OO-O\n\t\t=\n\t\n\t\n\t\t\n\t\tNf3\n\n\t\t\n\n\t\t\n\n\t\t=.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "This is the Catalan Opening, named after the Spanish region of Catalonia, when Grandmaster Savielly Tartakower was asked, at the Barcelona tournament of 1929, to invent an opening system in honor of the region's chess history. Usually, the game continues 3.",
+                              "strategicTheme": "Fianchetto development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -6482,49 +6200,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "g3 d5\n\n\t\n\t\t\n\t\t4\n\t\t5\n\t\t6\n\t\n\t\n\t\tCatalan Opening\n\t\tBg2dxc4\n\t\tNf3Be7\n\t\tO-OO-O\n\t\t=\n\t\n\t\n\t\t\n\t\tNf3\n\n\t\t\n\n\t\t\n\n\t\t=.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "This is the Catalan Opening, named after the Spanish region of Catalonia, when Grandmaster Savielly Tartakower was asked, at the Barcelona tournament of 1929, to invent an opening system in honor of the region's chess history. Usually, the game continues 3.",
+                              "strategicTheme": "Fianchetto development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -6721,49 +6439,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "g3 d5\n\n\t\n\t\t\n\t\t4\n\t\t5\n\t\t6\n\t\n\t\n\t\tCatalan Opening\n\t\tBg2dxc4\n\t\tNf3Be7\n\t\tO-OO-O\n\t\t=\n\t\n\t\n\t\t\n\t\tNf3\n\n\t\t\n\n\t\t\n\n\t\t=.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "This is the Catalan Opening, named after the Spanish region of Catalonia, when Grandmaster Savielly Tartakower was asked, at the Barcelona tournament of 1929, to invent an opening system in honor of the region's chess history. Usually, the game continues 3.",
+                              "strategicTheme": "Fianchetto development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -6980,41 +6698,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "This is the Catalan Opening, named after the Spanish region of Catalonia, when Grandmaster Savielly Tartakower was asked, at the Barcelona tournament of 1929, to invent an opening system in honor of the region's chess history. Usually, the game continues 3.",
+                              "strategicTheme": "Fianchetto development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -7203,33 +6921,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "#REDIRECT Chess Opening Theory/1.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White keeps the game in the realm of Queen pawn openings with this move. Most responses (like 2.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "e6 is the Horwitz defence. Black plays something less committal without showing their hand, and waits to see how White wants to approach the game.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -7390,49 +7108,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Black begins development of his minor pieces with 3. Nf6, which is invariably the best square for this knight, as it exerts control over the e4 square and adds protection to the d5-pawn.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Catalan Opening.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "With the most common move in the Slav, 3. Nf3, White develops their knight and exerts more control over the e5-square.",
+                              "strategicTheme": "Piece development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "c6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "Originally considered a less-orthodox defence in the Queen's Gambit, this opening has stood as an entire opening system in its own right for decades. The idea behind this defence is straightforward: instead of locking in the light squared bishop on c8, why not support the center with the c-pawn instead.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "The Queen's gambit is one of the oldest openings in chess. White offers a pawn in order to gain control of the centre.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -7593,49 +7311,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "#REDIRECT Chess Opening Theory/1.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Catalan Opening.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nf3 develops a piece and contributes to White's fight for the center of the board. This move strengthens the d4 and e5 squares and brings White a move closer to castling kingside.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -7796,49 +7514,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "#REDIRECT Chess Opening Theory/1.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Catalan Opening.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nf3 develops a piece and contributes to White's fight for the center of the board. This move strengthens the d4 and e5 squares and brings White a move closer to castling kingside.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -8023,49 +7741,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "#REDIRECT Chess Opening Theory/1.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Catalan Opening.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nf3 develops a piece and contributes to White's fight for the center of the board. This move strengthens the d4 and e5 squares and brings White a move closer to castling kingside.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -8310,49 +8028,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "#REDIRECT Chess Opening Theory/1.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Catalan Opening.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nf3 develops a piece and contributes to White's fight for the center of the board. This move strengthens the d4 and e5 squares and brings White a move closer to castling kingside.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -8561,49 +8279,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Catalan Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "g3 d5\n\n\t\n\t\t\n\t\t4\n\t\t5\n\t\t6\n\t\n\t\n\t\tCatalan Opening\n\t\tBg2dxc4\n\t\tNf3Be7\n\t\tO-OO-O\n\t\t=\n\t\n\t\n\t\t\n\t\tNf3\n\n\t\t\n\n\t\t\n\n\t\t=.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Catalan Opening.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "This is the Catalan Opening, named after the Spanish region of Catalonia, when Grandmaster Savielly Tartakower was asked, at the Barcelona tournament of 1929, to invent an opening system in honor of the region's chess history. Usually, the game continues 3.",
+                              "strategicTheme": "Fianchetto development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Catalan Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Catalan Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Catalan Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Catalan Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

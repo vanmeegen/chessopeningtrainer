@@ -33,124 +33,52 @@
                               {
                                 "move": "d5",
                                 "fen": "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/5P2/PP2P1PP/RNBQKBNR w KQkq - 0 4",
-                                "children": [
-                                  {
-                                    "move": "cxd5",
-                                    "fen": "rnbqkb1r/ppp1pp1p/5np1/3P4/3P4/5P2/PP2P1PP/RNBQKBNR b KQkq - 0 4",
-                                    "children": [
-                                      {
-                                        "move": "Nxd5",
-                                        "fen": "rnbqkb1r/ppp1pp1p/6p1/3n4/3P4/5P2/PP2P1PP/RNBQKBNR w KQkq - 0 5",
-                                        "children": [
-                                          {
-                                            "move": "e4",
-                                            "fen": "rnbqkb1r/ppp1pp1p/6p1/3n4/3PP3/5P2/PP4PP/RNBQKBNR b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "Nb6",
-                                                "fen": "rnbqkb1r/ppp1pp1p/1n4p1/8/3PP3/5P2/PP4PP/RNBQKBNR w KQkq - 1 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Nc3",
-                                                    "fen": "rnbqkb1r/ppp1pp1p/1n4p1/8/3PP3/2N2P2/PP4PP/R1BQKBNR b KQkq - 2 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "Bg7",
-                                                        "fen": "rnbqk2r/ppp1ppbp/1n4p1/8/3PP3/2N2P2/PP4PP/R1BQKBNR w KQkq - 3 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Bg7 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                                                          "strategicTheme": "Bishop development",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Neo-Grünfeld Defense.",
-                                                      "strategicTheme": "Natural piece development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "Nb6 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                                                  "strategicTheme": "Knight activity",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "e4 impacts the center, shaping the pawn structure in the Neo-Grünfeld Defense.",
-                                              "strategicTheme": "Central tension",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
-                                        "isMainLine": true,
-                                        "annotation": {
-                                          "moveRationale": "Nxd5 exchanges material, altering the pawn structure in the Neo-Grünfeld Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
-                                    "isMainLine": true,
-                                    "annotation": {
-                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Neo-Grünfeld Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
-                                    }
-                                  }
-                                ],
+                                "children": [],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Neo-Grünfeld Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black continues playing in a Grünfeld style. prepared by f3 would simply blunder the pawn, so White should either remove one of Black's attackers or prepare it with another piece.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "f3 advances a pawn, influencing the structure in the Neo-Grünfeld Defense.",
-                              "strategicTheme": "Prophylactic pawn move",
-                              "source": "generated"
+                              "moveRationale": "f3 is an Anti-Grünfeld move that was popularized by Alekhine. It prepares e4 with a pawn to secure a big center.",
+                              "strategicTheme": "Piece development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Neo-Grünfeld Defense.",
-                          "strategicTheme": "Fianchetto preparation",
-                          "source": "generated"
+                          "moveRationale": "g6, Black commits to a hypermodern development strategy. They will fianchetto their dark-squared bishop with.",
+                          "strategicTheme": "Piece development",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Neo-Grünfeld Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Neo-Grünfeld Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -199,41 +127,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White develops a piece and continues their fight for the central dark squares. This Knight's development, while solid, prevents White's option of playing f3 or f4 and thus gives up options of the aggressive Four Pawns Attack by requiring f4 and the Samisch, which requires f3.",
+                              "strategicTheme": "Piece development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Neo-Grünfeld Defense.",
-                          "strategicTheme": "Fianchetto preparation",
-                          "source": "generated"
+                          "moveRationale": "g6, Black commits to a hypermodern development strategy. They will fianchetto their dark-squared bishop with.",
+                          "strategicTheme": "Piece development",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Neo-Grünfeld Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Neo-Grünfeld Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -271,307 +199,7 @@
                               {
                                 "move": "d5",
                                 "fen": "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/6P1/PP2PP1P/RNBQKBNR w KQkq - 0 4",
-                                "children": [
-                                  {
-                                    "move": "Bg2",
-                                    "fen": "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/6P1/PP2PPBP/RNBQK1NR b KQkq - 1 4",
-                                    "children": [
-                                      {
-                                        "move": "Bg7",
-                                        "fen": "rnbqk2r/ppp1ppbp/5np1/3p4/2PP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 2 5",
-                                        "children": [
-                                          {
-                                            "move": "Nf3",
-                                            "fen": "rnbqk2r/ppp1ppbp/5np1/3p4/2PP4/5NP1/PP2PPBP/RNBQK2R b KQkq - 3 5",
-                                            "children": [
-                                              {
-                                                "move": "O-O",
-                                                "fen": "rnbq1rk1/ppp1ppbp/5np1/3p4/2PP4/5NP1/PP2PPBP/RNBQK2R w KQ - 4 6",
-                                                "children": [
-                                                  {
-                                                    "move": "O-O",
-                                                    "fen": "rnbq1rk1/ppp1ppbp/5np1/3p4/2PP4/5NP1/PP2PPBP/RNBQ1RK1 b - - 5 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "c6",
-                                                        "fen": "rnbq1rk1/pp2ppbp/2p2np1/3p4/2PP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "c6 advances a pawn, influencing the structure in the Neo-Grünfeld Defense.",
-                                                          "strategicTheme": "Prophylactic pawn move",
-                                                          "source": "generated"
-                                                        }
-                                                      },
-                                                      {
-                                                        "move": "dxc4",
-                                                        "fen": "rnbq1rk1/ppp1ppbp/5np1/8/2pP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": false,
-                                                        "annotation": {
-                                                          "moveRationale": "dxc4 impacts the center, shaping the pawn structure in the Neo-Grünfeld Defense.",
-                                                          "strategicTheme": "Central tension",
-                                                          "source": "generated"
-                                                        }
-                                                      },
-                                                      {
-                                                        "move": "c5",
-                                                        "fen": "rnbq1rk1/pp2ppbp/5np1/2pp4/2PP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": false,
-                                                        "annotation": {
-                                                          "moveRationale": "c5 challenges the center from the flank in the Neo-Grünfeld Defense.",
-                                                          "strategicTheme": "Pawn structure",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Neo-Grünfeld Defense.",
-                                                      "strategicTheme": "King safety",
-                                                      "source": "generated"
-                                                    }
-                                                  },
-                                                  {
-                                                    "move": "cxd5",
-                                                    "fen": "rnbq1rk1/ppp1ppbp/5np1/3P4/3P4/5NP1/PP2PPBP/RNBQK2R b KQ - 0 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "Nxd5",
-                                                        "fen": "rnbq1rk1/ppp1ppbp/6p1/3n4/3P4/5NP1/PP2PPBP/RNBQK2R w KQ - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Nxd5 exchanges material, altering the pawn structure in the Neo-Grünfeld Defense.",
-                                                          "strategicTheme": "Material exchange",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": false,
-                                                    "annotation": {
-                                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Neo-Grünfeld Defense.",
-                                                      "strategicTheme": "Material exchange",
-                                                      "source": "generated"
-                                                    }
-                                                  },
-                                                  {
-                                                    "move": "Nc3",
-                                                    "fen": "rnbq1rk1/ppp1ppbp/5np1/3p4/2PP4/2N2NP1/PP2PPBP/R1BQK2R b KQ - 5 6",
-                                                    "children": [],
-                                                    "isMainLine": false,
-                                                    "annotation": {
-                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Neo-Grünfeld Defense.",
-                                                      "strategicTheme": "Natural piece development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Neo-Grünfeld Defense.",
-                                                  "strategicTheme": "Early king safety",
-                                                  "source": "generated"
-                                                }
-                                              },
-                                              {
-                                                "move": "c6",
-                                                "fen": "rnbqk2r/pp2ppbp/2p2np1/3p4/2PP4/5NP1/PP2PPBP/RNBQK2R w KQkq - 0 6",
-                                                "children": [
-                                                  {
-                                                    "move": "cxd5",
-                                                    "fen": "rnbqk2r/pp2ppbp/2p2np1/3P4/3P4/5NP1/PP2PPBP/RNBQK2R b KQkq - 0 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "cxd5",
-                                                        "fen": "rnbqk2r/pp2ppbp/5np1/3p4/3P4/5NP1/PP2PPBP/RNBQK2R w KQkq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Neo-Grünfeld Defense.",
-                                                          "strategicTheme": "Material exchange",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Neo-Grünfeld Defense.",
-                                                      "strategicTheme": "Material exchange",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": false,
-                                                "annotation": {
-                                                  "moveRationale": "c6 advances a pawn, influencing the structure in the Neo-Grünfeld Defense.",
-                                                  "strategicTheme": "Prophylactic pawn move",
-                                                  "source": "generated"
-                                                }
-                                              },
-                                              {
-                                                "move": "dxc4",
-                                                "fen": "rnbqk2r/ppp1ppbp/5np1/8/2pP4/5NP1/PP2PPBP/RNBQK2R w KQkq - 0 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Na3",
-                                                    "fen": "rnbqk2r/ppp1ppbp/5np1/8/2pP4/N4NP1/PP2PPBP/R1BQK2R b KQkq - 1 6",
-                                                    "children": [],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Na3 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                                                      "strategicTheme": "Knight activity",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": false,
-                                                "annotation": {
-                                                  "moveRationale": "dxc4 impacts the center, shaping the pawn structure in the Neo-Grünfeld Defense.",
-                                                  "strategicTheme": "Central tension",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "Nf3 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                                              "strategicTheme": "Natural piece development",
-                                              "source": "generated"
-                                            }
-                                          },
-                                          {
-                                            "move": "cxd5",
-                                            "fen": "rnbqk2r/ppp1ppbp/5np1/3P4/3P4/6P1/PP2PPBP/RNBQK1NR b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "Nxd5",
-                                                "fen": "rnbqk2r/ppp1ppbp/6p1/3n4/3P4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 6",
-                                                "children": [
-                                                  {
-                                                    "move": "e4",
-                                                    "fen": "rnbqk2r/ppp1ppbp/6p1/3n4/3PP3/6P1/PP3PBP/RNBQK1NR b KQkq - 0 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "Nb6",
-                                                        "fen": "rnbqk2r/ppp1ppbp/1n4p1/8/3PP3/6P1/PP3PBP/RNBQK1NR w KQkq - 1 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Nb6 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                                                          "strategicTheme": "Knight activity",
-                                                          "source": "generated"
-                                                        }
-                                                      },
-                                                      {
-                                                        "move": "Nb4",
-                                                        "fen": "rnbqk2r/ppp1ppbp/6p1/8/1n1PP3/6P1/PP3PBP/RNBQK1NR w KQkq - 1 7",
-                                                        "children": [],
-                                                        "isMainLine": false,
-                                                        "annotation": {
-                                                          "moveRationale": "Nb4 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                                                          "strategicTheme": "Knight activity",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Neo-Grünfeld Defense.",
-                                                      "strategicTheme": "Central tension",
-                                                      "source": "generated"
-                                                    }
-                                                  },
-                                                  {
-                                                    "move": "Nc3",
-                                                    "fen": "rnbqk2r/ppp1ppbp/6p1/3n4/3P4/2N3P1/PP2PPBP/R1BQK1NR b KQkq - 1 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "Nxc3",
-                                                        "fen": "rnbqk2r/ppp1ppbp/6p1/8/3P4/2n3P1/PP2PPBP/R1BQK1NR w KQkq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Nxc3 exchanges material, altering the pawn structure in the Neo-Grünfeld Defense.",
-                                                          "strategicTheme": "Material exchange",
-                                                          "source": "generated"
-                                                        }
-                                                      },
-                                                      {
-                                                        "move": "Nb6",
-                                                        "fen": "rnbqk2r/ppp1ppbp/1n4p1/8/3P4/2N3P1/PP2PPBP/R1BQK1NR w KQkq - 2 7",
-                                                        "children": [],
-                                                        "isMainLine": false,
-                                                        "annotation": {
-                                                          "moveRationale": "Nb6 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                                                          "strategicTheme": "Knight activity",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": false,
-                                                    "annotation": {
-                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Neo-Grünfeld Defense.",
-                                                      "strategicTheme": "Natural piece development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "Nxd5 exchanges material, altering the pawn structure in the Neo-Grünfeld Defense.",
-                                                  "strategicTheme": "Material exchange",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": false,
-                                            "annotation": {
-                                              "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Neo-Grünfeld Defense.",
-                                              "strategicTheme": "Material exchange",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
-                                        "isMainLine": true,
-                                        "annotation": {
-                                          "moveRationale": "Bg7 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                                          "strategicTheme": "Bishop development",
-                                          "source": "generated"
-                                        }
-                                      },
-                                      {
-                                        "move": "c6",
-                                        "fen": "rnbqkb1r/pp2pp1p/2p2np1/3p4/2PP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 5",
-                                        "children": [],
-                                        "isMainLine": false,
-                                        "annotation": {
-                                          "moveRationale": "c6 advances a pawn, influencing the structure in the Neo-Grünfeld Defense.",
-                                          "strategicTheme": "Prophylactic pawn move",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
-                                    "isMainLine": true,
-                                    "annotation": {
-                                      "moveRationale": "Bg2 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                                      "strategicTheme": "Bishop development",
-                                      "source": "generated"
-                                    }
-                                  },
-                                  {
-                                    "move": "cxd5",
-                                    "fen": "rnbqkb1r/ppp1pp1p/5np1/3P4/3P4/6P1/PP2PP1P/RNBQKBNR b KQkq - 0 4",
-                                    "children": [],
-                                    "isMainLine": false,
-                                    "annotation": {
-                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Neo-Grünfeld Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
-                                    }
-                                  }
-                                ],
+                                "children": [],
                                 "isMainLine": true,
                                 "annotation": {
                                   "moveRationale": "d5 advances a pawn, influencing the structure in the Neo-Grünfeld Defense.",
@@ -590,33 +218,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Neo-Grünfeld Defense.",
-                          "strategicTheme": "Fianchetto preparation",
-                          "source": "generated"
+                          "moveRationale": "g6, Black commits to a hypermodern development strategy. They will fianchetto their dark-squared bishop with.",
+                          "strategicTheme": "Piece development",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Neo-Grünfeld Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Neo-Grünfeld Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -670,76 +298,7 @@
                                               {
                                                 "move": "Nxd5",
                                                 "fen": "rnbqk2r/ppp1ppbp/6p1/3n4/3P4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 6",
-                                                "children": [
-                                                  {
-                                                    "move": "e4",
-                                                    "fen": "rnbqk2r/ppp1ppbp/6p1/3n4/3PP3/6P1/PP3PBP/RNBQK1NR b KQkq - 0 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "Nb6",
-                                                        "fen": "rnbqk2r/ppp1ppbp/1n4p1/8/3PP3/6P1/PP3PBP/RNBQK1NR w KQkq - 1 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Nb6 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                                                          "strategicTheme": "Knight activity",
-                                                          "source": "generated"
-                                                        }
-                                                      },
-                                                      {
-                                                        "move": "Nb4",
-                                                        "fen": "rnbqk2r/ppp1ppbp/6p1/8/1n1PP3/6P1/PP3PBP/RNBQK1NR w KQkq - 1 7",
-                                                        "children": [],
-                                                        "isMainLine": false,
-                                                        "annotation": {
-                                                          "moveRationale": "Nb4 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                                                          "strategicTheme": "Knight activity",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Neo-Grünfeld Defense.",
-                                                      "strategicTheme": "Central tension",
-                                                      "source": "generated"
-                                                    }
-                                                  },
-                                                  {
-                                                    "move": "Nc3",
-                                                    "fen": "rnbqk2r/ppp1ppbp/6p1/3n4/3P4/2N3P1/PP2PPBP/R1BQK1NR b KQkq - 1 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "Nxc3",
-                                                        "fen": "rnbqk2r/ppp1ppbp/6p1/8/3P4/2n3P1/PP2PPBP/R1BQK1NR w KQkq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Nxc3 exchanges material, altering the pawn structure in the Neo-Grünfeld Defense.",
-                                                          "strategicTheme": "Material exchange",
-                                                          "source": "generated"
-                                                        }
-                                                      },
-                                                      {
-                                                        "move": "Nb6",
-                                                        "fen": "rnbqk2r/ppp1ppbp/1n4p1/8/3P4/2N3P1/PP2PPBP/R1BQK1NR w KQkq - 2 7",
-                                                        "children": [],
-                                                        "isMainLine": false,
-                                                        "annotation": {
-                                                          "moveRationale": "Nb6 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                                                          "strategicTheme": "Knight activity",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": false,
-                                                    "annotation": {
-                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Neo-Grünfeld Defense.",
-                                                      "strategicTheme": "Natural piece development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
+                                                "children": [],
                                                 "isMainLine": true,
                                                 "annotation": {
                                                   "moveRationale": "Nxd5 exchanges material, altering the pawn structure in the Neo-Grünfeld Defense.",
@@ -790,33 +349,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Neo-Grünfeld Defense.",
-                          "strategicTheme": "Fianchetto preparation",
-                          "source": "generated"
+                          "moveRationale": "g6, Black commits to a hypermodern development strategy. They will fianchetto their dark-squared bishop with.",
+                          "strategicTheme": "Piece development",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Neo-Grünfeld Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Neo-Grünfeld Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -953,49 +512,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Bg7 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                                  "strategicTheme": "Bishop development",
-                                  "source": "generated"
+                                  "moveRationale": "The Bishop moves to its ideal square, bearing down on the central dark squares. Black has so far kept the options open by not committing a central pawn move.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White develops a piece and continues their fight for the central dark squares. This Knight's development, while solid, prevents White's option of playing f3 or f4 and thus gives up options of the aggressive Four Pawns Attack by requiring f4 and the Samisch, which requires f3.",
+                              "strategicTheme": "Piece development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Neo-Grünfeld Defense.",
-                          "strategicTheme": "Fianchetto preparation",
-                          "source": "generated"
+                          "moveRationale": "g6, Black commits to a hypermodern development strategy. They will fianchetto their dark-squared bishop with.",
+                          "strategicTheme": "Piece development",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Neo-Grünfeld Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Neo-Grünfeld Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1136,57 +695,57 @@
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "Nf3 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                                      "strategicTheme": "Natural piece development",
-                                      "source": "generated"
+                                      "moveRationale": "This Knight development is solid but leaves the options open for Black to either play The King's Indian or the Grunfeld Defence. If Black wishes to play the Grunfeld then responding immediately with d5 is required as white next move is likely to be 5.",
+                                      "strategicTheme": "Piece development",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Bg7 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                                  "strategicTheme": "Bishop development",
-                                  "source": "generated"
+                                  "moveRationale": "Bg7 is the King's Indian Defense, one of the most heavily analysed openings in chess. Black's idea is to concede the center to white and to then put pressure on it using the bishop on g7, often in conjunction with moves like c5 and Nc6.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Neo-Grünfeld Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White intends to play e4 with this move. Developing this knight first also keeps options open for being able to play multiple lines against the King's Indian.",
+                              "strategicTheme": "Piece development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Neo-Grünfeld Defense.",
-                          "strategicTheme": "Fianchetto preparation",
-                          "source": "generated"
+                          "moveRationale": "g6, Black commits to a hypermodern development strategy. They will fianchetto their dark-squared bishop with.",
+                          "strategicTheme": "Piece development",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Neo-Grünfeld Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Neo-Grünfeld Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1335,49 +894,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Bg7 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                                  "strategicTheme": "Bishop development",
-                                  "source": "generated"
+                                  "moveRationale": "#redirect Chess Opening Theory/1.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "c4 gains space on the queenside in the Neo-Grünfeld Defense.",
-                              "strategicTheme": "Pawn structure",
-                              "source": "generated"
+                              "moveRationale": "#redirect Chess Opening Theory/1.",
+                              "strategicTheme": "Opening theory",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Neo-Grünfeld Defense.",
-                          "strategicTheme": "Fianchetto preparation",
-                          "source": "generated"
+                          "moveRationale": "A transposition position as White has yet to commit to playing c4, and Black has not committed the d-pawn to either d5 or d6. Nf3 g6\n\n* 365Chess.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Neo-Grünfeld Defense.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "This move keeps White's options open: they can first see how Black intends to play before deciding on a response. If, for example, White likes to play against the King's Indian defence with c4, but wants to avoid lines involving c4 and.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Neo-Grünfeld Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1514,49 +1073,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Bg7 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                                  "strategicTheme": "Bishop development",
-                                  "source": "generated"
+                                  "moveRationale": "The Bishop moves to its ideal square, bearing down on the central dark squares. Black has so far kept the options open by not committing a central pawn move.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White develops a piece and continues their fight for the central dark squares. This Knight's development, while solid, prevents White's option of playing f3 or f4 and thus gives up options of the aggressive Four Pawns Attack by requiring f4 and the Samisch, which requires f3.",
+                              "strategicTheme": "Piece development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Neo-Grünfeld Defense.",
-                          "strategicTheme": "Fianchetto preparation",
-                          "source": "generated"
+                          "moveRationale": "g6, Black commits to a hypermodern development strategy. They will fianchetto their dark-squared bishop with.",
+                          "strategicTheme": "Piece development",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Neo-Grünfeld Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Neo-Grünfeld Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1688,41 +1247,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Neo-Grünfeld Defense.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "g3\n\n        \n                \n                3\n                4\n                5\n        \n        \n                King's Indian Defense\n                &nbsp;Bg7\n                c4&nbsp;\n                \n        \n        \n                \n                &nbsp;d5\n                Bg2&nbsp;.",
+                              "strategicTheme": "Opening theory",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Neo-Grünfeld Defense.",
-                          "strategicTheme": "Fianchetto preparation",
-                          "source": "generated"
+                          "moveRationale": "A transposition position as White has yet to commit to playing c4, and Black has not committed the d-pawn to either d5 or d6. Nf3 g6\n\n* 365Chess.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Neo-Grünfeld Defense.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "This move keeps White's options open: they can first see how Black intends to play before deciding on a response. If, for example, White likes to play against the King's Indian defence with c4, but wants to avoid lines involving c4 and.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Neo-Grünfeld Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1843,41 +1402,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Neo-Grünfeld Defense.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "g3\n\n        \n                \n                3\n                4\n                5\n        \n        \n                King's Indian Defense\n                &nbsp;Bg7\n                c4&nbsp;\n                \n        \n        \n                \n                &nbsp;d5\n                Bg2&nbsp;.",
+                              "strategicTheme": "Opening theory",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Neo-Grünfeld Defense.",
-                          "strategicTheme": "Fianchetto preparation",
-                          "source": "generated"
+                          "moveRationale": "A transposition position as White has yet to commit to playing c4, and Black has not committed the d-pawn to either d5 or d6. Nf3 g6\n\n* 365Chess.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Neo-Grünfeld Defense.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "This move keeps White's options open: they can first see how Black intends to play before deciding on a response. If, for example, White likes to play against the King's Indian defence with c4, but wants to avoid lines involving c4 and.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Neo-Grünfeld Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1998,41 +1557,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Neo-Grünfeld Defense.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "g3\n\n        \n                \n                3\n                4\n                5\n        \n        \n                King's Indian Defense\n                &nbsp;Bg7\n                c4&nbsp;\n                \n        \n        \n                \n                &nbsp;d5\n                Bg2&nbsp;.",
+                              "strategicTheme": "Opening theory",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Neo-Grünfeld Defense.",
-                          "strategicTheme": "Fianchetto preparation",
-                          "source": "generated"
+                          "moveRationale": "A transposition position as White has yet to commit to playing c4, and Black has not committed the d-pawn to either d5 or d6. Nf3 g6\n\n* 365Chess.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Neo-Grünfeld Defense.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "This move keeps White's options open: they can first see how Black intends to play before deciding on a response. If, for example, White likes to play against the King's Indian defence with c4, but wants to avoid lines involving c4 and.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Neo-Grünfeld Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2169,49 +1728,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Bg7 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                                  "strategicTheme": "Bishop development",
-                                  "source": "generated"
+                                  "moveRationale": "The Bishop moves to its ideal square, bearing down on the central dark squares. Black has so far kept the options open by not committing a central pawn move.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White develops a piece and continues their fight for the central dark squares. This Knight's development, while solid, prevents White's option of playing f3 or f4 and thus gives up options of the aggressive Four Pawns Attack by requiring f4 and the Samisch, which requires f3.",
+                              "strategicTheme": "Piece development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Neo-Grünfeld Defense.",
-                          "strategicTheme": "Fianchetto preparation",
-                          "source": "generated"
+                          "moveRationale": "g6, Black commits to a hypermodern development strategy. They will fianchetto their dark-squared bishop with.",
+                          "strategicTheme": "Piece development",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Neo-Grünfeld Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Neo-Grünfeld Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2348,49 +1907,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Bg7 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                                  "strategicTheme": "Bishop development",
-                                  "source": "generated"
+                                  "moveRationale": "The Bishop moves to its ideal square, bearing down on the central dark squares. Black has so far kept the options open by not committing a central pawn move.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White develops a piece and continues their fight for the central dark squares. This Knight's development, while solid, prevents White's option of playing f3 or f4 and thus gives up options of the aggressive Four Pawns Attack by requiring f4 and the Samisch, which requires f3.",
+                              "strategicTheme": "Piece development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Neo-Grünfeld Defense.",
-                          "strategicTheme": "Fianchetto preparation",
-                          "source": "generated"
+                          "moveRationale": "g6, Black commits to a hypermodern development strategy. They will fianchetto their dark-squared bishop with.",
+                          "strategicTheme": "Piece development",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Neo-Grünfeld Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Neo-Grünfeld Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Neo-Grünfeld Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

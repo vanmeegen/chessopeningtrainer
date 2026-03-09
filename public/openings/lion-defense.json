@@ -29,77 +29,7 @@
                           {
                             "move": "f3",
                             "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/5P2/PPP3PP/RNBQKBNR b KQkq - 0 3",
-                            "children": [
-                              {
-                                "move": "e5",
-                                "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p3/3PP3/5P2/PPP3PP/RNBQKBNR w KQkq - 0 4",
-                                "children": [
-                                  {
-                                    "move": "dxe5",
-                                    "fen": "rnbqkb1r/ppp2ppp/3p1n2/4P3/4P3/5P2/PPP3PP/RNBQKBNR b KQkq - 0 4",
-                                    "children": [
-                                      {
-                                        "move": "dxe5",
-                                        "fen": "rnbqkb1r/ppp2ppp/5n2/4p3/4P3/5P2/PPP3PP/RNBQKBNR w KQkq - 0 5",
-                                        "children": [
-                                          {
-                                            "move": "Qxd8+",
-                                            "fen": "rnbQkb1r/ppp2ppp/5n2/4p3/4P3/5P2/PPP3PP/RNB1KBNR b KQkq - 0 5",
-                                            "children": [],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "Qxd8+ exchanges material, altering the pawn structure in the Lion Defense.",
-                                              "strategicTheme": "Material exchange",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
-                                        "isMainLine": true,
-                                        "annotation": {
-                                          "moveRationale": "dxe5 exchanges material, altering the pawn structure in the Lion Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
-                                    "isMainLine": true,
-                                    "annotation": {
-                                      "moveRationale": "dxe5 exchanges material, altering the pawn structure in the Lion Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
-                                    }
-                                  },
-                                  {
-                                    "move": "d5",
-                                    "fen": "rnbqkb1r/ppp2ppp/3p1n2/3Pp3/4P3/5P2/PPP3PP/RNBQKBNR b KQkq - 0 4",
-                                    "children": [],
-                                    "isMainLine": false,
-                                    "annotation": {
-                                      "moveRationale": "d5 advances a pawn, influencing the structure in the Lion Defense.",
-                                      "strategicTheme": "Pawn structure",
-                                      "source": "generated"
-                                    }
-                                  }
-                                ],
-                                "isMainLine": true,
-                                "annotation": {
-                                  "moveRationale": "e5 advances a pawn, influencing the structure in the Lion Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
-                                }
-                              },
-                              {
-                                "move": "g6",
-                                "fen": "rnbqkb1r/ppp1pp1p/3p1np1/8/3PP3/5P2/PPP3PP/RNBQKBNR w KQkq - 0 4",
-                                "children": [],
-                                "isMainLine": false,
-                                "annotation": {
-                                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Lion Defense.",
-                                  "strategicTheme": "Fianchetto preparation",
-                                  "source": "generated"
-                                }
-                              }
-                            ],
+                            "children": [],
                             "isMainLine": true,
                             "annotation": {
                               "moveRationale": "f3 advances a pawn, influencing the structure in the Lion Defense.",
@@ -110,33 +40,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Lion Defense.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "Black develops their knight and attacks e4. This is the main line of the Pirc defence.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Lion Defense.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "Unopposed in the centre, White takes extra space. Black should start to put pressure on White's pawns.",
+                      "strategicTheme": "King safety",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d6 advances a pawn, influencing the structure in the Lion Defense.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "The Pirc defence is a hypermodern response to 1. e4 where, rather than fill the centre with pawns, they look to exert pressure on the centre from afar with their pieces.",
+                  "strategicTheme": "Center control",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Lion Defense.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -273,49 +203,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nbd7 develops a piece to an active square in the Lion Defense.",
-                                  "strategicTheme": "Knight activity",
-                                  "source": "generated"
+                                  "moveRationale": "A sideline in the Pirc defence, where Black wants to play. Nd7 first increases Black's control of e5 by unpinning the d6 pawn from the queen: whereas if 3.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Lion Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White defends their e4 pawn, which was under attack, by developing their knight to its most active square. On this square the knight helps to control the centre but it does prevent White from playing c4 and prevents transposition into King's Indian games.",
+                              "strategicTheme": "Piece development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Lion Defense.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "Black develops their knight and attacks e4. This is the main line of the Pirc defence.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Lion Defense.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "Unopposed in the centre, White takes extra space. Black should start to put pressure on White's pawns.",
+                      "strategicTheme": "King safety",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d6 advances a pawn, influencing the structure in the Lion Defense.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "The Pirc defence is a hypermodern response to 1. e4 where, rather than fill the centre with pawns, they look to exert pressure on the centre from afar with their pieces.",
+                  "strategicTheme": "Center control",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Lion Defense.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -452,49 +382,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nbd7 develops a piece to an active square in the Lion Defense.",
-                                  "strategicTheme": "Knight activity",
-                                  "source": "generated"
+                                  "moveRationale": "A sideline in the Pirc defence, where Black wants to play. Nd7 first increases Black's control of e5 by unpinning the d6 pawn from the queen: whereas if 3.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Lion Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White defends their e4 pawn, which was under attack, by developing their knight to its most active square. On this square the knight helps to control the centre but it does prevent White from playing c4 and prevents transposition into King's Indian games.",
+                              "strategicTheme": "Piece development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Lion Defense.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "Black develops their knight and attacks e4. This is the main line of the Pirc defence.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Lion Defense.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "Unopposed in the centre, White takes extra space. Black should start to put pressure on White's pawns.",
+                      "strategicTheme": "King safety",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d6 advances a pawn, influencing the structure in the Lion Defense.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "The Pirc defence is a hypermodern response to 1. e4 where, rather than fill the centre with pawns, they look to exert pressure on the centre from afar with their pieces.",
+                  "strategicTheme": "Center control",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Lion Defense.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -631,49 +561,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nbd7 develops a piece to an active square in the Lion Defense.",
-                                  "strategicTheme": "Knight activity",
-                                  "source": "generated"
+                                  "moveRationale": "A sideline in the Pirc defence, where Black wants to play. Nd7 first increases Black's control of e5 by unpinning the d6 pawn from the queen: whereas if 3.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Lion Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White defends their e4 pawn, which was under attack, by developing their knight to its most active square. On this square the knight helps to control the centre but it does prevent White from playing c4 and prevents transposition into King's Indian games.",
+                              "strategicTheme": "Piece development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Lion Defense.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "Black develops their knight and attacks e4. This is the main line of the Pirc defence.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Lion Defense.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "Unopposed in the centre, White takes extra space. Black should start to put pressure on White's pawns.",
+                      "strategicTheme": "King safety",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d6 advances a pawn, influencing the structure in the Lion Defense.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "The Pirc defence is a hypermodern response to 1. e4 where, rather than fill the centre with pawns, they look to exert pressure on the centre from afar with their pieces.",
+                  "strategicTheme": "Center control",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Lion Defense.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -726,49 +656,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nbd7 develops a piece to an active square in the Lion Defense.",
-                                  "strategicTheme": "Knight activity",
-                                  "source": "generated"
+                                  "moveRationale": "A sideline in the Pirc defence, where Black wants to play. Nd7 first increases Black's control of e5 by unpinning the d6 pawn from the queen: whereas if 3.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Lion Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "White defends their e4 pawn, which was under attack, by developing their knight to its most active square. On this square the knight helps to control the centre but it does prevent White from playing c4 and prevents transposition into King's Indian games.",
+                              "strategicTheme": "Piece development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Lion Defense.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "Black develops their knight and attacks e4. This is the main line of the Pirc defence.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Lion Defense.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "Unopposed in the centre, White takes extra space. Black should start to put pressure on White's pawns.",
+                      "strategicTheme": "King safety",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d6 advances a pawn, influencing the structure in the Lion Defense.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "The Pirc defence is a hypermodern response to 1. e4 where, rather than fill the centre with pawns, they look to exert pressure on the centre from afar with their pieces.",
+                  "strategicTheme": "Center control",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Lion Defense.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

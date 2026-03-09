@@ -170,31 +170,7 @@
                           {
                             "move": "b4",
                             "fen": "rnbqkb1r/pppppp1p/5np1/8/1P6/5NP1/P1PPPP1P/RNBQKB1R b KQkq - 0 3",
-                            "children": [
-                              {
-                                "move": "Bg7",
-                                "fen": "rnbqk2r/ppppppbp/5np1/8/1P6/5NP1/P1PPPP1P/RNBQKB1R w KQkq - 1 4",
-                                "children": [
-                                  {
-                                    "move": "Bb2",
-                                    "fen": "rnbqk2r/ppppppbp/5np1/8/1P6/5NP1/PBPPPP1P/RN1QKB1R b KQkq - 2 4",
-                                    "children": [],
-                                    "isMainLine": true,
-                                    "annotation": {
-                                      "moveRationale": "Bb2 develops a piece to an active square in the Zukertort Opening.",
-                                      "strategicTheme": "Bishop development",
-                                      "source": "generated"
-                                    }
-                                  }
-                                ],
-                                "isMainLine": true,
-                                "annotation": {
-                                  "moveRationale": "Bg7 develops a piece to an active square in the Zukertort Opening.",
-                                  "strategicTheme": "Bishop development",
-                                  "source": "generated"
-                                }
-                              }
-                            ],
+                            "children": [],
                             "isMainLine": false,
                             "annotation": {
                               "moveRationale": "b4 advances a pawn, influencing the structure in the Zukertort Opening.",
@@ -276,9 +252,9 @@
                         ],
                         "isMainLine": false,
                         "annotation": {
-                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Zukertort Opening.",
-                          "strategicTheme": "Fianchetto preparation",
-                          "source": "generated"
+                          "moveRationale": "g3 g6\n\n        \n                \n                3\n        \n        \n                King's Indian, Fianchetto without c4\n                d4Bg7\n                to 1. g3\n        \n        \n                English\n                c4Bg7\n                to 2.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
                         }
                       },
                       {
@@ -300,66 +276,7 @@
                                       {
                                         "move": "Bg4",
                                         "fen": "rn1qkb1r/pp2pppp/2p2n2/3p4/6b1/5NP1/PPPPPPBP/RNBQ1RK1 w kq - 2 5",
-                                        "children": [
-                                          {
-                                            "move": "d3",
-                                            "fen": "rn1qkb1r/pp2pppp/2p2n2/3p4/6b1/3P1NP1/PPP1PPBP/RNBQ1RK1 b kq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "Nbd7",
-                                                "fen": "r2qkb1r/pp1npppp/2p2n2/3p4/6b1/3P1NP1/PPP1PPBP/RNBQ1RK1 w kq - 1 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Nbd2",
-                                                    "fen": "r2qkb1r/pp1npppp/2p2n2/3p4/6b1/3P1NP1/PPPNPPBP/R1BQ1RK1 b kq - 2 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "e5",
-                                                        "fen": "r2qkb1r/pp1n1ppp/2p2n2/3pp3/6b1/3P1NP1/PPPNPPBP/R1BQ1RK1 w kq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "e5 advances a pawn, influencing the structure in the Zukertort Opening.",
-                                                          "strategicTheme": "Pawn structure",
-                                                          "source": "generated"
-                                                        }
-                                                      },
-                                                      {
-                                                        "move": "e6",
-                                                        "fen": "r2qkb1r/pp1n1ppp/2p1pn2/3p4/6b1/3P1NP1/PPPNPPBP/R1BQ1RK1 w kq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": false,
-                                                        "annotation": {
-                                                          "moveRationale": "e6 advances a pawn, influencing the structure in the Zukertort Opening.",
-                                                          "strategicTheme": "Prophylactic pawn move",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Nbd2 develops a piece to an active square in the Zukertort Opening.",
-                                                      "strategicTheme": "Knight activity",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "Nbd7 develops a piece to an active square in the Zukertort Opening.",
-                                                  "strategicTheme": "Knight activity",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Zukertort Opening.",
-                                              "strategicTheme": "Solid center support",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
+                                        "children": [],
                                         "isMainLine": false,
                                         "annotation": {
                                           "moveRationale": "Bg4 develops a piece to an active square in the Zukertort Opening.",
@@ -533,27 +450,15 @@
                         ],
                         "isMainLine": false,
                         "annotation": {
-                          "moveRationale": "d5 advances a pawn, influencing the structure in the Zukertort Opening.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "g3 d5\n\n        \n                \n                3\n        \n        \n                King's Indian Attack\n                Bg2c6\n                \n        \n\n*King's Indian Defence\n\n* Flank Openings (1990), Bruno Carlier, Trends Publications, No ISBN.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
                         }
                       },
                       {
                         "move": "b5",
                         "fen": "rnbqkb1r/p1pppppp/5n2/1p6/8/5NP1/PPPPPP1P/RNBQKB1R w KQkq - 0 3",
-                        "children": [
-                          {
-                            "move": "Bg2",
-                            "fen": "rnbqkb1r/p1pppppp/5n2/1p6/8/5NP1/PPPPPPBP/RNBQK2R b KQkq - 1 3",
-                            "children": [],
-                            "isMainLine": true,
-                            "annotation": {
-                              "moveRationale": "Bg2 develops a piece to an active square in the Zukertort Opening.",
-                              "strategicTheme": "Bishop development",
-                              "source": "generated"
-                            }
-                          }
-                        ],
+                        "children": [],
                         "isMainLine": false,
                         "annotation": {
                           "moveRationale": "b5 advances a pawn, influencing the structure in the Zukertort Opening.",
@@ -564,9 +469,9 @@
                     ],
                     "isMainLine": false,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Zukertort Opening.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "A sound, but very unambitious opening move where white almost certainly intends to fianchetto his bishop and enable castling. Black has the choice to continue to mirror white's move once more with g6 or begin a more aggressive attempt to control the center.",
+                      "strategicTheme": "Center control",
+                      "source": "wikibooks"
                     }
                   },
                   {
@@ -703,17 +608,17 @@
                     ],
                     "isMainLine": false,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Zukertort Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "c4 is a very common move in the Zukertort Opening, competing for the d5 square. It is also very flexible, allowing white to transpose into Queen's Pawn openings with a later d4 move or various lines in the English Opening (1.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": false,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Zukertort Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Nf6, keeping the position symmetrical, is the most flexible reply to 1. At Grandmaster level this is a very popular move and has been the preferred response of both Anand and Kasparov.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               },
               {
@@ -731,31 +636,7 @@
                           {
                             "move": "e4",
                             "fen": "rnbqkbnr/pp2pppp/8/2pp4/4P3/1P3N2/P1PP1PPP/RNBQKB1R b KQkq - 0 3",
-                            "children": [
-                              {
-                                "move": "dxe4",
-                                "fen": "rnbqkbnr/pp2pppp/8/2p5/4p3/1P3N2/P1PP1PPP/RNBQKB1R w KQkq - 0 4",
-                                "children": [
-                                  {
-                                    "move": "Ne5",
-                                    "fen": "rnbqkbnr/pp2pppp/8/2p1N3/4p3/1P6/P1PP1PPP/RNBQKB1R b KQkq - 1 4",
-                                    "children": [],
-                                    "isMainLine": true,
-                                    "annotation": {
-                                      "moveRationale": "Ne5 develops a piece to an active square in the Zukertort Opening.",
-                                      "strategicTheme": "Knight activity",
-                                      "source": "generated"
-                                    }
-                                  }
-                                ],
-                                "isMainLine": true,
-                                "annotation": {
-                                  "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Zukertort Opening.",
-                                  "strategicTheme": "Central tension",
-                                  "source": "generated"
-                                }
-                              }
-                            ],
+                            "children": [],
                             "isMainLine": false,
                             "annotation": {
                               "moveRationale": "e4 impacts the center, shaping the pawn structure in the Zukertort Opening.",
@@ -848,31 +729,7 @@
                                       {
                                         "move": "c6",
                                         "fen": "rnbqkb1r/pp2pp1p/2p2np1/3p4/2P5/1P3N2/PB1PPPPP/RN1QKB1R w KQkq - 0 5",
-                                        "children": [
-                                          {
-                                            "move": "e3",
-                                            "fen": "rnbqkb1r/pp2pp1p/2p2np1/3p4/2P5/1P2PN2/PB1P1PPP/RN1QKB1R b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "Bg7",
-                                                "fen": "rnbqk2r/pp2ppbp/2p2np1/3p4/2P5/1P2PN2/PB1P1PPP/RN1QKB1R w KQkq - 1 6",
-                                                "children": [],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "Bg7 develops a piece to an active square in the Zukertort Opening.",
-                                                  "strategicTheme": "Bishop development",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Zukertort Opening.",
-                                              "strategicTheme": "Solid center support",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
+                                        "children": [],
                                         "isMainLine": false,
                                         "annotation": {
                                           "moveRationale": "c6 advances a pawn, influencing the structure in the Zukertort Opening.",
@@ -934,19 +791,7 @@
                   {
                     "move": "d3",
                     "fen": "rnbqkbnr/ppp1pppp/8/3p4/8/3P1N2/PPP1PPPP/RNBQKB1R b KQkq - 0 2",
-                    "children": [
-                      {
-                        "move": "Nf6",
-                        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/8/3P1N2/PPP1PPPP/RNBQKB1R w KQkq - 1 3",
-                        "children": [],
-                        "isMainLine": true,
-                        "annotation": {
-                          "moveRationale": "Nf6 develops a piece to an active square in the Zukertort Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
-                        }
-                      }
-                    ],
+                    "children": [],
                     "isMainLine": false,
                     "annotation": {
                       "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Zukertort Opening.",
@@ -1147,19 +992,7 @@
                   {
                     "move": "Nc3",
                     "fen": "rnbqkbnr/ppp1pppp/8/3p4/8/2N2N2/PPPPPPPP/R1BQKB1R b KQkq - 1 2",
-                    "children": [
-                      {
-                        "move": "Nf6",
-                        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/8/2N2N2/PPPPPPPP/R1BQKB1R w KQkq - 2 3",
-                        "children": [],
-                        "isMainLine": true,
-                        "annotation": {
-                          "moveRationale": "Nf6 develops a piece to an active square in the Zukertort Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
-                        }
-                      }
-                    ],
+                    "children": [],
                     "isMainLine": false,
                     "annotation": {
                       "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Zukertort Opening.",
@@ -1247,17 +1080,17 @@
                                     ],
                                     "isMainLine": false,
                                     "annotation": {
-                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Zukertort Opening.",
-                                      "strategicTheme": "Central tension",
-                                      "source": "generated"
+                                      "moveRationale": "d4, White enters the reversed Grünfeld where play can be very sharp. The d-pawn immediately confronts Black's centre and forces a response.",
+                                      "strategicTheme": "Sharp tactical play",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": false,
                                 "annotation": {
-                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Zukertort Opening.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "The French variation, where Black wants to play …e5 and claim even more space. White's responses\n\n* /4.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
                                 }
                               },
                               {
@@ -1310,17 +1143,17 @@
                             ],
                             "isMainLine": false,
                             "annotation": {
-                              "moveRationale": "Bg2 develops a piece to an active square in the Zukertort Opening.",
-                              "strategicTheme": "Bishop development",
-                              "source": "generated"
+                              "moveRationale": "Obviously developing the kingside bishop, via Fianchetto where it controls the long diagonal. g3 c5\n\n        \n                \n                3\n                4\n                5\n                6\n        \n        \n                \n                Bg2Nc6\n                O-Oe6\n                d3Bd6\n                e4Nge7\n                =.",
+                              "strategicTheme": "Piece development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": false,
                         "annotation": {
-                          "moveRationale": "c5 challenges the center from the flank in the Zukertort Opening.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Black claims more central space and controls d4. g3 c5\n\n        \n                \n                3\n                4\n                5\n                6\n        \n        \n                \n                Bg2Nc6\n                O-Oe6\n                d3Bd6\n                e4Nge7\n                =\n        \n        \n                \n                c4Nf6\n                cxd5Nxd5\n                Nc3Nc6\n                Bg2e6\n                =.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       },
                       {
@@ -1460,19 +1293,7 @@
                                       {
                                         "move": "Nd7",
                                         "fen": "r2qkbnr/pp1npppp/2p5/3p4/6b1/5NP1/PPPPPPBP/RNBQ1RK1 w kq - 4 5",
-                                        "children": [
-                                          {
-                                            "move": "d3",
-                                            "fen": "r2qkbnr/pp1npppp/2p5/3p4/6b1/3P1NP1/PPP1PPBP/RNBQ1RK1 b kq - 0 5",
-                                            "children": [],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Zukertort Opening.",
-                                              "strategicTheme": "Solid center support",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
+                                        "children": [],
                                         "isMainLine": false,
                                         "annotation": {
                                           "moveRationale": "Nd7 develops a piece to an active square in the Zukertort Opening.",
@@ -1507,9 +1328,9 @@
                         ],
                         "isMainLine": false,
                         "annotation": {
-                          "moveRationale": "c6 advances a pawn, influencing the structure in the Zukertort Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "g3 c6\n\n        \n                \n                3\n                4\n        \n        \n                King's Indian Attack\n                Bg2Nf6\n                \n        \n        \n                \n                c4Nf6\n                to 2.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
                         }
                       },
                       {
@@ -1660,17 +1481,17 @@
                         ],
                         "isMainLine": false,
                         "annotation": {
-                          "moveRationale": "Nf6 develops a piece to an active square in the Zukertort Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "#REDIRECT Chess Opening Theory/1.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": false,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Zukertort Opening.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nWhite is most likely aiming to establish a King's Indian Attack. The idea is very similar to that of the King's Indian Defence as played by Black.",
+                      "strategicTheme": "Attacking play",
+                      "source": "wikibooks"
                     }
                   },
                   {
@@ -1892,19 +1713,7 @@
                                                   {
                                                     "move": "Bb2",
                                                     "fen": "rnbqk2r/pp2bppp/2p1pn2/3p4/2P5/1P3NP1/PB1PPPBP/RN1QK2R b KQkq - 2 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "O-O",
-                                                        "fen": "rnbq1rk1/pp2bppp/2p1pn2/3p4/2P5/1P3NP1/PB1PPPBP/RN1QK2R w KQ - 3 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Zukertort Opening.",
-                                                          "strategicTheme": "King safety",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
+                                                    "children": [],
                                                     "isMainLine": false,
                                                     "annotation": {
                                                       "moveRationale": "Bb2 develops a piece to an active square in the Zukertort Opening.",
@@ -2082,17 +1891,17 @@
                         ],
                         "isMainLine": false,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Zukertort Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "#REDIRECT Chess Opening Theory/1.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": false,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Zukertort Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nThis opening is a hypermodern opening, which invites white's minor pieces to control the centre rather than their pawns. Here black has 4 options:\n\nThis can be done with moves such as 2.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   },
                   {
@@ -2315,9 +2124,9 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Zukertort Opening.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "#redirect Chess Opening Theory/1.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -2504,9 +2313,9 @@
                     ],
                     "isMainLine": false,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Zukertort Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "#REDIRECT Chess Opening Theory/1.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   },
                   {
@@ -2547,9 +2356,9 @@
                 ],
                 "isMainLine": false,
                 "annotation": {
-                  "moveRationale": "c5 challenges the center from the flank in the Zukertort Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black invites White to transpose into the Sicilian Defence with /2. e4/\nWhite has a number of other choices here.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               },
               {
@@ -2654,9 +2463,9 @@
                 ],
                 "isMainLine": false,
                 "annotation": {
-                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Zukertort Opening.",
-                  "strategicTheme": "Fianchetto preparation",
-                  "source": "generated"
+                  "moveRationale": "Nf3 g6\n\n\t\n\t\t\n\t\t2\n\t\t3\n\t\n\t\n\t\tKing's Indian\n\t\td4Nf6\n\t\tto 1. Nf3\n\t\n\t\n\t\tEnglish\n\t\tc4Nf6\n\t\tto 1.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               },
               {
@@ -2828,105 +2637,12 @@
                   {
                     "move": "e4",
                     "fen": "rnbqkbnr/ppppp1pp/8/5p2/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 2",
-                    "children": [
-                      {
-                        "move": "fxe4",
-                        "fen": "rnbqkbnr/ppppp1pp/8/8/4p3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
-                        "children": [
-                          {
-                            "move": "Ng5",
-                            "fen": "rnbqkbnr/ppppp1pp/8/6N1/4p3/8/PPPP1PPP/RNBQKB1R b KQkq - 1 3",
-                            "children": [
-                              {
-                                "move": "Nf6",
-                                "fen": "rnbqkb1r/ppppp1pp/5n2/6N1/4p3/8/PPPP1PPP/RNBQKB1R w KQkq - 2 4",
-                                "children": [
-                                  {
-                                    "move": "d3",
-                                    "fen": "rnbqkb1r/ppppp1pp/5n2/6N1/4p3/3P4/PPP2PPP/RNBQKB1R b KQkq - 0 4",
-                                    "children": [
-                                      {
-                                        "move": "e5",
-                                        "fen": "rnbqkb1r/pppp2pp/5n2/4p1N1/4p3/3P4/PPP2PPP/RNBQKB1R w KQkq - 0 5",
-                                        "children": [],
-                                        "isMainLine": true,
-                                        "annotation": {
-                                          "moveRationale": "e5 advances a pawn, influencing the structure in the Zukertort Opening.",
-                                          "strategicTheme": "Pawn structure",
-                                          "source": "generated"
-                                        }
-                                      },
-                                      {
-                                        "move": "e3",
-                                        "fen": "rnbqkb1r/ppppp1pp/5n2/6N1/8/3Pp3/PPP2PPP/RNBQKB1R w KQkq - 0 5",
-                                        "children": [],
-                                        "isMainLine": false,
-                                        "annotation": {
-                                          "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Zukertort Opening.",
-                                          "strategicTheme": "Solid center support",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
-                                    "isMainLine": true,
-                                    "annotation": {
-                                      "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Zukertort Opening.",
-                                      "strategicTheme": "Solid center support",
-                                      "source": "generated"
-                                    }
-                                  }
-                                ],
-                                "isMainLine": true,
-                                "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Zukertort Opening.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
-                                }
-                              },
-                              {
-                                "move": "d5",
-                                "fen": "rnbqkbnr/ppp1p1pp/8/3p2N1/4p3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 4",
-                                "children": [],
-                                "isMainLine": false,
-                                "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Zukertort Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
-                                }
-                              },
-                              {
-                                "move": "e5",
-                                "fen": "rnbqkbnr/pppp2pp/8/4p1N1/4p3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 4",
-                                "children": [],
-                                "isMainLine": false,
-                                "annotation": {
-                                  "moveRationale": "e5 advances a pawn, influencing the structure in the Zukertort Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
-                                }
-                              }
-                            ],
-                            "isMainLine": true,
-                            "annotation": {
-                              "moveRationale": "Ng5 develops a piece to an active square in the Zukertort Opening.",
-                              "strategicTheme": "Knight activity",
-                              "source": "generated"
-                            }
-                          }
-                        ],
-                        "isMainLine": true,
-                        "annotation": {
-                          "moveRationale": "fxe4 exchanges material, altering the pawn structure in the Zukertort Opening.",
-                          "strategicTheme": "Material exchange",
-                          "source": "generated"
-                        }
-                      }
-                    ],
+                    "children": [],
                     "isMainLine": false,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Zukertort Opening.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "e4 is a very counter-intuitive move, as after the pawn is captured White does not get to make a developing move but must move an already developed piece again. However, practice has shown that the knight landing on g5 is hard to chase away and creates certain tactical threats (more than simply Nxe4.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   },
                   {
@@ -2967,9 +2683,9 @@
                 ],
                 "isMainLine": false,
                 "annotation": {
-                  "moveRationale": "f5 advances a pawn, influencing the structure in the Zukertort Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black's opening move aims to transpose into a Dutch Defence. d4 gives a main-line Dutch, while 2.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               },
               {
@@ -3200,9 +2916,9 @@
                 ],
                 "isMainLine": false,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Zukertort Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "by black, also known as the Ross Gambit, is a dubious pawn sacrifice for black to try and kick the knight as much as possible and potentially even trap it if white's not careful. This gambit can be accepted by playing the move 2.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               },
               {
@@ -3241,9 +2957,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3324,9 +3040,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3407,9 +3123,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3442,9 +3158,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3477,9 +3193,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3536,9 +3252,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3564,105 +3280,12 @@
                   {
                     "move": "e4",
                     "fen": "rnbqkbnr/ppppp1pp/8/5p2/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 2",
-                    "children": [
-                      {
-                        "move": "fxe4",
-                        "fen": "rnbqkbnr/ppppp1pp/8/8/4p3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
-                        "children": [
-                          {
-                            "move": "Ng5",
-                            "fen": "rnbqkbnr/ppppp1pp/8/6N1/4p3/8/PPPP1PPP/RNBQKB1R b KQkq - 1 3",
-                            "children": [
-                              {
-                                "move": "Nf6",
-                                "fen": "rnbqkb1r/ppppp1pp/5n2/6N1/4p3/8/PPPP1PPP/RNBQKB1R w KQkq - 2 4",
-                                "children": [
-                                  {
-                                    "move": "d3",
-                                    "fen": "rnbqkb1r/ppppp1pp/5n2/6N1/4p3/3P4/PPP2PPP/RNBQKB1R b KQkq - 0 4",
-                                    "children": [
-                                      {
-                                        "move": "e5",
-                                        "fen": "rnbqkb1r/pppp2pp/5n2/4p1N1/4p3/3P4/PPP2PPP/RNBQKB1R w KQkq - 0 5",
-                                        "children": [],
-                                        "isMainLine": true,
-                                        "annotation": {
-                                          "moveRationale": "e5 advances a pawn, influencing the structure in the Zukertort Opening.",
-                                          "strategicTheme": "Pawn structure",
-                                          "source": "generated"
-                                        }
-                                      },
-                                      {
-                                        "move": "e3",
-                                        "fen": "rnbqkb1r/ppppp1pp/5n2/6N1/8/3Pp3/PPP2PPP/RNBQKB1R w KQkq - 0 5",
-                                        "children": [],
-                                        "isMainLine": false,
-                                        "annotation": {
-                                          "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Zukertort Opening.",
-                                          "strategicTheme": "Solid center support",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
-                                    "isMainLine": true,
-                                    "annotation": {
-                                      "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Zukertort Opening.",
-                                      "strategicTheme": "Solid center support",
-                                      "source": "generated"
-                                    }
-                                  }
-                                ],
-                                "isMainLine": true,
-                                "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Zukertort Opening.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
-                                }
-                              },
-                              {
-                                "move": "d5",
-                                "fen": "rnbqkbnr/ppp1p1pp/8/3p2N1/4p3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 4",
-                                "children": [],
-                                "isMainLine": false,
-                                "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Zukertort Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
-                                }
-                              },
-                              {
-                                "move": "e5",
-                                "fen": "rnbqkbnr/pppp2pp/8/4p1N1/4p3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 4",
-                                "children": [],
-                                "isMainLine": false,
-                                "annotation": {
-                                  "moveRationale": "e5 advances a pawn, influencing the structure in the Zukertort Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
-                                }
-                              }
-                            ],
-                            "isMainLine": true,
-                            "annotation": {
-                              "moveRationale": "Ng5 develops a piece to an active square in the Zukertort Opening.",
-                              "strategicTheme": "Knight activity",
-                              "source": "generated"
-                            }
-                          }
-                        ],
-                        "isMainLine": true,
-                        "annotation": {
-                          "moveRationale": "fxe4 exchanges material, altering the pawn structure in the Zukertort Opening.",
-                          "strategicTheme": "Material exchange",
-                          "source": "generated"
-                        }
-                      }
-                    ],
-                    "isMainLine": true,
+                    "children": [],
+                    "isMainLine": false,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Zukertort Opening.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "e4 is a very counter-intuitive move, as after the pawn is captured White does not get to make a developing move but must move an already developed piece again. However, practice has shown that the knight landing on g5 is hard to chase away and creates certain tactical threats (more than simply Nxe4.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   },
                   {
@@ -3677,7 +3300,7 @@
                             "move": "e4",
                             "fen": "rnbqkb1r/ppppp1pp/5n2/5p2/4P3/3P1N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
                             "children": [],
-                            "isMainLine": false,
+                            "isMainLine": true,
                             "annotation": {
                               "moveRationale": "e4 impacts the center, shaping the pawn structure in the Zukertort Opening.",
                               "strategicTheme": "Central tension",
@@ -3685,7 +3308,7 @@
                             }
                           }
                         ],
-                        "isMainLine": false,
+                        "isMainLine": true,
                         "annotation": {
                           "moveRationale": "Nf6 develops a piece to an active square in the Zukertort Opening.",
                           "strategicTheme": "Natural piece development",
@@ -3693,7 +3316,7 @@
                         }
                       }
                     ],
-                    "isMainLine": false,
+                    "isMainLine": true,
                     "annotation": {
                       "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Zukertort Opening.",
                       "strategicTheme": "Solid center support",
@@ -3703,17 +3326,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "f5 advances a pawn, influencing the structure in the Zukertort Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black's opening move aims to transpose into a Dutch Defence. d4 gives a main-line Dutch, while 2.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3746,9 +3369,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3869,17 +3492,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Zukertort Opening.",
-                  "strategicTheme": "Fianchetto preparation",
-                  "source": "generated"
+                  "moveRationale": "Nf3 g6\n\n\t\n\t\t\n\t\t2\n\t\t3\n\t\n\t\n\t\tKing's Indian\n\t\td4Nf6\n\t\tto 1. Nf3\n\t\n\t\n\t\tEnglish\n\t\tc4Nf6\n\t\tto 1.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3905,121 +3528,28 @@
                   {
                     "move": "e4",
                     "fen": "rnbqkbnr/ppppp1pp/8/5p2/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 2",
-                    "children": [
-                      {
-                        "move": "fxe4",
-                        "fen": "rnbqkbnr/ppppp1pp/8/8/4p3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
-                        "children": [
-                          {
-                            "move": "Ng5",
-                            "fen": "rnbqkbnr/ppppp1pp/8/6N1/4p3/8/PPPP1PPP/RNBQKB1R b KQkq - 1 3",
-                            "children": [
-                              {
-                                "move": "Nf6",
-                                "fen": "rnbqkb1r/ppppp1pp/5n2/6N1/4p3/8/PPPP1PPP/RNBQKB1R w KQkq - 2 4",
-                                "children": [
-                                  {
-                                    "move": "d3",
-                                    "fen": "rnbqkb1r/ppppp1pp/5n2/6N1/4p3/3P4/PPP2PPP/RNBQKB1R b KQkq - 0 4",
-                                    "children": [
-                                      {
-                                        "move": "e5",
-                                        "fen": "rnbqkb1r/pppp2pp/5n2/4p1N1/4p3/3P4/PPP2PPP/RNBQKB1R w KQkq - 0 5",
-                                        "children": [],
-                                        "isMainLine": true,
-                                        "annotation": {
-                                          "moveRationale": "e5 advances a pawn, influencing the structure in the Zukertort Opening.",
-                                          "strategicTheme": "Pawn structure",
-                                          "source": "generated"
-                                        }
-                                      },
-                                      {
-                                        "move": "e3",
-                                        "fen": "rnbqkb1r/ppppp1pp/5n2/6N1/8/3Pp3/PPP2PPP/RNBQKB1R w KQkq - 0 5",
-                                        "children": [],
-                                        "isMainLine": false,
-                                        "annotation": {
-                                          "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Zukertort Opening.",
-                                          "strategicTheme": "Solid center support",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
-                                    "isMainLine": true,
-                                    "annotation": {
-                                      "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Zukertort Opening.",
-                                      "strategicTheme": "Solid center support",
-                                      "source": "generated"
-                                    }
-                                  }
-                                ],
-                                "isMainLine": true,
-                                "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Zukertort Opening.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
-                                }
-                              },
-                              {
-                                "move": "d5",
-                                "fen": "rnbqkbnr/ppp1p1pp/8/3p2N1/4p3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 4",
-                                "children": [],
-                                "isMainLine": false,
-                                "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Zukertort Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
-                                }
-                              },
-                              {
-                                "move": "e5",
-                                "fen": "rnbqkbnr/pppp2pp/8/4p1N1/4p3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 4",
-                                "children": [],
-                                "isMainLine": false,
-                                "annotation": {
-                                  "moveRationale": "e5 advances a pawn, influencing the structure in the Zukertort Opening.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
-                                }
-                              }
-                            ],
-                            "isMainLine": true,
-                            "annotation": {
-                              "moveRationale": "Ng5 develops a piece to an active square in the Zukertort Opening.",
-                              "strategicTheme": "Knight activity",
-                              "source": "generated"
-                            }
-                          }
-                        ],
-                        "isMainLine": true,
-                        "annotation": {
-                          "moveRationale": "fxe4 exchanges material, altering the pawn structure in the Zukertort Opening.",
-                          "strategicTheme": "Material exchange",
-                          "source": "generated"
-                        }
-                      }
-                    ],
+                    "children": [],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Zukertort Opening.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "e4 is a very counter-intuitive move, as after the pawn is captured White does not get to make a developing move but must move an already developed piece again. However, practice has shown that the knight landing on g5 is hard to chase away and creates certain tactical threats (more than simply Nxe4.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "f5 advances a pawn, influencing the structure in the Zukertort Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black's opening move aims to transpose into a Dutch Defence. d4 gives a main-line Dutch, while 2.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -4080,17 +3610,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "f5 advances a pawn, influencing the structure in the Zukertort Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black's opening move aims to transpose into a Dutch Defence. d4 gives a main-line Dutch, while 2.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -4170,9 +3700,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -4205,9 +3735,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -4312,9 +3842,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -4347,9 +3877,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -4422,17 +3952,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Zukertort Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "by black, also known as the Ross Gambit, is a dubious pawn sacrifice for black to try and kick the knight as much as possible and potentially even trap it if white's not careful. This gambit can be accepted by playing the move 2.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -4537,9 +4067,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -4734,9 +4264,9 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Zukertort Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "#REDIRECT Chess Opening Theory/1.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   },
                   {
@@ -4777,17 +4307,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "c5 challenges the center from the flank in the Zukertort Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black invites White to transpose into the Sicilian Defence with /2. e4/\nWhite has a number of other choices here.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -4820,9 +4350,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -4883,17 +4413,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "c5 challenges the center from the flank in the Zukertort Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black invites White to transpose into the Sicilian Defence with /2. e4/\nWhite has a number of other choices here.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -4926,9 +4456,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -5001,17 +4531,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Zukertort Opening.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "by black, also known as the Ross Gambit, is a dubious pawn sacrifice for black to try and kick the knight as much as possible and potentially even trap it if white's not careful. This gambit can be accepted by playing the move 2.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -5068,9 +4598,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -5127,9 +4657,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -5162,9 +4692,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -5339,31 +4869,7 @@
                           {
                             "move": "b4",
                             "fen": "rnbqkb1r/pppppp1p/5np1/8/1P6/5NP1/P1PPPP1P/RNBQKB1R b KQkq - 0 3",
-                            "children": [
-                              {
-                                "move": "Bg7",
-                                "fen": "rnbqk2r/ppppppbp/5np1/8/1P6/5NP1/P1PPPP1P/RNBQKB1R w KQkq - 1 4",
-                                "children": [
-                                  {
-                                    "move": "Bb2",
-                                    "fen": "rnbqk2r/ppppppbp/5np1/8/1P6/5NP1/PBPPPP1P/RN1QKB1R b KQkq - 2 4",
-                                    "children": [],
-                                    "isMainLine": true,
-                                    "annotation": {
-                                      "moveRationale": "Bb2 develops a piece to an active square in the Zukertort Opening.",
-                                      "strategicTheme": "Bishop development",
-                                      "source": "generated"
-                                    }
-                                  }
-                                ],
-                                "isMainLine": true,
-                                "annotation": {
-                                  "moveRationale": "Bg7 develops a piece to an active square in the Zukertort Opening.",
-                                  "strategicTheme": "Bishop development",
-                                  "source": "generated"
-                                }
-                              }
-                            ],
+                            "children": [],
                             "isMainLine": false,
                             "annotation": {
                               "moveRationale": "b4 advances a pawn, influencing the structure in the Zukertort Opening.",
@@ -5445,9 +4951,9 @@
                         ],
                         "isMainLine": false,
                         "annotation": {
-                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Zukertort Opening.",
-                          "strategicTheme": "Fianchetto preparation",
-                          "source": "generated"
+                          "moveRationale": "g3 g6\n\n        \n                \n                3\n        \n        \n                King's Indian, Fianchetto without c4\n                d4Bg7\n                to 1. g3\n        \n        \n                English\n                c4Bg7\n                to 2.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
                         }
                       },
                       {
@@ -5469,66 +4975,7 @@
                                       {
                                         "move": "Bg4",
                                         "fen": "rn1qkb1r/pp2pppp/2p2n2/3p4/6b1/5NP1/PPPPPPBP/RNBQ1RK1 w kq - 2 5",
-                                        "children": [
-                                          {
-                                            "move": "d3",
-                                            "fen": "rn1qkb1r/pp2pppp/2p2n2/3p4/6b1/3P1NP1/PPP1PPBP/RNBQ1RK1 b kq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "Nbd7",
-                                                "fen": "r2qkb1r/pp1npppp/2p2n2/3p4/6b1/3P1NP1/PPP1PPBP/RNBQ1RK1 w kq - 1 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Nbd2",
-                                                    "fen": "r2qkb1r/pp1npppp/2p2n2/3p4/6b1/3P1NP1/PPPNPPBP/R1BQ1RK1 b kq - 2 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "e5",
-                                                        "fen": "r2qkb1r/pp1n1ppp/2p2n2/3pp3/6b1/3P1NP1/PPPNPPBP/R1BQ1RK1 w kq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "e5 advances a pawn, influencing the structure in the Zukertort Opening.",
-                                                          "strategicTheme": "Pawn structure",
-                                                          "source": "generated"
-                                                        }
-                                                      },
-                                                      {
-                                                        "move": "e6",
-                                                        "fen": "r2qkb1r/pp1n1ppp/2p1pn2/3p4/6b1/3P1NP1/PPPNPPBP/R1BQ1RK1 w kq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": false,
-                                                        "annotation": {
-                                                          "moveRationale": "e6 advances a pawn, influencing the structure in the Zukertort Opening.",
-                                                          "strategicTheme": "Prophylactic pawn move",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Nbd2 develops a piece to an active square in the Zukertort Opening.",
-                                                      "strategicTheme": "Knight activity",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "Nbd7 develops a piece to an active square in the Zukertort Opening.",
-                                                  "strategicTheme": "Knight activity",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Zukertort Opening.",
-                                              "strategicTheme": "Solid center support",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
+                                        "children": [],
                                         "isMainLine": false,
                                         "annotation": {
                                           "moveRationale": "Bg4 develops a piece to an active square in the Zukertort Opening.",
@@ -5702,27 +5149,15 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "d5 advances a pawn, influencing the structure in the Zukertort Opening.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "g3 d5\n\n        \n                \n                3\n        \n        \n                King's Indian Attack\n                Bg2c6\n                \n        \n\n*King's Indian Defence\n\n* Flank Openings (1990), Bruno Carlier, Trends Publications, No ISBN.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
                         }
                       },
                       {
                         "move": "b5",
                         "fen": "rnbqkb1r/p1pppppp/5n2/1p6/8/5NP1/PPPPPP1P/RNBQKB1R w KQkq - 0 3",
-                        "children": [
-                          {
-                            "move": "Bg2",
-                            "fen": "rnbqkb1r/p1pppppp/5n2/1p6/8/5NP1/PPPPPPBP/RNBQK2R b KQkq - 1 3",
-                            "children": [],
-                            "isMainLine": true,
-                            "annotation": {
-                              "moveRationale": "Bg2 develops a piece to an active square in the Zukertort Opening.",
-                              "strategicTheme": "Bishop development",
-                              "source": "generated"
-                            }
-                          }
-                        ],
+                        "children": [],
                         "isMainLine": false,
                         "annotation": {
                           "moveRationale": "b5 advances a pawn, influencing the structure in the Zukertort Opening.",
@@ -5733,9 +5168,9 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Zukertort Opening.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "A sound, but very unambitious opening move where white almost certainly intends to fianchetto his bishop and enable castling. Black has the choice to continue to mirror white's move once more with g6 or begin a more aggressive attempt to control the center.",
+                      "strategicTheme": "Center control",
+                      "source": "wikibooks"
                     }
                   },
                   {
@@ -5872,25 +5307,25 @@
                     ],
                     "isMainLine": false,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Zukertort Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "c4 is a very common move in the Zukertort Opening, competing for the d5 square. It is also very flexible, allowing white to transpose into Queen's Pawn openings with a later d4 move or various lines in the English Opening (1.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Zukertort Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Nf6, keeping the position symmetrical, is the most flexible reply to 1. At Grandmaster level this is a very popular move and has been the preferred response of both Anand and Kasparov.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -5939,17 +5374,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Zukertort Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Nf6, keeping the position symmetrical, is the most flexible reply to 1. At Grandmaster level this is a very popular move and has been the preferred response of both Anand and Kasparov.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -6066,33 +5501,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Zukertort Opening.",
-                          "strategicTheme": "Fianchetto preparation",
-                          "source": "generated"
+                          "moveRationale": "g3 g6\n\n        \n                \n                3\n        \n        \n                King's Indian, Fianchetto without c4\n                d4Bg7\n                to 1. g3\n        \n        \n                English\n                c4Bg7\n                to 2.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Zukertort Opening.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "A sound, but very unambitious opening move where white almost certainly intends to fianchetto his bishop and enable castling. Black has the choice to continue to mirror white's move once more with g6 or begin a more aggressive attempt to control the center.",
+                      "strategicTheme": "Center control",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Zukertort Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Nf6, keeping the position symmetrical, is the most flexible reply to 1. At Grandmaster level this is a very popular move and has been the preferred response of both Anand and Kasparov.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -6129,17 +5564,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Zukertort Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Nf6, keeping the position symmetrical, is the most flexible reply to 1. At Grandmaster level this is a very popular move and has been the preferred response of both Anand and Kasparov.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -6200,17 +5635,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Zukertort Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Nf6, keeping the position symmetrical, is the most flexible reply to 1. At Grandmaster level this is a very popular move and has been the preferred response of both Anand and Kasparov.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -6247,17 +5682,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Zukertort Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Nf6, keeping the position symmetrical, is the most flexible reply to 1. At Grandmaster level this is a very popular move and has been the preferred response of both Anand and Kasparov.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -6294,17 +5729,17 @@
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Zukertort Opening.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Nf6, keeping the position symmetrical, is the most flexible reply to 1. At Grandmaster level this is a very popular move and has been the preferred response of both Anand and Kasparov.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -6338,31 +5773,7 @@
                           {
                             "move": "e4",
                             "fen": "rnbqkbnr/pp2pppp/8/2pp4/4P3/1P3N2/P1PP1PPP/RNBQKB1R b KQkq - 0 3",
-                            "children": [
-                              {
-                                "move": "dxe4",
-                                "fen": "rnbqkbnr/pp2pppp/8/2p5/4p3/1P3N2/P1PP1PPP/RNBQKB1R w KQkq - 0 4",
-                                "children": [
-                                  {
-                                    "move": "Ne5",
-                                    "fen": "rnbqkbnr/pp2pppp/8/2p1N3/4p3/1P6/P1PP1PPP/RNBQKB1R b KQkq - 1 4",
-                                    "children": [],
-                                    "isMainLine": true,
-                                    "annotation": {
-                                      "moveRationale": "Ne5 develops a piece to an active square in the Zukertort Opening.",
-                                      "strategicTheme": "Knight activity",
-                                      "source": "generated"
-                                    }
-                                  }
-                                ],
-                                "isMainLine": true,
-                                "annotation": {
-                                  "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Zukertort Opening.",
-                                  "strategicTheme": "Central tension",
-                                  "source": "generated"
-                                }
-                              }
-                            ],
+                            "children": [],
                             "isMainLine": false,
                             "annotation": {
                               "moveRationale": "e4 impacts the center, shaping the pawn structure in the Zukertort Opening.",
@@ -6455,31 +5866,7 @@
                                       {
                                         "move": "c6",
                                         "fen": "rnbqkb1r/pp2pp1p/2p2np1/3p4/2P5/1P3N2/PB1PPPPP/RN1QKB1R w KQkq - 0 5",
-                                        "children": [
-                                          {
-                                            "move": "e3",
-                                            "fen": "rnbqkb1r/pp2pp1p/2p2np1/3p4/2P5/1P2PN2/PB1P1PPP/RN1QKB1R b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "Bg7",
-                                                "fen": "rnbqk2r/pp2ppbp/2p2np1/3p4/2P5/1P2PN2/PB1P1PPP/RN1QKB1R w KQkq - 1 6",
-                                                "children": [],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "Bg7 develops a piece to an active square in the Zukertort Opening.",
-                                                  "strategicTheme": "Bishop development",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Zukertort Opening.",
-                                              "strategicTheme": "Solid center support",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
+                                        "children": [],
                                         "isMainLine": false,
                                         "annotation": {
                                           "moveRationale": "c6 advances a pawn, influencing the structure in the Zukertort Opening.",
@@ -6541,19 +5928,7 @@
                   {
                     "move": "d3",
                     "fen": "rnbqkbnr/ppp1pppp/8/3p4/8/3P1N2/PPP1PPPP/RNBQKB1R b KQkq - 0 2",
-                    "children": [
-                      {
-                        "move": "Nf6",
-                        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/8/3P1N2/PPP1PPPP/RNBQKB1R w KQkq - 1 3",
-                        "children": [],
-                        "isMainLine": true,
-                        "annotation": {
-                          "moveRationale": "Nf6 develops a piece to an active square in the Zukertort Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
-                        }
-                      }
-                    ],
+                    "children": [],
                     "isMainLine": false,
                     "annotation": {
                       "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Zukertort Opening.",
@@ -6754,19 +6129,7 @@
                   {
                     "move": "Nc3",
                     "fen": "rnbqkbnr/ppp1pppp/8/3p4/8/2N2N2/PPPPPPPP/R1BQKB1R b KQkq - 1 2",
-                    "children": [
-                      {
-                        "move": "Nf6",
-                        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/8/2N2N2/PPPPPPPP/R1BQKB1R w KQkq - 2 3",
-                        "children": [],
-                        "isMainLine": true,
-                        "annotation": {
-                          "moveRationale": "Nf6 develops a piece to an active square in the Zukertort Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
-                        }
-                      }
-                    ],
+                    "children": [],
                     "isMainLine": false,
                     "annotation": {
                       "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Zukertort Opening.",
@@ -6854,17 +6217,17 @@
                                     ],
                                     "isMainLine": false,
                                     "annotation": {
-                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Zukertort Opening.",
-                                      "strategicTheme": "Central tension",
-                                      "source": "generated"
+                                      "moveRationale": "d4, White enters the reversed Grünfeld where play can be very sharp. The d-pawn immediately confronts Black's centre and forces a response.",
+                                      "strategicTheme": "Sharp tactical play",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": false,
                                 "annotation": {
-                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Zukertort Opening.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "The French variation, where Black wants to play …e5 and claim even more space. White's responses\n\n* /4.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
                                 }
                               },
                               {
@@ -6917,17 +6280,17 @@
                             ],
                             "isMainLine": false,
                             "annotation": {
-                              "moveRationale": "Bg2 develops a piece to an active square in the Zukertort Opening.",
-                              "strategicTheme": "Bishop development",
-                              "source": "generated"
+                              "moveRationale": "Obviously developing the kingside bishop, via Fianchetto where it controls the long diagonal. g3 c5\n\n        \n                \n                3\n                4\n                5\n                6\n        \n        \n                \n                Bg2Nc6\n                O-Oe6\n                d3Bd6\n                e4Nge7\n                =.",
+                              "strategicTheme": "Piece development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": false,
                         "annotation": {
-                          "moveRationale": "c5 challenges the center from the flank in the Zukertort Opening.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Black claims more central space and controls d4. g3 c5\n\n        \n                \n                3\n                4\n                5\n                6\n        \n        \n                \n                Bg2Nc6\n                O-Oe6\n                d3Bd6\n                e4Nge7\n                =\n        \n        \n                \n                c4Nf6\n                cxd5Nxd5\n                Nc3Nc6\n                Bg2e6\n                =.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       },
                       {
@@ -7067,19 +6430,7 @@
                                       {
                                         "move": "Nd7",
                                         "fen": "r2qkbnr/pp1npppp/2p5/3p4/6b1/5NP1/PPPPPPBP/RNBQ1RK1 w kq - 4 5",
-                                        "children": [
-                                          {
-                                            "move": "d3",
-                                            "fen": "r2qkbnr/pp1npppp/2p5/3p4/6b1/3P1NP1/PPP1PPBP/RNBQ1RK1 b kq - 0 5",
-                                            "children": [],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Zukertort Opening.",
-                                              "strategicTheme": "Solid center support",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
+                                        "children": [],
                                         "isMainLine": false,
                                         "annotation": {
                                           "moveRationale": "Nd7 develops a piece to an active square in the Zukertort Opening.",
@@ -7114,9 +6465,9 @@
                         ],
                         "isMainLine": false,
                         "annotation": {
-                          "moveRationale": "c6 advances a pawn, influencing the structure in the Zukertort Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "g3 c6\n\n        \n                \n                3\n                4\n        \n        \n                King's Indian Attack\n                Bg2Nf6\n                \n        \n        \n                \n                c4Nf6\n                to 2.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
                         }
                       },
                       {
@@ -7267,17 +6618,17 @@
                         ],
                         "isMainLine": false,
                         "annotation": {
-                          "moveRationale": "Nf6 develops a piece to an active square in the Zukertort Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "#REDIRECT Chess Opening Theory/1.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": false,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Zukertort Opening.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nWhite is most likely aiming to establish a King's Indian Attack. The idea is very similar to that of the King's Indian Defence as played by Black.",
+                      "strategicTheme": "Attacking play",
+                      "source": "wikibooks"
                     }
                   },
                   {
@@ -7499,19 +6850,7 @@
                                                   {
                                                     "move": "Bb2",
                                                     "fen": "rnbqk2r/pp2bppp/2p1pn2/3p4/2P5/1P3NP1/PB1PPPBP/RN1QK2R b KQkq - 2 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "O-O",
-                                                        "fen": "rnbq1rk1/pp2bppp/2p1pn2/3p4/2P5/1P3NP1/PB1PPPBP/RN1QK2R w KQ - 3 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Zukertort Opening.",
-                                                          "strategicTheme": "King safety",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
+                                                    "children": [],
                                                     "isMainLine": false,
                                                     "annotation": {
                                                       "moveRationale": "Bb2 develops a piece to an active square in the Zukertort Opening.",
@@ -7689,17 +7028,17 @@
                         ],
                         "isMainLine": false,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Zukertort Opening.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "#REDIRECT Chess Opening Theory/1.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": false,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Zukertort Opening.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nThis opening is a hypermodern opening, which invites white's minor pieces to control the centre rather than their pawns. Here black has 4 options:\n\nThis can be done with moves such as 2.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   },
                   {
@@ -7922,9 +7261,9 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Zukertort Opening.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "#redirect Chess Opening Theory/1.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -7938,9 +7277,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -7985,9 +7324,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -8013,19 +7352,7 @@
                   {
                     "move": "d3",
                     "fen": "rnbqkbnr/ppp1pppp/8/3p4/8/3P1N2/PPP1PPPP/RNBQKB1R b KQkq - 0 2",
-                    "children": [
-                      {
-                        "move": "Nf6",
-                        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/8/3P1N2/PPP1PPPP/RNBQKB1R w KQkq - 1 3",
-                        "children": [],
-                        "isMainLine": true,
-                        "annotation": {
-                          "moveRationale": "Nf6 develops a piece to an active square in the Zukertort Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
-                        }
-                      }
-                    ],
+                    "children": [],
                     "isMainLine": true,
                     "annotation": {
                       "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the Zukertort Opening.",
@@ -8044,9 +7371,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -8139,9 +7466,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -8234,9 +7561,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -8262,19 +7589,7 @@
                   {
                     "move": "Nc3",
                     "fen": "rnbqkbnr/ppp1pppp/8/3p4/8/2N2N2/PPPPPPPP/R1BQKB1R b KQkq - 1 2",
-                    "children": [
-                      {
-                        "move": "Nf6",
-                        "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/8/2N2N2/PPPPPPPP/R1BQKB1R w KQkq - 2 3",
-                        "children": [],
-                        "isMainLine": true,
-                        "annotation": {
-                          "moveRationale": "Nf6 develops a piece to an active square in the Zukertort Opening.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
-                        }
-                      }
-                    ],
+                    "children": [],
                     "isMainLine": true,
                     "annotation": {
                       "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Zukertort Opening.",
@@ -8293,9 +7608,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -8340,9 +7655,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "b4 advances a pawn, influencing the structure in the Zukertort Opening.",
-              "strategicTheme": "Pawn structure",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nThe Polish Opening (or Orangutan Opening) is a flank and rather uncommon opening starting with the move 1. The purpose of this move is to fight for a spatial advantage on the queenside instead of immediately taking control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -8439,25 +7754,25 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Ng5 develops a piece to an active square in the Zukertort Opening.",
-                              "strategicTheme": "Knight activity",
-                              "source": "generated"
+                              "moveRationale": "From g5 White's knight attacks e4 and pressures f7, the most vulnerable square in Black's position. , defending e4, White can first turn their pressure on f7 into a development lead before recovering the pawn, or hope to entrap Black with it.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Zukertort Opening.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "Black accepts the pawn and attacks White's knight. Ng5 is the usual square.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White sacrifices their e-pawn in the hopes of a potential lead in development. The Tennison gambit may arise out of the Scandinavian defence or Zukertort opening.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -8471,9 +7786,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Zukertort Opening.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -8570,25 +7885,25 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Ng5 develops a piece to an active square in the Zukertort Opening.",
-                              "strategicTheme": "Knight activity",
-                              "source": "generated"
+                              "moveRationale": "From g5 White's knight attacks e4 and pressures f7, the most vulnerable square in Black's position. , defending e4, White can first turn their pressure on f7 into a development lead before recovering the pawn, or hope to entrap Black with it.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Zukertort Opening.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "Black accepts the pawn and attacks White's knight. Ng5 is the usual square.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "White sacrifices their e-pawn in the hopes of a potential lead in development. The Tennison gambit may arise out of the Scandinavian defence or Zukertort opening.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -8602,9 +7917,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Zukertort Opening.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -8649,9 +7964,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -8743,41 +8058,41 @@
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Zukertort Opening.",
-                                      "strategicTheme": "Central tension",
-                                      "source": "generated"
+                                      "moveRationale": "d4, White enters the reversed Grünfeld where play can be very sharp. The d-pawn immediately confronts Black's centre and forces a response.",
+                                      "strategicTheme": "Sharp tactical play",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Zukertort Opening.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "The French variation, where Black wants to play …e5 and claim even more space. White's responses\n\n* /4.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Bg2 develops a piece to an active square in the Zukertort Opening.",
-                              "strategicTheme": "Bishop development",
-                              "source": "generated"
+                              "moveRationale": "Obviously developing the kingside bishop, via Fianchetto where it controls the long diagonal. g3 c5\n\n        \n                \n                3\n                4\n                5\n                6\n        \n        \n                \n                Bg2Nc6\n                O-Oe6\n                d3Bd6\n                e4Nge7\n                =.",
+                              "strategicTheme": "Piece development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "c5 challenges the center from the flank in the Zukertort Opening.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Black claims more central space and controls d4. g3 c5\n\n        \n                \n                3\n                4\n                5\n                6\n        \n        \n                \n                Bg2Nc6\n                O-Oe6\n                d3Bd6\n                e4Nge7\n                =\n        \n        \n                \n                c4Nf6\n                cxd5Nxd5\n                Nc3Nc6\n                Bg2e6\n                =.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Zukertort Opening.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nWhite is most likely aiming to establish a King's Indian Attack. The idea is very similar to that of the King's Indian Defence as played by Black.",
+                      "strategicTheme": "Attacking play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -8791,9 +8106,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -8862,41 +8177,41 @@
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Zukertort Opening.",
-                                      "strategicTheme": "Central tension",
-                                      "source": "generated"
+                                      "moveRationale": "d4, White enters the reversed Grünfeld where play can be very sharp. The d-pawn immediately confronts Black's centre and forces a response.",
+                                      "strategicTheme": "Sharp tactical play",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Zukertort Opening.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "The French variation, where Black wants to play …e5 and claim even more space. White's responses\n\n* /4.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Bg2 develops a piece to an active square in the Zukertort Opening.",
-                              "strategicTheme": "Bishop development",
-                              "source": "generated"
+                              "moveRationale": "Obviously developing the kingside bishop, via Fianchetto where it controls the long diagonal. g3 c5\n\n        \n                \n                3\n                4\n                5\n                6\n        \n        \n                \n                Bg2Nc6\n                O-Oe6\n                d3Bd6\n                e4Nge7\n                =.",
+                              "strategicTheme": "Piece development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "c5 challenges the center from the flank in the Zukertort Opening.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Black claims more central space and controls d4. g3 c5\n\n        \n                \n                3\n                4\n                5\n                6\n        \n        \n                \n                Bg2Nc6\n                O-Oe6\n                d3Bd6\n                e4Nge7\n                =\n        \n        \n                \n                c4Nf6\n                cxd5Nxd5\n                Nc3Nc6\n                Bg2e6\n                =.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Zukertort Opening.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nWhite is most likely aiming to establish a King's Indian Attack. The idea is very similar to that of the King's Indian Defence as played by Black.",
+                      "strategicTheme": "Attacking play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -8910,9 +8225,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -8981,41 +8296,41 @@
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Zukertort Opening.",
-                                      "strategicTheme": "Central tension",
-                                      "source": "generated"
+                                      "moveRationale": "d4, White enters the reversed Grünfeld where play can be very sharp. The d-pawn immediately confronts Black's centre and forces a response.",
+                                      "strategicTheme": "Sharp tactical play",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Zukertort Opening.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "The French variation, where Black wants to play …e5 and claim even more space. White's responses\n\n* /4.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Bg2 develops a piece to an active square in the Zukertort Opening.",
-                              "strategicTheme": "Bishop development",
-                              "source": "generated"
+                              "moveRationale": "Obviously developing the kingside bishop, via Fianchetto where it controls the long diagonal. g3 c5\n\n        \n                \n                3\n                4\n                5\n                6\n        \n        \n                \n                Bg2Nc6\n                O-Oe6\n                d3Bd6\n                e4Nge7\n                =.",
+                              "strategicTheme": "Piece development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "c5 challenges the center from the flank in the Zukertort Opening.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Black claims more central space and controls d4. g3 c5\n\n        \n                \n                3\n                4\n                5\n                6\n        \n        \n                \n                Bg2Nc6\n                O-Oe6\n                d3Bd6\n                e4Nge7\n                =\n        \n        \n                \n                c4Nf6\n                cxd5Nxd5\n                Nc3Nc6\n                Bg2e6\n                =.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Zukertort Opening.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nWhite is most likely aiming to establish a King's Indian Attack. The idea is very similar to that of the King's Indian Defence as played by Black.",
+                      "strategicTheme": "Attacking play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -9029,9 +8344,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -9100,41 +8415,41 @@
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Zukertort Opening.",
-                                      "strategicTheme": "Central tension",
-                                      "source": "generated"
+                                      "moveRationale": "d4, White enters the reversed Grünfeld where play can be very sharp. The d-pawn immediately confronts Black's centre and forces a response.",
+                                      "strategicTheme": "Sharp tactical play",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Zukertort Opening.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "The French variation, where Black wants to play …e5 and claim even more space. White's responses\n\n* /4.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Bg2 develops a piece to an active square in the Zukertort Opening.",
-                              "strategicTheme": "Bishop development",
-                              "source": "generated"
+                              "moveRationale": "Obviously developing the kingside bishop, via Fianchetto where it controls the long diagonal. g3 c5\n\n        \n                \n                3\n                4\n                5\n                6\n        \n        \n                \n                Bg2Nc6\n                O-Oe6\n                d3Bd6\n                e4Nge7\n                =.",
+                              "strategicTheme": "Piece development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "c5 challenges the center from the flank in the Zukertort Opening.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Black claims more central space and controls d4. g3 c5\n\n        \n                \n                3\n                4\n                5\n                6\n        \n        \n                \n                Bg2Nc6\n                O-Oe6\n                d3Bd6\n                e4Nge7\n                =\n        \n        \n                \n                c4Nf6\n                cxd5Nxd5\n                Nc3Nc6\n                Bg2e6\n                =.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Zukertort Opening.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nWhite is most likely aiming to establish a King's Indian Attack. The idea is very similar to that of the King's Indian Defence as played by Black.",
+                      "strategicTheme": "Attacking play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -9148,9 +8463,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -9239,25 +8554,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Zukertort Opening.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "Nf3\n\n\t\n\t\t\n\t\t2\n\t\t3\n\t\t4\n\t\t5\n\t\t6\n\t\n\t\n\t\tWade Defence\n\t\tNf3Bg4\n\t\tc4Nd7\n\t\te4Bxf3\n\t\tQxf3g6\n\t\tNc3Bg7\n\t\t=.",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d6 advances a pawn, influencing the structure in the Zukertort Opening.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "As with many of Black's off-beat 1st move alternatives, this move does not hold independent status as it usually transposes into other mainstream openings. It is certainly not a bad move on Black's part, but it does allow White to transpose into the Pirc or Modern defence by playing 2.",
+                  "strategicTheme": "Opening theory",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Zukertort Opening.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

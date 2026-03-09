@@ -41,66 +41,7 @@
                                       {
                                         "move": "Bxd2+",
                                         "fen": "rnbqk2r/pppp1ppp/4pn2/8/2PP4/5N2/PP1bPPPP/RN1QKB1R w KQkq - 0 5",
-                                        "children": [
-                                          {
-                                            "move": "Qxd2",
-                                            "fen": "rnbqk2r/pppp1ppp/4pn2/8/2PP4/5N2/PP1QPPPP/RN2KB1R b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "O-O",
-                                                "fen": "rnbq1rk1/pppp1ppp/4pn2/8/2PP4/5N2/PP1QPPPP/RN2KB1R w KQ - 1 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Nc3",
-                                                    "fen": "rnbq1rk1/pppp1ppp/4pn2/8/2PP4/2N2N2/PP1QPPPP/R3KB1R b KQ - 2 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "d5",
-                                                        "fen": "rnbq1rk1/ppp2ppp/4pn2/3p4/2PP4/2N2N2/PP1QPPPP/R3KB1R w KQ - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "d5 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                                                          "strategicTheme": "Pawn structure",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Bogo-Indian Defense.",
-                                                      "strategicTheme": "Natural piece development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Bogo-Indian Defense.",
-                                                  "strategicTheme": "Early king safety",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "Qxd2 exchanges material, altering the pawn structure in the Bogo-Indian Defense.",
-                                              "strategicTheme": "Material exchange",
-                                              "source": "generated"
-                                            }
-                                          },
-                                          {
-                                            "move": "Nbxd2",
-                                            "fen": "rnbqk2r/pppp1ppp/4pn2/8/2PP4/5N2/PP1NPPPP/R2QKB1R b KQkq - 0 5",
-                                            "children": [],
-                                            "isMainLine": false,
-                                            "annotation": {
-                                              "moveRationale": "Nbxd2 exchanges material, altering the pawn structure in the Bogo-Indian Defense.",
-                                              "strategicTheme": "Material exchange",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
+                                        "children": [],
                                         "isMainLine": false,
                                         "annotation": {
                                           "moveRationale": "Bxd2+ exchanges material, altering the pawn structure in the Bogo-Indian Defense.",
@@ -122,112 +63,7 @@
                                       {
                                         "move": "Qe7",
                                         "fen": "rnb1k2r/ppppqppp/4pn2/8/1bPP4/5N2/PP1BPPPP/RN1QKB1R w KQkq - 4 5",
-                                        "children": [
-                                          {
-                                            "move": "g3",
-                                            "fen": "rnb1k2r/ppppqppp/4pn2/8/1bPP4/5NP1/PP1BPP1P/RN1QKB1R b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "Nc6",
-                                                "fen": "r1b1k2r/ppppqppp/2n1pn2/8/1bPP4/5NP1/PP1BPP1P/RN1QKB1R w KQkq - 1 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Bg2",
-                                                    "fen": "r1b1k2r/ppppqppp/2n1pn2/8/1bPP4/5NP1/PP1BPPBP/RN1QK2R b KQkq - 2 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "Bxd2+",
-                                                        "fen": "r1b1k2r/ppppqppp/2n1pn2/8/2PP4/5NP1/PP1bPPBP/RN1QK2R w KQkq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Bxd2+ exchanges material, altering the pawn structure in the Bogo-Indian Defense.",
-                                                          "strategicTheme": "Material exchange",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Bg2 develops a piece to an active square in the Bogo-Indian Defense.",
-                                                      "strategicTheme": "Bishop development",
-                                                      "source": "generated"
-                                                    }
-                                                  },
-                                                  {
-                                                    "move": "Nc3",
-                                                    "fen": "r1b1k2r/ppppqppp/2n1pn2/8/1bPP4/2N2NP1/PP1BPP1P/R2QKB1R b KQkq - 2 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "Bxc3",
-                                                        "fen": "r1b1k2r/ppppqppp/2n1pn2/8/2PP4/2b2NP1/PP1BPP1P/R2QKB1R w KQkq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Bxc3 exchanges material, altering the pawn structure in the Bogo-Indian Defense.",
-                                                          "strategicTheme": "Material exchange",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": false,
-                                                    "annotation": {
-                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Bogo-Indian Defense.",
-                                                      "strategicTheme": "Natural piece development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Bogo-Indian Defense.",
-                                                  "strategicTheme": "Natural piece development",
-                                                  "source": "generated"
-                                                }
-                                              },
-                                              {
-                                                "move": "O-O",
-                                                "fen": "rnb2rk1/ppppqppp/4pn2/8/1bPP4/5NP1/PP1BPP1P/RN1QKB1R w KQ - 1 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Bg2",
-                                                    "fen": "rnb2rk1/ppppqppp/4pn2/8/1bPP4/5NP1/PP1BPPBP/RN1QK2R b KQ - 2 6",
-                                                    "children": [],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Bg2 develops a piece to an active square in the Bogo-Indian Defense.",
-                                                      "strategicTheme": "Bishop development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": false,
-                                                "annotation": {
-                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Bogo-Indian Defense.",
-                                                  "strategicTheme": "Early king safety",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Bogo-Indian Defense.",
-                                              "strategicTheme": "Fianchetto preparation",
-                                              "source": "generated"
-                                            }
-                                          },
-                                          {
-                                            "move": "Nc3",
-                                            "fen": "rnb1k2r/ppppqppp/4pn2/8/1bPP4/2N2N2/PP1BPPPP/R2QKB1R b KQkq - 5 5",
-                                            "children": [],
-                                            "isMainLine": false,
-                                            "annotation": {
-                                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Bogo-Indian Defense.",
-                                              "strategicTheme": "Natural piece development",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
+                                        "children": [],
                                         "isMainLine": false,
                                         "annotation": {
                                           "moveRationale": "Qe7 activates the queen, increasing pressure in the Bogo-Indian Defense.",
@@ -238,66 +74,7 @@
                                       {
                                         "move": "Be7",
                                         "fen": "rnbqk2r/ppppbppp/4pn2/8/2PP4/5N2/PP1BPPPP/RN1QKB1R w KQkq - 4 5",
-                                        "children": [
-                                          {
-                                            "move": "g3",
-                                            "fen": "rnbqk2r/ppppbppp/4pn2/8/2PP4/5NP1/PP1BPP1P/RN1QKB1R b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "d5",
-                                                "fen": "rnbqk2r/ppp1bppp/4pn2/3p4/2PP4/5NP1/PP1BPP1P/RN1QKB1R w KQkq - 0 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Bg2",
-                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/3p4/2PP4/5NP1/PP1BPPBP/RN1QK2R b KQkq - 1 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "O-O",
-                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/3p4/2PP4/5NP1/PP1BPPBP/RN1QK2R w KQ - 2 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Bogo-Indian Defense.",
-                                                          "strategicTheme": "King safety",
-                                                          "source": "generated"
-                                                        }
-                                                      },
-                                                      {
-                                                        "move": "Nbd7",
-                                                        "fen": "r1bqk2r/pppnbppp/4pn2/3p4/2PP4/5NP1/PP1BPPBP/RN1QK2R w KQkq - 2 7",
-                                                        "children": [],
-                                                        "isMainLine": false,
-                                                        "annotation": {
-                                                          "moveRationale": "Nbd7 develops a piece to an active square in the Bogo-Indian Defense.",
-                                                          "strategicTheme": "Knight activity",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Bg2 develops a piece to an active square in the Bogo-Indian Defense.",
-                                                      "strategicTheme": "Bishop development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                                                  "strategicTheme": "Pawn structure",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Bogo-Indian Defense.",
-                                              "strategicTheme": "Fianchetto preparation",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
+                                        "children": [],
                                         "isMainLine": false,
                                         "annotation": {
                                           "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Bogo-Indian Defense.",
@@ -308,43 +85,7 @@
                                       {
                                         "move": "c5",
                                         "fen": "rnbqk2r/pp1p1ppp/4pn2/2p5/1bPP4/5N2/PP1BPPPP/RN1QKB1R w KQkq - 0 5",
-                                        "children": [
-                                          {
-                                            "move": "Bxb4",
-                                            "fen": "rnbqk2r/pp1p1ppp/4pn2/2p5/1BPP4/5N2/PP2PPPP/RN1QKB1R b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "cxb4",
-                                                "fen": "rnbqk2r/pp1p1ppp/4pn2/8/1pPP4/5N2/PP2PPPP/RN1QKB1R w KQkq - 0 6",
-                                                "children": [
-                                                  {
-                                                    "move": "g3",
-                                                    "fen": "rnbqk2r/pp1p1ppp/4pn2/8/1pPP4/5NP1/PP2PP1P/RN1QKB1R b KQkq - 0 6",
-                                                    "children": [],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Bogo-Indian Defense.",
-                                                      "strategicTheme": "Fianchetto preparation",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "cxb4 exchanges material, altering the pawn structure in the Bogo-Indian Defense.",
-                                                  "strategicTheme": "Material exchange",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "Bxb4 exchanges material, altering the pawn structure in the Bogo-Indian Defense.",
-                                              "strategicTheme": "Material exchange",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
+                                        "children": [],
                                         "isMainLine": false,
                                         "annotation": {
                                           "moveRationale": "c5 challenges the center from the flank in the Bogo-Indian Defense.",
@@ -422,148 +163,7 @@
                                   {
                                     "move": "Nbd2",
                                     "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/5N2/PP1NPPPP/R1BQKB1R b KQkq - 3 4",
-                                    "children": [
-                                      {
-                                        "move": "O-O",
-                                        "fen": "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/5N2/PP1NPPPP/R1BQKB1R w KQ - 4 5",
-                                        "children": [
-                                          {
-                                            "move": "a3",
-                                            "fen": "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/P4N2/1P1NPPPP/R1BQKB1R b KQ - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "Be7",
-                                                "fen": "rnbq1rk1/ppppbppp/4pn2/8/2PP4/P4N2/1P1NPPPP/R1BQKB1R w KQ - 1 6",
-                                                "children": [
-                                                  {
-                                                    "move": "e4",
-                                                    "fen": "rnbq1rk1/ppppbppp/4pn2/8/2PPP3/P4N2/1P1N1PPP/R1BQKB1R b KQ - 0 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "d5",
-                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/3p4/2PPP3/P4N2/1P1N1PPP/R1BQKB1R w KQ - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "d5 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                                                          "strategicTheme": "Pawn structure",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Bogo-Indian Defense.",
-                                                      "strategicTheme": "Central tension",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Bogo-Indian Defense.",
-                                                  "strategicTheme": "Bishop development",
-                                                  "source": "generated"
-                                                }
-                                              },
-                                              {
-                                                "move": "Bxd2+",
-                                                "fen": "rnbq1rk1/pppp1ppp/4pn2/8/2PP4/P4N2/1P1bPPPP/R1BQKB1R w KQ - 0 6",
-                                                "children": [],
-                                                "isMainLine": false,
-                                                "annotation": {
-                                                  "moveRationale": "Bxd2+ exchanges material, altering the pawn structure in the Bogo-Indian Defense.",
-                                                  "strategicTheme": "Material exchange",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "a3 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Bogo-Indian Defense.",
-                                              "strategicTheme": "Prophylactic pawn move",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
-                                        "isMainLine": true,
-                                        "annotation": {
-                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Bogo-Indian Defense.",
-                                          "strategicTheme": "Early king safety",
-                                          "source": "generated"
-                                        }
-                                      },
-                                      {
-                                        "move": "b6",
-                                        "fen": "rnbqk2r/p1pp1ppp/1p2pn2/8/1bPP4/5N2/PP1NPPPP/R1BQKB1R w KQkq - 0 5",
-                                        "children": [
-                                          {
-                                            "move": "a3",
-                                            "fen": "rnbqk2r/p1pp1ppp/1p2pn2/8/1bPP4/P4N2/1P1NPPPP/R1BQKB1R b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "Bxd2+",
-                                                "fen": "rnbqk2r/p1pp1ppp/1p2pn2/8/2PP4/P4N2/1P1bPPPP/R1BQKB1R w KQkq - 0 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Bxd2",
-                                                    "fen": "rnbqk2r/p1pp1ppp/1p2pn2/8/2PP4/P4N2/1P1BPPPP/R2QKB1R b KQkq - 0 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "Bb7",
-                                                        "fen": "rn1qk2r/pbpp1ppp/1p2pn2/8/2PP4/P4N2/1P1BPPPP/R2QKB1R w KQkq - 1 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Bb7 develops a piece to an active square in the Bogo-Indian Defense.",
-                                                          "strategicTheme": "Bishop development",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Bxd2 exchanges material, altering the pawn structure in the Bogo-Indian Defense.",
-                                                      "strategicTheme": "Material exchange",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "Bxd2+ exchanges material, altering the pawn structure in the Bogo-Indian Defense.",
-                                                  "strategicTheme": "Material exchange",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "a3 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Bogo-Indian Defense.",
-                                              "strategicTheme": "Prophylactic pawn move",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
-                                        "isMainLine": false,
-                                        "annotation": {
-                                          "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Bogo-Indian Defense.",
-                                          "strategicTheme": "Fianchetto preparation",
-                                          "source": "generated"
-                                        }
-                                      },
-                                      {
-                                        "move": "d5",
-                                        "fen": "rnbqk2r/ppp2ppp/4pn2/3p4/1bPP4/5N2/PP1NPPPP/R1BQKB1R w KQkq - 0 5",
-                                        "children": [],
-                                        "isMainLine": false,
-                                        "annotation": {
-                                          "moveRationale": "d5 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                                          "strategicTheme": "Pawn structure",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
+                                    "children": [],
                                     "isMainLine": false,
                                     "annotation": {
                                       "moveRationale": "Nbd2 develops a piece to an active square in the Bogo-Indian Defense.",
@@ -640,41 +240,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Bogo-Indian Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nf3 develops a piece and contributes to White's fight for the center of the board. This move strengthens the d4 and e5 squares and brings White a move closer to castling kingside.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Bogo-Indian Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Bogo-Indian Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Bogo-Indian Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -720,66 +320,7 @@
                                       {
                                         "move": "Bxd2+",
                                         "fen": "rnbqk2r/pppp1ppp/4pn2/8/2PP4/5N2/PP1bPPPP/RN1QKB1R w KQkq - 0 5",
-                                        "children": [
-                                          {
-                                            "move": "Qxd2",
-                                            "fen": "rnbqk2r/pppp1ppp/4pn2/8/2PP4/5N2/PP1QPPPP/RN2KB1R b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "O-O",
-                                                "fen": "rnbq1rk1/pppp1ppp/4pn2/8/2PP4/5N2/PP1QPPPP/RN2KB1R w KQ - 1 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Nc3",
-                                                    "fen": "rnbq1rk1/pppp1ppp/4pn2/8/2PP4/2N2N2/PP1QPPPP/R3KB1R b KQ - 2 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "d5",
-                                                        "fen": "rnbq1rk1/ppp2ppp/4pn2/3p4/2PP4/2N2N2/PP1QPPPP/R3KB1R w KQ - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "d5 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                                                          "strategicTheme": "Pawn structure",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Bogo-Indian Defense.",
-                                                      "strategicTheme": "Natural piece development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Bogo-Indian Defense.",
-                                                  "strategicTheme": "Early king safety",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "Qxd2 exchanges material, altering the pawn structure in the Bogo-Indian Defense.",
-                                              "strategicTheme": "Material exchange",
-                                              "source": "generated"
-                                            }
-                                          },
-                                          {
-                                            "move": "Nbxd2",
-                                            "fen": "rnbqk2r/pppp1ppp/4pn2/8/2PP4/5N2/PP1NPPPP/R2QKB1R b KQkq - 0 5",
-                                            "children": [],
-                                            "isMainLine": false,
-                                            "annotation": {
-                                              "moveRationale": "Nbxd2 exchanges material, altering the pawn structure in the Bogo-Indian Defense.",
-                                              "strategicTheme": "Material exchange",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
+                                        "children": [],
                                         "isMainLine": true,
                                         "annotation": {
                                           "moveRationale": "Bxd2+ exchanges material, altering the pawn structure in the Bogo-Indian Defense.",
@@ -806,41 +347,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Bogo-Indian Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nf3 develops a piece and contributes to White's fight for the center of the board. This move strengthens the d4 and e5 squares and brings White a move closer to castling kingside.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Bogo-Indian Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Bogo-Indian Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Bogo-Indian Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -882,148 +423,7 @@
                                   {
                                     "move": "Nbd2",
                                     "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/5N2/PP1NPPPP/R1BQKB1R b KQkq - 3 4",
-                                    "children": [
-                                      {
-                                        "move": "O-O",
-                                        "fen": "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/5N2/PP1NPPPP/R1BQKB1R w KQ - 4 5",
-                                        "children": [
-                                          {
-                                            "move": "a3",
-                                            "fen": "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/P4N2/1P1NPPPP/R1BQKB1R b KQ - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "Be7",
-                                                "fen": "rnbq1rk1/ppppbppp/4pn2/8/2PP4/P4N2/1P1NPPPP/R1BQKB1R w KQ - 1 6",
-                                                "children": [
-                                                  {
-                                                    "move": "e4",
-                                                    "fen": "rnbq1rk1/ppppbppp/4pn2/8/2PPP3/P4N2/1P1N1PPP/R1BQKB1R b KQ - 0 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "d5",
-                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/3p4/2PPP3/P4N2/1P1N1PPP/R1BQKB1R w KQ - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "d5 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                                                          "strategicTheme": "Pawn structure",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "e4 impacts the center, shaping the pawn structure in the Bogo-Indian Defense.",
-                                                      "strategicTheme": "Central tension",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Bogo-Indian Defense.",
-                                                  "strategicTheme": "Bishop development",
-                                                  "source": "generated"
-                                                }
-                                              },
-                                              {
-                                                "move": "Bxd2+",
-                                                "fen": "rnbq1rk1/pppp1ppp/4pn2/8/2PP4/P4N2/1P1bPPPP/R1BQKB1R w KQ - 0 6",
-                                                "children": [],
-                                                "isMainLine": false,
-                                                "annotation": {
-                                                  "moveRationale": "Bxd2+ exchanges material, altering the pawn structure in the Bogo-Indian Defense.",
-                                                  "strategicTheme": "Material exchange",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "a3 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Bogo-Indian Defense.",
-                                              "strategicTheme": "Prophylactic pawn move",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
-                                        "isMainLine": true,
-                                        "annotation": {
-                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Bogo-Indian Defense.",
-                                          "strategicTheme": "Early king safety",
-                                          "source": "generated"
-                                        }
-                                      },
-                                      {
-                                        "move": "b6",
-                                        "fen": "rnbqk2r/p1pp1ppp/1p2pn2/8/1bPP4/5N2/PP1NPPPP/R1BQKB1R w KQkq - 0 5",
-                                        "children": [
-                                          {
-                                            "move": "a3",
-                                            "fen": "rnbqk2r/p1pp1ppp/1p2pn2/8/1bPP4/P4N2/1P1NPPPP/R1BQKB1R b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "Bxd2+",
-                                                "fen": "rnbqk2r/p1pp1ppp/1p2pn2/8/2PP4/P4N2/1P1bPPPP/R1BQKB1R w KQkq - 0 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Bxd2",
-                                                    "fen": "rnbqk2r/p1pp1ppp/1p2pn2/8/2PP4/P4N2/1P1BPPPP/R2QKB1R b KQkq - 0 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "Bb7",
-                                                        "fen": "rn1qk2r/pbpp1ppp/1p2pn2/8/2PP4/P4N2/1P1BPPPP/R2QKB1R w KQkq - 1 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Bb7 develops a piece to an active square in the Bogo-Indian Defense.",
-                                                          "strategicTheme": "Bishop development",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Bxd2 exchanges material, altering the pawn structure in the Bogo-Indian Defense.",
-                                                      "strategicTheme": "Material exchange",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "Bxd2+ exchanges material, altering the pawn structure in the Bogo-Indian Defense.",
-                                                  "strategicTheme": "Material exchange",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "a3 is a prophylactic move, preventing an opponent's piece from reaching an active square in the Bogo-Indian Defense.",
-                                              "strategicTheme": "Prophylactic pawn move",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
-                                        "isMainLine": false,
-                                        "annotation": {
-                                          "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Bogo-Indian Defense.",
-                                          "strategicTheme": "Fianchetto preparation",
-                                          "source": "generated"
-                                        }
-                                      },
-                                      {
-                                        "move": "d5",
-                                        "fen": "rnbqk2r/ppp2ppp/4pn2/3p4/1bPP4/5N2/PP1NPPPP/R1BQKB1R w KQkq - 0 5",
-                                        "children": [],
-                                        "isMainLine": false,
-                                        "annotation": {
-                                          "moveRationale": "d5 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                                          "strategicTheme": "Pawn structure",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
+                                    "children": [],
                                     "isMainLine": true,
                                     "annotation": {
                                       "moveRationale": "Nbd2 develops a piece to an active square in the Bogo-Indian Defense.",
@@ -1042,41 +442,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Bogo-Indian Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nf3 develops a piece and contributes to White's fight for the center of the board. This move strengthens the d4 and e5 squares and brings White a move closer to castling kingside.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Bogo-Indian Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Bogo-Indian Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Bogo-Indian Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1149,41 +549,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Bogo-Indian Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nf3 develops a piece and contributes to White's fight for the center of the board. This move strengthens the d4 and e5 squares and brings White a move closer to castling kingside.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Bogo-Indian Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Bogo-Indian Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Bogo-Indian Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1372,57 +772,57 @@
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Bogo-Indian Defense.",
-                                      "strategicTheme": "Fianchetto preparation",
-                                      "source": "generated"
+                                      "moveRationale": "With this move, White decides to challenge the h1-a8 diagonal immediately and fianchetto his own light-squared bishop to counter black's. Black can now play:\n\n*4.",
+                                      "strategicTheme": "Piece development",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "b6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Bogo-Indian Defense.",
-                                  "strategicTheme": "Fianchetto preparation",
-                                  "source": "generated"
+                                  "moveRationale": "The Queen's Indian Defence is a popular and fairly modern opening whereby black quickly develops his queenside bishop, either by fianchettoing it on b7 to contest the long diagonal, or on a6 to put pressure on white's c-pawn. It has been employed regularly by a number of top players including former world champions like  Anatoly Karpov and Viswanathan Anand.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Bogo-Indian Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nf3 develops a piece and contributes to White's fight for the center of the board. This move strengthens the d4 and e5 squares and brings White a move closer to castling kingside.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Bogo-Indian Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Bogo-Indian Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Bogo-Indian Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1483,41 +883,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Bogo-Indian Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nf3 develops a piece and contributes to White's fight for the center of the board. This move strengthens the d4 and e5 squares and brings White a move closer to castling kingside.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Bogo-Indian Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Bogo-Indian Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Bogo-Indian Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1563,112 +963,7 @@
                                       {
                                         "move": "Qe7",
                                         "fen": "rnb1k2r/ppppqppp/4pn2/8/1bPP4/5N2/PP1BPPPP/RN1QKB1R w KQkq - 4 5",
-                                        "children": [
-                                          {
-                                            "move": "g3",
-                                            "fen": "rnb1k2r/ppppqppp/4pn2/8/1bPP4/5NP1/PP1BPP1P/RN1QKB1R b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "Nc6",
-                                                "fen": "r1b1k2r/ppppqppp/2n1pn2/8/1bPP4/5NP1/PP1BPP1P/RN1QKB1R w KQkq - 1 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Bg2",
-                                                    "fen": "r1b1k2r/ppppqppp/2n1pn2/8/1bPP4/5NP1/PP1BPPBP/RN1QK2R b KQkq - 2 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "Bxd2+",
-                                                        "fen": "r1b1k2r/ppppqppp/2n1pn2/8/2PP4/5NP1/PP1bPPBP/RN1QK2R w KQkq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Bxd2+ exchanges material, altering the pawn structure in the Bogo-Indian Defense.",
-                                                          "strategicTheme": "Material exchange",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Bg2 develops a piece to an active square in the Bogo-Indian Defense.",
-                                                      "strategicTheme": "Bishop development",
-                                                      "source": "generated"
-                                                    }
-                                                  },
-                                                  {
-                                                    "move": "Nc3",
-                                                    "fen": "r1b1k2r/ppppqppp/2n1pn2/8/1bPP4/2N2NP1/PP1BPP1P/R2QKB1R b KQkq - 2 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "Bxc3",
-                                                        "fen": "r1b1k2r/ppppqppp/2n1pn2/8/2PP4/2b2NP1/PP1BPP1P/R2QKB1R w KQkq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Bxc3 exchanges material, altering the pawn structure in the Bogo-Indian Defense.",
-                                                          "strategicTheme": "Material exchange",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": false,
-                                                    "annotation": {
-                                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Bogo-Indian Defense.",
-                                                      "strategicTheme": "Natural piece development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Bogo-Indian Defense.",
-                                                  "strategicTheme": "Natural piece development",
-                                                  "source": "generated"
-                                                }
-                                              },
-                                              {
-                                                "move": "O-O",
-                                                "fen": "rnb2rk1/ppppqppp/4pn2/8/1bPP4/5NP1/PP1BPP1P/RN1QKB1R w KQ - 1 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Bg2",
-                                                    "fen": "rnb2rk1/ppppqppp/4pn2/8/1bPP4/5NP1/PP1BPPBP/RN1QK2R b KQ - 2 6",
-                                                    "children": [],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Bg2 develops a piece to an active square in the Bogo-Indian Defense.",
-                                                      "strategicTheme": "Bishop development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": false,
-                                                "annotation": {
-                                                  "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Bogo-Indian Defense.",
-                                                  "strategicTheme": "Early king safety",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Bogo-Indian Defense.",
-                                              "strategicTheme": "Fianchetto preparation",
-                                              "source": "generated"
-                                            }
-                                          },
-                                          {
-                                            "move": "Nc3",
-                                            "fen": "rnb1k2r/ppppqppp/4pn2/8/1bPP4/2N2N2/PP1BPPPP/R2QKB1R b KQkq - 5 5",
-                                            "children": [],
-                                            "isMainLine": false,
-                                            "annotation": {
-                                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Bogo-Indian Defense.",
-                                              "strategicTheme": "Natural piece development",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
+                                        "children": [],
                                         "isMainLine": true,
                                         "annotation": {
                                           "moveRationale": "Qe7 activates the queen, increasing pressure in the Bogo-Indian Defense.",
@@ -1695,41 +990,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Bogo-Indian Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nf3 develops a piece and contributes to White's fight for the center of the board. This move strengthens the d4 and e5 squares and brings White a move closer to castling kingside.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Bogo-Indian Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Bogo-Indian Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Bogo-Indian Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1775,66 +1070,7 @@
                                       {
                                         "move": "Be7",
                                         "fen": "rnbqk2r/ppppbppp/4pn2/8/2PP4/5N2/PP1BPPPP/RN1QKB1R w KQkq - 4 5",
-                                        "children": [
-                                          {
-                                            "move": "g3",
-                                            "fen": "rnbqk2r/ppppbppp/4pn2/8/2PP4/5NP1/PP1BPP1P/RN1QKB1R b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "d5",
-                                                "fen": "rnbqk2r/ppp1bppp/4pn2/3p4/2PP4/5NP1/PP1BPP1P/RN1QKB1R w KQkq - 0 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Bg2",
-                                                    "fen": "rnbqk2r/ppp1bppp/4pn2/3p4/2PP4/5NP1/PP1BPPBP/RN1QK2R b KQkq - 1 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "O-O",
-                                                        "fen": "rnbq1rk1/ppp1bppp/4pn2/3p4/2PP4/5NP1/PP1BPPBP/RN1QK2R w KQ - 2 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Castles kingside, securing the king and connecting the rooks in the Bogo-Indian Defense.",
-                                                          "strategicTheme": "King safety",
-                                                          "source": "generated"
-                                                        }
-                                                      },
-                                                      {
-                                                        "move": "Nbd7",
-                                                        "fen": "r1bqk2r/pppnbppp/4pn2/3p4/2PP4/5NP1/PP1BPPBP/RN1QK2R w KQkq - 2 7",
-                                                        "children": [],
-                                                        "isMainLine": false,
-                                                        "annotation": {
-                                                          "moveRationale": "Nbd7 develops a piece to an active square in the Bogo-Indian Defense.",
-                                                          "strategicTheme": "Knight activity",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Bg2 develops a piece to an active square in the Bogo-Indian Defense.",
-                                                      "strategicTheme": "Bishop development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                                                  "strategicTheme": "Pawn structure",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Bogo-Indian Defense.",
-                                              "strategicTheme": "Fianchetto preparation",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
+                                        "children": [],
                                         "isMainLine": true,
                                         "annotation": {
                                           "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the Bogo-Indian Defense.",
@@ -1861,41 +1097,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Bogo-Indian Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nf3 develops a piece and contributes to White's fight for the center of the board. This move strengthens the d4 and e5 squares and brings White a move closer to castling kingside.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Bogo-Indian Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Bogo-Indian Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Bogo-Indian Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2122,41 +1358,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Bogo-Indian Defense.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "This is the Catalan Opening, named after the Spanish region of Catalonia, when Grandmaster Savielly Tartakower was asked, at the Barcelona tournament of 1929, to invent an opening system in honor of the region's chess history. Usually, the game continues 3.",
+                              "strategicTheme": "Fianchetto development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Bogo-Indian Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Bogo-Indian Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Bogo-Indian Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2324,41 +1560,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Bogo-Indian Defense.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "This is the Catalan Opening, named after the Spanish region of Catalonia, when Grandmaster Savielly Tartakower was asked, at the Barcelona tournament of 1929, to invent an opening system in honor of the region's chess history. Usually, the game continues 3.",
+                              "strategicTheme": "Fianchetto development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Bogo-Indian Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Bogo-Indian Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Bogo-Indian Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2491,41 +1727,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Bogo-Indian Defense.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "This is the Catalan Opening, named after the Spanish region of Catalonia, when Grandmaster Savielly Tartakower was asked, at the Barcelona tournament of 1929, to invent an opening system in honor of the region's chess history. Usually, the game continues 3.",
+                              "strategicTheme": "Fianchetto development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Bogo-Indian Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Bogo-Indian Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Bogo-Indian Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2682,41 +1918,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Bogo-Indian Defense.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "This is the Catalan Opening, named after the Spanish region of Catalonia, when Grandmaster Savielly Tartakower was asked, at the Barcelona tournament of 1929, to invent an opening system in honor of the region's chess history. Usually, the game continues 3.",
+                              "strategicTheme": "Fianchetto development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Bogo-Indian Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Bogo-Indian Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Bogo-Indian Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2885,41 +2121,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Bogo-Indian Defense.",
-                              "strategicTheme": "Fianchetto preparation",
-                              "source": "generated"
+                              "moveRationale": "This is the Catalan Opening, named after the Spanish region of Catalonia, when Grandmaster Savielly Tartakower was asked, at the Barcelona tournament of 1929, to invent an opening system in honor of the region's chess history. Usually, the game continues 3.",
+                              "strategicTheme": "Fianchetto development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Bogo-Indian Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Bogo-Indian Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Bogo-Indian Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3128,49 +2364,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "#REDIRECT Chess Opening Theory/1.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Bogo-Indian Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nf3 develops a piece and contributes to White's fight for the center of the board. This move strengthens the d4 and e5 squares and brings White a move closer to castling kingside.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Bogo-Indian Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Bogo-Indian Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Bogo-Indian Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3379,49 +2615,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "#REDIRECT Chess Opening Theory/1.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Bogo-Indian Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nf3 develops a piece and contributes to White's fight for the center of the board. This move strengthens the d4 and e5 squares and brings White a move closer to castling kingside.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Bogo-Indian Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Bogo-Indian Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Bogo-Indian Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3467,43 +2703,7 @@
                                       {
                                         "move": "c5",
                                         "fen": "rnbqk2r/pp1p1ppp/4pn2/2p5/1bPP4/5N2/PP1BPPPP/RN1QKB1R w KQkq - 0 5",
-                                        "children": [
-                                          {
-                                            "move": "Bxb4",
-                                            "fen": "rnbqk2r/pp1p1ppp/4pn2/2p5/1BPP4/5N2/PP2PPPP/RN1QKB1R b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "cxb4",
-                                                "fen": "rnbqk2r/pp1p1ppp/4pn2/8/1pPP4/5N2/PP2PPPP/RN1QKB1R w KQkq - 0 6",
-                                                "children": [
-                                                  {
-                                                    "move": "g3",
-                                                    "fen": "rnbqk2r/pp1p1ppp/4pn2/8/1pPP4/5NP1/PP2PP1P/RN1QKB1R b KQkq - 0 6",
-                                                    "children": [],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the Bogo-Indian Defense.",
-                                                      "strategicTheme": "Fianchetto preparation",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "cxb4 exchanges material, altering the pawn structure in the Bogo-Indian Defense.",
-                                                  "strategicTheme": "Material exchange",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "Bxb4 exchanges material, altering the pawn structure in the Bogo-Indian Defense.",
-                                              "strategicTheme": "Material exchange",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
+                                        "children": [],
                                         "isMainLine": true,
                                         "annotation": {
                                           "moveRationale": "c5 challenges the center from the flank in the Bogo-Indian Defense.",
@@ -3530,41 +2730,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Bogo-Indian Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nf3 develops a piece and contributes to White's fight for the center of the board. This move strengthens the d4 and e5 squares and brings White a move closer to castling kingside.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Bogo-Indian Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Bogo-Indian Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Bogo-Indian Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3685,41 +2885,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the Bogo-Indian Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nf3 develops a piece and contributes to White's fight for the center of the board. This move strengthens the d4 and e5 squares and brings White a move closer to castling kingside.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Bogo-Indian Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Bogo-Indian Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Bogo-Indian Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Bogo-Indian Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

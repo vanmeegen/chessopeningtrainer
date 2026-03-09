@@ -48,43 +48,7 @@
                                   {
                                     "move": "Qd5",
                                     "fen": "r1b1kbnr/ppppqppp/2n5/3QP3/8/5N2/PPP1PPPP/RNB1KB1R b KQkq - 4 4",
-                                    "children": [
-                                      {
-                                        "move": "f6",
-                                        "fen": "r1b1kbnr/ppppq1pp/2n2p2/3QP3/8/5N2/PPP1PPPP/RNB1KB1R w KQkq - 0 5",
-                                        "children": [
-                                          {
-                                            "move": "exf6",
-                                            "fen": "r1b1kbnr/ppppq1pp/2n2P2/3Q4/8/5N2/PPP1PPPP/RNB1KB1R b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "Nxf6",
-                                                "fen": "r1b1kb1r/ppppq1pp/2n2n2/3Q4/8/5N2/PPP1PPPP/RNB1KB1R w KQkq - 0 6",
-                                                "children": [],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "Nxf6 exchanges material, altering the pawn structure in the Englund Gambit.",
-                                                  "strategicTheme": "Material exchange",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "exf6 exchanges material, altering the pawn structure in the Englund Gambit.",
-                                              "strategicTheme": "Material exchange",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
-                                        "isMainLine": true,
-                                        "annotation": {
-                                          "moveRationale": "f6 advances a pawn, influencing the structure in the Englund Gambit.",
-                                          "strategicTheme": "Prophylactic pawn move",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
+                                    "children": [],
                                     "isMainLine": true,
                                     "annotation": {
                                       "moveRationale": "Qd5 activates the queen, increasing pressure in the Englund Gambit.",
@@ -144,9 +108,9 @@
                         "children": [],
                         "isMainLine": false,
                         "annotation": {
-                          "moveRationale": "d6 advances a pawn, influencing the structure in the Englund Gambit.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "Black argues that by play 2. d6 and gambiting the pawn, they will have enough compensation because of their earlier kingside development and open centre.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       },
                       {
@@ -166,17 +130,17 @@
                         "children": [],
                         "isMainLine": false,
                         "annotation": {
-                          "moveRationale": "f6 advances a pawn, influencing the structure in the Englund Gambit.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "Black offers a second pawn with 2. Although it looks like a weakening move, White must be careful to avoid falling into potential traps.",
+                          "strategicTheme": "Piece development",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "dxe5 exchanges material, altering the pawn structure in the Englund Gambit.",
-                      "strategicTheme": "Material exchange",
-                      "source": "generated"
+                      "moveRationale": "White captures the free pawn. This is theoretically the best variation for White.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   },
                   {
@@ -221,9 +185,9 @@
                     ],
                     "isMainLine": false,
                     "annotation": {
-                      "moveRationale": "d5 advances a pawn, influencing the structure in the Englund Gambit.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "exd4 by pushing their pawn to d5. This is a mistake only in that it does not punish Black for their mistake.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   },
                   {
@@ -240,9 +204,9 @@
                             "children": [],
                             "isMainLine": false,
                             "annotation": {
-                              "moveRationale": "Ng1 develops a piece to an active square in the Englund Gambit.",
-                              "strategicTheme": "Knight activity",
-                              "source": "generated"
+                              "moveRationale": "Due to the lack of good options, White decides to retreat the knight, losing tempo. This shows that playing Nf3 earlier was a mistake.",
+                              "strategicTheme": "Center control",
+                              "source": "wikibooks"
                             }
                           },
                           {
@@ -251,25 +215,25 @@
                             "children": [],
                             "isMainLine": false,
                             "annotation": {
-                              "moveRationale": "Ne5 develops a piece to an active square in the Englund Gambit.",
-                              "strategicTheme": "Knight activity",
-                              "source": "generated"
+                              "moveRationale": "White hops the knight into opponent's territory, which is not a good move, of course. It is easily kickable, which only helps black to develop pieces and makes position worse for white because they lose more and more tempo.",
+                              "strategicTheme": "Piece development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": false,
                         "annotation": {
-                          "moveRationale": "e4 impacts the center, shaping the pawn structure in the Englund Gambit.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "Of course black pushes further, forcing white to lose tempo and move the knight. White has a few responses to this:\n\n# Nfd2 - 61%; winrate 48% (w) -  49% (b)\n# Ne5 - 16%; winrate 45% -  53% - Reversed Mokele Mbembe\n# Ng1 - 16%; winrate 49% -  48% - Reversed Brooklyn.",
+                          "strategicTheme": "Tempo play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": false,
                     "annotation": {
-                      "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the Englund Gambit.",
-                      "strategicTheme": "Natural piece development",
-                      "source": "generated"
+                      "moveRationale": "This move may seem like a good response, and also is similar to Alekhine defense but from white side. However black can just push the pawn further and force the knight to move (if you don't want to lose it of course).",
+                      "strategicTheme": "Opening theory",
+                      "source": "wikibooks"
                     }
                   },
                   {
@@ -278,25 +242,25 @@
                     "children": [],
                     "isMainLine": false,
                     "annotation": {
-                      "moveRationale": "e3 reinforces the center solidly, maintaining flexibility in the Englund Gambit.",
-                      "strategicTheme": "Solid center support",
-                      "source": "generated"
+                      "moveRationale": "White declines the gambit by supporting the pawn. This position looks similar to the French defense, as the name suggests.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Englund Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black offers their e-pawn. The Englund gambit is considered unsound: against best play, Black will not get enough compensation for the pawn.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Englund Gambit.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -361,25 +325,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "dxe5 exchanges material, altering the pawn structure in the Englund Gambit.",
-                      "strategicTheme": "Material exchange",
-                      "source": "generated"
+                      "moveRationale": "White captures the free pawn. This is theoretically the best variation for White.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Englund Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black offers their e-pawn. The Englund gambit is considered unsound: against best play, Black will not get enough compensation for the pawn.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Englund Gambit.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -412,33 +376,33 @@
                         "children": [],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "d6 advances a pawn, influencing the structure in the Englund Gambit.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "Black argues that by play 2. d6 and gambiting the pawn, they will have enough compensation because of their earlier kingside development and open centre.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "dxe5 exchanges material, altering the pawn structure in the Englund Gambit.",
-                      "strategicTheme": "Material exchange",
-                      "source": "generated"
+                      "moveRationale": "White captures the free pawn. This is theoretically the best variation for White.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Englund Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black offers their e-pawn. The Englund gambit is considered unsound: against best play, Black will not get enough compensation for the pawn.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Englund Gambit.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -480,43 +444,7 @@
                                   {
                                     "move": "Qd5",
                                     "fen": "r1b1kbnr/ppppqppp/2n5/3QP3/8/5N2/PPP1PPPP/RNB1KB1R b KQkq - 4 4",
-                                    "children": [
-                                      {
-                                        "move": "f6",
-                                        "fen": "r1b1kbnr/ppppq1pp/2n2p2/3QP3/8/5N2/PPP1PPPP/RNB1KB1R w KQkq - 0 5",
-                                        "children": [
-                                          {
-                                            "move": "exf6",
-                                            "fen": "r1b1kbnr/ppppq1pp/2n2P2/3Q4/8/5N2/PPP1PPPP/RNB1KB1R b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "Nxf6",
-                                                "fen": "r1b1kb1r/ppppq1pp/2n2n2/3Q4/8/5N2/PPP1PPPP/RNB1KB1R w KQkq - 0 6",
-                                                "children": [],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "Nxf6 exchanges material, altering the pawn structure in the Englund Gambit.",
-                                                  "strategicTheme": "Material exchange",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "exf6 exchanges material, altering the pawn structure in the Englund Gambit.",
-                                              "strategicTheme": "Material exchange",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
-                                        "isMainLine": true,
-                                        "annotation": {
-                                          "moveRationale": "f6 advances a pawn, influencing the structure in the Englund Gambit.",
-                                          "strategicTheme": "Prophylactic pawn move",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
+                                    "children": [],
                                     "isMainLine": true,
                                     "annotation": {
                                       "moveRationale": "Qd5 activates the queen, increasing pressure in the Englund Gambit.",
@@ -551,25 +479,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "dxe5 exchanges material, altering the pawn structure in the Englund Gambit.",
-                      "strategicTheme": "Material exchange",
-                      "source": "generated"
+                      "moveRationale": "White captures the free pawn. This is theoretically the best variation for White.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Englund Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black offers their e-pawn. The Englund gambit is considered unsound: against best play, Black will not get enough compensation for the pawn.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Englund Gambit.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -610,25 +538,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "dxe5 exchanges material, altering the pawn structure in the Englund Gambit.",
-                      "strategicTheme": "Material exchange",
-                      "source": "generated"
+                      "moveRationale": "White captures the free pawn. This is theoretically the best variation for White.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Englund Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black offers their e-pawn. The Englund gambit is considered unsound: against best play, Black will not get enough compensation for the pawn.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Englund Gambit.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -661,33 +589,33 @@
                         "children": [],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "f6 advances a pawn, influencing the structure in the Englund Gambit.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "Black offers a second pawn with 2. Although it looks like a weakening move, White must be careful to avoid falling into potential traps.",
+                          "strategicTheme": "Piece development",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "dxe5 exchanges material, altering the pawn structure in the Englund Gambit.",
-                      "strategicTheme": "Material exchange",
-                      "source": "generated"
+                      "moveRationale": "White captures the free pawn. This is theoretically the best variation for White.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Englund Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black offers their e-pawn. The Englund gambit is considered unsound: against best play, Black will not get enough compensation for the pawn.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Englund Gambit.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -752,25 +680,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "dxe5 exchanges material, altering the pawn structure in the Englund Gambit.",
-                      "strategicTheme": "Material exchange",
-                      "source": "generated"
+                      "moveRationale": "White captures the free pawn. This is theoretically the best variation for White.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Englund Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black offers their e-pawn. The Englund gambit is considered unsound: against best play, Black will not get enough compensation for the pawn.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Englund Gambit.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -812,43 +740,7 @@
                                   {
                                     "move": "Qd5",
                                     "fen": "r1b1kbnr/ppppqppp/2n5/3QP3/8/5N2/PPP1PPPP/RNB1KB1R b KQkq - 4 4",
-                                    "children": [
-                                      {
-                                        "move": "f6",
-                                        "fen": "r1b1kbnr/ppppq1pp/2n2p2/3QP3/8/5N2/PPP1PPPP/RNB1KB1R w KQkq - 0 5",
-                                        "children": [
-                                          {
-                                            "move": "exf6",
-                                            "fen": "r1b1kbnr/ppppq1pp/2n2P2/3Q4/8/5N2/PPP1PPPP/RNB1KB1R b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "Nxf6",
-                                                "fen": "r1b1kb1r/ppppq1pp/2n2n2/3Q4/8/5N2/PPP1PPPP/RNB1KB1R w KQkq - 0 6",
-                                                "children": [],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "Nxf6 exchanges material, altering the pawn structure in the Englund Gambit.",
-                                                  "strategicTheme": "Material exchange",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "exf6 exchanges material, altering the pawn structure in the Englund Gambit.",
-                                              "strategicTheme": "Material exchange",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
-                                        "isMainLine": true,
-                                        "annotation": {
-                                          "moveRationale": "f6 advances a pawn, influencing the structure in the Englund Gambit.",
-                                          "strategicTheme": "Prophylactic pawn move",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
+                                    "children": [],
                                     "isMainLine": true,
                                     "annotation": {
                                       "moveRationale": "Qd5 activates the queen, increasing pressure in the Englund Gambit.",
@@ -883,25 +775,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "dxe5 exchanges material, altering the pawn structure in the Englund Gambit.",
-                      "strategicTheme": "Material exchange",
-                      "source": "generated"
+                      "moveRationale": "White captures the free pawn. This is theoretically the best variation for White.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Englund Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black offers their e-pawn. The Englund gambit is considered unsound: against best play, Black will not get enough compensation for the pawn.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Englund Gambit.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -966,25 +858,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "dxe5 exchanges material, altering the pawn structure in the Englund Gambit.",
-                      "strategicTheme": "Material exchange",
-                      "source": "generated"
+                      "moveRationale": "White captures the free pawn. This is theoretically the best variation for White.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Englund Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "Black offers their e-pawn. The Englund gambit is considered unsound: against best play, Black will not get enough compensation for the pawn.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Englund Gambit.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

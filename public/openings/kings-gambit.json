@@ -292,19 +292,7 @@
                                           {
                                             "move": "Nd2",
                                             "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/3P4/PPPN2PP/R1BQKBNR b KQkq - 2 5",
-                                            "children": [
-                                              {
-                                                "move": "exd3",
-                                                "fen": "rnbqkb1r/ppp2ppp/5n2/3P4/5P2/3p4/PPPN2PP/R1BQKBNR w KQkq - 0 6",
-                                                "children": [],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "exd3 impacts the center, shaping the pawn structure in the King's Gambit.",
-                                                  "strategicTheme": "Central tension",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
+                                            "children": [],
                                             "isMainLine": false,
                                             "annotation": {
                                               "moveRationale": "Nd2 develops a piece to an active square in the King's Gambit.",
@@ -377,9 +365,9 @@
                                 ],
                                 "isMainLine": false,
                                 "annotation": {
-                                  "moveRationale": "e4 impacts the center, shaping the pawn structure in the King's Gambit.",
-                                  "strategicTheme": "Central tension",
-                                  "source": "generated"
+                                  "moveRationale": "After giving the pawn on d5, the e4 square is now free so Black pushes the e pawn instead of taking on f4. The idea is to ruin White's plan of opening the f file.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               },
                               {
@@ -434,17 +422,17 @@
                                 ],
                                 "isMainLine": false,
                                 "annotation": {
-                                  "moveRationale": "c6 advances a pawn, influencing the structure in the King's Gambit.",
-                                  "strategicTheme": "Prophylactic pawn move",
-                                  "source": "generated"
+                                  "moveRationale": "An interesting move to sacrifice a pawn for development. Nc3 exf4 Nf3 Bd6 is equal.",
+                                  "strategicTheme": "Tactical sacrifice",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": false,
                             "annotation": {
-                              "moveRationale": "exd5 exchanges material, altering the pawn structure in the King's Gambit.",
-                              "strategicTheme": "Material exchange",
-                              "source": "generated"
+                              "moveRationale": "Accepting the d-pawn is the main move. From here, Black has three choices:\n\n3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           },
                           {
@@ -453,9 +441,9 @@
                             "children": [],
                             "isMainLine": false,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the King's Gambit.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nf3\n\n\t\n\t\t\n\t\t3\n\t\n\t\n\t\tKing's Gambit Accepted, Abbazia Defense. exf4\n\t\texd5&nbsp;\n\t\tto 2.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           },
                           {
@@ -472,9 +460,9 @@
                         ],
                         "isMainLine": false,
                         "annotation": {
-                          "moveRationale": "d5 advances a pawn, influencing the structure in the King's Gambit.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "d5 is the most common way to decline the king's gambit (at least, for the moment: Black often takes the f-pawn later). White has the choice of two centre pawns they may take, though 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       },
                       {
@@ -717,9 +705,9 @@
                                 ],
                                 "isMainLine": false,
                                 "annotation": {
-                                  "moveRationale": "h6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the King's Gambit.",
-                                  "strategicTheme": "Prophylactic pawn move",
-                                  "source": "generated"
+                                  "moveRationale": "The idea of Becker's Defence 3. g5 without having to fear 5.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               },
                               {
@@ -778,9 +766,9 @@
                                     ],
                                     "isMainLine": false,
                                     "annotation": {
-                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the King's Gambit.",
-                                      "strategicTheme": "Central tension",
-                                      "source": "generated"
+                                      "moveRationale": "d4 grabs the d4-e4 classical center and opens up the c1 bishop's attack on the f4 pawn. Black usually responds with g5, temporarily defending the pawn while planning.",
+                                      "strategicTheme": "Tactical sacrifice",
+                                      "source": "wikibooks"
                                     }
                                   },
                                   {
@@ -857,9 +845,9 @@
                                 ],
                                 "isMainLine": false,
                                 "annotation": {
-                                  "moveRationale": "d6 advances a pawn, influencing the structure in the King's Gambit.",
-                                  "strategicTheme": "Prophylactic pawn move",
-                                  "source": "generated"
+                                  "moveRationale": "Fischer called 3. d6 \"a high-class waiting move.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               },
                               {
@@ -1225,9 +1213,9 @@
                                                 ],
                                                 "isMainLine": true,
                                                 "annotation": {
-                                                  "moveRationale": "gxf3 exchanges material, altering the pawn structure in the King's Gambit.",
-                                                  "strategicTheme": "Material exchange",
-                                                  "source": "generated"
+                                                  "moveRationale": "Black has accepted the Muzio Gambit and must play accurately. White may want to capture the pawn with /6.",
+                                                  "strategicTheme": "Gambit play",
+                                                  "source": "wikibooks"
                                                 }
                                               },
                                               {
@@ -1255,9 +1243,9 @@
                                             ],
                                             "isMainLine": true,
                                             "annotation": {
-                                              "moveRationale": "Castles kingside, securing the king and connecting the rooks in the King's Gambit.",
-                                              "strategicTheme": "Early king safety",
-                                              "source": "generated"
+                                              "moveRationale": "O-O, White gambits the knight for a massive lead in development. Most of the time Black takes the Knight and plays 6.",
+                                              "strategicTheme": "Gambit play",
+                                              "source": "wikibooks"
                                             }
                                           },
                                           {
@@ -1558,17 +1546,17 @@
                                             ],
                                             "isMainLine": false,
                                             "annotation": {
-                                              "moveRationale": "Ne5 develops a piece to an active square in the King's Gambit.",
-                                              "strategicTheme": "Knight activity",
-                                              "source": "generated"
+                                              "moveRationale": "White wills to save the knight while allowing 5. Qh4+ attacking the king.",
+                                              "strategicTheme": "Attacking play",
+                                              "source": "wikibooks"
                                             }
                                           }
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "g4 advances a pawn, influencing the structure in the King's Gambit.",
-                                          "strategicTheme": "Pawn structure",
-                                          "source": "generated"
+                                          "moveRationale": "With this move, Black reveals the full purpose of 3. g5 — not only did the g pawn protect Black's extra f pawn, it also threatened to dislodge White's sole defender of the h4 square, the knight on f3.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       },
                                       {
@@ -1792,43 +1780,7 @@
                                           {
                                             "move": "O-O",
                                             "fen": "rnbqk1nr/pppp1pbp/8/6p1/2B1Pp2/5N2/PPPP2PP/RNBQ1RK1 b kq - 3 5",
-                                            "children": [
-                                              {
-                                                "move": "h6",
-                                                "fen": "rnbqk1nr/pppp1pb1/7p/6p1/2B1Pp2/5N2/PPPP2PP/RNBQ1RK1 w kq - 0 6",
-                                                "children": [
-                                                  {
-                                                    "move": "d4",
-                                                    "fen": "rnbqk1nr/pppp1pb1/7p/6p1/2BPPp2/5N2/PPP3PP/RNBQ1RK1 b kq - 0 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "d6",
-                                                        "fen": "rnbqk1nr/ppp2pb1/3p3p/6p1/2BPPp2/5N2/PPP3PP/RNBQ1RK1 w kq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "d6 advances a pawn, influencing the structure in the King's Gambit.",
-                                                          "strategicTheme": "Prophylactic pawn move",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the King's Gambit.",
-                                                      "strategicTheme": "Central tension",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "h6 is a prophylactic move, preventing an opponent's piece from reaching an active square in the King's Gambit.",
-                                                  "strategicTheme": "Prophylactic pawn move",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
+                                            "children": [],
                                             "isMainLine": false,
                                             "annotation": {
                                               "moveRationale": "Castles kingside, securing the king and connecting the rooks in the King's Gambit.",
@@ -1882,9 +1834,9 @@
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the King's Gambit.",
-                                      "strategicTheme": "Active bishop development",
-                                      "source": "generated"
+                                      "moveRationale": "Bc4, White directly defends against Black's threat of 4. g4; White vacates the f1 square for their king once they are checked by the Black queen on h4.",
+                                      "strategicTheme": "Gambit play",
+                                      "source": "wikibooks"
                                     }
                                   },
                                   {
@@ -1893,9 +1845,9 @@
                                     "children": [],
                                     "isMainLine": false,
                                     "annotation": {
-                                      "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the King's Gambit.",
-                                      "strategicTheme": "Natural piece development",
-                                      "source": "generated"
+                                      "moveRationale": "Nc3, the Quaade Gambit, White indirectly defends against Black's threat of 4. g4 to kick away White's knight.",
+                                      "strategicTheme": "Gambit play",
+                                      "source": "wikibooks"
                                     }
                                   },
                                   {
@@ -1974,9 +1926,9 @@
                                     ],
                                     "isMainLine": false,
                                     "annotation": {
-                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the King's Gambit.",
-                                      "strategicTheme": "Central tension",
-                                      "source": "generated"
+                                      "moveRationale": "d4, the Rosentreter Gambit, White indirectly defends against Black's threat of 4. The most basic point is that White opens up their dark-squared bishop to recapture the f4 pawn.",
+                                      "strategicTheme": "Gambit play",
+                                      "source": "wikibooks"
                                     }
                                   },
                                   {
@@ -2241,9 +2193,9 @@
                                             ],
                                             "isMainLine": false,
                                             "annotation": {
-                                              "moveRationale": "Ng5 develops a piece to an active square in the King's Gambit.",
-                                              "strategicTheme": "Knight activity",
-                                              "source": "generated"
+                                              "moveRationale": "At first it looks like the knight trapped itself on g5, since it has no safe retreat squares. But the idea behind 5.",
+                                              "strategicTheme": "Gambit play",
+                                              "source": "wikibooks"
                                             }
                                           },
                                           {
@@ -2370,17 +2322,17 @@
                                                         ],
                                                         "isMainLine": false,
                                                         "annotation": {
-                                                          "moveRationale": "d5 advances a pawn, influencing the structure in the King's Gambit.",
-                                                          "strategicTheme": "Pawn structure",
-                                                          "source": "generated"
+                                                          "moveRationale": "White's c4-bishop and e4-pawn are forked by the Black pawn on d5. exd5 is necessary to remove the threat.",
+                                                          "strategicTheme": "Opening theory",
+                                                          "source": "wikibooks"
                                                         }
                                                       }
                                                     ],
                                                     "isMainLine": false,
                                                     "annotation": {
-                                                      "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the King's Gambit.",
-                                                      "strategicTheme": "Active bishop development",
-                                                      "source": "generated"
+                                                      "moveRationale": "Black has to do something about the attack by the White bishop and knight on f7. The bishop's diagonal must be blocked at the cost of a pawn with 6.",
+                                                      "strategicTheme": "Attacking play",
+                                                      "source": "wikibooks"
                                                     }
                                                   },
                                                   {
@@ -2420,9 +2372,9 @@
                                                 ],
                                                 "isMainLine": false,
                                                 "annotation": {
-                                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the King's Gambit.",
-                                                  "strategicTheme": "Natural piece development",
-                                                  "source": "generated"
+                                                  "moveRationale": "There's a pawn on g4 if White wants to capture it, but it isn't a free gift: Black is counter-attacking e4. d4 is the main line.",
+                                                  "strategicTheme": "Tactical sacrifice",
+                                                  "source": "wikibooks"
                                                 }
                                               },
                                               {
@@ -2499,36 +2451,12 @@
                                               {
                                                 "move": "d6",
                                                 "fen": "rnbqkbnr/ppp2p1p/3p4/4N3/4PppP/8/PPPP2P1/RNBQKB1R w KQkq - 0 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Nxg4",
-                                                    "fen": "rnbqkbnr/ppp2p1p/3p4/8/4PpNP/8/PPPP2P1/RNBQKB1R b KQkq - 0 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "Be7",
-                                                        "fen": "rnbqk1nr/ppp1bp1p/3p4/8/4PpNP/8/PPPP2P1/RNBQKB1R w KQkq - 1 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the King's Gambit.",
-                                                          "strategicTheme": "Bishop development",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Nxg4 exchanges material, altering the pawn structure in the King's Gambit.",
-                                                      "strategicTheme": "Material exchange",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
+                                                "children": [],
                                                 "isMainLine": false,
                                                 "annotation": {
-                                                  "moveRationale": "d6 advances a pawn, influencing the structure in the King's Gambit.",
-                                                  "strategicTheme": "Prophylactic pawn move",
-                                                  "source": "generated"
+                                                  "moveRationale": "Nxg4 is the only sensible move, otherwise it's not clear how White will ever recover the pawn on g4.",
+                                                  "strategicTheme": "Opening theory",
+                                                  "source": "wikibooks"
                                                 }
                                               },
                                               {
@@ -2685,33 +2613,33 @@
                                             ],
                                             "isMainLine": false,
                                             "annotation": {
-                                              "moveRationale": "Ne5 develops a piece to an active square in the King's Gambit.",
-                                              "strategicTheme": "Knight activity",
-                                              "source": "generated"
+                                              "moveRationale": "The Kieseritzky Gambit has been considered the main line of the King's Gambit for a long time. The continuations that follow this position have interesting strategic possibilities for both sides.",
+                                              "strategicTheme": "Gambit play",
+                                              "source": "wikibooks"
                                             }
                                           }
                                         ],
                                         "isMainLine": false,
                                         "annotation": {
-                                          "moveRationale": "g4 advances a pawn, influencing the structure in the King's Gambit.",
-                                          "strategicTheme": "Pawn structure",
-                                          "source": "generated"
+                                          "moveRationale": "White's knight is attacked. Although there are some King's Gambit positions where White can ignore this attack and carry on developing, this isn't one of them.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": false,
                                     "annotation": {
-                                      "moveRationale": "h4 advances a pawn, influencing the structure in the King's Gambit.",
-                                      "strategicTheme": "Pawn structure",
-                                      "source": "generated"
+                                      "moveRationale": "Black's g-pawn is attacked, and the only move that saves it is 4. simply loses the pawn to 5.",
+                                      "strategicTheme": "Piece development",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "g5 advances a pawn, influencing the structure in the King's Gambit.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black has put a pawn on g5 to defend f4. Left to his own devices, he could reinforce this pawn with.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               },
                               {
@@ -2756,9 +2684,9 @@
                                 ],
                                 "isMainLine": false,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the King's Gambit.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Black answers with 3. Nf6, the Schallopp Defense: an active line named after 19th-century German master Emil Schallopp.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               },
                               {
@@ -2865,17 +2793,17 @@
                                     ],
                                     "isMainLine": false,
                                     "annotation": {
-                                      "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the King's Gambit.",
-                                      "strategicTheme": "Active bishop development",
-                                      "source": "generated"
+                                      "moveRationale": "This bishop move places the bishop on a fine diagonal, helps control d5 and eyes f7. In the case of the check on h4, the king can sidestep to f1.",
+                                      "strategicTheme": "Gambit play",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": false,
                                 "annotation": {
-                                  "moveRationale": "Be7 develops the bishop to a modest but solid square, preparing to castle in the King's Gambit.",
-                                  "strategicTheme": "Bishop development",
-                                  "source": "generated"
+                                  "moveRationale": "Nf3 prevented the check on h4, Black's third move renews the threat and develops. Here White doesn't have a promising way to stop the check on h4, as 4.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               },
                               {
@@ -2980,17 +2908,17 @@
                                 ],
                                 "isMainLine": false,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the King's Gambit.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Nf3 d5\n\nBlack attacks the e4 pawn for initiative and easier development overall than White. However, in many lines Black loses their material advantage, and in some lines Black needs to play actively to keep their weak f4 pawn.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nf3 develops a piece to an active square in the King's Gambit.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nf3 develops a knight and controls the h4 square. This is important to prevent Black from playing Qh4+, exploiting the diagonal White opened with 2.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           },
                           {
@@ -3095,9 +3023,9 @@
                                 ],
                                 "isMainLine": false,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the King's Gambit.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Bc4 d5\n\n        \n                \n                4\n                5\n        \n        \n                \n                Bxd5&nbsp;\n                =\n        \n        \n                \n                exd5&nbsp;\n                =\n        \n\n* Modern Chess Openings: MCO-14. Nick de Firmian, Walter Korn.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               },
                               {
@@ -3478,9 +3406,9 @@
                                 ],
                                 "isMainLine": false,
                                 "annotation": {
-                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the King's Gambit.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "Bc4 Nf6\n\n        \n                \n                4\n                5\n        \n        \n                \n                Nc3&nbsp;\n                =\n        \n        \n                \n                d3&nbsp;\n                =\n        \n\n* Modern Chess Openings: MCO-14. Nick de Firmian, Walter Korn.",
+                                  "strategicTheme": "Opening theory",
+                                  "source": "wikibooks"
                                 }
                               },
                               {
@@ -3613,9 +3541,9 @@
                             ],
                             "isMainLine": false,
                             "annotation": {
-                              "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the King's Gambit.",
-                              "strategicTheme": "Active bishop development",
-                              "source": "generated"
+                              "moveRationale": "With this move, White develops the bishop and opens the square f1 for the king if Black elects to prevent White from castling with 3. However, this places the queen on a non-ideal square, with White later being able to play Nf3 and chase it away.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           },
                           {
@@ -3624,9 +3552,9 @@
                             "children": [],
                             "isMainLine": false,
                             "annotation": {
-                              "moveRationale": "Qf3 develops the queen early, seeking direct activity in the King's Gambit.",
-                              "strategicTheme": "Queen activity",
-                              "source": "generated"
+                              "moveRationale": "The Breyer Gambit is a chess opening that involves sacrificing a pawn on the second move to gain control of the center. It is also known as the King's Gambit Accepted: Breyer Gambit, because the black player accepts the gambit and tries to counterattack with their minor pieces.",
+                              "strategicTheme": "Center control",
+                              "source": "wikibooks"
                             }
                           },
                           {
@@ -3665,31 +3593,7 @@
                           {
                             "move": "g3",
                             "fen": "rnbqkbnr/pppp1ppp/8/8/4Pp2/6P1/PPPP3P/RNBQKBNR b KQkq - 0 3",
-                            "children": [
-                              {
-                                "move": "fxg3",
-                                "fen": "rnbqkbnr/pppp1ppp/8/8/4P3/6p1/PPPP3P/RNBQKBNR w KQkq - 0 4",
-                                "children": [
-                                  {
-                                    "move": "Nf3",
-                                    "fen": "rnbqkbnr/pppp1ppp/8/8/4P3/5Np1/PPPP3P/RNBQKB1R b KQkq - 1 4",
-                                    "children": [],
-                                    "isMainLine": true,
-                                    "annotation": {
-                                      "moveRationale": "Nf3 develops a piece to an active square in the King's Gambit.",
-                                      "strategicTheme": "Natural piece development",
-                                      "source": "generated"
-                                    }
-                                  }
-                                ],
-                                "isMainLine": true,
-                                "annotation": {
-                                  "moveRationale": "fxg3 exchanges material, altering the pawn structure in the King's Gambit.",
-                                  "strategicTheme": "Material exchange",
-                                  "source": "generated"
-                                }
-                              }
-                            ],
+                            "children": [],
                             "isMainLine": false,
                             "annotation": {
                               "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the King's Gambit.",
@@ -3700,19 +3604,7 @@
                           {
                             "move": "Nc3",
                             "fen": "rnbqkbnr/pppp1ppp/8/8/4Pp2/2N5/PPPP2PP/R1BQKBNR b KQkq - 1 3",
-                            "children": [
-                              {
-                                "move": "Qh4+",
-                                "fen": "rnb1kbnr/pppp1ppp/8/8/4Pp1q/2N5/PPPP2PP/R1BQKBNR w KQkq - 2 4",
-                                "children": [],
-                                "isMainLine": true,
-                                "annotation": {
-                                  "moveRationale": "Qh4+ delivers check, seizing the initiative in the King's Gambit.",
-                                  "strategicTheme": "King pressure",
-                                  "source": "generated"
-                                }
-                              }
-                            ],
+                            "children": [],
                             "isMainLine": false,
                             "annotation": {
                               "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the King's Gambit.",
@@ -3828,9 +3720,9 @@
                             "children": [],
                             "isMainLine": false,
                             "annotation": {
-                              "moveRationale": "Kf2 improves the position in the King's Gambit.",
-                              "strategicTheme": "Position improvement",
-                              "source": "generated"
+                              "moveRationale": "A joke continuation. Rather than provide for their king's defence, White moves it to a more vulnerable square, where it can be attacked by.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           },
                           {
@@ -3839,17 +3731,17 @@
                             "children": [],
                             "isMainLine": false,
                             "annotation": {
-                              "moveRationale": "d4 impacts the center, shaping the pawn structure in the King's Gambit.",
-                              "strategicTheme": "Central tension",
-                              "source": "generated"
+                              "moveRationale": "Just like the Queen’s gambit, this move reveals an attack on the f4 pawn. However, the Villemson Gambit can cause black to wreak havoc with Qh4+.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "exf4 impacts the center, shaping the pawn structure in the King's Gambit.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "If Black could make a free move in this position, it would undoubtedly be. White couldn't successfully block the check with the g-pawn thanks to the Black pawn on f4, and the awkward move Ke2 would be forced.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       },
                       {
@@ -4080,9 +3972,9 @@
                         ],
                         "isMainLine": false,
                         "annotation": {
-                          "moveRationale": "Bc5 develops the bishop actively, targeting the vulnerable f7/f2 square in the King's Gambit.",
-                          "strategicTheme": "Active bishop development",
-                          "source": "generated"
+                          "moveRationale": "Black declines the gambit in the \"classical\" way by developing the king's bishop to c5, which prevents White from castling or playing d4 for the time being. Nevertheless, White gets a small advantage with correct play.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       },
                       {
@@ -4131,55 +4023,7 @@
                               {
                                 "move": "f5",
                                 "fen": "r1bqkbnr/pppp2pp/2n5/4pp2/4PP2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4",
-                                "children": [
-                                  {
-                                    "move": "exf5",
-                                    "fen": "r1bqkbnr/pppp2pp/2n5/4pP2/5P2/5N2/PPPP2PP/RNBQKB1R b KQkq - 0 4",
-                                    "children": [
-                                      {
-                                        "move": "e4",
-                                        "fen": "r1bqkbnr/pppp2pp/2n5/5P2/4pP2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 5",
-                                        "children": [
-                                          {
-                                            "move": "Ne5",
-                                            "fen": "r1bqkbnr/pppp2pp/2n5/4NP2/4pP2/8/PPPP2PP/RNBQKB1R b KQkq - 1 5",
-                                            "children": [
-                                              {
-                                                "move": "Nf6",
-                                                "fen": "r1bqkb1r/pppp2pp/2n2n2/4NP2/4pP2/8/PPPP2PP/RNBQKB1R w KQkq - 2 6",
-                                                "children": [],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the King's Gambit.",
-                                                  "strategicTheme": "Natural piece development",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "Ne5 develops a piece to an active square in the King's Gambit.",
-                                              "strategicTheme": "Knight activity",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
-                                        "isMainLine": true,
-                                        "annotation": {
-                                          "moveRationale": "e4 impacts the center, shaping the pawn structure in the King's Gambit.",
-                                          "strategicTheme": "Central tension",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
-                                    "isMainLine": true,
-                                    "annotation": {
-                                      "moveRationale": "exf5 exchanges material, altering the pawn structure in the King's Gambit.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
-                                    }
-                                  }
-                                ],
+                                "children": [],
                                 "isMainLine": false,
                                 "annotation": {
                                   "moveRationale": "f5 advances a pawn, influencing the structure in the King's Gambit.",
@@ -4198,9 +4042,9 @@
                         ],
                         "isMainLine": false,
                         "annotation": {
-                          "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the King's Gambit.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "Nc6, a way to decline the king's gambit, is much more common in amateur games than in tournament chess. Nc6 develops a piece and prepares to recapture on e5, though Black's pawn was not actually hanging because 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       },
                       {
@@ -4502,9 +4346,9 @@
                         ],
                         "isMainLine": false,
                         "annotation": {
-                          "moveRationale": "f5 advances a pawn, influencing the structure in the King's Gambit.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Among the oldest countergambits in the King's Gambit Declined is the Panteldakis Countergambit, 1. , known from a game played in 1625 in which Gioachino Greco used it to win with the Black pieces.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       },
                       {
@@ -4548,9 +4392,9 @@
                         ],
                         "isMainLine": false,
                         "annotation": {
-                          "moveRationale": "f6 advances a pawn, influencing the structure in the King's Gambit.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "is an inferior way to decline the king's gambit. , recapturing with the pawn 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       },
                       {
@@ -4567,25 +4411,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "f4 advances a pawn, influencing the structure in the King's Gambit.",
-                      "strategicTheme": "Aggressive kingside expansion",
-                      "source": "generated"
+                      "moveRationale": "White attacks Black's pawn on e5 with the f-pawn, even though that pawn is itself attacked and undefended. White seeks to pry Black's pawn away from control of d4, so that they may place their own pawn there.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the King's Gambit.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the King's Gambit.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

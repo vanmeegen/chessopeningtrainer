@@ -63,9 +63,9 @@
                         ],
                         "isMainLine": false,
                         "annotation": {
-                          "moveRationale": "d6 advances a pawn, influencing the structure in the Center Game.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "This is an inferior way to enter a Philidor. While White's best move is still Nf3, transposing into the Philidor, it gives the additional option of immediately entering an endgame with 3.",
+                          "strategicTheme": "Piece development",
+                          "source": "wikibooks"
                         }
                       },
                       {
@@ -271,17 +271,17 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Center Game.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "White's queen is forced to retreat. By far, the most popular move is 4.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Qxd4 exchanges material, altering the pawn structure in the Center Game.",
-                              "strategicTheme": "Material exchange",
-                              "source": "generated"
+                              "moveRationale": "__NOTOC__\n\nIn the Center Game, White is happy with himself for knocking out Black's only foothold in the center square, e5. At the time, all four central squares are controlled by White.",
+                              "strategicTheme": "Center control",
+                              "source": "wikibooks"
                             }
                           },
                           {
@@ -354,19 +354,7 @@
                                   {
                                     "move": "Bc4",
                                     "fen": "rnbqkbnr/pp1p1ppp/8/2p5/2BpP3/5N2/PPP2PPP/RNBQK2R b KQkq - 1 4",
-                                    "children": [
-                                      {
-                                        "move": "b5",
-                                        "fen": "rnbqkbnr/p2p1ppp/8/1pp5/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 0 5",
-                                        "children": [],
-                                        "isMainLine": true,
-                                        "annotation": {
-                                          "moveRationale": "b5 advances a pawn, influencing the structure in the Center Game.",
-                                          "strategicTheme": "Pawn structure",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
+                                    "children": [],
                                     "isMainLine": false,
                                     "annotation": {
                                       "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Center Game.",
@@ -493,47 +481,12 @@
                                               {
                                                 "move": "Nf6",
                                                 "fen": "rnbqkb1r/pppp1ppp/5n2/8/2B1P3/8/PB3PPP/RN1QK1NR w KQkq - 1 6",
-                                                "children": [
-                                                  {
-                                                    "move": "e5",
-                                                    "fen": "rnbqkb1r/pppp1ppp/5n2/4P3/2B5/8/PB3PPP/RN1QK1NR b KQkq - 0 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "d5",
-                                                        "fen": "rnbqkb1r/ppp2ppp/5n2/3pP3/2B5/8/PB3PPP/RN1QK1NR w KQkq d6 0 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "d5 advances a pawn, influencing the structure in the Center Game.",
-                                                          "strategicTheme": "Pawn structure",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "e5 advances a pawn, influencing the structure in the Center Game.",
-                                                      "strategicTheme": "Pawn structure",
-                                                      "source": "generated"
-                                                    }
-                                                  },
-                                                  {
-                                                    "move": "Nf3",
-                                                    "fen": "rnbqkb1r/pppp1ppp/5n2/8/2B1P3/5N2/PB3PPP/RN1QK2R b KQkq - 2 6",
-                                                    "children": [],
-                                                    "isMainLine": false,
-                                                    "annotation": {
-                                                      "moveRationale": "Nf3 develops a piece to an active square in the Center Game.",
-                                                      "strategicTheme": "Natural piece development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
+                                                "children": [],
                                                 "isMainLine": false,
                                                 "annotation": {
-                                                  "moveRationale": "Nf6 develops the knight while attacking the e4 pawn in the Center Game.",
-                                                  "strategicTheme": "Natural piece development",
-                                                  "source": "generated"
+                                                  "moveRationale": "Black's knight on f6 is targeting the undefended e-pawn. Turning the tables with 6.",
+                                                  "strategicTheme": "Piece development",
+                                                  "source": "wikibooks"
                                                 }
                                               },
                                               {
@@ -553,41 +506,41 @@
                                                 "children": [],
                                                 "isMainLine": false,
                                                 "annotation": {
-                                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Center Game.",
-                                                  "strategicTheme": "Pawn structure",
-                                                  "source": "generated"
+                                                  "moveRationale": "d5, Black aggressively strikes back at the center, releasing the bishop to catch up in development, returning a pawn in the process. White main move is 6.",
+                                                  "strategicTheme": "Piece development",
+                                                  "source": "wikibooks"
                                                 }
                                               }
                                             ],
                                             "isMainLine": false,
                                             "annotation": {
-                                              "moveRationale": "Bxb2 exchanges material, altering the pawn structure in the Center Game.",
-                                              "strategicTheme": "Material exchange",
-                                              "source": "generated"
+                                              "moveRationale": "The pawn is recaptured. White has great attacking chances with her two open bishops and quick development, but Black is up two pawns.",
+                                              "strategicTheme": "Gambit play",
+                                              "source": "wikibooks"
                                             }
                                           }
                                         ],
                                         "isMainLine": false,
                                         "annotation": {
-                                          "moveRationale": "cxb2 exchanges material, altering the pawn structure in the Center Game.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "This time White has to recapture the pawn with 5. Bxb2 rather than give Black a second queen.",
+                                          "strategicTheme": "Tactical sacrifice",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": false,
                                     "annotation": {
-                                      "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Center Game.",
-                                      "strategicTheme": "Active bishop development",
-                                      "source": "generated"
+                                      "moveRationale": "Bc4 gambits a second pawn. It develops the light-squared bishop to a place attacking Black's weakest square f7.",
+                                      "strategicTheme": "Gambit play",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": false,
                                 "annotation": {
-                                  "moveRationale": "dxc3 impacts the center, shaping the pawn structure in the Center Game.",
-                                  "strategicTheme": "Central tension",
-                                  "source": "generated"
+                                  "moveRationale": "The Danish Gambit Accepted is popular among club players, but not so popular at the highest level. That is because, it is easy for black to fall into one of the many traps on this line, but if black knows what to do, white can get no more than equality out of the opening.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               },
                               {
@@ -607,49 +560,49 @@
                                 "children": [],
                                 "isMainLine": false,
                                 "annotation": {
-                                  "moveRationale": "d5 advances a pawn, influencing the structure in the Center Game.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "This is the Sörensen Defense and is also sometimes called the Capablanca Defense. From this position, White almost always plays /4.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": false,
                             "annotation": {
-                              "moveRationale": "c3 advances a pawn, influencing the structure in the Center Game.",
-                              "strategicTheme": "Prophylactic pawn move",
-                              "source": "generated"
+                              "moveRationale": "White chooses to play an aggressive game. By giving a two-pawn material advantage to his opponent, Black spends two moves to capture both of the pawns, and has to deal with a massive attack.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Center Game.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "__NOTOC__\n\nBlack goes in the direction of the Centre Game by capturing the white e-pawn. The usual move is 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Center Game.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "d4 to smash open the centre. White threatens to take on e5, but really they are provoking exd4, and planning to develop their pieces rapidly by opening up the d-file for their queen and bishop.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Center Game.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Center Game.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -879,49 +832,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Center Game.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "White's queen is forced to retreat. By far, the most popular move is 4.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Qxd4 exchanges material, altering the pawn structure in the Center Game.",
-                              "strategicTheme": "Material exchange",
-                              "source": "generated"
+                              "moveRationale": "__NOTOC__\n\nIn the Center Game, White is happy with himself for knocking out Black's only foothold in the center square, e5. At the time, all four central squares are controlled by White.",
+                              "strategicTheme": "Center control",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Center Game.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "__NOTOC__\n\nBlack goes in the direction of the Centre Game by capturing the white e-pawn. The usual move is 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Center Game.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "d4 to smash open the centre. White threatens to take on e5, but really they are provoking exd4, and planning to develop their pieces rapidly by opening up the d-file for their queen and bishop.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Center Game.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Center Game.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1014,33 +967,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Center Game.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "__NOTOC__\n\nBlack goes in the direction of the Centre Game by capturing the white e-pawn. The usual move is 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Center Game.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "d4 to smash open the centre. White threatens to take on e5, but really they are provoking exd4, and planning to develop their pieces rapidly by opening up the d-file for their queen and bishop.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Center Game.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Center Game.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1133,33 +1086,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Center Game.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "__NOTOC__\n\nBlack goes in the direction of the Centre Game by capturing the white e-pawn. The usual move is 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Center Game.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "d4 to smash open the centre. White threatens to take on e5, but really they are provoking exd4, and planning to develop their pieces rapidly by opening up the d-file for their queen and bishop.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Center Game.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Center Game.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1201,19 +1154,7 @@
                                   {
                                     "move": "Bc4",
                                     "fen": "rnbqkbnr/pp1p1ppp/8/2p5/2BpP3/5N2/PPP2PPP/RNBQK2R b KQkq - 1 4",
-                                    "children": [
-                                      {
-                                        "move": "b5",
-                                        "fen": "rnbqkbnr/p2p1ppp/8/1pp5/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 0 5",
-                                        "children": [],
-                                        "isMainLine": true,
-                                        "annotation": {
-                                          "moveRationale": "b5 advances a pawn, influencing the structure in the Center Game.",
-                                          "strategicTheme": "Pawn structure",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
+                                    "children": [],
                                     "isMainLine": false,
                                     "annotation": {
                                       "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Center Game.",
@@ -1287,33 +1228,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Center Game.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "__NOTOC__\n\nBlack goes in the direction of the Centre Game by capturing the white e-pawn. The usual move is 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Center Game.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "d4 to smash open the centre. White threatens to take on e5, but really they are provoking exd4, and planning to develop their pieces rapidly by opening up the d-file for their queen and bishop.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Center Game.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Center Game.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1355,19 +1296,7 @@
                                   {
                                     "move": "Bc4",
                                     "fen": "rnbqkbnr/pp1p1ppp/8/2p5/2BpP3/5N2/PPP2PPP/RNBQK2R b KQkq - 1 4",
-                                    "children": [
-                                      {
-                                        "move": "b5",
-                                        "fen": "rnbqkbnr/p2p1ppp/8/1pp5/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 0 5",
-                                        "children": [],
-                                        "isMainLine": true,
-                                        "annotation": {
-                                          "moveRationale": "b5 advances a pawn, influencing the structure in the Center Game.",
-                                          "strategicTheme": "Pawn structure",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
+                                    "children": [],
                                     "isMainLine": true,
                                     "annotation": {
                                       "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Center Game.",
@@ -1394,33 +1323,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Center Game.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "__NOTOC__\n\nBlack goes in the direction of the Centre Game by capturing the white e-pawn. The usual move is 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Center Game.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "d4 to smash open the centre. White threatens to take on e5, but really they are provoking exd4, and planning to develop their pieces rapidly by opening up the d-file for their queen and bishop.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Center Game.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Center Game.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1462,19 +1391,7 @@
                                   {
                                     "move": "Bc4",
                                     "fen": "rnbqkbnr/pp1p1ppp/8/2p5/2BpP3/5N2/PPP2PPP/RNBQK2R b KQkq - 1 4",
-                                    "children": [
-                                      {
-                                        "move": "b5",
-                                        "fen": "rnbqkbnr/p2p1ppp/8/1pp5/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 0 5",
-                                        "children": [],
-                                        "isMainLine": true,
-                                        "annotation": {
-                                          "moveRationale": "b5 advances a pawn, influencing the structure in the Center Game.",
-                                          "strategicTheme": "Pawn structure",
-                                          "source": "generated"
-                                        }
-                                      }
-                                    ],
+                                    "children": [],
                                     "isMainLine": true,
                                     "annotation": {
                                       "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Center Game.",
@@ -1501,33 +1418,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Center Game.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "__NOTOC__\n\nBlack goes in the direction of the Centre Game by capturing the white e-pawn. The usual move is 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Center Game.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "d4 to smash open the centre. White threatens to take on e5, but really they are provoking exd4, and planning to develop their pieces rapidly by opening up the d-file for their queen and bishop.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Center Game.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Center Game.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1620,33 +1537,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Center Game.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "__NOTOC__\n\nBlack goes in the direction of the Centre Game by capturing the white e-pawn. The usual move is 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Center Game.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "d4 to smash open the centre. White threatens to take on e5, but really they are provoking exd4, and planning to develop their pieces rapidly by opening up the d-file for their queen and bishop.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Center Game.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Center Game.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1739,33 +1656,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Center Game.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "__NOTOC__\n\nBlack goes in the direction of the Centre Game by capturing the white e-pawn. The usual move is 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Center Game.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "d4 to smash open the centre. White threatens to take on e5, but really they are provoking exd4, and planning to develop their pieces rapidly by opening up the d-file for their queen and bishop.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Center Game.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Center Game.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1810,33 +1727,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Center Game.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "__NOTOC__\n\nBlack goes in the direction of the Centre Game by capturing the white e-pawn. The usual move is 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Center Game.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "d4 to smash open the centre. White threatens to take on e5, but really they are provoking exd4, and planning to develop their pieces rapidly by opening up the d-file for their queen and bishop.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Center Game.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Center Game.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1881,33 +1798,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Center Game.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "__NOTOC__\n\nBlack goes in the direction of the Centre Game by capturing the white e-pawn. The usual move is 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Center Game.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "d4 to smash open the centre. White threatens to take on e5, but really they are provoking exd4, and planning to develop their pieces rapidly by opening up the d-file for their queen and bishop.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Center Game.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Center Game.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2080,49 +1997,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Center Game.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "White's queen is forced to retreat. By far, the most popular move is 4.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Qxd4 exchanges material, altering the pawn structure in the Center Game.",
-                              "strategicTheme": "Material exchange",
-                              "source": "generated"
+                              "moveRationale": "__NOTOC__\n\nIn the Center Game, White is happy with himself for knocking out Black's only foothold in the center square, e5. At the time, all four central squares are controlled by White.",
+                              "strategicTheme": "Center control",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Center Game.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "__NOTOC__\n\nBlack goes in the direction of the Centre Game by capturing the white e-pawn. The usual move is 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Center Game.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "d4 to smash open the centre. White threatens to take on e5, but really they are provoking exd4, and planning to develop their pieces rapidly by opening up the d-file for their queen and bishop.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Center Game.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Center Game.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2211,49 +2128,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Center Game.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "White's queen is forced to retreat. By far, the most popular move is 4.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Qxd4 exchanges material, altering the pawn structure in the Center Game.",
-                              "strategicTheme": "Material exchange",
-                              "source": "generated"
+                              "moveRationale": "__NOTOC__\n\nIn the Center Game, White is happy with himself for knocking out Black's only foothold in the center square, e5. At the time, all four central squares are controlled by White.",
+                              "strategicTheme": "Center control",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Center Game.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "__NOTOC__\n\nBlack goes in the direction of the Centre Game by capturing the white e-pawn. The usual move is 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Center Game.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "d4 to smash open the centre. White threatens to take on e5, but really they are provoking exd4, and planning to develop their pieces rapidly by opening up the d-file for their queen and bishop.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Center Game.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Center Game.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2306,49 +2223,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Center Game.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "White's queen is forced to retreat. By far, the most popular move is 4.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Qxd4 exchanges material, altering the pawn structure in the Center Game.",
-                              "strategicTheme": "Material exchange",
-                              "source": "generated"
+                              "moveRationale": "__NOTOC__\n\nIn the Center Game, White is happy with himself for knocking out Black's only foothold in the center square, e5. At the time, all four central squares are controlled by White.",
+                              "strategicTheme": "Center control",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Center Game.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "__NOTOC__\n\nBlack goes in the direction of the Centre Game by capturing the white e-pawn. The usual move is 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Center Game.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "d4 to smash open the centre. White threatens to take on e5, but really they are provoking exd4, and planning to develop their pieces rapidly by opening up the d-file for their queen and bishop.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Center Game.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Center Game.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2521,49 +2438,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Center Game.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "White's queen is forced to retreat. By far, the most popular move is 4.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Qxd4 exchanges material, altering the pawn structure in the Center Game.",
-                              "strategicTheme": "Material exchange",
-                              "source": "generated"
+                              "moveRationale": "__NOTOC__\n\nIn the Center Game, White is happy with himself for knocking out Black's only foothold in the center square, e5. At the time, all four central squares are controlled by White.",
+                              "strategicTheme": "Center control",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Center Game.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "__NOTOC__\n\nBlack goes in the direction of the Centre Game by capturing the white e-pawn. The usual move is 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Center Game.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "d4 to smash open the centre. White threatens to take on e5, but really they are provoking exd4, and planning to develop their pieces rapidly by opening up the d-file for their queen and bishop.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Center Game.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Center Game.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2793,49 +2710,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Center Game.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "White's queen is forced to retreat. By far, the most popular move is 4.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Qxd4 exchanges material, altering the pawn structure in the Center Game.",
-                              "strategicTheme": "Material exchange",
-                              "source": "generated"
+                              "moveRationale": "__NOTOC__\n\nIn the Center Game, White is happy with himself for knocking out Black's only foothold in the center square, e5. At the time, all four central squares are controlled by White.",
+                              "strategicTheme": "Center control",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Center Game.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "__NOTOC__\n\nBlack goes in the direction of the Centre Game by capturing the white e-pawn. The usual move is 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Center Game.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "d4 to smash open the centre. White threatens to take on e5, but really they are provoking exd4, and planning to develop their pieces rapidly by opening up the d-file for their queen and bishop.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Center Game.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Center Game.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3054,49 +2971,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Center Game.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "White's queen is forced to retreat. By far, the most popular move is 4.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Qxd4 exchanges material, altering the pawn structure in the Center Game.",
-                              "strategicTheme": "Material exchange",
-                              "source": "generated"
+                              "moveRationale": "__NOTOC__\n\nIn the Center Game, White is happy with himself for knocking out Black's only foothold in the center square, e5. At the time, all four central squares are controlled by White.",
+                              "strategicTheme": "Center control",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Center Game.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "__NOTOC__\n\nBlack goes in the direction of the Centre Game by capturing the white e-pawn. The usual move is 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Center Game.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "d4 to smash open the centre. White threatens to take on e5, but really they are provoking exd4, and planning to develop their pieces rapidly by opening up the d-file for their queen and bishop.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Center Game.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Center Game.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3161,49 +3078,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the Center Game.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "White's queen is forced to retreat. By far, the most popular move is 4.",
+                                  "strategicTheme": "Piece development",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Qxd4 exchanges material, altering the pawn structure in the Center Game.",
-                              "strategicTheme": "Material exchange",
-                              "source": "generated"
+                              "moveRationale": "__NOTOC__\n\nIn the Center Game, White is happy with himself for knocking out Black's only foothold in the center square, e5. At the time, all four central squares are controlled by White.",
+                              "strategicTheme": "Center control",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "exd4 impacts the center, shaping the pawn structure in the Center Game.",
-                          "strategicTheme": "Central tension",
-                          "source": "generated"
+                          "moveRationale": "__NOTOC__\n\nBlack goes in the direction of the Centre Game by capturing the white e-pawn. The usual move is 3.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the Center Game.",
-                      "strategicTheme": "Central tension",
-                      "source": "generated"
+                      "moveRationale": "d4 to smash open the centre. White threatens to take on e5, but really they are provoking exd4, and planning to develop their pieces rapidly by opening up the d-file for their queen and bishop.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e5 advances a pawn, influencing the structure in the Center Game.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "e5 is the Open game (or the Double King's Pawn game). It is Black's classical response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the Center Game.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

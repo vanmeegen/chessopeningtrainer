@@ -442,42 +442,7 @@
                                           {
                                             "move": "e4",
                                             "fen": "rnbqkbnr/pp3ppp/8/2pp4/3PP3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "dxe4",
-                                                "fen": "rnbqkbnr/pp3ppp/8/2p5/3Pp3/2N5/PP3PPP/R1BQKBNR w KQkq - 0 6",
-                                                "children": [
-                                                  {
-                                                    "move": "d5",
-                                                    "fen": "rnbqkbnr/pp3ppp/8/2pP4/4p3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 6",
-                                                    "children": [],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                                                      "strategicTheme": "Pawn structure",
-                                                      "source": "generated"
-                                                    }
-                                                  },
-                                                  {
-                                                    "move": "Bc4",
-                                                    "fen": "rnbqkbnr/pp3ppp/8/2p5/2BPp3/2N5/PP3PPP/R1BQK1NR b KQkq - 1 6",
-                                                    "children": [],
-                                                    "isMainLine": false,
-                                                    "annotation": {
-                                                      "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Tarrasch Defense.",
-                                                      "strategicTheme": "Active bishop development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Tarrasch Defense.",
-                                                  "strategicTheme": "Central tension",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
+                                            "children": [],
                                             "isMainLine": false,
                                             "annotation": {
                                               "moveRationale": "e4 impacts the center, shaping the pawn structure in the Tarrasch Defense.",
@@ -535,9 +500,9 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "exd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Black recaptures on d5, keeping a pawn in the center. White usually continues developing the knights and preparing to fianchetto the light-squared bishop.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       },
                                       {
@@ -618,17 +583,17 @@
                                         ],
                                         "isMainLine": false,
                                         "annotation": {
-                                          "moveRationale": "cxd4 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Instead of the usual 4. exd5 Black opts to gambit a pawn for rapid development.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White captures the d5 pawn in an attempt to give Black an isolated queen's pawn. Black has two viable responses:\n\n/4.",
+                                      "strategicTheme": "Center control",
+                                      "source": "wikibooks"
                                     }
                                   },
                                   {
@@ -681,49 +646,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "c5 challenges the center from the flank in the Tarrasch Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black aggressively attempts to gain space in the center, with the caveat of a potentially isolated pawn on d5 after a few pawn exchanges. The isolated queen's pawn is one of the reasons many players prefer to play the Semi-Tarrasch instead.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Tarrasch Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nc3, White continues development and puts pressure on the d5 pawn, and also controls the e4 square for a possible e4 break in the future. White wants to play e4 at some point in the future, and the move 3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6, Black declines the Queen's Gambit in the traditional fashion. e6 bolsters the d5 pawn and opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Tarrasch Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "The Queen's gambit is one of the oldest openings in chess. White offers a pawn in order to gain control of the centre.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Tarrasch Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -844,65 +809,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "exd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Black recaptures on d5, keeping a pawn in the center. White usually continues developing the knights and preparing to fianchetto the light-squared bishop.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White captures the d5 pawn in an attempt to give Black an isolated queen's pawn. Black has two viable responses:\n\n/4.",
+                                      "strategicTheme": "Center control",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "c5 challenges the center from the flank in the Tarrasch Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black aggressively attempts to gain space in the center, with the caveat of a potentially isolated pawn on d5 after a few pawn exchanges. The isolated queen's pawn is one of the reasons many players prefer to play the Semi-Tarrasch instead.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Tarrasch Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nc3, White continues development and puts pressure on the d5 pawn, and also controls the e4 square for a possible e4 break in the future. White wants to play e4 at some point in the future, and the move 3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6, Black declines the Queen's Gambit in the traditional fashion. e6 bolsters the d5 pawn and opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Tarrasch Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "The Queen's gambit is one of the oldest openings in chess. White offers a pawn in order to gain control of the centre.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Tarrasch Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -952,42 +917,7 @@
                                           {
                                             "move": "e4",
                                             "fen": "rnbqkbnr/pp3ppp/8/2pp4/3PP3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "dxe4",
-                                                "fen": "rnbqkbnr/pp3ppp/8/2p5/3Pp3/2N5/PP3PPP/R1BQKBNR w KQkq - 0 6",
-                                                "children": [
-                                                  {
-                                                    "move": "d5",
-                                                    "fen": "rnbqkbnr/pp3ppp/8/2pP4/4p3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 6",
-                                                    "children": [],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                                                      "strategicTheme": "Pawn structure",
-                                                      "source": "generated"
-                                                    }
-                                                  },
-                                                  {
-                                                    "move": "Bc4",
-                                                    "fen": "rnbqkbnr/pp3ppp/8/2p5/2BPp3/2N5/PP3PPP/R1BQK1NR b KQkq - 1 6",
-                                                    "children": [],
-                                                    "isMainLine": false,
-                                                    "annotation": {
-                                                      "moveRationale": "Bc4 develops the bishop actively, targeting the vulnerable f7/f2 square in the Tarrasch Defense.",
-                                                      "strategicTheme": "Active bishop development",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "dxe4 impacts the center, shaping the pawn structure in the Tarrasch Defense.",
-                                                  "strategicTheme": "Central tension",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
+                                            "children": [],
                                             "isMainLine": true,
                                             "annotation": {
                                               "moveRationale": "e4 impacts the center, shaping the pawn structure in the Tarrasch Defense.",
@@ -998,65 +928,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "exd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Black recaptures on d5, keeping a pawn in the center. White usually continues developing the knights and preparing to fianchetto the light-squared bishop.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White captures the d5 pawn in an attempt to give Black an isolated queen's pawn. Black has two viable responses:\n\n/4.",
+                                      "strategicTheme": "Center control",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "c5 challenges the center from the flank in the Tarrasch Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black aggressively attempts to gain space in the center, with the caveat of a potentially isolated pawn on d5 after a few pawn exchanges. The isolated queen's pawn is one of the reasons many players prefer to play the Semi-Tarrasch instead.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Tarrasch Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nc3, White continues development and puts pressure on the d5 pawn, and also controls the e4 square for a possible e4 break in the future. White wants to play e4 at some point in the future, and the move 3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6, Black declines the Queen's Gambit in the traditional fashion. e6 bolsters the d5 pawn and opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Tarrasch Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "The Queen's gambit is one of the oldest openings in chess. White offers a pawn in order to gain control of the centre.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Tarrasch Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1177,65 +1107,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "cxd4 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Instead of the usual 4. exd5 Black opts to gambit a pawn for rapid development.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White captures the d5 pawn in an attempt to give Black an isolated queen's pawn. Black has two viable responses:\n\n/4.",
+                                      "strategicTheme": "Center control",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "c5 challenges the center from the flank in the Tarrasch Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black aggressively attempts to gain space in the center, with the caveat of a potentially isolated pawn on d5 after a few pawn exchanges. The isolated queen's pawn is one of the reasons many players prefer to play the Semi-Tarrasch instead.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Tarrasch Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nc3, White continues development and puts pressure on the d5 pawn, and also controls the e4 square for a possible e4 break in the future. White wants to play e4 at some point in the future, and the move 3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6, Black declines the Queen's Gambit in the traditional fashion. e6 bolsters the d5 pawn and opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Tarrasch Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "The Queen's gambit is one of the oldest openings in chess. White offers a pawn in order to gain control of the centre.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Tarrasch Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1324,49 +1254,49 @@
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "c5 challenges the center from the flank in the Tarrasch Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black aggressively attempts to gain space in the center, with the caveat of a potentially isolated pawn on d5 after a few pawn exchanges. The isolated queen's pawn is one of the reasons many players prefer to play the Semi-Tarrasch instead.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Tarrasch Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nc3, White continues development and puts pressure on the d5 pawn, and also controls the e4 square for a possible e4 break in the future. White wants to play e4 at some point in the future, and the move 3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6, Black declines the Queen's Gambit in the traditional fashion. e6 bolsters the d5 pawn and opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Tarrasch Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "The Queen's gambit is one of the oldest openings in chess. White offers a pawn in order to gain control of the centre.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Tarrasch Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1463,65 +1393,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "exd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Black recaptures on d5, keeping a pawn in the center. White usually continues developing the knights and preparing to fianchetto the light-squared bishop.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White captures the d5 pawn in an attempt to give Black an isolated queen's pawn. Black has two viable responses:\n\n/4.",
+                                      "strategicTheme": "Center control",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "c5 challenges the center from the flank in the Tarrasch Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black aggressively attempts to gain space in the center, with the caveat of a potentially isolated pawn on d5 after a few pawn exchanges. The isolated queen's pawn is one of the reasons many players prefer to play the Semi-Tarrasch instead.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Tarrasch Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nc3, White continues development and puts pressure on the d5 pawn, and also controls the e4 square for a possible e4 break in the future. White wants to play e4 at some point in the future, and the move 3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6, Black declines the Queen's Gambit in the traditional fashion. e6 bolsters the d5 pawn and opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Tarrasch Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "The Queen's gambit is one of the oldest openings in chess. White offers a pawn in order to gain control of the centre.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Tarrasch Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1968,65 +1898,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "exd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Black recaptures on d5, keeping a pawn in the center. White usually continues developing the knights and preparing to fianchetto the light-squared bishop.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White captures the d5 pawn in an attempt to give Black an isolated queen's pawn. Black has two viable responses:\n\n/4.",
+                                      "strategicTheme": "Center control",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "c5 challenges the center from the flank in the Tarrasch Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black aggressively attempts to gain space in the center, with the caveat of a potentially isolated pawn on d5 after a few pawn exchanges. The isolated queen's pawn is one of the reasons many players prefer to play the Semi-Tarrasch instead.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Tarrasch Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nc3, White continues development and puts pressure on the d5 pawn, and also controls the e4 square for a possible e4 break in the future. White wants to play e4 at some point in the future, and the move 3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6, Black declines the Queen's Gambit in the traditional fashion. e6 bolsters the d5 pawn and opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Tarrasch Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "The Queen's gambit is one of the oldest openings in chess. White offers a pawn in order to gain control of the centre.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Tarrasch Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2147,65 +2077,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "cxd4 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Instead of the usual 4. exd5 Black opts to gambit a pawn for rapid development.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White captures the d5 pawn in an attempt to give Black an isolated queen's pawn. Black has two viable responses:\n\n/4.",
+                                      "strategicTheme": "Center control",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "c5 challenges the center from the flank in the Tarrasch Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black aggressively attempts to gain space in the center, with the caveat of a potentially isolated pawn on d5 after a few pawn exchanges. The isolated queen's pawn is one of the reasons many players prefer to play the Semi-Tarrasch instead.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Tarrasch Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nc3, White continues development and puts pressure on the d5 pawn, and also controls the e4 square for a possible e4 break in the future. White wants to play e4 at some point in the future, and the move 3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6, Black declines the Queen's Gambit in the traditional fashion. e6 bolsters the d5 pawn and opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Tarrasch Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "The Queen's gambit is one of the oldest openings in chess. White offers a pawn in order to gain control of the centre.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Tarrasch Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2350,65 +2280,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "exd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Black recaptures on d5, keeping a pawn in the center. White usually continues developing the knights and preparing to fianchetto the light-squared bishop.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White captures the d5 pawn in an attempt to give Black an isolated queen's pawn. Black has two viable responses:\n\n/4.",
+                                      "strategicTheme": "Center control",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "c5 challenges the center from the flank in the Tarrasch Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black aggressively attempts to gain space in the center, with the caveat of a potentially isolated pawn on d5 after a few pawn exchanges. The isolated queen's pawn is one of the reasons many players prefer to play the Semi-Tarrasch instead.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Tarrasch Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nc3, White continues development and puts pressure on the d5 pawn, and also controls the e4 square for a possible e4 break in the future. White wants to play e4 at some point in the future, and the move 3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6, Black declines the Queen's Gambit in the traditional fashion. e6 bolsters the d5 pawn and opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Tarrasch Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "The Queen's gambit is one of the oldest openings in chess. White offers a pawn in order to gain control of the centre.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Tarrasch Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2785,65 +2715,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "exd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Black recaptures on d5, keeping a pawn in the center. White usually continues developing the knights and preparing to fianchetto the light-squared bishop.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White captures the d5 pawn in an attempt to give Black an isolated queen's pawn. Black has two viable responses:\n\n/4.",
+                                      "strategicTheme": "Center control",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "c5 challenges the center from the flank in the Tarrasch Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black aggressively attempts to gain space in the center, with the caveat of a potentially isolated pawn on d5 after a few pawn exchanges. The isolated queen's pawn is one of the reasons many players prefer to play the Semi-Tarrasch instead.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Tarrasch Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nc3, White continues development and puts pressure on the d5 pawn, and also controls the e4 square for a possible e4 break in the future. White wants to play e4 at some point in the future, and the move 3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6, Black declines the Queen's Gambit in the traditional fashion. e6 bolsters the d5 pawn and opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Tarrasch Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "The Queen's gambit is one of the oldest openings in chess. White offers a pawn in order to gain control of the centre.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Tarrasch Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3243,65 +3173,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "exd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Black recaptures on d5, keeping a pawn in the center. White usually continues developing the knights and preparing to fianchetto the light-squared bishop.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White captures the d5 pawn in an attempt to give Black an isolated queen's pawn. Black has two viable responses:\n\n/4.",
+                                      "strategicTheme": "Center control",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "c5 challenges the center from the flank in the Tarrasch Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black aggressively attempts to gain space in the center, with the caveat of a potentially isolated pawn on d5 after a few pawn exchanges. The isolated queen's pawn is one of the reasons many players prefer to play the Semi-Tarrasch instead.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Tarrasch Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nc3, White continues development and puts pressure on the d5 pawn, and also controls the e4 square for a possible e4 break in the future. White wants to play e4 at some point in the future, and the move 3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6, Black declines the Queen's Gambit in the traditional fashion. e6 bolsters the d5 pawn and opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Tarrasch Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "The Queen's gambit is one of the oldest openings in chess. White offers a pawn in order to gain control of the centre.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Tarrasch Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3410,65 +3340,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "exd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Black recaptures on d5, keeping a pawn in the center. White usually continues developing the knights and preparing to fianchetto the light-squared bishop.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White captures the d5 pawn in an attempt to give Black an isolated queen's pawn. Black has two viable responses:\n\n/4.",
+                                      "strategicTheme": "Center control",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "c5 challenges the center from the flank in the Tarrasch Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black aggressively attempts to gain space in the center, with the caveat of a potentially isolated pawn on d5 after a few pawn exchanges. The isolated queen's pawn is one of the reasons many players prefer to play the Semi-Tarrasch instead.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Tarrasch Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nc3, White continues development and puts pressure on the d5 pawn, and also controls the e4 square for a possible e4 break in the future. White wants to play e4 at some point in the future, and the move 3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6, Black declines the Queen's Gambit in the traditional fashion. e6 bolsters the d5 pawn and opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Tarrasch Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "The Queen's gambit is one of the oldest openings in chess. White offers a pawn in order to gain control of the centre.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Tarrasch Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3577,65 +3507,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "exd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Black recaptures on d5, keeping a pawn in the center. White usually continues developing the knights and preparing to fianchetto the light-squared bishop.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White captures the d5 pawn in an attempt to give Black an isolated queen's pawn. Black has two viable responses:\n\n/4.",
+                                      "strategicTheme": "Center control",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "c5 challenges the center from the flank in the Tarrasch Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black aggressively attempts to gain space in the center, with the caveat of a potentially isolated pawn on d5 after a few pawn exchanges. The isolated queen's pawn is one of the reasons many players prefer to play the Semi-Tarrasch instead.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Tarrasch Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nc3, White continues development and puts pressure on the d5 pawn, and also controls the e4 square for a possible e4 break in the future. White wants to play e4 at some point in the future, and the move 3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6, Black declines the Queen's Gambit in the traditional fashion. e6 bolsters the d5 pawn and opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Tarrasch Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "The Queen's gambit is one of the oldest openings in chess. White offers a pawn in order to gain control of the centre.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Tarrasch Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -3756,65 +3686,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "exd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Black recaptures on d5, keeping a pawn in the center. White usually continues developing the knights and preparing to fianchetto the light-squared bishop.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White captures the d5 pawn in an attempt to give Black an isolated queen's pawn. Black has two viable responses:\n\n/4.",
+                                      "strategicTheme": "Center control",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "c5 challenges the center from the flank in the Tarrasch Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black aggressively attempts to gain space in the center, with the caveat of a potentially isolated pawn on d5 after a few pawn exchanges. The isolated queen's pawn is one of the reasons many players prefer to play the Semi-Tarrasch instead.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Tarrasch Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nc3, White continues development and puts pressure on the d5 pawn, and also controls the e4 square for a possible e4 break in the future. White wants to play e4 at some point in the future, and the move 3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6, Black declines the Queen's Gambit in the traditional fashion. e6 bolsters the d5 pawn and opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Tarrasch Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "The Queen's gambit is one of the oldest openings in chess. White offers a pawn in order to gain control of the centre.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Tarrasch Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -4145,65 +4075,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "exd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Black recaptures on d5, keeping a pawn in the center. White usually continues developing the knights and preparing to fianchetto the light-squared bishop.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White captures the d5 pawn in an attempt to give Black an isolated queen's pawn. Black has two viable responses:\n\n/4.",
+                                      "strategicTheme": "Center control",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "c5 challenges the center from the flank in the Tarrasch Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black aggressively attempts to gain space in the center, with the caveat of a potentially isolated pawn on d5 after a few pawn exchanges. The isolated queen's pawn is one of the reasons many players prefer to play the Semi-Tarrasch instead.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Tarrasch Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nc3, White continues development and puts pressure on the d5 pawn, and also controls the e4 square for a possible e4 break in the future. White wants to play e4 at some point in the future, and the move 3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6, Black declines the Queen's Gambit in the traditional fashion. e6 bolsters the d5 pawn and opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Tarrasch Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "The Queen's gambit is one of the oldest openings in chess. White offers a pawn in order to gain control of the centre.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Tarrasch Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -4372,65 +4302,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "exd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Black recaptures on d5, keeping a pawn in the center. White usually continues developing the knights and preparing to fianchetto the light-squared bishop.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White captures the d5 pawn in an attempt to give Black an isolated queen's pawn. Black has two viable responses:\n\n/4.",
+                                      "strategicTheme": "Center control",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "c5 challenges the center from the flank in the Tarrasch Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black aggressively attempts to gain space in the center, with the caveat of a potentially isolated pawn on d5 after a few pawn exchanges. The isolated queen's pawn is one of the reasons many players prefer to play the Semi-Tarrasch instead.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Tarrasch Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nc3, White continues development and puts pressure on the d5 pawn, and also controls the e4 square for a possible e4 break in the future. White wants to play e4 at some point in the future, and the move 3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6, Black declines the Queen's Gambit in the traditional fashion. e6 bolsters the d5 pawn and opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Tarrasch Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "The Queen's gambit is one of the oldest openings in chess. White offers a pawn in order to gain control of the centre.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Tarrasch Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -4647,41 +4577,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Tarrasch Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nc3, White develops a piece and continues to fight for the center of the board. On c3, the knight controls the important d5 and e4 squares.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6 is a move with several purposes. First, it opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Tarrasch Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "White takes more space and increases the control of the important d5 square. This move order allows White's queenside knight to develop to the active c3 square without blocking the c-pawn.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the Tarrasch Defense.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Black controls e4 while developing a knight. This is the most flexible response to 1.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Tarrasch Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -4966,65 +4896,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "exd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Black recaptures on d5, keeping a pawn in the center. White usually continues developing the knights and preparing to fianchetto the light-squared bishop.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White captures the d5 pawn in an attempt to give Black an isolated queen's pawn. Black has two viable responses:\n\n/4.",
+                                      "strategicTheme": "Center control",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "c5 challenges the center from the flank in the Tarrasch Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black aggressively attempts to gain space in the center, with the caveat of a potentially isolated pawn on d5 after a few pawn exchanges. The isolated queen's pawn is one of the reasons many players prefer to play the Semi-Tarrasch instead.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Tarrasch Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nc3, White continues development and puts pressure on the d5 pawn, and also controls the e4 square for a possible e4 break in the future. White wants to play e4 at some point in the future, and the move 3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6, Black declines the Queen's Gambit in the traditional fashion. e6 bolsters the d5 pawn and opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Tarrasch Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "The Queen's gambit is one of the oldest openings in chess. White offers a pawn in order to gain control of the centre.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Tarrasch Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -5265,65 +5195,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "exd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Black recaptures on d5, keeping a pawn in the center. White usually continues developing the knights and preparing to fianchetto the light-squared bishop.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White captures the d5 pawn in an attempt to give Black an isolated queen's pawn. Black has two viable responses:\n\n/4.",
+                                      "strategicTheme": "Center control",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "c5 challenges the center from the flank in the Tarrasch Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black aggressively attempts to gain space in the center, with the caveat of a potentially isolated pawn on d5 after a few pawn exchanges. The isolated queen's pawn is one of the reasons many players prefer to play the Semi-Tarrasch instead.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Tarrasch Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nc3, White continues development and puts pressure on the d5 pawn, and also controls the e4 square for a possible e4 break in the future. White wants to play e4 at some point in the future, and the move 3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6, Black declines the Queen's Gambit in the traditional fashion. e6 bolsters the d5 pawn and opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Tarrasch Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "The Queen's gambit is one of the oldest openings in chess. White offers a pawn in order to gain control of the centre.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Tarrasch Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -5492,65 +5422,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "exd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Black recaptures on d5, keeping a pawn in the center. White usually continues developing the knights and preparing to fianchetto the light-squared bishop.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White captures the d5 pawn in an attempt to give Black an isolated queen's pawn. Black has two viable responses:\n\n/4.",
+                                      "strategicTheme": "Center control",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "c5 challenges the center from the flank in the Tarrasch Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black aggressively attempts to gain space in the center, with the caveat of a potentially isolated pawn on d5 after a few pawn exchanges. The isolated queen's pawn is one of the reasons many players prefer to play the Semi-Tarrasch instead.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Tarrasch Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nc3, White continues development and puts pressure on the d5 pawn, and also controls the e4 square for a possible e4 break in the future. White wants to play e4 at some point in the future, and the move 3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6, Black declines the Queen's Gambit in the traditional fashion. e6 bolsters the d5 pawn and opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Tarrasch Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "The Queen's gambit is one of the oldest openings in chess. White offers a pawn in order to gain control of the centre.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Tarrasch Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -5719,65 +5649,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "exd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Black recaptures on d5, keeping a pawn in the center. White usually continues developing the knights and preparing to fianchetto the light-squared bishop.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White captures the d5 pawn in an attempt to give Black an isolated queen's pawn. Black has two viable responses:\n\n/4.",
+                                      "strategicTheme": "Center control",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "c5 challenges the center from the flank in the Tarrasch Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black aggressively attempts to gain space in the center, with the caveat of a potentially isolated pawn on d5 after a few pawn exchanges. The isolated queen's pawn is one of the reasons many players prefer to play the Semi-Tarrasch instead.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Tarrasch Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nc3, White continues development and puts pressure on the d5 pawn, and also controls the e4 square for a possible e4 break in the future. White wants to play e4 at some point in the future, and the move 3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6, Black declines the Queen's Gambit in the traditional fashion. e6 bolsters the d5 pawn and opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Tarrasch Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "The Queen's gambit is one of the oldest openings in chess. White offers a pawn in order to gain control of the centre.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Tarrasch Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -6018,65 +5948,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "exd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Black recaptures on d5, keeping a pawn in the center. White usually continues developing the knights and preparing to fianchetto the light-squared bishop.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White captures the d5 pawn in an attempt to give Black an isolated queen's pawn. Black has two viable responses:\n\n/4.",
+                                      "strategicTheme": "Center control",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "c5 challenges the center from the flank in the Tarrasch Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black aggressively attempts to gain space in the center, with the caveat of a potentially isolated pawn on d5 after a few pawn exchanges. The isolated queen's pawn is one of the reasons many players prefer to play the Semi-Tarrasch instead.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Tarrasch Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nc3, White continues development and puts pressure on the d5 pawn, and also controls the e4 square for a possible e4 break in the future. White wants to play e4 at some point in the future, and the move 3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6, Black declines the Queen's Gambit in the traditional fashion. e6 bolsters the d5 pawn and opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Tarrasch Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "The Queen's gambit is one of the oldest openings in chess. White offers a pawn in order to gain control of the centre.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Tarrasch Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -6269,65 +6199,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "exd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Black recaptures on d5, keeping a pawn in the center. White usually continues developing the knights and preparing to fianchetto the light-squared bishop.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White captures the d5 pawn in an attempt to give Black an isolated queen's pawn. Black has two viable responses:\n\n/4.",
+                                      "strategicTheme": "Center control",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "c5 challenges the center from the flank in the Tarrasch Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black aggressively attempts to gain space in the center, with the caveat of a potentially isolated pawn on d5 after a few pawn exchanges. The isolated queen's pawn is one of the reasons many players prefer to play the Semi-Tarrasch instead.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Tarrasch Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nc3, White continues development and puts pressure on the d5 pawn, and also controls the e4 square for a possible e4 break in the future. White wants to play e4 at some point in the future, and the move 3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6, Black declines the Queen's Gambit in the traditional fashion. e6 bolsters the d5 pawn and opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Tarrasch Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "The Queen's gambit is one of the oldest openings in chess. White offers a pawn in order to gain control of the centre.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Tarrasch Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -6508,65 +6438,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "exd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Black recaptures on d5, keeping a pawn in the center. White usually continues developing the knights and preparing to fianchetto the light-squared bishop.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White captures the d5 pawn in an attempt to give Black an isolated queen's pawn. Black has two viable responses:\n\n/4.",
+                                      "strategicTheme": "Center control",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "c5 challenges the center from the flank in the Tarrasch Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black aggressively attempts to gain space in the center, with the caveat of a potentially isolated pawn on d5 after a few pawn exchanges. The isolated queen's pawn is one of the reasons many players prefer to play the Semi-Tarrasch instead.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Tarrasch Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nc3, White continues development and puts pressure on the d5 pawn, and also controls the e4 square for a possible e4 break in the future. White wants to play e4 at some point in the future, and the move 3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6, Black declines the Queen's Gambit in the traditional fashion. e6 bolsters the d5 pawn and opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Tarrasch Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "The Queen's gambit is one of the oldest openings in chess. White offers a pawn in order to gain control of the centre.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Tarrasch Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -6783,65 +6713,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "exd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Black recaptures on d5, keeping a pawn in the center. White usually continues developing the knights and preparing to fianchetto the light-squared bishop.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White captures the d5 pawn in an attempt to give Black an isolated queen's pawn. Black has two viable responses:\n\n/4.",
+                                      "strategicTheme": "Center control",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "c5 challenges the center from the flank in the Tarrasch Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black aggressively attempts to gain space in the center, with the caveat of a potentially isolated pawn on d5 after a few pawn exchanges. The isolated queen's pawn is one of the reasons many players prefer to play the Semi-Tarrasch instead.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Tarrasch Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nc3, White continues development and puts pressure on the d5 pawn, and also controls the e4 square for a possible e4 break in the future. White wants to play e4 at some point in the future, and the move 3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6, Black declines the Queen's Gambit in the traditional fashion. e6 bolsters the d5 pawn and opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Tarrasch Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "The Queen's gambit is one of the oldest openings in chess. White offers a pawn in order to gain control of the centre.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Tarrasch Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -7172,65 +7102,65 @@
                                         ],
                                         "isMainLine": true,
                                         "annotation": {
-                                          "moveRationale": "exd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                          "strategicTheme": "Material exchange",
-                                          "source": "generated"
+                                          "moveRationale": "Black recaptures on d5, keeping a pawn in the center. White usually continues developing the knights and preparing to fianchetto the light-squared bishop.",
+                                          "strategicTheme": "Gambit play",
+                                          "source": "wikibooks"
                                         }
                                       }
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "cxd5 exchanges material, altering the pawn structure in the Tarrasch Defense.",
-                                      "strategicTheme": "Material exchange",
-                                      "source": "generated"
+                                      "moveRationale": "White captures the d5 pawn in an attempt to give Black an isolated queen's pawn. Black has two viable responses:\n\n/4.",
+                                      "strategicTheme": "Center control",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "c5 challenges the center from the flank in the Tarrasch Defense.",
-                                  "strategicTheme": "Pawn structure",
-                                  "source": "generated"
+                                  "moveRationale": "Black aggressively attempts to gain space in the center, with the caveat of a potentially isolated pawn on d5 after a few pawn exchanges. The isolated queen's pawn is one of the reasons many players prefer to play the Semi-Tarrasch instead.",
+                                  "strategicTheme": "Gambit play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nc3 develops toward the center, supporting the pawn structure in the Tarrasch Defense.",
-                              "strategicTheme": "Natural piece development",
-                              "source": "generated"
+                              "moveRationale": "Nc3, White continues development and puts pressure on the d5 pawn, and also controls the e4 square for a possible e4 break in the future. White wants to play e4 at some point in the future, and the move 3.",
+                              "strategicTheme": "Gambit play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "e6 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "e6, Black declines the Queen's Gambit in the traditional fashion. e6 bolsters the d5 pawn and opens a diagonal for the development of Black's dark-squared bishop.",
+                          "strategicTheme": "Gambit play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "c4 gains space on the queenside in the Tarrasch Defense.",
-                      "strategicTheme": "Pawn structure",
-                      "source": "generated"
+                      "moveRationale": "The Queen's gambit is one of the oldest openings in chess. White offers a pawn in order to gain control of the centre.",
+                      "strategicTheme": "Gambit play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "d5 advances a pawn, influencing the structure in the Tarrasch Defense.",
-                  "strategicTheme": "Pawn structure",
-                  "source": "generated"
+                  "moveRationale": "d5 is the classical approach to fighting for the centre: occupying it with pawns. d4 takes some space for Black and opens a line of development for Black's queenside bishop.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "d4 claims the center and opens the diagonal for the queen's bishop, characteristic of the Tarrasch Defense.",
-              "strategicTheme": "Center control, closed game",
-              "source": "generated"
+              "moveRationale": "d4 is the Queen's pawn opening. d4 White looks to take over control of the centre.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],

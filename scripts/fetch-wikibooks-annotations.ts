@@ -1,6 +1,7 @@
 import { writeFileSync, readFileSync, mkdirSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { createHash } from "node:crypto";
 import type { Annotation, MoveNode } from "../src/types/OpeningTypes.js";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -9,6 +10,10 @@ const __dirname = dirname(__filename);
 const CACHE_DIR = join(__dirname, "data", "wikibooks-cache");
 
 const WIKIBOOKS_API_URL = "https://en.wikibooks.org/w/api.php";
+
+/** User-Agent required by Wikimedia API policy */
+const USER_AGENT =
+  "ChessOpeningTrainer/1.0 (https://github.com/vanmeegen/chessopeningtrainer)";
 
 /** Minimum content length to consider a page as having meaningful content */
 const MIN_CONTENT_LENGTH = 50;
@@ -53,13 +58,22 @@ export function buildWikibooksPath(moves: string[]): string {
   return parts.join("/");
 }
 
+/** Max filename length for most filesystems (255 bytes) minus some margin */
+const MAX_FILENAME_LENGTH = 200;
+
 /**
  * Get the cache file path for a given Wikibooks page path.
+ * Uses a hash suffix for long paths to avoid ENAMETOOLONG errors.
  */
 function getCacheFilePath(pagePath: string): string {
-  // Replace slashes with double underscores to create a flat file name
   const safeFileName = pagePath.replace(/\//g, "__") + ".json";
-  return join(CACHE_DIR, safeFileName);
+  if (safeFileName.length <= MAX_FILENAME_LENGTH) {
+    return join(CACHE_DIR, safeFileName);
+  }
+  // For long paths: use a truncated prefix + hash for uniqueness
+  const hash = createHash("sha256").update(pagePath).digest("hex").slice(0, 16);
+  const prefix = safeFileName.slice(0, MAX_FILENAME_LENGTH - 22); // room for _hash.json
+  return join(CACHE_DIR, `${prefix}_${hash}.json`);
 }
 
 /**
@@ -119,20 +133,31 @@ export async function fetchWikibooksPage(
   url.searchParams.set("format", "json");
 
   try {
-    const response = await fetch(url.toString());
+    const response = await fetch(url.toString(), {
+      headers: { "User-Agent": USER_AGENT },
+    });
     if (!response.ok) {
-      const result: WikibooksPageResult = {
-        found: false,
-        wikitext: "",
-        title: pagePath,
-      };
-      writeCachedPage(pagePath, result);
-      return result;
+      // Don't cache transient HTTP errors (429 rate limit, 5xx server errors)
+      // Only cache 404 as "page not found"
+      if (response.status === 404) {
+        const result: WikibooksPageResult = {
+          found: false,
+          wikitext: "",
+          title: pagePath,
+        };
+        writeCachedPage(pagePath, result);
+        return result;
+      }
+      console.warn(
+        `  HTTP ${response.status} for ${pagePath} — not caching, will retry later`,
+      );
+      return { found: false, wikitext: "", title: pagePath };
     }
 
     const data = (await response.json()) as WikibooksApiResponse;
 
     if ("error" in data) {
+      // MediaWiki "missingtitle" error = page doesn't exist — safe to cache
       const result: WikibooksPageResult = {
         found: false,
         wikitext: "",
@@ -153,13 +178,9 @@ export async function fetchWikibooksPage(
     writeCachedPage(pagePath, result);
     return result;
   } catch {
-    const result: WikibooksPageResult = {
-      found: false,
-      wikitext: "",
-      title: pagePath,
-    };
-    writeCachedPage(pagePath, result);
-    return result;
+    // Network errors — don't cache, allow retry
+    console.warn(`  Network error for ${pagePath} — not caching`);
+    return { found: false, wikitext: "", title: pagePath };
   }
 }
 
@@ -335,13 +356,13 @@ export async function annotateTreeFromWikibooks(
     const moves = collectMovesFromPath(path);
     const pagePath = buildWikibooksPath(moves);
 
-    const page = await fetchWikibooksPage(pagePath);
-
-    // Rate limiting: wait between requests (cache hits return immediately)
+    // Rate limiting: only wait if we need to make an actual API call
     const cached = readCachedPage(pagePath);
     if (!cached) {
       await sleep(REQUEST_DELAY_MS);
     }
+
+    const page = await fetchWikibooksPage(pagePath);
 
     if (page.found) {
       const prose = extractProseFromWikitext(page.wikitext);

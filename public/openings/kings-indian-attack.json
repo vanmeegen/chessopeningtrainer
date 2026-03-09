@@ -41,66 +41,7 @@
                                       {
                                         "move": "Bg4",
                                         "fen": "rn1qkb1r/pp2pppp/2p2n2/3p4/6b1/5NP1/PPPPPPBP/RNBQ1RK1 w kq - 2 5",
-                                        "children": [
-                                          {
-                                            "move": "d3",
-                                            "fen": "rn1qkb1r/pp2pppp/2p2n2/3p4/6b1/3P1NP1/PPP1PPBP/RNBQ1RK1 b kq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "Nbd7",
-                                                "fen": "r2qkb1r/pp1npppp/2p2n2/3p4/6b1/3P1NP1/PPP1PPBP/RNBQ1RK1 w kq - 1 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Nbd2",
-                                                    "fen": "r2qkb1r/pp1npppp/2p2n2/3p4/6b1/3P1NP1/PPPNPPBP/R1BQ1RK1 b kq - 2 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "e5",
-                                                        "fen": "r2qkb1r/pp1n1ppp/2p2n2/3pp3/6b1/3P1NP1/PPPNPPBP/R1BQ1RK1 w kq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "e5 advances a pawn, influencing the structure in the King's Indian Attack.",
-                                                          "strategicTheme": "Pawn structure",
-                                                          "source": "generated"
-                                                        }
-                                                      },
-                                                      {
-                                                        "move": "e6",
-                                                        "fen": "r2qkb1r/pp1n1ppp/2p1pn2/3p4/6b1/3P1NP1/PPPNPPBP/R1BQ1RK1 w kq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": false,
-                                                        "annotation": {
-                                                          "moveRationale": "e6 advances a pawn, influencing the structure in the King's Indian Attack.",
-                                                          "strategicTheme": "Prophylactic pawn move",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Nbd2 develops a piece to an active square in the King's Indian Attack.",
-                                                      "strategicTheme": "Knight activity",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "Nbd7 develops a piece to an active square in the King's Indian Attack.",
-                                                  "strategicTheme": "Knight activity",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the King's Indian Attack.",
-                                              "strategicTheme": "Solid center support",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
+                                        "children": [],
                                         "isMainLine": false,
                                         "annotation": {
                                           "moveRationale": "Bg4 develops a piece to an active square in the King's Indian Attack.",
@@ -274,33 +215,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "d5 advances a pawn, influencing the structure in the King's Indian Attack.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "g3 d5\n\n        \n                \n                3\n        \n        \n                King's Indian Attack\n                Bg2c6\n                \n        \n\n*King's Indian Defence\n\n* Flank Openings (1990), Bruno Carlier, Trends Publications, No ISBN.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the King's Indian Attack.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "A sound, but very unambitious opening move where white almost certainly intends to fianchetto his bishop and enable castling. Black has the choice to continue to mirror white's move once more with g6 or begin a more aggressive attempt to control the center.",
+                      "strategicTheme": "Center control",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the King's Indian Attack.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Nf6, keeping the position symmetrical, is the most flexible reply to 1. At Grandmaster level this is a very popular move and has been the preferred response of both Anand and Kasparov.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the King's Indian Attack.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -334,31 +275,7 @@
                           {
                             "move": "b4",
                             "fen": "rnbqkb1r/pppppp1p/5np1/8/1P6/5NP1/P1PPPP1P/RNBQKB1R b KQkq - 0 3",
-                            "children": [
-                              {
-                                "move": "Bg7",
-                                "fen": "rnbqk2r/ppppppbp/5np1/8/1P6/5NP1/P1PPPP1P/RNBQKB1R w KQkq - 1 4",
-                                "children": [
-                                  {
-                                    "move": "Bb2",
-                                    "fen": "rnbqk2r/ppppppbp/5np1/8/1P6/5NP1/PBPPPP1P/RN1QKB1R b KQkq - 2 4",
-                                    "children": [],
-                                    "isMainLine": true,
-                                    "annotation": {
-                                      "moveRationale": "Bb2 develops a piece to an active square in the King's Indian Attack.",
-                                      "strategicTheme": "Bishop development",
-                                      "source": "generated"
-                                    }
-                                  }
-                                ],
-                                "isMainLine": true,
-                                "annotation": {
-                                  "moveRationale": "Bg7 develops a piece to an active square in the King's Indian Attack.",
-                                  "strategicTheme": "Bishop development",
-                                  "source": "generated"
-                                }
-                              }
-                            ],
+                            "children": [],
                             "isMainLine": true,
                             "annotation": {
                               "moveRationale": "b4 advances a pawn, influencing the structure in the King's Indian Attack.",
@@ -369,33 +286,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the King's Indian Attack.",
-                          "strategicTheme": "Fianchetto preparation",
-                          "source": "generated"
+                          "moveRationale": "g3 g6\n\n        \n                \n                3\n        \n        \n                King's Indian, Fianchetto without c4\n                d4Bg7\n                to 1. g3\n        \n        \n                English\n                c4Bg7\n                to 2.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the King's Indian Attack.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "A sound, but very unambitious opening move where white almost certainly intends to fianchetto his bishop and enable castling. Black has the choice to continue to mirror white's move once more with g6 or begin a more aggressive attempt to control the center.",
+                      "strategicTheme": "Center control",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the King's Indian Attack.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Nf6, keeping the position symmetrical, is the most flexible reply to 1. At Grandmaster level this is a very popular move and has been the preferred response of both Anand and Kasparov.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the King's Indian Attack.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -425,19 +342,7 @@
                       {
                         "move": "b5",
                         "fen": "rnbqkb1r/p1pppppp/5n2/1p6/8/5NP1/PPPPPP1P/RNBQKB1R w KQkq - 0 3",
-                        "children": [
-                          {
-                            "move": "Bg2",
-                            "fen": "rnbqkb1r/p1pppppp/5n2/1p6/8/5NP1/PPPPPPBP/RNBQK2R b KQkq - 1 3",
-                            "children": [],
-                            "isMainLine": true,
-                            "annotation": {
-                              "moveRationale": "Bg2 develops a piece to an active square in the King's Indian Attack.",
-                              "strategicTheme": "Bishop development",
-                              "source": "generated"
-                            }
-                          }
-                        ],
+                        "children": [],
                         "isMainLine": true,
                         "annotation": {
                           "moveRationale": "b5 advances a pawn, influencing the structure in the King's Indian Attack.",
@@ -448,25 +353,25 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the King's Indian Attack.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "A sound, but very unambitious opening move where white almost certainly intends to fianchetto his bishop and enable castling. Black has the choice to continue to mirror white's move once more with g6 or begin a more aggressive attempt to control the center.",
+                      "strategicTheme": "Center control",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the King's Indian Attack.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Nf6, keeping the position symmetrical, is the most flexible reply to 1. At Grandmaster level this is a very popular move and has been the preferred response of both Anand and Kasparov.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the King's Indian Attack.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -583,31 +488,7 @@
                           {
                             "move": "b4",
                             "fen": "rnbqkb1r/pppppp1p/5np1/8/1P6/5NP1/P1PPPP1P/RNBQKB1R b KQkq - 0 3",
-                            "children": [
-                              {
-                                "move": "Bg7",
-                                "fen": "rnbqk2r/ppppppbp/5np1/8/1P6/5NP1/P1PPPP1P/RNBQKB1R w KQkq - 1 4",
-                                "children": [
-                                  {
-                                    "move": "Bb2",
-                                    "fen": "rnbqk2r/ppppppbp/5np1/8/1P6/5NP1/PBPPPP1P/RN1QKB1R b KQkq - 2 4",
-                                    "children": [],
-                                    "isMainLine": true,
-                                    "annotation": {
-                                      "moveRationale": "Bb2 develops a piece to an active square in the King's Indian Attack.",
-                                      "strategicTheme": "Bishop development",
-                                      "source": "generated"
-                                    }
-                                  }
-                                ],
-                                "isMainLine": true,
-                                "annotation": {
-                                  "moveRationale": "Bg7 develops a piece to an active square in the King's Indian Attack.",
-                                  "strategicTheme": "Bishop development",
-                                  "source": "generated"
-                                }
-                              }
-                            ],
+                            "children": [],
                             "isMainLine": false,
                             "annotation": {
                               "moveRationale": "b4 advances a pawn, influencing the structure in the King's Indian Attack.",
@@ -689,33 +570,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the King's Indian Attack.",
-                          "strategicTheme": "Fianchetto preparation",
-                          "source": "generated"
+                          "moveRationale": "g3 g6\n\n        \n                \n                3\n        \n        \n                King's Indian, Fianchetto without c4\n                d4Bg7\n                to 1. g3\n        \n        \n                English\n                c4Bg7\n                to 2.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the King's Indian Attack.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "A sound, but very unambitious opening move where white almost certainly intends to fianchetto his bishop and enable castling. Black has the choice to continue to mirror white's move once more with g6 or begin a more aggressive attempt to control the center.",
+                      "strategicTheme": "Center control",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the King's Indian Attack.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Nf6, keeping the position symmetrical, is the most flexible reply to 1. At Grandmaster level this is a very popular move and has been the preferred response of both Anand and Kasparov.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the King's Indian Attack.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -820,33 +701,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "g6 prepares the fianchetto, aiming to place the bishop on a long diagonal in the King's Indian Attack.",
-                          "strategicTheme": "Fianchetto preparation",
-                          "source": "generated"
+                          "moveRationale": "g3 g6\n\n        \n                \n                3\n        \n        \n                King's Indian, Fianchetto without c4\n                d4Bg7\n                to 1. g3\n        \n        \n                English\n                c4Bg7\n                to 2.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the King's Indian Attack.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "A sound, but very unambitious opening move where white almost certainly intends to fianchetto his bishop and enable castling. Black has the choice to continue to mirror white's move once more with g6 or begin a more aggressive attempt to control the center.",
+                      "strategicTheme": "Center control",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the King's Indian Attack.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Nf6, keeping the position symmetrical, is the most flexible reply to 1. At Grandmaster level this is a very popular move and has been the preferred response of both Anand and Kasparov.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the King's Indian Attack.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -938,17 +819,17 @@
                                     ],
                                     "isMainLine": false,
                                     "annotation": {
-                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the King's Indian Attack.",
-                                      "strategicTheme": "Central tension",
-                                      "source": "generated"
+                                      "moveRationale": "d4, White enters the reversed Grünfeld where play can be very sharp. The d-pawn immediately confronts Black's centre and forces a response.",
+                                      "strategicTheme": "Sharp tactical play",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": false,
                                 "annotation": {
-                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the King's Indian Attack.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "The French variation, where Black wants to play …e5 and claim even more space. White's responses\n\n* /4.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
                                 }
                               },
                               {
@@ -1001,17 +882,17 @@
                             ],
                             "isMainLine": false,
                             "annotation": {
-                              "moveRationale": "Bg2 develops a piece to an active square in the King's Indian Attack.",
-                              "strategicTheme": "Bishop development",
-                              "source": "generated"
+                              "moveRationale": "Obviously developing the kingside bishop, via Fianchetto where it controls the long diagonal. g3 c5\n\n        \n                \n                3\n                4\n                5\n                6\n        \n        \n                \n                Bg2Nc6\n                O-Oe6\n                d3Bd6\n                e4Nge7\n                =.",
+                              "strategicTheme": "Piece development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": false,
                         "annotation": {
-                          "moveRationale": "c5 challenges the center from the flank in the King's Indian Attack.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Black claims more central space and controls d4. g3 c5\n\n        \n                \n                3\n                4\n                5\n                6\n        \n        \n                \n                Bg2Nc6\n                O-Oe6\n                d3Bd6\n                e4Nge7\n                =\n        \n        \n                \n                c4Nf6\n                cxd5Nxd5\n                Nc3Nc6\n                Bg2e6\n                =.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       },
                       {
@@ -1151,19 +1032,7 @@
                                       {
                                         "move": "Nd7",
                                         "fen": "r2qkbnr/pp1npppp/2p5/3p4/6b1/5NP1/PPPPPPBP/RNBQ1RK1 w kq - 4 5",
-                                        "children": [
-                                          {
-                                            "move": "d3",
-                                            "fen": "r2qkbnr/pp1npppp/2p5/3p4/6b1/3P1NP1/PPP1PPBP/RNBQ1RK1 b kq - 0 5",
-                                            "children": [],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the King's Indian Attack.",
-                                              "strategicTheme": "Solid center support",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
+                                        "children": [],
                                         "isMainLine": false,
                                         "annotation": {
                                           "moveRationale": "Nd7 develops a piece to an active square in the King's Indian Attack.",
@@ -1198,9 +1067,9 @@
                         ],
                         "isMainLine": false,
                         "annotation": {
-                          "moveRationale": "c6 advances a pawn, influencing the structure in the King's Indian Attack.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "g3 c6\n\n        \n                \n                3\n                4\n        \n        \n                King's Indian Attack\n                Bg2Nf6\n                \n        \n        \n                \n                c4Nf6\n                to 2.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
                         }
                       },
                       {
@@ -1351,17 +1220,17 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "Nf6 develops a piece to an active square in the King's Indian Attack.",
-                          "strategicTheme": "Natural piece development",
-                          "source": "generated"
+                          "moveRationale": "#REDIRECT Chess Opening Theory/1.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the King's Indian Attack.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nWhite is most likely aiming to establish a King's Indian Attack. The idea is very similar to that of the King's Indian Defence as played by Black.",
+                      "strategicTheme": "Attacking play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -1375,9 +1244,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the King's Indian Attack.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1490,9 +1359,9 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the King's Indian Attack.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nWhite is most likely aiming to establish a King's Indian Attack. The idea is very similar to that of the King's Indian Defence as played by Black.",
+                      "strategicTheme": "Attacking play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -1506,9 +1375,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the King's Indian Attack.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1573,9 +1442,9 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the King's Indian Attack.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nWhite is most likely aiming to establish a King's Indian Attack. The idea is very similar to that of the King's Indian Defence as played by Black.",
+                      "strategicTheme": "Attacking play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -1589,9 +1458,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the King's Indian Attack.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1656,9 +1525,9 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the King's Indian Attack.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nWhite is most likely aiming to establish a King's Indian Attack. The idea is very similar to that of the King's Indian Defence as played by Black.",
+                      "strategicTheme": "Attacking play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -1672,9 +1541,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the King's Indian Attack.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1720,19 +1589,7 @@
                                       {
                                         "move": "Nd7",
                                         "fen": "r2qkbnr/pp1npppp/2p5/3p4/6b1/5NP1/PPPPPPBP/RNBQ1RK1 w kq - 4 5",
-                                        "children": [
-                                          {
-                                            "move": "d3",
-                                            "fen": "r2qkbnr/pp1npppp/2p5/3p4/6b1/3P1NP1/PPP1PPBP/RNBQ1RK1 b kq - 0 5",
-                                            "children": [],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the King's Indian Attack.",
-                                              "strategicTheme": "Solid center support",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
+                                        "children": [],
                                         "isMainLine": true,
                                         "annotation": {
                                           "moveRationale": "Nd7 develops a piece to an active square in the King's Indian Attack.",
@@ -1767,17 +1624,17 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "c6 advances a pawn, influencing the structure in the King's Indian Attack.",
-                          "strategicTheme": "Prophylactic pawn move",
-                          "source": "generated"
+                          "moveRationale": "g3 c6\n\n        \n                \n                3\n                4\n        \n        \n                King's Indian Attack\n                Bg2Nf6\n                \n        \n        \n                \n                c4Nf6\n                to 2.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the King's Indian Attack.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nWhite is most likely aiming to establish a King's Indian Attack. The idea is very similar to that of the King's Indian Defence as played by Black.",
+                      "strategicTheme": "Attacking play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -1791,9 +1648,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the King's Indian Attack.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1834,9 +1691,9 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the King's Indian Attack.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nWhite is most likely aiming to establish a King's Indian Attack. The idea is very similar to that of the King's Indian Defence as played by Black.",
+                      "strategicTheme": "Attacking play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -1850,9 +1707,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the King's Indian Attack.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -1965,9 +1822,9 @@
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the King's Indian Attack.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nWhite is most likely aiming to establish a King's Indian Attack. The idea is very similar to that of the King's Indian Defence as played by Black.",
+                      "strategicTheme": "Attacking play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -1981,9 +1838,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the King's Indian Attack.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2075,17 +1932,17 @@
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the King's Indian Attack.",
-                                      "strategicTheme": "Central tension",
-                                      "source": "generated"
+                                      "moveRationale": "d4, White enters the reversed Grünfeld where play can be very sharp. The d-pawn immediately confronts Black's centre and forces a response.",
+                                      "strategicTheme": "Sharp tactical play",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the King's Indian Attack.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "The French variation, where Black wants to play …e5 and claim even more space. White's responses\n\n* /4.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
                                 }
                               },
                               {
@@ -2138,25 +1995,25 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Bg2 develops a piece to an active square in the King's Indian Attack.",
-                              "strategicTheme": "Bishop development",
-                              "source": "generated"
+                              "moveRationale": "Obviously developing the kingside bishop, via Fianchetto where it controls the long diagonal. g3 c5\n\n        \n                \n                3\n                4\n                5\n                6\n        \n        \n                \n                Bg2Nc6\n                O-Oe6\n                d3Bd6\n                e4Nge7\n                =.",
+                              "strategicTheme": "Piece development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "c5 challenges the center from the flank in the King's Indian Attack.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Black claims more central space and controls d4. g3 c5\n\n        \n                \n                3\n                4\n                5\n                6\n        \n        \n                \n                Bg2Nc6\n                O-Oe6\n                d3Bd6\n                e4Nge7\n                =\n        \n        \n                \n                c4Nf6\n                cxd5Nxd5\n                Nc3Nc6\n                Bg2e6\n                =.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the King's Indian Attack.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nWhite is most likely aiming to establish a King's Indian Attack. The idea is very similar to that of the King's Indian Defence as played by Black.",
+                      "strategicTheme": "Attacking play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -2170,9 +2027,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the King's Indian Attack.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2218,66 +2075,7 @@
                                       {
                                         "move": "Bg4",
                                         "fen": "rn1qkb1r/pp2pppp/2p2n2/3p4/6b1/5NP1/PPPPPPBP/RNBQ1RK1 w kq - 2 5",
-                                        "children": [
-                                          {
-                                            "move": "d3",
-                                            "fen": "rn1qkb1r/pp2pppp/2p2n2/3p4/6b1/3P1NP1/PPP1PPBP/RNBQ1RK1 b kq - 0 5",
-                                            "children": [
-                                              {
-                                                "move": "Nbd7",
-                                                "fen": "r2qkb1r/pp1npppp/2p2n2/3p4/6b1/3P1NP1/PPP1PPBP/RNBQ1RK1 w kq - 1 6",
-                                                "children": [
-                                                  {
-                                                    "move": "Nbd2",
-                                                    "fen": "r2qkb1r/pp1npppp/2p2n2/3p4/6b1/3P1NP1/PPPNPPBP/R1BQ1RK1 b kq - 2 6",
-                                                    "children": [
-                                                      {
-                                                        "move": "e5",
-                                                        "fen": "r2qkb1r/pp1n1ppp/2p2n2/3pp3/6b1/3P1NP1/PPPNPPBP/R1BQ1RK1 w kq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": true,
-                                                        "annotation": {
-                                                          "moveRationale": "e5 advances a pawn, influencing the structure in the King's Indian Attack.",
-                                                          "strategicTheme": "Pawn structure",
-                                                          "source": "generated"
-                                                        }
-                                                      },
-                                                      {
-                                                        "move": "e6",
-                                                        "fen": "r2qkb1r/pp1n1ppp/2p1pn2/3p4/6b1/3P1NP1/PPPNPPBP/R1BQ1RK1 w kq - 0 7",
-                                                        "children": [],
-                                                        "isMainLine": false,
-                                                        "annotation": {
-                                                          "moveRationale": "e6 advances a pawn, influencing the structure in the King's Indian Attack.",
-                                                          "strategicTheme": "Prophylactic pawn move",
-                                                          "source": "generated"
-                                                        }
-                                                      }
-                                                    ],
-                                                    "isMainLine": true,
-                                                    "annotation": {
-                                                      "moveRationale": "Nbd2 develops a piece to an active square in the King's Indian Attack.",
-                                                      "strategicTheme": "Knight activity",
-                                                      "source": "generated"
-                                                    }
-                                                  }
-                                                ],
-                                                "isMainLine": true,
-                                                "annotation": {
-                                                  "moveRationale": "Nbd7 develops a piece to an active square in the King's Indian Attack.",
-                                                  "strategicTheme": "Knight activity",
-                                                  "source": "generated"
-                                                }
-                                              }
-                                            ],
-                                            "isMainLine": true,
-                                            "annotation": {
-                                              "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the King's Indian Attack.",
-                                              "strategicTheme": "Solid center support",
-                                              "source": "generated"
-                                            }
-                                          }
-                                        ],
+                                        "children": [],
                                         "isMainLine": true,
                                         "annotation": {
                                           "moveRationale": "Bg4 develops a piece to an active square in the King's Indian Attack.",
@@ -2312,33 +2110,33 @@
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "d5 advances a pawn, influencing the structure in the King's Indian Attack.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "g3 d5\n\n        \n                \n                3\n        \n        \n                King's Indian Attack\n                Bg2c6\n                \n        \n\n*King's Indian Defence\n\n* Flank Openings (1990), Bruno Carlier, Trends Publications, No ISBN.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the King's Indian Attack.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "A sound, but very unambitious opening move where white almost certainly intends to fianchetto his bishop and enable castling. Black has the choice to continue to mirror white's move once more with g6 or begin a more aggressive attempt to control the center.",
+                      "strategicTheme": "Center control",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "Nf6 develops a piece to an active square in the King's Indian Attack.",
-                  "strategicTheme": "Natural piece development",
-                  "source": "generated"
+                  "moveRationale": "Nf6, keeping the position symmetrical, is the most flexible reply to 1. At Grandmaster level this is a very popular move and has been the preferred response of both Anand and Kasparov.",
+                  "strategicTheme": "Attacking play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the King's Indian Attack.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2430,41 +2228,41 @@
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the King's Indian Attack.",
-                                      "strategicTheme": "Central tension",
-                                      "source": "generated"
+                                      "moveRationale": "d4, White enters the reversed Grünfeld where play can be very sharp. The d-pawn immediately confronts Black's centre and forces a response.",
+                                      "strategicTheme": "Sharp tactical play",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the King's Indian Attack.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "The French variation, where Black wants to play …e5 and claim even more space. White's responses\n\n* /4.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
                                 }
                               }
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Bg2 develops a piece to an active square in the King's Indian Attack.",
-                              "strategicTheme": "Bishop development",
-                              "source": "generated"
+                              "moveRationale": "Obviously developing the kingside bishop, via Fianchetto where it controls the long diagonal. g3 c5\n\n        \n                \n                3\n                4\n                5\n                6\n        \n        \n                \n                Bg2Nc6\n                O-Oe6\n                d3Bd6\n                e4Nge7\n                =.",
+                              "strategicTheme": "Piece development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "c5 challenges the center from the flank in the King's Indian Attack.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Black claims more central space and controls d4. g3 c5\n\n        \n                \n                3\n                4\n                5\n                6\n        \n        \n                \n                Bg2Nc6\n                O-Oe6\n                d3Bd6\n                e4Nge7\n                =\n        \n        \n                \n                c4Nf6\n                cxd5Nxd5\n                Nc3Nc6\n                Bg2e6\n                =.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the King's Indian Attack.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nWhite is most likely aiming to establish a King's Indian Attack. The idea is very similar to that of the King's Indian Defence as played by Black.",
+                      "strategicTheme": "Attacking play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -2478,9 +2276,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the King's Indian Attack.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2637,41 +2435,41 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Nd2 develops a piece to an active square in the King's Indian Attack.",
-                              "strategicTheme": "Knight activity",
-                              "source": "generated"
+                              "moveRationale": "With Nd2 White transposes to the King's Indian Attack. The next moves for white are usually Ngf3, g3, Bg2, O-O and Re1, preparing to fight for the center but also looking at the long term plan of directly attacking the king.",
+                              "strategicTheme": "Attacking play",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "d5 advances a pawn, influencing the structure in the King's Indian Attack.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Black continues with the mainline French moves whereas white is preparing to enter a King's Indian Attack setup after Nd2. White can also transpose to other openings.",
+                          "strategicTheme": "Attacking play",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "d3 reinforces the center solidly, maintaining flexibility in the King's Indian Attack.",
-                      "strategicTheme": "Solid center support",
-                      "source": "generated"
+                      "moveRationale": "This is a way for White to avoid the \"classical\" French Defence. Though White's game looks less active (White will have to fianchetto his king's bishop, leaving time for Black to develop), a powerful attack is possible by advancing the king's pawn to e5, building a strong outpost.",
+                      "strategicTheme": "Piece development",
+                      "source": "wikibooks"
                     }
                   }
                 ],
                 "isMainLine": true,
                 "annotation": {
-                  "moveRationale": "e6 advances a pawn, influencing the structure in the King's Indian Attack.",
-                  "strategicTheme": "Prophylactic pawn move",
-                  "source": "generated"
+                  "moveRationale": "e6 is the French defence. Black plans to gain space in the centre with their d pawn.",
+                  "strategicTheme": "Gambit play",
+                  "source": "wikibooks"
                 }
               }
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "e4 opens the game by controlling the d5 and f5 squares, preparing rapid piece development in the King's Indian Attack.",
-              "strategicTheme": "Center control, open game",
-              "source": "generated"
+              "moveRationale": "__NOTOC__\n\nBest by test. — Bobby Fischer\n\n1.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2763,17 +2561,17 @@
                                     ],
                                     "isMainLine": true,
                                     "annotation": {
-                                      "moveRationale": "d4 impacts the center, shaping the pawn structure in the King's Indian Attack.",
-                                      "strategicTheme": "Central tension",
-                                      "source": "generated"
+                                      "moveRationale": "d4, White enters the reversed Grünfeld where play can be very sharp. The d-pawn immediately confronts Black's centre and forces a response.",
+                                      "strategicTheme": "Sharp tactical play",
+                                      "source": "wikibooks"
                                     }
                                   }
                                 ],
                                 "isMainLine": true,
                                 "annotation": {
-                                  "moveRationale": "Nc6 develops toward the center, supporting the pawn structure in the King's Indian Attack.",
-                                  "strategicTheme": "Natural piece development",
-                                  "source": "generated"
+                                  "moveRationale": "The French variation, where Black wants to play …e5 and claim even more space. White's responses\n\n* /4.",
+                                  "strategicTheme": "Attacking play",
+                                  "source": "wikibooks"
                                 }
                               },
                               {
@@ -2826,25 +2624,25 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Bg2 develops a piece to an active square in the King's Indian Attack.",
-                              "strategicTheme": "Bishop development",
-                              "source": "generated"
+                              "moveRationale": "Obviously developing the kingside bishop, via Fianchetto where it controls the long diagonal. g3 c5\n\n        \n                \n                3\n                4\n                5\n                6\n        \n        \n                \n                Bg2Nc6\n                O-Oe6\n                d3Bd6\n                e4Nge7\n                =.",
+                              "strategicTheme": "Piece development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "c5 challenges the center from the flank in the King's Indian Attack.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Black claims more central space and controls d4. g3 c5\n\n        \n                \n                3\n                4\n                5\n                6\n        \n        \n                \n                Bg2Nc6\n                O-Oe6\n                d3Bd6\n                e4Nge7\n                =\n        \n        \n                \n                c4Nf6\n                cxd5Nxd5\n                Nc3Nc6\n                Bg2e6\n                =.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the King's Indian Attack.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nWhite is most likely aiming to establish a King's Indian Attack. The idea is very similar to that of the King's Indian Defence as played by Black.",
+                      "strategicTheme": "Attacking play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -2858,9 +2656,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the King's Indian Attack.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
@@ -2945,25 +2743,25 @@
                             ],
                             "isMainLine": true,
                             "annotation": {
-                              "moveRationale": "Bg2 develops a piece to an active square in the King's Indian Attack.",
-                              "strategicTheme": "Bishop development",
-                              "source": "generated"
+                              "moveRationale": "Obviously developing the kingside bishop, via Fianchetto where it controls the long diagonal. g3 c5\n\n        \n                \n                3\n                4\n                5\n                6\n        \n        \n                \n                Bg2Nc6\n                O-Oe6\n                d3Bd6\n                e4Nge7\n                =.",
+                              "strategicTheme": "Piece development",
+                              "source": "wikibooks"
                             }
                           }
                         ],
                         "isMainLine": true,
                         "annotation": {
-                          "moveRationale": "c5 challenges the center from the flank in the King's Indian Attack.",
-                          "strategicTheme": "Pawn structure",
-                          "source": "generated"
+                          "moveRationale": "Black claims more central space and controls d4. g3 c5\n\n        \n                \n                3\n                4\n                5\n                6\n        \n        \n                \n                Bg2Nc6\n                O-Oe6\n                d3Bd6\n                e4Nge7\n                =\n        \n        \n                \n                c4Nf6\n                cxd5Nxd5\n                Nc3Nc6\n                Bg2e6\n                =.",
+                          "strategicTheme": "Opening theory",
+                          "source": "wikibooks"
                         }
                       }
                     ],
                     "isMainLine": true,
                     "annotation": {
-                      "moveRationale": "g3 prepares the fianchetto, aiming to place the bishop on a long diagonal in the King's Indian Attack.",
-                      "strategicTheme": "Fianchetto preparation",
-                      "source": "generated"
+                      "moveRationale": "__NOTOC__\n\nWhite is most likely aiming to establish a King's Indian Attack. The idea is very similar to that of the King's Indian Defence as played by Black.",
+                      "strategicTheme": "Attacking play",
+                      "source": "wikibooks"
                     }
                   }
                 ],
@@ -2977,9 +2775,9 @@
             ],
             "isMainLine": true,
             "annotation": {
-              "moveRationale": "Nf3 develops the knight to its most natural square, controlling e5 and d4 in the King's Indian Attack.",
-              "strategicTheme": "Natural piece development",
-              "source": "generated"
+              "moveRationale": "Nf3 is the third most popular initial move. It is highly flexible and often transposes into lines better known through other move orders, though some independent lines are possible.",
+              "strategicTheme": "Gambit play",
+              "source": "wikibooks"
             }
           }
         ],
