@@ -10,19 +10,20 @@ export type AnnotationPanelProps = {
 const panelStyle: CSSProperties = {
   padding: "12px",
   borderRadius: "6px",
-  backgroundColor: "#f8f8f8",
-  border: "1px solid #e0e0e0",
+  backgroundColor: "var(--bg-secondary)",
+  border: "1px solid var(--border-color)",
 };
 
 const rationaleStyle: CSSProperties = {
   marginBottom: "8px",
   lineHeight: 1.5,
+  color: "var(--text-primary)",
 };
 
 const themeStyle: CSSProperties = {
   marginBottom: "8px",
   fontStyle: "italic",
-  color: "#555",
+  color: "var(--text-secondary)",
 };
 
 const sourceLabelStyle: CSSProperties = {
@@ -30,8 +31,8 @@ const sourceLabelStyle: CSSProperties = {
   fontSize: "11px",
   padding: "2px 6px",
   borderRadius: "3px",
-  backgroundColor: "#e0e0e0",
-  color: "#666",
+  backgroundColor: "var(--border-color)",
+  color: "var(--text-secondary)",
 };
 
 const SOURCE_LABELS: Record<string, string> = {
@@ -45,7 +46,9 @@ export const AnnotationPanel = observer(function AnnotationPanel({
   if (!annotation) {
     return (
       <div data-testid="annotation-panel" style={panelStyle}>
-        <p style={{ color: "#999" }}>No annotation for this position.</p>
+        <p style={{ color: "var(--text-secondary)" }}>
+          No annotation for this position.
+        </p>
       </div>
     );
   }

@@ -167,6 +167,7 @@ const LearnModeContent = observer(function LearnModeContent({
         />
       </div>
       <div className="info-panel" data-testid="info-panel">
+        <AnnotationPanel annotation={learnModel.currentAnnotation} />
         <LearnMoveList
           moves={learnModel.moveHistory}
           currentMoveIndex={learnModel.currentMoveIndex}
@@ -187,7 +188,6 @@ const LearnModeContent = observer(function LearnModeContent({
             onSelectBranch={(move) => learnModel.selectBranch(move)}
           />
         )}
-        <AnnotationPanel annotation={learnModel.currentAnnotation} />
       </div>
     </>
   );
