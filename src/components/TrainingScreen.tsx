@@ -167,11 +167,6 @@ const LearnModeContent = observer(function LearnModeContent({
         />
       </div>
       <div className="info-panel" data-testid="info-panel">
-        <AnnotationPanel annotation={learnModel.currentAnnotation} />
-        <LearnMoveList
-          moves={learnModel.moveHistory}
-          currentMoveIndex={learnModel.currentMoveIndex}
-        />
         <LearnControls
           canGoBack={learnModel.canGoBack}
           canGoForward={learnModel.canGoForward}
@@ -181,6 +176,11 @@ const LearnModeContent = observer(function LearnModeContent({
           onAdvance={() => learnModel.advance()}
           onGoToEnd={() => learnModel.goToEnd()}
           onToggleAutoPlay={handleToggleAutoPlay}
+        />
+        <AnnotationPanel annotation={learnModel.currentAnnotation} />
+        <LearnMoveList
+          moves={learnModel.moveHistory}
+          currentMoveIndex={learnModel.currentMoveIndex}
         />
         {learnModel.hasBranches && (
           <BranchSelector
