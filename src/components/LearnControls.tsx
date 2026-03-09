@@ -24,9 +24,10 @@ const buttonStyle: CSSProperties = {
   padding: "6px 12px",
   fontSize: "16px",
   cursor: "pointer",
-  border: "1px solid #ccc",
+  border: "1px solid var(--border-color)",
   borderRadius: "4px",
-  backgroundColor: "#fff",
+  backgroundColor: "var(--bg-card)",
+  color: "var(--text-primary)",
   minWidth: "36px",
 };
 
