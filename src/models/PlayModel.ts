@@ -31,6 +31,19 @@ export class PlayModel {
   /** Current position in the opening move tree */
   private _currentTreeNode: MoveNode | null = null;
 
+  /** History of tree nodes for undo support */
+  private _treeNodeHistory: (MoveNode | null)[] = [];
+  /** How many chess moves correspond to each undo step (user move + optional COT response) */
+  private _movesPerStep: number[] = [];
+  /** Redo stack: stores the SANs and resulting state for replay */
+  private _redoStack: {
+    moveSans: string[];
+    treeNodeAfter: MoveNode | null;
+    wasOutOfBook: boolean;
+    assessment: MoveAssessment | null;
+    assessmentMsg: string;
+  }[] = [];
+
   lastMoveAssessment: MoveAssessment | null = null;
   assessmentMessage: string = "";
   bookMoveHint: string | null = null;
@@ -68,9 +81,13 @@ export class PlayModel {
       isOutOfBook: observable,
       currentOpeningName: computed,
       currentVariationName: computed,
+      canGoBack: computed,
+      canGoForward: computed,
       handleUserMove: action,
       showBookMove: action,
       restart: action,
+      undoMove: action,
+      redoMove: action,
     });
 
     // If player is black, COT makes the first move
@@ -93,6 +110,16 @@ export class PlayModel {
     return variation?.name ?? null;
   }
 
+  /** Whether undo is possible */
+  get canGoBack(): boolean {
+    return this._treeNodeHistory.length > 0;
+  }
+
+  /** Whether redo is possible */
+  get canGoForward(): boolean {
+    return this._redoStack.length > 0;
+  }
+
   /**
    * Handle a user move. Makes the move on the chess game, assesses it
    * against the opening tree, and triggers COT response if in book.
@@ -108,8 +135,17 @@ export class PlayModel {
       return false;
     }
 
+    // Save state for undo
+    const prevTreeNode = this._currentTreeNode;
+    const moveCountBefore = this.chessGame.moveHistory.length;
+
+    // Clear redo stack on new move
+    this._redoStack = [];
+
     // In unconstrained mode, no assessment or COT response
     if (this.constraintMode === "unconstrained") {
+      this._treeNodeHistory.push(prevTreeNode);
+      this._movesPerStep.push(1);
       return true;
     }
 
@@ -130,6 +166,11 @@ export class PlayModel {
       this.isOutOfBook = true;
       this._currentTreeNode = null;
     }
+
+    // Track how many moves were made in this step (user + COT)
+    const movesInStep = this.chessGame.moveHistory.length - moveCountBefore + 1;
+    this._treeNodeHistory.push(prevTreeNode);
+    this._movesPerStep.push(movesInStep);
 
     return true;
   }
@@ -165,6 +206,9 @@ export class PlayModel {
     this.assessmentMessage = "";
     this.bookMoveHint = null;
     this.isOutOfBook = false;
+    this._treeNodeHistory = [];
+    this._movesPerStep = [];
+    this._redoStack = [];
 
     if (this.opening) {
       if (this.variationId) {
@@ -185,6 +229,65 @@ export class PlayModel {
     if (this.playerColor === "b" && this._currentTreeNode) {
       this.makeCotMove();
     }
+  }
+
+  /** Undo the last user move (and COT response if any) */
+  undoMove(): void {
+    if (this._treeNodeHistory.length === 0) return;
+
+    const prevTreeNode = this._treeNodeHistory.pop()!;
+    const movesInStep = this._movesPerStep.pop()!;
+
+    // Collect SAN moves for redo before undoing
+    const history = this.chessGame.moveHistory;
+    const moveSans: string[] = [];
+    for (let i = history.length - movesInStep; i < history.length; i++) {
+      moveSans.push(history[i]!.san);
+    }
+
+    // Save to redo stack
+    this._redoStack.push({
+      moveSans,
+      treeNodeAfter: this._currentTreeNode,
+      wasOutOfBook: this.isOutOfBook,
+      assessment: this.lastMoveAssessment,
+      assessmentMsg: this.assessmentMessage,
+    });
+
+    // Undo moves on the chess game
+    for (let i = 0; i < movesInStep; i++) {
+      this.chessGame.undoMove();
+    }
+
+    // Restore tree position
+    this._currentTreeNode = prevTreeNode;
+    this.isOutOfBook =
+      prevTreeNode === null && this.constraintMode !== "unconstrained";
+    this.lastMoveAssessment = null;
+    this.assessmentMessage = "";
+    this.bookMoveHint = null;
+  }
+
+  /** Redo the last undone move */
+  redoMove(): void {
+    if (this._redoStack.length === 0) return;
+
+    const entry = this._redoStack.pop()!;
+
+    // Save current state for undo
+    this._treeNodeHistory.push(this._currentTreeNode);
+
+    // Replay all moves via SAN
+    for (const san of entry.moveSans) {
+      this.makeMoveFromSan(san);
+    }
+
+    this._movesPerStep.push(entry.moveSans.length);
+    this._currentTreeNode = entry.treeNodeAfter;
+    this.isOutOfBook = entry.wasOutOfBook;
+    this.lastMoveAssessment = entry.assessment;
+    this.assessmentMessage = entry.assessmentMsg;
+    this.bookMoveHint = null;
   }
 
   /**

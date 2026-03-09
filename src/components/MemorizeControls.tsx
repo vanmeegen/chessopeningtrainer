@@ -47,6 +47,16 @@ export const MemorizeControls = observer(function MemorizeControls({
           </button>
         )}
 
+        {model.canRetry && (
+          <button
+            className="btn btn-retry"
+            data-testid="btn-retry"
+            onClick={() => model.retryMove()}
+          >
+            Try Again
+          </button>
+        )}
+
         {model.lastMoveCorrect !== null && !model.isSessionComplete && (
           <button
             className="btn btn-next"

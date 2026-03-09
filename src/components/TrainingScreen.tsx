@@ -260,8 +260,12 @@ const PlayModeContent = observer(function PlayModeContent({
           assessmentMessage={playModel.assessmentMessage}
           bookMoveHint={playModel.bookMoveHint}
           isOutOfBook={playModel.isOutOfBook}
+          canGoBack={playModel.canGoBack}
+          canGoForward={playModel.canGoForward}
           onShowBookMove={() => playModel.showBookMove()}
           onRestart={() => playModel.restart()}
+          onUndo={() => playModel.undoMove()}
+          onRedo={() => playModel.redoMove()}
         />
       </div>
     </>

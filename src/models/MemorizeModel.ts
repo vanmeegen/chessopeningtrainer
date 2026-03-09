@@ -20,6 +20,7 @@ export class MemorizeModel {
   session: ReviewSessionModel;
   playerColor: Color;
   hintUsed: boolean = false;
+  retryUsed: boolean = false;
   lastMoveCorrect: boolean | null = null;
   showingCorrectMove: boolean = false;
   feedbackMessage: string = "";
@@ -57,6 +58,11 @@ export class MemorizeModel {
     return this.session.isComplete;
   }
 
+  /** Whether the user can retry after a wrong move */
+  get canRetry(): boolean {
+    return this.lastMoveCorrect === false;
+  }
+
   /**
    * Attempt a move on the board.
    * Checks if it matches the correct move(s) on the current card.
@@ -78,7 +84,7 @@ export class MemorizeModel {
     if (isCorrect) {
       this.lastMoveCorrect = true;
       this.feedbackMessage = "Correct!";
-      const grade: CardGrade = this.hintUsed ? 3 : 5;
+      const grade: CardGrade = this.hintUsed || this.retryUsed ? 3 : 5;
       this.session.gradeCurrentCard(grade);
     } else {
       // Wrong move — undo it and show the correct move
@@ -88,6 +94,21 @@ export class MemorizeModel {
       this.feedbackMessage = `Incorrect. The correct move is ${card.correctMoves[0]}.`;
       this.session.gradeCurrentCard(0);
     }
+  }
+
+  /**
+   * Retry the current card after a wrong move.
+   * Resets the state so the user can try again.
+   */
+  retryMove(): void {
+    if (!this.canRetry) return;
+    this.retryUsed = true;
+    this.lastMoveCorrect = null;
+    this.showingCorrectMove = false;
+    this.feedbackMessage = "";
+    this.hintSquare = null;
+    // gradeCurrentCard already advanced the index, go back
+    this.session.currentIndex--;
   }
 
   /**
@@ -195,6 +216,7 @@ export class MemorizeModel {
   nextCard(): void {
     this.lastMoveCorrect = null;
     this.hintUsed = false;
+    this.retryUsed = false;
     this.showingCorrectMove = false;
     this.feedbackMessage = "";
     this.hintSquare = null;

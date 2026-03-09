@@ -11,10 +11,18 @@ export type PlayControlsProps = {
   bookMoveHint: string | null;
   /** Whether the game is out of book */
   isOutOfBook: boolean;
+  /** Whether undo is possible */
+  canGoBack: boolean;
+  /** Whether redo is possible */
+  canGoForward: boolean;
   /** Callback when "Show book move" is clicked */
   onShowBookMove: () => void;
   /** Callback when "Restart" is clicked */
   onRestart: () => void;
+  /** Callback when "Undo" is clicked */
+  onUndo: () => void;
+  /** Callback when "Redo" is clicked */
+  onRedo: () => void;
 };
 
 export const PlayControls = observer(function PlayControls(
@@ -25,8 +33,12 @@ export const PlayControls = observer(function PlayControls(
     assessmentMessage,
     bookMoveHint,
     isOutOfBook,
+    canGoBack,
+    canGoForward,
     onShowBookMove,
     onRestart,
+    onUndo,
+    onRedo,
   } = props;
 
   return (
@@ -44,6 +56,27 @@ export const PlayControls = observer(function PlayControls(
           Book move: <strong>{bookMoveHint}</strong>
         </p>
       )}
+
+      <div className="play-controls-nav" data-testid="play-nav-controls">
+        <button
+          className="btn-undo"
+          data-testid="btn-undo"
+          onClick={onUndo}
+          disabled={!canGoBack}
+          aria-label="Undo move"
+        >
+          &lt;
+        </button>
+        <button
+          className="btn-redo"
+          data-testid="btn-redo"
+          onClick={onRedo}
+          disabled={!canGoForward}
+          aria-label="Redo move"
+        >
+          &gt;
+        </button>
+      </div>
 
       <div className="play-controls-buttons">
         <button
